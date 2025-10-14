@@ -1,0 +1,17 @@
+{
+  "lectionaryReadings": [
+    { "name": "Christmas (Night) (ABC); Common: BVM", "start": "2:1", "end": "2:14", "color": "#C9A441" },
+    { "name": "Christmas (Dawn) (ABC)", "start": "2:15", "end": "2:20", "color": "#C9A441" },
+    { "name": "Mary, Mother of God (1 Jan)", "start": "2:16", "end": "2:21", "color": "#C9A441" },
+    { "name": "Most Holy Name of Jesus (3 Jan)", "start": "2:21", "end": "2:24", "color": "#C9A441" },
+    { "name": "5th day in Christmas Oct (29 Dec) (I, II)", "start": "2:22", "end": "2:35", "color": "#B35C58" },
+    { "name": "Holy Family (B); Presentation of the Lord (2 Feb)", "start": "2:22", "end": "2:40", "color": "#C9A441" },
+    { "name": "Our Lady of Sorrows (15 Sep) (option 2)", "start": "2:33", "end": "2:35", "color": "#C9A441" },
+    { "name": "6th day in Christmas Oct (30 Dec) (I, II)", "start": "2:36", "end": "2:40", "color": "#B35C58" },
+    { "name": "St. Joseph (19 Mar); Immaculalte Heart of BVM", "start": "2:41", "end": "2:51", "color": "#C9A441" },
+    { "name": "Holy Family (C)", "start": "2:41", "end": "2:52", "color": "#C9A441" }
+  ],
+  "divineOffice": [
+    { "name": "Night Prayer, Ordinary", "start": "2:29", "end": "2:32", "color": "#4A628A" }
+  ]
+}
