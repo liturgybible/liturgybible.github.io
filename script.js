@@ -13,7 +13,7 @@ function findElement(verseIdentifier) {
     return element;
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('load', () => {
     const body = document.body;
     const book = body.dataset.book;
     const chapter = body.dataset.chapter;
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return currentChapterNum >= startChapter && currentChapterNum <= endChapter;
     };
 
-    fetch(`data/${book}.json`)
+    fetch(`../data/${book}.json`)
         .then(response => {
             if (!response.ok) throw new Error(`Could not load data for ${book}.`);
             return response.json();
