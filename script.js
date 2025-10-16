@@ -1,14 +1,13 @@
 /**
- * Helper function to find a verse element.
- * It first tries to find a specific part of a verse (e.g., data-verse-part="1:5a"),
- * and if that fails, it falls back to finding the whole verse (e.g., data-verse="1:5").
+ * Helper function to find a verse element within the currently active translation.
  * @param {string} verseIdentifier - The verse to find (e.g., "1:5a" or "1:5").
  * @returns {HTMLElement|null} The found element or null.
  */
 function findElement(verseIdentifier) {
-    let element = document.querySelector(`[data-verse-part="${verseIdentifier}"]`);
+    // Only search within the visible .translation-text.active container
+    let element = document.querySelector(`.translation-text.active [data-verse-part="${verseIdentifier}"]`);
     if (!element) {
-        element = document.querySelector(`[data-verse="${verseIdentifier}"]`);
+        element = document.querySelector(`.translation-text.active [data-verse="${verseIdentifier}"]`);
     }
     return element;
 }
@@ -23,6 +22,40 @@ window.addEventListener('load', () => {
         return;
     }
 
+    let lectionaryReadingsData = [];
+    let divineOfficeData = [];
+
+    const redraw = () => drawAnnotations(lectionaryReadingsData, divineOfficeData);
+
+    // --- NEW: Translation Switcher Logic ---
+    const switcher = document.getElementById('translation-switcher');
+    if (switcher) {
+        // Set initial value from localStorage if it exists
+        const savedTranslation = localStorage.getItem('selectedTranslation');
+        if (savedTranslation) {
+            switcher.value = savedTranslation;
+        }
+
+        // Function to apply the selected translation
+        const applyTranslation = () => {
+            const selectedValue = switcher.value;
+            document.querySelectorAll('.translation-text').forEach(div => {
+                div.classList.remove('active');
+            });
+            const selectedTranslationDiv = document.querySelector(`.translation-text.${selectedValue}`);
+            if (selectedTranslationDiv) {
+                selectedTranslationDiv.classList.add('active');
+            }
+            localStorage.setItem('selectedTranslation', selectedValue); // Save user's choice
+            redraw(); // Redraw annotations for the new layout
+        };
+
+        switcher.addEventListener('change', applyTranslation);
+        // Apply the initial translation on page load
+        applyTranslation();
+    }
+    // --- END NEW LOGIC ---
+
     const currentChapterNum = parseInt(chapter, 10);
 
     const parseVerse = (verseStr) => {
@@ -33,10 +66,8 @@ window.addEventListener('load', () => {
     const isReadingInChapter = (reading) => {
         const segments = reading.segments || [{ start: reading.start, end: reading.end }];
         if (!segments[0].start) return false;
-
         const startChapter = parseVerse(segments[0].start).chapter;
         const endChapter = parseVerse(segments[segments.length - 1].end).chapter;
-        
         return currentChapterNum >= startChapter && currentChapterNum <= endChapter;
     };
 
@@ -46,11 +77,9 @@ window.addEventListener('load', () => {
             return response.json();
         })
         .then(data => {
-            const lectionaryReadings = (data.lectionaryReadings || []).filter(isReadingInChapter);
-            const divineOffice = (data.divineOffice || []).filter(isReadingInChapter);
-
-            const redraw = () => drawAnnotations(lectionaryReadings, divineOffice);
-            redraw();
+            lectionaryReadingsData = (data.lectionaryReadings || []).filter(isReadingInChapter);
+            divineOfficeData = (data.divineOffice || []).filter(isReadingInChapter);
+            redraw(); // Initial draw after data is fetched
             window.addEventListener('resize', redraw);
         })
         .catch(error => console.error("Error loading annotation data:", error));
@@ -75,7 +104,7 @@ function renderSide(readings, container, isRightSided) {
 
     const currentChapterNum = parseInt(document.body.dataset.chapter, 10);
     const parseVerse = (verseStr) => {
-        const [c, v] = verseStr.split(/[:a-z]/).map(Number); // Regex handles 'a', 'b', etc.
+        const [c, v] = verseStr.split(/[:a-z]/).map(Number);
         return { chapter: c, verse: v };
     };
 
@@ -85,7 +114,7 @@ function renderSide(readings, container, isRightSided) {
         const originalSegments = reading.segments || [{ start: reading.start, end: reading.end }];
         if (!originalSegments[0].start) return;
 
-        const allVersesOnPage = document.querySelectorAll(`main.bible-text p[data-verse^="${currentChapterNum}:"]`);
+        const allVersesOnPage = document.querySelectorAll(`.translation-text.active p[data-verse^="${currentChapterNum}:"]`);
         if (allVersesOnPage.length === 0) return;
         const firstVerseOnPage = allVersesOnPage[0].dataset.verse;
         const lastVerseOnPage = allVersesOnPage[allVersesOnPage.length - 1].dataset.verse;
