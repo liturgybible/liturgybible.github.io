@@ -9,12 +9,12 @@ CATHOLIC_BIBLE_BOOKS = [
     ("Judges", 21, "Judg", "Judges"), ("Ruth", 4, "Ruth", "Ruth"), ("1 Samuel", 31, "1Sam", "1 Samuel"),
     ("2 Samuel", 24, "2Sam", "2 Samuel"), ("1 Kings", 22, "1Kgs", "1 Kings"), ("2 Kings", 25, "2Kgs", "2 Kings"),
     ("1 Chronicles", 29, "1Chr", "1 Chronicles"), ("2 Chronicles", 36, "2Chr", "2 Chronicles"), ("Ezra", 10, "Ezra", "Ezra"),
-    ("Nehemiah", 13, "Neh", "Nehemiah"), ("Tobit", 14, None, "Tobit"), ("Judith", 16, None, "Judith"),
-    ("Esther", 10, "Esth", "Esther"), ("1 Maccabees", 16, None, "1 Maccabees"), ("2 Maccabees", 15, None, "2 Maccabees"),
+    ("Nehemiah", 13, "Neh", "Nehemiah"), ("Tobit", 14, "Tob", "Tobit"), ("Judith", 16, "Jdt", "Judith"),
+    ("Esther", 10, "Esth", "Esther"), ("1 Maccabees", 16, "1Macc", "1 Maccabees"), ("2 Maccabees", 15, "2Macc", "2 Maccabees"),
     ("Job", 42, "Job", "Job"), ("Psalms", 150, "Ps", "Psalms"), ("Proverbs", 31, "Prov", "Proverbs"),
-    ("Ecclesiastes", 12, "Eccl", "Ecclesiastes"), ("Song of Songs", 8, "Song", "Song of Solomon"), ("Wisdom", 19, None, "Wisdom"),
-    ("Sirach", 51, None, "Sirach"), ("Isaiah", 66, "Isa", "Isaiah"), ("Jeremiah", 52, "Jer", "Jeremiah"),
-    ("Lamentations", 5, "Lam", "Lamentations"), ("Baruch", 6, None, "Baruch"), ("Ezekiel", 48, "Ezek", "Ezekiel"),
+    ("Ecclesiastes", 12, "Eccl", "Ecclesiastes"), ("Song of Songs", 8, "Song", "Song of Solomon"), ("Wisdom", 19, "Wis", "Wisdom"),
+    ("Sirach", 51, "Sir", "Sirach"), ("Isaiah", 66, "Isa", "Isaiah"), ("Jeremiah", 52, "Jer", "Jeremiah"),
+    ("Lamentations", 5, "Lam", "Lamentations"), ("Baruch", 6, "Bar", "Baruch"), ("Ezekiel", 48, "Ezek", "Ezekiel"),
     ("Daniel", 14, "Dan", "Daniel"), ("Hosea", 14, "Hos", "Hosea"), ("Joel", 3, "Joel", "Joel"),
     ("Amos", 9, "Amos", "Amos"), ("Obadiah", 1, "Obad", "Oba"), ("Jonah", 4, "Jonah", "Jonah"),
     ("Micah", 7, "Mic", "Micah"), ("Nahum", 3, "Nah", "Nahum"), ("Habakkuk", 3, "Hab", "Habakkuk"),
@@ -29,6 +29,7 @@ CATHOLIC_BIBLE_BOOKS = [
     ("1 Peter", 5, "1Pet", "1 Peter"), ("2 Peter", 3, "2Pet", "2 Peter"), ("1 John", 5, "1John", "1 John"),
     ("2 John", 1, "2John", "2 John"), ("3 John", 1, "3John", "3 John"), ("Jude", 1, "Jude", "Jude"),
     ("Revelation", 22, "Rev", "Revelation")
+    #("Book Name", Chapter, "KJV Tag", "DRA Tag")
 ]
 
 # --- PART 1: XML PARSING ---
