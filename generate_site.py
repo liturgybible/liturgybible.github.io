@@ -11,7 +11,7 @@ CATHOLIC_BIBLE_BOOKS = [
     ("1 Chronicles", 29, "1Chr", "1 Chronicles"), ("2 Chronicles", 36, "2Chr", "2 Chronicles"), ("Ezra", 10, "Ezra", "Ezra"),
     ("Nehemiah", 13, "Neh", "Nehemiah"), ("Tobit", 14, "Tob", "Tobit"), ("Judith", 16, "Jdt", "Judith"),
     ("Esther", 10, "Esth", "Esther"), ("1 Maccabees", 16, "1Macc", "1 Maccabees"), ("2 Maccabees", 15, "2Macc", "2 Maccabees"),
-    ("Job", 42, "Job", "Job"), ("Psalms", 150, "Ps", "Psalms"), ("Proverbs", 31, "Prov", "Proverbs"),
+    ("Job", 42, "Job", "Job"), ("Psalms", 150, "Ps", "Psalm"), ("Proverbs", 31, "Prov", "Proverbs"),
     ("Ecclesiastes", 12, "Eccl", "Ecclesiastes"), ("Song of Songs", 8, "Song", "Song of Solomon"), ("Wisdom", 19, "Wis", "Wisdom"),
     ("Sirach", 51, "Sir", "Sirach"), ("Isaiah", 66, "Isa", "Isaiah"), ("Jeremiah", 52, "Jer", "Jeremiah"),
     ("Lamentations", 5, "Lam", "Lamentations"), ("Baruch", 6, "Bar", "Baruch"), ("Ezekiel", 48, "Ezek", "Ezekiel"),
