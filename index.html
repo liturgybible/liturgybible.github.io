@@ -6,7 +6,7 @@
     <meta name="description" content="The Liturgy Bible visualizes the liturgical use of the biblical text, including the Lectionary for Mass and selections from the Divine Office.">
     <meta name="keywords" content="bible, catholic, liturgy, liturgical, gospel, lectionary, breviary, divine, office, hours, church"> 
     <title>Liturgy Bible</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BGRS7FKZLX"></script>
@@ -17,26 +17,90 @@
 
       gtag('config', 'G-BGRS7FKZLX');
     </script>
+
+    <!-- python3 -m http.server -->
+    <!-- http://localhost:8000/index.html -->
+
+    <style>
+        /* --- BIBLE INDEX STYLES --- */
+        #bible-index {
+            margin-top: 4rem;
+            margin-bottom: 4rem;
+        }
+        .bible-section {
+            margin-bottom: 2rem;
+        }
+        .bible-section h3 {
+            border-bottom: 2px solid #7B2E2B;
+            padding-bottom: 0.1rem;
+            margin-bottom: 0.5rem;
+            color: #7B2E2B;
+            font-family: MiloSerifWeb, MiloWeb, Georgia, TimesNewRoman, serif;
+        }
+        
+        /* Container for the packed book layout */
+        .books-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: .5rem 2.5rem; /* Row and column gap */
+            align-items: flex-start;
+        }
+
+        /* Each book item is a block that can wrap */
+        .book-item {
+            /* No special display needed */
+        }
+        .book-name {
+            display: block; /* Puts the name on its own line above the chapters */
+            font-weight: 700;
+            font-size: 0.9em;
+            margin-bottom: 0rem; /* Space between name and chapter boxes */
+        }
+        .chapter-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3px;
+        }
+        .chapter-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 20px;
+            height: 20px;
+            text-decoration: none;
+            color: white;
+            font-family: MiloWeb, Georgia, TimesNewRoman, serif;
+            font-size: 0.7em;
+            font-weight: 700;
+            border-radius: 3px;
+            transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+            background-color: var(--bg-color); /* Use CSS variable for color */
+        }
+        .chapter-box:hover {
+            transform: scale(1.1);
+            border-bottom: none; /* Override default link hover */
+            background-color: var(--bg-hover-color); /* Use CSS variable for hover color */
+        }
+
+        /* Color Coding for Sections with hover variables */
+        .pentateuch { --bg-color: #7B2E2B; --bg-hover-color: #9a4f4c; }
+        .historical { --bg-color: #4A628A; --bg-hover-color: #6e85a9; }
+        .wisdom { --bg-color: #B35C58; --bg-hover-color: #c97f7a; }
+        .prophets { --bg-color: #4C6B4F; --bg-hover-color: #6f8f72; }
+        .gospels { --bg-color: #C9A441; --bg-hover-color: #dcb965; }
+        .nt-letters { --bg-color: #5E4B81; --bg-hover-color: #7f6c9f; }
+        .apocalyptic { --bg-color: #401514; --bg-hover-color: #633938; }
+    </style>
 </head>
 
 <body>
 
-    <!-- python3 -m http.server -->
-    <!-- http://localhost:8000/luke-02.html -->
-
-    <!-- <header class="top-nav">
-        <h1>Liturgy Bible</h1>
-    </header> -->
-
     <center>
-        <!-- <h2 style="color: #7B2E2B;"><em>The</em></h2>
-        <h1 style="color: #7B2E2B;"><em>Liturgy Bible</em></h1>
-        <br> -->
         <img src="images/liturgy-bible.png" width="250px">
     </center>
 
     <span style="font-weight: 400;">
-    <p>Welcome to the prototype <em>Liturgy Bible</em>!</p>
+    <p>Welcome to the <em>Liturgy Bible</em>!</p>
 
     <p><strong>The <em>Liturgy Bible</em> visualizes the liturgical use of the biblical text, including the Lectionary for Mass and selections from the Divine Office.</strong></p>
 
@@ -59,7 +123,6 @@
         </div>
     </div>
 
-
     <p><em>Note: due to the screen width required to view the annotations in the margins, this is best viewed on a desktop or laptop rather than a mobile device.</em></p>
 
     <p>Check out a few examples:</p>
@@ -67,7 +130,7 @@
     <br>
     <center>
         <div class="content">
-            <a href="bible/haggai-01.html" class="button">Haggai 1</a><br><br>
+            <!-- <a href="bible/haggai-01.html" class="button">Haggai 1</a><br><br> -->
             <a href="bible/luke-02.html" class="button">Luke 2</a><br><br>
             <a href="bible/revelation-01.html" class="button">Revelation 1</a>
         </div>
@@ -75,7 +138,6 @@
     <br>
 
     <p>You can learn more about the inspiration for the <em>Liturgy Bible</em> by reading the original white paper <a href="https://matthewkudija.com/notes/The-Case-for-a-Lectionary-Bible.html" target="_blank">here</a>.</p>
-
 
     <p>This is a work in progress. Below are some notes on planned next steps, along with ways in which you can help if you are interested.</p>
     <ul>
@@ -85,32 +147,131 @@
         <li><strong>Print Edition</strong>: This project started as a hand-annotated Bible, and the eventual goal is to publish—or partner with a Catholic publisher to publish—a print edition of the <em>Liturgy Bible</em>. This online version is a step in that direction to visualize the concept, hone the design, and prepare the data. The online protoype is useful of itself, but the goal is still to produce a printed edition for personal reading and reference. If you are a publisher interested, or know one who is, please <a href="mailto:liturgybible@gmail.com?subject=Liturgy%20Bible">reach out</a>.</li>
         <li><strong>Share your thoughts</strong>: Finally, please <a href="mailto:liturgybible@gmail.com?subject=Liturgy%20Bible">share your thoughts</a> about the <em>Liturgy Bible</em>: Your feedback is helpful for improving the project!</li>
     </ul>
-
-    <!-- <br><br><p>Yours in Christ,</p>
-    <p>Matthew Kudija</p> -->
-    </span>
-
-
-    <!-- <p><strong>Resources:</strong></p>
-
-    <ul>
-        <li><a href="https://matthewkudija.com/notes/The-Case-for-a-Lectionary-Bible.html" target="_blank">The Case for a Lectionary Bible</a></li>
-        <li><a href="" target="_blank">Liturgy and Life Study Bible</a></li>
-        <li><a href="" target="_blank">The Word of the Lord at Mass: Understanding the Lectionary</a></li>
-        <li><a href="" target="_blank">Letter and Spirit</a></li>
-    </ul> -->
     
+    <!-- Bible index will be generated here -->
+    <div id="bible-index"></div>
+
+    </span>
         
     <hr>
 
     <footer id="footer" align="center">
         <center>
-            <!-- <img src="https://github.com/mkudija/mkudija.github.io/blob/master/images/kudija_family_shield.png?raw=true" width=100px style="border-radius: 10%"> -->
             <img src="images/lb.png" width="100px">
-            <p class="copyright">&copy; <script>new Date().getFullYear()>document.write(new Date().getFullYear());</script> liturgybible.org</p>
+            <p class="copyright">&copy; <script>document.write(new Date().getFullYear())</script> liturgybible.org</p>
         </center>
     </footer>
 
+    <script>
+        // Data structure for the Bible index
+        const bibleIndexData = [
+            {
+                section: "The Pentateuch",
+                colorClass: "pentateuch",
+                books: [
+                    { name: "Genesis", chapters: 50 }, { name: "Exodus", chapters: 40 }, { name: "Leviticus", chapters: 27 },
+                    { name: "Numbers", chapters: 36 }, { name: "Deuteronomy", chapters: 34 }
+                ]
+            },
+            {
+                section: "The Historical Books",
+                colorClass: "historical",
+                books: [
+                    { name: "Joshua", chapters: 24 }, { name: "Judges", chapters: 21 }, { name: "Ruth", chapters: 4 },
+                    { name: "1 Samuel", chapters: 31 }, { name: "2 Samuel", chapters: 24 }, { name: "1 Kings", chapters: 22 },
+                    { name: "2 Kings", chapters: 25 }, { name: "1 Chronicles", chapters: 29 }, { name: "2 Chronicles", chapters: 36 },
+                    { name: "Ezra", chapters: 10 }, { name: "Nehemiah", chapters: 13 }, { name: "Tobit", chapters: 14 },
+                    { name: "Judith", chapters: 16 }, { name: "Esther", chapters: 10 }, { name: "1 Maccabees", chapters: 16 },
+                    { name: "2 Maccabees", chapters: 15 }
+                ]
+            },
+            {
+                section: "The Wisdom Books",
+                colorClass: "wisdom",
+                books: [
+                    { name: "Job", chapters: 42 }, { name: "Psalms", chapters: 150 }, { name: "Proverbs", chapters: 31 },
+                    { name: "Ecclesiastes", chapters: 12 }, { name: "Song of Songs", chapters: 8 }, { name: "Wisdom", chapters: 19 },
+                    { name: "Sirach", chapters: 51 }
+                ]
+            },
+            {
+                section: "The Prophetic Books",
+                colorClass: "prophets",
+                books: [
+                    { name: "Isaiah", chapters: 66 }, { name: "Jeremiah", chapters: 52 }, { name: "Lamentations", chapters: 5 },
+                    { name: "Baruch", chapters: 6 }, { name: "Ezekiel", chapters: 48 }, { name: "Daniel", chapters: 14 },
+                    { name: "Hosea", chapters: 14 }, { name: "Joel", chapters: 3 }, { name: "Amos", chapters: 9 },
+                    { name: "Obadiah", chapters: 1 }, { name: "Jonah", chapters: 4 }, { name: "Micah", chapters: 7 },
+                    { name: "Nahum", chapters: 3 }, { name: "Habakkuk", chapters: 3 }, { name: "Zephaniah", chapters: 3 },
+                    { name: "Haggai", chapters: 2 }, { name: "Zechariah", chapters: 14 }, { name: "Malachi", chapters: 4 }
+                ]
+            },
+            {
+                section: "The Gospels & Acts",
+                colorClass: "gospels",
+                books: [
+                    { name: "Matthew", chapters: 28 }, { name: "Mark", chapters: 16 }, { name: "Luke", chapters: 24 },
+                    { name: "John", chapters: 21 }, { name: "Acts", chapters: 28 }
+                ]
+            },
+            {
+                section: "The Letters (Epistles)",
+                colorClass: "nt-letters",
+                books: [
+                    { name: "Romans", chapters: 16 }, { name: "1 Corinthians", chapters: 16 }, { name: "2 Corinthians", chapters: 13 },
+                    { name: "Galatians", chapters: 6 }, { name: "Ephesians", chapters: 6 }, { name: "Philippians", chapters: 4 },
+                    { name: "Colossians", chapters: 4 }, { name: "1 Thessalonians", chapters: 5 }, { name: "2 Thessalonians", chapters: 3 },
+                    { name: "1 Timothy", chapters: 6 }, { name: "2 Timothy", chapters: 4 }, { name: "Titus", chapters: 3 },
+                    { name: "Philemon", chapters: 1 }, { name: "Hebrews", chapters: 13 }, { name: "James", chapters: 5 },
+                    { name: "1 Peter", chapters: 5 }, { name: "2 Peter", chapters: 3 }, { name: "1 John", chapters: 5 },
+                    { name: "2 John", chapters: 1 }, { name: "3 John", chapters: 1 }, { name: "Jude", chapters: 1 }
+                ]
+            },
+            {
+                section: "Apocalyptic Literature",
+                colorClass: "apocalyptic",
+                books: [
+                    { name: "Revelation", chapters: 22 }
+                ]
+            }
+        ];
+
+        // Function to generate the HTML for the index
+        function generateBibleIndex() {
+            const container = document.getElementById('bible-index');
+            let html = '';
+
+            bibleIndexData.forEach(sectionData => {
+                html += `<div class="bible-section">`;
+                html += `<h3>${sectionData.section}</h3>`;
+                
+                // New wrapper for the books to enable flexbox wrapping
+                html += `<div class="books-container">`;
+
+                sectionData.books.forEach(book => {
+                    const bookSlug = book.name.toLowerCase().replace(/ /g, '-');
+                    html += `<div class="book-item">`;
+                    html += `<span class="book-name">${book.name}</span>`;
+                    html += `<div class="chapter-links">`;
+
+                    for (let i = 1; i <= book.chapters; i++) {
+                        const chapterNum = String(i).padStart(2, '0');
+                        html += `<a href="bible/${bookSlug}-${chapterNum}.html" class="chapter-box ${sectionData.colorClass}">${i}</a>`;
+                    }
+
+                    html += `</div></div>`;
+                });
+                
+                html += `</div></div>`; // Close books-container and bible-section
+            });
+
+            container.innerHTML = html;
+        }
+
+        // Run the function when the page loads
+        window.addEventListener('load', generateBibleIndex);
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
+
