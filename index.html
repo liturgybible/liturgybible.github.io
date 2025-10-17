@@ -59,7 +59,7 @@
         .chapter-links {
             display: flex;
             flex-wrap: wrap;
-            gap: 3px;
+            gap: 0px;
         }
         .chapter-box {
             display: flex;
@@ -72,7 +72,8 @@
             font-family: MiloWeb, Georgia, TimesNewRoman, serif;
             font-size: 0.7em;
             font-weight: 700;
-            border-radius: 3px;
+            border: 1px solid white;
+            border-radius: 0px;
             transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
             background-color: var(--bg-color); /* Use CSS variable for color */
         }
@@ -147,7 +148,7 @@
         <li><strong>Print Edition</strong>: This project started as a hand-annotated Bible, and the eventual goal is to publish—or partner with a Catholic publisher to publish—a print edition of the <em>Liturgy Bible</em>. This online version is a step in that direction to visualize the concept, hone the design, and prepare the data. The online protoype is useful of itself, but the goal is still to produce a printed edition for personal reading and reference. If you are a publisher interested, or know one who is, please <a href="mailto:liturgybible@gmail.com?subject=Liturgy%20Bible">reach out</a>.</li>
         <li><strong>Share your thoughts</strong>: Finally, please <a href="mailto:liturgybible@gmail.com?subject=Liturgy%20Bible">share your thoughts</a> about the <em>Liturgy Bible</em>: Your feedback is helpful for improving the project!</li>
     </ul>
-    
+
     <!-- Bible index will be generated here -->
     <div id="bible-index"></div>
 
@@ -245,7 +246,7 @@
                 html += `<div class="bible-section">`;
                 html += `<h3>${sectionData.section}</h3>`;
                 
-                // New wrapper for the books to enable flexbox wrapping
+                // New wrapper for the booksa to enable flexbox wrapping
                 html += `<div class="books-container">`;
 
                 sectionData.books.forEach(book => {
