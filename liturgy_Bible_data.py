@@ -15,7 +15,7 @@ OUTPUT_DIR = "data/"
 COLOR_MAP = {
     "Sunday Reading": "#7B2E2B",
     "Solemnities & Feasts": "#C9A441",
-    "Weekday Readings": "#B35C58",
+    "Weekday Reading": "#B35C58",
     "LOTH: OR": "#4C6B4F",
     "LOTH: Ordinary": "#5E4B81",
     "LOTH: Other": "#4A628A"
@@ -41,44 +41,48 @@ BOOK_NAME_MAP = {
     "1 Pet": "1 Peter", "2 Pet": "2 Peter", "1 John": "1 John", "2 John": "2 John",
     "3 John": "3 John", "Jude": "Jude", "Rev": "Revelation"
 }
+# Also add full names to the map so they can be found
+for name in list(BOOK_NAME_MAP.values()):
+    if name not in BOOK_NAME_MAP:
+        BOOK_NAME_MAP[name] = name
+
+# Sort keys by length, descending, to match longer names first (e.g., "1 Sam" before "Sam")
+SORTED_BOOK_KEYS = sorted(BOOK_NAME_MAP.keys(), key=len, reverse=True)
+
 
 # --- PARSING LOGIC ---
 
 def parse_reading_string(reading_str):
     """
-    Parses a complex scripture reference string into a book name and a list of segments.
+    Parses a complex scripture reference string by finding a known book name within it.
     Returns (book_name, segments, error_message).
     """
-    # Normalize different types of dashes (em-dash, en-dash) to a standard hyphen.
     normalized_str = reading_str.strip().replace('—', '-').replace('–', '-')
 
-    # Find the book name - everything up to the first digit.
-    match = re.match(r'^((\d\s)?[A-Za-z\s]+)\s*(\d.*)', normalized_str)
-    if not match:
-        return None, None, f"Could not extract book name from '{reading_str}'"
-    
-    book_abbr = match.group(1).strip()
-    rest_of_string = match.group(3)
-    
-    # Normalize book name
     book_name = None
-    for key, value in BOOK_NAME_MAP.items():
-        if book_abbr.lower() == key.lower():
-            book_name = value
-            break
-    if not book_name:
-        # If not in map, check for full name match
-        for key, value in BOOK_NAME_MAP.items():
-             if book_abbr.lower() == value.lower():
-                 book_name = value
-                 break
-    if not book_name:
-        return None, None, f"Book abbreviation '{book_abbr}' not found in map."
+    rest_of_string = None
+
+    # Iterate through sorted book keys to find the correct one in the string
+    for book_abbr in SORTED_BOOK_KEYS:
+        # Use regex to find the book name as a whole word
+        pattern = r'\b' + re.escape(book_abbr) + r'\b'
+        match = re.search(pattern, normalized_str, re.IGNORECASE)
+        if match:
+            book_name = BOOK_NAME_MAP[book_abbr]
+            rest_of_string = normalized_str[match.end():].strip()
+            # Ensure the part that follows starts with a digit
+            if re.match(r'^\d', rest_of_string):
+                break # We found a valid match
+            else: # False positive, continue searching
+                book_name = None
+
+
+    if not book_name or rest_of_string is None:
+        return None, None, f"Could not extract a valid book and chapter from '{reading_str}'"
 
     segments = []
     last_chapter = None
     
-    # Split by common delimiters for multiple parts
     parts = re.split(r'[,;]', rest_of_string)
 
     for part in parts:
@@ -88,29 +92,18 @@ def parse_reading_string(reading_str):
         full_ref = part
         if ':' not in part:
             if not last_chapter:
-                return None, None, f"Reference part '{part}' has no chapter and no previous chapter was established."
+                return None, None, f"Reference part '{part}' has no chapter and no previous one was set."
             full_ref = f"{last_chapter}:{part}"
         
-        # Extract chapter from the full reference
-        try:
-            current_chapter = full_ref.split(':')[0].strip()
-            last_chapter = current_chapter
-        except IndexError:
-             return None, None, f"Could not parse chapter from '{full_ref}'"
+        current_chapter = full_ref.split(':')[0].strip()
+        last_chapter = current_chapter
 
-        # Check for a range (e.g., 10-14 or 1-2a)
         if '-' in full_ref:
             try:
-                # Special handling for ranges that cross chapters, e.g., "1:1-2:2"
-                if ':' in full_ref.split('-', 1)[1]:
-                     start_part, end_part = full_ref.split('-', 1)
-                else: # Standard range within a chapter, e.g., "1:10-14"
-                    start_part, end_part = full_ref.rsplit('-', 1)
-
+                start_part, end_part = full_ref.split('-', 1)
                 start = start_part.strip()
                 end = end_part.strip()
 
-                # If end part is just a verse or verse-part, prepend the chapter
                 if ':' not in end:
                     end = f"{current_chapter}:{end}"
                 segments.append({'start': start, 'end': end})
@@ -137,7 +130,7 @@ if __name__ == "__main__":
     with open(INPUT_CSV, mode='r', encoding='utf-8-sig') as csvfile:
         reader = csv.DictReader(csvfile)
         for i, row in enumerate(reader):
-            row_num = i + 2 # Account for header row
+            row_num = i + 2 
             
             liturgy = row.get("Liturgy", "").strip()
             name = row.get("Name", "").strip()
@@ -152,20 +145,30 @@ if __name__ == "__main__":
 
             reading_options = [r.strip() for r in reading_str.split(" or ")]
             
-            book_from_first_part = None
-            if reading_options:
-                first_part_match = re.match(r'^((\d\s)?[A-Za-z\s]+)\s*', reading_options[0])
-                if first_part_match:
-                    book_from_first_part = first_part_match.group(1).strip()
-                else:
-                    print(f"Warning (Row {row_num}): Could not determine book from first part of reading '{reading_options[0]}'. Skipping row.")
-                    continue
+            # --- FIX IS HERE ---
+            book_abbr_from_first_part = None
+            if len(reading_options) > 1:
+                first_part_str = reading_options[0]
+                # Find the book abbreviation used in the first part of the reading.
+                for book_abbr in SORTED_BOOK_KEYS:
+                    pattern = r'\b' + re.escape(book_abbr) + r'\b'
+                    match = re.search(pattern, first_part_str, re.IGNORECASE)
+                    if match:
+                        # Check that what follows is a chapter number to confirm it's a real match
+                        rest = first_part_str[match.end():].strip()
+                        if re.match(r'^\d', rest):
+                            book_abbr_from_first_part = match.group(0) # Get the exact matched string (e.g., "Gen")
+                            break
+                if not book_abbr_from_first_part:
+                    print(f"Warning (Row {row_num}): Could not determine book from first part of 'or' reading: '{first_part_str}'")
 
-            for reading_part in reading_options:
+            for index, reading_part in enumerate(reading_options):
                 
                 full_reading_part = reading_part
-                if book_from_first_part and re.match(r'^\d', reading_part):
-                    full_reading_part = f"{book_from_first_part} {reading_part}"
+                # If this is a subsequent part of an "or" clause and it starts with a number,
+                # it's missing the book name. Prepend the one we found earlier.
+                if index > 0 and book_abbr_from_first_part and re.match(r'^\d', reading_part):
+                    full_reading_part = f"{book_abbr_from_first_part} {reading_part}"
 
                 book, segments, error = parse_reading_string(full_reading_part)
                 if error:
@@ -190,9 +193,6 @@ if __name__ == "__main__":
                 reading_obj = {"name": final_name, "color": color}
                 if len(segments) > 1:
                     reading_obj["segments"] = segments
-                elif len(segments) == 1 and segments[0]['start'] != segments[0]['end']:
-                    reading_obj["start"] = segments[0]['start']
-                    reading_obj["end"] = segments[0]['end']
                 elif segments:
                     reading_obj["start"] = segments[0]['start']
                     reading_obj["end"] = segments[0]['end']

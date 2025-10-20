@@ -1,0 +1,46 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "32nd Sunday in Ordinary Time [C, #156]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "7:1",
+          "end": "7:2"
+        },
+        {
+          "start": "7:9",
+          "end": "7:14"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 33, Tues [I, #498]",
+      "color": "#B35C58",
+      "start": "6:18",
+      "end": "6:31"
+    },
+    {
+      "name": "Ord. Time, Week 33, Wed [I, #499]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "7:1",
+          "end": "7:1"
+        },
+        {
+          "start": "7:20",
+          "end": "7:31"
+        }
+      ]
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 31st Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "start": "12:32",
+      "end": "12:46"
+    }
+  ]
+}

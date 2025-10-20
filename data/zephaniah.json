@@ -1,0 +1,72 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "4th Sunday in Ordinary Time [A, #70]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "2:3",
+          "end": "2:3"
+        },
+        {
+          "start": "3:12",
+          "end": "3:13"
+        }
+      ]
+    },
+    {
+      "name": "3rd Sunday of Advent [C, #9]",
+      "color": "#7B2E2B",
+      "start": "3:14",
+      "end": "3:18a"
+    },
+    {
+      "name": "Advent, Week 3, Tues [I/II, #188]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "3:1",
+          "end": "3:2"
+        },
+        {
+          "start": "3:9",
+          "end": "3:13"
+        }
+      ]
+    },
+    {
+      "name": "Advent, Dec. 21 (opt. 2) [I/II, #197]",
+      "color": "#B35C58",
+      "start": "3:14",
+      "end": "3:18a"
+    },
+    {
+      "name": "May 31: Visitation of the BVMary (option 1) [I/II, #572]",
+      "color": "#C9A441",
+      "start": "3:14",
+      "end": "3:18a"
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 21st Sunday in Ord. Time",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:7"
+        },
+        {
+          "start": "14",
+          "end": "2:3"
+        }
+      ]
+    },
+    {
+      "name": "OR: 21st Week in Ord. Time, Monday",
+      "color": "#4C6B4F",
+      "start": "3:8",
+      "end": "3:20"
+    }
+  ]
+}

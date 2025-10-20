@@ -1,0 +1,88 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "18th Sunday in Ordinary Time [C, #114]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "1:2",
+          "end": "1:2"
+        },
+        {
+          "start": "2:21",
+          "end": "2:23"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 25, Thurs [II, #452]",
+      "color": "#B35C58",
+      "start": "1:2",
+      "end": "1:11"
+    },
+    {
+      "name": "Ord. Time, Week 25, Fri [II, #453]",
+      "color": "#B35C58",
+      "start": "3:1",
+      "end": "3:11"
+    },
+    {
+      "name": "Ord. Time, Week 25, Sat [II, #454]",
+      "color": "#B35C58",
+      "start": "11:9",
+      "end": "12:8"
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 7th Sunday in Ord. Time",
+      "color": "#4C6B4F",
+      "start": "1:1",
+      "end": "1:18"
+    },
+    {
+      "name": "OR: 7th Week in Ord. Time, Monday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "2:1",
+          "end": "2:3"
+        },
+        {
+          "start": "2:12b",
+          "end": "2:26"
+        }
+      ]
+    },
+    {
+      "name": "OR: 7th Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "start": "3:1",
+      "end": "3:22"
+    },
+    {
+      "name": "OR: 7th Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "start": "5:9",
+      "end": "6:8"
+    },
+    {
+      "name": "OR: 7th Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "start": "6:12",
+      "end": "7:28"
+    },
+    {
+      "name": "OR: 7th Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "start": "8:5",
+      "end": "9:10"
+    },
+    {
+      "name": "OR: 7th Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "start": "11:7",
+      "end": "12:4"
+    }
+  ]
+}

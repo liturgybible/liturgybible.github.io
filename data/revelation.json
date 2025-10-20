@@ -1,24 +1,552 @@
 {
   "lectionaryReadings": [
     {
-      "name": "Ord. Time, Week 33, Mon",
-      "color": "#B35C58",
+      "name": "34th Sunday in Ord. Time: Christ the King [B, #161]",
+      "color": "#7B2E2B",
+      "start": "1:5",
+      "end": "1:8"
+    },
+    {
+      "name": "2nd Sunday of Easter [C, #45]",
+      "color": "#7B2E2B",
       "segments": [
-        { "start": "1:1", "end": "1:4" },
-        { "start": "2:1", "end": "2:5" }
+        {
+          "start": "1:9",
+          "end": "1:11a"
+        },
+        {
+          "start": "1:12",
+          "end": "1:13"
+        },
+        {
+          "start": "1:17",
+          "end": "1:19"
+        }
       ]
     },
-    { "name": "Holy Week, Chrism Mass (2nd Reading)", "start": "1:5", "end": "1:8", "color": "#C9A441" },
     {
-      "name": "Christ the King",
+      "name": "3rd Sunday of Easter [C, #48]",
+      "color": "#7B2E2B",
+      "start": "5:11",
+      "end": "5:14"
+    },
+    {
+      "name": "Nov 1: All Saints (1st reading) [#667]",
       "color": "#C9A441",
       "segments": [
-        { "start": "1:5b", "end": "1:6" },
-        { "start": "1:10", "end": "1:18" }
+        {
+          "start": "7:2",
+          "end": "7:4"
+        },
+        {
+          "start": "7:9",
+          "end": "7:14"
+        }
       ]
+    },
+    {
+      "name": "4th Sunday of Easter [C, #51]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "7:9",
+          "end": "7:9"
+        },
+        {
+          "start": "7:14b",
+          "end": "7:17"
+        }
+      ]
+    },
+    {
+      "name": "Aug 15: Assumption of the BVMary, Day (1st reading) [#622]",
+      "color": "#C9A441",
+      "segments": [
+        {
+          "start": "11:19a",
+          "end": "11:19a"
+        },
+        {
+          "start": "12:1",
+          "end": "12:6a"
+        },
+        {
+          "start": "12:10ab",
+          "end": "12:10ab"
+        }
+      ]
+    },
+    {
+      "name": "5th Sunday of Easter [C, #54]",
+      "color": "#7B2E2B",
+      "start": "21:1",
+      "end": "21:5a"
+    },
+    {
+      "name": "6th Sunday of Easter [C, #57]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "21:10",
+          "end": "21:14"
+        },
+        {
+          "start": "21:22",
+          "end": "21:23"
+        }
+      ]
+    },
+    {
+      "name": "7th Sunday of Easter (note 2) [C, #61]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "22:12",
+          "end": "22:14"
+        },
+        {
+          "start": "22:16",
+          "end": "22:17"
+        },
+        {
+          "start": "22:20",
+          "end": "22:20"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 33, Mon [II, #497]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:4"
+        },
+        {
+          "start": "2:1",
+          "end": "2:5"
+        }
+      ]
+    },
+    {
+      "name": "Holy Week, Chrism Mass (2nd Reading - note 4) [I/II, #260]",
+      "color": "#B35C58",
+      "start": "1:5",
+      "end": "1:8"
+    },
+    {
+      "name": "Ord. Time, Week 33, Tues [II, #498]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "3:1",
+          "end": "3:6"
+        },
+        {
+          "start": "3:14",
+          "end": "3:22"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 33, Wed [II, #499]",
+      "color": "#B35C58",
+      "start": "4:1",
+      "end": "4:11"
+    },
+    {
+      "name": "Ord. Time, Week 33, Thurs [II, #500]",
+      "color": "#B35C58",
+      "start": "5:1",
+      "end": "5:10"
+    },
+    {
+      "name": "Nov 1: Solemnity: All Saints (1st reading) [I/II, #667]",
+      "color": "#C9A441",
+      "segments": [
+        {
+          "start": "7:2",
+          "end": "7:4"
+        },
+        {
+          "start": "7:9",
+          "end": "7:14"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 33, Fri [II, #501]",
+      "color": "#B35C58",
+      "start": "10:8",
+      "end": "10:11"
+    },
+    {
+      "name": "Ord. Time, Week 33, Sat [II, #502]",
+      "color": "#B35C58",
+      "start": "11:4",
+      "end": "11:12"
+    },
+    {
+      "name": "Aug 15: Solemnity: Assumption of the BVMary, Day (1st reading) [I/II, #622]",
+      "color": "#C9A441",
+      "segments": [
+        {
+          "start": "11:19a",
+          "end": "11:19a"
+        },
+        {
+          "start": "12:1",
+          "end": "12:6a"
+        },
+        {
+          "start": "12:10ab",
+          "end": "12:10ab"
+        }
+      ]
+    },
+    {
+      "name": "Dec 12: Our Lady of Guadalupe (option 2) [I/II]",
+      "color": "#C9A441",
+      "segments": [
+        {
+          "start": "11:19a",
+          "end": "11:19a"
+        },
+        {
+          "start": "12:1",
+          "end": "12:6a"
+        },
+        {
+          "start": "12:10ab",
+          "end": "12:10ab"
+        }
+      ]
+    },
+    {
+      "name": "Sept 29: Sts. Michael, Gabriel, and Raphael, archangels (option 2) [I/II, #647]",
+      "color": "#C9A441",
+      "start": "12:7",
+      "end": "12:12a"
+    },
+    {
+      "name": "Ord. Time, Week 34, Mon [II, #503]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "14:1",
+          "end": "14:3"
+        },
+        {
+          "start": "14:4b",
+          "end": "14:5"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 34, Tues [II, #504]",
+      "color": "#B35C58",
+      "start": "14:14",
+      "end": "14:19"
+    },
+    {
+      "name": "Ord. Time, Week 34, Wed [II, #505]",
+      "color": "#B35C58",
+      "start": "15:1",
+      "end": "15:4"
+    },
+    {
+      "name": "Ord. Time, Week 34, Thurs [II, #506]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "18:1",
+          "end": "18:2"
+        },
+        {
+          "start": "18:21",
+          "end": "18:23"
+        },
+        {
+          "start": "19:1",
+          "end": "19:3"
+        },
+        {
+          "start": "19:9a",
+          "end": "19:9a"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 34, Fri [II, #507]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "20:1",
+          "end": "20:4"
+        },
+        {
+          "start": "11",
+          "end": "21:2"
+        }
+      ]
+    },
+    {
+      "name": "Aug 24: St. Bartholomew, Apostle [I/II, #629]",
+      "color": "#C9A441",
+      "start": "21:9b",
+      "end": "21:14"
+    },
+    {
+      "name": "Ord. Time, Week 34, Sat [II, #508]",
+      "color": "#B35C58",
+      "start": "22:1",
+      "end": "22:7"
     }
   ],
   "divineOffice": [
-    { "name": "OR: 2nd Week of Easter, Monday", "start": "1:1", "end": "1:20", "color": "#4C6B4F" }
+    {
+      "name": "OR: 2nd Week of Easter, Monday",
+      "color": "#4C6B4F",
+      "start": "1:1",
+      "end": "1:20"
+    },
+    {
+      "name": "OR: Last Sunday in Ord. Time: Christ the King",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "1:4b",
+          "end": "1:6"
+        },
+        {
+          "start": "1:10",
+          "end": "1:10"
+        },
+        {
+          "start": "1:12",
+          "end": "1:18"
+        },
+        {
+          "start": "2:26",
+          "end": "2:26"
+        },
+        {
+          "start": "2:28",
+          "end": "2:28"
+        },
+        {
+          "start": "3:5b",
+          "end": "3:5b"
+        },
+        {
+          "start": "3:12",
+          "end": "3:12"
+        },
+        {
+          "start": "3:20",
+          "end": "3:21"
+        }
+      ]
+    },
+    {
+      "name": "OR: 2nd Week of Easter, Tuesday",
+      "color": "#4C6B4F",
+      "start": "2:1",
+      "end": "2:11"
+    },
+    {
+      "name": "OR: 2nd Week of Easter, Wednesday",
+      "color": "#4C6B4F",
+      "start": "2:12",
+      "end": "2:29"
+    },
+    {
+      "name": "OR: 2nd Week of Easter, Thursday",
+      "color": "#4C6B4F",
+      "start": "3:1",
+      "end": "3:22"
+    },
+    {
+      "name": "OR: 2nd Week of Easter, Friday",
+      "color": "#4C6B4F",
+      "start": "4:1",
+      "end": "4:11"
+    },
+    {
+      "name": "OR: Nov. 1: All Saints",
+      "color": "#4C6B4F",
+      "start": "5:1",
+      "end": "5:4"
+    },
+    {
+      "name": "OR: 2nd Week of Easter, Saturday",
+      "color": "#4C6B4F",
+      "start": "5:1",
+      "end": "5:14"
+    },
+    {
+      "name": "OR: 3rd Sunday of Easter",
+      "color": "#4C6B4F",
+      "start": "6:1",
+      "end": "6:17"
+    },
+    {
+      "name": "OR: 3rd Week of Easter, Monday",
+      "color": "#4C6B4F",
+      "start": "7:1",
+      "end": "7:17"
+    },
+    {
+      "name": "OR: Common of Several Martyrs (Easter) & Common of One Martyr (Easter)",
+      "color": "#4C6B4F",
+      "start": "7:9",
+      "end": "7:17"
+    },
+    {
+      "name": "OR: 3rd Week of Easter, Tuesday",
+      "color": "#4C6B4F",
+      "start": "8:1",
+      "end": "8:13"
+    },
+    {
+      "name": "OR: 3rd Week of Easter, Wednesday",
+      "color": "#4C6B4F",
+      "start": "9:1",
+      "end": "9:12"
+    },
+    {
+      "name": "OR: 3rd Week of Easter, Thursday",
+      "color": "#4C6B4F",
+      "start": "9:13",
+      "end": "9:21"
+    },
+    {
+      "name": "OR: 3rd Week of Easter, Friday",
+      "color": "#4C6B4F",
+      "start": "10:1",
+      "end": "10:11"
+    },
+    {
+      "name": "OR: 3rd Week of Easter, Saturday",
+      "color": "#4C6B4F",
+      "start": "11:1",
+      "end": "11:19"
+    },
+    {
+      "name": "OR: Common of the Blessed Virgin Mary (Easter)",
+      "color": "#4C6B4F",
+      "start": "11:19",
+      "end": "12:17a"
+    },
+    {
+      "name": "OR: Sept. 29: Michael, Gabriel, and Raphael, Archangels",
+      "color": "#4C6B4F",
+      "start": "12:1",
+      "end": "12:17a"
+    },
+    {
+      "name": "OR: 4th Sunday of Easter",
+      "color": "#4C6B4F",
+      "start": "12:1",
+      "end": "12:17"
+    },
+    {
+      "name": "OR: 4th Week of Easter, Monday",
+      "color": "#4C6B4F",
+      "start": "13:1",
+      "end": "13:18"
+    },
+    {
+      "name": "OR: Common of Holy Men (Easter)",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "14:1",
+          "end": "14:5"
+        },
+        {
+          "start": "19:1",
+          "end": "19:10"
+        }
+      ]
+    },
+    {
+      "name": "OR: 4th Week of Easter, Tuesday",
+      "color": "#4C6B4F",
+      "start": "14:1",
+      "end": "14:13"
+    },
+    {
+      "name": "OR: 4th Week of Easter, Wednesday",
+      "color": "#4C6B4F",
+      "start": "14:14",
+      "end": "15:4"
+    },
+    {
+      "name": "OR: 4th Week of Easter, Thursday",
+      "color": "#4C6B4F",
+      "start": "15:5",
+      "end": "16:21"
+    },
+    {
+      "name": "OR: 4th Week of Easter, Friday",
+      "color": "#4C6B4F",
+      "start": "17:1",
+      "end": "17:18"
+    },
+    {
+      "name": "OR: 4th Week of Easter, Saturday",
+      "color": "#4C6B4F",
+      "start": "18:1",
+      "end": "18:20"
+    },
+    {
+      "name": "OR: 5th Sunday of Easter",
+      "color": "#4C6B4F",
+      "start": "18:21",
+      "end": "19:10"
+    },
+    {
+      "name": "OR: 5th Week of Easter, Monday",
+      "color": "#4C6B4F",
+      "start": "19:11",
+      "end": "19:21"
+    },
+    {
+      "name": "OR: 5th Week of Easter, Tuesday",
+      "color": "#4C6B4F",
+      "start": "20:1",
+      "end": "20:15"
+    },
+    {
+      "name": "OR: 5th Week of Easter, Wednesday",
+      "color": "#4C6B4F",
+      "start": "21:1",
+      "end": "21:8"
+    },
+    {
+      "name": "OR: 5th Week of Easter, Thursday",
+      "color": "#4C6B4F",
+      "start": "21:9",
+      "end": "21:27"
+    },
+    {
+      "name": "OR: Common of the Dedication of a Church (Advent/Christmas/Easter)",
+      "color": "#4C6B4F",
+      "start": "21:9",
+      "end": "21:27"
+    },
+    {
+      "name": "OR: 5th Week of Easter, Friday",
+      "color": "#4C6B4F",
+      "start": "22:1",
+      "end": "22:9"
+    },
+    {
+      "name": "OR: 5th Week of Easter, Saturday",
+      "color": "#4C6B4F",
+      "start": "22:10",
+      "end": "22:21"
+    }
   ]
 }

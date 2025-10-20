@@ -1,0 +1,438 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "14th Sunday in Ordinary Time [B, #101]",
+      "color": "#7B2E2B",
+      "start": "2:2",
+      "end": "2:5"
+    },
+    {
+      "name": "11th Sunday in Ordinary Time [B, #92]",
+      "color": "#7B2E2B",
+      "start": "17:22",
+      "end": "17:24"
+    },
+    {
+      "name": "26th Sunday in Ordinary Time [A, #136]",
+      "color": "#7B2E2B",
+      "start": "18:25",
+      "end": "18:28"
+    },
+    {
+      "name": "23rd Sunday in Ordinary Time [A, #127]",
+      "color": "#7B2E2B",
+      "start": "33:7",
+      "end": "33:9"
+    },
+    {
+      "name": "34th Sunday in Ord. Time: Christ the King [A, #160]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "34:11",
+          "end": "34:12"
+        },
+        {
+          "start": "34:15",
+          "end": "34:17"
+        }
+      ]
+    },
+    {
+      "name": "Friday after 2nd Sun after Pentecost: Sacred Heart [C, #172]",
+      "color": "#7B2E2B",
+      "start": "34:11",
+      "end": "34:16"
+    },
+    {
+      "name": "Easter Vigil (7th Reading) [ABC, #41]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "36:16",
+          "end": "36:17a"
+        },
+        {
+          "start": "36:18",
+          "end": "36:28"
+        }
+      ]
+    },
+    {
+      "name": "Pentecost Sunday: Vigil Mass (Option 3) [ABC, #62]",
+      "color": "#7B2E2B",
+      "start": "37:1",
+      "end": "37:14"
+    },
+    {
+      "name": "5th Sunday of Lent [A, #34]",
+      "color": "#7B2E2B",
+      "start": "37:12",
+      "end": "37:14"
+    },
+    {
+      "name": "Nov 9: Dedication of the Lateran Basilica in Rome [#671]",
+      "color": "#C9A441",
+      "segments": [
+        {
+          "start": "47:1",
+          "end": "47:2"
+        },
+        {
+          "start": "47:8",
+          "end": "47:9"
+        },
+        {
+          "start": "47:12",
+          "end": "47:12"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 19, Mon [II, #413]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "1:2",
+          "end": "1:5"
+        },
+        {
+          "start": "1:24",
+          "end": "1:28c"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 19, Tues [II, #414]",
+      "color": "#B35C58",
+      "start": "2:8",
+      "end": "3:4"
+    },
+    {
+      "name": "Ord. Time, Week 19, Wed [II, #415]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "9:1",
+          "end": "9:7"
+        },
+        {
+          "start": "10:18",
+          "end": "10:22"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 19, Thurs [II, #416]",
+      "color": "#B35C58",
+      "start": "12:1",
+      "end": "12:12"
+    },
+    {
+      "name": "Ord. Time, Week 19, Fri [II, #417]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "16:1",
+          "end": "16:15"
+        },
+        {
+          "start": "16:60",
+          "end": "16:60"
+        },
+        {
+          "start": "16:63",
+          "end": "16:63"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 19, Fri [II, #417] (short)",
+      "color": "#B35C58",
+      "start": "16:59",
+      "end": "16:63"
+    },
+    {
+      "name": "Ord. Time, Week 19, Sat [II, #418]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "18:1",
+          "end": "18:10"
+        },
+        {
+          "start": "18:13b",
+          "end": "18:13b"
+        },
+        {
+          "start": "18:30",
+          "end": "18:32"
+        }
+      ]
+    },
+    {
+      "name": "Lent, Week 1, Fri [I/II, #228]",
+      "color": "#B35C58",
+      "start": "18:21",
+      "end": "18:28"
+    },
+    {
+      "name": "Ord. Time, Week 20, Mon [II, #419]",
+      "color": "#B35C58",
+      "start": "24:15",
+      "end": "24:23"
+    },
+    {
+      "name": "Ord. Time, Week 20, Tues [II, #420]",
+      "color": "#B35C58",
+      "start": "28:1",
+      "end": "28:10"
+    },
+    {
+      "name": "Ord. Time, Week 20, Wed [II, #421]",
+      "color": "#B35C58",
+      "start": "34:1",
+      "end": "34:11"
+    },
+    {
+      "name": "Ord. Time, Week 20, Thurs [II, #422]",
+      "color": "#B35C58",
+      "start": "36:23",
+      "end": "36:28"
+    },
+    {
+      "name": "Ord. Time, Week 20, Fri [II, #423]",
+      "color": "#B35C58",
+      "start": "37:1",
+      "end": "37:14"
+    },
+    {
+      "name": "Lent, Week 5, Sat [I/II, #256]",
+      "color": "#B35C58",
+      "start": "37:21",
+      "end": "37:28"
+    },
+    {
+      "name": "Ord. Time, Week 20, Sat [II, #424]",
+      "color": "#B35C58",
+      "start": "43:1",
+      "end": "43:7ab"
+    },
+    {
+      "name": "Nov 9: Feast: Dedication of the Lateran Basilica in Rome [I/II, #671]",
+      "color": "#C9A441",
+      "segments": [
+        {
+          "start": "47:1",
+          "end": "47:2"
+        },
+        {
+          "start": "47:8",
+          "end": "47:9"
+        },
+        {
+          "start": "47:12",
+          "end": "47:12"
+        }
+      ]
+    },
+    {
+      "name": "Lent, Week 4, Tues [I/II, #245]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "47:1",
+          "end": "47:9"
+        },
+        {
+          "start": "47:12",
+          "end": "47:12"
+        }
+      ]
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 24th Sunday in Ord. Time",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "1:3",
+          "end": "1:13"
+        },
+        {
+          "start": "1:22",
+          "end": "1:28"
+        }
+      ]
+    },
+    {
+      "name": "OR: 24th Week in Ord. Time, Monday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "2:8",
+          "end": "3:11"
+        },
+        {
+          "start": "2:17",
+          "end": "2:21"
+        }
+      ]
+    },
+    {
+      "name": "OR: 24th Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "8:1",
+          "end": "8:6"
+        },
+        {
+          "start": "16",
+          "end": "9:11"
+        }
+      ]
+    },
+    {
+      "name": "OR: 24th Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "10:18",
+          "end": "10:22"
+        },
+        {
+          "start": "11:14",
+          "end": "11:25"
+        }
+      ]
+    },
+    {
+      "name": "OR: 24th Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "start": "12:1",
+      "end": "12:6"
+    },
+    {
+      "name": "OR: 24th Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "16:3",
+          "end": "16:3"
+        },
+        {
+          "start": "16:5b",
+          "end": "16:7a"
+        },
+        {
+          "start": "16:8",
+          "end": "16:15"
+        },
+        {
+          "start": "16:35",
+          "end": "16:35"
+        },
+        {
+          "start": "16:37a",
+          "end": "16:37a"
+        },
+        {
+          "start": "16:40",
+          "end": "16:43"
+        },
+        {
+          "start": "16:59",
+          "end": "16:63"
+        }
+      ]
+    },
+    {
+      "name": "OR: 24th Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "18:1",
+          "end": "18:13"
+        },
+        {
+          "start": "18:20",
+          "end": "18:32"
+        }
+      ]
+    },
+    {
+      "name": "OR: 25th Sunday in Ord. Time",
+      "color": "#4C6B4F",
+      "start": "24:15",
+      "end": "24:27"
+    },
+    {
+      "name": "OR: 25th Week in Ord. Time, Monday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "34:1",
+          "end": "34:6"
+        },
+        {
+          "start": "34:11",
+          "end": "34:16"
+        },
+        {
+          "start": "34:23",
+          "end": "34:31"
+        }
+      ]
+    },
+    {
+      "name": "OR: Easter Sunday, 2nd Reading",
+      "color": "#4C6B4F",
+      "start": "36:16",
+      "end": "36:28"
+    },
+    {
+      "name": "OR: 25th Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "start": "36:16",
+      "end": "36:36"
+    },
+    {
+      "name": "OR: 25th Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "start": "37:1",
+      "end": "37:14"
+    },
+    {
+      "name": "OR: 25th Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "start": "37:15",
+      "end": "37:28"
+    },
+    {
+      "name": "OR: 25th Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "40:1",
+          "end": "40:4"
+        },
+        {
+          "start": "43:1",
+          "end": "43:12"
+        },
+        {
+          "start": "44:6",
+          "end": "44:9"
+        }
+      ]
+    },
+    {
+      "name": "OR: 25th Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "start": "47:1",
+      "end": "47:12"
+    }
+  ]
+}

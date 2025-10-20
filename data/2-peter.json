@@ -1,0 +1,74 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "Aug 6: Transfiguration of the Lord [#614]",
+      "color": "#C9A441",
+      "start": "1:16",
+      "end": "1:19"
+    },
+    {
+      "name": "2nd Sunday of Advent [B, #5]",
+      "color": "#7B2E2B",
+      "start": "3:8",
+      "end": "3:14"
+    },
+    {
+      "name": "Ord. Time, Week 9, Mon [II, #353]",
+      "color": "#B35C58",
+      "start": "1:2",
+      "end": "1:7"
+    },
+    {
+      "name": "Aug 6: Feast: Transfiguration of the Lord [I/II, #614]",
+      "color": "#C9A441",
+      "start": "1:16",
+      "end": "1:19"
+    },
+    {
+      "name": "Ord. Time, Week 9, Tues [II, #354]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "3:12",
+          "end": "3:15a"
+        },
+        {
+          "start": "3:17",
+          "end": "3:18"
+        }
+      ]
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 34th Week in Ord. Time, Monday",
+      "color": "#4C6B4F",
+      "start": "1:1",
+      "end": "1:11"
+    },
+    {
+      "name": "OR: 34th Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "start": "1:12",
+      "end": "1:21"
+    },
+    {
+      "name": "OR: 34th Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "start": "2:1",
+      "end": "2:9"
+    },
+    {
+      "name": "OR: 34th Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "start": "2:9",
+      "end": "2:22"
+    },
+    {
+      "name": "OR: 34th Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "start": "3:1",
+      "end": "3:18"
+    }
+  ]
+}

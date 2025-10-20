@@ -1,0 +1,122 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "14th Sunday in Ordinary Time [A, #100]",
+      "color": "#7B2E2B",
+      "start": "9:9",
+      "end": "9:10"
+    },
+    {
+      "name": "12th Sunday in Ordinary Time [C, #96]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "12:10",
+          "end": "12:11"
+        },
+        {
+          "start": "13:1",
+          "end": "13:1"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 25, Sat [I, #454]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "2:5",
+          "end": "2:9"
+        },
+        {
+          "start": "2:14",
+          "end": "2:15a"
+        }
+      ]
+    },
+    {
+      "name": "Dec 12: Our Lady of Guadalupe (option 1) [I/II]",
+      "color": "#C9A441",
+      "start": "2:14",
+      "end": "2:17"
+    },
+    {
+      "name": "Ord. Time, Week 26, Mon [I, #455]",
+      "color": "#B35C58",
+      "start": "8:1",
+      "end": "8:8"
+    },
+    {
+      "name": "Ord. Time, Week 26, Tues [I, #456]",
+      "color": "#B35C58",
+      "start": "8:20",
+      "end": "8:23"
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 28th Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "start": "1:1",
+      "end": "2:4"
+    },
+    {
+      "name": "OR: 33rd Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "start": "10:3",
+      "end": "11:3"
+    },
+    {
+      "name": "OR: 33rd Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "start": "11:4",
+      "end": "12:8"
+    },
+    {
+      "name": "OR: 33rd Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "12:9",
+          "end": "12:12a"
+        },
+        {
+          "start": "13:1",
+          "end": "13:9"
+        }
+      ]
+    },
+    {
+      "name": "OR: 33rd Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "start": "14:1",
+      "end": "14:21"
+    },
+    {
+      "name": "OR: 28th Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "start": "3:1",
+      "end": "4:14"
+    },
+    {
+      "name": "OR: 28th Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "8:1",
+          "end": "8:17"
+        },
+        {
+          "start": "8:20",
+          "end": "8:23"
+        }
+      ]
+    },
+    {
+      "name": "OR: 33rd Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "start": "9:1",
+      "end": "10:2"
+    }
+  ]
+}

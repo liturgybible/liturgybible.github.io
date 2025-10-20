@@ -1,0 +1,124 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "26th Sunday in Ordinary Time [C, #138]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "6:1a",
+          "end": "6:1a"
+        },
+        {
+          "start": "6:4",
+          "end": "6:7"
+        }
+      ]
+    },
+    {
+      "name": "15th Sunday in Ordinary Time [B, #104]",
+      "color": "#7B2E2B",
+      "start": "7:12",
+      "end": "7:15"
+    },
+    {
+      "name": "25th Sunday in Ordinary Time [C, #135]",
+      "color": "#7B2E2B",
+      "start": "8:4",
+      "end": "8:7"
+    },
+    {
+      "name": "Ord. Time, Week 13, Mon [II, #377]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "2:6",
+          "end": "2:10"
+        },
+        {
+          "start": "2:13",
+          "end": "2:16"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 13, Tues [II, #378]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "3:1",
+          "end": "3:8"
+        },
+        {
+          "start": "4:11",
+          "end": "4:12"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 13, Wed [II, #379]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "5:14",
+          "end": "5:15"
+        },
+        {
+          "start": "5:21",
+          "end": "5:24"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 13, Thurs [II, #380]",
+      "color": "#B35C58",
+      "start": "7:10",
+      "end": "7:17"
+    },
+    {
+      "name": "Ord. Time, Week 13, Fri [II, #381]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "8:4",
+          "end": "8:6"
+        },
+        {
+          "start": "8:9",
+          "end": "8:12"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 13, Sat [II, #382]",
+      "color": "#B35C58",
+      "start": "9:11",
+      "end": "9:15"
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 18th Sunday in Ord. Time",
+      "color": "#4C6B4F",
+      "start": "1:1",
+      "end": "2:3"
+    },
+    {
+      "name": "OR: 18th Week in Ord. Time, Monday",
+      "color": "#4C6B4F",
+      "start": "2:4",
+      "end": "2:16"
+    },
+    {
+      "name": "OR: 18th Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "start": "7:1",
+      "end": "7:17"
+    },
+    {
+      "name": "OR: 18th Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "start": "9:1",
+      "end": "9:15"
+    }
+  ]
+}

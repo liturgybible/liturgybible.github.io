@@ -1,0 +1,164 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "34th Sunday in Ord. Time: Christ the King [C, #162]",
+      "color": "#7B2E2B",
+      "start": "1:12",
+      "end": "1:20"
+    },
+    {
+      "name": "15th Sunday in Ordinary Time [C, #105]",
+      "color": "#7B2E2B",
+      "start": "1:15",
+      "end": "1:20"
+    },
+    {
+      "name": "16th Sunday in Ordinary Time [C, #108]",
+      "color": "#7B2E2B",
+      "start": "1:24",
+      "end": "1:28"
+    },
+    {
+      "name": "17th Sunday in Ordinary Time [C, #111]",
+      "color": "#7B2E2B",
+      "start": "2:12",
+      "end": "2:14"
+    },
+    {
+      "name": "Easter Sunday: Resurrection of the Lord (opt. 1) [ABC, #42]",
+      "color": "#7B2E2B",
+      "start": "3:1",
+      "end": "3:4"
+    },
+    {
+      "name": "18th Sunday in Ordinary Time [C, #114]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "3:1",
+          "end": "3:5"
+        },
+        {
+          "start": "3:9",
+          "end": "3:11"
+        }
+      ]
+    },
+    {
+      "name": "Sunday in Octave of Christmas: Holy Family [ABC, #17]",
+      "color": "#7B2E2B",
+      "start": "3:12",
+      "end": "3:21"
+    },
+    {
+      "name": "Sunday in Octave of Christmas: Holy Family [ABC, #17] (short)",
+      "color": "#7B2E2B",
+      "start": "3:12",
+      "end": "3:17"
+    },
+    {
+      "name": "Ord. Time, Week 22, Wed [I, #433]",
+      "color": "#B35C58",
+      "start": "1:1",
+      "end": "1:8"
+    },
+    {
+      "name": "Ord. Time, Week 22, Thurs [I, #434]",
+      "color": "#B35C58",
+      "start": "1:9",
+      "end": "1:14"
+    },
+    {
+      "name": "Ord. Time, Week 22, Fri [I, #435]",
+      "color": "#B35C58",
+      "start": "1:15",
+      "end": "1:20"
+    },
+    {
+      "name": "Ord. Time, Week 22, Sat [I, #436]",
+      "color": "#B35C58",
+      "start": "1:21",
+      "end": "1:23"
+    },
+    {
+      "name": "Ord. Time, Week 23, Mon [I, #437]",
+      "color": "#B35C58",
+      "start": "1:24",
+      "end": "2:3"
+    },
+    {
+      "name": "Ord. Time, Week 23, Tues [I, #438]",
+      "color": "#B35C58",
+      "start": "2:6",
+      "end": "2:15"
+    },
+    {
+      "name": "Ord. Time, Week 23, Wed [I, #439]",
+      "color": "#B35C58",
+      "start": "3:1",
+      "end": "3:11"
+    },
+    {
+      "name": "Ord. Time, Week 23, Thurs [I, #440]",
+      "color": "#B35C58",
+      "start": "3:12",
+      "end": "3:17"
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 46020",
+      "color": "#4C6B4F",
+      "start": "1:1",
+      "end": "1:14"
+    },
+    {
+      "name": "OR: 46021",
+      "color": "#4C6B4F",
+      "start": "1:15",
+      "end": "2:3"
+    },
+    {
+      "name": "OR: 46022",
+      "color": "#4C6B4F",
+      "start": "2:4",
+      "end": "2:15"
+    },
+    {
+      "name": "OR: From Jan. 2 to Epiphany: Monday",
+      "color": "#4C6B4F",
+      "start": "2:16",
+      "end": "3:4"
+    },
+    {
+      "name": "OR: Sunday within the Octave of Easter",
+      "color": "#4C6B4F",
+      "start": "3:1",
+      "end": "3:17"
+    },
+    {
+      "name": "OR: Common of Holy Men (Ordinary Time)",
+      "color": "#4C6B4F",
+      "start": "3:1",
+      "end": "3:17"
+    },
+    {
+      "name": "OR: From Jan. 2 to Epiphany: Tuesday",
+      "color": "#4C6B4F",
+      "start": "3:5",
+      "end": "3:16"
+    },
+    {
+      "name": "OR: From Jan. 2 to Epiphany: Wednesday",
+      "color": "#4C6B4F",
+      "start": "3:17",
+      "end": "4:1"
+    },
+    {
+      "name": "OR: From Jan. 2 to Epiphany: Thursday",
+      "color": "#4C6B4F",
+      "start": "4:2",
+      "end": "4:18"
+    }
+  ]
+}

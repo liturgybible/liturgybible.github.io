@@ -1,0 +1,104 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "Aug 15: Assumption of the BVMary, Vigil [#621]",
+      "color": "#C9A441",
+      "segments": [
+        {
+          "start": "15:3",
+          "end": "15:4"
+        },
+        {
+          "start": "15:15",
+          "end": "15:16"
+        },
+        {
+          "start": "16:1",
+          "end": "16:2"
+        }
+      ]
+    },
+    {
+      "name": "Aug 15: Solemnity: Assumption of the BVMary, Vigil [I/II, #621]",
+      "color": "#C9A441",
+      "segments": [
+        {
+          "start": "15:3",
+          "end": "15:4"
+        },
+        {
+          "start": "15:15",
+          "end": "15:16"
+        },
+        {
+          "start": "16:1",
+          "end": "16:2"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 4, Thurs (resp. - note 2) [II, #326]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "29:10bcd",
+          "end": "29:10bcd"
+        },
+        {
+          "start": "29:11ab",
+          "end": "29:11ab"
+        },
+        {
+          "start": "29:11d",
+          "end": "29:12a"
+        },
+        {
+          "start": "29:12bcd",
+          "end": "29:12bcd"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 33, Fri (resp. - note 2) [I, #501]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "29:10bcd",
+          "end": "29:10bcd"
+        },
+        {
+          "start": "29:11abc",
+          "end": "29:11abc"
+        },
+        {
+          "start": "29:11d",
+          "end": "29:12a"
+        },
+        {
+          "start": "29:12bcd",
+          "end": "29:12bcd"
+        }
+      ]
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: March 25: Annunciation",
+      "color": "#4C6B4F",
+      "start": "17:1",
+      "end": "17:15"
+    },
+    {
+      "name": "OR: Common of the Blessed Virgin Mary (Advent/Christmas/Lent)",
+      "color": "#4C6B4F",
+      "start": "17:1",
+      "end": "17:15"
+    },
+    {
+      "name": "OR: 14th Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "start": "22:5",
+      "end": "22:19"
+    }
+  ]
+}

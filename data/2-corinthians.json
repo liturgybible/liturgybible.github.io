@@ -1,0 +1,286 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "7th Sunday in Ordinary Time [B, #80]",
+      "color": "#7B2E2B",
+      "start": "1:18",
+      "end": "1:22"
+    },
+    {
+      "name": "8th Sunday in Ordinary Time [B, #83]",
+      "color": "#7B2E2B",
+      "start": "3:1b",
+      "end": "3:6"
+    },
+    {
+      "name": "9th Sunday in Ordinary Time [B, #86]",
+      "color": "#7B2E2B",
+      "start": "4:6",
+      "end": "4:11"
+    },
+    {
+      "name": "10th Sunday in Ordinary Time [B, #89]",
+      "color": "#7B2E2B",
+      "start": "4:13",
+      "end": "5:1"
+    },
+    {
+      "name": "11th Sunday in Ordinary Time [B, #92]",
+      "color": "#7B2E2B",
+      "start": "5:6",
+      "end": "5:10"
+    },
+    {
+      "name": "12th Sunday in Ordinary Time [B, #95]",
+      "color": "#7B2E2B",
+      "start": "5:14",
+      "end": "5:17"
+    },
+    {
+      "name": "4th Sunday of Lent [C, #33]",
+      "color": "#7B2E2B",
+      "start": "5:17",
+      "end": "5:21"
+    },
+    {
+      "name": "13th Sunday in Ordinary Time [B, #98]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "8:7",
+          "end": "8:7"
+        },
+        {
+          "start": "8:9",
+          "end": "8:9"
+        },
+        {
+          "start": "8:13",
+          "end": "8:15"
+        }
+      ]
+    },
+    {
+      "name": "14th Sunday in Ordinary Time [B, #101]",
+      "color": "#7B2E2B",
+      "start": "12:7",
+      "end": "12:10"
+    },
+    {
+      "name": "Sunday after Pentecost: Holy Trinity [A, #164]",
+      "color": "#7B2E2B",
+      "start": "13:11",
+      "end": "13:13"
+    },
+    {
+      "name": "Ord. Time, Week 10, Mon [I, #359]",
+      "color": "#B35C58",
+      "start": "1:1",
+      "end": "1:7"
+    },
+    {
+      "name": "Ord. Time, Week 10, Tues [I, #360]",
+      "color": "#B35C58",
+      "start": "1:18",
+      "end": "1:22"
+    },
+    {
+      "name": "Ord. Time, Week 10, Wed [I, #361]",
+      "color": "#B35C58",
+      "start": "3:4",
+      "end": "3:11"
+    },
+    {
+      "name": "Ord. Time, Week 10, Thurs [I, #362]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "3:15",
+          "end": "4:1"
+        },
+        {
+          "start": "3:3",
+          "end": "3:6"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 10, Fri [I, #363]",
+      "color": "#B35C58",
+      "start": "4:7",
+      "end": "4:15"
+    },
+    {
+      "name": "July 25: St. James, Apostle [I/II, #605]",
+      "color": "#C9A441",
+      "start": "4:7",
+      "end": "4:15"
+    },
+    {
+      "name": "Ord. Time, Week 10, Sat [I, #364]",
+      "color": "#B35C58",
+      "start": "5:14",
+      "end": "5:21"
+    },
+    {
+      "name": "Ash Wednesday (2nd Reading - note 4) [I/II, #219]",
+      "color": "#B35C58",
+      "start": "5:20",
+      "end": "6:2"
+    },
+    {
+      "name": "Ord. Time, Week 11, Mon [I, #365]",
+      "color": "#B35C58",
+      "start": "6:1",
+      "end": "6:10"
+    },
+    {
+      "name": "Ord. Time, Week 11, Tues [I, #366]",
+      "color": "#B35C58",
+      "start": "8:1",
+      "end": "8:9"
+    },
+    {
+      "name": "Aug 10: St. Lawrence, Deacon and martyr [I/II, #618]",
+      "color": "#C9A441",
+      "start": "9:6",
+      "end": "9:10"
+    },
+    {
+      "name": "Ord. Time, Week 11, Wed [I, #367]",
+      "color": "#B35C58",
+      "start": "9:6",
+      "end": "9:11"
+    },
+    {
+      "name": "Ord. Time, Week 11, Thurs [I, #368]",
+      "color": "#B35C58",
+      "start": "11:1",
+      "end": "11:11"
+    },
+    {
+      "name": "Ord. Time, Week 11, Fri [I, #369]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "11:18",
+          "end": "11:18"
+        },
+        {
+          "start": "11:21",
+          "end": "11:30"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 11, Sat [I, #370]",
+      "color": "#B35C58",
+      "start": "12:1",
+      "end": "12:10"
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 16th Sunday in Ord. Time",
+      "color": "#4C6B4F",
+      "start": "1:1",
+      "end": "1:14"
+    },
+    {
+      "name": "OR: 16th Week in Ord. Time, Monday",
+      "color": "#4C6B4F",
+      "start": "1:15",
+      "end": "2:11"
+    },
+    {
+      "name": "OR: 16th Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "start": "2:12",
+      "end": "3:16"
+    },
+    {
+      "name": "OR: 16th Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "start": "3:7",
+      "end": "4:4"
+    },
+    {
+      "name": "OR: Aug. 6: Transfiguration",
+      "color": "#4C6B4F",
+      "start": "3:7",
+      "end": "4:6"
+    },
+    {
+      "name": "OR: 16th Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "start": "4:5",
+      "end": "4:18"
+    },
+    {
+      "name": "OR: Common of One Martyr (Ordinary Time)",
+      "color": "#4C6B4F",
+      "start": "4:7",
+      "end": "5:8"
+    },
+    {
+      "name": "OR: Office for the Dead, alt.",
+      "color": "#4C6B4F",
+      "start": "4:16",
+      "end": "5:10"
+    },
+    {
+      "name": "OR: 16th Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "start": "5:1",
+      "end": "5:21"
+    },
+    {
+      "name": "OR: 16th Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "start": "6:1",
+      "end": "7:1"
+    },
+    {
+      "name": "OR: 17th Sunday in Ord. Time",
+      "color": "#4C6B4F",
+      "start": "7:2",
+      "end": "7:16"
+    },
+    {
+      "name": "OR: 17th Week in Ord. Time, Monday",
+      "color": "#4C6B4F",
+      "start": "8:1",
+      "end": "8:24"
+    },
+    {
+      "name": "OR: 17th Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "start": "9:1",
+      "end": "9:15"
+    },
+    {
+      "name": "OR: 17th Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "start": "10:1",
+      "end": "11:6"
+    },
+    {
+      "name": "OR: 17th Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "start": "11:7",
+      "end": "11:29"
+    },
+    {
+      "name": "OR: 17th Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "start": "11:30",
+      "end": "12:12"
+    },
+    {
+      "name": "OR: 17th Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "start": "12:14",
+      "end": "13:13"
+    }
+  ]
+}

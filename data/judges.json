@@ -1,0 +1,130 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "Ord. Time, Week 20, Mon [I, #419]",
+      "color": "#B35C58",
+      "start": "2:11",
+      "end": "2:19"
+    },
+    {
+      "name": "Ord. Time, Week 20, Tues [I, #420]",
+      "color": "#B35C58",
+      "start": "6:11",
+      "end": "6:24a"
+    },
+    {
+      "name": "Ord. Time, Week 20, Wed [I, #421]",
+      "color": "#B35C58",
+      "start": "9:6",
+      "end": "9:15"
+    },
+    {
+      "name": "Ord. Time, Week 20, Thurs [I, #422]",
+      "color": "#B35C58",
+      "start": "11:29",
+      "end": "11:39a"
+    },
+    {
+      "name": "Advent, Dec. 19 [I/II, #195]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "13:2",
+          "end": "13:7"
+        },
+        {
+          "start": "13:24",
+          "end": "13:25a"
+        }
+      ]
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 11th Sunday in Ord. Time",
+      "color": "#4C6B4F",
+      "start": "2:6",
+      "end": "3:4"
+    },
+    {
+      "name": "OR: 11th Week in Ord. Time, Monday",
+      "color": "#4C6B4F",
+      "start": "4:1",
+      "end": "4:24"
+    },
+    {
+      "name": "OR: 11th Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "6:1",
+          "end": "6:6"
+        },
+        {
+          "start": "6:11",
+          "end": "6:24a"
+        }
+      ]
+    },
+    {
+      "name": "OR: 11th Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "6:33",
+          "end": "6:40"
+        },
+        {
+          "start": "7:1",
+          "end": "7:8"
+        },
+        {
+          "start": "7:16",
+          "end": "7:22a"
+        }
+      ]
+    },
+    {
+      "name": "OR: 11th Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "8:22",
+          "end": "8:23"
+        },
+        {
+          "start": "8:30",
+          "end": "8:32"
+        },
+        {
+          "start": "9:1",
+          "end": "9:15"
+        },
+        {
+          "start": "9:19",
+          "end": "9:20"
+        }
+      ]
+    },
+    {
+      "name": "OR: 11th Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "start": "13:1",
+      "end": "13:25"
+    },
+    {
+      "name": "OR: 11th Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "16:4",
+          "end": "16:6"
+        },
+        {
+          "start": "16:16",
+          "end": "16:31"
+        }
+      ]
+    }
+  ]
+}

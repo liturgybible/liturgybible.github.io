@@ -1,0 +1,404 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "22nd Sunday in Ordinary Time [B, #125]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "4:1",
+          "end": "4:2"
+        },
+        {
+          "start": "4:6",
+          "end": "4:8"
+        }
+      ]
+    },
+    {
+      "name": "Sunday after Pentecost: Holy Trinity [B, #165]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "4:32",
+          "end": "4:34"
+        },
+        {
+          "start": "4:39",
+          "end": "4:40"
+        }
+      ]
+    },
+    {
+      "name": "9th Sunday in Ordinary Time [B, #86]",
+      "color": "#7B2E2B",
+      "start": "5:12",
+      "end": "5:15"
+    },
+    {
+      "name": "31st Sunday in Ordinary Time [B, #152]",
+      "color": "#7B2E2B",
+      "start": "6:2",
+      "end": "6:6"
+    },
+    {
+      "name": "Friday after 2nd Sun after Pentecost: Sacred Heart [A, #170]",
+      "color": "#7B2E2B",
+      "start": "7:6",
+      "end": "7:11"
+    },
+    {
+      "name": "Sunday after Trinity Sun: Body & Blood of Christ [A, #167]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "8:2",
+          "end": "8:3"
+        },
+        {
+          "start": "8:14b",
+          "end": "8:16a"
+        }
+      ]
+    },
+    {
+      "name": "9th Sunday in Ordinary Time [A, #85]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "11:18",
+          "end": "11:18"
+        },
+        {
+          "start": "11:26",
+          "end": "11:28"
+        },
+        {
+          "start": "11:32",
+          "end": "11:32"
+        }
+      ]
+    },
+    {
+      "name": "4th Sunday in Ordinary Time [B, #71]",
+      "color": "#7B2E2B",
+      "start": "18:15",
+      "end": "18:20"
+    },
+    {
+      "name": "1st Sunday of Lent [C, #24]",
+      "color": "#7B2E2B",
+      "start": "26:4",
+      "end": "26:10"
+    },
+    {
+      "name": "15th Sunday in Ordinary Time [C, #105]",
+      "color": "#7B2E2B",
+      "start": "30:10",
+      "end": "30:14"
+    },
+    {
+      "name": "Lent, Week 3, Wed [I/II, #239]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "4:1",
+          "end": "4:1"
+        },
+        {
+          "start": "4:5",
+          "end": "4:9"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 18, Fri [I, #411]",
+      "color": "#B35C58",
+      "start": "4:32",
+      "end": "4:40"
+    },
+    {
+      "name": "Ord. Time, Week 18, Sat [I, #412]",
+      "color": "#B35C58",
+      "start": "6:4",
+      "end": "6:13"
+    },
+    {
+      "name": "Ord. Time, Week 19, Mon [I, #413]",
+      "color": "#B35C58",
+      "start": "10:12",
+      "end": "10:22"
+    },
+    {
+      "name": "Lent, Week 1, Sat [I/II, #229]",
+      "color": "#B35C58",
+      "start": "26:16",
+      "end": "26:19"
+    },
+    {
+      "name": "Thursday after Ash Wed. [I/II, #220]",
+      "color": "#B35C58",
+      "start": "30:15",
+      "end": "30:20"
+    },
+    {
+      "name": "Ord. Time, Week 19, Tues [I, #414]",
+      "color": "#B35C58",
+      "start": "31:1",
+      "end": "31:8"
+    },
+    {
+      "name": "Ord. Time, Week 19, Tues (resp. - note 2) [I, #414]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "32:3",
+          "end": "32:4ab"
+        },
+        {
+          "start": "32:7",
+          "end": "32:7"
+        },
+        {
+          "start": "32:8",
+          "end": "32:8"
+        },
+        {
+          "start": "32:9+12",
+          "end": "32:9+12"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 17, Mon (resp. - note 2) [II, #401]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "32:18",
+          "end": "32:19"
+        },
+        {
+          "start": "32:20",
+          "end": "32:20"
+        },
+        {
+          "start": "32:21",
+          "end": "32:21"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 20, Mon (resp. - note 2) [II, #419]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "32:18",
+          "end": "32:19"
+        },
+        {
+          "start": "32:20",
+          "end": "32:20"
+        },
+        {
+          "start": "32:21",
+          "end": "32:21"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 20, Tues (resp. - note 2) [II, #420]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "32:26",
+          "end": "32:27ab"
+        },
+        {
+          "start": "32:27cd",
+          "end": "32:28"
+        },
+        {
+          "start": "32:30",
+          "end": "32:30"
+        },
+        {
+          "start": "32:35cd",
+          "end": "32:36ab"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 18, Fri (resp. - note 2) [II, #411]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "32:35cd",
+          "end": "32:36ab"
+        },
+        {
+          "start": "32:39abcd",
+          "end": "32:39abcd"
+        },
+        {
+          "start": "32:41",
+          "end": "32:41"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 19, Wed [I, #415]",
+      "color": "#B35C58",
+      "start": "34:1",
+      "end": "34:12"
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 2nd Sunday in Ord. Time",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:1"
+        },
+        {
+          "start": "1:6",
+          "end": "1:18"
+        }
+      ]
+    },
+    {
+      "name": "OR: 2nd Week in Ord. Time, Monday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "4:1",
+          "end": "4:8"
+        },
+        {
+          "start": "4:32",
+          "end": "4:40"
+        }
+      ]
+    },
+    {
+      "name": "OR: 2nd Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "start": "6:4",
+      "end": "6:25"
+    },
+    {
+      "name": "OR: 2nd Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "7:6",
+          "end": "7:14"
+        },
+        {
+          "start": "8:1",
+          "end": "8:6"
+        }
+      ]
+    },
+    {
+      "name": "OR: 2nd Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "9:7",
+          "end": "9:21"
+        },
+        {
+          "start": "9:25",
+          "end": "9:29"
+        }
+      ]
+    },
+    {
+      "name": "OR: 2nd Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "10:12",
+          "end": "11:9"
+        },
+        {
+          "start": "10:26",
+          "end": "10:28"
+        }
+      ]
+    },
+    {
+      "name": "OR: 2nd Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "start": "16:1",
+      "end": "16:17"
+    },
+    {
+      "name": "OR: 3rd Sunday in Ord. Time",
+      "color": "#4C6B4F",
+      "start": "18:1",
+      "end": "18:22"
+    },
+    {
+      "name": "OR: 3rd Week in Ord. Time, Monday",
+      "color": "#4C6B4F",
+      "start": "24:1",
+      "end": "25:4"
+    },
+    {
+      "name": "OR: 3rd Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "start": "26:1",
+      "end": "26:19"
+    },
+    {
+      "name": "OR: 3rd Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "29:1",
+          "end": "29:5"
+        },
+        {
+          "start": "29:9",
+          "end": "29:28"
+        }
+      ]
+    },
+    {
+      "name": "OR: 3rd Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "start": "30:1",
+      "end": "30:20"
+    },
+    {
+      "name": "OR: 3rd Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "31:1",
+          "end": "31:15"
+        },
+        {
+          "start": "31:23",
+          "end": "31:23"
+        }
+      ]
+    },
+    {
+      "name": "OR: 3rd Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "32:48",
+          "end": "32:52"
+        },
+        {
+          "start": "34:1",
+          "end": "34:12"
+        }
+      ]
+    }
+  ]
+}

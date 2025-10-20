@@ -1,0 +1,106 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "Ord. Time, Week 33, Mon [I, #497]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "1:10",
+          "end": "1:15"
+        },
+        {
+          "start": "1:41",
+          "end": "1:43"
+        },
+        {
+          "start": "1:54",
+          "end": "1:57"
+        },
+        {
+          "start": "1:62",
+          "end": "1:63"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 33, Thurs [I, #500]",
+      "color": "#B35C58",
+      "start": "2:15",
+      "end": "2:29"
+    },
+    {
+      "name": "Ord. Time, Week 33, Fri [I, #501]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "4:36",
+          "end": "4:37"
+        },
+        {
+          "start": "4:52",
+          "end": "4:59"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 33, Sat [I, #502]",
+      "color": "#B35C58",
+      "start": "6:1",
+      "end": "6:13"
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 31st Sunday in Ord. Time",
+      "color": "#4C6B4F",
+      "start": "1:1",
+      "end": "1:24"
+    },
+    {
+      "name": "OR: 31st Week in Ord. Time, Monday",
+      "color": "#4C6B4F",
+      "start": "1:43",
+      "end": "1:63"
+    },
+    {
+      "name": "OR: 31st Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "2:1",
+          "end": "2:1"
+        },
+        {
+          "start": "2:15",
+          "end": "2:28"
+        },
+        {
+          "start": "2:42",
+          "end": "2:50"
+        },
+        {
+          "start": "2:65",
+          "end": "2:70"
+        }
+      ]
+    },
+    {
+      "name": "OR: 31st Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "start": "3:1",
+      "end": "3:26"
+    },
+    {
+      "name": "OR: 31st Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "start": "4:36",
+      "end": "4:59"
+    },
+    {
+      "name": "OR: 31st Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "start": "9:1",
+      "end": "9:22"
+    }
+  ]
+}

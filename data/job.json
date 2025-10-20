@@ -1,0 +1,238 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "5th Sunday in Ordinary Time [B, #74]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "7:1",
+          "end": "7:4"
+        },
+        {
+          "start": "7:6",
+          "end": "7:7"
+        }
+      ]
+    },
+    {
+      "name": "12th Sunday in Ordinary Time [B, #95]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "38:1",
+          "end": "38:1"
+        },
+        {
+          "start": "38:8",
+          "end": "38:11"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 26, Mon [II, #455]",
+      "color": "#B35C58",
+      "start": "1:6",
+      "end": "1:22"
+    },
+    {
+      "name": "Ord. Time, Week 26, Tues [II, #456]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "3:1",
+          "end": "3:3"
+        },
+        {
+          "start": "3:11",
+          "end": "3:17"
+        },
+        {
+          "start": "3:20",
+          "end": "3:23"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 26, Wed [II, #457]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "9:1",
+          "end": "9:12"
+        },
+        {
+          "start": "9:14",
+          "end": "9:16"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 26, Thurs [II, #458]",
+      "color": "#B35C58",
+      "start": "19:21",
+      "end": "19:27"
+    },
+    {
+      "name": "Ord. Time, Week 26, Fri [II, #459]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "38:1",
+          "end": "38:1"
+        },
+        {
+          "start": "38:12",
+          "end": "38:21"
+        },
+        {
+          "start": "40:3",
+          "end": "40:5"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 26, Sat [II, #460]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "42:1",
+          "end": "42:3"
+        },
+        {
+          "start": "42:5",
+          "end": "42:6"
+        },
+        {
+          "start": "42:12",
+          "end": "42:17"
+        }
+      ]
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 8th Sunday in Ord. Time",
+      "color": "#4C6B4F",
+      "start": "1:1",
+      "end": "1:22"
+    },
+    {
+      "name": "OR: 8th Week in Ord. Time, Monday",
+      "color": "#4C6B4F",
+      "start": "2:1",
+      "end": "2:13"
+    },
+    {
+      "name": "OR: 8th Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "start": "3:1",
+      "end": "3:26"
+    },
+    {
+      "name": "OR: 8th Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "start": "7:1",
+      "end": "7:21"
+    },
+    {
+      "name": "OR: 8th Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "start": "11:1",
+      "end": "11:20"
+    },
+    {
+      "name": "OR: 8th Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "start": "12:1",
+      "end": "12:25"
+    },
+    {
+      "name": "OR: 8th Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "start": "13:13",
+      "end": "14:6"
+    },
+    {
+      "name": "OR: 9th Sunday in Ord. Time",
+      "color": "#4C6B4F",
+      "start": "28:1",
+      "end": "28:28"
+    },
+    {
+      "name": "OR: 9th Week in Ord. Time, Monday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "29:1",
+          "end": "29:10"
+        },
+        {
+          "start": "30:1",
+          "end": "30:1"
+        },
+        {
+          "start": "30:9",
+          "end": "30:23"
+        }
+      ]
+    },
+    {
+      "name": "OR: 9th Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "31:1",
+          "end": "31:8"
+        },
+        {
+          "start": "31:13",
+          "end": "31:23"
+        },
+        {
+          "start": "31:35",
+          "end": "31:37"
+        }
+      ]
+    },
+    {
+      "name": "OR: 9th Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "32:1",
+          "end": "32:6"
+        },
+        {
+          "start": "33:1",
+          "end": "33:22"
+        }
+      ]
+    },
+    {
+      "name": "OR: 9th Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "start": "38:1",
+      "end": "38:30"
+    },
+    {
+      "name": "OR: 9th Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "40:1",
+          "end": "40:14"
+        },
+        {
+          "start": "42:1",
+          "end": "42:6"
+        }
+      ]
+    },
+    {
+      "name": "OR: 9th Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "start": "42:7",
+      "end": "42:17"
+    }
+  ]
+}

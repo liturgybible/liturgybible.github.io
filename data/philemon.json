@@ -1,0 +1,25 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "23rd Sunday in Ordinary Time [C, #129]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "1:9",
+          "end": "1:10"
+        },
+        {
+          "start": "1:12",
+          "end": "1:17"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 32, Thurs [II, #494]",
+      "color": "#B35C58",
+      "start": "1:7",
+      "end": "1:20"
+    }
+  ],
+  "divineOffice": []
+}

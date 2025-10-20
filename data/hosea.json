@@ -1,0 +1,176 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "8th Sunday in Ordinary Time [B, #83]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "2:16b",
+          "end": "2:16b"
+        },
+        {
+          "start": "2:17b",
+          "end": "2:17b"
+        },
+        {
+          "start": "2:21",
+          "end": "2:22"
+        }
+      ]
+    },
+    {
+      "name": "10th Sunday in Ordinary Time [A, #88]",
+      "color": "#7B2E2B",
+      "start": "6:3",
+      "end": "6:6"
+    },
+    {
+      "name": "Friday after 2nd Sun after Pentecost: Sacred Heart [B, #171]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "11:1",
+          "end": "11:1"
+        },
+        {
+          "start": "11:3",
+          "end": "11:4"
+        },
+        {
+          "start": "11:8c",
+          "end": "11:9"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 14, Mon [II, #383]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "2:16",
+          "end": "2:16"
+        },
+        {
+          "start": "2:17c",
+          "end": "2:18"
+        },
+        {
+          "start": "2:21",
+          "end": "2:22"
+        }
+      ]
+    },
+    {
+      "name": "Lent, Week 3, Sat [I/II, #242]",
+      "color": "#B35C58",
+      "start": "6:1",
+      "end": "6:6"
+    },
+    {
+      "name": "Ord. Time, Week 14, Tues [II, #384]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "8:4",
+          "end": "8:7"
+        },
+        {
+          "start": "8:11",
+          "end": "8:13"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 14, Wed [II, #385]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "10:1",
+          "end": "10:3"
+        },
+        {
+          "start": "10:7",
+          "end": "10:8"
+        },
+        {
+          "start": "10:12",
+          "end": "10:12"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 14, Thurs [II, #386]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "11:1",
+          "end": "11:4"
+        },
+        {
+          "start": "11:8e",
+          "end": "11:9"
+        }
+      ]
+    },
+    {
+      "name": "Lent, Week 3, Fri [I/II, #241]",
+      "color": "#B35C58",
+      "start": "14:2",
+      "end": "14:10"
+    },
+    {
+      "name": "Ord. Time, Week 14, Fri [II, #387]",
+      "color": "#B35C58",
+      "start": "14:2",
+      "end": "14:10"
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 18th Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:9"
+        },
+        {
+          "start": "3:1",
+          "end": "3:5"
+        }
+      ]
+    },
+    {
+      "name": "OR: 18th Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "2:4a",
+          "end": "2:4a"
+        },
+        {
+          "start": "2:10",
+          "end": "2:25"
+        }
+      ]
+    },
+    {
+      "name": "OR: 18th Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "start": "6:1",
+      "end": "7:2"
+    },
+    {
+      "name": "OR: 19th Sunday in Ord. Time",
+      "color": "#4C6B4F",
+      "start": "11:1",
+      "end": "11:11"
+    },
+    {
+      "name": "OR: 19th Week in Ord. Time, Monday",
+      "color": "#4C6B4F",
+      "start": "14:2",
+      "end": "14:10"
+    }
+  ]
+}

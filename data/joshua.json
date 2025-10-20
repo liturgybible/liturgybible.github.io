@@ -1,0 +1,132 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "4th Sunday of Lent [C, #33]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "5:9a",
+          "end": "5:9a"
+        },
+        {
+          "start": "5:10",
+          "end": "5:12"
+        }
+      ]
+    },
+    {
+      "name": "21st Sunday in Ordinary Time [B, #122]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "24:1",
+          "end": "24:2a"
+        },
+        {
+          "start": "24:15",
+          "end": "24:17"
+        },
+        {
+          "start": "24:18b",
+          "end": "24:18b"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 19, Thurs [I, #416]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "3:7",
+          "end": "3:10a"
+        },
+        {
+          "start": "3:11",
+          "end": "3:11"
+        },
+        {
+          "start": "3:13",
+          "end": "3:17"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 19, Fri [I, #417]",
+      "color": "#B35C58",
+      "start": "24:1",
+      "end": "24:13"
+    },
+    {
+      "name": "Ord. Time, Week 19, Sat [I, #418]",
+      "color": "#B35C58",
+      "start": "24:14",
+      "end": "24:29"
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 10th Week in Ord. Time, Monday",
+      "color": "#4C6B4F",
+      "start": "1:1",
+      "end": "1:18"
+    },
+    {
+      "name": "OR: 10th Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "start": "2:1",
+      "end": "2:24"
+    },
+    {
+      "name": "OR: 10th Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "3:1",
+          "end": "3:17"
+        },
+        {
+          "start": "4:14",
+          "end": "4:19"
+        },
+        {
+          "start": "5:10",
+          "end": "5:12"
+        }
+      ]
+    },
+    {
+      "name": "OR: 10th Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "start": "5:13",
+      "end": "6:21"
+    },
+    {
+      "name": "OR: 10th Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "10:1",
+          "end": "10:4"
+        },
+        {
+          "start": "11:15",
+          "end": "11:17"
+        }
+      ]
+    },
+    {
+      "name": "OR: 10th Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "24:1",
+          "end": "24:7"
+        },
+        {
+          "start": "24:13",
+          "end": "24:28"
+        }
+      ]
+    }
+  ]
+}

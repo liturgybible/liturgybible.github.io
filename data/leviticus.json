@@ -1,0 +1,122 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "6th Sunday in Ordinary Time [B, #77]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "13:1",
+          "end": "13:2"
+        },
+        {
+          "start": "13:44",
+          "end": "13:46"
+        }
+      ]
+    },
+    {
+      "name": "7th Sunday in Ordinary Time [A, #79]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "19:1",
+          "end": "19:2"
+        },
+        {
+          "start": "19:17",
+          "end": "19:18"
+        }
+      ]
+    },
+    {
+      "name": "Lent, Week 1, Mon [I/II, #224]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "19:1",
+          "end": "19:2"
+        },
+        {
+          "start": "19:11",
+          "end": "19:18"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 17, Fri [I, #405]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "23:1",
+          "end": "23:1"
+        },
+        {
+          "start": "23:4",
+          "end": "23:11"
+        },
+        {
+          "start": "23:15",
+          "end": "23:16"
+        },
+        {
+          "start": "23:27",
+          "end": "23:27"
+        },
+        {
+          "start": "23:34b",
+          "end": "23:37"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 17, Sat [I, #406]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "25:1",
+          "end": "25:1"
+        },
+        {
+          "start": "25:8",
+          "end": "25:17"
+        }
+      ]
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 4th Sunday of Lent",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "8:1",
+          "end": "8:17"
+        },
+        {
+          "start": "9:22",
+          "end": "9:24"
+        }
+      ]
+    },
+    {
+      "name": "OR: 4th Week of Lent, Monday",
+      "color": "#4C6B4F",
+      "start": "16:2",
+      "end": "16:28"
+    },
+    {
+      "name": "OR: 4th Week of Lent, Tuesday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "19:1",
+          "end": "19:18"
+        },
+        {
+          "start": "19:31",
+          "end": "19:37"
+        }
+      ]
+    }
+  ]
+}

@@ -1,11 +1,30 @@
 {
   "lectionaryReadings": [
-    { "name": "Ord. Time, Week 25, Thurs", "start": "1:1", "end": "1:8", "color": "#B35C58" },
-    { "name": "Ord. Time, Week 25, Fri", "start": "2:1", "end": "2:9", "color": "#B35C58" }
+    {
+      "name": "Ord. Time, Week 25, Thurs [I, #452]",
+      "color": "#B35C58",
+      "start": "1:1",
+      "end": "1:8"
+    },
+    {
+      "name": "Ord. Time, Week 25, Fri [I, #453]",
+      "color": "#B35C58",
+      "start": "2:1",
+      "end": "2:9"
+    }
   ],
   "divineOffice": [
-    { "name": "OR: 28th Sunday in Ord. Time", "start": "1:1", "end": "2:10", "color": "#4C6B4F" },
-    { "name": "OR: 28th Week in Ord. Time, Monday", "start": "2:11", "end": "2:23", "color": "#4C6B4F" },
-    { "name": "OR: 28th Week in Ord. Time, Monday", "start": "2:11", "end": "2:24", "color": "Hag 2:11-24 per Liturgy and Life Study Bible (pg. 1466) and https://catholic-resources.org/LoH/OfficeOfReadings-Biblical.html, but Haggai 2 only goes to verse 23..." }
+    {
+      "name": "OR: 28th Sunday in Ord. Time",
+      "color": "#4C6B4F",
+      "start": "1:1",
+      "end": "2:10"
+    },
+    {
+      "name": "OR: 28th Week in Ord. Time, Monday",
+      "color": "#4C6B4F",
+      "start": "2:11",
+      "end": "2:24"
+    }
   ]
 }

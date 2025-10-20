@@ -1,0 +1,224 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "2nd Sunday of Advent [C, #6]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "1:4",
+          "end": "1:6"
+        },
+        {
+          "start": "1:8",
+          "end": "1:11"
+        }
+      ]
+    },
+    {
+      "name": "25th Sunday in Ordinary Time [A, #133]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "1:20c",
+          "end": "1:24"
+        },
+        {
+          "start": "1:27a",
+          "end": "1:27a"
+        }
+      ]
+    },
+    {
+      "name": "26th Sunday in Ordinary Time [A, #136]",
+      "color": "#7B2E2B",
+      "start": "2:1",
+      "end": "2:11"
+    },
+    {
+      "name": "26th Sunday in Ordinary Time [A, #136] (short)",
+      "color": "#7B2E2B",
+      "start": "2:1",
+      "end": "2:5"
+    },
+    {
+      "name": "Palm Sunday Mass [ABC, #38]",
+      "color": "#7B2E2B",
+      "start": "2:6",
+      "end": "2:11"
+    },
+    {
+      "name": "Sept 14: Exaltation of the Holy Cross [#638]",
+      "color": "#C9A441",
+      "start": "2:6",
+      "end": "2:11"
+    },
+    {
+      "name": "5th Sunday of Lent [C, #36]",
+      "color": "#7B2E2B",
+      "start": "3:8",
+      "end": "3:14"
+    },
+    {
+      "name": "2nd Sunday of Lent [C, #27]",
+      "color": "#7B2E2B",
+      "start": "3:17",
+      "end": "4:1"
+    },
+    {
+      "name": "2nd Sunday of Lent [C, #27] (short)",
+      "color": "#7B2E2B",
+      "start": "3:20",
+      "end": "4:1"
+    },
+    {
+      "name": "3rd Sunday of Advent [C, #9]",
+      "color": "#7B2E2B",
+      "start": "4:4",
+      "end": "4:7"
+    },
+    {
+      "name": "27th Sunday in Ordinary Time [A, #139]",
+      "color": "#7B2E2B",
+      "start": "4:6",
+      "end": "4:9"
+    },
+    {
+      "name": "28th Sunday in Ordinary Time [A, #142]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "4:12",
+          "end": "4:14"
+        },
+        {
+          "start": "4:19",
+          "end": "4:20"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 30, Fri [II, #483]",
+      "color": "#B35C58",
+      "start": "1:1",
+      "end": "1:11"
+    },
+    {
+      "name": "Ord. Time, Week 30, Sat [II, #484]",
+      "color": "#B35C58",
+      "start": "1:18b",
+      "end": "1:26"
+    },
+    {
+      "name": "Ord. Time, Week 31, Mon [II, #485]",
+      "color": "#B35C58",
+      "start": "2:1",
+      "end": "2:4"
+    },
+    {
+      "name": "Jan 3: Most Holy Name of Jesus [I/II]",
+      "color": "#C9A441",
+      "start": "2:1",
+      "end": "2:11"
+    },
+    {
+      "name": "Ord. Time, Week 31, Tues [II, #486]",
+      "color": "#B35C58",
+      "start": "2:5",
+      "end": "2:11"
+    },
+    {
+      "name": "Sept 14: Feast: Exaltation of the Holy Cross [I/II, #638]",
+      "color": "#C9A441",
+      "start": "2:6",
+      "end": "2:11"
+    },
+    {
+      "name": "Ord. Time, Week 31, Wed [II, #487]",
+      "color": "#B35C58",
+      "start": "2:12",
+      "end": "2:18"
+    },
+    {
+      "name": "Ord. Time, Week 31, Thurs [II, #488]",
+      "color": "#B35C58",
+      "start": "3:3",
+      "end": "3:8a"
+    },
+    {
+      "name": "Ord. Time, Week 31, Fri [II, #489]",
+      "color": "#B35C58",
+      "start": "3:17",
+      "end": "4:1"
+    },
+    {
+      "name": "Ord. Time, Week 31, Sat [II, #490]",
+      "color": "#B35C58",
+      "start": "4:10",
+      "end": "4:19"
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 26th Sunday in Ord. Time",
+      "color": "#4C6B4F",
+      "start": "1:1",
+      "end": "1:11"
+    },
+    {
+      "name": "OR: 26th Week in Ord. Time, Monday",
+      "color": "#4C6B4F",
+      "start": "1:12",
+      "end": "1:26"
+    },
+    {
+      "name": "OR: 26th Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "start": "1:27",
+      "end": "2:11"
+    },
+    {
+      "name": "OR: Common of Holy Men, alt. (Advent/Christmas/Lent/Easter)",
+      "color": "#4C6B4F",
+      "start": "1:29",
+      "end": "2:16"
+    },
+    {
+      "name": "OR: 26th Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "start": "2:12",
+      "end": "2:30"
+    },
+    {
+      "name": "OR: 26th Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "start": "3:1",
+      "end": "3:16"
+    },
+    {
+      "name": "OR: Common of Holy Men & Women, For Religious (Ordinary Time)",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "3:7",
+          "end": "4:1"
+        },
+        {
+          "start": "3:4",
+          "end": "3:9"
+        }
+      ]
+    },
+    {
+      "name": "OR: 26th Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "start": "3:17",
+      "end": "4:9"
+    },
+    {
+      "name": "OR: 26th Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "start": "4:10",
+      "end": "4:23"
+    }
+  ]
+}

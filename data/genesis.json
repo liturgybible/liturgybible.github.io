@@ -1,0 +1,584 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "Easter Vigil (1st Reading) [ABC, #41]",
+      "color": "#7B2E2B",
+      "start": "1:1",
+      "end": "2:2"
+    },
+    {
+      "name": "Easter Vigil (1st Reading) [ABC, #41] (short)",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:1"
+        },
+        {
+          "start": "1:26",
+          "end": "1:31a"
+        }
+      ]
+    },
+    {
+      "name": "1st Sunday of Lent [A, #22]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "2:7",
+          "end": "2:9"
+        },
+        {
+          "start": "3:1",
+          "end": "3:7"
+        }
+      ]
+    },
+    {
+      "name": "27th Sunday in Ordinary Time [B, #140]",
+      "color": "#7B2E2B",
+      "start": "2:18",
+      "end": "2:24"
+    },
+    {
+      "name": "10th Sunday in Ordinary Time [B, #89]",
+      "color": "#7B2E2B",
+      "start": "3:9",
+      "end": "3:15"
+    },
+    {
+      "name": "Dec 8: Immaculate Conception of the BVMary [#689]",
+      "color": "#C9A441",
+      "segments": [
+        {
+          "start": "3:9",
+          "end": "3:15"
+        },
+        {
+          "start": "3:20",
+          "end": "3:20"
+        }
+      ]
+    },
+    {
+      "name": "1st Sunday of Lent [B, #23]",
+      "color": "#7B2E2B",
+      "start": "9:8",
+      "end": "9:15"
+    },
+    {
+      "name": "Pentecost Sunday: Vigil Mass (Option 1) [ABC, #62]",
+      "color": "#7B2E2B",
+      "start": "11:1",
+      "end": "11:9"
+    },
+    {
+      "name": "2nd Sunday of Lent [A, #25]",
+      "color": "#7B2E2B",
+      "start": "12:1",
+      "end": "12:4a"
+    },
+    {
+      "name": "Sunday after Trinity Sun: Body & Blood of Christ [C, #169]",
+      "color": "#7B2E2B",
+      "start": "14:18",
+      "end": "14:20"
+    },
+    {
+      "name": "Sunday in Octave of Christmas: Holy Family (Opt. B) [B, #17]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "15:1",
+          "end": "15:6"
+        },
+        {
+          "start": "21:1",
+          "end": "21:3"
+        }
+      ]
+    },
+    {
+      "name": "2nd Sunday of Lent [C, #27]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "15:5",
+          "end": "15:12"
+        },
+        {
+          "start": "15:17",
+          "end": "15:18"
+        }
+      ]
+    },
+    {
+      "name": "16th Sunday in Ordinary Time [C, #108]",
+      "color": "#7B2E2B",
+      "start": "18:1",
+      "end": "18:10a"
+    },
+    {
+      "name": "17th Sunday in Ordinary Time [C, #111]",
+      "color": "#7B2E2B",
+      "start": "18:20",
+      "end": "18:32"
+    },
+    {
+      "name": "2nd Sunday of Lent [B, #26]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "22:1",
+          "end": "22:2"
+        },
+        {
+          "start": "22:9a",
+          "end": "22:9a"
+        },
+        {
+          "start": "22:10",
+          "end": "22:13"
+        },
+        {
+          "start": "22:15",
+          "end": "22:18"
+        }
+      ]
+    },
+    {
+      "name": "Easter Vigil (2nd Reading) [ABC, #41]",
+      "color": "#7B2E2B",
+      "start": "22:1",
+      "end": "22:18"
+    },
+    {
+      "name": "Easter Vigil (2nd Reading) [ABC, #41] (short)",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "22:1",
+          "end": "22:2"
+        },
+        {
+          "start": "22:9a",
+          "end": "22:9a"
+        },
+        {
+          "start": "22:10",
+          "end": "22:13"
+        },
+        {
+          "start": "22:15",
+          "end": "22:18"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 5, Mon [I, #329]",
+      "color": "#B35C58",
+      "start": "1:1",
+      "end": "1:19"
+    },
+    {
+      "name": "Ord. Time, Week 5, Tues [I, #330]",
+      "color": "#B35C58",
+      "start": "1:20",
+      "end": "2:4a"
+    },
+    {
+      "name": "Ord. Time, Week 5, Wed [I, #331]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "2:4b",
+          "end": "2:9"
+        },
+        {
+          "start": "2:15",
+          "end": "2:17"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 5, Thurs [I, #332]",
+      "color": "#B35C58",
+      "start": "2:18",
+      "end": "2:25"
+    },
+    {
+      "name": "Ord. Time, Week 5, Fri [I, #333]",
+      "color": "#B35C58",
+      "start": "3:1",
+      "end": "3:8"
+    },
+    {
+      "name": "Dec 8: Solemnity: Immaculate Conception of the BVMary [I/II, #689]",
+      "color": "#C9A441",
+      "segments": [
+        {
+          "start": "3:9",
+          "end": "3:15"
+        },
+        {
+          "start": "3:20",
+          "end": "3:20"
+        }
+      ]
+    },
+    {
+      "name": "Mon after Pentecost: BVMary, Mother of the Church (option 1) [I/II]",
+      "color": "#C9A441",
+      "segments": [
+        {
+          "start": "3:9",
+          "end": "3:15"
+        },
+        {
+          "start": "3:20",
+          "end": "3:20"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 5, Sat [I, #334]",
+      "color": "#B35C58",
+      "start": "3:9",
+      "end": "3:24"
+    },
+    {
+      "name": "Ord. Time, Week 6, Mon [I, #335]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "4:1",
+          "end": "4:15"
+        },
+        {
+          "start": "4:25",
+          "end": "4:25"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 6, Tues [I, #336]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "6:5",
+          "end": "6:8"
+        },
+        {
+          "start": "7:1",
+          "end": "7:5"
+        },
+        {
+          "start": "7:10",
+          "end": "7:10"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 6, Wed [I, #337]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "8:6",
+          "end": "8:13"
+        },
+        {
+          "start": "8:20",
+          "end": "8:22"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 6, Thurs [I, #338]",
+      "color": "#B35C58",
+      "start": "9:1",
+      "end": "9:13"
+    },
+    {
+      "name": "Ord. Time, Week 6, Fri [I, #339]",
+      "color": "#B35C58",
+      "start": "11:1",
+      "end": "11:9"
+    },
+    {
+      "name": "Ord. Time, Week 12, Mon [I, #371]",
+      "color": "#B35C58",
+      "start": "12:1",
+      "end": "12:9"
+    },
+    {
+      "name": "Ord. Time, Week 12, Tues [I, #372]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "13:2",
+          "end": "13:2"
+        },
+        {
+          "start": "13:5",
+          "end": "13:18"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 12, Wed [I, #373]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "15:1",
+          "end": "15:12"
+        },
+        {
+          "start": "15:17",
+          "end": "15:18"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 12, Thurs [I, #374]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "16:1",
+          "end": "16:12"
+        },
+        {
+          "start": "16:15",
+          "end": "16:16"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 12, Thurs [I, #374] (short)",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "16:6b",
+          "end": "16:12"
+        },
+        {
+          "start": "16:15",
+          "end": "16:16"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 12, Fri [I, #375]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "17:1",
+          "end": "17:1"
+        },
+        {
+          "start": "17:9",
+          "end": "17:10"
+        },
+        {
+          "start": "17:15",
+          "end": "17:22"
+        }
+      ]
+    },
+    {
+      "name": "Lent, Week 5, Thurs [I/II, #254]",
+      "color": "#B35C58",
+      "start": "17:3",
+      "end": "17:9"
+    },
+    {
+      "name": "Ord. Time, Week 12, Sat [I, #376]",
+      "color": "#B35C58",
+      "start": "18:1",
+      "end": "18:15"
+    },
+    {
+      "name": "Ord. Time, Week 13, Mon [I, #377]",
+      "color": "#B35C58",
+      "start": "18:16",
+      "end": "18:33"
+    },
+    {
+      "name": "Ord. Time, Week 13, Tues [I, #378]",
+      "color": "#B35C58",
+      "start": "19:15",
+      "end": "19:29"
+    },
+    {
+      "name": "Ord. Time, Week 13, Wed [I, #379]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "21:5",
+          "end": "21:5"
+        },
+        {
+          "start": "21:8",
+          "end": "21:20a"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 13, Thurs [I, #380]",
+      "color": "#B35C58",
+      "start": "22:1b",
+      "end": "22:19"
+    },
+    {
+      "name": "Ord. Time, Week 13, Fri [I, #381]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "23:1",
+          "end": "23:4"
+        },
+        {
+          "start": "23:19",
+          "end": "23:19"
+        },
+        {
+          "start": "24:1",
+          "end": "24:8"
+        },
+        {
+          "start": "24:62",
+          "end": "24:67"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 13, Sat [I, #382]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "27:1",
+          "end": "27:5"
+        },
+        {
+          "start": "27:15",
+          "end": "27:29"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 14, Mon [I, #383]",
+      "color": "#B35C58",
+      "start": "28:10",
+      "end": "28:22a"
+    },
+    {
+      "name": "Ord. Time, Week 14, Tues [I, #384]",
+      "color": "#B35C58",
+      "start": "32:23",
+      "end": "32:33"
+    },
+    {
+      "name": "Lent, Week 2, Fri [I/II, #234]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "37:3",
+          "end": "37:4"
+        },
+        {
+          "start": "37:12",
+          "end": "37:13a"
+        },
+        {
+          "start": "37:17b",
+          "end": "37:28a"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 14, Wed [I, #385]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "41:55",
+          "end": "41:57"
+        },
+        {
+          "start": "42:5",
+          "end": "42:7a"
+        },
+        {
+          "start": "42:17",
+          "end": "42:24a"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 14, Thurs [I, #386]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "44:18",
+          "end": "44:21"
+        },
+        {
+          "start": "44:23b",
+          "end": "44:29"
+        },
+        {
+          "start": "45:1",
+          "end": "45:5"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 14, Fri [I, #387]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "46:1",
+          "end": "46:7"
+        },
+        {
+          "start": "46:28",
+          "end": "46:30"
+        }
+      ]
+    },
+    {
+      "name": "Advent, Dec. 17 [I/II, #193]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "49:2",
+          "end": "49:2"
+        },
+        {
+          "start": "49:8",
+          "end": "49:10"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 14, Sat [I, #388]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "49:29",
+          "end": "49:32"
+        },
+        {
+          "start": "50:15",
+          "end": "50:26a"
+        }
+      ]
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: Sept. 8: Birth of Mary",
+      "color": "#4C6B4F",
+      "start": "3:9",
+      "end": "3:20"
+    }
+  ]
+}

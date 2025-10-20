@@ -1,0 +1,164 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "29th Sunday in Ordinary Time [A, #145]",
+      "color": "#7B2E2B",
+      "start": "1:1",
+      "end": "1:5b"
+    },
+    {
+      "name": "30th Sunday in Ordinary Time [A, #148]",
+      "color": "#7B2E2B",
+      "start": "1:5c",
+      "end": "1:10"
+    },
+    {
+      "name": "31st Sunday in Ordinary Time [A, #151]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "2:7b",
+          "end": "2:9"
+        },
+        {
+          "start": "2:13",
+          "end": "2:13"
+        }
+      ]
+    },
+    {
+      "name": "1st Sunday of Advent [C, #3]",
+      "color": "#7B2E2B",
+      "start": "3:12",
+      "end": "4:2"
+    },
+    {
+      "name": "32nd Sunday in Ordinary Time [A, #154]",
+      "color": "#7B2E2B",
+      "start": "4:13",
+      "end": "4:18"
+    },
+    {
+      "name": "32nd Sunday in Ordinary Time [A, #154] (short)",
+      "color": "#7B2E2B",
+      "start": "4:13",
+      "end": "4:14"
+    },
+    {
+      "name": "33rd Sunday in Ordinary Time [A, #157]",
+      "color": "#7B2E2B",
+      "start": "5:1",
+      "end": "5:6"
+    },
+    {
+      "name": "3rd Sunday of Advent [B, #8]",
+      "color": "#7B2E2B",
+      "start": "5:16",
+      "end": "5:24"
+    },
+    {
+      "name": "Ord. Time, Week 21, Mon [I, #425]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:5"
+        },
+        {
+          "start": "1:8b",
+          "end": "1:10"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 21, Tues [I, #426]",
+      "color": "#B35C58",
+      "start": "2:1",
+      "end": "2:8"
+    },
+    {
+      "name": "Ord. Time, Week 21, Wed [I, #427]",
+      "color": "#B35C58",
+      "start": "2:9",
+      "end": "2:13"
+    },
+    {
+      "name": "Ord. Time, Week 21, Thurs [I, #428]",
+      "color": "#B35C58",
+      "start": "3:7",
+      "end": "3:13"
+    },
+    {
+      "name": "Ord. Time, Week 21, Fri [I, #429]",
+      "color": "#B35C58",
+      "start": "4:1",
+      "end": "4:8"
+    },
+    {
+      "name": "Ord. Time, Week 21, Sat [I, #430]",
+      "color": "#B35C58",
+      "start": "4:9",
+      "end": "4:11"
+    },
+    {
+      "name": "Ord. Time, Week 22, Mon [I, #431]",
+      "color": "#B35C58",
+      "start": "4:13",
+      "end": "4:18"
+    },
+    {
+      "name": "Ord. Time, Week 22, Tues [I, #432]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "5:1",
+          "end": "5:6"
+        },
+        {
+          "start": "5:9",
+          "end": "5:11"
+        }
+      ]
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 4th Sunday in Ord. Time",
+      "color": "#4C6B4F",
+      "start": "1:1",
+      "end": "2:12"
+    },
+    {
+      "name": "OR: Common of Pastors, For a pope or bishop (Advent/Christmas/Lent)",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "2:1",
+          "end": "2:13"
+        },
+        {
+          "start": "2:19",
+          "end": "2:20"
+        }
+      ]
+    },
+    {
+      "name": "OR: 4th Week in Ord. Time, Monday",
+      "color": "#4C6B4F",
+      "start": "2:13",
+      "end": "3:13"
+    },
+    {
+      "name": "OR: 4th Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "start": "4:1",
+      "end": "4:18"
+    },
+    {
+      "name": "OR: 4th Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "start": "5:1",
+      "end": "5:28"
+    }
+  ]
+}

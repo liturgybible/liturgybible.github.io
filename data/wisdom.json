@@ -1,0 +1,232 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "13th Sunday in Ordinary Time [B, #98]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "1:13",
+          "end": "1:15"
+        },
+        {
+          "start": "2:23",
+          "end": "2:24"
+        }
+      ]
+    },
+    {
+      "name": "25th Sunday in Ordinary Time [B, #134]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "2:12",
+          "end": "2:12"
+        },
+        {
+          "start": "2:17",
+          "end": "2:20"
+        }
+      ]
+    },
+    {
+      "name": "Nov 2: Commemoration of All Souls (Option 1) [#668.1]",
+      "color": "#C9A441",
+      "start": "3:1",
+      "end": "3:9"
+    },
+    {
+      "name": "Nov 2: Commemoration of All Souls (Option 2) [#668.2]",
+      "color": "#C9A441",
+      "start": "4:7",
+      "end": "4:15"
+    },
+    {
+      "name": "32nd Sunday in Ordinary Time [A, #154]",
+      "color": "#7B2E2B",
+      "start": "6:12",
+      "end": "6:16"
+    },
+    {
+      "name": "28th Sunday in Ordinary Time [B, #143]",
+      "color": "#7B2E2B",
+      "start": "7:7",
+      "end": "7:11"
+    },
+    {
+      "name": "23rd Sunday in Ordinary Time [C, #129]",
+      "color": "#7B2E2B",
+      "start": "9:13",
+      "end": "9:18b"
+    },
+    {
+      "name": "31st Sunday in Ordinary Time [C, #153]",
+      "color": "#7B2E2B",
+      "start": "11:22",
+      "end": "12:2"
+    },
+    {
+      "name": "16th Sunday in Ordinary Time [A, #106]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "12:13",
+          "end": "12:13"
+        },
+        {
+          "start": "12:16",
+          "end": "12:19"
+        }
+      ]
+    },
+    {
+      "name": "19th Sunday in Ordinary Time [C, #117]",
+      "color": "#7B2E2B",
+      "start": "18:6",
+      "end": "18:9"
+    },
+    {
+      "name": "Ord. Time, Week 32, Mon [I, #491]",
+      "color": "#B35C58",
+      "start": "1:1",
+      "end": "1:7"
+    },
+    {
+      "name": "Lent, Week 4, Fri [I/II, #248]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "2:1a",
+          "end": "2:1a"
+        },
+        {
+          "start": "2:12",
+          "end": "2:22"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 32, Tues [I, #492]",
+      "color": "#B35C58",
+      "start": "2:23",
+      "end": "3:9"
+    },
+    {
+      "name": "Ord. Time, Week 32, Wed [I, #493]",
+      "color": "#B35C58",
+      "start": "6:1",
+      "end": "6:11"
+    },
+    {
+      "name": "Ord. Time, Week 32, Thurs [I, #494]",
+      "color": "#B35C58",
+      "start": "7:22b",
+      "end": "8:1"
+    },
+    {
+      "name": "Ord. Time, Week 32, Fri [I, #495]",
+      "color": "#B35C58",
+      "start": "13:1",
+      "end": "13:9"
+    },
+    {
+      "name": "Ord. Time, Week 32, Sat [I, #496]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "18:14",
+          "end": "18:16"
+        },
+        {
+          "start": "19:6",
+          "end": "19:9"
+        }
+      ]
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 30th Sunday in Ord. Time",
+      "color": "#4C6B4F",
+      "start": "1:1",
+      "end": "1:15"
+    },
+    {
+      "name": "OR: 30th Week in Ord. Time, Monday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "1:16",
+          "end": "2:1a"
+        },
+        {
+          "start": "1:10",
+          "end": "1:24"
+        }
+      ]
+    },
+    {
+      "name": "OR: Common of Several Martyrs (Advent/Christmas/Lent)",
+      "color": "#4C6B4F",
+      "start": "3:1",
+      "end": "3:15"
+    },
+    {
+      "name": "OR: 30th Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "start": "3:1",
+      "end": "3:19"
+    },
+    {
+      "name": "OR: Common of Holy Men (Advent/Christmas/Lent)",
+      "color": "#4C6B4F",
+      "start": "5:1",
+      "end": "5:15"
+    },
+    {
+      "name": "OR: 30th Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "start": "6:1",
+      "end": "6:25"
+    },
+    {
+      "name": "OR: Common of Doctors of the Church (Advent/Christmas/Lent)",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "7:7",
+          "end": "7:16"
+        },
+        {
+          "start": "7:22b",
+          "end": "7:30"
+        }
+      ]
+    },
+    {
+      "name": "OR: 30th Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "start": "7:15",
+      "end": "7:30"
+    },
+    {
+      "name": "OR: 30th Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "start": "8:1",
+      "end": "8:21b"
+    },
+    {
+      "name": "OR: 30th Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "11:20b",
+          "end": "12:2"
+        },
+        {
+          "start": "11:11b",
+          "end": "11:19"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "2nd Sunday of Easter [A, #43]",
+      "color": "#7B2E2B",
+      "start": "1:3",
+      "end": "1:9"
+    },
+    {
+      "name": "June 24: Nativity of St. John the Baptist, Vigil [#586]",
+      "color": "#C9A441",
+      "start": "1:8",
+      "end": "1:12"
+    },
+    {
+      "name": "3rd Sunday of Easter [A, #46]",
+      "color": "#7B2E2B",
+      "start": "1:17",
+      "end": "1:21"
+    },
+    {
+      "name": "5th Sunday of Easter [A, #52]",
+      "color": "#7B2E2B",
+      "start": "2:4",
+      "end": "2:9"
+    },
+    {
+      "name": "4th Sunday of Easter [A, #49]",
+      "color": "#7B2E2B",
+      "start": "2:20b",
+      "end": "2:25"
+    },
+    {
+      "name": "6th Sunday of Easter [A, #55]",
+      "color": "#7B2E2B",
+      "start": "3:15",
+      "end": "3:18"
+    },
+    {
+      "name": "1st Sunday of Lent [B, #23]",
+      "color": "#7B2E2B",
+      "start": "3:18",
+      "end": "3:22"
+    },
+    {
+      "name": "7th Sunday of Easter (note 2) [A, #59]",
+      "color": "#7B2E2B",
+      "start": "4:13",
+      "end": "4:16"
+    },
+    {
+      "name": "Ord. Time, Week 8, Mon [II, #347]",
+      "color": "#B35C58",
+      "start": "1:3",
+      "end": "1:9"
+    },
+    {
+      "name": "June 24: Solemnity: Nativity of St. John the Baptist, Vigil [I/II, #586]",
+      "color": "#C9A441",
+      "start": "1:8",
+      "end": "1:12"
+    },
+    {
+      "name": "Ord. Time, Week 8, Tues [II, #348]",
+      "color": "#B35C58",
+      "start": "1:10",
+      "end": "1:16"
+    },
+    {
+      "name": "Ord. Time, Week 8, Wed [II, #349]",
+      "color": "#B35C58",
+      "start": "1:18",
+      "end": "1:25"
+    },
+    {
+      "name": "Ord. Time, Week 8, Thurs [II, #350]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "2:2",
+          "end": "2:5"
+        },
+        {
+          "start": "2:9",
+          "end": "2:12"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 8, Fri [II, #351]",
+      "color": "#B35C58",
+      "start": "4:7",
+      "end": "4:13"
+    },
+    {
+      "name": "Feb 22: Chair of St. Peter, Apostle [I/II, #535]",
+      "color": "#C9A441",
+      "start": "5:1",
+      "end": "5:4"
+    },
+    {
+      "name": "April 25: St. Mark, Evangelist [I/II, #555]",
+      "color": "#C9A441",
+      "start": "5:5b",
+      "end": "5:14"
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: Monday within the Octave of Easter",
+      "color": "#4C6B4F",
+      "start": "1:1",
+      "end": "1:21"
+    },
+    {
+      "name": "OR: Tuesday within the Octave of Easter",
+      "color": "#4C6B4F",
+      "start": "1:22",
+      "end": "2:10"
+    },
+    {
+      "name": "OR: Common of the Dedication of a Church (Ordinary Time)",
+      "color": "#4C6B4F",
+      "start": "2:1",
+      "end": "2:17"
+    },
+    {
+      "name": "OR: Wednesday within the Octave of Easter",
+      "color": "#4C6B4F",
+      "start": "2:11",
+      "end": "2:25"
+    },
+    {
+      "name": "OR: Thursday within the Octave of Easter",
+      "color": "#4C6B4F",
+      "start": "3:1",
+      "end": "3:17"
+    },
+    {
+      "name": "OR: Common of Holy Women, alt. reading, For a married woman",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "3:1",
+          "end": "3:6"
+        },
+        {
+          "start": "3:8",
+          "end": "3:17"
+        }
+      ]
+    },
+    {
+      "name": "OR: Common of Holy Men, For a married man (Advent/Christmas/Lent/Easter)",
+      "color": "#4C6B4F",
+      "start": "3:7",
+      "end": "3:17"
+    },
+    {
+      "name": "OR: Friday within the Octave of Easter",
+      "color": "#4C6B4F",
+      "start": "3:18",
+      "end": "4:11"
+    },
+    {
+      "name": "OR: Saturday within the Octave of Easter",
+      "color": "#4C6B4F",
+      "start": "4:12",
+      "end": "5:14"
+    },
+    {
+      "name": "OR: Common of Pastors, For a priest (Ordinary Time)",
+      "color": "#4C6B4F",
+      "start": "5:1",
+      "end": "5:11"
+    }
+  ]
+}

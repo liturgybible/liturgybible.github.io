@@ -1,0 +1,47 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "3rd Sunday in Ordinary Time [C, #69]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "8:2",
+          "end": "8:4a"
+        },
+        {
+          "start": "8:5",
+          "end": "8:6"
+        },
+        {
+          "start": "8:8",
+          "end": "8:10"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 26, Wed [I, #457]",
+      "color": "#B35C58",
+      "start": "2:1",
+      "end": "2:8"
+    },
+    {
+      "name": "Ord. Time, Week 26, Thurs [I, #458]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "8:1",
+          "end": "8:4a"
+        },
+        {
+          "start": "8:5",
+          "end": "8:6"
+        },
+        {
+          "start": "8:7b",
+          "end": "8:12"
+        }
+      ]
+    }
+  ],
+  "divineOffice": []
+}

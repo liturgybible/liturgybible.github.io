@@ -1,0 +1,102 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "4th Sunday of Advent [C, #12]",
+      "color": "#7B2E2B",
+      "start": "5:1",
+      "end": "5:4a"
+    },
+    {
+      "name": "Ord. Time, Week 15, Sat [II, #394]",
+      "color": "#B35C58",
+      "start": "2:1",
+      "end": "2:5"
+    },
+    {
+      "name": "Sept 8: Nativity of the BVMary (option 1) [I/II, #636]",
+      "color": "#C9A441",
+      "start": "5:1",
+      "end": "5:4a"
+    },
+    {
+      "name": "Ord. Time, Week 16, Mon [II, #395]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "6:1",
+          "end": "6:4"
+        },
+        {
+          "start": "6:6",
+          "end": "6:8"
+        }
+      ]
+    },
+    {
+      "name": "Lent, Week 4, opt. Mass [I/II, #243]",
+      "color": "#B35C58",
+      "start": "7:7",
+      "end": "7:9"
+    },
+    {
+      "name": "Lent, Week 2, Sat [I/II, #235]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "7:14",
+          "end": "7:15"
+        },
+        {
+          "start": "7:18",
+          "end": "7:20"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 16, Tues [II, #396]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "7:14",
+          "end": "7:15"
+        },
+        {
+          "start": "7:18",
+          "end": "7:20"
+        }
+      ]
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 19th Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "start": "3:1",
+      "end": "3:12"
+    },
+    {
+      "name": "OR: 19th Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "start": "4:14",
+      "end": "5:7"
+    },
+    {
+      "name": "OR: 19th Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "start": "4:1",
+      "end": "4:7"
+    },
+    {
+      "name": "OR: 19th Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "start": "6:1",
+      "end": "6:15"
+    },
+    {
+      "name": "OR: 19th Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "start": "7:7",
+      "end": "7:20"
+    }
+  ]
+}

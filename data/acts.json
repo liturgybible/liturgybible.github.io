@@ -1,0 +1,698 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "Ascension of the Lord [ABC, #58]",
+      "color": "#7B2E2B",
+      "start": "1:1",
+      "end": "1:11"
+    },
+    {
+      "name": "7th Sunday of Easter (note 2) [A, #59]",
+      "color": "#7B2E2B",
+      "start": "1:12",
+      "end": "1:14"
+    },
+    {
+      "name": "7th Sunday of Easter (note 2) [B, #60]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "1:15",
+          "end": "1:17"
+        },
+        {
+          "start": "1:20a",
+          "end": "1:20a"
+        },
+        {
+          "start": "1:20c",
+          "end": "1:26"
+        }
+      ]
+    },
+    {
+      "name": "Pentecost Sunday [ABC, #63]",
+      "color": "#7B2E2B",
+      "start": "2:1",
+      "end": "2:11"
+    },
+    {
+      "name": "3rd Sunday of Easter [A, #46]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "2:14",
+          "end": "2:14"
+        },
+        {
+          "start": "2:22",
+          "end": "2:33"
+        }
+      ]
+    },
+    {
+      "name": "4th Sunday of Easter [A, #49]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "2:14a",
+          "end": "2:14a"
+        },
+        {
+          "start": "2:36",
+          "end": "2:41"
+        }
+      ]
+    },
+    {
+      "name": "2nd Sunday of Easter [A, #43]",
+      "color": "#7B2E2B",
+      "start": "2:42",
+      "end": "2:47"
+    },
+    {
+      "name": "June 29: Sts. Peter and Paul, Apostles, Vigil (1st reading) [#590]",
+      "color": "#C9A441",
+      "start": "3:1",
+      "end": "3:10"
+    },
+    {
+      "name": "3rd Sunday of Easter [B, #47]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "3:13",
+          "end": "3:15"
+        },
+        {
+          "start": "3:17",
+          "end": "3:19"
+        }
+      ]
+    },
+    {
+      "name": "4th Sunday of Easter [B, #50]",
+      "color": "#7B2E2B",
+      "start": "4:8",
+      "end": "4:12"
+    },
+    {
+      "name": "2nd Sunday of Easter [B, #44]",
+      "color": "#7B2E2B",
+      "start": "4:32",
+      "end": "4:35"
+    },
+    {
+      "name": "2nd Sunday of Easter [C, #45]",
+      "color": "#7B2E2B",
+      "start": "5:12",
+      "end": "5:16"
+    },
+    {
+      "name": "3rd Sunday of Easter [C, #48]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "5:27",
+          "end": "5:32"
+        },
+        {
+          "start": "5:40b",
+          "end": "5:41"
+        }
+      ]
+    },
+    {
+      "name": "5th Sunday of Easter [A, #52]",
+      "color": "#7B2E2B",
+      "start": "6:1",
+      "end": "6:7"
+    },
+    {
+      "name": "7th Sunday of Easter (note 2) [C, #61]",
+      "color": "#7B2E2B",
+      "start": "7:55",
+      "end": "7:60"
+    },
+    {
+      "name": "6th Sunday of Easter [A, #55]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "8:5",
+          "end": "8:8"
+        },
+        {
+          "start": "8:14",
+          "end": "8:17"
+        }
+      ]
+    },
+    {
+      "name": "5th Sunday of Easter [B, #53]",
+      "color": "#7B2E2B",
+      "start": "9:26",
+      "end": "9:31"
+    },
+    {
+      "name": "6th Sunday of Easter [B, #56]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "10:25",
+          "end": "10:26"
+        },
+        {
+          "start": "10:34",
+          "end": "10:35"
+        },
+        {
+          "start": "10:44",
+          "end": "10:48"
+        }
+      ]
+    },
+    {
+      "name": "Sunday after Epiphany: Baptism of the Lord [ABC, #21]",
+      "color": "#7B2E2B",
+      "start": "10:34",
+      "end": "10:38"
+    },
+    {
+      "name": "Easter Sunday: Resurrection of the Lord [ABC, #42]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "10:34a",
+          "end": "10:34a"
+        },
+        {
+          "start": "10:37",
+          "end": "10:43"
+        }
+      ]
+    },
+    {
+      "name": "June 29: Sts. Peter and Paul, Apostles, Day (1st reading) [#591]",
+      "color": "#C9A441",
+      "start": "12:1",
+      "end": "12:11"
+    },
+    {
+      "name": "4th Sunday of Easter [C, #51]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "13:14",
+          "end": "13:14"
+        },
+        {
+          "start": "13:43",
+          "end": "13:52"
+        }
+      ]
+    },
+    {
+      "name": "Dec. 25: Christmas: Vigil Mass [ABC, #13]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "13:16",
+          "end": "13:17"
+        },
+        {
+          "start": "13:22",
+          "end": "13:25"
+        }
+      ]
+    },
+    {
+      "name": "June 24: Nativity of St. John the Baptist, Day [#587]",
+      "color": "#C9A441",
+      "start": "13:22",
+      "end": "13:26"
+    },
+    {
+      "name": "5th Sunday of Easter [C, #54]",
+      "color": "#7B2E2B",
+      "start": "14:21",
+      "end": "14:27"
+    },
+    {
+      "name": "6th Sunday of Easter [C, #57]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "15:1",
+          "end": "15:2"
+        },
+        {
+          "start": "15:22",
+          "end": "15:29"
+        }
+      ]
+    },
+    {
+      "name": "Mon after Pentecost: BVMary, Mother of the Church (option 2) [I/II]",
+      "color": "#C9A441",
+      "start": "1:12",
+      "end": "1:14"
+    },
+    {
+      "name": "May 14: St. Matthias, Apostle [I/II, #564]",
+      "color": "#C9A441",
+      "segments": [
+        {
+          "start": "1:15",
+          "end": "1:17"
+        },
+        {
+          "start": "1:20",
+          "end": "1:26"
+        }
+      ]
+    },
+    {
+      "name": "Easter Octave, Mon [I/II, #261]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "2:14",
+          "end": "2:14"
+        },
+        {
+          "start": "2:22",
+          "end": "2:33"
+        }
+      ]
+    },
+    {
+      "name": "Easter Octave, Tues [I/II, #262]",
+      "color": "#B35C58",
+      "start": "2:36",
+      "end": "2:41"
+    },
+    {
+      "name": "Easter Octave, Wed [I/II, #263]",
+      "color": "#B35C58",
+      "start": "3:1",
+      "end": "3:10"
+    },
+    {
+      "name": "June 29: Solemnity: Sts. Peter and Paul, Vigil (1st reading) [I/II, #590]",
+      "color": "#C9A441",
+      "start": "3:1",
+      "end": "3:10"
+    },
+    {
+      "name": "Easter Octave, Thurs [I/II, #264]",
+      "color": "#B35C58",
+      "start": "3:11",
+      "end": "3:26"
+    },
+    {
+      "name": "Easter Octave, Fri [I/II, #265]",
+      "color": "#B35C58",
+      "start": "4:1",
+      "end": "4:12"
+    },
+    {
+      "name": "Easter Octave, Sat [I/II, #266]",
+      "color": "#B35C58",
+      "start": "4:13",
+      "end": "4:21"
+    },
+    {
+      "name": "Easter, Week 2, Mon [I/II, #267]",
+      "color": "#B35C58",
+      "start": "4:23",
+      "end": "4:31"
+    },
+    {
+      "name": "Easter, Week 2, Tues [I/II, #268]",
+      "color": "#B35C58",
+      "start": "4:32",
+      "end": "4:37"
+    },
+    {
+      "name": "Easter, Week 2, Wed [I/II, #269]",
+      "color": "#B35C58",
+      "start": "5:17",
+      "end": "5:26"
+    },
+    {
+      "name": "Easter, Week 2, Thurs [I/II, #270]",
+      "color": "#B35C58",
+      "start": "5:27",
+      "end": "5:33"
+    },
+    {
+      "name": "Easter, Week 2, Fri [I/II, #271]",
+      "color": "#B35C58",
+      "start": "5:34",
+      "end": "5:42"
+    },
+    {
+      "name": "Easter, Week 2, Sat [I/II, #272]",
+      "color": "#B35C58",
+      "start": "6:1",
+      "end": "6:7"
+    },
+    {
+      "name": "Dec 26: St. Stephen, the first martyr [I/II, #696]",
+      "color": "#C9A441",
+      "segments": [
+        {
+          "start": "6:8",
+          "end": "6:10"
+        },
+        {
+          "start": "7:54",
+          "end": "7:59"
+        }
+      ]
+    },
+    {
+      "name": "Easter, Week 3, Mon [I/II, #273]",
+      "color": "#B35C58",
+      "start": "6:8",
+      "end": "6:15"
+    },
+    {
+      "name": "Easter, Week 3, Tues [I/II, #274]",
+      "color": "#B35C58",
+      "start": "7:51",
+      "end": "8:1a"
+    },
+    {
+      "name": "Easter, Week 3, Wed [I/II, #275]",
+      "color": "#B35C58",
+      "start": "8:1b",
+      "end": "8:8"
+    },
+    {
+      "name": "Easter, Week 3, Thurs [I/II, #276]",
+      "color": "#B35C58",
+      "start": "8:26",
+      "end": "8:40"
+    },
+    {
+      "name": "Easter, Week 3, Fri [I/II, #277]",
+      "color": "#B35C58",
+      "start": "9:1",
+      "end": "9:20"
+    },
+    {
+      "name": "Jan 25: Conversion of St. Paul, Apostle (option 2) [I/II, #519]",
+      "color": "#C9A441",
+      "start": "9:1",
+      "end": "9:22"
+    },
+    {
+      "name": "Easter, Week 3, Sat [I/II, #278]",
+      "color": "#B35C58",
+      "start": "9:31",
+      "end": "9:42"
+    },
+    {
+      "name": "Easter, Week 4, Mon [I/II, #279]",
+      "color": "#B35C58",
+      "start": "11:1",
+      "end": "11:18"
+    },
+    {
+      "name": "Easter, Week 4, Tues [I/II, #280]",
+      "color": "#B35C58",
+      "start": "11:19",
+      "end": "11:26"
+    },
+    {
+      "name": "June 11: St. Barnabas, Apostle [I/II, #580]",
+      "color": "#C9A441",
+      "segments": [
+        {
+          "start": "11:21b",
+          "end": "11:26"
+        },
+        {
+          "start": "13:1",
+          "end": "13:3"
+        }
+      ]
+    },
+    {
+      "name": "June 29: Solemnity: Sts. Peter and Paul, Day (1st reading) [I/II, #591]",
+      "color": "#C9A441",
+      "start": "12:1",
+      "end": "12:11"
+    },
+    {
+      "name": "Easter, Week 4, Wed [I/II, #281]",
+      "color": "#B35C58",
+      "start": "12:24",
+      "end": "13:5a"
+    },
+    {
+      "name": "Easter, Week 4, Thurs [I/II, #282]",
+      "color": "#B35C58",
+      "start": "13:13",
+      "end": "13:25"
+    },
+    {
+      "name": "June 24: Solemnity: Nativity of St. John the Baptist, Day [I/II, #587]",
+      "color": "#C9A441",
+      "start": "13:22",
+      "end": "13:26"
+    },
+    {
+      "name": "Easter, Week 4, Fri [I/II, #283]",
+      "color": "#B35C58",
+      "start": "13:26",
+      "end": "13:33"
+    },
+    {
+      "name": "Easter, Week 4, Sat [I/II, #284]",
+      "color": "#B35C58",
+      "start": "13:44",
+      "end": "13:52"
+    },
+    {
+      "name": "Easter, Week 5, Mon [I/II, #285]",
+      "color": "#B35C58",
+      "start": "14:5",
+      "end": "14:18"
+    },
+    {
+      "name": "Easter, Week 5, Tues [I/II, #286]",
+      "color": "#B35C58",
+      "start": "14:19",
+      "end": "14:28"
+    },
+    {
+      "name": "Easter, Week 5, Wed [I/II, #287]",
+      "color": "#B35C58",
+      "start": "15:1",
+      "end": "15:6"
+    },
+    {
+      "name": "Easter, Week 5, Thurs [I/II, #288]",
+      "color": "#B35C58",
+      "start": "15:7",
+      "end": "15:21"
+    },
+    {
+      "name": "Easter, Week 5, Fri [I/II, #289]",
+      "color": "#B35C58",
+      "start": "15:22",
+      "end": "15:31"
+    },
+    {
+      "name": "Easter, Week 5, Sat [I/II, #290]",
+      "color": "#B35C58",
+      "start": "16:1",
+      "end": "16:10"
+    },
+    {
+      "name": "Easter, Week 6, Mon [I/II, #291]",
+      "color": "#B35C58",
+      "start": "16:11",
+      "end": "16:15"
+    },
+    {
+      "name": "Easter, Week 6, Tues [I/II, #292]",
+      "color": "#B35C58",
+      "start": "16:22",
+      "end": "16:34"
+    },
+    {
+      "name": "Easter, Week 6, Wed [I/II, #293]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "17:15",
+          "end": "17:15"
+        },
+        {
+          "start": "22",
+          "end": "18:1"
+        }
+      ]
+    },
+    {
+      "name": "Easter, Week 6, Thurs [I/II, #294]",
+      "color": "#B35C58",
+      "start": "18:1",
+      "end": "18:8"
+    },
+    {
+      "name": "Easter, Week 6, Fri [I/II, #295]",
+      "color": "#B35C58",
+      "start": "18:9",
+      "end": "18:18"
+    },
+    {
+      "name": "Easter, Week 6, Sat [I/II, #296]",
+      "color": "#B35C58",
+      "start": "18:23",
+      "end": "18:28"
+    },
+    {
+      "name": "Easter, Week 7, Mon [I/II, #297]",
+      "color": "#B35C58",
+      "start": "19:1",
+      "end": "19:8"
+    },
+    {
+      "name": "Easter, Week 7, Tues [I/II, #298]",
+      "color": "#B35C58",
+      "start": "20:17",
+      "end": "20:27"
+    },
+    {
+      "name": "Easter, Week 7, Wed [I/II, #299]",
+      "color": "#B35C58",
+      "start": "20:28",
+      "end": "20:38"
+    },
+    {
+      "name": "Jan 25: Conversion of St. Paul, Apostle (option 1) [I/II, #519]",
+      "color": "#C9A441",
+      "start": "22:3",
+      "end": "22:16"
+    },
+    {
+      "name": "Easter, Week 7, Thurs [I/II, #300]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "22:30",
+          "end": "22:30"
+        },
+        {
+          "start": "23:6",
+          "end": "23:11"
+        }
+      ]
+    },
+    {
+      "name": "Easter, Week 7, Fri [I/II, #301]",
+      "color": "#B35C58",
+      "start": "25:13b",
+      "end": "25:21"
+    },
+    {
+      "name": "Nov 18: Dedication of the Basilicas of Sts. Peter and Paul [I/II, #679]",
+      "color": "#C9A441",
+      "segments": [
+        {
+          "start": "28:11",
+          "end": "28:16"
+        },
+        {
+          "start": "28:30",
+          "end": "28:31"
+        }
+      ]
+    },
+    {
+      "name": "Easter, Week 7, Sat morn. [I/II, #302]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "28:16",
+          "end": "28:20"
+        },
+        {
+          "start": "28:30",
+          "end": "28:31"
+        }
+      ]
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: Common of Apostles (Easter)",
+      "color": "#4C6B4F",
+      "start": "5:12",
+      "end": "5:32"
+    },
+    {
+      "name": "OR: Aug. 10: Lawrence, Deacon and Martyr",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "6:1",
+          "end": "6:6"
+        },
+        {
+          "start": "8:1b",
+          "end": "8:1b"
+        },
+        {
+          "start": "8:4",
+          "end": "8:8"
+        }
+      ]
+    },
+    {
+      "name": "OR: Dec. 26: Stephen, First Martyr",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "6:8",
+          "end": "7:2a"
+        },
+        {
+          "start": "6:44",
+          "end": "6:49"
+        }
+      ]
+    },
+    {
+      "name": "OR: Oct. 18: Luke, Evangelist",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "9:27",
+          "end": "9:31"
+        },
+        {
+          "start": "11:19",
+          "end": "11:26"
+        }
+      ]
+    },
+    {
+      "name": "OR: Feb. 22: Chair of Peter, Apostle",
+      "color": "#4C6B4F",
+      "start": "11:1",
+      "end": "11:18"
+    },
+    {
+      "name": "OR: Common of Pastors, For a pope or bishop (Easter)",
+      "color": "#4C6B4F",
+      "start": "20:17",
+      "end": "20:36"
+    }
+  ]
+}

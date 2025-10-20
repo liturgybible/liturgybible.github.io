@@ -1,0 +1,138 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "Jan. 1: Mary, Mother of God [ABC, #18]",
+      "color": "#7B2E2B",
+      "start": "6:22",
+      "end": "6:27"
+    },
+    {
+      "name": "26th Sunday in Ordinary Time [B, #137]",
+      "color": "#7B2E2B",
+      "start": "11:25",
+      "end": "11:29"
+    },
+    {
+      "name": "Sept 14: Exaltation of the Holy Cross [#638]",
+      "color": "#C9A441",
+      "start": "21:4b",
+      "end": "21:9"
+    },
+    {
+      "name": "Ord. Time, Week 18, Mon [I, #407]",
+      "color": "#B35C58",
+      "start": "11:4b",
+      "end": "11:15"
+    },
+    {
+      "name": "Ord. Time, Week 18, Tues [I, #408]",
+      "color": "#B35C58",
+      "start": "12:1",
+      "end": "12:13"
+    },
+    {
+      "name": "Ord. Time, Week 18, Wed [I, #409]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "13:1",
+          "end": "13:2"
+        },
+        {
+          "start": "25",
+          "end": "14:1"
+        },
+        {
+          "start": "25",
+          "end": "14:26a-29a"
+        },
+        {
+          "start": "25",
+          "end": "14:34-35"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 18, Thurs [I, #410]",
+      "color": "#B35C58",
+      "start": "20:1",
+      "end": "20:13"
+    },
+    {
+      "name": "Lent, Week 5, Tues [I/II, #252]",
+      "color": "#B35C58",
+      "start": "21:4",
+      "end": "21:9"
+    },
+    {
+      "name": "Sept 14: Feast: Exaltation of the Holy Cross [I/II, #638]",
+      "color": "#C9A441",
+      "start": "21:4b",
+      "end": "21:9"
+    },
+    {
+      "name": "Advent, Week 3, Mon [I/II, #187]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "24:2",
+          "end": "24:7"
+        },
+        {
+          "start": "24:15",
+          "end": "24:17a"
+        }
+      ]
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 4th Week of Lent, Wednesday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "11:4",
+          "end": "11:6"
+        },
+        {
+          "start": "11:10",
+          "end": "11:30"
+        }
+      ]
+    },
+    {
+      "name": "OR: 4th Week of Lent, Thursday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "12:16",
+          "end": "13:3"
+        },
+        {
+          "start": "12:17",
+          "end": "12:33"
+        }
+      ]
+    },
+    {
+      "name": "OR: 4th Week of Lent, Friday",
+      "color": "#4C6B4F",
+      "start": "14:1",
+      "end": "14:25"
+    },
+    {
+      "name": "OR: 4th Week of Lent, Saturday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "20:1",
+          "end": "20:13"
+        },
+        {
+          "start": "21:4",
+          "end": "21:9"
+        }
+      ]
+    }
+  ]
+}

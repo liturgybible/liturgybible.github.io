@@ -1,0 +1,935 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "Dec. 25: Christmas: Mass during the Day [ABC, #16]",
+      "color": "#7B2E2B",
+      "start": "1:1",
+      "end": "1:18"
+    },
+    {
+      "name": "Dec. 25: Christmas: Mass during the Day [ABC, #16] (short)",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:5"
+        },
+        {
+          "start": "1:9",
+          "end": "1:14"
+        }
+      ]
+    },
+    {
+      "name": "2nd Sunday after Christmas (note 1) [ABC, #19]",
+      "color": "#7B2E2B",
+      "start": "1:1",
+      "end": "1:18"
+    },
+    {
+      "name": "2nd Sunday after Christmas (note 1) [ABC, #19] (short)",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:5"
+        },
+        {
+          "start": "1:9",
+          "end": "1:14"
+        }
+      ]
+    },
+    {
+      "name": "3rd Sunday of Advent [B, #8]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "1:6",
+          "end": "1:8"
+        },
+        {
+          "start": "1:19",
+          "end": "1:28"
+        }
+      ]
+    },
+    {
+      "name": "2nd Sunday in Ordinary Time [A, #64]",
+      "color": "#7B2E2B",
+      "start": "1:29",
+      "end": "1:34"
+    },
+    {
+      "name": "2nd Sunday in Ordinary Time [B, #65]",
+      "color": "#7B2E2B",
+      "start": "1:35",
+      "end": "1:42"
+    },
+    {
+      "name": "2nd Sunday in Ordinary Time [C, #66]",
+      "color": "#7B2E2B",
+      "start": "2:1",
+      "end": "2:11"
+    },
+    {
+      "name": "Nov 9: Dedication of the Lateran Basilica in Rome [#671]",
+      "color": "#C9A441",
+      "start": "2:13",
+      "end": "2:22"
+    },
+    {
+      "name": "3rd Sunday of Lent [B, #29]",
+      "color": "#7B2E2B",
+      "start": "2:13",
+      "end": "2:25"
+    },
+    {
+      "name": "Sept 14: Exaltation of the Holy Cross [#638]",
+      "color": "#C9A441",
+      "start": "3:13",
+      "end": "3:17"
+    },
+    {
+      "name": "4th Sunday of Lent [B, #32]",
+      "color": "#7B2E2B",
+      "start": "3:14",
+      "end": "3:21"
+    },
+    {
+      "name": "Sunday after Pentecost: Holy Trinity [A, #164]",
+      "color": "#7B2E2B",
+      "start": "3:16",
+      "end": "3:18"
+    },
+    {
+      "name": "3rd Sunday of Lent [A; 29, #28]",
+      "color": "#7B2E2B",
+      "start": "4:5",
+      "end": "4:42"
+    },
+    {
+      "name": "3rd Sunday of Lent [A; 29, #28] (short)",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "4:5",
+          "end": "4:15"
+        },
+        {
+          "start": "4:19b",
+          "end": "4:26"
+        },
+        {
+          "start": "4:39a",
+          "end": "4:39a"
+        },
+        {
+          "start": "4:40",
+          "end": "4:42"
+        }
+      ]
+    },
+    {
+      "name": "17th Sunday in Ordinary Time [B, #110]",
+      "color": "#7B2E2B",
+      "start": "6:1",
+      "end": "6:15"
+    },
+    {
+      "name": "18th Sunday in Ordinary Time [B, #113]",
+      "color": "#7B2E2B",
+      "start": "6:24",
+      "end": "6:35"
+    },
+    {
+      "name": "19th Sunday in Ordinary Time [B, #116]",
+      "color": "#7B2E2B",
+      "start": "6:41",
+      "end": "6:51"
+    },
+    {
+      "name": "20th Sunday in Ordinary Time [B, #119]",
+      "color": "#7B2E2B",
+      "start": "6:51",
+      "end": "6:58"
+    },
+    {
+      "name": "Sunday after Trinity Sun: Body & Blood of Christ [A, #167]",
+      "color": "#7B2E2B",
+      "start": "6:51",
+      "end": "6:58"
+    },
+    {
+      "name": "21st Sunday in Ordinary Time [B, #122]",
+      "color": "#7B2E2B",
+      "start": "6:60",
+      "end": "6:69"
+    },
+    {
+      "name": "Pentecost Sunday: Vigil Mass [ABC, #62]",
+      "color": "#7B2E2B",
+      "start": "7:37",
+      "end": "7:39"
+    },
+    {
+      "name": "5th Sunday of Lent [C, #36]",
+      "color": "#7B2E2B",
+      "start": "8:1",
+      "end": "8:11"
+    },
+    {
+      "name": "4th Sunday of Lent [A; 32, #31]",
+      "color": "#7B2E2B",
+      "start": "9:1",
+      "end": "9:41"
+    },
+    {
+      "name": "4th Sunday of Lent [A; 32, #31] (short)",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "9:1",
+          "end": "9:1"
+        },
+        {
+          "start": "9:6",
+          "end": "9:9"
+        },
+        {
+          "start": "9:13",
+          "end": "9:17"
+        },
+        {
+          "start": "9:34",
+          "end": "9:38"
+        }
+      ]
+    },
+    {
+      "name": "4th Sunday of Easter [A, #49]",
+      "color": "#7B2E2B",
+      "start": "10:1",
+      "end": "10:10"
+    },
+    {
+      "name": "4th Sunday of Easter [B, #50]",
+      "color": "#7B2E2B",
+      "start": "10:11",
+      "end": "10:18"
+    },
+    {
+      "name": "4th Sunday of Easter [C, #51]",
+      "color": "#7B2E2B",
+      "start": "10:27",
+      "end": "10:30"
+    },
+    {
+      "name": "5th Sunday of Lent [A; 35, #34]",
+      "color": "#7B2E2B",
+      "start": "11:1",
+      "end": "11:45"
+    },
+    {
+      "name": "5th Sunday of Lent [A; 35, #34] (short)",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "11:3",
+          "end": "11:7"
+        },
+        {
+          "start": "11:17",
+          "end": "11:17"
+        },
+        {
+          "start": "11:20",
+          "end": "11:27"
+        },
+        {
+          "start": "11:33b",
+          "end": "11:45"
+        }
+      ]
+    },
+    {
+      "name": "Palm Sunday: Procession of Palms (opt. 2) [B, #37]",
+      "color": "#7B2E2B",
+      "start": "12:12",
+      "end": "12:16"
+    },
+    {
+      "name": "5th Sunday of Lent [B, #35]",
+      "color": "#7B2E2B",
+      "start": "12:20",
+      "end": "12:33"
+    },
+    {
+      "name": "Holy Thursday: Mass of the Lord\u2019s Supper [ABC, #39]",
+      "color": "#7B2E2B",
+      "start": "13:1",
+      "end": "13:15"
+    },
+    {
+      "name": "5th Sunday of Easter [C, #54]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "13:31",
+          "end": "13:33a"
+        },
+        {
+          "start": "13:34",
+          "end": "13:35"
+        }
+      ]
+    },
+    {
+      "name": "5th Sunday of Easter [A, #52]",
+      "color": "#7B2E2B",
+      "start": "14:1",
+      "end": "14:12"
+    },
+    {
+      "name": "Pentecost Sunday (opt. C) [C, #63]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "14:15",
+          "end": "14:16"
+        },
+        {
+          "start": "14:23b",
+          "end": "14:26"
+        }
+      ]
+    },
+    {
+      "name": "6th Sunday of Easter [A, #55]",
+      "color": "#7B2E2B",
+      "start": "14:15",
+      "end": "14:21"
+    },
+    {
+      "name": "6th Sunday of Easter [C, #57]",
+      "color": "#7B2E2B",
+      "start": "14:23",
+      "end": "14:29"
+    },
+    {
+      "name": "5th Sunday of Easter [B, #53]",
+      "color": "#7B2E2B",
+      "start": "15:1",
+      "end": "15:8"
+    },
+    {
+      "name": "6th Sunday of Easter [B, #56]",
+      "color": "#7B2E2B",
+      "start": "15:9",
+      "end": "15:17"
+    },
+    {
+      "name": "Pentecost Sunday (opt. B) [B, #63]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "15:26",
+          "end": "15:27"
+        },
+        {
+          "start": "16:12",
+          "end": "16:15"
+        }
+      ]
+    },
+    {
+      "name": "Sunday after Pentecost: Holy Trinity [C, #166]",
+      "color": "#7B2E2B",
+      "start": "16:12",
+      "end": "16:15"
+    },
+    {
+      "name": "7th Sunday of Easter (note 2) [A, #59]",
+      "color": "#7B2E2B",
+      "start": "17:1",
+      "end": "17:11a"
+    },
+    {
+      "name": "7th Sunday of Easter (note 2) [B, #60]",
+      "color": "#7B2E2B",
+      "start": "17:11b",
+      "end": "17:19"
+    },
+    {
+      "name": "7th Sunday of Easter (note 2) [C, #61]",
+      "color": "#7B2E2B",
+      "start": "17:20",
+      "end": "17:26"
+    },
+    {
+      "name": "Good Friday of the Lord\u2019s Passion [ABC, #40]",
+      "color": "#7B2E2B",
+      "start": "18:1",
+      "end": "19:42"
+    },
+    {
+      "name": "34th Sunday in Ord. Time: Christ the King [B, #161]",
+      "color": "#7B2E2B",
+      "start": "18:33b",
+      "end": "18:37"
+    },
+    {
+      "name": "Friday after 2nd Sun after Pentecost: Sacred Heart [B, #171]",
+      "color": "#7B2E2B",
+      "start": "19:31",
+      "end": "19:37"
+    },
+    {
+      "name": "Easter Sunday: Resurrection of the Lord (opt. 1) [ABC, #42]",
+      "color": "#7B2E2B",
+      "start": "20:1",
+      "end": "20:9"
+    },
+    {
+      "name": "Pentecost Sunday [ABC, #63]",
+      "color": "#7B2E2B",
+      "start": "20:19",
+      "end": "20:23"
+    },
+    {
+      "name": "2nd Sunday of Easter [A; 44, #43]",
+      "color": "#7B2E2B",
+      "start": "20:19",
+      "end": "20:31"
+    },
+    {
+      "name": "3rd Sunday of Easter [C, #48]",
+      "color": "#7B2E2B",
+      "start": "21:1",
+      "end": "21:19"
+    },
+    {
+      "name": "3rd Sunday of Easter [C, #48] (short)",
+      "color": "#7B2E2B",
+      "start": "21:1",
+      "end": "21:14"
+    },
+    {
+      "name": "June 29: Sts. Peter and Paul, Vigil [#590]",
+      "color": "#C9A441",
+      "start": "21:15",
+      "end": "21:19"
+    },
+    {
+      "name": "7th Day in Xmas Octave, Dec. 31 [I/II, #204]",
+      "color": "#B35C58",
+      "start": "1:1",
+      "end": "1:18"
+    },
+    {
+      "name": "Christmas Weekday: Jan. 2 [I/II, #205]",
+      "color": "#B35C58",
+      "start": "1:19",
+      "end": "1:28"
+    },
+    {
+      "name": "Christmas Weekday: Jan. 3 [I/II, #206]",
+      "color": "#B35C58",
+      "start": "1:29",
+      "end": "1:34"
+    },
+    {
+      "name": "Christmas Weekday: Jan. 4 [I/II, #207]",
+      "color": "#B35C58",
+      "start": "1:35",
+      "end": "1:42"
+    },
+    {
+      "name": "Christmas Weekday: Jan. 5 [I/II, #208]",
+      "color": "#B35C58",
+      "start": "1:43",
+      "end": "1:51"
+    },
+    {
+      "name": "Aug 24: St. Bartholomew, Apostle [I/II, #629]",
+      "color": "#C9A441",
+      "start": "1:45",
+      "end": "1:51"
+    },
+    {
+      "name": "Sept 29: Sts. Michael, Gabriel, and Raphael, archangels [I/II, #647]",
+      "color": "#C9A441",
+      "start": "1:47",
+      "end": "1:51"
+    },
+    {
+      "name": "Christmas Weekday: Jan. 7 (if Epiphany is Jan. 8) [I/II, #210]",
+      "color": "#B35C58",
+      "start": "2:1",
+      "end": "2:11"
+    },
+    {
+      "name": "Nov 9: Feast: Dedication of the Lateran Basilica in Rome [I/II, #671]",
+      "color": "#C9A441",
+      "start": "2:13",
+      "end": "2:22"
+    },
+    {
+      "name": "Easter, Week 2, Mon [I/II, #267]",
+      "color": "#B35C58",
+      "start": "3:1",
+      "end": "3:8"
+    },
+    {
+      "name": "Easter, Week 2, Tues [I/II, #268]",
+      "color": "#B35C58",
+      "start": "3:7b",
+      "end": "3:15"
+    },
+    {
+      "name": "Sept 14: Feast: Exaltation of the Holy Cross [I/II, #638]",
+      "color": "#C9A441",
+      "start": "3:13",
+      "end": "3:17"
+    },
+    {
+      "name": "Easter, Week 2, Wed [I/II, #269]",
+      "color": "#B35C58",
+      "start": "3:16",
+      "end": "3:21"
+    },
+    {
+      "name": "Sat after Epiphany, or Jan. 12 [I/II, #217]",
+      "color": "#B35C58",
+      "start": "3:22",
+      "end": "3:30"
+    },
+    {
+      "name": "Easter, Week 2, Thurs [I/II, #270]",
+      "color": "#B35C58",
+      "start": "3:31",
+      "end": "3:36"
+    },
+    {
+      "name": "Lent, Week 3, opt. Mass [I/II, #236]",
+      "color": "#B35C58",
+      "start": "4:5",
+      "end": "4:42"
+    },
+    {
+      "name": "Lent, Week 4, Mon [I/II, #244]",
+      "color": "#B35C58",
+      "start": "4:43",
+      "end": "4:54"
+    },
+    {
+      "name": "Lent, Week 4, Tues [I/II, #245]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "5:1",
+          "end": "5:3a"
+        },
+        {
+          "start": "5:5",
+          "end": "5:16"
+        }
+      ]
+    },
+    {
+      "name": "Lent, Week 4, Wed [I/II, #246]",
+      "color": "#B35C58",
+      "start": "5:17",
+      "end": "5:30"
+    },
+    {
+      "name": "Lent, Week 4, Thurs [I/II, #247]",
+      "color": "#B35C58",
+      "start": "5:31",
+      "end": "5:47"
+    },
+    {
+      "name": "Advent, Week 3, Fri [I/II, #191]",
+      "color": "#B35C58",
+      "start": "5:33",
+      "end": "5:36"
+    },
+    {
+      "name": "Easter, Week 2, Fri [I/II, #271]",
+      "color": "#B35C58",
+      "start": "6:1",
+      "end": "6:15"
+    },
+    {
+      "name": "Easter, Week 2, Sat [I/II, #272]",
+      "color": "#B35C58",
+      "start": "6:16",
+      "end": "6:21"
+    },
+    {
+      "name": "Easter, Week 3, Mon [I/II, #273]",
+      "color": "#B35C58",
+      "start": "6:22",
+      "end": "6:29"
+    },
+    {
+      "name": "Easter, Week 3, Tues [I/II, #274]",
+      "color": "#B35C58",
+      "start": "6:30",
+      "end": "6:35"
+    },
+    {
+      "name": "Easter, Week 3, Wed [I/II, #275]",
+      "color": "#B35C58",
+      "start": "6:35",
+      "end": "6:40"
+    },
+    {
+      "name": "Easter, Week 3, Thurs [I/II, #276]",
+      "color": "#B35C58",
+      "start": "6:44",
+      "end": "6:51"
+    },
+    {
+      "name": "Easter, Week 3, Fri [I/II, #277]",
+      "color": "#B35C58",
+      "start": "6:52",
+      "end": "6:59"
+    },
+    {
+      "name": "Easter, Week 3, Sat [I/II, #278]",
+      "color": "#B35C58",
+      "start": "6:60",
+      "end": "6:69"
+    },
+    {
+      "name": "Lent, Week 4, Fri [I/II, #248]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "7:1",
+          "end": "7:2"
+        },
+        {
+          "start": "7:10",
+          "end": "7:10"
+        },
+        {
+          "start": "7:25",
+          "end": "7:30"
+        }
+      ]
+    },
+    {
+      "name": "Lent, Week 4, Sat [I/II, #249]",
+      "color": "#B35C58",
+      "start": "7:40",
+      "end": "7:53"
+    },
+    {
+      "name": "Lent, Week 5, Mon [I/II, #251]",
+      "color": "#B35C58",
+      "start": "8:1",
+      "end": "8:11"
+    },
+    {
+      "name": "Lent, Week 5, Mon (Year C) [I/II, #251]",
+      "color": "#B35C58",
+      "start": "8:12",
+      "end": "8:20"
+    },
+    {
+      "name": "Lent, Week 5, Tues [I/II, #252]",
+      "color": "#B35C58",
+      "start": "8:21",
+      "end": "8:30"
+    },
+    {
+      "name": "Lent, Week 5, Wed [I/II, #253]",
+      "color": "#B35C58",
+      "start": "8:31",
+      "end": "8:42"
+    },
+    {
+      "name": "Lent, Week 5, Thurs [I/II, #254]",
+      "color": "#B35C58",
+      "start": "8:51",
+      "end": "8:59"
+    },
+    {
+      "name": "Lent, Week 4, opt. Mass [I/II, #243]",
+      "color": "#B35C58",
+      "start": "9:1",
+      "end": "9:41"
+    },
+    {
+      "name": "Easter, Week 4, Mon [I/II, #279]",
+      "color": "#B35C58",
+      "start": "10:1",
+      "end": "10:10"
+    },
+    {
+      "name": "Easter, Week 4, Mon (Year A) [I/II, #279]",
+      "color": "#B35C58",
+      "start": "10:11",
+      "end": "10:18"
+    },
+    {
+      "name": "Easter, Week 4, Tues [I/II, #280]",
+      "color": "#B35C58",
+      "start": "10:22",
+      "end": "10:30"
+    },
+    {
+      "name": "Lent, Week 5, Fri [I/II, #255]",
+      "color": "#B35C58",
+      "start": "10:31",
+      "end": "10:42"
+    },
+    {
+      "name": "Lent, Week 5, opt. Mass [I/II, #250]",
+      "color": "#B35C58",
+      "start": "11:1",
+      "end": "11:45"
+    },
+    {
+      "name": "July 29: St. Martha (Proper Gospel only; option 1) [I/II, #607]",
+      "color": "#C9A441",
+      "start": "11:19",
+      "end": "11:27"
+    },
+    {
+      "name": "Lent, Week 5, Sat [I/II, #256]",
+      "color": "#B35C58",
+      "start": "11:45",
+      "end": "11:56"
+    },
+    {
+      "name": "Holy Week, Mon [I/II, #257]",
+      "color": "#B35C58",
+      "start": "12:1",
+      "end": "12:11"
+    },
+    {
+      "name": "Aug 10: St. Lawrence, deacon and martyr [I/II, #618]",
+      "color": "#C9A441",
+      "start": "12:24",
+      "end": "12:26"
+    },
+    {
+      "name": "Easter, Week 4, Wed [I/II, #281]",
+      "color": "#B35C58",
+      "start": "12:44",
+      "end": "12:50"
+    },
+    {
+      "name": "Easter, Week 4, Thurs [I/II, #282]",
+      "color": "#B35C58",
+      "start": "13:16",
+      "end": "13:20"
+    },
+    {
+      "name": "Holy Week, Tues [I/II, #258]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "13:21",
+          "end": "13:33"
+        },
+        {
+          "start": "13:36",
+          "end": "13:38"
+        }
+      ]
+    },
+    {
+      "name": "Easter, Week 4, Fri [I/II, #283]",
+      "color": "#B35C58",
+      "start": "14:1",
+      "end": "14:6"
+    },
+    {
+      "name": "May 3: Sts. Philip and James, Apostles [I/II, #561]",
+      "color": "#C9A441",
+      "start": "14:6",
+      "end": "14:14"
+    },
+    {
+      "name": "Easter, Week 4, Sat [I/II, #284]",
+      "color": "#B35C58",
+      "start": "14:7",
+      "end": "14:14"
+    },
+    {
+      "name": "Easter, Week 5, Mon [I/II, #285]",
+      "color": "#B35C58",
+      "start": "14:21",
+      "end": "14:26"
+    },
+    {
+      "name": "Easter, Week 5, Tues [I/II, #286]",
+      "color": "#B35C58",
+      "start": "14:27",
+      "end": "14:31a"
+    },
+    {
+      "name": "Easter, Week 5, Wed [I/II, #287]",
+      "color": "#B35C58",
+      "start": "15:1",
+      "end": "15:8"
+    },
+    {
+      "name": "Easter, Week 5, Thurs [I/II, #288]",
+      "color": "#B35C58",
+      "start": "15:9",
+      "end": "15:11"
+    },
+    {
+      "name": "May 14: St. Matthias, Apostle [I/II, #564]",
+      "color": "#C9A441",
+      "start": "15:9",
+      "end": "15:17"
+    },
+    {
+      "name": "Easter, Week 5, Fri [I/II, #289]",
+      "color": "#B35C58",
+      "start": "15:12",
+      "end": "15:17"
+    },
+    {
+      "name": "Easter, Week 5, Sat [I/II, #290]",
+      "color": "#B35C58",
+      "start": "15:18",
+      "end": "15:21"
+    },
+    {
+      "name": "Easter, Week 6, Mon [I/II, #291]",
+      "color": "#B35C58",
+      "start": "15:26",
+      "end": "16:4a"
+    },
+    {
+      "name": "Easter, Week 6, Tues [I/II, #292]",
+      "color": "#B35C58",
+      "start": "16:5",
+      "end": "16:11"
+    },
+    {
+      "name": "Easter, Week 6, Wed [I/II, #293]",
+      "color": "#B35C58",
+      "start": "16:12",
+      "end": "16:15"
+    },
+    {
+      "name": "Easter, Week 6, Thurs [I/II, #294]",
+      "color": "#B35C58",
+      "start": "16:16",
+      "end": "16:20"
+    },
+    {
+      "name": "Easter, Week 6, Fri [I/II, #295]",
+      "color": "#B35C58",
+      "start": "16:20",
+      "end": "16:23"
+    },
+    {
+      "name": "Easter, Week 6, Sat [I/II, #296]",
+      "color": "#B35C58",
+      "start": "16:23b",
+      "end": "16:28"
+    },
+    {
+      "name": "Easter, Week 7, Mon [I/II, #297]",
+      "color": "#B35C58",
+      "start": "16:29",
+      "end": "16:33"
+    },
+    {
+      "name": "Easter, Week 7, Tues [I/II, #298]",
+      "color": "#B35C58",
+      "start": "17:1",
+      "end": "17:11a"
+    },
+    {
+      "name": "Easter, Week 7, Wed [I/II, #299]",
+      "color": "#B35C58",
+      "start": "17:11b",
+      "end": "17:19"
+    },
+    {
+      "name": "Easter, Week 7, Thurs [I/II, #300]",
+      "color": "#B35C58",
+      "start": "17:20",
+      "end": "17:26"
+    },
+    {
+      "name": "Sept 15: Our Lady of Sorrows (Proper Gospel only; option 1) [I/II, #639]",
+      "color": "#C9A441",
+      "start": "19:25",
+      "end": "19:27"
+    },
+    {
+      "name": "Mon after Pentecost: BVMary, Mother of the Church [I/II]",
+      "color": "#C9A441",
+      "start": "19:25",
+      "end": "19:34"
+    },
+    {
+      "name": "Dec 27: St. John, Apostle and Evangelist [I/II, #697]",
+      "color": "#C9A441",
+      "start": "20:1a+2",
+      "end": "20:8"
+    },
+    {
+      "name": "July 22: St. Mary Magdalene (Proper Gospel only) [I/II, #603]",
+      "color": "#C9A441",
+      "segments": [
+        {
+          "start": "20:1",
+          "end": "20:2"
+        },
+        {
+          "start": "20:11",
+          "end": "20:18"
+        }
+      ]
+    },
+    {
+      "name": "Easter Octave, Tues [I/II, #262]",
+      "color": "#B35C58",
+      "start": "20:11",
+      "end": "20:18"
+    },
+    {
+      "name": "July 3: St. Thomas, Apostle [I/II, #593]",
+      "color": "#C9A441",
+      "start": "20:24",
+      "end": "20:29"
+    },
+    {
+      "name": "Easter Octave, Fri [I/II, #265]",
+      "color": "#B35C58",
+      "start": "21:1",
+      "end": "21:14"
+    },
+    {
+      "name": "Easter, Week 7, Fri [I/II, #301]",
+      "color": "#B35C58",
+      "start": "21:15",
+      "end": "21:19"
+    },
+    {
+      "name": "June 29: Solemnity: Sts. Peter and Paul, Vigil [I/II, #590]",
+      "color": "#C9A441",
+      "start": "21:15",
+      "end": "21:19"
+    },
+    {
+      "name": "Easter, Week 7, Sat morn. [I/II, #302]",
+      "color": "#B35C58",
+      "start": "21:20",
+      "end": "21:25"
+    }
+  ],
+  "divineOffice": []
+}

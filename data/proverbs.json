@@ -1,0 +1,154 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "Sunday after Pentecost: Holy Trinity [C, #166]",
+      "color": "#7B2E2B",
+      "start": "8:22",
+      "end": "8:31"
+    },
+    {
+      "name": "20th Sunday in Ordinary Time [B, #119]",
+      "color": "#7B2E2B",
+      "start": "9:1",
+      "end": "9:6"
+    },
+    {
+      "name": "33rd Sunday in Ordinary Time [A, #157]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "31:10",
+          "end": "31:13"
+        },
+        {
+          "start": "31:19",
+          "end": "31:20"
+        },
+        {
+          "start": "31:30",
+          "end": "31:31"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 25, Mon [II, #449]",
+      "color": "#B35C58",
+      "start": "3:27",
+      "end": "3:34"
+    },
+    {
+      "name": "Ord. Time, Week 25, Tues [II, #450]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "21:1",
+          "end": "21:6"
+        },
+        {
+          "start": "21:10",
+          "end": "21:13"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 25, Wed [II, #451]",
+      "color": "#B35C58",
+      "start": "30:5",
+      "end": "30:9"
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 6th Sunday in Ord. Time",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:7"
+        },
+        {
+          "start": "1:20",
+          "end": "1:33"
+        }
+      ]
+    },
+    {
+      "name": "OR: 6th Week in Ord. Time, Monday",
+      "color": "#4C6B4F",
+      "start": "3:1",
+      "end": "3:20"
+    },
+    {
+      "name": "OR: 6th Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "8:1",
+          "end": "8:5"
+        },
+        {
+          "start": "8:12",
+          "end": "8:36"
+        }
+      ]
+    },
+    {
+      "name": "OR: 6th Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "start": "9:1",
+      "end": "9:18"
+    },
+    {
+      "name": "OR: 6th Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "start": "10:6",
+      "end": "10:32"
+    },
+    {
+      "name": "OR: 6th Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "15:8",
+          "end": "15:9"
+        },
+        {
+          "start": "15:16",
+          "end": "15:17"
+        },
+        {
+          "start": "15:25",
+          "end": "15:26"
+        },
+        {
+          "start": "15:29",
+          "end": "15:29"
+        },
+        {
+          "start": "15:33",
+          "end": "15:33"
+        },
+        {
+          "start": "16:1",
+          "end": "16:9"
+        },
+        {
+          "start": "17:5",
+          "end": "17:5"
+        }
+      ]
+    },
+    {
+      "name": "OR: 6th Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "start": "31:10",
+      "end": "31:31"
+    },
+    {
+      "name": "OR: Common of Holy Women, alt. reading, For a married woman",
+      "color": "#4C6B4F",
+      "start": "31:10",
+      "end": "31:31"
+    }
+  ]
+}

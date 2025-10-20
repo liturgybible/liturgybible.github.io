@@ -1,0 +1,27 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "Ord. Time, Week 18, Fri [II, #411]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "2:1",
+          "end": "2:1"
+        },
+        {
+          "start": "2:3",
+          "end": "2:3"
+        },
+        {
+          "start": "3:1",
+          "end": "3:3"
+        },
+        {
+          "start": "3:6",
+          "end": "3:7"
+        }
+      ]
+    }
+  ],
+  "divineOffice": []
+}

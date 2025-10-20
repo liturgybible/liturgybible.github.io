@@ -1,0 +1,123 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "27th Sunday in Ordinary Time [C, #141]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "1:6",
+          "end": "1:8"
+        },
+        {
+          "start": "1:13",
+          "end": "1:14"
+        }
+      ]
+    },
+    {
+      "name": "2nd Sunday of Lent [A, #25]",
+      "color": "#7B2E2B",
+      "start": "1:8b",
+      "end": "1:10"
+    },
+    {
+      "name": "28th Sunday in Ordinary Time [C, #144]",
+      "color": "#7B2E2B",
+      "start": "2:8",
+      "end": "2:13"
+    },
+    {
+      "name": "29th Sunday in Ordinary Time [C, #147]",
+      "color": "#7B2E2B",
+      "start": "3:14",
+      "end": "4:2"
+    },
+    {
+      "name": "30th Sunday in Ordinary Time [C, #150]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "4:6",
+          "end": "4:8"
+        },
+        {
+          "start": "4:16",
+          "end": "4:18"
+        }
+      ]
+    },
+    {
+      "name": "June 29: Sts. Peter and Paul, Apostles, Day [#591]",
+      "color": "#C9A441",
+      "segments": [
+        {
+          "start": "4:6",
+          "end": "4:8"
+        },
+        {
+          "start": "4:17",
+          "end": "4:18"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 9, Wed [II, #355]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:3"
+        },
+        {
+          "start": "1:6",
+          "end": "1:12"
+        }
+      ]
+    },
+    {
+      "name": "Jan 26: Sts. Timothy and Titus (Proper 1st Reading; option 1) [I/II, #520]",
+      "color": "#C9A441",
+      "start": "1:1",
+      "end": "1:8"
+    },
+    {
+      "name": "Ord. Time, Week 9, Thurs [II, #356]",
+      "color": "#B35C58",
+      "start": "2:8",
+      "end": "2:15"
+    },
+    {
+      "name": "Ord. Time, Week 9, Fri [II, #357]",
+      "color": "#B35C58",
+      "start": "3:10",
+      "end": "3:17"
+    },
+    {
+      "name": "Ord. Time, Week 9, Sat [II, #358]",
+      "color": "#B35C58",
+      "start": "4:1",
+      "end": "4:8"
+    },
+    {
+      "name": "June 29: Solemnity: Sts. Peter and Paul, Day [I/II, #591]",
+      "color": "#C9A441",
+      "segments": [
+        {
+          "start": "4:6",
+          "end": "4:8"
+        },
+        {
+          "start": "4:17",
+          "end": "4:18"
+        }
+      ]
+    },
+    {
+      "name": "Oct 18: St. Luke, Evangelist [I/II, #661]",
+      "color": "#C9A441",
+      "start": "4:10",
+      "end": "4:17b"
+    }
+  ],
+  "divineOffice": []
+}

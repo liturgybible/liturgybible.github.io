@@ -1,0 +1,242 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "9th Sunday in Ordinary Time [C, #87]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:2"
+        },
+        {
+          "start": "1:6",
+          "end": "1:10"
+        }
+      ]
+    },
+    {
+      "name": "10th Sunday in Ordinary Time [C, #90]",
+      "color": "#7B2E2B",
+      "start": "1:11",
+      "end": "1:19"
+    },
+    {
+      "name": "June 29: Sts. Peter and Paul, Apostles, Vigil [#590]",
+      "color": "#C9A441",
+      "start": "1:11",
+      "end": "1:20"
+    },
+    {
+      "name": "11th Sunday in Ordinary Time [C, #93]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "2:16",
+          "end": "2:16"
+        },
+        {
+          "start": "2:19",
+          "end": "2:21"
+        }
+      ]
+    },
+    {
+      "name": "12th Sunday in Ordinary Time [C, #96]",
+      "color": "#7B2E2B",
+      "start": "3:26",
+      "end": "3:29"
+    },
+    {
+      "name": "Jan. 1: Mary, Mother of God [ABC, #18]",
+      "color": "#7B2E2B",
+      "start": "4:4",
+      "end": "4:7"
+    },
+    {
+      "name": "13th Sunday in Ordinary Time [C, #99]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "5:1",
+          "end": "5:1"
+        },
+        {
+          "start": "5:13",
+          "end": "5:18"
+        }
+      ]
+    },
+    {
+      "name": "Pentecost Sunday (opt. B) [B, #63]",
+      "color": "#7B2E2B",
+      "start": "5:16",
+      "end": "5:25"
+    },
+    {
+      "name": "14th Sunday in Ordinary Time [C, #102]",
+      "color": "#7B2E2B",
+      "start": "6:14",
+      "end": "6:18"
+    },
+    {
+      "name": "Ord. Time, Week 27, Mon [II, #461]",
+      "color": "#B35C58",
+      "start": "1:6",
+      "end": "1:12"
+    },
+    {
+      "name": "June 29: Solemnity: Sts. Peter and Paul, Vigil [I/II, #590]",
+      "color": "#C9A441",
+      "start": "1:11",
+      "end": "1:20"
+    },
+    {
+      "name": "Ord. Time, Week 27, Tues [II, #462]",
+      "color": "#B35C58",
+      "start": "1:13",
+      "end": "1:24"
+    },
+    {
+      "name": "Ord. Time, Week 27, Wed [II, #463]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "2:1",
+          "end": "2:2"
+        },
+        {
+          "start": "2:7",
+          "end": "2:14"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 27, Thurs [II, #464]",
+      "color": "#B35C58",
+      "start": "3:1",
+      "end": "3:5"
+    },
+    {
+      "name": "Ord. Time, Week 27, Fri [II, #465]",
+      "color": "#B35C58",
+      "start": "3:7",
+      "end": "3:14"
+    },
+    {
+      "name": "Ord. Time, Week 27, Sat [II, #466]",
+      "color": "#B35C58",
+      "start": "3:22",
+      "end": "3:29"
+    },
+    {
+      "name": "Ord. Time, Week 28, Mon [II, #467]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "4:22",
+          "end": "4:24"
+        },
+        {
+          "start": "4:26",
+          "end": "4:27"
+        },
+        {
+          "start": "31",
+          "end": "5:1"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 28, Tues [II, #468]",
+      "color": "#B35C58",
+      "start": "5:1",
+      "end": "5:6"
+    },
+    {
+      "name": "Ord. Time, Week 28, Wed [II, #469]",
+      "color": "#B35C58",
+      "start": "5:18",
+      "end": "5:25"
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 5th Sunday in Ord. Time",
+      "color": "#4C6B4F",
+      "start": "1:1",
+      "end": "1:12"
+    },
+    {
+      "name": "OR: Jan. 25: Conversion of Paul, Apostle",
+      "color": "#4C6B4F",
+      "start": "1:11",
+      "end": "1:24"
+    },
+    {
+      "name": "OR: 5th Week in Ord. Time, Monday",
+      "color": "#4C6B4F",
+      "start": "1:13",
+      "end": "2:10"
+    },
+    {
+      "name": "OR: June 29: Peter and Paul, Apostles",
+      "color": "#4C6B4F",
+      "start": "1:15",
+      "end": "2:10"
+    },
+    {
+      "name": "OR: 5th Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "start": "2:11",
+      "end": "3:14"
+    },
+    {
+      "name": "OR: Sept. 14: Triumph of the Cross",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "2:19",
+          "end": "3:7"
+        },
+        {
+          "start": "2:13",
+          "end": "2:14"
+        },
+        {
+          "start": "6:14",
+          "end": "6:16"
+        }
+      ]
+    },
+    {
+      "name": "OR: 5th Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "start": "3:15",
+      "end": "4:17"
+    },
+    {
+      "name": "OR: Common of the Blessed Virgin Mary, alt. (Ordinary Time)",
+      "color": "#4C6B4F",
+      "start": "3:22",
+      "end": "4:7"
+    },
+    {
+      "name": "OR: 5th Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "start": "4:8",
+      "end": "4:31"
+    },
+    {
+      "name": "OR: 5th Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "start": "5:1",
+      "end": "5:25"
+    },
+    {
+      "name": "OR: 5th Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "start": "5:25",
+      "end": "6:18"
+    }
+  ]
+}

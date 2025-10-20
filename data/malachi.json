@@ -1,0 +1,78 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "31st Sunday in Ordinary Time [A, #151]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "1:14b",
+          "end": "2:2b"
+        },
+        {
+          "start": "1:8",
+          "end": "1:10"
+        }
+      ]
+    },
+    {
+      "name": "Feb 2: Presentation of the Lord [#524]",
+      "color": "#C9A441",
+      "start": "3:1",
+      "end": "3:4"
+    },
+    {
+      "name": "33rd Sunday in Ordinary Time [C, #159]",
+      "color": "#7B2E2B",
+      "start": "3:19",
+      "end": "3:20a"
+    },
+    {
+      "name": "Feb 2: Feast: Presentation of the Lord [I/II, #524]",
+      "color": "#C9A441",
+      "start": "3:1",
+      "end": "3:4"
+    },
+    {
+      "name": "Advent, Dec. 23 [I/II, #199]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "3:1",
+          "end": "3:4"
+        },
+        {
+          "start": "3:23",
+          "end": "3:24"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 27, Thurs [I, #464]",
+      "color": "#B35C58",
+      "start": "3:13",
+      "end": "3:20b"
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 28th Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:14"
+        },
+        {
+          "start": "2:13",
+          "end": "2:16"
+        }
+      ]
+    },
+    {
+      "name": "OR: 28th Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "start": "3:1",
+      "end": "3:24"
+    }
+  ]
+}

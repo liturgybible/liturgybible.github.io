@@ -1,0 +1,38 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "Ord. Time, Week 8, Sat [II, #352]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "1:17",
+          "end": "1:17"
+        },
+        {
+          "start": "1:20b",
+          "end": "1:25"
+        }
+      ]
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 34th Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:8"
+        },
+        {
+          "start": "1:12",
+          "end": "1:13"
+        },
+        {
+          "start": "1:17",
+          "end": "1:25"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "Ord. Time, Week 12, Sat [II, #376]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "2:2",
+          "end": "2:2"
+        },
+        {
+          "start": "2:10",
+          "end": "2:14"
+        },
+        {
+          "start": "2:18",
+          "end": "2:19"
+        }
+      ]
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 23rd Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:12"
+        },
+        {
+          "start": "1:18",
+          "end": "1:20"
+        }
+      ]
+    },
+    {
+      "name": "OR: 23rd Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "start": "3:1",
+      "end": "3:33"
+    },
+    {
+      "name": "OR: 23rd Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "start": "5:1",
+      "end": "5:22"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "22nd Sunday in Ordinary Time [B, #125]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "1:17",
+          "end": "1:18"
+        },
+        {
+          "start": "1:21b",
+          "end": "1:22"
+        },
+        {
+          "start": "1:27",
+          "end": "1:27"
+        }
+      ]
+    },
+    {
+      "name": "23rd Sunday in Ordinary Time [B, #128]",
+      "color": "#7B2E2B",
+      "start": "2:1",
+      "end": "2:5"
+    },
+    {
+      "name": "24th Sunday in Ordinary Time [B, #131]",
+      "color": "#7B2E2B",
+      "start": "2:14",
+      "end": "2:18"
+    },
+    {
+      "name": "25th Sunday in Ordinary Time [B, #134]",
+      "color": "#7B2E2B",
+      "start": "3:16",
+      "end": "4:3"
+    },
+    {
+      "name": "26th Sunday in Ordinary Time [B, #137]",
+      "color": "#7B2E2B",
+      "start": "5:1",
+      "end": "5:6"
+    },
+    {
+      "name": "3rd Sunday of Advent [A, #7]",
+      "color": "#7B2E2B",
+      "start": "5:7",
+      "end": "5:10"
+    },
+    {
+      "name": "Ord. Time, Week 6, Mon [II, #335]",
+      "color": "#B35C58",
+      "start": "1:1",
+      "end": "1:11"
+    },
+    {
+      "name": "Ord. Time, Week 6, Tues [II, #336]",
+      "color": "#B35C58",
+      "start": "1:12",
+      "end": "1:18"
+    },
+    {
+      "name": "Ord. Time, Week 6, Wed [II, #337]",
+      "color": "#B35C58",
+      "start": "1:19",
+      "end": "1:27"
+    },
+    {
+      "name": "Ord. Time, Week 6, Thurs [II, #338]",
+      "color": "#B35C58",
+      "start": "2:1",
+      "end": "2:9"
+    },
+    {
+      "name": "Ord. Time, Week 6, Fri [II, #339]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "2:14",
+          "end": "2:24"
+        },
+        {
+          "start": "2:26",
+          "end": "2:26"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 6, Sat [II, #340]",
+      "color": "#B35C58",
+      "start": "3:1",
+      "end": "3:10"
+    },
+    {
+      "name": "Ord. Time, Week 7, Mon [II, #341]",
+      "color": "#B35C58",
+      "start": "3:13",
+      "end": "3:18"
+    },
+    {
+      "name": "Ord. Time, Week 7, Tues [II, #342]",
+      "color": "#B35C58",
+      "start": "4:1",
+      "end": "4:10"
+    },
+    {
+      "name": "Ord. Time, Week 7, Wed [II, #343]",
+      "color": "#B35C58",
+      "start": "4:13",
+      "end": "4:17"
+    },
+    {
+      "name": "Ord. Time, Week 7, Thurs [II, #344]",
+      "color": "#B35C58",
+      "start": "5:1",
+      "end": "5:6"
+    },
+    {
+      "name": "Ord. Time, Week 7, Fri [II, #345]",
+      "color": "#B35C58",
+      "start": "5:9",
+      "end": "5:12"
+    },
+    {
+      "name": "Ord. Time, Week 7, Sat [II, #346]",
+      "color": "#B35C58",
+      "start": "5:13",
+      "end": "5:20"
+    }
+  ],
+  "divineOffice": []
+}

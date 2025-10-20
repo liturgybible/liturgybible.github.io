@@ -1,0 +1,38 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "27th Sunday in Ordinary Time [C, #141]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "1:2",
+          "end": "1:3"
+        },
+        {
+          "start": "2:2",
+          "end": "2:4"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 18, Sat [II, #412]",
+      "color": "#B35C58",
+      "start": "1:12",
+      "end": "2:4"
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 23rd Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "start": "1:1",
+      "end": "2:4a"
+    },
+    {
+      "name": "OR: 23rd Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "start": "2:5",
+      "end": "2:20"
+    }
+  ]
+}

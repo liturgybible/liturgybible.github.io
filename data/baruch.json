@@ -1,0 +1,74 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "Easter Vigil (6th Reading) [ABC, #41]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "3:9",
+          "end": "3:15"
+        },
+        {
+          "start": "32",
+          "end": "4:4"
+        }
+      ]
+    },
+    {
+      "name": "2nd Sunday of Advent [C, #6]",
+      "color": "#7B2E2B",
+      "start": "5:1",
+      "end": "5:9"
+    },
+    {
+      "name": "Ord. Time, Week 26, Fri [I, #459]",
+      "color": "#B35C58",
+      "start": "1:15",
+      "end": "1:22"
+    },
+    {
+      "name": "Ord. Time, Week 26, Sat [I, #460]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "4:5",
+          "end": "4:12"
+        },
+        {
+          "start": "4:27",
+          "end": "4:29"
+        }
+      ]
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 29th Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "1:14",
+          "end": "2:5"
+        },
+        {
+          "start": "3:1",
+          "end": "3:8"
+        }
+      ]
+    },
+    {
+      "name": "OR: 29th Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "3:9",
+          "end": "3:15"
+        },
+        {
+          "start": "24",
+          "end": "4:4"
+        }
+      ]
+    }
+  ]
+}

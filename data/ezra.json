@@ -1,0 +1,35 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "Ord. Time, Week 25, Mon [I, #449]",
+      "color": "#B35C58",
+      "start": "1:1",
+      "end": "1:6"
+    },
+    {
+      "name": "Ord. Time, Week 25, Tues [I, #450]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "6:7",
+          "end": "6:8"
+        },
+        {
+          "start": "6:12b",
+          "end": "6:12b"
+        },
+        {
+          "start": "6:14",
+          "end": "6:20"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 25, Wed [I, #451]",
+      "color": "#B35C58",
+      "start": "9:5",
+      "end": "9:9"
+    }
+  ],
+  "divineOffice": []
+}

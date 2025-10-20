@@ -1,17 +1,1427 @@
 {
   "lectionaryReadings": [
-    { "name": "Christmas (Night) (ABC); Common: BVM", "start": "2:1", "end": "2:14", "color": "#C9A441" },
-    { "name": "Christmas (Dawn) (ABC)", "start": "2:15", "end": "2:20", "color": "#C9A441" },
-    { "name": "Mary, Mother of God (1 Jan)", "start": "2:16", "end": "2:21", "color": "#C9A441" },
-    { "name": "Most Holy Name of Jesus (3 Jan)", "start": "2:21", "end": "2:24", "color": "#C9A441" },
-    { "name": "5th day in Christmas Oct (29 Dec) (I, II)", "start": "2:22", "end": "2:35", "color": "#B35C58" },
-    { "name": "Holy Family (B); Presentation of the Lord (2 Feb)", "start": "2:22", "end": "2:40", "color": "#C9A441" },
-    { "name": "Our Lady of Sorrows (15 Sep) (option 2)", "start": "2:33", "end": "2:35", "color": "#C9A441" },
-    { "name": "6th day in Christmas Oct (30 Dec) (I, II)", "start": "2:36", "end": "2:40", "color": "#B35C58" },
-    { "name": "St. Joseph (19 Mar); Immaculalte Heart of BVM", "start": "2:41", "end": "2:51", "color": "#C9A441" },
-    { "name": "Holy Family (C)", "start": "2:41", "end": "2:52", "color": "#C9A441" }
+    {
+      "name": "3rd Sunday in Ordinary Time [C, #69]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:4"
+        },
+        {
+          "start": "4:14",
+          "end": "4:21"
+        }
+      ]
+    },
+    {
+      "name": "June 24: Nativity of St. John the Baptist, Vigil [#586]",
+      "color": "#C9A441",
+      "start": "1:5",
+      "end": "1:17"
+    },
+    {
+      "name": "4th Sunday of Advent [B, #11]",
+      "color": "#7B2E2B",
+      "start": "1:26",
+      "end": "1:38"
+    },
+    {
+      "name": "March 25: Annunciation of the Lord [#545]",
+      "color": "#C9A441",
+      "start": "1:26",
+      "end": "1:38"
+    },
+    {
+      "name": "Dec 8: Immaculate Conception of the BVMary [#689]",
+      "color": "#C9A441",
+      "start": "1:26",
+      "end": "1:38"
+    },
+    {
+      "name": "4th Sunday of Advent [C, #12]",
+      "color": "#7B2E2B",
+      "start": "1:39",
+      "end": "1:45"
+    },
+    {
+      "name": "Aug 15: Assumption of the BVMary, Day [#622]",
+      "color": "#C9A441",
+      "start": "1:39",
+      "end": "1:56"
+    },
+    {
+      "name": "3rd Sunday of Advent (response - note 4) [B, #8]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "1:46",
+          "end": "1:48"
+        },
+        {
+          "start": "1:49",
+          "end": "1:50"
+        },
+        {
+          "start": "1:53",
+          "end": "1:54"
+        }
+      ]
+    },
+    {
+      "name": "June 24: Nativity of St. John the Baptist, Day [#587]",
+      "color": "#C9A441",
+      "segments": [
+        {
+          "start": "1:57",
+          "end": "1:66"
+        },
+        {
+          "start": "1:80",
+          "end": "1:80"
+        }
+      ]
+    },
+    {
+      "name": "Dec. 25: Christmas: Mass at Midnight [ABC, #14]",
+      "color": "#7B2E2B",
+      "start": "2:1",
+      "end": "2:14"
+    },
+    {
+      "name": "Dec. 25: Christmas: Mass at Dawn [ABC, #15]",
+      "color": "#7B2E2B",
+      "start": "2:15",
+      "end": "2:20"
+    },
+    {
+      "name": "Jan. 1: Mary, Mother of God [ABC, #18]",
+      "color": "#7B2E2B",
+      "start": "2:16",
+      "end": "2:21"
+    },
+    {
+      "name": "Feb 2: Presentation of the Lord [#524]",
+      "color": "#C9A441",
+      "start": "2:22",
+      "end": "2:40"
+    },
+    {
+      "name": "Feb 2: Presentation of the Lord [#524] (short)",
+      "color": "#C9A441",
+      "start": "2:22",
+      "end": "2:32"
+    },
+    {
+      "name": "Sunday in Octave of Christmas: Holy Family [B, #17]",
+      "color": "#7B2E2B",
+      "start": "2:22",
+      "end": "2:40"
+    },
+    {
+      "name": "Sunday in Octave of Christmas: Holy Family [B, #17] (short)",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "2:22",
+          "end": "2:22"
+        },
+        {
+          "start": "2:39",
+          "end": "2:40"
+        }
+      ]
+    },
+    {
+      "name": "March 19: St. Joseph, Husband of the BVMary (Option 2) [#543]",
+      "color": "#C9A441",
+      "start": "2:41",
+      "end": "2:51a"
+    },
+    {
+      "name": "Sunday in Octave of Christmas: Holy Family [C, #17]",
+      "color": "#7B2E2B",
+      "start": "2:41",
+      "end": "2:52"
+    },
+    {
+      "name": "2nd Sunday of Advent [C, #6]",
+      "color": "#7B2E2B",
+      "start": "3:1",
+      "end": "3:6"
+    },
+    {
+      "name": "3rd Sunday of Advent [C, #9]",
+      "color": "#7B2E2B",
+      "start": "3:10",
+      "end": "3:18"
+    },
+    {
+      "name": "Sunday after Epiphany: Baptism of the Lord [C, #21]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "3:15",
+          "end": "3:16"
+        },
+        {
+          "start": "3:21",
+          "end": "3:22"
+        }
+      ]
+    },
+    {
+      "name": "1st Sunday of Lent [C, #24]",
+      "color": "#7B2E2B",
+      "start": "4:1",
+      "end": "4:13"
+    },
+    {
+      "name": "3rd Sunday in Ordinary Time [C, #69]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "4:14",
+          "end": "21 (with 1:1-4"
+        },
+        {
+          "start": "4:see 69",
+          "end": "4:C)"
+        }
+      ]
+    },
+    {
+      "name": "4th Sunday in Ordinary Time [C, #72]",
+      "color": "#7B2E2B",
+      "start": "4:21",
+      "end": "4:30"
+    },
+    {
+      "name": "5th Sunday in Ordinary Time [C, #75]",
+      "color": "#7B2E2B",
+      "start": "5:1",
+      "end": "5:11"
+    },
+    {
+      "name": "6th Sunday in Ordinary Time [C, #78]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "6:17",
+          "end": "6:17"
+        },
+        {
+          "start": "6:20",
+          "end": "6:26"
+        }
+      ]
+    },
+    {
+      "name": "7th Sunday in Ordinary Time [C, #81]",
+      "color": "#7B2E2B",
+      "start": "6:27",
+      "end": "6:38"
+    },
+    {
+      "name": "8th Sunday in Ordinary Time [C, #84]",
+      "color": "#7B2E2B",
+      "start": "6:39",
+      "end": "6:45"
+    },
+    {
+      "name": "9th Sunday in Ordinary Time [C, #87]",
+      "color": "#7B2E2B",
+      "start": "7:1",
+      "end": "7:10"
+    },
+    {
+      "name": "10th Sunday in Ordinary Time [C, #90]",
+      "color": "#7B2E2B",
+      "start": "7:11",
+      "end": "7:17"
+    },
+    {
+      "name": "11th Sunday in Ordinary Time [C, #93]",
+      "color": "#7B2E2B",
+      "start": "7:36",
+      "end": "8:3"
+    },
+    {
+      "name": "11th Sunday in Ordinary Time [C, #93] (short)",
+      "color": "#7B2E2B",
+      "start": "7:36",
+      "end": "7:50"
+    },
+    {
+      "name": "Sunday after Trinity Sun: Body & Blood of Christ [C, #169]",
+      "color": "#7B2E2B",
+      "start": "9:11b",
+      "end": "9:17"
+    },
+    {
+      "name": "12th Sunday in Ordinary Time [C, #96]",
+      "color": "#7B2E2B",
+      "start": "9:18",
+      "end": "9:24"
+    },
+    {
+      "name": "2nd Sunday of Lent [C, #27]",
+      "color": "#7B2E2B",
+      "start": "9:28b",
+      "end": "9:36"
+    },
+    {
+      "name": "Aug 6: Transfiguration of the Lord (Year C) [#614]",
+      "color": "#C9A441",
+      "start": "9:28b",
+      "end": "9:36"
+    },
+    {
+      "name": "13th Sunday in Ordinary Time [C, #99]",
+      "color": "#7B2E2B",
+      "start": "9:51",
+      "end": "9:62"
+    },
+    {
+      "name": "14th Sunday in Ordinary Time [C, #102]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "10:1",
+          "end": "10:12"
+        },
+        {
+          "start": "10:17",
+          "end": "10:20"
+        }
+      ]
+    },
+    {
+      "name": "14th Sunday in Ordinary Time [C, #102] (short)",
+      "color": "#7B2E2B",
+      "start": "10:1",
+      "end": "10:9"
+    },
+    {
+      "name": "15th Sunday in Ordinary Time [C, #105]",
+      "color": "#7B2E2B",
+      "start": "10:25",
+      "end": "10:37"
+    },
+    {
+      "name": "16th Sunday in Ordinary Time [C, #108]",
+      "color": "#7B2E2B",
+      "start": "10:38",
+      "end": "10:42"
+    },
+    {
+      "name": "17th Sunday in Ordinary Time [C, #111]",
+      "color": "#7B2E2B",
+      "start": "11:1",
+      "end": "11:13"
+    },
+    {
+      "name": "Aug 15: Assumption of the BVMary, Vigil [#621]",
+      "color": "#C9A441",
+      "start": "11:27",
+      "end": "11:28"
+    },
+    {
+      "name": "18th Sunday in Ordinary Time [C, #114]",
+      "color": "#7B2E2B",
+      "start": "12:13",
+      "end": "12:21"
+    },
+    {
+      "name": "19th Sunday in Ordinary Time [C, #117]",
+      "color": "#7B2E2B",
+      "start": "12:32",
+      "end": "12:48"
+    },
+    {
+      "name": "19th Sunday in Ordinary Time [C, #117] (short)",
+      "color": "#7B2E2B",
+      "start": "12:35",
+      "end": "12:40"
+    },
+    {
+      "name": "20th Sunday in Ordinary Time [C, #120]",
+      "color": "#7B2E2B",
+      "start": "12:49",
+      "end": "12:53"
+    },
+    {
+      "name": "3rd Sunday of Lent [C, #30]",
+      "color": "#7B2E2B",
+      "start": "13:1",
+      "end": "13:9"
+    },
+    {
+      "name": "21st Sunday in Ordinary Time [C, #123]",
+      "color": "#7B2E2B",
+      "start": "13:22",
+      "end": "13:30"
+    },
+    {
+      "name": "22nd Sunday in Ordinary Time [C, #126]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "14:1",
+          "end": "14:1"
+        },
+        {
+          "start": "14:7",
+          "end": "14:14"
+        }
+      ]
+    },
+    {
+      "name": "23rd Sunday in Ordinary Time [C, #129]",
+      "color": "#7B2E2B",
+      "start": "14:25",
+      "end": "14:33"
+    },
+    {
+      "name": "4th Sunday of Lent [C, #33]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "15:1",
+          "end": "15:3"
+        },
+        {
+          "start": "15:11",
+          "end": "15:32"
+        }
+      ]
+    },
+    {
+      "name": "24th Sunday in Ordinary Time [C, #132]",
+      "color": "#7B2E2B",
+      "start": "15:1",
+      "end": "15:32"
+    },
+    {
+      "name": "24th Sunday in Ordinary Time [C, #132] (short)",
+      "color": "#7B2E2B",
+      "start": "15:1",
+      "end": "15:10"
+    },
+    {
+      "name": "Friday after 2nd Sun after Pentecost: Sacred Heart [C, #172]",
+      "color": "#7B2E2B",
+      "start": "15:3",
+      "end": "15:7"
+    },
+    {
+      "name": "25th Sunday in Ordinary Time [C, #135]",
+      "color": "#7B2E2B",
+      "start": "16:1",
+      "end": "16:13"
+    },
+    {
+      "name": "25th Sunday in Ordinary Time [C, #135] (short)",
+      "color": "#7B2E2B",
+      "start": "16:10",
+      "end": "16:13"
+    },
+    {
+      "name": "26th Sunday in Ordinary Time [C, #138]",
+      "color": "#7B2E2B",
+      "start": "16:19",
+      "end": "16:31"
+    },
+    {
+      "name": "27th Sunday in Ordinary Time [C, #141]",
+      "color": "#7B2E2B",
+      "start": "17:5",
+      "end": "17:10"
+    },
+    {
+      "name": "28th Sunday in Ordinary Time [C, #144]",
+      "color": "#7B2E2B",
+      "start": "17:11",
+      "end": "17:19"
+    },
+    {
+      "name": "29th Sunday in Ordinary Time [C, #147]",
+      "color": "#7B2E2B",
+      "start": "18:1",
+      "end": "18:8"
+    },
+    {
+      "name": "30th Sunday in Ordinary Time [C, #150]",
+      "color": "#7B2E2B",
+      "start": "18:9",
+      "end": "18:14"
+    },
+    {
+      "name": "31st Sunday in Ordinary Time [C, #153]",
+      "color": "#7B2E2B",
+      "start": "19:1",
+      "end": "19:10"
+    },
+    {
+      "name": "Palm Sunday: Procession of Palms [C, #37]",
+      "color": "#7B2E2B",
+      "start": "19:28",
+      "end": "19:40"
+    },
+    {
+      "name": "32nd Sunday in Ordinary Time [C, #156]",
+      "color": "#7B2E2B",
+      "start": "20:27",
+      "end": "20:38"
+    },
+    {
+      "name": "32nd Sunday in Ordinary Time [C, #156] (short)",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "20:27",
+          "end": "20:27"
+        },
+        {
+          "start": "20:34",
+          "end": "20:38"
+        }
+      ]
+    },
+    {
+      "name": "33rd Sunday in Ordinary Time [C, #159]",
+      "color": "#7B2E2B",
+      "start": "21:5",
+      "end": "21:19"
+    },
+    {
+      "name": "1st Sunday of Advent [C, #3]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "21:25",
+          "end": "21:28"
+        },
+        {
+          "start": "21:34",
+          "end": "21:36"
+        }
+      ]
+    },
+    {
+      "name": "Palm Sunday Mass [C, #38]",
+      "color": "#7B2E2B",
+      "start": "22:14",
+      "end": "23:56"
+    },
+    {
+      "name": "Palm Sunday Mass [C, #38] (short)",
+      "color": "#7B2E2B",
+      "start": "23:1",
+      "end": "23:49"
+    },
+    {
+      "name": "34th Sunday in Ord. Time: Christ the King [C, #162]",
+      "color": "#7B2E2B",
+      "start": "23:35",
+      "end": "23:43"
+    },
+    {
+      "name": "Easter Vigil [C, #41]",
+      "color": "#7B2E2B",
+      "start": "24:1",
+      "end": "24:12"
+    },
+    {
+      "name": "Easter Sunday: Resurrection of the Lord (opt. 2) [ABC, #42]",
+      "color": "#7B2E2B",
+      "start": "24:13",
+      "end": "24:35"
+    },
+    {
+      "name": "3rd Sunday of Easter [A, #46]",
+      "color": "#7B2E2B",
+      "start": "24:13",
+      "end": "24:35"
+    },
+    {
+      "name": "3rd Sunday of Easter [B, #47]",
+      "color": "#7B2E2B",
+      "start": "24:35",
+      "end": "24:48"
+    },
+    {
+      "name": "Ascension of the Lord [C, #58]",
+      "color": "#7B2E2B",
+      "start": "24:46",
+      "end": "24:53"
+    },
+    {
+      "name": "June 24: Solemnity: Nativity of St. John the Baptist, Vigil [I/II, #586]",
+      "color": "#C9A441",
+      "start": "1:5",
+      "end": "1:17"
+    },
+    {
+      "name": "Advent, Dec. 19 [I/II, #195]",
+      "color": "#B35C58",
+      "start": "1:5",
+      "end": "1:25"
+    },
+    {
+      "name": "Advent, Dec. 20 [I/II, #196]",
+      "color": "#B35C58",
+      "start": "1:26",
+      "end": "1:38"
+    },
+    {
+      "name": "Dec 12: Our Lady of Guadalupe (option 1) [I/II]",
+      "color": "#C9A441",
+      "start": "1:26",
+      "end": "1:38"
+    },
+    {
+      "name": "March 25: Solemnity: Annunciation of the Lord [I/II, #545]",
+      "color": "#C9A441",
+      "start": "1:26",
+      "end": "1:38"
+    },
+    {
+      "name": "Dec 8: Solemnity: Immaculate Conception of the BVMary [I/II, #689]",
+      "color": "#C9A441",
+      "start": "1:26",
+      "end": "1:38"
+    },
+    {
+      "name": "Advent, Dec. 21 [I/II, #197]",
+      "color": "#B35C58",
+      "start": "1:39",
+      "end": "1:45"
+    },
+    {
+      "name": "Dec 12: Our Lady of Guadalupe (option 2) [I/II]",
+      "color": "#C9A441",
+      "start": "1:39",
+      "end": "1:47"
+    },
+    {
+      "name": "May 31: Visitation of the BVMary [I/II, #572]",
+      "color": "#C9A441",
+      "start": "1:39",
+      "end": "1:56"
+    },
+    {
+      "name": "Aug 15: Solemnity: Assumption of the BVMary, Day [I/II, #622]",
+      "color": "#C9A441",
+      "start": "1:39",
+      "end": "1:56"
+    },
+    {
+      "name": "Ord. Time, Week 12, Sat (resp. - note 2) [I, #376]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "1:46",
+          "end": "1:47"
+        },
+        {
+          "start": "1:48",
+          "end": "1:49"
+        },
+        {
+          "start": "1:50+53",
+          "end": "1:50+53"
+        },
+        {
+          "start": "1:54",
+          "end": "1:55"
+        }
+      ]
+    },
+    {
+      "name": "Advent, Dec. 22 [I/II, #198]",
+      "color": "#B35C58",
+      "start": "1:46",
+      "end": "1:56"
+    },
+    {
+      "name": "Advent, Dec. 23 [I/II, #199]",
+      "color": "#B35C58",
+      "start": "1:57",
+      "end": "1:66"
+    },
+    {
+      "name": "June 24: Solemnity: Nativity of St. John the Baptist, Day [I/II, #587]",
+      "color": "#C9A441",
+      "segments": [
+        {
+          "start": "1:57",
+          "end": "1:66"
+        },
+        {
+          "start": "1:80",
+          "end": "1:80"
+        }
+      ]
+    },
+    {
+      "name": "Advent, Dec. 24 (morning Mass) [I/II, #200]",
+      "color": "#B35C58",
+      "start": "1:67",
+      "end": "1:79"
+    },
+    {
+      "name": "Ord. Time, Week 3, Sat (resp. - note 2) [I, #322]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "1:69",
+          "end": "1:70"
+        },
+        {
+          "start": "1:71",
+          "end": "1:72"
+        },
+        {
+          "start": "1:73",
+          "end": "1:75"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 29, Mon (resp. - note 2) [I, #473]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "1:69",
+          "end": "1:70"
+        },
+        {
+          "start": "1:71",
+          "end": "1:72"
+        },
+        {
+          "start": "1:73",
+          "end": "1:75"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 27, Thurs (resp. - note 2) [II, #464]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "1:69",
+          "end": "1:70"
+        },
+        {
+          "start": "1:71",
+          "end": "1:72"
+        },
+        {
+          "start": "1:73",
+          "end": "1:75"
+        }
+      ]
+    },
+    {
+      "name": "Jan 3: Most Holy Name of Jesus [I/II]",
+      "color": "#C9A441",
+      "start": "2:21",
+      "end": "2:24"
+    },
+    {
+      "name": "5th Day in Xmas Octave, Dec. 29 [I/II, #202]",
+      "color": "#B35C58",
+      "start": "2:22",
+      "end": "2:35"
+    },
+    {
+      "name": "Feb 2: Feast: Presentation of the Lord [I/II, #524]",
+      "color": "#C9A441",
+      "start": "2:22",
+      "end": "2:40"
+    },
+    {
+      "name": "Feb 2: Feast: Presentation of the Lord [I/II, #524] (short)",
+      "color": "#C9A441",
+      "start": "2:22",
+      "end": "2:32"
+    },
+    {
+      "name": "Sept 15: Our Lady of Sorrows (Proper Gospel only; option 2) [I/II, #639]",
+      "color": "#C9A441",
+      "start": "2:33",
+      "end": "2:35"
+    },
+    {
+      "name": "6th Day in Xmas Octave, Dec. 30 [I/II, #203]",
+      "color": "#B35C58",
+      "start": "2:36",
+      "end": "2:40"
+    },
+    {
+      "name": "Sat >2nd Sun >Pentecost: Immaculate Heart of BVMary (Proper Gospel only) [I/II, #573]",
+      "color": "#C9A441",
+      "start": "2:41",
+      "end": "2:51"
+    },
+    {
+      "name": "March 19: Solemnity: St. Joseph, husband of the BVMary (Option 2) [I/II, #543]",
+      "color": "#C9A441",
+      "start": "2:41",
+      "end": "2:51a"
+    },
+    {
+      "name": "Christmas Weekday: Jan. 6 (opt., if Epiphany is Jan. 7 or 8) [I/II, #209]",
+      "color": "#B35C58",
+      "start": "3:23",
+      "end": "3:38"
+    },
+    {
+      "name": "Christmas Weekday: Jan. 6 (opt., if Epiphany is Jan. 7 or 8) [I/II, #209] (short)",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "3:23",
+          "end": "3:23"
+        },
+        {
+          "start": "3:31",
+          "end": "3:34"
+        },
+        {
+          "start": "3:36",
+          "end": "3:36"
+        },
+        {
+          "start": "3:38",
+          "end": "3:38"
+        }
+      ]
+    },
+    {
+      "name": "Thurs after Epiphany, or Jan. 10 [I/II, #215]",
+      "color": "#B35C58",
+      "start": "4:14",
+      "end": "4:22a"
+    },
+    {
+      "name": "Holy Week, Chrism Mass [I/II, #260]",
+      "color": "#B35C58",
+      "start": "4:16",
+      "end": "4:21"
+    },
+    {
+      "name": "Ord. Time, Week 22, Mon [I/II, #431]",
+      "color": "#B35C58",
+      "start": "4:16",
+      "end": "4:30"
+    },
+    {
+      "name": "Lent, Week 3, Mon [I/II, #237]",
+      "color": "#B35C58",
+      "start": "4:24",
+      "end": "4:30"
+    },
+    {
+      "name": "Ord. Time, Week 22, Tues [I/II, #432]",
+      "color": "#B35C58",
+      "start": "4:31",
+      "end": "4:37"
+    },
+    {
+      "name": "Ord. Time, Week 22, Wed [I/II, #433]",
+      "color": "#B35C58",
+      "start": "4:38",
+      "end": "4:44"
+    },
+    {
+      "name": "Ord. Time, Week 22, Thurs [I/II, #434]",
+      "color": "#B35C58",
+      "start": "5:1",
+      "end": "5:11"
+    },
+    {
+      "name": "Fri after Epiphany, or Jan. 11 [I/II, #216]",
+      "color": "#B35C58",
+      "start": "5:12",
+      "end": "5:16"
+    },
+    {
+      "name": "Advent, Week 2, Mon [I/II, #181]",
+      "color": "#B35C58",
+      "start": "5:17",
+      "end": "5:26"
+    },
+    {
+      "name": "Saturday after Ash Wed. [I/II, #222]",
+      "color": "#B35C58",
+      "start": "5:27",
+      "end": "5:32"
+    },
+    {
+      "name": "Ord. Time, Week 22, Fri [I/II, #435]",
+      "color": "#B35C58",
+      "start": "5:33",
+      "end": "5:39"
+    },
+    {
+      "name": "Ord. Time, Week 22, Sat [I/II, #436]",
+      "color": "#B35C58",
+      "start": "6:1",
+      "end": "6:5"
+    },
+    {
+      "name": "Ord. Time, Week 23, Mon [I/II, #437]",
+      "color": "#B35C58",
+      "start": "6:6",
+      "end": "6:11"
+    },
+    {
+      "name": "Ord. Time, Week 23, Tues [I/II, #438]",
+      "color": "#B35C58",
+      "start": "6:12",
+      "end": "6:19"
+    },
+    {
+      "name": "Oct 28: Sts. Simon and Jude, Apostles [I/II, #666]",
+      "color": "#C9A441",
+      "start": "6:12",
+      "end": "6:19"
+    },
+    {
+      "name": "Ord. Time, Week 23, Wed [I/II, #439]",
+      "color": "#B35C58",
+      "start": "6:20",
+      "end": "6:26"
+    },
+    {
+      "name": "Ord. Time, Week 23, Thurs [I/II, #440]",
+      "color": "#B35C58",
+      "start": "6:27",
+      "end": "6:38"
+    },
+    {
+      "name": "Lent, Week 2, Mon [I/II, #230]",
+      "color": "#B35C58",
+      "start": "6:36",
+      "end": "6:38"
+    },
+    {
+      "name": "Ord. Time, Week 23, Fri [I/II, #441]",
+      "color": "#B35C58",
+      "start": "6:39",
+      "end": "6:42"
+    },
+    {
+      "name": "Ord. Time, Week 23, Sat [I/II, #442]",
+      "color": "#B35C58",
+      "start": "6:43",
+      "end": "6:49"
+    },
+    {
+      "name": "Ord. Time, Week 24, Mon [I/II, #443]",
+      "color": "#B35C58",
+      "start": "7:1",
+      "end": "7:10"
+    },
+    {
+      "name": "Ord. Time, Week 24, Tues [I/II, #444]",
+      "color": "#B35C58",
+      "start": "7:11",
+      "end": "7:17"
+    },
+    {
+      "name": "Advent, Week 3, Wed [I/II, #189]",
+      "color": "#B35C58",
+      "start": "7:18b",
+      "end": "7:23"
+    },
+    {
+      "name": "Advent, Week 3, Thurs [I/II, #190]",
+      "color": "#B35C58",
+      "start": "7:24",
+      "end": "7:30"
+    },
+    {
+      "name": "Ord. Time, Week 24, Wed [I/II, #445]",
+      "color": "#B35C58",
+      "start": "7:31",
+      "end": "7:35"
+    },
+    {
+      "name": "Ord. Time, Week 24, Thurs [I/II, #446]",
+      "color": "#B35C58",
+      "start": "7:36",
+      "end": "7:50"
+    },
+    {
+      "name": "Ord. Time, Week 24, Fri [I/II, #447]",
+      "color": "#B35C58",
+      "start": "8:1",
+      "end": "8:3"
+    },
+    {
+      "name": "Ord. Time, Week 24, Sat [I/II, #448]",
+      "color": "#B35C58",
+      "start": "8:4",
+      "end": "8:15"
+    },
+    {
+      "name": "Ord. Time, Week 25, Mon [I/II, #449]",
+      "color": "#B35C58",
+      "start": "8:16",
+      "end": "8:18"
+    },
+    {
+      "name": "Ord. Time, Week 25, Tues [I/II, #450]",
+      "color": "#B35C58",
+      "start": "8:19",
+      "end": "8:21"
+    },
+    {
+      "name": "Ord. Time, Week 25, Wed [I/II, #451]",
+      "color": "#B35C58",
+      "start": "9:1",
+      "end": "9:6"
+    },
+    {
+      "name": "Ord. Time, Week 25, Thurs [I/II, #452]",
+      "color": "#B35C58",
+      "start": "9:7",
+      "end": "9:9"
+    },
+    {
+      "name": "Ord. Time, Week 25, Fri [I/II, #453]",
+      "color": "#B35C58",
+      "start": "9:18",
+      "end": "9:22"
+    },
+    {
+      "name": "Thursday after Ash Wed. [I/II, #220]",
+      "color": "#B35C58",
+      "start": "9:22",
+      "end": "9:25"
+    },
+    {
+      "name": "Aug 6: Feast: Transfiguration of the Lord (Year C) [I/II, #614]",
+      "color": "#C9A441",
+      "start": "9:28b",
+      "end": "9:36"
+    },
+    {
+      "name": "Ord. Time, Week 25, Sat [I/II, #454]",
+      "color": "#B35C58",
+      "start": "9:43b",
+      "end": "9:45"
+    },
+    {
+      "name": "Ord. Time, Week 26, Mon [I/II, #455]",
+      "color": "#B35C58",
+      "start": "9:46",
+      "end": "9:50"
+    },
+    {
+      "name": "Ord. Time, Week 26, Tues [I/II, #456]",
+      "color": "#B35C58",
+      "start": "9:51",
+      "end": "9:56"
+    },
+    {
+      "name": "Ord. Time, Week 26, Wed [I/II, #457]",
+      "color": "#B35C58",
+      "start": "9:57",
+      "end": "9:62"
+    },
+    {
+      "name": "Oct 18: St. Luke, Evangelist [I/II, #661]",
+      "color": "#C9A441",
+      "start": "10:1",
+      "end": "10:9"
+    },
+    {
+      "name": "Ord. Time, Week 26, Thurs [I/II, #458]",
+      "color": "#B35C58",
+      "start": "10:1",
+      "end": "10:12"
+    },
+    {
+      "name": "Ord. Time, Week 26, Fri [I/II, #459]",
+      "color": "#B35C58",
+      "start": "10:13",
+      "end": "10:16"
+    },
+    {
+      "name": "Ord. Time, Week 26, Sat [I/II, #460]",
+      "color": "#B35C58",
+      "start": "10:17",
+      "end": "10:24"
+    },
+    {
+      "name": "Advent, Week 1, Tues [I/II, #176]",
+      "color": "#B35C58",
+      "start": "10:21",
+      "end": "10:24"
+    },
+    {
+      "name": "Ord. Time, Week 27, Mon [I/II, #461]",
+      "color": "#B35C58",
+      "start": "10:25",
+      "end": "10:37"
+    },
+    {
+      "name": "Ord. Time, Week 27, Tues [I/II, #462]",
+      "color": "#B35C58",
+      "start": "10:38",
+      "end": "10:42"
+    },
+    {
+      "name": "July 29: St. Martha (Proper Gospel only; option 2) [I/II, #607]",
+      "color": "#C9A441",
+      "start": "10:38",
+      "end": "10:42"
+    },
+    {
+      "name": "Ord. Time, Week 27, Wed [I/II, #463]",
+      "color": "#B35C58",
+      "start": "11:1",
+      "end": "11:4"
+    },
+    {
+      "name": "Ord. Time, Week 27, Thurs [I/II, #464]",
+      "color": "#B35C58",
+      "start": "11:5",
+      "end": "11:13"
+    },
+    {
+      "name": "Lent, Week 3, Thurs [I/II, #240]",
+      "color": "#B35C58",
+      "start": "11:14",
+      "end": "11:23"
+    },
+    {
+      "name": "Ord. Time, Week 27, Fri [I/II, #465]",
+      "color": "#B35C58",
+      "start": "11:15",
+      "end": "11:26"
+    },
+    {
+      "name": "Ord. Time, Week 27, Sat [I/II, #466]",
+      "color": "#B35C58",
+      "start": "11:27",
+      "end": "11:28"
+    },
+    {
+      "name": "Aug 15: Solemnity: Assumption of the BVMary, Vigil [I/II, #621]",
+      "color": "#C9A441",
+      "start": "11:27",
+      "end": "11:28"
+    },
+    {
+      "name": "Lent, Week 1, Wed [I/II, #226]",
+      "color": "#B35C58",
+      "start": "11:29",
+      "end": "11:32"
+    },
+    {
+      "name": "Ord. Time, Week 28, Mon [I/II, #467]",
+      "color": "#B35C58",
+      "start": "11:29",
+      "end": "11:32"
+    },
+    {
+      "name": "Ord. Time, Week 28, Tues [I/II, #468]",
+      "color": "#B35C58",
+      "start": "11:37",
+      "end": "11:41"
+    },
+    {
+      "name": "Ord. Time, Week 28, Wed [I/II, #469]",
+      "color": "#B35C58",
+      "start": "11:42",
+      "end": "11:46"
+    },
+    {
+      "name": "Ord. Time, Week 28, Thurs [I/II, #470]",
+      "color": "#B35C58",
+      "start": "11:47",
+      "end": "11:54"
+    },
+    {
+      "name": "Ord. Time, Week 28, Fri [I/II, #471]",
+      "color": "#B35C58",
+      "start": "12:1",
+      "end": "12:7"
+    },
+    {
+      "name": "Ord. Time, Week 28, Sat [I/II, #472]",
+      "color": "#B35C58",
+      "start": "12:8",
+      "end": "12:12"
+    },
+    {
+      "name": "Ord. Time, Week 29, Mon [I/II, #473]",
+      "color": "#B35C58",
+      "start": "12:13",
+      "end": "12:21"
+    },
+    {
+      "name": "Ord. Time, Week 29, Tues [I/II, #474]",
+      "color": "#B35C58",
+      "start": "12:35",
+      "end": "12:38"
+    },
+    {
+      "name": "Ord. Time, Week 29, Wed [I/II, #475]",
+      "color": "#B35C58",
+      "start": "12:39",
+      "end": "12:48"
+    },
+    {
+      "name": "Ord. Time, Week 29, Thurs [I/II, #476]",
+      "color": "#B35C58",
+      "start": "12:49",
+      "end": "12:53"
+    },
+    {
+      "name": "Ord. Time, Week 29, Fri [I/II, #477]",
+      "color": "#B35C58",
+      "start": "12:54",
+      "end": "12:59"
+    },
+    {
+      "name": "Ord. Time, Week 29, Sat [I/II, #478]",
+      "color": "#B35C58",
+      "start": "13:1",
+      "end": "13:9"
+    },
+    {
+      "name": "Ord. Time, Week 30, Mon [I/II, #479]",
+      "color": "#B35C58",
+      "start": "13:10",
+      "end": "13:17"
+    },
+    {
+      "name": "Ord. Time, Week 30, Tues [I/II, #480]",
+      "color": "#B35C58",
+      "start": "13:18",
+      "end": "13:21"
+    },
+    {
+      "name": "Ord. Time, Week 30, Wed [I/II, #481]",
+      "color": "#B35C58",
+      "start": "13:22",
+      "end": "13:30"
+    },
+    {
+      "name": "Ord. Time, Week 30, Thurs [I/II, #482]",
+      "color": "#B35C58",
+      "start": "13:31",
+      "end": "13:35"
+    },
+    {
+      "name": "Ord. Time, Week 30, Fri [I/II, #483]",
+      "color": "#B35C58",
+      "start": "14:1",
+      "end": "14:6"
+    },
+    {
+      "name": "Ord. Time, Week 30, Sat [I/II, #484]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "14:1",
+          "end": "14:1"
+        },
+        {
+          "start": "14:7",
+          "end": "14:11"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 31, Mon [I/II, #485]",
+      "color": "#B35C58",
+      "start": "14:12",
+      "end": "14:14"
+    },
+    {
+      "name": "Ord. Time, Week 31, Tues [I/II, #486]",
+      "color": "#B35C58",
+      "start": "14:15",
+      "end": "14:24"
+    },
+    {
+      "name": "Ord. Time, Week 31, Wed [I/II, #487]",
+      "color": "#B35C58",
+      "start": "14:25",
+      "end": "14:33"
+    },
+    {
+      "name": "Ord. Time, Week 31, Thurs [I/II, #488]",
+      "color": "#B35C58",
+      "start": "15:1",
+      "end": "15:10"
+    },
+    {
+      "name": "Lent, Week 2, Sat [I/II, #235]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "15:1",
+          "end": "15:3"
+        },
+        {
+          "start": "15:11",
+          "end": "15:32"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 31, Fri [I/II, #489]",
+      "color": "#B35C58",
+      "start": "16:1",
+      "end": "16:8"
+    },
+    {
+      "name": "Lent, Week 2, Thurs [I/II, #233]",
+      "color": "#B35C58",
+      "start": "16:19",
+      "end": "16:31"
+    },
+    {
+      "name": "Ord. Time, Week 31, Sat [I/II, #490]",
+      "color": "#B35C58",
+      "start": "16:9",
+      "end": "16:15"
+    },
+    {
+      "name": "Ord. Time, Week 32, Mon [I/II, #491]",
+      "color": "#B35C58",
+      "start": "17:1",
+      "end": "17:6"
+    },
+    {
+      "name": "Ord. Time, Week 32, Tues [I/II, #492]",
+      "color": "#B35C58",
+      "start": "17:7",
+      "end": "17:10"
+    },
+    {
+      "name": "Ord. Time, Week 32, Wed [I/II, #493]",
+      "color": "#B35C58",
+      "start": "17:11",
+      "end": "17:19"
+    },
+    {
+      "name": "Ord. Time, Week 32, Thurs [I/II, #494]",
+      "color": "#B35C58",
+      "start": "17:20",
+      "end": "17:25"
+    },
+    {
+      "name": "Ord. Time, Week 32, Fri [I/II, #495]",
+      "color": "#B35C58",
+      "start": "17:26",
+      "end": "17:37"
+    },
+    {
+      "name": "Ord. Time, Week 32, Sat [I/II, #496]",
+      "color": "#B35C58",
+      "start": "18:1",
+      "end": "18:8"
+    },
+    {
+      "name": "Lent, Week 3, Sat [I/II, #242]",
+      "color": "#B35C58",
+      "start": "18:9",
+      "end": "18:14"
+    },
+    {
+      "name": "Ord. Time, Week 33, Mon [I/II, #497]",
+      "color": "#B35C58",
+      "start": "18:35",
+      "end": "18:43"
+    },
+    {
+      "name": "Ord. Time, Week 33, Tues [I/II, #498]",
+      "color": "#B35C58",
+      "start": "19:1",
+      "end": "19:10"
+    },
+    {
+      "name": "Ord. Time, Week 33, Wed [I/II, #499]",
+      "color": "#B35C58",
+      "start": "19:11",
+      "end": "19:28"
+    },
+    {
+      "name": "Ord. Time, Week 33, Thurs [I/II, #500]",
+      "color": "#B35C58",
+      "start": "19:41",
+      "end": "19:44"
+    },
+    {
+      "name": "Ord. Time, Week 33, Fri [I/II, #501]",
+      "color": "#B35C58",
+      "start": "19:45",
+      "end": "19:48"
+    },
+    {
+      "name": "Ord. Time, Week 33, Sat [I/II, #502]",
+      "color": "#B35C58",
+      "start": "20:27",
+      "end": "20:40"
+    },
+    {
+      "name": "Ord. Time, Week 34, Mon [I/II, #503]",
+      "color": "#B35C58",
+      "start": "21:1",
+      "end": "21:4"
+    },
+    {
+      "name": "Ord. Time, Week 34, Tues [I/II, #504]",
+      "color": "#B35C58",
+      "start": "21:5",
+      "end": "21:11"
+    },
+    {
+      "name": "Ord. Time, Week 34, Wed [I/II, #505]",
+      "color": "#B35C58",
+      "start": "21:12",
+      "end": "21:19"
+    },
+    {
+      "name": "Ord. Time, Week 34, Thurs [I/II, #506]",
+      "color": "#B35C58",
+      "start": "21:20",
+      "end": "21:28"
+    },
+    {
+      "name": "Ord. Time, Week 34, Fri [I/II, #507]",
+      "color": "#B35C58",
+      "start": "21:29",
+      "end": "21:33"
+    },
+    {
+      "name": "Ord. Time, Week 34, Sat [I/II, #508]",
+      "color": "#B35C58",
+      "start": "21:34",
+      "end": "21:36"
+    },
+    {
+      "name": "Easter Octave, Wed [I/II, #263]",
+      "color": "#B35C58",
+      "start": "24:13",
+      "end": "24:35"
+    },
+    {
+      "name": "Easter Octave, Thurs [I/II, #264]",
+      "color": "#B35C58",
+      "start": "24:35",
+      "end": "24:48"
+    }
   ],
-  "divineOffice": [
-    { "name": "Night Prayer, Ordinary", "start": "2:29", "end": "2:32", "color": "#4A628A" }
-  ]
+  "divineOffice": []
 }

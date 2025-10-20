@@ -1,0 +1,40 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "4th Sunday of Lent [B, #32]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "36:14",
+          "end": "36:16"
+        },
+        {
+          "start": "36:19",
+          "end": "36:23"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 11, Sat [II, #370]",
+      "color": "#B35C58",
+      "start": "24:17",
+      "end": "24:25"
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 15th Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "20:1",
+          "end": "20:9"
+        },
+        {
+          "start": "20:13",
+          "end": "20:24"
+        }
+      ]
+    }
+  ]
+}

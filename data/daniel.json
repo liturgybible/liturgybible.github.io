@@ -1,0 +1,518 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "Sunday after Pentecost: Holy Trinity (Response - note 4) [A, #164]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "3:52",
+          "end": "3:52"
+        },
+        {
+          "start": "3:53",
+          "end": "3:53"
+        },
+        {
+          "start": "3:54",
+          "end": "3:54"
+        },
+        {
+          "start": "3:55",
+          "end": "3:55"
+        }
+      ]
+    },
+    {
+      "name": "Aug 6: Transfiguration of the Lord [#614]",
+      "color": "#C9A441",
+      "segments": [
+        {
+          "start": "7:9",
+          "end": "7:10"
+        },
+        {
+          "start": "7:13",
+          "end": "7:14"
+        }
+      ]
+    },
+    {
+      "name": "34th Sunday in Ord. Time: Christ the King [B, #161]",
+      "color": "#7B2E2B",
+      "start": "7:13",
+      "end": "7:14"
+    },
+    {
+      "name": "33rd Sunday in Ordinary Time [B, #158]",
+      "color": "#7B2E2B",
+      "start": "12:1",
+      "end": "12:3"
+    },
+    {
+      "name": "Ord. Time, Week 34, Mon [I, #503]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:6"
+        },
+        {
+          "start": "1:8",
+          "end": "1:20"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 34, Tues [I, #504]",
+      "color": "#B35C58",
+      "start": "2:31",
+      "end": "2:45"
+    },
+    {
+      "name": "Lent, Week 5, Wed [I/II, #253]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "3:14",
+          "end": "3:20"
+        },
+        {
+          "start": "3:91",
+          "end": "3:92"
+        },
+        {
+          "start": "3:95",
+          "end": "3:95"
+        }
+      ]
+    },
+    {
+      "name": "Lent, Week 3, Tues [I/II, #238]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "3:25",
+          "end": "3:25"
+        },
+        {
+          "start": "3:34",
+          "end": "3:43"
+        }
+      ]
+    },
+    {
+      "name": "Lent, Week 5, Wed (resp. - note 2) [I/II, #253]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "3:52",
+          "end": "3:52"
+        },
+        {
+          "start": "3:53",
+          "end": "3:53"
+        },
+        {
+          "start": "3:54",
+          "end": "3:54"
+        },
+        {
+          "start": "3:55",
+          "end": "3:55"
+        },
+        {
+          "start": "3:56",
+          "end": "3:56"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 16, Thurs (resp. - note 2) [I, #398]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "3:52",
+          "end": "3:52"
+        },
+        {
+          "start": "3:53",
+          "end": "3:53"
+        },
+        {
+          "start": "3:54",
+          "end": "3:54"
+        },
+        {
+          "start": "3:55",
+          "end": "3:55"
+        },
+        {
+          "start": "3:56",
+          "end": "3:56"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 34, Mon (resp. - note 2) [I, #503]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "3:52",
+          "end": "3:52"
+        },
+        {
+          "start": "3:53",
+          "end": "3:53"
+        },
+        {
+          "start": "3:54",
+          "end": "3:54"
+        },
+        {
+          "start": "3:55",
+          "end": "3:55"
+        },
+        {
+          "start": "3:56",
+          "end": "3:56"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 34, Tues (resp. - note 2) [I, #504]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "3:57",
+          "end": "3:57"
+        },
+        {
+          "start": "3:58",
+          "end": "3:58"
+        },
+        {
+          "start": "3:59",
+          "end": "3:59"
+        },
+        {
+          "start": "3:60",
+          "end": "3:60"
+        },
+        {
+          "start": "3:61",
+          "end": "3:61"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 34, Wed (resp. - note 2) [I, #505]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "3:62",
+          "end": "3:62"
+        },
+        {
+          "start": "3:63",
+          "end": "3:63"
+        },
+        {
+          "start": "3:64",
+          "end": "3:64"
+        },
+        {
+          "start": "3:65",
+          "end": "3:65"
+        },
+        {
+          "start": "3:66",
+          "end": "3:66"
+        },
+        {
+          "start": "3:67",
+          "end": "3:67"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 34, Thurs (resp. - note 2) [I, #506]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "3:68",
+          "end": "3:68"
+        },
+        {
+          "start": "3:69",
+          "end": "3:69"
+        },
+        {
+          "start": "3:70",
+          "end": "3:70"
+        },
+        {
+          "start": "3:71",
+          "end": "3:71"
+        },
+        {
+          "start": "3:72",
+          "end": "3:72"
+        },
+        {
+          "start": "3:73",
+          "end": "3:73"
+        },
+        {
+          "start": "3:74",
+          "end": "3:74"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 34, Fri (resp. - note 2) [I, #507]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "3:75",
+          "end": "3:75"
+        },
+        {
+          "start": "3:76",
+          "end": "3:76"
+        },
+        {
+          "start": "3:77",
+          "end": "3:77"
+        },
+        {
+          "start": "3:78",
+          "end": "3:78"
+        },
+        {
+          "start": "3:79",
+          "end": "3:79"
+        },
+        {
+          "start": "3:80",
+          "end": "3:80"
+        },
+        {
+          "start": "3:81",
+          "end": "3:81"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 34, Sat (resp. - note 2) [I, #508]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "3:82",
+          "end": "3:82"
+        },
+        {
+          "start": "3:83",
+          "end": "3:83"
+        },
+        {
+          "start": "3:84",
+          "end": "3:84"
+        },
+        {
+          "start": "3:85",
+          "end": "3:85"
+        },
+        {
+          "start": "3:86",
+          "end": "3:86"
+        },
+        {
+          "start": "3:87",
+          "end": "3:87"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 34, Wed [I, #505]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "5:1",
+          "end": "5:6"
+        },
+        {
+          "start": "5:13",
+          "end": "5:14"
+        },
+        {
+          "start": "5:16",
+          "end": "5:17"
+        },
+        {
+          "start": "5:23",
+          "end": "5:28"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 34, Thurs [I, #506]",
+      "color": "#B35C58",
+      "start": "6:12",
+      "end": "6:28"
+    },
+    {
+      "name": "Ord. Time, Week 34, Fri [I, #507]",
+      "color": "#B35C58",
+      "start": "7:2",
+      "end": "7:14"
+    },
+    {
+      "name": "Aug 6: Feast: Transfiguration of the Lord [I/II, #614]",
+      "color": "#C9A441",
+      "segments": [
+        {
+          "start": "7:9",
+          "end": "7:10"
+        },
+        {
+          "start": "7:13",
+          "end": "7:14"
+        }
+      ]
+    },
+    {
+      "name": "Sept 29: Sts. Michael, Gabriel, and Raphael, archangels (option 1) [I/II, #647]",
+      "color": "#C9A441",
+      "segments": [
+        {
+          "start": "7:9",
+          "end": "7:10"
+        },
+        {
+          "start": "7:13",
+          "end": "7:14"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 34, Sat [I, #508]",
+      "color": "#B35C58",
+      "start": "7:15",
+      "end": "7:27"
+    },
+    {
+      "name": "Lent, Week 2, Mon [I/II, #230]",
+      "color": "#B35C58",
+      "start": "9:4b",
+      "end": "9:10"
+    },
+    {
+      "name": "Lent, Week 5, Mon [I/II, #251]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "13:1",
+          "end": "13:9"
+        },
+        {
+          "start": "13:15",
+          "end": "13:17"
+        },
+        {
+          "start": "13:19",
+          "end": "13:30"
+        },
+        {
+          "start": "13:33",
+          "end": "13:62"
+        }
+      ]
+    },
+    {
+      "name": "Lent, Week 5, Mon [I/II, #251] (short)",
+      "color": "#B35C58",
+      "start": "13:41c",
+      "end": "13:62"
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 32nd Sunday in Ord. Time",
+      "color": "#4C6B4F",
+      "start": "1:1",
+      "end": "1:21"
+    },
+    {
+      "name": "OR: 32nd Week in Ord. Time, Monday",
+      "color": "#4C6B4F",
+      "start": "2:26",
+      "end": "2:47"
+    },
+    {
+      "name": "OR: 32nd Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "3:8",
+          "end": "3:12"
+        },
+        {
+          "start": "3:19",
+          "end": "3:24"
+        },
+        {
+          "start": "3:91",
+          "end": "3:97"
+        }
+      ]
+    },
+    {
+      "name": "OR: 32nd Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "5:1",
+          "end": "5:2"
+        },
+        {
+          "start": "5:5",
+          "end": "5:9"
+        },
+        {
+          "start": "5:13",
+          "end": "5:17"
+        },
+        {
+          "start": "25",
+          "end": "6:1"
+        }
+      ]
+    },
+    {
+      "name": "OR: 32nd Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "9:1",
+          "end": "9:4a"
+        },
+        {
+          "start": "9:18",
+          "end": "9:27"
+        }
+      ]
+    },
+    {
+      "name": "OR: 32nd Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "start": "10:1",
+      "end": "10:21"
+    },
+    {
+      "name": "OR: 32nd Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "start": "12:1",
+      "end": "12:13"
+    }
+  ]
+}

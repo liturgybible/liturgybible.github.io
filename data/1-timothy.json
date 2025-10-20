@@ -1,0 +1,136 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "24th Sunday in Ordinary Time [C, #132]",
+      "color": "#7B2E2B",
+      "start": "1:12",
+      "end": "1:17"
+    },
+    {
+      "name": "25th Sunday in Ordinary Time [C, #135]",
+      "color": "#7B2E2B",
+      "start": "2:1",
+      "end": "2:8"
+    },
+    {
+      "name": "26th Sunday in Ordinary Time [C, #138]",
+      "color": "#7B2E2B",
+      "start": "6:11",
+      "end": "6:16"
+    },
+    {
+      "name": "Ord. Time, Week 23, Fri [I, #441]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:2"
+        },
+        {
+          "start": "1:12",
+          "end": "1:14"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 23, Sat [I, #442]",
+      "color": "#B35C58",
+      "start": "1:15",
+      "end": "1:17"
+    },
+    {
+      "name": "Ord. Time, Week 24, Mon [I, #443]",
+      "color": "#B35C58",
+      "start": "2:1",
+      "end": "2:8"
+    },
+    {
+      "name": "Ord. Time, Week 24, Tues [I, #444]",
+      "color": "#B35C58",
+      "start": "3:1",
+      "end": "3:13"
+    },
+    {
+      "name": "Ord. Time, Week 24, Wed [I, #445]",
+      "color": "#B35C58",
+      "start": "3:14",
+      "end": "3:16"
+    },
+    {
+      "name": "Ord. Time, Week 24, Thurs [I, #446]",
+      "color": "#B35C58",
+      "start": "4:12",
+      "end": "4:16"
+    },
+    {
+      "name": "Ord. Time, Week 24, Fri [I, #447]",
+      "color": "#B35C58",
+      "start": "6:2c",
+      "end": "6:12"
+    },
+    {
+      "name": "Ord. Time, Week 24, Sat [I, #448]",
+      "color": "#B35C58",
+      "start": "6:13",
+      "end": "6:16"
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 27th Sunday in Ord. Time",
+      "color": "#4C6B4F",
+      "start": "1:1",
+      "end": "1:20"
+    },
+    {
+      "name": "OR: 27th Week in Ord. Time, Monday",
+      "color": "#4C6B4F",
+      "start": "2:1",
+      "end": "2:15"
+    },
+    {
+      "name": "OR: 27th Week in Ord. Time, Tuesday",
+      "color": "#4C6B4F",
+      "start": "3:1",
+      "end": "3:16"
+    },
+    {
+      "name": "OR: 27th Week in Ord. Time, Wednesday",
+      "color": "#4C6B4F",
+      "start": "4:1",
+      "end": "5:2"
+    },
+    {
+      "name": "OR: 27th Week in Ord. Time, Thursday",
+      "color": "#4C6B4F",
+      "start": "5:3",
+      "end": "5:25"
+    },
+    {
+      "name": "OR: Common of Pastors, For a priest (Advent/Christmas/Lent/Easter)",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "5:17",
+          "end": "5:22"
+        },
+        {
+          "start": "6:10",
+          "end": "6:14"
+        }
+      ]
+    },
+    {
+      "name": "OR: 27th Week in Ord. Time, Friday",
+      "color": "#4C6B4F",
+      "start": "6:1",
+      "end": "6:10"
+    },
+    {
+      "name": "OR: 27th Week in Ord. Time, Saturday",
+      "color": "#4C6B4F",
+      "start": "6:11",
+      "end": "6:21"
+    }
+  ]
+}

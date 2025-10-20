@@ -1,0 +1,78 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "Dec. 25: Christmas: Mass at Midnight [ABC, #14]",
+      "color": "#7B2E2B",
+      "start": "2:11",
+      "end": "2:14"
+    },
+    {
+      "name": "Sunday after Epiphany: Baptism of the Lord (opt. C) [C, #21]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "2:11",
+          "end": "2:14"
+        },
+        {
+          "start": "3:4",
+          "end": "3:7"
+        }
+      ]
+    },
+    {
+      "name": "Dec. 25: Christmas: Mass at Dawn [ABC, #15]",
+      "color": "#7B2E2B",
+      "start": "3:4",
+      "end": "3:7"
+    },
+    {
+      "name": "Jan 26: Sts. Timothy and Titus (Proper 1st Reading ; option 2) [I/II, #520]",
+      "color": "#C9A441",
+      "start": "1:1",
+      "end": "1:5"
+    },
+    {
+      "name": "Ord. Time, Week 32, Mon [II, #491]",
+      "color": "#B35C58",
+      "start": "1:1",
+      "end": "1:9"
+    },
+    {
+      "name": "Ord. Time, Week 32, Tues [II, #492]",
+      "color": "#B35C58",
+      "segments": [
+        {
+          "start": "2:1",
+          "end": "2:8"
+        },
+        {
+          "start": "2:11",
+          "end": "2:14"
+        }
+      ]
+    },
+    {
+      "name": "Ord. Time, Week 32, Wed [II, #493]",
+      "color": "#B35C58",
+      "start": "3:1",
+      "end": "3:7"
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: Common of Pastors, For a pope or bishop (Ordinary Time)",
+      "color": "#4C6B4F",
+      "segments": [
+        {
+          "start": "1:7",
+          "end": "1:11"
+        },
+        {
+          "start": "2:1",
+          "end": "2:8"
+        }
+      ]
+    }
+  ]
+}

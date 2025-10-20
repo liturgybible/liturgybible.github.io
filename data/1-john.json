@@ -1,0 +1,260 @@
+{
+  "lectionaryReadings": [
+    {
+      "name": "3rd Sunday of Easter [B, #47]",
+      "color": "#7B2E2B",
+      "start": "2:1",
+      "end": "2:5a"
+    },
+    {
+      "name": "4th Sunday of Easter [B, #50]",
+      "color": "#7B2E2B",
+      "start": "3:1",
+      "end": "3:2"
+    },
+    {
+      "name": "Sunday in Octave of Christmas: Holy Family (opt. C) [C, #17]",
+      "color": "#7B2E2B",
+      "segments": [
+        {
+          "start": "3:1",
+          "end": "3:2"
+        },
+        {
+          "start": "3:21",
+          "end": "3:24"
+        }
+      ]
+    },
+    {
+      "name": "Nov 1: All Saints [#667]",
+      "color": "#C9A441",
+      "start": "3:1",
+      "end": "3:3"
+    },
+    {
+      "name": "5th Sunday of Easter [B, #53]",
+      "color": "#7B2E2B",
+      "start": "3:18",
+      "end": "3:24"
+    },
+    {
+      "name": "6th Sunday of Easter [B, #56]",
+      "color": "#7B2E2B",
+      "start": "4:7",
+      "end": "4:10"
+    },
+    {
+      "name": "Friday after 2nd Sun after Pentecost: Sacred Heart [A, #170]",
+      "color": "#7B2E2B",
+      "start": "4:7",
+      "end": "4:16"
+    },
+    {
+      "name": "7th Sunday of Easter (note 2) [B, #60]",
+      "color": "#7B2E2B",
+      "start": "4:11",
+      "end": "4:16"
+    },
+    {
+      "name": "2nd Sunday of Easter [B, #44]",
+      "color": "#7B2E2B",
+      "start": "5:1",
+      "end": "5:6"
+    },
+    {
+      "name": "Sunday after Epiphany: Baptism of the Lord (opt. B) [B, #21]",
+      "color": "#7B2E2B",
+      "start": "5:1",
+      "end": "5:9"
+    },
+    {
+      "name": "Dec 27: St. John, Apostle and Evangelist [I/II, #697]",
+      "color": "#C9A441",
+      "start": "1:1",
+      "end": "1:4"
+    },
+    {
+      "name": "Dec 28: Holy Innocents, martyrs [I/II, #698]",
+      "color": "#C9A441",
+      "start": "1:5",
+      "end": "2:2"
+    },
+    {
+      "name": "5th Day in Xmas Octave, Dec. 29 [I/II, #202]",
+      "color": "#B35C58",
+      "start": "2:3",
+      "end": "2:11"
+    },
+    {
+      "name": "6th Day in Xmas Octave, Dec. 30 [I/II, #203]",
+      "color": "#B35C58",
+      "start": "2:12",
+      "end": "2:17"
+    },
+    {
+      "name": "7th Day in Xmas Octave, Dec. 31 [I/II, #204]",
+      "color": "#B35C58",
+      "start": "2:18",
+      "end": "2:21"
+    },
+    {
+      "name": "Christmas Weekday: Jan. 2 [I/II, #205]",
+      "color": "#B35C58",
+      "start": "2:22",
+      "end": "2:28"
+    },
+    {
+      "name": "Christmas Weekday: Jan. 3 [I/II, #206]",
+      "color": "#B35C58",
+      "start": "2:29",
+      "end": "3:6"
+    },
+    {
+      "name": "Nov 1: Solemnity: All Saints [I/II, #667]",
+      "color": "#C9A441",
+      "start": "3:1",
+      "end": "3:3"
+    },
+    {
+      "name": "Christmas Weekday: Jan. 4 [I/II, #207]",
+      "color": "#B35C58",
+      "start": "3:7",
+      "end": "3:10"
+    },
+    {
+      "name": "Christmas Weekday: Jan. 5 [I/II, #208]",
+      "color": "#B35C58",
+      "start": "3:11",
+      "end": "3:21"
+    },
+    {
+      "name": "Christmas Weekday: Jan. 6 (if Epiphany is Jan. 7 or 8) [I/II, #209]",
+      "color": "#B35C58",
+      "start": "5:5",
+      "end": "5:13"
+    },
+    {
+      "name": "Christmas Weekday: Jan. 7 (if Epiphany is Jan. 8) [I/II, #210]",
+      "color": "#B35C58",
+      "start": "5:14",
+      "end": "5:21"
+    },
+    {
+      "name": "Mon after Epiphany, or Jan. 7 [I/II, #212]",
+      "color": "#B35C58",
+      "start": "3:22",
+      "end": "4:6"
+    },
+    {
+      "name": "Tues after Epiphany, or Jan. 8 [I/II, #213]",
+      "color": "#B35C58",
+      "start": "4:7",
+      "end": "4:10"
+    },
+    {
+      "name": "Wed after Epiphany, or Jan. 9 [I/II, #214]",
+      "color": "#B35C58",
+      "start": "4:11",
+      "end": "4:18"
+    },
+    {
+      "name": "Thurs after Epiphany, or Jan. 10 [I/II, #215]",
+      "color": "#B35C58",
+      "start": "4:19",
+      "end": "5:4"
+    },
+    {
+      "name": "Fri after Epiphany, or Jan. 11 [I/II, #216]",
+      "color": "#B35C58",
+      "start": "5:5",
+      "end": "5:13"
+    },
+    {
+      "name": "Sat after Epiphany, or Jan. 12 [I/II, #217]",
+      "color": "#B35C58",
+      "start": "5:14",
+      "end": "5:21"
+    }
+  ],
+  "divineOffice": [
+    {
+      "name": "OR: 6th Sunday of Easter",
+      "color": "#4C6B4F",
+      "start": "1:1",
+      "end": "1:10"
+    },
+    {
+      "name": "OR: Dec. 27: John, Apostle and Evangelist",
+      "color": "#4C6B4F",
+      "start": "1:1",
+      "end": "2:3"
+    },
+    {
+      "name": "OR: 6th Week of Easter, Monday",
+      "color": "#4C6B4F",
+      "start": "2:1",
+      "end": "2:11"
+    },
+    {
+      "name": "OR: 6th Week of Easter, Tuesday",
+      "color": "#4C6B4F",
+      "start": "2:12",
+      "end": "2:17"
+    },
+    {
+      "name": "OR: 6th Week of Easter, Wednesday",
+      "color": "#4C6B4F",
+      "start": "2:18",
+      "end": "2:29"
+    },
+    {
+      "name": "OR: 6th Week of Easter, Friday",
+      "color": "#4C6B4F",
+      "start": "3:1",
+      "end": "3:10"
+    },
+    {
+      "name": "OR: 6th Week of Easter, Saturday",
+      "color": "#4C6B4F",
+      "start": "3:11",
+      "end": "3:17"
+    },
+    {
+      "name": "OR: 7th Sunday of Easter",
+      "color": "#4C6B4F",
+      "start": "3:18",
+      "end": "3:24"
+    },
+    {
+      "name": "OR: 7th Week of Easter, Monday",
+      "color": "#4C6B4F",
+      "start": "4:1",
+      "end": "4:10"
+    },
+    {
+      "name": "OR: Common of Holy M&W, For those who worked for the underprivileged (Seasons)",
+      "color": "#4C6B4F",
+      "start": "4:7",
+      "end": "4:21"
+    },
+    {
+      "name": "OR: 7th Week of Easter, Tuesday",
+      "color": "#4C6B4F",
+      "start": "4:11",
+      "end": "4:21"
+    },
+    {
+      "name": "OR: 7th Week of Easter, Wednesday",
+      "color": "#4C6B4F",
+      "start": "5:1",
+      "end": "5:12"
+    },
+    {
+      "name": "OR: 7th Week of Easter, Thursday",
+      "color": "#4C6B4F",
+      "start": "5:13",
+      "end": "5:21"
+    }
+  ]
+}
