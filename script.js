@@ -27,7 +27,7 @@ window.addEventListener('load', () => {
 
     const redraw = () => drawAnnotations(lectionaryReadingsData, divineOfficeData);
 
-    // --- NEW: Translation Switcher Logic ---
+    // --- Translation Switcher Logic ---
     const switcher = document.getElementById('translation-switcher');
     if (switcher) {
         // Set initial value from localStorage if it exists
@@ -54,7 +54,23 @@ window.addEventListener('load', () => {
         // Apply the initial translation on page load
         applyTranslation();
     }
-    // --- END NEW LOGIC ---
+    
+    // --- ARROW KEY NAVIGATION ---
+    document.addEventListener('keydown', function(event) {
+        // Find the previous and next links in the bottom navigation
+        const prevLink = document.querySelector('.bottom-nav a:first-of-type');
+        const nextLink = document.querySelector('.bottom-nav a:last-of-type');
+
+        if (event.key === 'ArrowLeft') {
+            if (prevLink && prevLink.href) {
+                prevLink.click();
+            }
+        } else if (event.key === 'ArrowRight') {
+            if (nextLink && nextLink.href) {
+                nextLink.click();
+            }
+        }
+    });
 
     const currentChapterNum = parseInt(chapter, 10);
 
@@ -192,3 +208,4 @@ function renderSide(readings, container, isRightSided) {
         });
     });
 }
+
