@@ -79,7 +79,7 @@
       "end": "6:18"
     },
     {
-      "name": "Ord. Time, Week 27, Mon [II, #461]",
+      "name": "OT, Week 27, Mon [II, #461]",
       "color": "#B35C58",
       "start": "1:6",
       "end": "1:12"
@@ -91,13 +91,13 @@
       "end": "1:20"
     },
     {
-      "name": "Ord. Time, Week 27, Tues [II, #462]",
+      "name": "OT, Week 27, Tues [II, #462]",
       "color": "#B35C58",
       "start": "1:13",
       "end": "1:24"
     },
     {
-      "name": "Ord. Time, Week 27, Wed [II, #463]",
+      "name": "OT, Week 27, Wed [II, #463]",
       "color": "#B35C58",
       "segments": [
         {
@@ -111,25 +111,25 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 27, Thurs [II, #464]",
+      "name": "OT, Week 27, Thurs [II, #464]",
       "color": "#B35C58",
       "start": "3:1",
       "end": "3:5"
     },
     {
-      "name": "Ord. Time, Week 27, Fri [II, #465]",
+      "name": "OT, Week 27, Fri [II, #465]",
       "color": "#B35C58",
       "start": "3:7",
       "end": "3:14"
     },
     {
-      "name": "Ord. Time, Week 27, Sat [II, #466]",
+      "name": "OT, Week 27, Sat [II, #466]",
       "color": "#B35C58",
       "start": "3:22",
       "end": "3:29"
     },
     {
-      "name": "Ord. Time, Week 28, Mon [II, #467]",
+      "name": "OT, Week 28, Mon [II, #467]",
       "color": "#B35C58",
       "segments": [
         {
@@ -147,13 +147,13 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 28, Tues [II, #468]",
+      "name": "OT, Week 28, Tues [II, #468]",
       "color": "#B35C58",
       "start": "5:1",
       "end": "5:6"
     },
     {
-      "name": "Ord. Time, Week 28, Wed [II, #469]",
+      "name": "OT, Week 28, Wed [II, #469]",
       "color": "#B35C58",
       "start": "5:18",
       "end": "5:25"
@@ -161,7 +161,7 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 5th Sunday in Ord. Time",
+      "name": "OR: 5th Sunday in OT",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:12"
@@ -173,7 +173,7 @@
       "end": "1:24"
     },
     {
-      "name": "OR: 5th Week in Ord. Time, Monday",
+      "name": "OR: 5th Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "1:13",
       "end": "2:10"
@@ -185,7 +185,7 @@
       "end": "2:10"
     },
     {
-      "name": "OR: 5th Week in Ord. Time, Tuesday",
+      "name": "OR: 5th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "2:11",
       "end": "3:14"
@@ -209,7 +209,7 @@
       ]
     },
     {
-      "name": "OR: 5th Week in Ord. Time, Wednesday",
+      "name": "OR: 5th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "3:15",
       "end": "4:17"
@@ -221,19 +221,19 @@
       "end": "4:7"
     },
     {
-      "name": "OR: 5th Week in Ord. Time, Thursday",
+      "name": "OR: 5th Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "4:8",
       "end": "4:31"
     },
     {
-      "name": "OR: 5th Week in Ord. Time, Friday",
+      "name": "OR: 5th Week in OT, Friday",
       "color": "#4C6B4F",
       "start": "5:1",
       "end": "5:25"
     },
     {
-      "name": "OR: 5th Week in Ord. Time, Saturday",
+      "name": "OR: 5th Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "5:25",
       "end": "6:18"

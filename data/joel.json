@@ -7,7 +7,7 @@
       "end": "3:5"
     },
     {
-      "name": "Ord. Time, Week 27, Fri [I, #465]",
+      "name": "OT, Week 27, Fri [I, #465]",
       "color": "#B35C58",
       "segments": [
         {
@@ -27,7 +27,7 @@
       "end": "2:18"
     },
     {
-      "name": "Ord. Time, Week 27, Sat [I, #466]",
+      "name": "OT, Week 27, Sat [I, #466]",
       "color": "#B35C58",
       "start": "4:12",
       "end": "4:21"
@@ -35,13 +35,13 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 33rd Sunday in Ord. Time",
+      "name": "OR: 33rd Sunday in OT",
       "color": "#4C6B4F",
       "start": "2:21",
       "end": "3:5"
     },
     {
-      "name": "OR: 33rd Week in Ord. Time, Monday",
+      "name": "OR: 33rd Week in OT, Monday",
       "color": "#4C6B4F",
       "segments": [
         {

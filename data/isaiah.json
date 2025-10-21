@@ -453,7 +453,7 @@
       "end": "66:21"
     },
     {
-      "name": "Ord. Time, Week 15, Mon [II, #389]",
+      "name": "OT, Week 15, Mon [II, #389]",
       "color": "#B35C58",
       "start": "1:10",
       "end": "1:17"
@@ -485,13 +485,13 @@
       "end": "4:6"
     },
     {
-      "name": "Ord. Time, Week 14, Sat [II, #388]",
+      "name": "OT, Week 14, Sat [II, #388]",
       "color": "#B35C58",
       "start": "6:1",
       "end": "6:8"
     },
     {
-      "name": "Ord. Time, Week 15, Tues [II, #390]",
+      "name": "OT, Week 15, Tues [II, #390]",
       "color": "#B35C58",
       "start": "7:1",
       "end": "7:9"
@@ -517,7 +517,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 15, Wed [II, #391]",
+      "name": "OT, Week 15, Wed [II, #391]",
       "color": "#B35C58",
       "segments": [
         {
@@ -537,7 +537,7 @@
       "end": "11:10"
     },
     {
-      "name": "Ord. Time, Week 19, Fri (resp. - note 2) [II, #417]",
+      "name": "OT, Week 19, Fri (resp. - note 2) [II, #417]",
       "color": "#B35C58",
       "segments": [
         {
@@ -555,7 +555,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 29, Wed (resp. - note 2) [II, #475]",
+      "name": "OT, Week 29, Wed (resp. - note 2) [II, #475]",
       "color": "#B35C58",
       "segments": [
         {
@@ -603,7 +603,7 @@
       "end": "26:6"
     },
     {
-      "name": "Ord. Time, Week 15, Thurs [II, #392]",
+      "name": "OT, Week 15, Thurs [II, #392]",
       "color": "#B35C58",
       "segments": [
         {
@@ -647,7 +647,7 @@
       "end": "35:10"
     },
     {
-      "name": "Ord. Time, Week 15, Fri [II, #393]",
+      "name": "OT, Week 15, Fri [II, #393]",
       "color": "#B35C58",
       "segments": [
         {
@@ -665,7 +665,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 15, Fri (resp. - note 2) [II, #393]",
+      "name": "OT, Week 15, Fri (resp. - note 2) [II, #393]",
       "color": "#B35C58",
       "segments": [
         {
@@ -863,7 +863,7 @@
       ]
     },
     {
-      "name": "OR: 20th Week in Ord. Time, Monday",
+      "name": "OR: 20th Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:15"
@@ -875,13 +875,13 @@
       "end": "5:7"
     },
     {
-      "name": "OR: 20th Sunday in Ord. Time",
+      "name": "OR: 20th Sunday in OT",
       "color": "#4C6B4F",
       "start": "6:1",
       "end": "6:13"
     },
     {
-      "name": "OR: 20th Week in Ord. Time, Tuesday",
+      "name": "OR: 20th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "7:1",
       "end": "7:17"
@@ -905,7 +905,7 @@
       ]
     },
     {
-      "name": "OR: 20th Week in Ord. Time, Wednesday",
+      "name": "OR: 20th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "9:7",
       "end": "10:4"
@@ -917,7 +917,7 @@
       "end": "11:10"
     },
     {
-      "name": "OR: 20th Week in Ord. Time, Thursday",
+      "name": "OR: 20th Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "11:1",
       "end": "11:16"
@@ -997,7 +997,7 @@
       "end": "29:24"
     },
     {
-      "name": "OR: 20th Week in Ord. Time, Friday",
+      "name": "OR: 20th Week in OT, Friday",
       "color": "#4C6B4F",
       "start": "30:1",
       "end": "30:18"
@@ -1049,7 +1049,7 @@
       "end": "33:24"
     },
     {
-      "name": "OR: 20th Week in Ord. Time, Saturday",
+      "name": "OR: 20th Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "37:21",
       "end": "37:35"

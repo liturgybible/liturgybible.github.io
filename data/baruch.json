@@ -21,13 +21,13 @@
       "end": "5:9"
     },
     {
-      "name": "Ord. Time, Week 26, Fri [I, #459]",
+      "name": "OT, Week 26, Fri [I, #459]",
       "color": "#B35C58",
       "start": "1:15",
       "end": "1:22"
     },
     {
-      "name": "Ord. Time, Week 26, Sat [I, #460]",
+      "name": "OT, Week 26, Sat [I, #460]",
       "color": "#B35C58",
       "segments": [
         {
@@ -43,7 +43,7 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 29th Week in Ord. Time, Friday",
+      "name": "OR: 29th Week in OT, Friday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "name": "OR: 29th Week in Ord. Time, Saturday",
+      "name": "OR: 29th Week in OT, Saturday",
       "color": "#4C6B4F",
       "segments": [
         {

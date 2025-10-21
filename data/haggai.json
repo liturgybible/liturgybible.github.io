@@ -1,13 +1,13 @@
 {
   "lectionaryReadings": [
     {
-      "name": "Ord. Time, Week 25, Thurs [I, #452]",
+      "name": "OT, Week 25, Thurs [I, #452]",
       "color": "#B35C58",
       "start": "1:1",
       "end": "1:8"
     },
     {
-      "name": "Ord. Time, Week 25, Fri [I, #453]",
+      "name": "OT, Week 25, Fri [I, #453]",
       "color": "#B35C58",
       "start": "2:1",
       "end": "2:9"
@@ -15,13 +15,13 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 28th Sunday in Ord. Time",
+      "name": "OR: 28th Sunday in OT",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "2:10"
     },
     {
-      "name": "OR: 28th Week in Ord. Time, Monday",
+      "name": "OR: 28th Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "2:11",
       "end": "2:24"

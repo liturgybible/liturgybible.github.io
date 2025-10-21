@@ -25,7 +25,7 @@
       "end": "33:9"
     },
     {
-      "name": "34th Sunday in Ord. Time: Christ the King [A, #160]",
+      "name": "34th Sunday in OT: Christ the King [A, #160]",
       "color": "#7B2E2B",
       "segments": [
         {
@@ -89,7 +89,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 19, Mon [II, #413]",
+      "name": "OT, Week 19, Mon [II, #413]",
       "color": "#B35C58",
       "segments": [
         {
@@ -103,13 +103,13 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 19, Tues [II, #414]",
+      "name": "OT, Week 19, Tues [II, #414]",
       "color": "#B35C58",
       "start": "2:8",
       "end": "3:4"
     },
     {
-      "name": "Ord. Time, Week 19, Wed [II, #415]",
+      "name": "OT, Week 19, Wed [II, #415]",
       "color": "#B35C58",
       "segments": [
         {
@@ -123,13 +123,13 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 19, Thurs [II, #416]",
+      "name": "OT, Week 19, Thurs [II, #416]",
       "color": "#B35C58",
       "start": "12:1",
       "end": "12:12"
     },
     {
-      "name": "Ord. Time, Week 19, Fri [II, #417]",
+      "name": "OT, Week 19, Fri [II, #417]",
       "color": "#B35C58",
       "segments": [
         {
@@ -147,13 +147,13 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 19, Fri [II, #417] (short)",
+      "name": "OT, Week 19, Fri [II, #417] (short)",
       "color": "#B35C58",
       "start": "16:59",
       "end": "16:63"
     },
     {
-      "name": "Ord. Time, Week 19, Sat [II, #418]",
+      "name": "OT, Week 19, Sat [II, #418]",
       "color": "#B35C58",
       "segments": [
         {
@@ -177,31 +177,31 @@
       "end": "18:28"
     },
     {
-      "name": "Ord. Time, Week 20, Mon [II, #419]",
+      "name": "OT, Week 20, Mon [II, #419]",
       "color": "#B35C58",
       "start": "24:15",
       "end": "24:23"
     },
     {
-      "name": "Ord. Time, Week 20, Tues [II, #420]",
+      "name": "OT, Week 20, Tues [II, #420]",
       "color": "#B35C58",
       "start": "28:1",
       "end": "28:10"
     },
     {
-      "name": "Ord. Time, Week 20, Wed [II, #421]",
+      "name": "OT, Week 20, Wed [II, #421]",
       "color": "#B35C58",
       "start": "34:1",
       "end": "34:11"
     },
     {
-      "name": "Ord. Time, Week 20, Thurs [II, #422]",
+      "name": "OT, Week 20, Thurs [II, #422]",
       "color": "#B35C58",
       "start": "36:23",
       "end": "36:28"
     },
     {
-      "name": "Ord. Time, Week 20, Fri [II, #423]",
+      "name": "OT, Week 20, Fri [II, #423]",
       "color": "#B35C58",
       "start": "37:1",
       "end": "37:14"
@@ -213,7 +213,7 @@
       "end": "37:28"
     },
     {
-      "name": "Ord. Time, Week 20, Sat [II, #424]",
+      "name": "OT, Week 20, Sat [II, #424]",
       "color": "#B35C58",
       "start": "43:1",
       "end": "43:7ab"
@@ -253,7 +253,7 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 24th Sunday in Ord. Time",
+      "name": "OR: 24th Sunday in OT",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -267,7 +267,7 @@
       ]
     },
     {
-      "name": "OR: 24th Week in Ord. Time, Monday",
+      "name": "OR: 24th Week in OT, Monday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -281,7 +281,7 @@
       ]
     },
     {
-      "name": "OR: 24th Week in Ord. Time, Tuesday",
+      "name": "OR: 24th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -295,7 +295,7 @@
       ]
     },
     {
-      "name": "OR: 24th Week in Ord. Time, Wednesday",
+      "name": "OR: 24th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -309,13 +309,13 @@
       ]
     },
     {
-      "name": "OR: 24th Week in Ord. Time, Thursday",
+      "name": "OR: 24th Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "12:1",
       "end": "12:6"
     },
     {
-      "name": "OR: 24th Week in Ord. Time, Friday",
+      "name": "OR: 24th Week in OT, Friday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -349,7 +349,7 @@
       ]
     },
     {
-      "name": "OR: 24th Week in Ord. Time, Saturday",
+      "name": "OR: 24th Week in OT, Saturday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -363,13 +363,13 @@
       ]
     },
     {
-      "name": "OR: 25th Sunday in Ord. Time",
+      "name": "OR: 25th Sunday in OT",
       "color": "#4C6B4F",
       "start": "24:15",
       "end": "24:27"
     },
     {
-      "name": "OR: 25th Week in Ord. Time, Monday",
+      "name": "OR: 25th Week in OT, Monday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -393,25 +393,25 @@
       "end": "36:28"
     },
     {
-      "name": "OR: 25th Week in Ord. Time, Tuesday",
+      "name": "OR: 25th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "36:16",
       "end": "36:36"
     },
     {
-      "name": "OR: 25th Week in Ord. Time, Wednesday",
+      "name": "OR: 25th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "37:1",
       "end": "37:14"
     },
     {
-      "name": "OR: 25th Week in Ord. Time, Thursday",
+      "name": "OR: 25th Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "37:15",
       "end": "37:28"
     },
     {
-      "name": "OR: 25th Week in Ord. Time, Friday",
+      "name": "OR: 25th Week in OT, Friday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -429,7 +429,7 @@
       ]
     },
     {
-      "name": "OR: 25th Week in Ord. Time, Saturday",
+      "name": "OR: 25th Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "47:1",
       "end": "47:12"

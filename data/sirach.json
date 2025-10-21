@@ -79,55 +79,55 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 7, Mon [I, #341]",
+      "name": "OT, Week 7, Mon [I, #341]",
       "color": "#B35C58",
       "start": "1:1",
       "end": "1:10"
     },
     {
-      "name": "Ord. Time, Week 7, Tues [I, #342]",
+      "name": "OT, Week 7, Tues [I, #342]",
       "color": "#B35C58",
       "start": "2:1",
       "end": "2:11"
     },
     {
-      "name": "Ord. Time, Week 7, Wed [I, #343]",
+      "name": "OT, Week 7, Wed [I, #343]",
       "color": "#B35C58",
       "start": "4:11",
       "end": "4:19"
     },
     {
-      "name": "Ord. Time, Week 7, Thurs [I, #344]",
+      "name": "OT, Week 7, Thurs [I, #344]",
       "color": "#B35C58",
       "start": "5:1",
       "end": "5:8"
     },
     {
-      "name": "Ord. Time, Week 7, Fri [I, #345]",
+      "name": "OT, Week 7, Fri [I, #345]",
       "color": "#B35C58",
       "start": "6:5",
       "end": "6:17"
     },
     {
-      "name": "Ord. Time, Week 7, Sat [I, #346]",
+      "name": "OT, Week 7, Sat [I, #346]",
       "color": "#B35C58",
       "start": "17:1",
       "end": "17:15"
     },
     {
-      "name": "Ord. Time, Week 8, Mon [I, #347]",
+      "name": "OT, Week 8, Mon [I, #347]",
       "color": "#B35C58",
       "start": "17:20",
       "end": "17:24"
     },
     {
-      "name": "Ord. Time, Week 8, Tues [I, #348]",
+      "name": "OT, Week 8, Tues [I, #348]",
       "color": "#B35C58",
       "start": "35:1",
       "end": "35:12"
     },
     {
-      "name": "Ord. Time, Week 8, Wed [I, #349]",
+      "name": "OT, Week 8, Wed [I, #349]",
       "color": "#B35C58",
       "segments": [
         {
@@ -145,13 +145,13 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 8, Thurs [I, #350]",
+      "name": "OT, Week 8, Thurs [I, #350]",
       "color": "#B35C58",
       "start": "42:15",
       "end": "42:25"
     },
     {
-      "name": "Ord. Time, Week 8, Fri [I, #351]",
+      "name": "OT, Week 8, Fri [I, #351]",
       "color": "#B35C58",
       "segments": [
         {
@@ -179,7 +179,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 4, Fri [II, #327]",
+      "name": "OT, Week 4, Fri [II, #327]",
       "color": "#B35C58",
       "start": "47:2",
       "end": "47:11"
@@ -199,13 +199,13 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 11, Thurs [II, #368]",
+      "name": "OT, Week 11, Thurs [II, #368]",
       "color": "#B35C58",
       "start": "48:1",
       "end": "48:14"
     },
     {
-      "name": "Ord. Time, Week 8, Sat [I, #352]",
+      "name": "OT, Week 8, Sat [I, #352]",
       "color": "#B35C58",
       "start": "51:12cd",
       "end": "51:20"
@@ -213,19 +213,19 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 1st Week in Ord. Time, Monday",
+      "name": "OR: 1st Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:18"
     },
     {
-      "name": "OR: 1st Week in Ord. Time, Tuesday",
+      "name": "OR: 1st Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "11:12",
       "end": "11:28"
     },
     {
-      "name": "OR: 1st Week in Ord. Time, Wednesday",
+      "name": "OR: 1st Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "24:1",
       "end": "24:22"
@@ -237,19 +237,19 @@
       "end": "39:10"
     },
     {
-      "name": "OR: 1st Week in Ord. Time, Thursday",
+      "name": "OR: 1st Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "42:15",
       "end": "43:12"
     },
     {
-      "name": "OR: 1st Week in Ord. Time, Friday",
+      "name": "OR: 1st Week in OT, Friday",
       "color": "#4C6B4F",
       "start": "43:13",
       "end": "43:35"
     },
     {
-      "name": "OR: 1st Week in Ord. Time, Saturday",
+      "name": "OR: 1st Week in OT, Saturday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -263,13 +263,13 @@
       ]
     },
     {
-      "name": "OR: 10th Sunday in Ord. Time",
+      "name": "OR: 10th Sunday in OT",
       "color": "#4C6B4F",
       "start": "46:1",
       "end": "46:10"
     },
     {
-      "name": "OR: 14th Week in Ord. Time, Saturday",
+      "name": "OR: 14th Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "47:12",
       "end": "47:25"

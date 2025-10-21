@@ -1,7 +1,7 @@
 {
   "lectionaryReadings": [
     {
-      "name": "Ord. Time, Week 12, Sat [II, #376]",
+      "name": "OT, Week 12, Sat [II, #376]",
       "color": "#B35C58",
       "segments": [
         {
@@ -21,7 +21,7 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 23rd Week in Ord. Time, Thursday",
+      "name": "OR: 23rd Week in OT, Thursday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -35,13 +35,13 @@
       ]
     },
     {
-      "name": "OR: 23rd Week in Ord. Time, Friday",
+      "name": "OR: 23rd Week in OT, Friday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:33"
     },
     {
-      "name": "OR: 23rd Week in Ord. Time, Saturday",
+      "name": "OR: 23rd Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "5:1",
       "end": "5:22"

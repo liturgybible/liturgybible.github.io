@@ -67,7 +67,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 4, Thurs [II, #326]",
+      "name": "OT, Week 4, Thurs [II, #326]",
       "color": "#B35C58",
       "segments": [
         {
@@ -81,13 +81,13 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 4, Sat [II, #328]",
+      "name": "OT, Week 4, Sat [II, #328]",
       "color": "#B35C58",
       "start": "3:4",
       "end": "3:13"
     },
     {
-      "name": "Ord. Time, Week 5, Mon [II, #329]",
+      "name": "OT, Week 5, Mon [II, #329]",
       "color": "#B35C58",
       "segments": [
         {
@@ -101,7 +101,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 5, Tues [II, #330]",
+      "name": "OT, Week 5, Tues [II, #330]",
       "color": "#B35C58",
       "segments": [
         {
@@ -115,19 +115,19 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 5, Wed [II, #331]",
+      "name": "OT, Week 5, Wed [II, #331]",
       "color": "#B35C58",
       "start": "10:1",
       "end": "10:10"
     },
     {
-      "name": "Ord. Time, Week 5, Thurs [II, #332]",
+      "name": "OT, Week 5, Thurs [II, #332]",
       "color": "#B35C58",
       "start": "11:4",
       "end": "11:13"
     },
     {
-      "name": "Ord. Time, Week 5, Fri [II, #333]",
+      "name": "OT, Week 5, Fri [II, #333]",
       "color": "#B35C58",
       "segments": [
         {
@@ -141,7 +141,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 5, Sat [II, #334]",
+      "name": "OT, Week 5, Sat [II, #334]",
       "color": "#B35C58",
       "segments": [
         {
@@ -155,31 +155,31 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 10, Mon [II, #359]",
+      "name": "OT, Week 10, Mon [II, #359]",
       "color": "#B35C58",
       "start": "17:1",
       "end": "17:6"
     },
     {
-      "name": "Ord. Time, Week 10, Tues [II, #360]",
+      "name": "OT, Week 10, Tues [II, #360]",
       "color": "#B35C58",
       "start": "17:7",
       "end": "17:16"
     },
     {
-      "name": "Ord. Time, Week 10, Wed [II, #361]",
+      "name": "OT, Week 10, Wed [II, #361]",
       "color": "#B35C58",
       "start": "18:20",
       "end": "18:39"
     },
     {
-      "name": "Ord. Time, Week 10, Thurs [II, #362]",
+      "name": "OT, Week 10, Thurs [II, #362]",
       "color": "#B35C58",
       "start": "18:41",
       "end": "18:46"
     },
     {
-      "name": "Ord. Time, Week 10, Fri [II, #363]",
+      "name": "OT, Week 10, Fri [II, #363]",
       "color": "#B35C58",
       "segments": [
         {
@@ -193,19 +193,19 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 10, Sat [II, #364]",
+      "name": "OT, Week 10, Sat [II, #364]",
       "color": "#B35C58",
       "start": "19:19",
       "end": "19:21"
     },
     {
-      "name": "Ord. Time, Week 11, Mon [II, #365]",
+      "name": "OT, Week 11, Mon [II, #365]",
       "color": "#B35C58",
       "start": "21:1",
       "end": "21:16"
     },
     {
-      "name": "Ord. Time, Week 11, Tues [II, #366]",
+      "name": "OT, Week 11, Tues [II, #366]",
       "color": "#B35C58",
       "start": "21:17",
       "end": "21:29"
@@ -213,7 +213,7 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 14th Week in Ord. Time, Friday",
+      "name": "OR: 14th Week in OT, Friday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -245,19 +245,19 @@
       ]
     },
     {
-      "name": "OR: 15th Sunday in Ord. Time",
+      "name": "OR: 15th Sunday in OT",
       "color": "#4C6B4F",
       "start": "16:29",
       "end": "17:16"
     },
     {
-      "name": "OR: 15th Week in Ord. Time, Monday",
+      "name": "OR: 15th Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "18:16b",
       "end": "18:40"
     },
     {
-      "name": "OR: 15th Week in Ord. Time, Tuesday",
+      "name": "OR: 15th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -271,7 +271,7 @@
       ]
     },
     {
-      "name": "OR: 15th Week in Ord. Time, Wednesday",
+      "name": "OR: 15th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -285,7 +285,7 @@
       ]
     },
     {
-      "name": "OR: 15th Week in Ord. Time, Thursday",
+      "name": "OR: 15th Week in OT, Thursday",
       "color": "#4C6B4F",
       "segments": [
         {

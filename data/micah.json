@@ -7,7 +7,7 @@
       "end": "5:4a"
     },
     {
-      "name": "Ord. Time, Week 15, Sat [II, #394]",
+      "name": "OT, Week 15, Sat [II, #394]",
       "color": "#B35C58",
       "start": "2:1",
       "end": "2:5"
@@ -19,7 +19,7 @@
       "end": "5:4a"
     },
     {
-      "name": "Ord. Time, Week 16, Mon [II, #395]",
+      "name": "OT, Week 16, Mon [II, #395]",
       "color": "#B35C58",
       "segments": [
         {
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 16, Tues [II, #396]",
+      "name": "OT, Week 16, Tues [II, #396]",
       "color": "#B35C58",
       "segments": [
         {
@@ -69,31 +69,31 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 19th Week in Ord. Time, Tuesday",
+      "name": "OR: 19th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:12"
     },
     {
-      "name": "OR: 19th Week in Ord. Time, Thursday",
+      "name": "OR: 19th Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "4:14",
       "end": "5:7"
     },
     {
-      "name": "OR: 19th Week in Ord. Time, Wednesday",
+      "name": "OR: 19th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "4:1",
       "end": "4:7"
     },
     {
-      "name": "OR: 19th Week in Ord. Time, Friday",
+      "name": "OR: 19th Week in OT, Friday",
       "color": "#4C6B4F",
       "start": "6:1",
       "end": "6:15"
     },
     {
-      "name": "OR: 19th Week in Ord. Time, Saturday",
+      "name": "OR: 19th Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "7:7",
       "end": "7:20"

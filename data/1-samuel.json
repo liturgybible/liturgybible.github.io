@@ -69,13 +69,13 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 1, Mon [II, #305]",
+      "name": "OT, Week 1, Mon [II, #305]",
       "color": "#B35C58",
       "start": "1:1",
       "end": "1:8"
     },
     {
-      "name": "Ord. Time, Week 1, Tues [II, #306]",
+      "name": "OT, Week 1, Tues [II, #306]",
       "color": "#B35C58",
       "start": "1:9",
       "end": "1:20"
@@ -109,7 +109,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 1, Tues (resp. - note 2) [II, #306]",
+      "name": "OT, Week 1, Tues (resp. - note 2) [II, #306]",
       "color": "#B35C58",
       "segments": [
         {
@@ -131,7 +131,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 1, Wed [II, #307]",
+      "name": "OT, Week 1, Wed [II, #307]",
       "color": "#B35C58",
       "segments": [
         {
@@ -145,13 +145,13 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 1, Thurs [II, #308]",
+      "name": "OT, Week 1, Thurs [II, #308]",
       "color": "#B35C58",
       "start": "4:1",
       "end": "4:11"
     },
     {
-      "name": "Ord. Time, Week 1, Fri [II, #309]",
+      "name": "OT, Week 1, Fri [II, #309]",
       "color": "#B35C58",
       "segments": [
         {
@@ -165,7 +165,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 1, Sat [II, #310]",
+      "name": "OT, Week 1, Sat [II, #310]",
       "color": "#B35C58",
       "segments": [
         {
@@ -183,19 +183,19 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 2, Mon [II, #311]",
+      "name": "OT, Week 2, Mon [II, #311]",
       "color": "#B35C58",
       "start": "15:16",
       "end": "15:23"
     },
     {
-      "name": "Ord. Time, Week 2, Tues [II, #312]",
+      "name": "OT, Week 2, Tues [II, #312]",
       "color": "#B35C58",
       "start": "16:1",
       "end": "16:13"
     },
     {
-      "name": "Ord. Time, Week 2, Wed [II, #313]",
+      "name": "OT, Week 2, Wed [II, #313]",
       "color": "#B35C58",
       "segments": [
         {
@@ -213,7 +213,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 2, Thurs [II, #314]",
+      "name": "OT, Week 2, Thurs [II, #314]",
       "color": "#B35C58",
       "segments": [
         {
@@ -227,7 +227,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 2, Fri [II, #315]",
+      "name": "OT, Week 2, Fri [II, #315]",
       "color": "#B35C58",
       "start": "24:3",
       "end": "24:21"
@@ -235,13 +235,13 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 12th Sunday in Ord. Time",
+      "name": "OR: 12th Sunday in OT",
       "color": "#4C6B4F",
       "start": "16:1",
       "end": "16:13"
     },
     {
-      "name": "OR: 12th Week in Ord. Time, Monday",
+      "name": "OR: 12th Week in OT, Monday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -259,7 +259,7 @@
       ]
     },
     {
-      "name": "OR: 12th Week in Ord. Time, Tuesday",
+      "name": "OR: 12th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -273,7 +273,7 @@
       ]
     },
     {
-      "name": "OR: 12th Week in Ord. Time, Wednesday",
+      "name": "OR: 12th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -287,7 +287,7 @@
       ]
     },
     {
-      "name": "OR: 12th Week in Ord. Time, Thursday",
+      "name": "OR: 12th Week in OT, Thursday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -301,7 +301,7 @@
       ]
     },
     {
-      "name": "OR: 12th Week in Ord. Time, Saturday",
+      "name": "OR: 12th Week in OT, Saturday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -315,19 +315,19 @@
       ]
     },
     {
-      "name": "OR: 13th Sunday in Ord. Time",
+      "name": "OR: 13th Sunday in OT",
       "color": "#4C6B4F",
       "start": "26:5",
       "end": "26:25"
     },
     {
-      "name": "OR: 13th Week in Ord. Time, Monday",
+      "name": "OR: 13th Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "28:3",
       "end": "28:25"
     },
     {
-      "name": "OR: 13th Week in Ord. Time, Tuesday",
+      "name": "OR: 13th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "segments": [
         {

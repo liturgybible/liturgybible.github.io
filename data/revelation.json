@@ -1,7 +1,7 @@
 {
   "lectionaryReadings": [
     {
-      "name": "34th Sunday in Ord. Time: Christ the King [B, #161]",
+      "name": "34th Sunday in OT: Christ the King [B, #161]",
       "color": "#7B2E2B",
       "start": "1:5",
       "end": "1:8"
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 33, Mon [II, #497]",
+      "name": "OT, Week 33, Mon [II, #497]",
       "color": "#B35C58",
       "segments": [
         {
@@ -135,7 +135,7 @@
       "end": "1:8"
     },
     {
-      "name": "Ord. Time, Week 33, Tues [II, #498]",
+      "name": "OT, Week 33, Tues [II, #498]",
       "color": "#B35C58",
       "segments": [
         {
@@ -149,13 +149,13 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 33, Wed [II, #499]",
+      "name": "OT, Week 33, Wed [II, #499]",
       "color": "#B35C58",
       "start": "4:1",
       "end": "4:11"
     },
     {
-      "name": "Ord. Time, Week 33, Thurs [II, #500]",
+      "name": "OT, Week 33, Thurs [II, #500]",
       "color": "#B35C58",
       "start": "5:1",
       "end": "5:10"
@@ -175,13 +175,13 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 33, Fri [II, #501]",
+      "name": "OT, Week 33, Fri [II, #501]",
       "color": "#B35C58",
       "start": "10:8",
       "end": "10:11"
     },
     {
-      "name": "Ord. Time, Week 33, Sat [II, #502]",
+      "name": "OT, Week 33, Sat [II, #502]",
       "color": "#B35C58",
       "start": "11:4",
       "end": "11:12"
@@ -229,7 +229,7 @@
       "end": "12:12a"
     },
     {
-      "name": "Ord. Time, Week 34, Mon [II, #503]",
+      "name": "OT, Week 34, Mon [II, #503]",
       "color": "#B35C58",
       "segments": [
         {
@@ -243,19 +243,19 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 34, Tues [II, #504]",
+      "name": "OT, Week 34, Tues [II, #504]",
       "color": "#B35C58",
       "start": "14:14",
       "end": "14:19"
     },
     {
-      "name": "Ord. Time, Week 34, Wed [II, #505]",
+      "name": "OT, Week 34, Wed [II, #505]",
       "color": "#B35C58",
       "start": "15:1",
       "end": "15:4"
     },
     {
-      "name": "Ord. Time, Week 34, Thurs [II, #506]",
+      "name": "OT, Week 34, Thurs [II, #506]",
       "color": "#B35C58",
       "segments": [
         {
@@ -277,7 +277,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 34, Fri [II, #507]",
+      "name": "OT, Week 34, Fri [II, #507]",
       "color": "#B35C58",
       "segments": [
         {
@@ -297,7 +297,7 @@
       "end": "21:14"
     },
     {
-      "name": "Ord. Time, Week 34, Sat [II, #508]",
+      "name": "OT, Week 34, Sat [II, #508]",
       "color": "#B35C58",
       "start": "22:1",
       "end": "22:7"
@@ -311,7 +311,7 @@
       "end": "1:20"
     },
     {
-      "name": "OR: Last Sunday in Ord. Time: Christ the King",
+      "name": "OR: Last Sunday in OT: Christ the King",
       "color": "#4C6B4F",
       "segments": [
         {

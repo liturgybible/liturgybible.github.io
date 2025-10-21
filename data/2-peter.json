@@ -13,7 +13,7 @@
       "end": "3:14"
     },
     {
-      "name": "Ord. Time, Week 9, Mon [II, #353]",
+      "name": "OT, Week 9, Mon [II, #353]",
       "color": "#B35C58",
       "start": "1:2",
       "end": "1:7"
@@ -25,7 +25,7 @@
       "end": "1:19"
     },
     {
-      "name": "Ord. Time, Week 9, Tues [II, #354]",
+      "name": "OT, Week 9, Tues [II, #354]",
       "color": "#B35C58",
       "segments": [
         {
@@ -41,31 +41,31 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 34th Week in Ord. Time, Monday",
+      "name": "OR: 34th Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:11"
     },
     {
-      "name": "OR: 34th Week in Ord. Time, Tuesday",
+      "name": "OR: 34th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "1:12",
       "end": "1:21"
     },
     {
-      "name": "OR: 34th Week in Ord. Time, Wednesday",
+      "name": "OR: 34th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "2:1",
       "end": "2:9"
     },
     {
-      "name": "OR: 34th Week in Ord. Time, Thursday",
+      "name": "OR: 34th Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "2:9",
       "end": "2:22"
     },
     {
-      "name": "OR: 34th Week in Ord. Time, Friday",
+      "name": "OR: 34th Week in OT, Friday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:18"

@@ -97,19 +97,19 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 30, Fri [II, #483]",
+      "name": "OT, Week 30, Fri [II, #483]",
       "color": "#B35C58",
       "start": "1:1",
       "end": "1:11"
     },
     {
-      "name": "Ord. Time, Week 30, Sat [II, #484]",
+      "name": "OT, Week 30, Sat [II, #484]",
       "color": "#B35C58",
       "start": "1:18b",
       "end": "1:26"
     },
     {
-      "name": "Ord. Time, Week 31, Mon [II, #485]",
+      "name": "OT, Week 31, Mon [II, #485]",
       "color": "#B35C58",
       "start": "2:1",
       "end": "2:4"
@@ -121,7 +121,7 @@
       "end": "2:11"
     },
     {
-      "name": "Ord. Time, Week 31, Tues [II, #486]",
+      "name": "OT, Week 31, Tues [II, #486]",
       "color": "#B35C58",
       "start": "2:5",
       "end": "2:11"
@@ -133,25 +133,25 @@
       "end": "2:11"
     },
     {
-      "name": "Ord. Time, Week 31, Wed [II, #487]",
+      "name": "OT, Week 31, Wed [II, #487]",
       "color": "#B35C58",
       "start": "2:12",
       "end": "2:18"
     },
     {
-      "name": "Ord. Time, Week 31, Thurs [II, #488]",
+      "name": "OT, Week 31, Thurs [II, #488]",
       "color": "#B35C58",
       "start": "3:3",
       "end": "3:8a"
     },
     {
-      "name": "Ord. Time, Week 31, Fri [II, #489]",
+      "name": "OT, Week 31, Fri [II, #489]",
       "color": "#B35C58",
       "start": "3:17",
       "end": "4:1"
     },
     {
-      "name": "Ord. Time, Week 31, Sat [II, #490]",
+      "name": "OT, Week 31, Sat [II, #490]",
       "color": "#B35C58",
       "start": "4:10",
       "end": "4:19"
@@ -159,19 +159,19 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 26th Sunday in Ord. Time",
+      "name": "OR: 26th Sunday in OT",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:11"
     },
     {
-      "name": "OR: 26th Week in Ord. Time, Monday",
+      "name": "OR: 26th Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "1:12",
       "end": "1:26"
     },
     {
-      "name": "OR: 26th Week in Ord. Time, Tuesday",
+      "name": "OR: 26th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "1:27",
       "end": "2:11"
@@ -183,13 +183,13 @@
       "end": "2:16"
     },
     {
-      "name": "OR: 26th Week in Ord. Time, Wednesday",
+      "name": "OR: 26th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "2:12",
       "end": "2:30"
     },
     {
-      "name": "OR: 26th Week in Ord. Time, Thursday",
+      "name": "OR: 26th Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:16"
@@ -209,13 +209,13 @@
       ]
     },
     {
-      "name": "OR: 26th Week in Ord. Time, Friday",
+      "name": "OR: 26th Week in OT, Friday",
       "color": "#4C6B4F",
       "start": "3:17",
       "end": "4:9"
     },
     {
-      "name": "OR: 26th Week in Ord. Time, Saturday",
+      "name": "OR: 26th Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "4:10",
       "end": "4:23"

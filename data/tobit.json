@@ -1,7 +1,7 @@
 {
   "lectionaryReadings": [
     {
-      "name": "Ord. Time, Week 9, Mon [I, #353]",
+      "name": "OT, Week 9, Mon [I, #353]",
       "color": "#B35C58",
       "segments": [
         {
@@ -15,13 +15,13 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 9, Tues [I, #354]",
+      "name": "OT, Week 9, Tues [I, #354]",
       "color": "#B35C58",
       "start": "2:9",
       "end": "2:14"
     },
     {
-      "name": "Ord. Time, Week 9, Wed [I, #355]",
+      "name": "OT, Week 9, Wed [I, #355]",
       "color": "#B35C58",
       "segments": [
         {
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 9, Thurs [I, #356]",
+      "name": "OT, Week 9, Thurs [I, #356]",
       "color": "#B35C58",
       "segments": [
         {
@@ -57,13 +57,13 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 9, Fri [I, #357]",
+      "name": "OT, Week 9, Fri [I, #357]",
       "color": "#B35C58",
       "start": "11:5",
       "end": "11:17"
     },
     {
-      "name": "Ord. Time, Week 9, Sat [I, #358]",
+      "name": "OT, Week 9, Sat [I, #358]",
       "color": "#B35C58",
       "segments": [
         {
@@ -81,7 +81,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 25, Wed (resp. - note 2) [I, #451]",
+      "name": "OT, Week 25, Wed (resp. - note 2) [I, #451]",
       "color": "#B35C58",
       "segments": [
         {
@@ -107,7 +107,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 9, Sat (resp. - note 2) [I, #358]",
+      "name": "OT, Week 9, Sat (resp. - note 2) [I, #358]",
       "color": "#B35C58",
       "segments": [
         {

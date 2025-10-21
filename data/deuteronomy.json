@@ -111,19 +111,19 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 18, Fri [I, #411]",
+      "name": "OT, Week 18, Fri [I, #411]",
       "color": "#B35C58",
       "start": "4:32",
       "end": "4:40"
     },
     {
-      "name": "Ord. Time, Week 18, Sat [I, #412]",
+      "name": "OT, Week 18, Sat [I, #412]",
       "color": "#B35C58",
       "start": "6:4",
       "end": "6:13"
     },
     {
-      "name": "Ord. Time, Week 19, Mon [I, #413]",
+      "name": "OT, Week 19, Mon [I, #413]",
       "color": "#B35C58",
       "start": "10:12",
       "end": "10:22"
@@ -141,13 +141,13 @@
       "end": "30:20"
     },
     {
-      "name": "Ord. Time, Week 19, Tues [I, #414]",
+      "name": "OT, Week 19, Tues [I, #414]",
       "color": "#B35C58",
       "start": "31:1",
       "end": "31:8"
     },
     {
-      "name": "Ord. Time, Week 19, Tues (resp. - note 2) [I, #414]",
+      "name": "OT, Week 19, Tues (resp. - note 2) [I, #414]",
       "color": "#B35C58",
       "segments": [
         {
@@ -169,7 +169,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 17, Mon (resp. - note 2) [II, #401]",
+      "name": "OT, Week 17, Mon (resp. - note 2) [II, #401]",
       "color": "#B35C58",
       "segments": [
         {
@@ -187,7 +187,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 20, Mon (resp. - note 2) [II, #419]",
+      "name": "OT, Week 20, Mon (resp. - note 2) [II, #419]",
       "color": "#B35C58",
       "segments": [
         {
@@ -205,7 +205,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 20, Tues (resp. - note 2) [II, #420]",
+      "name": "OT, Week 20, Tues (resp. - note 2) [II, #420]",
       "color": "#B35C58",
       "segments": [
         {
@@ -227,7 +227,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 18, Fri (resp. - note 2) [II, #411]",
+      "name": "OT, Week 18, Fri (resp. - note 2) [II, #411]",
       "color": "#B35C58",
       "segments": [
         {
@@ -245,7 +245,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 19, Wed [I, #415]",
+      "name": "OT, Week 19, Wed [I, #415]",
       "color": "#B35C58",
       "start": "34:1",
       "end": "34:12"
@@ -253,7 +253,7 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 2nd Sunday in Ord. Time",
+      "name": "OR: 2nd Sunday in OT",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -267,7 +267,7 @@
       ]
     },
     {
-      "name": "OR: 2nd Week in Ord. Time, Monday",
+      "name": "OR: 2nd Week in OT, Monday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -281,13 +281,13 @@
       ]
     },
     {
-      "name": "OR: 2nd Week in Ord. Time, Tuesday",
+      "name": "OR: 2nd Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "6:4",
       "end": "6:25"
     },
     {
-      "name": "OR: 2nd Week in Ord. Time, Wednesday",
+      "name": "OR: 2nd Week in OT, Wednesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -301,7 +301,7 @@
       ]
     },
     {
-      "name": "OR: 2nd Week in Ord. Time, Thursday",
+      "name": "OR: 2nd Week in OT, Thursday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -315,7 +315,7 @@
       ]
     },
     {
-      "name": "OR: 2nd Week in Ord. Time, Friday",
+      "name": "OR: 2nd Week in OT, Friday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -329,31 +329,31 @@
       ]
     },
     {
-      "name": "OR: 2nd Week in Ord. Time, Saturday",
+      "name": "OR: 2nd Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "16:1",
       "end": "16:17"
     },
     {
-      "name": "OR: 3rd Sunday in Ord. Time",
+      "name": "OR: 3rd Sunday in OT",
       "color": "#4C6B4F",
       "start": "18:1",
       "end": "18:22"
     },
     {
-      "name": "OR: 3rd Week in Ord. Time, Monday",
+      "name": "OR: 3rd Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "24:1",
       "end": "25:4"
     },
     {
-      "name": "OR: 3rd Week in Ord. Time, Tuesday",
+      "name": "OR: 3rd Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "26:1",
       "end": "26:19"
     },
     {
-      "name": "OR: 3rd Week in Ord. Time, Wednesday",
+      "name": "OR: 3rd Week in OT, Wednesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -367,13 +367,13 @@
       ]
     },
     {
-      "name": "OR: 3rd Week in Ord. Time, Thursday",
+      "name": "OR: 3rd Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "30:1",
       "end": "30:20"
     },
     {
-      "name": "OR: 3rd Week in Ord. Time, Friday",
+      "name": "OR: 3rd Week in OT, Friday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -387,7 +387,7 @@
       ]
     },
     {
-      "name": "OR: 3rd Week in Ord. Time, Saturday",
+      "name": "OR: 3rd Week in OT, Saturday",
       "color": "#4C6B4F",
       "segments": [
         {

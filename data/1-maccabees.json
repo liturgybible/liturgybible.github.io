@@ -1,7 +1,7 @@
 {
   "lectionaryReadings": [
     {
-      "name": "Ord. Time, Week 33, Mon [I, #497]",
+      "name": "OT, Week 33, Mon [I, #497]",
       "color": "#B35C58",
       "segments": [
         {
@@ -23,13 +23,13 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 33, Thurs [I, #500]",
+      "name": "OT, Week 33, Thurs [I, #500]",
       "color": "#B35C58",
       "start": "2:15",
       "end": "2:29"
     },
     {
-      "name": "Ord. Time, Week 33, Fri [I, #501]",
+      "name": "OT, Week 33, Fri [I, #501]",
       "color": "#B35C58",
       "segments": [
         {
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 33, Sat [I, #502]",
+      "name": "OT, Week 33, Sat [I, #502]",
       "color": "#B35C58",
       "start": "6:1",
       "end": "6:13"
@@ -51,19 +51,19 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 31st Sunday in Ord. Time",
+      "name": "OR: 31st Sunday in OT",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:24"
     },
     {
-      "name": "OR: 31st Week in Ord. Time, Monday",
+      "name": "OR: 31st Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "1:43",
       "end": "1:63"
     },
     {
-      "name": "OR: 31st Week in Ord. Time, Tuesday",
+      "name": "OR: 31st Week in OT, Tuesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -85,19 +85,19 @@
       ]
     },
     {
-      "name": "OR: 31st Week in Ord. Time, Wednesday",
+      "name": "OR: 31st Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:26"
     },
     {
-      "name": "OR: 31st Week in Ord. Time, Thursday",
+      "name": "OR: 31st Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "4:36",
       "end": "4:59"
     },
     {
-      "name": "OR: 31st Week in Ord. Time, Saturday",
+      "name": "OR: 31st Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "9:1",
       "end": "9:22"

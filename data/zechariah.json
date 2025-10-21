@@ -21,7 +21,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 25, Sat [I, #454]",
+      "name": "OT, Week 25, Sat [I, #454]",
       "color": "#B35C58",
       "segments": [
         {
@@ -41,13 +41,13 @@
       "end": "2:17"
     },
     {
-      "name": "Ord. Time, Week 26, Mon [I, #455]",
+      "name": "OT, Week 26, Mon [I, #455]",
       "color": "#B35C58",
       "start": "8:1",
       "end": "8:8"
     },
     {
-      "name": "Ord. Time, Week 26, Tues [I, #456]",
+      "name": "OT, Week 26, Tues [I, #456]",
       "color": "#B35C58",
       "start": "8:20",
       "end": "8:23"
@@ -55,25 +55,25 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 28th Week in Ord. Time, Tuesday",
+      "name": "OR: 28th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "2:4"
     },
     {
-      "name": "OR: 33rd Week in Ord. Time, Wednesday",
+      "name": "OR: 33rd Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "10:3",
       "end": "11:3"
     },
     {
-      "name": "OR: 33rd Week in Ord. Time, Thursday",
+      "name": "OR: 33rd Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "11:4",
       "end": "12:8"
     },
     {
-      "name": "OR: 33rd Week in Ord. Time, Friday",
+      "name": "OR: 33rd Week in OT, Friday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -87,19 +87,19 @@
       ]
     },
     {
-      "name": "OR: 33rd Week in Ord. Time, Saturday",
+      "name": "OR: 33rd Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "14:1",
       "end": "14:21"
     },
     {
-      "name": "OR: 28th Week in Ord. Time, Wednesday",
+      "name": "OR: 28th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "4:14"
     },
     {
-      "name": "OR: 28th Week in Ord. Time, Thursday",
+      "name": "OR: 28th Week in OT, Thursday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -113,7 +113,7 @@
       ]
     },
     {
-      "name": "OR: 33rd Week in Ord. Time, Tuesday",
+      "name": "OR: 33rd Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "9:1",
       "end": "10:2"

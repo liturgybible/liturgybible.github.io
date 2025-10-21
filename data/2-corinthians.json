@@ -73,25 +73,25 @@
       "end": "13:13"
     },
     {
-      "name": "Ord. Time, Week 10, Mon [I, #359]",
+      "name": "OT, Week 10, Mon [I, #359]",
       "color": "#B35C58",
       "start": "1:1",
       "end": "1:7"
     },
     {
-      "name": "Ord. Time, Week 10, Tues [I, #360]",
+      "name": "OT, Week 10, Tues [I, #360]",
       "color": "#B35C58",
       "start": "1:18",
       "end": "1:22"
     },
     {
-      "name": "Ord. Time, Week 10, Wed [I, #361]",
+      "name": "OT, Week 10, Wed [I, #361]",
       "color": "#B35C58",
       "start": "3:4",
       "end": "3:11"
     },
     {
-      "name": "Ord. Time, Week 10, Thurs [I, #362]",
+      "name": "OT, Week 10, Thurs [I, #362]",
       "color": "#B35C58",
       "segments": [
         {
@@ -105,7 +105,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 10, Fri [I, #363]",
+      "name": "OT, Week 10, Fri [I, #363]",
       "color": "#B35C58",
       "start": "4:7",
       "end": "4:15"
@@ -117,7 +117,7 @@
       "end": "4:15"
     },
     {
-      "name": "Ord. Time, Week 10, Sat [I, #364]",
+      "name": "OT, Week 10, Sat [I, #364]",
       "color": "#B35C58",
       "start": "5:14",
       "end": "5:21"
@@ -129,13 +129,13 @@
       "end": "6:2"
     },
     {
-      "name": "Ord. Time, Week 11, Mon [I, #365]",
+      "name": "OT, Week 11, Mon [I, #365]",
       "color": "#B35C58",
       "start": "6:1",
       "end": "6:10"
     },
     {
-      "name": "Ord. Time, Week 11, Tues [I, #366]",
+      "name": "OT, Week 11, Tues [I, #366]",
       "color": "#B35C58",
       "start": "8:1",
       "end": "8:9"
@@ -147,19 +147,19 @@
       "end": "9:10"
     },
     {
-      "name": "Ord. Time, Week 11, Wed [I, #367]",
+      "name": "OT, Week 11, Wed [I, #367]",
       "color": "#B35C58",
       "start": "9:6",
       "end": "9:11"
     },
     {
-      "name": "Ord. Time, Week 11, Thurs [I, #368]",
+      "name": "OT, Week 11, Thurs [I, #368]",
       "color": "#B35C58",
       "start": "11:1",
       "end": "11:11"
     },
     {
-      "name": "Ord. Time, Week 11, Fri [I, #369]",
+      "name": "OT, Week 11, Fri [I, #369]",
       "color": "#B35C58",
       "segments": [
         {
@@ -173,7 +173,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 11, Sat [I, #370]",
+      "name": "OT, Week 11, Sat [I, #370]",
       "color": "#B35C58",
       "start": "12:1",
       "end": "12:10"
@@ -181,25 +181,25 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 16th Sunday in Ord. Time",
+      "name": "OR: 16th Sunday in OT",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:14"
     },
     {
-      "name": "OR: 16th Week in Ord. Time, Monday",
+      "name": "OR: 16th Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "1:15",
       "end": "2:11"
     },
     {
-      "name": "OR: 16th Week in Ord. Time, Tuesday",
+      "name": "OR: 16th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "2:12",
       "end": "3:16"
     },
     {
-      "name": "OR: 16th Week in Ord. Time, Wednesday",
+      "name": "OR: 16th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "3:7",
       "end": "4:4"
@@ -211,7 +211,7 @@
       "end": "4:6"
     },
     {
-      "name": "OR: 16th Week in Ord. Time, Thursday",
+      "name": "OR: 16th Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "4:5",
       "end": "4:18"
@@ -229,55 +229,55 @@
       "end": "5:10"
     },
     {
-      "name": "OR: 16th Week in Ord. Time, Friday",
+      "name": "OR: 16th Week in OT, Friday",
       "color": "#4C6B4F",
       "start": "5:1",
       "end": "5:21"
     },
     {
-      "name": "OR: 16th Week in Ord. Time, Saturday",
+      "name": "OR: 16th Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "6:1",
       "end": "7:1"
     },
     {
-      "name": "OR: 17th Sunday in Ord. Time",
+      "name": "OR: 17th Sunday in OT",
       "color": "#4C6B4F",
       "start": "7:2",
       "end": "7:16"
     },
     {
-      "name": "OR: 17th Week in Ord. Time, Monday",
+      "name": "OR: 17th Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "8:1",
       "end": "8:24"
     },
     {
-      "name": "OR: 17th Week in Ord. Time, Tuesday",
+      "name": "OR: 17th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "9:1",
       "end": "9:15"
     },
     {
-      "name": "OR: 17th Week in Ord. Time, Wednesday",
+      "name": "OR: 17th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "10:1",
       "end": "11:6"
     },
     {
-      "name": "OR: 17th Week in Ord. Time, Thursday",
+      "name": "OR: 17th Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "11:7",
       "end": "11:29"
     },
     {
-      "name": "OR: 17th Week in Ord. Time, Friday",
+      "name": "OR: 17th Week in OT, Friday",
       "color": "#4C6B4F",
       "start": "11:30",
       "end": "12:12"
     },
     {
-      "name": "OR: 17th Week in Ord. Time, Saturday",
+      "name": "OR: 17th Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "12:14",
       "end": "13:13"

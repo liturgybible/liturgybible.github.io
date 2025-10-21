@@ -27,7 +27,7 @@
       "end": "5:17"
     },
     {
-      "name": "Ord. Time, Week 11, Wed [II, #367]",
+      "name": "OT, Week 11, Wed [II, #367]",
       "color": "#B35C58",
       "segments": [
         {
@@ -61,7 +61,7 @@
       "end": "5:15a"
     },
     {
-      "name": "Ord. Time, Week 11, Fri [II, #369]",
+      "name": "OT, Week 11, Fri [II, #369]",
       "color": "#B35C58",
       "segments": [
         {
@@ -79,7 +79,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 12, Mon [II, #371]",
+      "name": "OT, Week 12, Mon [II, #371]",
       "color": "#B35C58",
       "segments": [
         {
@@ -97,7 +97,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 12, Tues [II, #372]",
+      "name": "OT, Week 12, Tues [II, #372]",
       "color": "#B35C58",
       "segments": [
         {
@@ -119,7 +119,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 12, Wed [II, #373]",
+      "name": "OT, Week 12, Wed [II, #373]",
       "color": "#B35C58",
       "segments": [
         {
@@ -133,13 +133,13 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 12, Thurs [II, #374]",
+      "name": "OT, Week 12, Thurs [II, #374]",
       "color": "#B35C58",
       "start": "24:8",
       "end": "24:17"
     },
     {
-      "name": "Ord. Time, Week 12, Fri [II, #375]",
+      "name": "OT, Week 12, Fri [II, #375]",
       "color": "#B35C58",
       "start": "25:1",
       "end": "25:12"
@@ -147,7 +147,7 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 15th Week in Ord. Time, Saturday",
+      "name": "OR: 15th Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "2:1",
       "end": "2:15"

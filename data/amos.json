@@ -27,7 +27,7 @@
       "end": "8:7"
     },
     {
-      "name": "Ord. Time, Week 13, Mon [II, #377]",
+      "name": "OT, Week 13, Mon [II, #377]",
       "color": "#B35C58",
       "segments": [
         {
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 13, Tues [II, #378]",
+      "name": "OT, Week 13, Tues [II, #378]",
       "color": "#B35C58",
       "segments": [
         {
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 13, Wed [II, #379]",
+      "name": "OT, Week 13, Wed [II, #379]",
       "color": "#B35C58",
       "segments": [
         {
@@ -69,13 +69,13 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 13, Thurs [II, #380]",
+      "name": "OT, Week 13, Thurs [II, #380]",
       "color": "#B35C58",
       "start": "7:10",
       "end": "7:17"
     },
     {
-      "name": "Ord. Time, Week 13, Fri [II, #381]",
+      "name": "OT, Week 13, Fri [II, #381]",
       "color": "#B35C58",
       "segments": [
         {
@@ -89,7 +89,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 13, Sat [II, #382]",
+      "name": "OT, Week 13, Sat [II, #382]",
       "color": "#B35C58",
       "start": "9:11",
       "end": "9:15"
@@ -97,25 +97,25 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 18th Sunday in Ord. Time",
+      "name": "OR: 18th Sunday in OT",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "2:3"
     },
     {
-      "name": "OR: 18th Week in Ord. Time, Monday",
+      "name": "OR: 18th Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "2:4",
       "end": "2:16"
     },
     {
-      "name": "OR: 18th Week in Ord. Time, Tuesday",
+      "name": "OR: 18th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "7:1",
       "end": "7:17"
     },
     {
-      "name": "OR: 18th Week in Ord. Time, Wednesday",
+      "name": "OR: 18th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "9:1",
       "end": "9:15"

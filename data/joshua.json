@@ -33,7 +33,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 19, Thurs [I, #416]",
+      "name": "OT, Week 19, Thurs [I, #416]",
       "color": "#B35C58",
       "segments": [
         {
@@ -51,13 +51,13 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 19, Fri [I, #417]",
+      "name": "OT, Week 19, Fri [I, #417]",
       "color": "#B35C58",
       "start": "24:1",
       "end": "24:13"
     },
     {
-      "name": "Ord. Time, Week 19, Sat [I, #418]",
+      "name": "OT, Week 19, Sat [I, #418]",
       "color": "#B35C58",
       "start": "24:14",
       "end": "24:29"
@@ -65,19 +65,19 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 10th Week in Ord. Time, Monday",
+      "name": "OR: 10th Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:18"
     },
     {
-      "name": "OR: 10th Week in Ord. Time, Tuesday",
+      "name": "OR: 10th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "2:1",
       "end": "2:24"
     },
     {
-      "name": "OR: 10th Week in Ord. Time, Wednesday",
+      "name": "OR: 10th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -95,13 +95,13 @@
       ]
     },
     {
-      "name": "OR: 10th Week in Ord. Time, Thursday",
+      "name": "OR: 10th Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "5:13",
       "end": "6:21"
     },
     {
-      "name": "OR: 10th Week in Ord. Time, Friday",
+      "name": "OR: 10th Week in OT, Friday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "name": "OR: 10th Week in Ord. Time, Saturday",
+      "name": "OR: 10th Week in OT, Saturday",
       "color": "#4C6B4F",
       "segments": [
         {

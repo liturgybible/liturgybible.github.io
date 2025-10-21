@@ -19,7 +19,7 @@
       "end": "3:12"
     },
     {
-      "name": "Ord. Time, Week 21, Mon [II, #425]",
+      "name": "OT, Week 21, Mon [II, #425]",
       "color": "#B35C58",
       "segments": [
         {
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 21, Tues [II, #426]",
+      "name": "OT, Week 21, Tues [II, #426]",
       "color": "#B35C58",
       "segments": [
         {
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 21, Wed [II, #427]",
+      "name": "OT, Week 21, Wed [II, #427]",
       "color": "#B35C58",
       "segments": [
         {
@@ -63,19 +63,19 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 4th Week in Ord. Time, Thursday",
+      "name": "OR: 4th Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:12"
     },
     {
-      "name": "OR: 4th Week in Ord. Time, Friday",
+      "name": "OR: 4th Week in OT, Friday",
       "color": "#4C6B4F",
       "start": "2:1",
       "end": "2:17"
     },
     {
-      "name": "OR: 4th Week in Ord. Time, Saturday",
+      "name": "OR: 4th Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:18"

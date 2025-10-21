@@ -37,7 +37,7 @@
       ]
     },
     {
-      "name": "34th Sunday in Ord. Time: Christ the King [B, #161]",
+      "name": "34th Sunday in OT: Christ the King [B, #161]",
       "color": "#7B2E2B",
       "start": "7:13",
       "end": "7:14"
@@ -49,7 +49,7 @@
       "end": "12:3"
     },
     {
-      "name": "Ord. Time, Week 34, Mon [I, #503]",
+      "name": "OT, Week 34, Mon [I, #503]",
       "color": "#B35C58",
       "segments": [
         {
@@ -63,7 +63,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 34, Tues [I, #504]",
+      "name": "OT, Week 34, Tues [I, #504]",
       "color": "#B35C58",
       "start": "2:31",
       "end": "2:45"
@@ -127,7 +127,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 16, Thurs (resp. - note 2) [I, #398]",
+      "name": "OT, Week 16, Thurs (resp. - note 2) [I, #398]",
       "color": "#B35C58",
       "segments": [
         {
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 34, Mon (resp. - note 2) [I, #503]",
+      "name": "OT, Week 34, Mon (resp. - note 2) [I, #503]",
       "color": "#B35C58",
       "segments": [
         {
@@ -179,7 +179,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 34, Tues (resp. - note 2) [I, #504]",
+      "name": "OT, Week 34, Tues (resp. - note 2) [I, #504]",
       "color": "#B35C58",
       "segments": [
         {
@@ -205,7 +205,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 34, Wed (resp. - note 2) [I, #505]",
+      "name": "OT, Week 34, Wed (resp. - note 2) [I, #505]",
       "color": "#B35C58",
       "segments": [
         {
@@ -235,7 +235,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 34, Thurs (resp. - note 2) [I, #506]",
+      "name": "OT, Week 34, Thurs (resp. - note 2) [I, #506]",
       "color": "#B35C58",
       "segments": [
         {
@@ -269,7 +269,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 34, Fri (resp. - note 2) [I, #507]",
+      "name": "OT, Week 34, Fri (resp. - note 2) [I, #507]",
       "color": "#B35C58",
       "segments": [
         {
@@ -303,7 +303,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 34, Sat (resp. - note 2) [I, #508]",
+      "name": "OT, Week 34, Sat (resp. - note 2) [I, #508]",
       "color": "#B35C58",
       "segments": [
         {
@@ -333,7 +333,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 34, Wed [I, #505]",
+      "name": "OT, Week 34, Wed [I, #505]",
       "color": "#B35C58",
       "segments": [
         {
@@ -355,13 +355,13 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 34, Thurs [I, #506]",
+      "name": "OT, Week 34, Thurs [I, #506]",
       "color": "#B35C58",
       "start": "6:12",
       "end": "6:28"
     },
     {
-      "name": "Ord. Time, Week 34, Fri [I, #507]",
+      "name": "OT, Week 34, Fri [I, #507]",
       "color": "#B35C58",
       "start": "7:2",
       "end": "7:14"
@@ -395,7 +395,7 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 34, Sat [I, #508]",
+      "name": "OT, Week 34, Sat [I, #508]",
       "color": "#B35C58",
       "start": "7:15",
       "end": "7:27"
@@ -437,19 +437,19 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 32nd Sunday in Ord. Time",
+      "name": "OR: 32nd Sunday in OT",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:21"
     },
     {
-      "name": "OR: 32nd Week in Ord. Time, Monday",
+      "name": "OR: 32nd Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "2:26",
       "end": "2:47"
     },
     {
-      "name": "OR: 32nd Week in Ord. Time, Tuesday",
+      "name": "OR: 32nd Week in OT, Tuesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -467,7 +467,7 @@
       ]
     },
     {
-      "name": "OR: 32nd Week in Ord. Time, Wednesday",
+      "name": "OR: 32nd Week in OT, Wednesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -489,7 +489,7 @@
       ]
     },
     {
-      "name": "OR: 32nd Week in Ord. Time, Thursday",
+      "name": "OR: 32nd Week in OT, Thursday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -503,13 +503,13 @@
       ]
     },
     {
-      "name": "OR: 32nd Week in Ord. Time, Friday",
+      "name": "OR: 32nd Week in OT, Friday",
       "color": "#4C6B4F",
       "start": "10:1",
       "end": "10:21"
     },
     {
-      "name": "OR: 32nd Week in Ord. Time, Saturday",
+      "name": "OR: 32nd Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "12:1",
       "end": "12:13"

@@ -15,19 +15,19 @@
       ]
     },
     {
-      "name": "Ord. Time, Week 25, Thurs [II, #452]",
+      "name": "OT, Week 25, Thurs [II, #452]",
       "color": "#B35C58",
       "start": "1:2",
       "end": "1:11"
     },
     {
-      "name": "Ord. Time, Week 25, Fri [II, #453]",
+      "name": "OT, Week 25, Fri [II, #453]",
       "color": "#B35C58",
       "start": "3:1",
       "end": "3:11"
     },
     {
-      "name": "Ord. Time, Week 25, Sat [II, #454]",
+      "name": "OT, Week 25, Sat [II, #454]",
       "color": "#B35C58",
       "start": "11:9",
       "end": "12:8"
@@ -35,13 +35,13 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 7th Sunday in Ord. Time",
+      "name": "OR: 7th Sunday in OT",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:18"
     },
     {
-      "name": "OR: 7th Week in Ord. Time, Monday",
+      "name": "OR: 7th Week in OT, Monday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -55,31 +55,31 @@
       ]
     },
     {
-      "name": "OR: 7th Week in Ord. Time, Tuesday",
+      "name": "OR: 7th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:22"
     },
     {
-      "name": "OR: 7th Week in Ord. Time, Wednesday",
+      "name": "OR: 7th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "5:9",
       "end": "6:8"
     },
     {
-      "name": "OR: 7th Week in Ord. Time, Thursday",
+      "name": "OR: 7th Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "6:12",
       "end": "7:28"
     },
     {
-      "name": "OR: 7th Week in Ord. Time, Friday",
+      "name": "OR: 7th Week in OT, Friday",
       "color": "#4C6B4F",
       "start": "8:5",
       "end": "9:10"
     },
     {
-      "name": "OR: 7th Week in Ord. Time, Saturday",
+      "name": "OR: 7th Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "11:7",
       "end": "12:4"
