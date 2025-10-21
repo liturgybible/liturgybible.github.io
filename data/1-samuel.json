@@ -339,6 +339,24 @@
           "end": "2 Sam 1:16"
         }
       ]
+    },
+    {
+      "name": "Week 2: Wednesday MP",
+      "color": "#5E4B81",
+      "start": "2:1",
+      "end": "2:10"
+    },
+    {
+      "name": "Week 2: Wednesday DP3",
+      "color": "#4A628A",
+      "start": "16:7b",
+      "end": "16:7b"
+    },
+    {
+      "name": "Week 3: Saturday DP1",
+      "color": "#4A628A",
+      "start": "15:22",
+      "end": "15:22"
     }
   ]
 }

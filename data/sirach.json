@@ -279,6 +279,20 @@
       "color": "#4C6B4F",
       "start": "51:1",
       "end": "51:12"
+    },
+    {
+      "name": "Week 2: Monday MP",
+      "color": "#5E4B81",
+      "segments": [
+        {
+          "start": "36:1",
+          "end": "36:5"
+        },
+        {
+          "start": "36:10",
+          "end": "36:13"
+        }
+      ]
     }
   ]
 }

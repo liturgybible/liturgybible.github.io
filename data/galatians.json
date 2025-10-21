@@ -237,6 +237,68 @@
       "color": "#4C6B4F",
       "start": "5:25",
       "end": "6:18"
+    },
+    {
+      "name": "Week 1: Sunday DP2",
+      "color": "#4A628A",
+      "start": "6:7b",
+      "end": "6:8"
+    },
+    {
+      "name": "Week 1: Sunday DP3",
+      "color": "#4A628A",
+      "start": "6:9",
+      "end": "6:10"
+    },
+    {
+      "name": "Week 2: Thursday DP1",
+      "color": "#4A628A",
+      "start": "5:13",
+      "end": "5:14"
+    },
+    {
+      "name": "Week 2: Thursday DP2",
+      "color": "#4A628A",
+      "start": "5:16",
+      "end": "5:17"
+    },
+    {
+      "name": "Week 2: Thursday DP3",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "5:22",
+          "end": "5:22"
+        },
+        {
+          "start": "5:23a",
+          "end": "5:23a"
+        },
+        {
+          "start": "5:25",
+          "end": "5:25"
+        }
+      ]
+    },
+    {
+      "name": "Week 3: Saturday DP2",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "5:26",
+          "end": "5:26"
+        },
+        {
+          "start": "6:2",
+          "end": "6:2"
+        }
+      ]
+    },
+    {
+      "name": "Week 4: Friday MP",
+      "color": "#4A628A",
+      "start": "2:19b",
+      "end": "2:20"
     }
   ]
 }

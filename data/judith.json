@@ -15,5 +15,26 @@
       ]
     }
   ],
-  "divineOffice": []
+  "divineOffice": [
+    {
+      "name": "Week 1: Wednesday MP",
+      "color": "#5E4B81",
+      "segments": [
+        {
+          "start": "16:2",
+          "end": "16:3a"
+        },
+        {
+          "start": "16:13",
+          "end": "16:15"
+        }
+      ]
+    },
+    {
+      "name": "Week 4: Monday MP",
+      "color": "#4A628A",
+      "start": "8:25",
+      "end": "8:27"
+    }
+  ]
 }

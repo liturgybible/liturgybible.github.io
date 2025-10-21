@@ -173,6 +173,72 @@
       "color": "#4C6B4F",
       "start": "5:1",
       "end": "5:11"
+    },
+    {
+      "name": "Weeks 1,2,3,4: Sunday EP2 (only in Lent)",
+      "color": "#5E4B81",
+      "start": "2:21",
+      "end": "2:24"
+    },
+    {
+      "name": "Week 1: Monday DP3",
+      "color": "#4A628A",
+      "start": "1:17b",
+      "end": "1:19"
+    },
+    {
+      "name": "Week 1: Wednesday DP1",
+      "color": "#4A628A",
+      "start": "1:13",
+      "end": "1:14"
+    },
+    {
+      "name": "Week 1: Wednesday DP2",
+      "color": "#4A628A",
+      "start": "1:15",
+      "end": "1:16"
+    },
+    {
+      "name": "Week 1: Thursday EP",
+      "color": "#4A628A",
+      "start": "1:6",
+      "end": "1:9"
+    },
+    {
+      "name": "Week 2: Wednesday EP",
+      "color": "#4A628A",
+      "start": "5:5b",
+      "end": "5:7"
+    },
+    {
+      "name": "Week 2: Thursday EP",
+      "color": "#4A628A",
+      "start": "1:22",
+      "end": "1:23"
+    },
+    {
+      "name": "Week 3: Sunday EP2",
+      "color": "#4A628A",
+      "start": "1:3",
+      "end": "1:5"
+    },
+    {
+      "name": "Week 3: Thursday MP",
+      "color": "#4A628A",
+      "start": "4:10",
+      "end": "4:11a"
+    },
+    {
+      "name": "Week 3: Thursday EP",
+      "color": "#4A628A",
+      "start": "3:8",
+      "end": "3:9"
+    },
+    {
+      "name": "Night Prayer: Tuesday",
+      "color": "#4A628A",
+      "start": "5:8",
+      "end": "5:9a"
     }
   ]
 }

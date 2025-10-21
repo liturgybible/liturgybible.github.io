@@ -233,6 +233,26 @@
       "color": "#4C6B4F",
       "start": "42:7",
       "end": "42:17"
+    },
+    {
+      "name": "Week 1: Tuesday DP3",
+      "color": "#4A628A",
+      "start": "5:17",
+      "end": "5:18"
+    },
+    {
+      "name": "Week 3: Wednesday MP",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "1:21",
+          "end": "1:21"
+        },
+        {
+          "start": "2:10b",
+          "end": "2:10b"
+        }
+      ]
     }
   ]
 }

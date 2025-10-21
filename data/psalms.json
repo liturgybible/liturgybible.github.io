@@ -14321,5 +14321,490 @@
       ]
     }
   ],
-  "divineOffice": []
+  "divineOffice": [
+    {
+      "name": "Week 1: Monday MP",
+      "color": "#5E4B81",
+      "segments": [
+        {
+          "start": "5:2",
+          "end": "5:10"
+        },
+        {
+          "start": "5:12",
+          "end": "5:13"
+        }
+      ]
+    },
+    {
+      "name": "Week 1: Wednesday OR",
+      "color": "#5E4B81",
+      "start": "18:2",
+      "end": "18:30 (I&II&III)"
+    },
+    {
+      "name": "Week 1: Thursday OR",
+      "color": "#5E4B81",
+      "start": "18:31",
+      "end": "18:51 (IV&V&VI)"
+    },
+    {
+      "name": "Week 1: Tuesday EP",
+      "color": "#5E4B81",
+      "segments": [
+        {
+          "start": "21:2",
+          "end": "21:8"
+        },
+        {
+          "start": "21:14",
+          "end": "21:14"
+        }
+      ]
+    },
+    {
+      "name": "Week 1: Friday DP",
+      "color": "#5E4B81",
+      "segments": [
+        {
+          "start": "28:1",
+          "end": "28:3"
+        },
+        {
+          "start": "28:6",
+          "end": "28:9"
+        }
+      ]
+    },
+    {
+      "name": "Night Prayer: Wednesday",
+      "color": "#5E4B81",
+      "start": "31:1",
+      "end": "31:6"
+    },
+    {
+      "name": "Week 2: Monday OR",
+      "color": "#5E4B81",
+      "segments": [
+        {
+          "start": "31:1",
+          "end": "31:17"
+        },
+        {
+          "start": "31:20",
+          "end": "31:25 (I&II&III)"
+        }
+      ]
+    },
+    {
+      "name": "Week 1: Friday OR",
+      "color": "#5E4B81",
+      "segments": [
+        {
+          "start": "35:1",
+          "end": "35:2"
+        },
+        {
+          "start": "35:3c",
+          "end": "35:3c"
+        },
+        {
+          "start": "35:9",
+          "end": "35:19"
+        },
+        {
+          "start": "35:22",
+          "end": "35:23"
+        },
+        {
+          "start": "35:27",
+          "end": "35:28 (I&II&III)"
+        }
+      ]
+    },
+    {
+      "name": "Week 2: Monday DP",
+      "color": "#5E4B81",
+      "segments": [
+        {
+          "start": "40:2",
+          "end": "40:14"
+        },
+        {
+          "start": "40:17",
+          "end": "40:18 (I&II)"
+        }
+      ]
+    },
+    {
+      "name": "Week 2: Tuesday DP",
+      "color": "#5E4B81",
+      "segments": [
+        {
+          "start": "54:1",
+          "end": "54:6"
+        },
+        {
+          "start": "54:8",
+          "end": "54:9"
+        }
+      ]
+    },
+    {
+      "name": "Week 2: Wednesday DP",
+      "color": "#5E4B81",
+      "segments": [
+        {
+          "start": "55:2",
+          "end": "55:15"
+        },
+        {
+          "start": "55:17",
+          "end": "55:24 (I&II)"
+        }
+      ]
+    },
+    {
+      "name": "Week 4: Friday OR (only in Ordinary Time)",
+      "color": "#5E4B81",
+      "segments": [
+        {
+          "start": "55:2",
+          "end": "55:15"
+        },
+        {
+          "start": "55:17",
+          "end": "55:24 (I&II)"
+        }
+      ]
+    },
+    {
+      "name": "Week 2: Thursday DP",
+      "color": "#5E4B81",
+      "segments": [
+        {
+          "start": "56:2",
+          "end": "56:7b"
+        },
+        {
+          "start": "56:9",
+          "end": "56:14"
+        }
+      ]
+    },
+    {
+      "name": "Week 2: Friday DP",
+      "color": "#5E4B81",
+      "segments": [
+        {
+          "start": "59:2",
+          "end": "59:5"
+        },
+        {
+          "start": "59:10",
+          "end": "59:11"
+        },
+        {
+          "start": "59:17",
+          "end": "59:18"
+        }
+      ]
+    },
+    {
+      "name": "Week 1: Sunday MP",
+      "color": "#5E4B81",
+      "start": "63:2",
+      "end": "63:9"
+    },
+    {
+      "name": "Week 3: Friday OR",
+      "color": "#5E4B81",
+      "segments": [
+        {
+          "start": "69:2",
+          "end": "69:22"
+        },
+        {
+          "start": "69:30",
+          "end": "69:37 (I&II&III)"
+        }
+      ]
+    },
+    {
+      "name": "Week 2: Thursday EP",
+      "color": "#5E4B81",
+      "start": "72:1",
+      "end": "72:19 (I&II)"
+    },
+    {
+      "name": "Week 4: Friday OR (only in Advent, Christmas, Lent, Easter)",
+      "color": "#5E4B81",
+      "start": "78:1",
+      "end": "78:39 (I&II&III)"
+    },
+    {
+      "name": "Week 4: Saturday OR (only in Advent, Christmas, Lent, Easter)",
+      "color": "#5E4B81",
+      "start": "78:40",
+      "end": "78:72 (IV&V&VI)"
+    },
+    {
+      "name": "Week 3: Thursday DP",
+      "color": "#5E4B81",
+      "segments": [
+        {
+          "start": "79:1",
+          "end": "79:5"
+        },
+        {
+          "start": "79:8",
+          "end": "79:11"
+        },
+        {
+          "start": "79:13",
+          "end": "79:13"
+        }
+      ]
+    },
+    {
+      "name": "Week 3: Wednesday OR",
+      "color": "#5E4B81",
+      "start": "89:2",
+      "end": "89:38 (I&II&III)"
+    },
+    {
+      "name": "Week 3: Thursday OR",
+      "color": "#5E4B81",
+      "start": "89:39",
+      "end": "89:53 (IV&V)"
+    },
+    {
+      "name": "Weeks 1,2,3,4: Sunday EP2",
+      "color": "#5E4B81",
+      "segments": [
+        {
+          "start": "110:1",
+          "end": "110:5"
+        },
+        {
+          "start": "110:7",
+          "end": "110:7"
+        }
+      ]
+    },
+    {
+      "name": "Week 2: Friday EP",
+      "color": "#5E4B81",
+      "start": "116:1",
+      "end": "116:9"
+    },
+    {
+      "name": "Week 3: Sunday EP1",
+      "color": "#5E4B81",
+      "start": "116:10",
+      "end": "116:19"
+    },
+    {
+      "name": "Week 1: Tuesday DP",
+      "color": "#5E4B81",
+      "start": "119:1",
+      "end": "8 (I: Aleph)"
+    },
+    {
+      "name": "Week 1: Wednesday DP",
+      "color": "#5E4B81",
+      "start": "119:9",
+      "end": "16 (II: Beth)"
+    },
+    {
+      "name": "Week 1: Thursday DP",
+      "color": "#5E4B81",
+      "start": "119:17",
+      "end": "24 (III: Ghimel)"
+    },
+    {
+      "name": "Week 1: Friday DP",
+      "color": "#5E4B81",
+      "start": "119:25",
+      "end": "32 (IV: Daleth)"
+    },
+    {
+      "name": "Week 1: Saturday DP",
+      "color": "#5E4B81",
+      "start": "119:33",
+      "end": "40 (V: He)"
+    },
+    {
+      "name": "Week 2: Monday DP",
+      "color": "#5E4B81",
+      "start": "119:41",
+      "end": "48 (VI: Vau)"
+    },
+    {
+      "name": "Week 2: Tuesday DP",
+      "color": "#5E4B81",
+      "start": "119:49",
+      "end": "56 (VII: Zain)"
+    },
+    {
+      "name": "Week 2: Wednesday DP",
+      "color": "#5E4B81",
+      "start": "119:57",
+      "end": "64 (VIII: Heth)"
+    },
+    {
+      "name": "Week 2: Thursday DP",
+      "color": "#5E4B81",
+      "start": "119:65",
+      "end": "72 (IX: Teth)"
+    },
+    {
+      "name": "Week 2: Friday DP",
+      "color": "#5E4B81",
+      "start": "119:73",
+      "end": "80 (X: Yod)"
+    },
+    {
+      "name": "Week 2: Saturday DP",
+      "color": "#5E4B81",
+      "start": "119:81",
+      "end": "88 (XI: Caph)"
+    },
+    {
+      "name": "Week 3: Monday DP",
+      "color": "#5E4B81",
+      "start": "119:89",
+      "end": "96 (XII: Lamed)"
+    },
+    {
+      "name": "Week 3: Tuesday DP",
+      "color": "#5E4B81",
+      "start": "119:97",
+      "end": "104 (XIII: Mem)"
+    },
+    {
+      "name": "Week 2: Sunday EP1 & Week 3: Wednesday DP",
+      "color": "#5E4B81",
+      "start": "119:105",
+      "end": "112 (XIV: Nun)"
+    },
+    {
+      "name": "Week 3: Thursday DP",
+      "color": "#5E4B81",
+      "start": "119:113",
+      "end": "120 (XV: Samech)"
+    },
+    {
+      "name": "Week 3: Saturday DP",
+      "color": "#5E4B81",
+      "start": "119:121",
+      "end": "128 (XVI: Ain)"
+    },
+    {
+      "name": "Week 4: Monday DP",
+      "color": "#5E4B81",
+      "start": "119:129",
+      "end": "136 (XVII: Pe)"
+    },
+    {
+      "name": "Week 4: Tuesday DP",
+      "color": "#5E4B81",
+      "start": "119:137",
+      "end": "144 (XVIII: Sade)"
+    },
+    {
+      "name": "Weeks 1 & 3: Saturday MP & Week 4: Wednesday DP",
+      "color": "#5E4B81",
+      "start": "119:145",
+      "end": "152 (XIX: Koph)"
+    },
+    {
+      "name": "Week 4: Thursday DP",
+      "color": "#5E4B81",
+      "start": "119:153",
+      "end": "160 (XX: Resh)"
+    },
+    {
+      "name": "Week 4: Friday DP",
+      "color": "#5E4B81",
+      "start": "119:161",
+      "end": "168 (XXI: Shin)"
+    },
+    {
+      "name": "Week 4: Saturday DP",
+      "color": "#5E4B81",
+      "start": "119:169",
+      "end": "176 (XXII: Tau)"
+    },
+    {
+      "name": "Week 4: Monday MP",
+      "color": "#5E4B81",
+      "start": "135:1",
+      "end": "135:12"
+    },
+    {
+      "name": "Week 4: Tuesday EP",
+      "color": "#5E4B81",
+      "start": "137:1",
+      "end": "137:6"
+    },
+    {
+      "name": "Week 4: Wednesday EP",
+      "color": "#5E4B81",
+      "segments": [
+        {
+          "start": "139:1",
+          "end": "139:18"
+        },
+        {
+          "start": "139:23",
+          "end": "139:24 (I&II)"
+        }
+      ]
+    },
+    {
+      "name": "Week 4: Friday DP",
+      "color": "#5E4B81",
+      "segments": [
+        {
+          "start": "140:1",
+          "end": "140:9"
+        },
+        {
+          "start": "140:13",
+          "end": "140:14"
+        }
+      ]
+    },
+    {
+      "name": "Week 1: Sunday EP1",
+      "color": "#5E4B81",
+      "start": "141:1",
+      "end": "141:9"
+    },
+    {
+      "name": "Week 4: Thursday MP & Night Prayer: Tuesday",
+      "color": "#5E4B81",
+      "start": "143:1",
+      "end": "143:11"
+    },
+    {
+      "name": "Week 4: Tuesday MP",
+      "color": "#5E4B81",
+      "start": "144:1",
+      "end": "144:10"
+    },
+    {
+      "name": "Week 4: Thursday MP",
+      "color": "#5E4B81",
+      "start": "147:1",
+      "end": "147:11"
+    },
+    {
+      "name": "Weeks 2 & 4: Friday MP",
+      "color": "#5E4B81",
+      "start": "147:12",
+      "end": "147:20"
+    }
+  ]
 }

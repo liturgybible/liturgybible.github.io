@@ -255,6 +255,62 @@
       "color": "#4C6B4F",
       "start": "5:13",
       "end": "5:21"
+    },
+    {
+      "name": "Week 1: Sunday DP1",
+      "color": "#4A628A",
+      "start": "4:16",
+      "end": "4:16"
+    },
+    {
+      "name": "Week 1: Tuesday EP",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "3:1a",
+          "end": "3:1a"
+        },
+        {
+          "start": "3:2",
+          "end": "3:2"
+        }
+      ]
+    },
+    {
+      "name": "Week 3: Tuesday MP",
+      "color": "#4A628A",
+      "start": "4:14",
+      "end": "4:15"
+    },
+    {
+      "name": "Week 4: Tuesday DP1",
+      "color": "#4A628A",
+      "start": "3:17",
+      "end": "3:18"
+    },
+    {
+      "name": "Week 4: Wednesday EP",
+      "color": "#4A628A",
+      "start": "2:3",
+      "end": "2:6"
+    },
+    {
+      "name": "Week 4: Thursday DP1",
+      "color": "#4A628A",
+      "start": "3:23",
+      "end": "3:24"
+    },
+    {
+      "name": "Week 4: Friday DP2",
+      "color": "#4A628A",
+      "start": "3:16",
+      "end": "3:16"
+    },
+    {
+      "name": "Week 4: Friday DP3",
+      "color": "#4A628A",
+      "start": "3:9",
+      "end": "3:11"
     }
   ]
 }

@@ -119,6 +119,32 @@
       "color": "#4C6B4F",
       "start": "9:1",
       "end": "9:15"
+    },
+    {
+      "name": "Week 1: Thursday DP1",
+      "color": "#4A628A",
+      "start": "4:13",
+      "end": "4:13"
+    },
+    {
+      "name": "Week 1: Thursday DP2",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "5:8",
+          "end": "5:8"
+        },
+        {
+          "start": "5:9b",
+          "end": "5:9b"
+        }
+      ]
+    },
+    {
+      "name": "Week 1: Thursday DP3",
+      "color": "#4A628A",
+      "start": "9:6",
+      "end": "9:6"
     }
   ]
 }

@@ -227,6 +227,66 @@
           "end": "11:19"
         }
       ]
+    },
+    {
+      "name": "Week 3: Saturday MP",
+      "color": "#5E4B81",
+      "segments": [
+        {
+          "start": "9:1",
+          "end": "9:6"
+        },
+        {
+          "start": "9:9",
+          "end": "9:11"
+        }
+      ]
+    },
+    {
+      "name": "Week 1: Saturday DP3",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "7:27a",
+          "end": "7:27a"
+        },
+        {
+          "start": "8:1",
+          "end": "8:1"
+        }
+      ]
+    },
+    {
+      "name": "Week 2: Friday DP3",
+      "color": "#4A628A",
+      "start": "1:13",
+      "end": "1:15"
+    },
+    {
+      "name": "Week 3: Thursday DP1",
+      "color": "#4A628A",
+      "start": "19:22",
+      "end": "19:22"
+    },
+    {
+      "name": "Week 4: Monday DP2",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "15:1",
+          "end": "15:1"
+        },
+        {
+          "start": "15:3",
+          "end": "15:3"
+        }
+      ]
+    },
+    {
+      "name": "Week 4: Thursday DP2",
+      "color": "#4A628A",
+      "start": "1:1",
+      "end": "1:2"
     }
   ]
 }

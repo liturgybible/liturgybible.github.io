@@ -1423,5 +1423,42 @@
       "end": "24:48"
     }
   ],
-  "divineOffice": []
+  "divineOffice": [
+    {
+      "name": "Ordinary EP: Mary's Magnificat",
+      "color": "#5E4B81",
+      "start": "1:46",
+      "end": "1:55"
+    },
+    {
+      "name": "Ordinary MP: Zechariah's Benedictus",
+      "color": "#5E4B81",
+      "start": "1:68",
+      "end": "1:79"
+    },
+    {
+      "name": "Ordinary NP: Simeon's Nunc Dimittis",
+      "color": "#5E4B81",
+      "start": "2:29",
+      "end": "2:32"
+    },
+    {
+      "name": "Night Prayer: Canticle",
+      "color": "#5E4B81",
+      "start": "2:29",
+      "end": "2:32"
+    },
+    {
+      "name": "Morning Prayer: Canticle",
+      "color": "#5E4B81",
+      "start": "1:68",
+      "end": "1:79"
+    },
+    {
+      "name": "Evening Prayer: Canticle",
+      "color": "#5E4B81",
+      "start": "1:46",
+      "end": "1:55"
+    }
+  ]
 }

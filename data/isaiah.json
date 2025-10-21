@@ -1207,6 +1207,110 @@
           "end": "66:23"
         }
       ]
+    },
+    {
+      "name": "Week 3: Monday MP",
+      "color": "#5E4B81",
+      "start": "2:2",
+      "end": "2:5"
+    },
+    {
+      "name": "Week 2: Thursday MP",
+      "color": "#5E4B81",
+      "start": "12:1",
+      "end": "12:6"
+    },
+    {
+      "name": "Week 3: Tuesday MP",
+      "color": "#5E4B81",
+      "segments": [
+        {
+          "start": "26:1",
+          "end": "26:4"
+        },
+        {
+          "start": "26:7",
+          "end": "26:9"
+        },
+        {
+          "start": "26:12",
+          "end": "26:12"
+        }
+      ]
+    },
+    {
+      "name": "Week 3: Wednesday MP",
+      "color": "#5E4B81",
+      "start": "33:13",
+      "end": "33:16"
+    },
+    {
+      "name": "Week 2: Tuesday MP",
+      "color": "#5E4B81",
+      "segments": [
+        {
+          "start": "38:10",
+          "end": "38:14"
+        },
+        {
+          "start": "38:17",
+          "end": "38:20"
+        }
+      ]
+    },
+    {
+      "name": "Week 3: Thursday MP",
+      "color": "#5E4B81",
+      "start": "40:10",
+      "end": "40:17"
+    },
+    {
+      "name": "Week 4: Monday MP",
+      "color": "#5E4B81",
+      "start": "42:10",
+      "end": "42:16"
+    },
+    {
+      "name": "Week 1: Friday MP",
+      "color": "#5E4B81",
+      "start": "45:15",
+      "end": "45:25"
+    },
+    {
+      "name": "Week 4: Wednesday MP",
+      "color": "#5E4B81",
+      "start": "61:10",
+      "end": "62:5"
+    },
+    {
+      "name": "Week 4: Thursday MP",
+      "color": "#5E4B81",
+      "start": "66:10",
+      "end": "66:14a"
+    },
+    {
+      "name": "Week 1: Thursday MP",
+      "color": "#4A628A",
+      "start": "66:1",
+      "end": "66:2"
+    },
+    {
+      "name": "Week 2: Wednesday DP2",
+      "color": "#4A628A",
+      "start": "55:8",
+      "end": "55:9"
+    },
+    {
+      "name": "Week 4: Tuesday MP",
+      "color": "#4A628A",
+      "start": "55:1",
+      "end": "55:1"
+    },
+    {
+      "name": "Week 4: Tuesday DP3",
+      "color": "#4A628A",
+      "start": "55:10",
+      "end": "55:11"
     }
   ]
 }

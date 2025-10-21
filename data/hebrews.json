@@ -517,6 +517,24 @@
       "color": "#4C6B4F",
       "start": "12:14",
       "end": "12:29"
+    },
+    {
+      "name": "Week 3: Sunday EP1",
+      "color": "#4A628A",
+      "start": "13:20",
+      "end": "13:21"
+    },
+    {
+      "name": "Week 4: Sunday EP2",
+      "color": "#4A628A",
+      "start": "12:22",
+      "end": "12:24"
+    },
+    {
+      "name": "Week 4: Thursday DP3",
+      "color": "#4A628A",
+      "start": "12:1b",
+      "end": "12:2"
     }
   ]
 }

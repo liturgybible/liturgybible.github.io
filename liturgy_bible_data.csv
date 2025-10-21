@@ -632,7 +632,7 @@ Lectionary,Psalm,16th Sunday in Ordinary Time,"Ps 23:1-3a, 3b-4, 5, 6",Sunday Re
 Lectionary,Psalm,28th Sunday in Ordinary Time,"Ps 23:1-3a, 3b-4, 5, 6",Sunday Reading,142,A,“I shall live in the house of the Lord all the days of my life.”
 Lectionary,Psalm,Friday after 2nd Sun after Pentecost: Sacred Heart,"Ps 23:1-3a, 3b-4, 5, 6",Sunday Reading,172,C,“The Lord is my shepherd; there is nothing I shall want.”
 Lectionary,Psalm,Nov. 2: Commemoration of All Souls,"Ps 23:1-3a, 3b-4, 5, 6",Solemnities & Feasts,668,,"“The Lord is my shepherd; there is nothing I shall want.” 
-or “Though I walk in the valley of darkness, I fear no evil, for you are with me.”"
+ or “Though I walk in the valley of darkness, I fear no evil, for you are with me.”"
 Lectionary,Psalm,4th Sunday of Advent,"Ps 24:1-2, 3-4, 5-6",Sunday Reading,10,A,“Let the Lord enter; he is the king of glory.”
 Lectionary,Psalm,Nov 1: All Saints,"Ps 24:1bc-2, 3-4ab, 5-6",Solemnities & Feasts,667,,"“Lord, this is the people that longs to see your face.”"
 Lectionary,Psalm,Feb 2: Presentation of the Lord,"Ps 24:7, 8, 9, 10",Solemnities & Feasts,524,,“Who is this king of glory? It is the Lord!”
@@ -641,10 +641,10 @@ Lectionary,Psalm,3rd Sunday in Ordinary Time,"Ps 25:4-5, 6-7, 8-9",Sunday Readin
 Lectionary,Psalm,26th Sunday in Ordinary Time,"Ps 25:4-5, 6-7, 8-9",Sunday Reading,136,A,"“Remember your mercies, O Lord.”"
 Lectionary,Psalm,1st Sunday of Advent,"Ps 25:4-5, 8-9, 10+14",Sunday Reading,3,C,"“To you, O Lord, I lift my soul.”"
 Lectionary,Psalm,Nov. 2: Commemoration of All Souls,"Ps 25:6+7b, 17-18, 20-21",Solemnities & Feasts,668,,"“To you, O Lord, I lift my soul.” 
-or ""No one who waits for you, O Lord, will ever be put to shame."""
+ or ""No one who waits for you, O Lord, will ever be put to shame."""
 Lectionary,Psalm,7th Sunday of Easter (note 2),"Ps 27:1, 4, 7-8",Sunday Reading,59,A,“I believe that I shall see the good things of the Lord in the land of the living.” or “Alleluia.”
 Lectionary,Psalm,Nov. 2: Commemoration of All Souls,"Ps 27:1, 4, 7+8b+9a, 13-14",Solemnities & Feasts,668,,"“The Lord is my light and my salvation.” 
-or “I believe that I shall see the good things of the Lord in the land of the living.”"
+ or “I believe that I shall see the good things of the Lord in the land of the living.”"
 Lectionary,Psalm,3rd Sunday in Ordinary Time,"Ps 27:1, 4, 13-14",Sunday Reading,67,A,“The Lord is my light and my salvation.”
 Lectionary,Psalm,2nd Sunday of Lent,"Ps 27:1, 7-8a, 8b-9, 13-14",Sunday Reading,27,C,“The Lord is my light and my salvation.”
 Lectionary,Psalm,Sunday after Epiphany: Baptism of the Lord,"Ps 29:1-2, 3-4, 3b+9b-10",Sunday Reading,21,ABC,“The Lord will bless his people with peace.”
@@ -953,14 +953,14 @@ Lectionary,#N/A,"Ord. Time, Week 25, Tues","Ezra 6:7-8, 12b, 14-20",Weekday Read
 Lectionary,#N/A,"Ord. Time, Week 25, Wed",Ezra 9:5-9,Weekday Reading,451,I,
 Lectionary,Nehemiah,"Ord. Time, Week 26, Wed",Neh 2:1-8,Weekday Reading,457,I,
 Lectionary,Nehemiah,"Ord. Time, Week 26, Thurs","Neh 8:1-4a, 5-6, 7b-12",Weekday Reading,458,I,
-Lectionary,#N/A,"Ord. Time, Week 9, Mon",Tob 1:3; 2:1a-8,Weekday Reading,353,I,
-Lectionary,#N/A,"Ord. Time, Week 9, Tues",Tob 2:9-14,Weekday Reading,354,I,
-Lectionary,#N/A,"Ord. Time, Week 9, Wed","Tob 3:1-11a, 16-17a",Weekday Reading,355,I,
-Lectionary,#N/A,"Ord. Time, Week 9, Thurs","Tob 6:10-11; 7:1bcde, 9-17; 8:4-9a",Weekday Reading,356,I,
-Lectionary,#N/A,"Ord. Time, Week 9, Fri",Tob 11:5-17,Weekday Reading,357,I,
-Lectionary,#N/A,"Ord. Time, Week 9, Sat","Tob 12:1, 5-15, 20",Weekday Reading,358,I,
-Lectionary,#N/A,"Ord. Time, Week 25, Wed (resp. - note 2)","Tob 13:2, 3-4a, 6, 7, 10 [Vulg.]",Weekday Reading,451,I,
-Lectionary,#N/A,"Ord. Time, Week 9, Sat (resp. - note 2)","Tob 13:2, 6, 7, 10 [Vulg.]",Weekday Reading,358,I,
+Lectionary,Tobit,"Ord. Time, Week 9, Mon",Tob 1:3; 2:1a-8,Weekday Reading,353,I,
+Lectionary,Tobit,"Ord. Time, Week 9, Tues",Tob 2:9-14,Weekday Reading,354,I,
+Lectionary,Tobit,"Ord. Time, Week 9, Wed","Tob 3:1-11a, 16-17a",Weekday Reading,355,I,
+Lectionary,Tobit,"Ord. Time, Week 9, Thurs","Tob 6:10-11; 7:1bcde, 9-17; 8:4-9a",Weekday Reading,356,I,
+Lectionary,Tobit,"Ord. Time, Week 9, Fri",Tob 11:5-17,Weekday Reading,357,I,
+Lectionary,Tobit,"Ord. Time, Week 9, Sat","Tob 12:1, 5-15, 20",Weekday Reading,358,I,
+Lectionary,Tobit,"Ord. Time, Week 25, Wed (resp. - note 2)","Tob 13:2, 3-4a, 6, 7, 10 [Vulg.]",Weekday Reading,451,I,
+Lectionary,Tobit,"Ord. Time, Week 9, Sat (resp. - note 2)","Tob 13:2, 6, 7, 10 [Vulg.]",Weekday Reading,358,I,
 Lectionary,#N/A,Dec 12: Our Lady of Guadalupe (responsorial),"Judith 13:18bcde, 19",Solemnities & Feasts,,I/II,
 Lectionary,#N/A,"Lent, Week 1, Thurs","Esth C:12, 14-16, 23-25",Weekday Reading,227,I/II,
 Lectionary,1 Maccabees,"Ord. Time, Week 33, Mon","1 Macc 1:10-15, 41-43, 54-57, 62-63",Weekday Reading,497,I,
@@ -2810,3 +2810,374 @@ Divine Office,Revelation,"OR: 5th Week of Easter, Thursday",Rev 21:9-27,LOTH: OR
 Divine Office,Revelation,OR: Common of the Dedication of a Church (Advent/Christmas/Easter),Rev 21:9-27,LOTH: OR,,,1.1302; 2.1890
 Divine Office,Revelation,"OR: 5th Week of Easter, Friday",Rev 22:1-9,LOTH: OR,,,2.855
 Divine Office,Revelation,"OR: 5th Week of Easter, Saturday",Rev 22:10-21,LOTH: OR,,,2.862
+Divine Office,#N/A,Week 1: Sunday OR,Ps 1,LOTH: Psalms,,,There are two ways a man may take
+Divine Office,#N/A,Week 1: Sunday OR,Ps 2,LOTH: Psalms,,,"The Messiah, king and conqueror"
+Divine Office,#N/A,Week 1: Sunday OR,Ps 3,LOTH: Psalms,,,I am safe in the Lord's keeping
+Divine Office,#N/A,Night Prayer: after EP-I on Sun,Ps 4,LOTH: Psalms,,,Thanksgiving
+Divine Office,Psalm,Week 1: Monday MP,"Ps 5:2-10, 12-13",LOTH: Psalms,,,A morning prayer asking for help
+Divine Office,#N/A,Week 1: Monday OR,Ps 6,LOTH: Psalms,,,A suffering man cries to God for mercy
+Divine Office,#N/A,Week 1: Monday DP,Ps 7 (I&II),LOTH: Psalms,,,Prayer of a God-fearing man who is being calumniated
+Divine Office,#N/A,Weeks 2 & 4: Saturday MP,Ps 8,LOTH: Psalms,,,The majesty of the Lord and man's dignity
+Divine Office,#N/A,Week 1: Monday OR,Ps 9A (I&II),LOTH: Psalms,,,Thanksgiving for victory
+Divine Office,#N/A,Week 1: Tuesday OR,Ps 10 (I&II),LOTH: Psalms,,,Prayer of thanksgiving
+Divine Office,#N/A,Week 1: Monday EP,Ps 11,LOTH: Psalms,,,God is the unfailing support of the just
+Divine Office,#N/A,Week 1: Tuesday OR,Ps 12,LOTH: Psalms,,,A cry for God's help against powerful oppressors
+Divine Office,#N/A,Week 1: Tuesday DP,Ps 13,LOTH: Psalms,,,The lament of the just man who does not lose hope in God
+Divine Office,#N/A,Week 1: Tuesday DP,Ps 14,LOTH: Psalms,,,The foolishness of sinners
+Divine Office,#N/A,Week 1: Monday EP,Ps 15,LOTH: Psalms,,,Who is worthy to stand in God's presence?
+Divine Office,#N/A,Week 2: Sunday EP1 & Night Prayer: Thursday,Ps 16,LOTH: Psalms,,,The Lord himself is my heritage
+Divine Office,#N/A,Week 1: Wednesday DP,Ps 17 (I&II),LOTH: Psalms,,,"Save me, Lord, from those who hate you"
+Divine Office,Psalm,Week 1: Wednesday OR,Ps 18:2-30 (I&II&III),LOTH: Psalms,,,Thanksgiving for salvation and victory
+Divine Office,Psalm,Week 1: Thursday OR,Ps 18:31-51 (IV&V&VI),LOTH: Psalms,,,Hymn of Thanksgiving
+Divine Office,#N/A,Week 2: Monday MP,Ps 19A,LOTH: Psalms,,,"Praise of the Lord, Creator of all"
+Divine Office,#N/A,Week 1: Monday DP,Ps 19B,LOTH: Psalms,,,Praise of God who gave us the law of love
+Divine Office,#N/A,Week 1: Tuesday EP,Ps 20,LOTH: Psalms,,,A prayer for the king's victory
+Divine Office,Psalm,Week 1: Tuesday EP,"Ps 21:2-8, 14",LOTH: Psalms,,,Thanksgiving for the king's victory
+Divine Office,#N/A,Week 3: Friday DP,Ps 22 (I&II&III),LOTH: Psalms,,,God hears the suffering of his Holy One
+Divine Office,#N/A,Weeks 2 & 4: Sunday DP,Ps 23,LOTH: Psalms,,,The Good Shepherd
+Divine Office,#N/A,Week 1: Tuesday MP & Week 4: Sunday OR; also alt. Invitatory,Ps 24,LOTH: Psalms,,,The Lord's entry into his temple
+Divine Office,#N/A,Week 1: Thursday DP,Ps 25 (I&II),LOTH: Psalms,,,Prayer for God's favor and protection
+Divine Office,#N/A,Week 1: Friday DP,Ps 26,LOTH: Psalms,,,Trusting prayer of an innocent man
+Divine Office,#N/A,Week 1: Wednesday EP,Ps 27 (I&II),LOTH: Psalms,,,God stands by us in dangers
+Divine Office,Psalm,Week 1: Friday DP,"Ps 28:1-3, 6-9",LOTH: Psalms,,,Entreaty and thanksgiving
+Divine Office,#N/A,Week 1: Monday MP,Ps 29,LOTH: Psalms,,,A tribute of praise to the Word of God
+Divine Office,#N/A,Week 1: Thursday EP,Ps 30,LOTH: Psalms,,,Thanksgiving for deliverance from death
+Divine Office,Psalm,Night Prayer: Wednesday,Ps 31:1-6,LOTH: Psalms,,,Trustful prayer in adversity
+Divine Office,Psalm,Week 2: Monday OR,"Ps 31:1-17, 20-25 (I&II&III)",LOTH: Psalms,,,A troubled persons' confident appeal to God
+Divine Office,#N/A,Week 1: Thursday EP,Ps 32,LOTH: Psalms,,,They are happy whose sins are forgiven
+Divine Office,#N/A,Week 1: Tuesday MP,Ps 33,LOTH: Psalms,,,Song of praise for God's continual care
+Divine Office,#N/A,Weeks 1 & 3: Saturday DP,Ps 34 (I&II),LOTH: Psalms,,,God the savior of the just
+Divine Office,Psalm,Week 1: Friday OR,"Ps 35:1-2, 3c, 9-19, 22-23, 27-28 (I&II&III)",LOTH: Psalms,,,The Lord as Savior in time of persecution
+Divine Office,#N/A,Week 1: Wednesday MP,Ps 36,LOTH: Psalms,,,The malice of sinners and God's goodness
+Divine Office,#N/A,Week 2: Tuesday OR,Ps 37 (I&II&III),LOTH: Psalms,,,The lot of the wicked and the good
+Divine Office,#N/A,Week 2: Friday OR,Ps 38 (I&II&III),LOTH: Psalms,,,A sinner in extreme danger prays earnestly to God
+Divine Office,#N/A,Week 2: Wednesday OR,Ps 39 (I&II),LOTH: Psalms,,,Urgent prayer of a sick person
+Divine Office,Psalm,Week 2: Monday DP,"Ps 40:2-14, 17-18 (I&II)",LOTH: Psalms,,,Thanksgiving and plea for help
+Divine Office,#N/A,Week 1: Friday EP,Ps 41,LOTH: Psalms,,,Prayer of a sick person
+Divine Office,#N/A,Week 2: Monday MP,Ps 42,LOTH: Psalms,,,Longing for the Lord's presence in his Temple
+Divine Office,#N/A,Week 2: Tuesday MP,Ps 43,LOTH: Psalms,,,Longing for the Temple
+Divine Office,#N/A,Weeks 2 & 4: Thursday OR,Ps 44 (I&II&III),LOTH: Psalms,,,The misfortunes of God's people
+Divine Office,#N/A,Week 2: Monday EP & Week 4: Saturday DP,Ps 45 (I&II),LOTH: Psalms,,,The marriage of the king
+Divine Office,#N/A,Week 1: Friday EP,Ps 46,LOTH: Psalms,,,God our refuge and strength
+Divine Office,#N/A,Week 1: Wednesday MP,Ps 47,LOTH: Psalms,,,The Lord Jesus is King of all
+Divine Office,#N/A,Week 1: Thursday MP,Ps 48,LOTH: Psalms,,,Thanksgiving for the people's deliverance
+Divine Office,#N/A,Week 2: Tuesday EP,Ps 49 (I&II),LOTH: Psalms,,,Emptiness of riches
+Divine Office,#N/A,Week 3: Monday OR,Ps 50 (I&II&III),LOTH: Psalms,,,Genuine love of God
+Divine Office,#N/A,Week 4: Saturday OR (only in Ordinary Time),Ps 50 (I&II&III),LOTH: Psalms,,,Genuine love of God
+Divine Office,#N/A,"Weeks 1,2,3,4: Friday MP",Ps 51,LOTH: Psalms,,,"O God, have mercy on me"
+Divine Office,#N/A,Week 2: Wednesday OR,Ps 52,LOTH: Psalms,,,Against a calumniator
+Divine Office,#N/A,Week 2: Tuesday DP,Ps 53,LOTH: Psalms,,,The foolishness of sinners
+Divine Office,Psalm,Week 2: Tuesday DP,"Ps 54:1-6, 8-9",LOTH: Psalms,,,Plea for help
+Divine Office,Psalm,Week 2: Wednesday DP,"Ps 55:2-15, 17-24 (I&II)",LOTH: Psalms,,,Against a friend proved traitor
+Divine Office,Psalm,Week 4: Friday OR (only in Ordinary Time),"Ps 55:2-15, 17-24 (I&II)",LOTH: Psalms,,,Against a false friend
+Divine Office,Psalm,Week 2: Thursday DP,"Ps 56:2-7b, 9-14",LOTH: Psalms,,,Trust in God's word
+Divine Office,#N/A,Week 1: Thursday MP & Week 2: Thursday DP,Ps 57,LOTH: Psalms,,,Morning prayer in affliction
+Divine Office,Psalm,Week 2: Friday DP,"Ps 59:2-5, 10-11, 17-18",LOTH: Psalms,,,Prayer for help against enemies
+Divine Office,#N/A,Week 2: Friday DP,Ps 60,LOTH: Psalms,,,Prayer after disaster
+Divine Office,#N/A,Week 2: Saturday DP,Ps 61,LOTH: Psalms,,,Prayer of an exile
+Divine Office,#N/A,Week 2: Wednesday EP,Ps 62,LOTH: Psalms,,,Peace in God
+Divine Office,Psalm,Week 1: Sunday MP,Ps 63:2-9,LOTH: Psalms,,,A soul thirsting for God
+Divine Office,#N/A,Week 2: Saturday DP,Ps 64,LOTH: Psalms,,,Prayer for help against enemies
+Divine Office,#N/A,Week 2: Tuesday MP,Ps 65,LOTH: Psalms,,,Solemn thanksgiving
+Divine Office,#N/A,Week 4: Sunday OR,Ps 66 (I&II),LOTH: Psalms,,,Eucharistic hymn
+Divine Office,#N/A,Week 2: Wednesday EP & Week 3: Tuesday MP; also alt. Invitatory,Ps 67,LOTH: Psalms,,,People of all nations will worship the Lord
+Divine Office,#N/A,Week 3: Tuesday OR,Ps 68 (I&II&III),LOTH: Psalms,,,The Lord's triumphant entrance into his sanctuary
+Divine Office,Psalm,Week 3: Friday OR,"Ps 69:2-22, 30-37 (I&II&III)",LOTH: Psalms,,,I am consumed with zeal for your house
+Divine Office,#N/A,Week 3: Wednesday DP,Ps 70,LOTH: Psalms,,,"O God, come to my aid"
+Divine Office,#N/A,Week 3: Monday DP,Ps 71 (I&II),LOTH: Psalms,,,"You have stood by me, Lord, from my youth"
+Divine Office,Psalm,Week 2: Thursday EP,Ps 72:1-19 (I&II),LOTH: Psalms,,,The Messiah's royal power
+Divine Office,#N/A,Week 4: Monday OR,Ps 73 (I&II&III),LOTH: Psalms,,,Why is it that the good have many troubles?
+Divine Office,#N/A,Week 3: Tuesday DP,Ps 74 (I&II),LOTH: Psalms,,,Lament for the destruction of the Temple
+Divine Office,#N/A,Week 3: Wednesday DP,Ps 75,LOTH: Psalms,,,"The Lord, the ruler over all"
+Divine Office,#N/A,Weeks 2 & 4: Sunday DP,Ps 76 (I&II),LOTH: Psalms,,,Thanksgiving for victory
+Divine Office,#N/A,Week 2: Wednesday MP,Ps 77,LOTH: Psalms,,,Recalling God's works
+Divine Office,Psalm,"Week 4: Friday OR (only in Advent, Christmas, Lent, Easter)",Ps 78:1-39 (I&II&III),LOTH: Psalms,,,Salvation history reveals the goodness of God and the faithlessness of his people
+Divine Office,Psalm,"Week 4: Saturday OR (only in Advent, Christmas, Lent, Easter)",Ps 78:40-72 (IV&V&VI),LOTH: Psalms,,,Salvation history reveals the goodness of God and the faithlessness of his people
+Divine Office,Psalm,Week 3: Thursday DP,"Ps 79:1-5, 8-11, 13",LOTH: Psalms,,,Lament for Jerusalem
+Divine Office,#N/A,Week 2: Thursday MP & Week 3: Thursday DP,Ps 80,LOTH: Psalms,,,"Lord, come, take care of your vineyard"
+Divine Office,#N/A,Week 2: Thursday MP,Ps 81,LOTH: Psalms,,,Solemn renewal of the covenant
+Divine Office,#N/A,Week 4: Monday DP,Ps 82,LOTH: Psalms,,,Denunciation of evil judges
+Divine Office,#N/A,Week 3: Monday MP,Ps 84,LOTH: Psalms,,,Longing for God's Temple
+Divine Office,#N/A,Week 3: Tuesday MP,Ps 85,LOTH: Psalms,,,Our salvation is near
+Divine Office,#N/A,Week 3: Wednesday MP & Night Prayer: Monday,Ps 86,LOTH: Psalms,,,The prayer of the poor man in distress
+Divine Office,#N/A,Week 3: Thursday MP,Ps 87,LOTH: Psalms,,,Jerusalem is mother of us all
+Divine Office,#N/A,Week 4: Tuesday DP & Night Prayer: Friday,Ps 88 (I&II),LOTH: Psalms,,,Prayer of a person who is gravely ill
+Divine Office,Psalm,Week 3: Wednesday OR,Ps 89:2-38 (I&II&III),LOTH: Psalms,,,God's favors to the house of David
+Divine Office,Psalm,Week 3: Thursday OR,Ps 89:39-53 (IV&V),LOTH: Psalms,,,Lament for the fall of David's dynasty
+Divine Office,#N/A,Week 3: Thursday OR & Week 4: Monday MP,Ps 90,LOTH: Psalms,,,May we live in the radiance of God
+Divine Office,#N/A,Night Prayer: after EP-II on Sun,Ps 91,LOTH: Psalms,,,Safe in God's sheltering care
+Divine Office,#N/A,Weeks 2 & 4: Saturday MP,Ps 92,LOTH: Psalms,,,Praise of God the Creator
+Divine Office,#N/A,Week 3: Sunday MP,Ps 93,LOTH: Psalms,,,Splendor of God the Creator
+Divine Office,#N/A,Week 4: Wednesday DP,Ps 94 (I&II),LOTH: Psalms,,,The Lord will avenge the just
+Divine Office,#N/A,ORDINARY: INVITATORY Psalm,Ps 95,LOTH: Psalms,,,A call to praise God
+Divine Office,#N/A,Week 3: Monday MP,Ps 96,LOTH: Psalms,,,"The Lord, king and judge of the world"
+Divine Office,#N/A,Week 2: Wednesday MP,Ps 97,LOTH: Psalms,,,The glory of the Lord in his decrees for the world
+Divine Office,#N/A,Week 3: Wednesday MP,Ps 98,LOTH: Psalms,,,The Lord triumphs in his judgment
+Divine Office,#N/A,Week 3: Thursday MP,Ps 99,LOTH: Psalms,,,Holy is the Lord our God
+Divine Office,#N/A,Weeks 1 & 3: Friday MP; also alt. Invitatory Psalm,Ps 100,LOTH: Psalms,,,The joyful song of those entering God's temple
+Divine Office,#N/A,Week 4: Tuesday MP,Ps 101,LOTH: Psalms,,,Avowal of a good ruler
+Divine Office,#N/A,Week 4: Tuesday OR,Ps 102 (I&II&III),LOTH: Psalms,,,The longings and prayers of an exile
+Divine Office,#N/A,Week 4: Wednesday OR,Ps 103 (I&II&III),LOTH: Psalms,,,Praise for God's tender compassion
+Divine Office,#N/A,Week 2: Sunday OR,Ps 104 (I&II&III),LOTH: Psalms,,,Hymn to God the Creator
+Divine Office,#N/A,"Week 1: Saturday OR  (only in Advent, Christmas, Lent, Easter)",Ps 105 (I&II&III),LOTH: Psalms,,,The Lord is faithful to his promises
+Divine Office,#N/A,"Week 2: Saturday OR  (only in Advent, Christmas, Lent, Easter)",Ps 106 (I&II&III),LOTH: Psalms,,,The goodness of the Lord; the faithlessness of his people
+Divine Office,#N/A,Week 3: Saturday OR,Ps 107 (I&II&III),LOTH: Psalms,,,Thanksgiving for deliverance
+Divine Office,#N/A,Week 4: Wednesday MP,Ps 108,LOTH: Psalms,,,Praise of God and a plea for help
+Divine Office,Psalm,"Weeks 1,2,3,4: Sunday EP2","Ps 110:1-5, 7",LOTH: Psalms,,,"The Messiah, king and priest"
+Divine Office,#N/A,Week 3: Sunday EP2,Ps 111,LOTH: Psalms,,,God's marvelous works
+Divine Office,#N/A,Week 4: Sunday EP2,Ps 112,LOTH: Psalms,,,The happiness of the just man
+Divine Office,#N/A,Week 3: Sunday EP1,Ps 113,LOTH: Psalms,,,Praise the name of the Lord
+Divine Office,#N/A,Week 1: Sunday EP2,Ps 114,LOTH: Psalms,,,The Israelites are delivered from the bondage of Egypt
+Divine Office,#N/A,Week 2: Sunday EP2,Ps 115,LOTH: Psalms,,,Praise of the true God
+Divine Office,Psalm,Week 2: Friday EP,Ps 116:1-9,LOTH: Psalms,,,Thanksgiving
+Divine Office,Psalm,Week 3: Sunday EP1,Ps 116:10-19,LOTH: Psalms,,,Thanksgiving in the Temple
+Divine Office,#N/A,Weeks 1 & 3: Saturday MP,Ps 117,LOTH: Psalms,,,Praise for God's loving compassion
+Divine Office,#N/A,Weeks 1 & 3: Sunday DP,Ps 118 (I&II&III),LOTH: Psalms,,,Song of joy for salvation
+Divine Office,#N/A,Weeks 2 & 4: Sunday MP,Ps 118 (whole),LOTH: Psalms,,,Song of joy for salvation
+Divine Office,Psalm,Week 1: Tuesday DP,Ps 119:1-8 (I: Aleph),LOTH: Psalms,,,A meditation on God's law
+Divine Office,Psalm,Week 1: Wednesday DP,Ps 119:9-16 (II: Beth),LOTH: Psalms,,,A meditation on God's law
+Divine Office,Psalm,Week 1: Thursday DP,Ps 119:17-24 (III: Ghimel),LOTH: Psalms,,,A meditation on God's law
+Divine Office,Psalm,Week 1: Friday DP,Ps 119:25-32 (IV: Daleth),LOTH: Psalms,,,A meditation on God's law
+Divine Office,Psalm,Week 1: Saturday DP,Ps 119:33-40 (V: He),LOTH: Psalms,,,A meditation on God's law
+Divine Office,Psalm,Week 2: Monday DP,Ps 119:41-48 (VI: Vau),LOTH: Psalms,,,A meditation on God's law
+Divine Office,Psalm,Week 2: Tuesday DP,Ps 119:49-56 (VII: Zain),LOTH: Psalms,,,A meditation on God's law
+Divine Office,Psalm,Week 2: Wednesday DP,Ps 119:57-64 (VIII: Heth),LOTH: Psalms,,,A meditation on God's law
+Divine Office,Psalm,Week 2: Thursday DP,Ps 119:65-72 (IX: Teth),LOTH: Psalms,,,A meditation on God's law
+Divine Office,Psalm,Week 2: Friday DP,Ps 119:73-80 (X: Yod),LOTH: Psalms,,,A meditation on God's law
+Divine Office,Psalm,Week 2: Saturday DP,Ps 119:81-88 (XI: Caph),LOTH: Psalms,,,A meditation on God's law
+Divine Office,Psalm,Week 3: Monday DP,Ps 119:89-96 (XII: Lamed),LOTH: Psalms,,,A meditation on God's law
+Divine Office,Psalm,Week 3: Tuesday DP,Ps 119:97-104 (XIII: Mem),LOTH: Psalms,,,A meditation on God's law
+Divine Office,Psalm,Week 2: Sunday EP1 & Week 3: Wednesday DP,Ps 119:105-112 (XIV: Nun),LOTH: Psalms,,,A meditation on God's law
+Divine Office,Psalm,Week 3: Thursday DP,Ps 119:113-120 (XV: Samech),LOTH: Psalms,,,A meditation on God's law
+Divine Office,Psalm,Week 3: Saturday DP,Ps 119:121-128 (XVI: Ain),LOTH: Psalms,,,A meditation on God's law
+Divine Office,Psalm,Week 4: Monday DP,Ps 119:129-136 (XVII: Pe),LOTH: Psalms,,,A meditation on God's law
+Divine Office,Psalm,Week 4: Tuesday DP,Ps 119:137-144 (XVIII: Sade),LOTH: Psalms,,,A meditation on God's law
+Divine Office,Psalm,Weeks 1 & 3: Saturday MP & Week 4: Wednesday DP,Ps 119:145-152 (XIX: Koph),LOTH: Psalms,,,A meditation on God's law
+Divine Office,Psalm,Week 4: Thursday DP,Ps 119:153-160 (XX: Resh),LOTH: Psalms,,,A meditation on God's law
+Divine Office,Psalm,Week 4: Friday DP,Ps 119:161-168 (XXI: Shin),LOTH: Psalms,,,A meditation on God's law
+Divine Office,Psalm,Week 4: Saturday DP,Ps 119:169-176 (XXII: Tau),LOTH: Psalms,,,A meditation on God's law
+Divine Office,#N/A,Week 4: Monday DP & Complementary Psalmody: Midmorning,Ps 120,LOTH: Psalms,,,Longing for peace
+Divine Office,#N/A,Week 2: Friday EP & Complementary Psalmody: Midmorning,Ps 121,LOTH: Psalms,,,Guardian of his people
+Divine Office,#N/A,Week 4: Sunday EP1 & Complementary Psalmody: Midmorning,Ps 122,LOTH: Psalms,,,"The holy city, Jerusalem"
+Divine Office,#N/A,Week 3: Monday EP & Complementary Psalmody: Midday,Ps 123,LOTH: Psalms,,,"The Lord, unfailing hope of his people"
+Divine Office,#N/A,Week 3: Monday EP & Complementary Psalmody: Midday,Ps 124,LOTH: Psalms,,,Our help is in the name of the Lord
+Divine Office,#N/A,Week 3: Tuesday EP & Complementary Psalmody: Midday,Ps 125,LOTH: Psalms,,,"The Lord, guardian of his people"
+Divine Office,#N/A,Week 3: Wednesday EP & Complementary Psalmody: Midafternooon,Ps 126,LOTH: Psalms,,,Joyful hope in God
+Divine Office,#N/A,Week 3: Wednesday EP & Complementary Psalmody: Midafternooon,Ps 127,LOTH: Psalms,,,Apart from God our labors are worthless
+Divine Office,#N/A,Week 4: Thursday DP & Complementary Psalmody: Midafternooon,Ps 128,LOTH: Psalms,,,Happiness of family life rooted in God
+Divine Office,#N/A,Week 4: Thursday DP,Ps 129,LOTH: Psalms,,,God's people reaffirm their trust in time of affliction
+Divine Office,#N/A,Week 4: Sunday EP1 & Night Prayer: Wednesday,Ps 130,LOTH: Psalms,,,A cry from the depths
+Divine Office,#N/A,Week 3: Tuesday EP,Ps 131,LOTH: Psalms,,,Childlike trust in God
+Divine Office,#N/A,Week 1: Saturday OR (only in Ordinary Time),Ps 131,LOTH: Psalms,,,Childlike trust in God
+Divine Office,#N/A,Week 3: Thursday EP,Ps 132 (I&II),LOTH: Psalms,,,God's promises to the house of David
+Divine Office,#N/A,Week 1: Saturday OR  (only in Ordinary Time),Ps 132 (I&II),LOTH: Psalms,,,Divine promise to the house of David
+Divine Office,#N/A,Week 4: Friday DP,Ps 133,LOTH: Psalms,,,Joy when hearts are united in love
+Divine Office,#N/A,Night Prayer: after EP-I on Sun,Ps 134,LOTH: Psalms,,,Evening prayer in the temple
+Divine Office,#N/A,Week 3: Friday EP,Ps 135 (I&II),LOTH: Psalms,,,Praise for the wonderful things God does for us
+Divine Office,Psalm,Week 4: Monday MP,Ps 135:1-12,LOTH: Psalms,,,Praise for the wonderful things God does for us
+Divine Office,#N/A,Week 4: Monday EP,Ps 136 (I&II),LOTH: Psalms,,,Easter hymn
+Divine Office,#N/A,Week 2: Saturday OR  (only in Ordinary Time),Ps 136 (I&II&III),LOTH: Psalms,,,Paschal hymn
+Divine Office,Psalm,Week 4: Tuesday EP,Ps 137:1-6,LOTH: Psalms,,,By the rivers of Babylon
+Divine Office,#N/A,Week 4: Tuesday EP,Ps 138,LOTH: Psalms,,,Thanksgiving
+Divine Office,Psalm,Week 4: Wednesday EP,"Ps 139:1-18, 23-24 (I&II)",LOTH: Psalms,,,God sees all that is
+Divine Office,Psalm,Week 4: Friday DP,"Ps 140:1-9, 13-14",LOTH: Psalms,,,"Lord, you are my refuge"
+Divine Office,Psalm,Week 1: Sunday EP1,Ps 141:1-9,LOTH: Psalms,,,A prayer when in danger
+Divine Office,#N/A,Week 1: Sunday EP1,Ps 142,LOTH: Psalms,,,"You, Lord, are my refuge"
+Divine Office,Psalm,Week 4: Thursday MP & Night Prayer: Tuesday,Ps 143:1-11,LOTH: Psalms,,,Prayer in distress
+Divine Office,#N/A,Week 4: Thursday EP,Ps 144 (I&II),LOTH: Psalms,,,Prayer for victory and peace
+Divine Office,Psalm,Week 4: Tuesday MP,Ps 144:1-10,LOTH: Psalms,,,Prayer for victory and peace
+Divine Office,#N/A,Week 3: Sunday OR & Week 4: Friday EP,Ps 145 (I&II&III),LOTH: Psalms,,,Praise of God's majesty
+Divine Office,#N/A,Week 4: Wednesday MP,Ps 146,LOTH: Psalms,,,Those who trust in God know what it is to be happy
+Divine Office,Psalm,Week 4: Thursday MP,Ps 147:1-11,LOTH: Psalms,,,The loving kindness of God who can do all he wills
+Divine Office,Psalm,Weeks 2 & 4: Friday MP,Ps 147:12-20,LOTH: Psalms,,,The restoration of Jerusalem
+Divine Office,#N/A,Week 3: Sunday MP,Ps 148,LOTH: Psalms,,,"Praise to the Lord, the Creator"
+Divine Office,#N/A,Week 1: Sunday MP,Ps 149,LOTH: Psalms,,,The joy of God's holy people
+Divine Office,#N/A,Weeks 2 & 4: Sunday MP,Ps 150,LOTH: Psalms,,,Praise the Lord
+Divine Office,Exodus,Week 1: Saturday MP,"Exod 15:1-4a, 8-13, 17-18",LOTH: Psalms,,,Hymn of victory after the crossing of the Red Sea
+Divine Office,Deuteronomy,Week 2: Saturday MP,Deut 32:1-12,LOTH: Psalms,,,God's kindness to his people
+Divine Office,1 Samuel,Week 2: Wednesday MP,1 Sam 2:1-10,LOTH: Psalms,,,The humble find joy in God
+Divine Office,1 Chronicles,Week 1: Monday MP,1 Chr 29:10-13,LOTH: Psalms,,,Glory and honor are due to God alone
+Divine Office,#N/A,Week 1: Tuesday MP,Tobit 13:1-8,LOTH: Psalms,,,God afflicts but only to heal
+Divine Office,#N/A,Week 4: Friday MP,"Tobit 13:8-11, 13-15",LOTH: Psalms,,,Thanksgiving for the people's deliverance
+Divine Office,#N/A,Week 1: Wednesday MP,"Judith 16:2-3a, 13-15",LOTH: Psalms,,,God who created the world takes care of his people
+Divine Office,Wisdom,Week 3: Saturday MP,"Wis 9:1-6, 9-11",LOTH: Psalms,,,"Lord, give me wisdom"
+Divine Office,#N/A,Week 2: Monday MP,"Sirach 36:1-5, 10-13",LOTH: Psalms,,,"Prayer of entreaty for the holy city, Jerusalem"
+Divine Office,Isaiah,Week 3: Monday MP,Isa 2:2-5,LOTH: Psalms,,,The mountain of the Lord's dwelling towers above every mountain
+Divine Office,Isaiah,Week 2: Thursday MP,Isa 12:1-6,LOTH: Psalms,,,Joy of God's ransomed people
+Divine Office,Isaiah,Week 3: Tuesday MP,"Isa 26:1-4, 7-9, 12",LOTH: Psalms,,,Hymn after the defeat of the enemy
+Divine Office,Isaiah,Week 3: Wednesday MP,Isa 33:13-16,LOTH: Psalms,,,God's flawless judgment
+Divine Office,Isaiah,Week 2: Tuesday MP,"Isa 38:10-14, 17-20",LOTH: Psalms,,,Anguish of a dying man and joy in his restoration
+Divine Office,Isaiah,Week 3: Thursday MP,Isa 40:10-17,LOTH: Psalms,,,The Good Shepherd: God most high and most wise
+Divine Office,Isaiah,Week 4: Monday MP,Isa 42:10-16,LOTH: Psalms,,,God victor and savior
+Divine Office,Isaiah,Week 1: Friday MP,Isa 45:15-25,LOTH: Psalms,,,People of all nations will become disciples of the Lord
+Divine Office,Isaiah,Week 4: Wednesday MP,Isa 61:10—62:5,LOTH: Psalms,,,The prophet's joy in the vision of a new Jerusalem
+Divine Office,Isaiah,Week 4: Thursday MP,Isa 66:10-14a,LOTH: Psalms,,,Joys of heaven
+Divine Office,Jeremiah,Week 3: Friday MP,Jer 14:17-21,LOTH: Psalms,,,The lament of the people in war and famine
+Divine Office,Jeremiah,Week 1: Thursday MP,Jer 31:10-14,LOTH: Psalms,,,The happiness of a people who have been redeemed
+Divine Office,Ezekiel,Week 4: Saturday MP,Ezek 36:24-28,LOTH: Psalms,,,The Lord will renew his people
+Divine Office,Daniel,Week 4: Tuesday MP,"Dan 3:26, 27, 29, 34-41",LOTH: Psalms,,,Azariah's prayer in the furnace
+Divine Office,Daniel,Weeks 2 & 4: Sunday MP,Dan 3:52-57,LOTH: Psalms,,,Let all creatures praise the Lord
+Divine Office,Daniel,Weeks 1 & 3: Sunday MP,"Dan 3:57-88, 56",LOTH: Psalms,,,Let all creatures praise the Lord
+Divine Office,Habakkuk,Week 2: Friday MP,"Hab 3:2-4, 13a, 15-19",LOTH: Psalms,,,God comes to judge
+Divine Office,Luke,Ordinary EP: Mary's Magnificat,Luke 1:46-55,LOTH: Psalms,,,The soul rejoices in the Lord
+Divine Office,Luke,Ordinary MP: Zechariah's Benedictus,Luke 1:68-79,LOTH: Psalms,,,The Messiah and his forerunner
+Divine Office,Luke,Ordinary NP: Simeon's Nunc Dimittis,Luke 2:29-32,LOTH: Psalms,,,Christ is the light of the nations and the glory of Israel
+Divine Office,Ephesians,"Weeks 1,2,3,4: Monday EP",Eph 1:3-10,LOTH: Psalms,,,God our Savior
+Divine Office,Philippians,"Weeks 1,2,3,4: Sunday EP1",Phil 2:6-11,LOTH: Psalms,,,"Christ, God's holy servant"
+Divine Office,Colossians,"Weeks 1,2,3,4: Wednesday EP",Col 1:12-20,LOTH: Psalms,,,Christ the first-born of all creation and the first-born from the dead
+Divine Office,1 Timothy,Only on Epiphany & Transfiguration,1 Tim 3:16,LOTH: Psalms,,,The mystery and glory of Christ
+Divine Office,#N/A,"Weeks 1,2,3,4: Sunday EP2 (only in Lent)",1 Peter 2:21-24,LOTH: Psalms,,,"The willing acceptance of his passion by Christ, the servant of God"
+Divine Office,Revelation,"Weeks 1,2,3,4: Tuesday EP","Rev 4:11; 5:9, 10, 12",LOTH: Psalms,,,Redemption hymn
+Divine Office,Revelation,"Weeks 1,2,3,4: Thursday EP",Rev 11:17-18; 12:10b-12a,LOTH: Psalms,,,The judgment of God
+Divine Office,Revelation,"Weeks 1,2,3,4: Friday EP",Rev 15:3-4,LOTH: Psalms,,,Hymn of adoration
+Divine Office,Revelation,"Weeks 1,2,3,4: Sunday EP2 (except in Lent)",Rev 19:1-7,LOTH: Psalms,,,The wedding of the Lamb
+Divine Office,Romans,Week 1: Sunday EP1,Rom 11:33-36,LOTH: Other,,,
+Divine Office,Revelation,Week 1: Sunday MP,"Rev 7:10, 12",LOTH: Other,,,
+Divine Office,1 John,Week 1: Sunday DP1,1 John 4:16,LOTH: Other,,,
+Divine Office,Galatians,Week 1: Sunday DP2,Gal 6:7b-8,LOTH: Other,,,
+Divine Office,Galatians,Week 1: Sunday DP3,Gal 6:9-10,LOTH: Other,,,
+Divine Office,2 Corinthians,Week 1: Sunday EP2,2 Cor 1:3-4,LOTH: Other,,,
+Divine Office,1 Thessalonians,Week 1: Monday MP,1 Thess 3:10b-13,LOTH: Other,,,
+Divine Office,Romans,Week 1: Monday DP1,"Rom 13:8, 10",LOTH: Other,,,
+Divine Office,James,Week 1: Monday DP2,"Jas 1:19b-20, 26",LOTH: Other,,,
+Divine Office,1 Peter,Week 1: Monday DP3,1 Pet 1:17b-19,LOTH: Other,,,
+Divine Office,Colossians,Week 1: Monday EP,Col 1:9b-11,LOTH: Other,,,
+Divine Office,Romans,Week 1: Tuesday MP,"Rom 13:11b, 12-13a",LOTH: Other,,,
+Divine Office,Jeremiah,Week 1: Tuesday DP1,Jer 17:7-8,LOTH: Other,,,
+Divine Office,Proverbs,Week 1: Tuesday DP2,Prov 3:13-15,LOTH: Other,,,
+Divine Office,Job,Week 1: Tuesday DP3,Job 5:17-18,LOTH: Other,,,
+Divine Office,1 John,Week 1: Tuesday EP,"1 John 3:1a, 2",LOTH: Other,,,
+Divine Office,Tobit,Week 1: Wednesday MP,"Tob 4:15a, 16a, 18a, 19",LOTH: Other,,,
+Divine Office,1 Peter,Week 1: Wednesday DP1,1 Pet 1:13-14,LOTH: Other,,,
+Divine Office,1 Peter,Week 1: Wednesday DP2,1 Pet 1:15-16,LOTH: Other,,,
+Divine Office,James,Week 1: Wednesday DP3,"Jas 4:7-8a, 10",LOTH: Other,,,
+Divine Office,James,Week 1: Wednesday EP,"Jas 1:22, 25",LOTH: Other,,,
+Divine Office,Isaiah,Week 1: Thursday MP,Isa 66:1-2,LOTH: Other,,,
+Divine Office,Amos,Week 1: Thursday DP1,Amos 4:13,LOTH: Other,,,
+Divine Office,Amos,Week 1: Thursday DP2,"Amos 5:8, 9b",LOTH: Other,,,
+Divine Office,Amos,Week 1: Thursday DP3,Amos 9:6,LOTH: Other,,,
+Divine Office,1 Peter,Week 1: Thursday EP,1 Pet 1:6-9,LOTH: Other,,,
+Divine Office,Ephesians,Week 1: Friday MP,Eph 4:29-32,LOTH: Other,,,
+Divine Office,Philippians,Week 1: Friday DP1,Phil 2:2b-4,LOTH: Other,,,
+Divine Office,2 Corinthians,Week 1: Friday DP2,2 Cor 13:4,LOTH: Other,,,
+Divine Office,Colossians,Week 1: Friday DP3,Col 3:12-14,LOTH: Other,,,
+Divine Office,Romans,Week 1: Friday EP,Rom 15:1-3,LOTH: Other,,,
+Divine Office,2 Peter,Week 1: Saturday MP,2 Pet 1:10-11,LOTH: Other,,,
+Divine Office,1 Kings,Week 1: Saturday DP1,1 Kgs 8:60-61,LOTH: Other,,,
+Divine Office,Jeremiah,Week 1: Saturday DP2,Jer 17:9-10,LOTH: Other,,,
+Divine Office,Wisdom,Week 1: Saturday DP3,"Wis 7:27a, 8:1",LOTH: Other,,,
+Divine Office,Colossians,Week 2: Sunday EP1,Col 1:2b-6a,LOTH: Other,,,
+Divine Office,Ezekiel,Week 2: Sunday MP,Ezek 36:25-27,LOTH: Other,,,
+Divine Office,Romans,Week 2: Sunday DP1,"Rom 5:1-2, 5",LOTH: Other,,,
+Divine Office,Romans,Week 2: Sunday DP2,Rom 8:26,LOTH: Other,,,
+Divine Office,2 Corinthians,Week 2: Sunday DP3,2 Cor 1:21-22,LOTH: Other,,,
+Divine Office,2 Thessalonians,Week 2: Sunday EP2,2 Thess 2:13-14,LOTH: Other,,,
+Divine Office,Jeremiah,Week 2: Monday MP,Jer 15:16,LOTH: Other,,,
+Divine Office,Jeremiah,Week 2: Monday DP1,Jer 31:33,LOTH: Other,,,
+Divine Office,Jeremiah,Week 2: Monday DP2,Jer 32:40,LOTH: Other,,,
+Divine Office,Ezekiel,Week 2: Monday DP3,Ezek 34:31,LOTH: Other,,,
+Divine Office,1 Thessalonians,Week 2: Monday EP,1 Thess 2:13,LOTH: Other,,,
+Divine Office,1 Thessalonians,Week 2: Tuesday MP,1 Thess 5:4-5,LOTH: Other,,,
+Divine Office,1 Corinthians,Week 2: Tuesday DP1,1 Cor 12:4-6,LOTH: Other,,,
+Divine Office,1 Corinthians,Week 2: Tuesday DP2,1 Cor 12:12-13,LOTH: Other,,,
+Divine Office,1 Corinthians,Week 2: Tuesday DP3,"1 Cor 12:24b, 25-26",LOTH: Other,,,
+Divine Office,Romans,Week 2: Tuesday EP,Rom 3:23-25a,LOTH: Other,,,
+Divine Office,Romans,Week 2: Wednesday MP,"Rom 8:35, 37",LOTH: Other,,,
+Divine Office,Deuteronomy,Week 2: Wednesday DP1,Deut 1:16-17a,LOTH: Other,,,
+Divine Office,Isaiah,Week 2: Wednesday DP2,Isa 55:8-9,LOTH: Other,,,
+Divine Office,1 Samuel,Week 2: Wednesday DP3,1 Sam 16:7b,LOTH: Other,,,
+Divine Office,1 Peter,Week 2: Wednesday EP,1 Pet 5:5b-7,LOTH: Other,,,
+Divine Office,Romans,Week 2: Thursday MP,Rom 14:17-19,LOTH: Other,,,
+Divine Office,Galatians,Week 2: Thursday DP1,Gal 5:13-14,LOTH: Other,,,
+Divine Office,Galatians,Week 2: Thursday DP2,Gal 5:16-17,LOTH: Other,,,
+Divine Office,Galatians,Week 2: Thursday DP3,"Gal 5:22, 23a, 25",LOTH: Other,,,
+Divine Office,1 Peter,Week 2: Thursday EP,1 Pet 1:22-23,LOTH: Other,,,
+Divine Office,Ephesians,Week 2: Friday MP,Eph 2:13-16,LOTH: Other,,,
+Divine Office,Deuteronomy,Week 2: Friday DP1,Deut 1:31b,LOTH: Other,,,
+Divine Office,Baruch,Week 2: Friday DP2,Bar 4:28-29,LOTH: Other,,,
+Divine Office,Wisdom,Week 2: Friday DP3,Wis 1:13-15,LOTH: Other,,,
+Divine Office,1 Corinthians,Week 2: Friday EP,1 Cor 2:7-10a,LOTH: Other,,,
+Divine Office,Romans,Week 2: Saturday MP,Rom 12:14-16a,LOTH: Other,,,
+Divine Office,Deuteronomy,Week 2: Saturday DP1,Deut 8:5b-6,LOTH: Other,,,
+Divine Office,1 Kings,Week 2: Saturday DP2,1 Kgs 2:2b-3,LOTH: Other,,,
+Divine Office,Jeremiah,Week 2: Saturday DP3,Jer 6:16a,LOTH: Other,,,
+Divine Office,Hebrews,Week 3: Sunday EP1,Heb 13:20-21,LOTH: Other,,,
+Divine Office,Ezekiel,Week 3: Sunday MP,Ezek 37:12b-14,LOTH: Other,,,
+Divine Office,Romans,Week 3: Sunday DP1,Rom 8:15-16,LOTH: Other,,,
+Divine Office,Romans,Week 3: Sunday DP2,Rom 8:22-23,LOTH: Other,,,
+Divine Office,2 Timothy,Week 3: Sunday DP3,2 Tim 1:9,LOTH: Other,,,
+Divine Office,1 Peter,Week 3: Sunday EP2,1 Pet 1:3-5,LOTH: Other,,,
+Divine Office,James,Week 3: Monday MP,Jas 2:12-13,LOTH: Other,,,
+Divine Office,2 Corinthians,Week 3: Monday DP1,2 Cor 13:11,LOTH: Other,,,
+Divine Office,Romans,Week 3: Monday DP2,Rom 6:22,LOTH: Other,,,
+Divine Office,Colossians,Week 3: Monday DP3,Col 1:21-22,LOTH: Other,,,
+Divine Office,James,Week 3: Monday EP,Jas 4:11-12,LOTH: Other,,,
+Divine Office,1 John,Week 3: Tuesday MP,1 John 4:14-15,LOTH: Other,,,
+Divine Office,Jeremiah,Week 3: Tuesday DP1,Jer 22:3,LOTH: Other,,,
+Divine Office,Deuteronomy,Week 3: Tuesday DP2,Deut 15:7-8,LOTH: Other,,,
+Divine Office,Proverbs,Week 3: Tuesday DP3,Prov 22:22-23,LOTH: Other,,,
+Divine Office,Romans,Week 3: Tuesday EP,Rom 12:9-12,LOTH: Other,,,
+Divine Office,Job,Week 3: Wednesday MP,"Job 1:21, 2:10b",LOTH: Other,,,
+Divine Office,1 Corinthians,Week 3: Wednesday DP1,1 Cor 13:4-7,LOTH: Other,,,
+Divine Office,1 Corinthians,Week 3: Wednesday DP2,"1 Cor 13:8-9, 13",LOTH: Other,,,
+Divine Office,Colossians,Week 3: Wednesday DP3,Col 3:14-15,LOTH: Other,,,
+Divine Office,Ephesians,Week 3: Wednesday EP,Eph 3:20-21,LOTH: Other,,,
+Divine Office,1 Peter,Week 3: Thursday MP,1 Pet 4:10-11a,LOTH: Other,,,
+Divine Office,Wisdom,Week 3: Thursday DP1,Wis 19:22,LOTH: Other,,,
+Divine Office,Deuteronomy,Week 3: Thursday DP2,Deut 4:7,LOTH: Other,,,
+Divine Office,Esther,Week 3: Thursday DP3,Est 10:6b,LOTH: Other,,,
+Divine Office,1 Peter,Week 3: Thursday EP,1 Pet 3:8-9,LOTH: Other,,,
+Divine Office,2 Corinthians,Week 3: Friday MP,2 Cor 12:9b-10,LOTH: Other,,,
+Divine Office,Romans,Week 3: Friday DP1,Rom 1:16b-17,LOTH: Other,,,
+Divine Office,Romans,Week 3: Friday DP2,Rom 3:21-22,LOTH: Other,,,
+Divine Office,Ephesians,Week 3: Friday DP3,Eph 2:8-9,LOTH: Other,,,
+Divine Office,James,Week 3: Friday EP,Jas 1:2-4,LOTH: Other,,,
+Divine Office,Philippians,Week 3: Saturday MP,Phil 2:14-15,LOTH: Other,,,
+Divine Office,1 Samuel,Week 3: Saturday DP1,1 Sam 15:22,LOTH: Other,,,
+Divine Office,Galatians,Week 3: Saturday DP2,"Gal 5:26, 6:2",LOTH: Other,,,
+Divine Office,Micah,Week 3: Saturday DP3,Mic 6:8,LOTH: Other,,,
+Divine Office,2 Peter,Week 4: Sunday EP1,2 Pet 1:19-21,LOTH: Other,,,
+Divine Office,2 Timothy,Week 4: Sunday MP,"2 Tim 2:8, 11-13",LOTH: Other,,,
+Divine Office,1 Corinthians,Week 4: Sunday DP1,1 Cor 6:19-20,LOTH: Other,,,
+Divine Office,Deuteronomy,Week 4: Sunday DP2,Deut 10:12,LOTH: Other,,,
+Divine Office,Song of Songs,Week 4: Sunday DP3,Song 8:6b-7a,LOTH: Other,,,
+Divine Office,Hebrews,Week 4: Sunday EP2,Heb 12:22-24,LOTH: Other,,,
+Divine Office,Judith,Week 4: Monday MP,Jdt 8:25-27,LOTH: Other,,,
+Divine Office,Leviticus,Week 4: Monday DP1,Lev 20:26,LOTH: Other,,,
+Divine Office,Wisdom,Week 4: Monday DP2,"Wis 15:1, 3",LOTH: Other,,,
+Divine Office,Baruch,Week 4: Monday DP3,Bar 4:21b-22,LOTH: Other,,,
+Divine Office,1 Thessalonians,Week 4: Monday EP,1 Thess 3:12-13,LOTH: Other,,,
+Divine Office,Isaiah,Week 4: Tuesday MP,Isa 55:1,LOTH: Other,,,
+Divine Office,1 John,Week 4: Tuesday DP1,1 John 3:17-18,LOTH: Other,,,
+Divine Office,Deuteronomy,Week 4: Tuesday DP2,"Deut 30:11, 14",LOTH: Other,,,
+Divine Office,Isaiah,Week 4: Tuesday DP3,Isa 55:10-11,LOTH: Other,,,
+Divine Office,Colossians,Week 4: Tuesday EP,Col 3:16,LOTH: Other,,,
+Divine Office,Deuteronomy,Week 4: Wednesday MP,Deut 4:39-40a,LOTH: Other,,,
+Divine Office,1 Corinthians,Week 4: Wednesday DP1,"1 Cor 10:24, 31",LOTH: Other,,,
+Divine Office,Colossians,Week 4: Wednesday DP2,Col 3:17,LOTH: Other,,,
+Divine Office,Colossians,Week 4: Wednesday DP3,Col 3:23-24,LOTH: Other,,,
+Divine Office,1 John,Week 4: Wednesday EP,1 John 2:3-6,LOTH: Other,,,
+Divine Office,Romans,Week 4: Thursday MP,Rom 8:18-21,LOTH: Other,,,
+Divine Office,1 John,Week 4: Thursday DP1,1 John 3:23-24,LOTH: Other,,,
+Divine Office,Wisdom,Week 4: Thursday DP2,Wis 1:1-2,LOTH: Other,,,
+Divine Office,Hebrews,Week 4: Thursday DP3,Heb 12:1b-2,LOTH: Other,,,
+Divine Office,Colossians,Week 4: Thursday EP,Col 1:23,LOTH: Other,,,
+Divine Office,Galatians,Week 4: Friday MP,Gal 2:19b-20,LOTH: Other,,,
+Divine Office,Romans,Week 4: Friday DP1,"Rom 12:17a, 19b, 20a, 21",LOTH: Other,,,
+Divine Office,1 John,Week 4: Friday DP2,1 John 3:16,LOTH: Other,,,
+Divine Office,1 John,Week 4: Friday DP3,1 John 3:9-11,LOTH: Other,,,
+Divine Office,Romans,Week 4: Friday EP,Rom 8:1-2,LOTH: Other,,,
+Divine Office,2 Peter,Week 4: Saturday MP,2 Pet 3:13-15a,LOTH: Other,,,
+Divine Office,Daniel,Week 4: Saturday DP1,Dan 6:27b-28a,LOTH: Other,,,
+Divine Office,Romans,Week 4: Saturday DP2,Rom 15:5-7,LOTH: Other,,,
+Divine Office,Philippians,Week 4: Saturday DP3,"Phil 4:8, 9b",LOTH: Other,,,
+Divine Office,Deuteronomy,Night Prayer: After EP1 on Sundays,Deut 6:4-7,LOTH: Other,,,
+Divine Office,Revelation,Night Prayer: After EP2 on Sundays,Rev 22:4-5,LOTH: Other,,,
+Divine Office,1 Thessalonians,Night Prayer: Monday,1 Thess 5:9-10,LOTH: Other,,,
+Divine Office,1 Peter,Night Prayer: Tuesday,1 Pet 5:8-9a,LOTH: Other,,,
+Divine Office,Ephesians,Night Prayer: Wednesday,Eph 4:26-27,LOTH: Other,,,
+Divine Office,1 Thessalonians,Night Prayer: Thursday,1 Thess 5:23,LOTH: Other,,,
+Divine Office,Jeremiah,Night Prayer: Friday,Jer 14:9a,LOTH: Other,,,
+Divine Office,Luke,Night Prayer: Canticle,Luke 2:29-32,LOTH: Ordinary,,,
+Divine Office,Luke,Morning Prayer: Canticle,Luke 1:68-79,LOTH: Ordinary,,,
+Divine Office,Luke,Evening Prayer: Canticle,Luke 1:46-55,LOTH: Ordinary,,,

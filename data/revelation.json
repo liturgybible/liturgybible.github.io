@@ -547,6 +547,74 @@
       "color": "#4C6B4F",
       "start": "22:10",
       "end": "22:21"
+    },
+    {
+      "name": "Weeks 1,2,3,4: Tuesday EP",
+      "color": "#5E4B81",
+      "segments": [
+        {
+          "start": "4:11",
+          "end": "4:11"
+        },
+        {
+          "start": "5:9",
+          "end": "5:9"
+        },
+        {
+          "start": "5:10",
+          "end": "5:10"
+        },
+        {
+          "start": "5:12",
+          "end": "5:12"
+        }
+      ]
+    },
+    {
+      "name": "Weeks 1,2,3,4: Thursday EP",
+      "color": "#5E4B81",
+      "segments": [
+        {
+          "start": "11:17",
+          "end": "11:18"
+        },
+        {
+          "start": "12:10b",
+          "end": "12:12a"
+        }
+      ]
+    },
+    {
+      "name": "Weeks 1,2,3,4: Friday EP",
+      "color": "#5E4B81",
+      "start": "15:3",
+      "end": "15:4"
+    },
+    {
+      "name": "Weeks 1,2,3,4: Sunday EP2 (except in Lent)",
+      "color": "#5E4B81",
+      "start": "19:1",
+      "end": "19:7"
+    },
+    {
+      "name": "Week 1: Sunday MP",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "7:10",
+          "end": "7:10"
+        },
+        {
+          "start": "7:12",
+          "end": "7:12"
+        }
+      ]
+    },
+    {
+      "name": "Night Prayer: After EP2 on Sundays",
+      "color": "#4A628A",
+      "start": "22:4",
+      "end": "22:5"
     }
   ]
 }

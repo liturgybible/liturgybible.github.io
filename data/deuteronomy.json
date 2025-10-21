@@ -399,6 +399,74 @@
           "end": "34:12"
         }
       ]
+    },
+    {
+      "name": "Week 2: Saturday MP",
+      "color": "#5E4B81",
+      "start": "32:1",
+      "end": "32:12"
+    },
+    {
+      "name": "Week 2: Wednesday DP1",
+      "color": "#4A628A",
+      "start": "1:16",
+      "end": "1:17a"
+    },
+    {
+      "name": "Week 2: Friday DP1",
+      "color": "#4A628A",
+      "start": "1:31b",
+      "end": "1:31b"
+    },
+    {
+      "name": "Week 2: Saturday DP1",
+      "color": "#4A628A",
+      "start": "8:5b",
+      "end": "8:6"
+    },
+    {
+      "name": "Week 3: Tuesday DP2",
+      "color": "#4A628A",
+      "start": "15:7",
+      "end": "15:8"
+    },
+    {
+      "name": "Week 3: Thursday DP2",
+      "color": "#4A628A",
+      "start": "4:7",
+      "end": "4:7"
+    },
+    {
+      "name": "Week 4: Sunday DP2",
+      "color": "#4A628A",
+      "start": "10:12",
+      "end": "10:12"
+    },
+    {
+      "name": "Week 4: Tuesday DP2",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "30:11",
+          "end": "30:11"
+        },
+        {
+          "start": "30:14",
+          "end": "30:14"
+        }
+      ]
+    },
+    {
+      "name": "Week 4: Wednesday MP",
+      "color": "#4A628A",
+      "start": "4:39",
+      "end": "4:40a"
+    },
+    {
+      "name": "Night Prayer: After EP1 on Sundays",
+      "color": "#4A628A",
+      "start": "6:4",
+      "end": "6:7"
     }
   ]
 }

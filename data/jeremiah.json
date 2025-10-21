@@ -491,6 +491,66 @@
           "end": "43:7"
         }
       ]
+    },
+    {
+      "name": "Week 3: Friday MP",
+      "color": "#5E4B81",
+      "start": "14:17",
+      "end": "14:21"
+    },
+    {
+      "name": "Week 1: Thursday MP",
+      "color": "#5E4B81",
+      "start": "31:10",
+      "end": "31:14"
+    },
+    {
+      "name": "Week 1: Tuesday DP1",
+      "color": "#4A628A",
+      "start": "17:7",
+      "end": "17:8"
+    },
+    {
+      "name": "Week 1: Saturday DP2",
+      "color": "#4A628A",
+      "start": "17:9",
+      "end": "17:10"
+    },
+    {
+      "name": "Week 2: Monday MP",
+      "color": "#4A628A",
+      "start": "15:16",
+      "end": "15:16"
+    },
+    {
+      "name": "Week 2: Monday DP1",
+      "color": "#4A628A",
+      "start": "31:33",
+      "end": "31:33"
+    },
+    {
+      "name": "Week 2: Monday DP2",
+      "color": "#4A628A",
+      "start": "32:40",
+      "end": "32:40"
+    },
+    {
+      "name": "Week 2: Saturday DP3",
+      "color": "#4A628A",
+      "start": "6:16a",
+      "end": "6:16a"
+    },
+    {
+      "name": "Week 3: Tuesday DP1",
+      "color": "#4A628A",
+      "start": "22:3",
+      "end": "22:3"
+    },
+    {
+      "name": "Night Prayer: Friday",
+      "color": "#4A628A",
+      "start": "14:9a",
+      "end": "14:9a"
     }
   ]
 }
