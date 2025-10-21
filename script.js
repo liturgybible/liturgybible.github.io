@@ -125,13 +125,16 @@ function renderSide(readings, container, isRightSided) {
     };
 
     let occupiedSlots = [];
+    const positionalReadings = [];
 
+    // --- Step 1: Calculate positions and slots for all readings ---
     readings.forEach(reading => {
         const originalSegments = reading.segments || [{ start: reading.start, end: reading.end }];
         if (!originalSegments[0].start) return;
 
         const allVersesOnPage = document.querySelectorAll(`.translation-text.active p[data-verse^="${currentChapterNum}:"]`);
         if (allVersesOnPage.length === 0) return;
+        
         const firstVerseOnPage = allVersesOnPage[0].dataset.verse;
         const lastVerseOnPage = allVersesOnPage[allVersesOnPage.length - 1].dataset.verse;
 
@@ -140,7 +143,6 @@ function renderSide(readings, container, isRightSided) {
             const segStart = parseVerse(segment.start);
             const segEnd = parseVerse(segment.end);
             if (currentChapterNum < segStart.chapter || currentChapterNum > segEnd.chapter) return;
-
             let drawStartVerse = segStart.chapter < currentChapterNum ? firstVerseOnPage : segment.start;
             let drawEndVerse = segEnd.chapter > currentChapterNum ? lastVerseOnPage : segment.end;
             segmentsToDraw.push({ start: drawStartVerse, end: drawEndVerse });
@@ -161,11 +163,31 @@ function renderSide(readings, container, isRightSided) {
             slotIndex++;
         }
         occupiedSlots.push({ start: totalStartPos, end: totalEndPos, slotIndex: slotIndex });
+        
+        positionalReadings.push({ reading, segmentsToDraw, totalStartPos, totalEndPos, slotIndex });
+    });
 
-        const startChapter = parseVerse(originalSegments[0].start).chapter;
-        const endChapter = parseVerse(originalSegments[originalSegments.length - 1].end).chapter;
+    // Sort by position to make finding the "next" reading easier
+    positionalReadings.sort((a, b) => a.totalStartPos - b.totalStartPos);
+
+    // --- Step 2: Render each reading with calculated max heights ---
+    positionalReadings.forEach((posReading, index) => {
+        const { reading, segmentsToDraw, totalStartPos, totalEndPos, slotIndex } = posReading;
+
+        let maxLabelHeight = 9999; 
+        
+        for (let i = index + 1; i < positionalReadings.length; i++) {
+            const nextReading = positionalReadings[i];
+            if (nextReading.slotIndex === slotIndex) {
+                maxLabelHeight = nextReading.totalStartPos - totalStartPos;
+                break;
+            }
+        }
+
+        const startChapter = parseVerse((reading.segments || [{ start: reading.start }])[0].start).chapter;
+        const endChapter = parseVerse((reading.segments || [{ end: reading.end }])[reading.segments ? reading.segments.length - 1 : 0].end).chapter;
+
         let labelText = reading.name;
-
         if (startChapter !== endChapter) {
             if (currentChapterNum === startChapter) {
                 labelText = `${reading.name} (cont...)`;
@@ -182,8 +204,10 @@ function renderSide(readings, container, isRightSided) {
             const endVerseEl = findElement(segment.end);
             if (!startVerseEl || !endVerseEl) return;
 
+            const containerTop = bibleTextContainer.offsetTop;
             const startPos = startVerseEl.offsetTop - containerTop;
             const endPos = endVerseEl.offsetTop + endVerseEl.offsetHeight - containerTop;
+            
             const bar = document.createElement('div');
             bar.style.top = `${startPos}px`;
             bar.style.height = `${endPos - startPos}px`;
@@ -193,8 +217,52 @@ function renderSide(readings, container, isRightSided) {
                 const label = document.createElement('span');
                 label.className = 'label';
                 label.textContent = labelText;
+                
+                label.style.maxHeight = `${maxLabelHeight - 8}px`;
+                bar.style.overflow = 'visible';
+                bar.style.zIndex = '5'; 
+                
                 bar.appendChild(label);
                 labelHasBeenShown = true;
+
+                bar.addEventListener('mouseenter', () => {
+                    label.style.maxHeight = 'none';
+                    label.style.writingMode = 'horizontal-tb';
+                    label.style.transform = 'none';
+                    label.style.whiteSpace = 'normal';
+                    label.style.overflow = 'visible';
+                    label.style.width = '200px';
+                    label.style.backgroundColor = '#fffff7'; // Light parchment
+                    label.style.border = `1px solid ${reading.color}`;
+                    label.style.padding = '5px 8px';
+                    label.style.borderRadius = '4px';
+                    label.style.boxShadow = '0 3px 10px rgba(0,0,0,0.2)';
+                    label.style.zIndex = '10';
+                    
+                    if (isRightSided) {
+                        label.style.left = '25px';
+                    } else {
+                        label.style.right = '25px';
+                    }
+                });
+
+                bar.addEventListener('mouseleave', () => {
+                    // Reset all styles
+                    label.style.maxHeight = `${maxLabelHeight - 8}px`;
+                    label.style.writingMode = '';
+                    label.style.transform = '';
+                    label.style.whiteSpace = '';
+                    label.style.overflow = '';
+                    label.style.width = '';
+                    label.style.backgroundColor = '';
+                    label.style.border = '';
+                    label.style.padding = '';
+                    label.style.borderRadius = '';
+                    label.style.boxShadow = '';
+                    label.style.zIndex = '';
+                    label.style.left = '';
+                    label.style.right = '';
+                });
             }
 
             if (isRightSided) {
