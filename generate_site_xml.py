@@ -156,7 +156,10 @@ def create_html_for_chapter(book_name, chapter_num, total_chapters, translations
 </head>
 <body data-book="{book_slug}" data-chapter="{chapter_num}">
     <header class="top-nav">
-        <a href="../index.html"><img src="../images/liturgy-Bible-horiz.png" alt="Liturgy Bible Logo" class="header-logo"></a>
+        <a href="../index.html">
+            <img src="../images/liturgy-Bible-horiz.png" alt="Liturgy Bible Logo" class="header-logo">
+            <img src="../images/lb.png" alt="Liturgy Bible Logo" class="header-logo-mobile">
+        </a>
         <div class="header-controls">
             <select id="translation-switcher">
                 {translation_options}

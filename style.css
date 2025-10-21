@@ -1,4 +1,5 @@
 @import url("https://cdn.uadigital.arizona.edu/lib/ua-brand-fonts/v1.0.1/milo.min.css");
+
 /*
 Milo: https://fontsinuse.com/uses/8924/schuyler-quentel-esv-bible
 UA info: https://brand.arizona.edu/how-add-milo-your-website
@@ -76,8 +77,14 @@ a:hover {
 }
 
 .header-logo {
-    height: 30px;
+    height: 25px;
     width: auto;
+    display: block; /* Explicitly set display */
+}
+
+/* Hide the mobile logo by default on desktop */
+.header-logo-mobile {
+    display: none;
 }
 
 .header-controls {
@@ -263,7 +270,8 @@ hr {
 
 /* --- MOBILE RESPONSIVE STYLES --- */
 
-@media (max-width: 1200px) {
+/*@media (max-width: 1200px) {*/
+@media (max-width: 800px) {
     /* Hide the annotation margins on smaller screens */
     .annotations-margin-left, .annotations-margin-right {
         display: none;
@@ -294,5 +302,13 @@ hr {
     .bottom-nav {
         padding: 0.5rem 1rem;
     }
-}
 
+    .header-logo {
+        display: none; /* Hide the desktop (horizontal) logo */
+    }
+    .header-logo-mobile {
+        display: block; /* Show the mobile (square) logo */
+        height: 30px; /* Adjust size as needed */
+        width: auto;
+    }
+}
