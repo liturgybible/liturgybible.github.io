@@ -226,13 +226,44 @@ a:hover {
     left: 2px;
 }
 
-/* ... (Other styles for Buttons, Legend, Footer, etc. are unchanged) ... */
-.legend-container {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
+/* Button */
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.button {
+    border-radius: 0.375em;
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 700;
+    height: 3.5em;
+    letter-spacing: 0.075em;
+    line-height: 3.5em;
+    padding: 0 2.25em;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-color: #7B2E2B;
+    color: #ffffff !important;
 }
+
+.button:hover {
+    border-radius: 0.375em;
+    background-color: #D4A09E;
+    box-shadow: 5px 8px 8px 0 rgba(0, 0, 0, 0.2), 5px 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-bottom: none;
+}
+
+/*Legend Container*/
+
+.legend-container {
+        display: flex;
+        justify-content: center;
+        gap: 2rem; /* Adjust space between columns */
+    }
 .legend-column ul {
+    /* make bullets invisible */
     list-style-type: none; 
     padding-left: 0;
     margin-top: 0.5em;
@@ -244,11 +275,15 @@ a:hover {
 .legend-column li {
     margin-bottom: 0.25em;
 }
+
 hr {
     border: 0;
     border-bottom: solid 1px rgba(210, 215, 217, 0.75);
     margin: 2em 0;
 }
+
+/* Footer */
+
 #footer .copyright {
     color: #9fa3a6;
     font-size: 0.9em;
