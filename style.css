@@ -210,7 +210,7 @@ a:hover {
     color: slategrey;
     line-height: 1.1;
     writing-mode: vertical-rl;
-    transform: rotate(180deg);
+    transform: rotate(360deg);
     white-space: nowrap;
     position: absolute;
     top: 4px;
