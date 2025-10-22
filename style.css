@@ -226,6 +226,11 @@ a:hover {
     left: 2px;
 }
 
+/* Verse parts on own line */
+span[data-verse-part] {
+  display: block;
+}
+
 /* Button */
 
 input[type="submit"],
