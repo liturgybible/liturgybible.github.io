@@ -39,6 +39,157 @@ function formatDisplayDate(date) {
     return formatted;
 }
 
+// --- Book Slug Mapping (Simplified for JS) ---
+// Add more mappings as needed, mirroring your Python script
+const BOOK_SLUG_MAP_JS = {
+    "genesis": "genesis", "exodus": "exodus", "leviticus": "leviticus", "numbers": "numbers", "deuteronomy": "deuteronomy",
+    "joshua": "joshua", "judges": "judges", "ruth": "ruth", "1 samuel": "1-samuel", "2 samuel": "2-samuel",
+    "1 kings": "1-kings", "2 kings": "2-kings", "1 chronicles": "1-chronicles", "2 chronicles": "2-chronicles",
+    "ezra": "ezra", "nehemiah": "nehemiah", "tobit": "tobit", "judith": "judith", "esther": "esther",
+    "1 maccabees": "1-maccabees", "2 maccabees": "2-maccabees", "job": "job", "psalm": "psalms", "proverbs": "proverbs",
+    "ecclesiastes": "ecclesiastes", "song of songs": "song-of-songs", "wisdom": "wisdom", "sirach": "sirach",
+    "isaiah": "isaiah", "jeremiah": "jeremiah", "lamentations": "lamentations", "baruch": "baruch", "ezekiel": "ezekiel",
+    "daniel": "daniel", "hosea": "hosea", "joel": "joel", "amos": "amos", "obadiah": "obadiah",
+    "jonah": "jonah", "micah": "micah", "nahum": "nahum", "habakkuk": "habakkuk", "zephaniah": "zephaniah",
+    "haggai": "haggai", "zechariah": "zechariah", "malachi": "malachi", "matthew": "matthew", "mark": "mark",
+    "luke": "luke", "john": "john", "acts": "acts", "romans": "romans", "1 corinthians": "1-corinthians",
+    "2 corinthians": "2-corinthians", "galatians": "galatians", "ephesians": "ephesians", "philippians": "philippians",
+    "colossians": "colossians", "1 thessalonians": "1-thessalonians", "2 thessalonians": "2-thessalonians",
+    "1 timothy": "1-timothy", "2 timothy": "2-timothy", "titus": "titus", "philemon": "philemon",
+    "hebrews": "hebrews", "james": "james", "1 peter": "1-peter", "2 peter": "2-peter",
+    "1 john": "1-john", "2 john": "2-john", "3 john": "3-john", "jude": "jude", "revelation": "revelation",
+    // Common Abbreviations
+    "ps": "psalms", "1 cor": "1-corinthians", "2 cor": "2-corinthians", "gal": "galatians", "eph": "ephesians",
+    "phil": "philippians", "col": "colossians", "1 thes": "1-thessalonians", "2 thes": "2-thessalonians",
+    "1 tm": "1-timothy", "2 tm": "2-timothy", "ti": "titus", "phlm": "philemon", "heb": "hebrews",
+    "jas": "james", "1 pt": "1-peter", "2 pt": "2-peter", "1 jn": "1-john", "2 jn": "2-john", "3 jn": "3-john",
+    "jud": "jude", "rv": "revelation"
+};
+const SORTED_BOOK_KEYS_JS = Object.keys(BOOK_SLUG_MAP_JS).sort((a, b) => b.length - a.length); // Sort descending by length
+
+/**
+ * --- Parses a full scripture reference string into book slug and ranges ---
+ * Handles complex references like "Gen 1:1-2:2" or "Ps 96:1-2, 11-12, 13".
+ * @param {string} refString - The scripture reference string.
+ * @returns {object|null} An object { bookSlug: string, ranges: array } or null if parsing fails.
+ */
+function parseFullReference(refString) {
+    if (!refString) return null;
+    const normalizedRef = refString.replace(/NABRE/i, '').replace(/[—–]/g, '-').trim(); // Normalize dashes
+
+    let bookSlug = null;
+    let restOfString = null;
+
+    // Find the book name/abbreviation in the string
+    for (const key of SORTED_BOOK_KEYS_JS) {
+        // Use regex word boundary to avoid partial matches within words
+        const pattern = new RegExp(`\\b${key}\\b`, 'i');
+        const match = normalizedRef.match(pattern);
+        if (match) {
+            const potentialRest = normalizedRef.substring(match.index + match[0].length).trim();
+            // Check if what follows starts with a digit (chapter number)
+            if (/^\d/.test(potentialRest)) {
+                bookSlug = BOOK_SLUG_MAP_JS[key.toLowerCase()]; // Get the slug from the matched key
+                restOfString = potentialRest;
+                break; // Found the best match
+            }
+        }
+    }
+
+    if (!bookSlug || restOfString === null) {
+        console.warn(`[parseFullReference] Could not find book in: "${refString}"`);
+        return null;
+    }
+
+    const ranges = [];
+    let lastChapter = null;
+    const parts = restOfString.split(/[,;]/);
+
+    for (const part of parts) {
+        const trimmedPart = part.trim();
+        if (!trimmedPart) continue;
+
+        let startChapter, startVerse, endChapter, endVerse;
+
+        try {
+            // Check for cross-chapter range first (e.g., 1:1-2:2)
+            const crossChapterMatch = trimmedPart.match(/^(\d+):(\d+[a-z]?)\s*-\s*(\d+):(\d+[a-z]?)$/);
+            if (crossChapterMatch) {
+                startChapter = parseInt(crossChapterMatch[1]);
+                startVerse = parseInt(crossChapterMatch[2]); // Ignore letters for range check
+                endChapter = parseInt(crossChapterMatch[3]);
+                endVerse = parseInt(crossChapterMatch[4]);
+                lastChapter = endChapter;
+            } else {
+                // Check for range within a chapter (e.g., 1:10-14 or 10-14)
+                const withinChapterRangeMatch = trimmedPart.match(/^(?:(\d+):)?(\d+[a-z]?)\s*-\s*(\d+[a-z]?)$/);
+                 if (withinChapterRangeMatch) {
+                    startChapter = withinChapterRangeMatch[1] ? parseInt(withinChapterRangeMatch[1]) : lastChapter;
+                    startVerse = parseInt(withinChapterRangeMatch[2]);
+                    endChapter = startChapter; // Range is within the same chapter
+                    endVerse = parseInt(withinChapterRangeMatch[3]);
+                    lastChapter = startChapter;
+                 } else {
+                     // Check for single verse (e.g., 1:5 or just 5)
+                     const singleVerseMatch = trimmedPart.match(/^(?:(\d+):)?(\d+[a-z]?)$/);
+                     if (singleVerseMatch) {
+                        startChapter = singleVerseMatch[1] ? parseInt(singleVerseMatch[1]) : lastChapter;
+                        startVerse = parseInt(singleVerseMatch[2]);
+                        endChapter = startChapter;
+                        endVerse = startVerse;
+                        lastChapter = startChapter;
+                     } else {
+                        console.warn(`[parseFullReference] Could not parse part: "${trimmedPart}" in "${refString}"`);
+                        continue; // Skip this part if unparseable
+                     }
+                 }
+            }
+            
+            if (startChapter !== null && startVerse !== null && endChapter !== null && endVerse !== null) {
+                 ranges.push({ startChapter, startVerse, endChapter, endVerse });
+            }
+
+        } catch (e) {
+            console.warn(`[parseFullReference] Error parsing part "${trimmedPart}" in "${refString}":`, e);
+        }
+    }
+
+    if (ranges.length === 0) return null;
+    return { bookSlug, ranges };
+}
+
+
+/**
+ * --- Checks if the current page chapter intersects with any of the day's readings ---
+ * @param {string} currentBookSlug - The slug of the book for the current page.
+ * @param {number} currentChapterNum - The chapter number for the current page.
+ * @param {object} todaysReadings - The readings data object for the current day.
+ * @returns {boolean} True if there is an intersection, false otherwise.
+ */
+function checkReadingIntersection(currentBookSlug, currentChapterNum, todaysReadings) {
+    if (!todaysReadings || !currentBookSlug || isNaN(currentChapterNum)) {
+        return false;
+    }
+
+    const readingKeys = ['reading_1', 'psalm', 'reading_2', 'allelulia', 'gospel'];
+
+    for (const key of readingKeys) {
+        const refString = todaysReadings[key];
+        if (refString) {
+            const parsedRef = parseFullReference(refString);
+            if (parsedRef && parsedRef.bookSlug === currentBookSlug) {
+                for (const range of parsedRef.ranges) {
+                    // Check if the current chapter falls within the range of this segment
+                    if (currentChapterNum >= range.startChapter && currentChapterNum <= range.endChapter) {
+                        return true; // Found an intersection
+                    }
+                }
+            }
+        }
+    }
+    return false; // No intersection found
+}
+
 
 /**
  * Creates and displays the daily readings popup.
@@ -48,9 +199,23 @@ function displayReadingsPopup(readingsData) {
     if (!readingsData) return;
 
     const body = document.body;
+    const isIndexPage = window.location.pathname.endsWith('index.html') || window.location.pathname === '/' || window.location.pathname.endsWith('/');
+    const isAboutPage = window.location.pathname.endsWith('about.html'); // Add about page check if you have one
+    const isChapterPage = window.location.pathname.includes('/bible/');
+    const currentBookSlug = body.dataset.book;
+    const currentChapterNum = parseInt(body.dataset.chapter, 10);
      // Ensure the date string from JSON is parsed correctly (assuming YYYY-MM-DD)
     const readingDate = new Date(readingsData.date + 'T00:00:00'); // Add time component to avoid timezone issues
 
+    // --- NEW LOGIC: Only show on chapter pages if relevant ---
+    if (isChapterPage) {
+        const intersects = checkReadingIntersection(currentBookSlug, currentChapterNum, readingsData);
+        if (!intersects) {
+            console.log("Current chapter page does not intersect with today's readings. Hiding popup.");
+            return; // Don't display the popup
+        }
+    }
+    // --- END NEW LOGIC ---
 
     let popupContent = '';
     const readingSequence = []; // To store the sequence of readings
@@ -76,7 +241,8 @@ function displayReadingsPopup(readingsData) {
     // --- Build Popup Content ---
     popupContent += `<div class="popup-header">`;
     popupContent += `<div>`; // Container for title and date
-    popupContent += `<h3>${readingsData.name || 'Daily Readings'}</h3>`;
+    popupContent += `<h4>${readingsData.name || 'Daily Readings'}</h4>`;
+    // Always show formatted date now
     popupContent += `<p class="popup-date">${formatDisplayDate(readingDate)}</p>`;
     popupContent += `</div>`;
     popupContent += `<button class="popup-close-btn">&times;</button>`;
@@ -85,9 +251,13 @@ function displayReadingsPopup(readingsData) {
     // --- Always show the full list ---
     popupContent += `<ul class="popup-reading-list">`;
     // Use the populated sequence to build the list
-    readingSequence.forEach(reading => {
-         popupContent += `<li><strong>${reading.label}:</strong> ${createLink(reading.ref, reading.link)}</li>`;
-    });
+    if (readingSequence.length > 0) {
+        readingSequence.forEach(reading => {
+             popupContent += `<li><strong>${reading.label}:</strong> ${createLink(reading.ref, reading.link)}</li>`;
+        });
+    } else {
+        popupContent += `<li>No readings available for this date.</li>`; // Fallback message
+    }
     popupContent += `</ul>`;
 
     // --- Create and Inject Popup ---
