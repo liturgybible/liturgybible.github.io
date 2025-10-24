@@ -46,6 +46,7 @@ a:hover {
     border-bottom: dotted 1px;
 }
 
+/* --- Top Navigation --- */
 .top-nav {
     position: fixed;
     top: 0;
@@ -111,6 +112,7 @@ a:hover {
     color: #7B2E2B;
 }
 
+/* --- Bottom Navigation --- */
 .bottom-nav {
     position: fixed;
     bottom: 0;
@@ -134,6 +136,8 @@ a:hover {
     font-weight: 500;
     border-radius: 4px;
     transition: background-color 0.2s ease-in-out;
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
 }
 
 .bottom-nav a:hover {
@@ -141,7 +145,7 @@ a:hover {
     border-bottom: none;
 }
 
-/* Layout */
+/* --- Layout --- */
 .bible-container {
     display: flex;
     justify-content: center;
@@ -187,7 +191,8 @@ a:hover {
 .annotation-bar-left, .annotation-bar-right {
     position: absolute;
     width: 20px;
-    z-index: -1;
+    z-index: 5; /* Lower than label hover */
+    overflow: visible; /* Needed for label extension */
 }
 
 .annotation-bar-left {
@@ -211,10 +216,11 @@ a:hover {
     line-height: 1.1;
     writing-mode: vertical-rl;
     transform: rotate(360deg);
+/*    transform: rotate(180deg); /* Correct rotation for vertical text */*/
     white-space: nowrap;
     position: absolute;
     top: 4px;
-    overflow: hidden;
+    overflow: hidden; /* Prevent text wrapping in vertical mode */
     text-overflow: ellipsis;
 }
 
@@ -269,7 +275,7 @@ button,
     }
 .legend-column ul {
     /* make bullets invisible */
-    list-style-type: none; 
+    list-style-type: none;
     padding-left: 0;
     margin-top: 0.5em;
 }
@@ -307,11 +313,142 @@ hr {
     text-decoration: none;
 }
 
+/* --- UPDATED Daily Readings Popup Styles --- */
+#daily-readings-popup {
+    position: fixed;
+    /* Place it above the bottom nav, centered horizontally */
+    bottom: 55px; /* Adjust vertical position (distance from bottom nav) */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    width: auto; /* Allow width to fit content */
+    max-width: 90%; /* Max width relative to viewport */
+    background-color: rgba(123, 46, 43, 0.9); /* Lighter, translucent red using rgba */
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow for floating effect */
+    z-index: 1001; /* Above bottom nav */
+    padding: 0.75rem 1.5rem;
+    box-sizing: border-box;
+    font-family: MiloWeb, sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+    border-radius: 12px; /* Large rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle white border */
+    backdrop-filter: blur(5px); /* Optional: blur background behind popup */
+    -webkit-backdrop-filter: blur(5px); /* Safari support */
+}
+
+.popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 0.5rem;
+}
+
+.popup-header h4 {
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.popup-header p {
+    margin: 0 0 0 1rem; /* Add space between title and date */
+    font-size: 0.9em;
+    opacity: 0.9;
+    white-space: nowrap; /* Prevent date from wrapping */
+}
+
+.popup-close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.8em;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0 0.2rem; /* Reduced padding */
+    margin-left: 0.5rem; /* Reduced margin */
+    opacity: 0.7;
+    transition: opacity 0.2s ease;
+}
+.popup-close-btn:hover {
+    opacity: 1;
+}
+
+.popup-reading-list {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+}
+
+.popup-reading-list li {
+    margin: 0;
+}
+
+.popup-reading-list li strong {
+    margin-right: 0.5em;
+    opacity: 0.9;
+    font-weight: 600;
+}
+
+.popup-reading-list a {
+    color: #F3EAE9;
+    text-decoration: underline;
+    border-bottom: none;
+    font-weight: 500;
+}
+.popup-reading-list a:hover {
+    color: white;
+    background: none;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.popup-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.3rem;
+}
+
+.popup-arrow {
+    color: #F3EAE9;
+    text-decoration: none;
+    font-size: 0.9em;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+    border: 1px solid transparent;
+    white-space: nowrap;
+}
+.popup-arrow:hover {
+     background-color: rgba(255, 255, 255, 0.15);
+     color: white;
+     border-bottom: none;
+     border-color: rgba(255, 255, 255, 0.3);
+}
+.popup-arrow.disabled {
+    opacity: 0.3;
+    pointer-events: none;
+    border-color: transparent;
+}
+.current-reading-label {
+    font-style: italic;
+    opacity: 0.8;
+    text-align: center;
+    flex-grow: 1;
+    margin: 0 0.5rem;
+}
+/* --- End Daily Readings Popup --- */
+
 
 /* --- MOBILE RESPONSIVE STYLES --- */
 
-/*@media (max-width: 1200px) {*/
-@media (max-width: 800px) {
+/* @media (max-width: 1200px) { */
+@media (max-width: 800px) { /* Adjusted breakpoint for better mobile layout */
     /* Hide the annotation margins on smaller screens */
     .annotations-margin-left, .annotations-margin-right {
         display: none;
@@ -320,9 +457,9 @@ hr {
     /* Allow body to fill the screen with less padding */
     body {
         max-width: 100%;
-        padding: 1rem; /* Reduce padding */
-        padding-top: 70px; /* Keep space for fixed headers */
-        padding-bottom: 70px;
+        padding: 0.75rem; /* Further reduce padding on mobile */
+        padding-top: 60px; /* Adjust for potentially smaller top nav */
+        padding-bottom: 80px; /* Adjust for bottom nav height */
     }
 
     /* Make the bible container a simple block, not a flex row */
@@ -337,10 +474,12 @@ hr {
 
     /* Adjust padding on nav bars for smaller screens */
     .top-nav {
-        padding: 0.5rem 1rem;
+        padding: 0.4rem 0.75rem;
+        min-height: 50px; /* Ensure space */
     }
     .bottom-nav {
-        padding: 0.5rem 1rem;
+        padding: 0.4rem 0.75rem;
+        min-height: 40px; /* Ensure space */
     }
 
     .header-logo {
@@ -348,7 +487,59 @@ hr {
     }
     .header-logo-mobile {
         display: block; /* Show the mobile (square) logo */
-        height: 30px; /* Adjust size as needed */
+        height: 25px; /* Slightly smaller logo */
         width: auto;
     }
+
+     /* Adjust header controls on mobile */
+    .header-controls {
+        gap: 0.5rem; /* Reduce gap */
+    }
+    #translation-switcher {
+        font-size: 0.8em;
+        padding: 0.2rem 0.4rem;
+    }
+    .header-chapter {
+        font-size: 1em; /* Smaller chapter title */
+    }
+
+
+    /* Adjust popup layout on mobile */
+    #daily-readings-popup {
+        bottom: 45px; /* Adjust if bottom nav height changed */
+        width: 95%; /* Take more width on mobile */
+        max-width: 95%;
+        padding: 0.5rem 1rem;
+        font-size: 0.8em;
+        border-radius: 8px; /* Slightly smaller radius */
+    }
+    .popup-header {
+        margin-bottom: 0.3rem;
+        padding-bottom: 0.3rem;
+    }
+    .popup-header h4 {
+        font-size: 1em;
+    }
+    .popup-reading-list {
+        gap: 0.2rem 1rem; /* Adjust gap */
+        flex-direction: column; /* Stack list items vertically */
+        align-items: flex-start;
+    }
+     .popup-nav {
+        padding-top: 0.1rem;
+    }
+    /* Make arrows smaller and text wrap */
+    .popup-arrow {
+        font-size: 0.8em;
+        padding: 0.2rem 0.4rem;
+        white-space: normal; /* Allow text wrapping */
+        text-align: center;
+        flex-basis: 35%; /* Give arrows some space */
+    }
+    .current-reading-label {
+        font-size: 0.9em;
+        flex-basis: auto; /* Allow label to shrink/grow */
+    }
+
 }
+

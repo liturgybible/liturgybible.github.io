@@ -12,13 +12,131 @@ function findElement(verseIdentifier) {
     return element;
 }
 
+/**
+ * Gets the current date in YYYY-MM-DD format based on the user's browser.
+ * @returns {string} The formatted date string.
+ */
+function getCurrentDateString() {
+    const today = new Date();
+    // Use the browser's current date directly
+    const year = today.getFullYear();
+    const month = String(today.getMonth() + 1).padStart(2, '0');
+    const day = String(today.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+}
+
+/**
+ * Formats a date object into "Fri. Oct 24, 2025" format.
+ * @param {Date} date - The date object to format.
+ * @returns {string} The formatted date string.
+ */
+function formatDisplayDate(date) {
+    const options = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' };
+    // Adjust formatting slightly (e.g., add period after short weekday)
+    let formatted = date.toLocaleDateString('en-US', options);
+    // Insert period after weekday abbreviation if needed (e.g., "Fri" -> "Fri.")
+    formatted = formatted.replace(/^(\w{3}),/, '$1.');
+    return formatted;
+}
+
+
+/**
+ * Creates and displays the daily readings popup.
+ * @param {object} readingsData - The readings data object for the current day.
+ */
+function displayReadingsPopup(readingsData) {
+    if (!readingsData) return;
+
+    const body = document.body;
+     // Ensure the date string from JSON is parsed correctly (assuming YYYY-MM-DD)
+    const readingDate = new Date(readingsData.date + 'T00:00:00'); // Add time component to avoid timezone issues
+
+
+    let popupContent = '';
+    const readingSequence = []; // To store the sequence of readings
+
+    // Helper to create link HTML - Adjusted link path
+    const createLink = (text, link) => link ? `<a href="../${link}">${text}</a>` : text;
+
+    // Helper to populate readingSequence array
+    const addReadingToSequence = (label, readingRef, readingLink) => {
+        // Only add if both ref and link exist
+        if (readingRef && readingLink) {
+             readingSequence.push({ ref: readingRef, link: readingLink, label: label});
+        }
+    };
+
+    // Populate the sequence first
+    addReadingToSequence('Reading 1', readingsData.reading_1, readingsData.reading_1_link);
+    addReadingToSequence('Psalm', readingsData.psalm, readingsData.psalm_link);
+    addReadingToSequence('Reading 2', readingsData.reading_2, readingsData.reading_2_link);
+    addReadingToSequence('Alleluia', readingsData.allelulia, readingsData.allelulia_link);
+    addReadingToSequence('Gospel', readingsData.gospel, readingsData.gospel_link);
+
+    // --- Build Popup Content ---
+    popupContent += `<div class="popup-header">`;
+    popupContent += `<div>`; // Container for title and date
+    popupContent += `<h4>${readingsData.name || 'Daily Readings'}</h4>`;
+    // Always show formatted date now
+    popupContent += `<p class="popup-date">${formatDisplayDate(readingDate)}</p>`;
+    popupContent += `</div>`;
+    popupContent += `<button class="popup-close-btn">&times;</button>`;
+    popupContent += `</div>`;
+
+    // --- Always show the full list ---
+    popupContent += `<ul class="popup-reading-list">`;
+    // Use the populated sequence to build the list
+    readingSequence.forEach(reading => {
+         popupContent += `<li><strong>${reading.label}:</strong> ${createLink(reading.ref, reading.link)}</li>`;
+    });
+    popupContent += `</ul>`;
+    // --- Removed chapter page specific logic (current reading ref, arrows) ---
+
+    // --- Create and Inject Popup ---
+    const popupDiv = document.createElement('div');
+    popupDiv.id = 'daily-readings-popup';
+    popupDiv.innerHTML = popupContent;
+    body.appendChild(popupDiv);
+
+    // Add close functionality
+    const closeButton = popupDiv.querySelector('.popup-close-btn');
+    if (closeButton) {
+        closeButton.addEventListener('click', () => {
+            popupDiv.style.display = 'none';
+        });
+    }
+}
+
+
 window.addEventListener('load', () => {
     const body = document.body;
     const book = body.dataset.book;
     const chapter = body.dataset.chapter;
 
+    // --- Daily Readings Popup Logic ---
+    const todayStr = getCurrentDateString();
+    fetch('../data_usccb/usccb-readings.json')
+        .then(response => {
+            if (!response.ok) throw new Error('Failed to load readings data');
+            return response.json();
+        })
+        .then(allReadings => {
+            const todaysReadings = allReadings.find(reading => reading.date === todayStr);
+            if (todaysReadings) {
+                displayReadingsPopup(todaysReadings);
+            } else {
+                console.log("No readings found for today:", todayStr);
+            }
+        })
+        .catch(error => {
+            console.error("Error fetching or processing daily readings:", error);
+        });
+    // --- End Daily Readings Popup Logic ---
+
+
     if (!book || !chapter) {
-        console.error("Book or chapter not defined in body data attributes.");
+        // Allow index page or other non-chapter pages to load without annotation logic
+        console.log("Not a chapter page, skipping annotation logic.");
         return;
     }
 
@@ -62,12 +180,13 @@ window.addEventListener('load', () => {
         const nextLink = document.querySelector('.bottom-nav a:last-of-type');
 
         if (event.key === 'ArrowLeft') {
-            if (prevLink && prevLink.href) {
-                prevLink.click();
+            // Check if the link exists and has a valid href before navigating
+            if (prevLink && prevLink.hasAttribute('href')) {
+                window.location.href = prevLink.href; // Use window.location for reliability
             }
         } else if (event.key === 'ArrowRight') {
-            if (nextLink && nextLink.href) {
-                nextLink.click();
+             if (nextLink && nextLink.hasAttribute('href')) {
+                window.location.href = nextLink.href; // Use window.location for reliability
             }
         }
     });
@@ -218,13 +337,14 @@ function renderSide(readings, container, isRightSided) {
                 label.className = 'label';
                 label.textContent = labelText;
                 
-                label.style.maxHeight = `${maxLabelHeight - 8}px`;
+                label.style.maxHeight = `${maxLabelHeight - 8}px`; 
                 bar.style.overflow = 'visible';
                 bar.style.zIndex = '5'; 
                 
                 bar.appendChild(label);
                 labelHasBeenShown = true;
 
+                // --- HOVER LOGIC (Attach to the first bar segment) ---
                 bar.addEventListener('mouseenter', () => {
                     label.style.maxHeight = 'none';
                     label.style.writingMode = 'horizontal-tb';
@@ -263,6 +383,7 @@ function renderSide(readings, container, isRightSided) {
                     label.style.left = '';
                     label.style.right = '';
                 });
+                // --- END HOVER LOGIC ---
             }
 
             if (isRightSided) {
