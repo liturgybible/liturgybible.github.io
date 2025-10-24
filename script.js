@@ -76,8 +76,7 @@ function displayReadingsPopup(readingsData) {
     // --- Build Popup Content ---
     popupContent += `<div class="popup-header">`;
     popupContent += `<div>`; // Container for title and date
-    popupContent += `<h4>${readingsData.name || 'Daily Readings'}</h4>`;
-    // Always show formatted date now
+    popupContent += `<h3>${readingsData.name || 'Daily Readings'}</h3>`;
     popupContent += `<p class="popup-date">${formatDisplayDate(readingDate)}</p>`;
     popupContent += `</div>`;
     popupContent += `<button class="popup-close-btn">&times;</button>`;
@@ -90,12 +89,20 @@ function displayReadingsPopup(readingsData) {
          popupContent += `<li><strong>${reading.label}:</strong> ${createLink(reading.ref, reading.link)}</li>`;
     });
     popupContent += `</ul>`;
-    // --- Removed chapter page specific logic (current reading ref, arrows) ---
 
     // --- Create and Inject Popup ---
     const popupDiv = document.createElement('div');
     popupDiv.id = 'daily-readings-popup';
     popupDiv.innerHTML = popupContent;
+
+    // --- Apply Liturgical Color Class ---
+    const liturgicalColor = (readingsData.color || '').toLowerCase(); // e.g., "white", "red"
+    if (liturgicalColor) {
+        popupDiv.classList.add(`liturgical-color-${liturgicalColor}`);
+    } else {
+         popupDiv.classList.add(`liturgical-color-default`); // Fallback class
+    }
+
     body.appendChild(popupDiv);
 
     // Add close functionality

@@ -7,6 +7,7 @@ UA info: http://uadigital.arizona.edu/ua-bootstrap/fonts.html
 */
 
 /*
+--- Theme Color Palette --- 
 | Color                       | Hex     | Description                                              |
 | --------------------------- | ------- | -------------------------------------------------------- |
 | **Red (Primary)**           | #7B2E2B | Primary Theme & Sunday Readings                          |
@@ -19,6 +20,28 @@ UA info: http://uadigital.arizona.edu/ua-bootstrap/fonts.html
 | **Marian Blue**             | #4A628A | DO: Other Readings                                       |
 | **Purple**                  | #5E4B81 | DO: Ordinary                                             |
 */
+
+
+/* --- Liturgical Color Palette --- */
+:root {
+    --color-white: #FFFFFF;
+    --color-red: #DA291C; /* Standard liturgical red */
+    --color-green: #00843D; /* Standard liturgical green */
+    --color-violet: #8E44AD; /* Standard liturgical violet */
+    --color-rose: #F4BFBE;
+    --color-black: #212121;
+    --color-gold: #FFD700; /* Alternate for white */
+    --color-silver: #C0C0C0; /* Alternate for white */
+    --muted-gold: #b58e31;
+    --muted-gold-darker: #8c6d2f;
+    --muted-gold-light-bg: rgba(201, 164, 65, 0.1);
+    --muted-gold-border: rgba(201, 164, 65, 0.4);
+    --muted-gold-border-stronger: rgba(201, 164, 65, 0.5);
+
+
+    --color-text-light: #f8f8f8;
+    --color-text-dark: #333333;
+}
 
 body {
     font-family: MiloSerifWeb, MiloWeb, Georgia, TimesNewRoman, "Times New Roman", Times, Baskerville, serif;
@@ -216,12 +239,12 @@ a:hover {
     line-height: 1.1;
     writing-mode: vertical-rl;
     transform: rotate(360deg);
-/*    transform: rotate(180deg); /* Correct rotation for vertical text */*/
     white-space: nowrap;
     position: absolute;
     top: 4px;
     overflow: hidden; /* Prevent text wrapping in vertical mode */
     text-overflow: ellipsis;
+    /* max-height is now set dynamically by script */
 }
 
 .annotation-bar-left .label {
@@ -313,17 +336,18 @@ hr {
     text-decoration: none;
 }
 
-/* --- UPDATED Daily Readings Popup Styles --- */
+/* --- Daily Readings Popup Styles --- */
+/* Use the ID selector for the main script */
 #daily-readings-popup {
     position: fixed;
-    /* Place it above the bottom nav, centered horizontally */
-    bottom: 55px; /* Adjust vertical position (distance from bottom nav) */
+    bottom: 55px;
     left: 50%;
-    transform: translateX(-50%); /* Center horizontally */
+    transform: translateX(-50%);
     width: auto; /* Allow width to fit content */
     max-width: 90%; /* Max width relative to viewport */
-    background-color: rgba(123, 46, 43, 0.9); /* Lighter, translucent red using rgba */
-    color: white;
+    /* Base style for frosted glass */
+    background-color: rgba(255, 255, 255, 0.1); /* Very transparent white base */
+    color: var(--color-text-dark); /* Default to dark text */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow for floating effect */
     z-index: 1001; /* Above bottom nav */
     padding: 0.75rem 1.5rem;
@@ -332,115 +356,226 @@ hr {
     font-weight: 400;
     font-size: 0.9em;
     border-radius: 12px; /* Large rounded corners */
-    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle white border */
-    backdrop-filter: blur(5px); /* Optional: blur background behind popup */
-    -webkit-backdrop-filter: blur(5px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Lighter border */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
 }
 
-.popup-header {
+/* Liturgical Color Themes */
+#daily-readings-popup.liturgical-color-white {
+    background-color: rgba(255, 255, 255, 0.85); /* Slightly less transparent white */
+    color: var(--color-text-dark);
+    border-color: var(--muted-gold-border-stronger); /* Subtle gold border */
+}
+#daily-readings-popup.liturgical-color-red {
+    background-color: rgba(218, 41, 28, 0.75); /* Red */
+    color: var(--color-text-light);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+#daily-readings-popup.liturgical-color-green {
+    background-color: rgba(0, 132, 61, 0.8); /* Green */
+    color: var(--color-text-light);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+#daily-readings-popup.liturgical-color-violet {
+    background-color: rgba(142, 68, 173, 0.8); /* Violet */
+    color: var(--color-text-light);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+#daily-readings-popup.liturgical-color-rose {
+    background-color: rgba(244, 191, 190, 0.85); /* Rose */
+    color: var(--color-text-dark);
+    border-color: rgba(123, 46, 43, 0.3); /* Dark red border */
+}
+#daily-readings-popup.liturgical-color-black {
+    background-color: rgba(33, 33, 33, 0.8); /* Black */
+    color: var(--color-text-light);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+#daily-readings-popup.liturgical-color-default { /* Fallback */
+     background-color: rgba(128, 128, 128, 0.8); /* Grey */
+     color: var(--color-text-light);
+     border-color: rgba(255, 255, 255, 0.3);
+}
+
+
+/* Adjust text & link colors based on theme */
+.liturgical-color-white .popup-header h4,
+.liturgical-color-white .popup-header p,
+.liturgical-color-white .popup-reading-list li,
+.liturgical-color-rose .popup-header h4,
+.liturgical-color-rose .popup-header p,
+.liturgical-color-rose .popup-reading-list li {
+    color: var(--color-text-dark);
+}
+/* Link color for White theme */
+.liturgical-color-white .popup-reading-list a {
+     color: var(--muted-gold);
+}
+/* Gold hover for White theme */
+.liturgical-color-white .popup-reading-list a:hover {
+    color: var(--muted-gold-darker);
+    background: var(--muted-gold-light-bg);
+}
+.liturgical-color-rose .popup-reading-list a {
+    color: #5E4B81; /* Use a contrast color, e.g., violet */
+}
+.liturgical-color-rose .popup-reading-list a:hover {
+    color: #401514; /* Darker contrast on hover */
+}
+.liturgical-color-white .popup-close-btn,
+.liturgical-color-rose .popup-close-btn {
+     color: var(--color-text-dark); /* Dark close button */
+}
+
+
+.liturgical-color-red .popup-header h4,
+.liturgical-color-red .popup-header p,
+.liturgical-color-red .popup-reading-list li,
+.liturgical-color-green .popup-header h4,
+.liturgical-color-green .popup-header p,
+.liturgical-color-green .popup-reading-list li,
+.liturgical-color-violet .popup-header h4,
+.liturgical-color-violet .popup-header p,
+.liturgical-color-violet .popup-reading-list li,
+.liturgical-color-black .popup-header h4,
+.liturgical-color-black .popup-header p,
+.liturgical-color-black .popup-reading-list li,
+.liturgical-color-default .popup-header h4,
+.liturgical-color-default .popup-header p,
+.liturgical-color-default .popup-reading-list li {
+    color: var(--color-text-light);
+}
+
+.liturgical-color-red .popup-reading-list a,
+.liturgical-color-red .popup-arrow,
+.liturgical-color-green .popup-reading-list a,
+.liturgical-color-green .popup-arrow,
+.liturgical-color-violet .popup-reading-list a,
+.liturgical-color-violet .popup-arrow,
+.liturgical-color-black .popup-reading-list a,
+.liturgical-color-black .popup-arrow,
+.liturgical-color-default .popup-reading-list a,
+.liturgical-color-default .popup-arrow {
+    color: rgba(255, 255, 255, 0.9); /* Lighter link color */
+}
+.liturgical-color-red .popup-reading-list a:hover,
+.liturgical-color-red .popup-arrow:hover,
+.liturgical-color-green .popup-reading-list a:hover,
+.liturgical-color-green .popup-arrow:hover,
+.liturgical-color-violet .popup-reading-list a:hover,
+.liturgical-color-violet .popup-arrow:hover,
+.liturgical-color-black .popup-reading-list a:hover,
+.liturgical-color-black .popup-arrow:hover,
+.liturgical-color-default .popup-reading-list a:hover,
+.liturgical-color-default .popup-arrow:hover {
+    color: white; /* Brighter on hover */
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.liturgical-color-red .popup-close-btn,
+.liturgical-color-green .popup-close-btn,
+.liturgical-color-violet .popup-close-btn,
+.liturgical-color-black .popup-close-btn,
+.liturgical-color-default .popup-close-btn {
+     color: var(--color-text-light); /* Light close button */
+}
+
+
+/* Header and List styling */
+#daily-readings-popup .popup-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 0.5rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Default light border */
     padding-bottom: 0.5rem;
+    gap: 1rem;
+}
+.liturgical-color-white .popup-header,
+.liturgical-color-rose .popup-header {
+     border-bottom-color: rgba(0, 0, 0, 0.2); /* Darker border for light themes */
+}
+/* Subtle gold border for white theme */
+.liturgical-color-white .popup-header {
+     border-bottom: 1px solid var(--muted-gold-border);
 }
 
-.popup-header h4 {
-    margin: 0;
+
+#daily-readings-popup .popup-header > div {
+    flex-grow: 1;
+}
+
+#daily-readings-popup .popup-header h4 {
+    margin: 0 0 0.2rem 0;
     font-size: 1.1em;
     font-weight: 700;
+    line-height: 1.2;
 }
 
-.popup-header p {
-    margin: 0 0 0 1rem; /* Add space between title and date */
+#daily-readings-popup .popup-header .popup-date {
+    margin: 0;
     font-size: 0.9em;
+    font-style: italic;
     opacity: 0.9;
-    white-space: nowrap; /* Prevent date from wrapping */
+    white-space: nowrap;
 }
 
-.popup-close-btn {
+#daily-readings-popup .popup-close-btn {
     background: none;
     border: none;
-    color: white;
     font-size: 1.8em;
-    line-height: 1;
+    line-height: 0.8;
     cursor: pointer;
-    padding: 0 0.2rem; /* Reduced padding */
-    margin-left: 0.5rem; /* Reduced margin */
+    padding: 0 0.2rem;
+    margin-left: 0.5rem;
     opacity: 0.7;
     transition: opacity 0.2s ease;
 }
-.popup-close-btn:hover {
+#daily-readings-popup .popup-close-btn:hover {
     opacity: 1;
 }
 
-.popup-reading-list {
+#daily-readings-popup .popup-current-reading {
+    font-style: italic;
+    font-size: 0.95em;
+    opacity: 0.9;
+    margin: 0.3rem 0 0.6rem 0;
+    text-align: center;
+}
+
+
+#daily-readings-popup .popup-reading-list {
     list-style: none;
     padding: 0;
     margin: 0.5rem 0 0 0;
     display: flex;
     flex-wrap: wrap;
+    white-space: nowrap;
     gap: 0.5rem 1.5rem;
 }
 
-.popup-reading-list li {
+#daily-readings-popup .popup-reading-list li {
     margin: 0;
 }
 
-.popup-reading-list li strong {
+#daily-readings-popup .popup-reading-list li strong {
     margin-right: 0.5em;
     opacity: 0.9;
     font-weight: 600;
 }
 
-.popup-reading-list a {
-    color: #F3EAE9;
+ /* Base link styles within popup */
+#daily-readings-popup a {
     text-decoration: underline;
     border-bottom: none;
-    font-weight: 500;
+    border-radius: 3px; /* Add slight rounding for hover effect */
+    padding: 0.1em 0.2em; /* Add slight padding for hover background */
+    margin: -0.1em -0.2em; /* Counteract padding */
 }
-.popup-reading-list a:hover {
-    color: white;
+ #daily-readings-popup a:hover {
     background: none;
     border-bottom: none;
     text-decoration: none;
-}
-
-.popup-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 0.3rem;
-}
-
-.popup-arrow {
-    color: #F3EAE9;
-    text-decoration: none;
-    font-size: 0.9em;
-    padding: 0.3rem 0.6rem;
-    border-radius: 4px;
-    transition: background-color 0.2s ease;
-    border: 1px solid transparent;
-    white-space: nowrap;
-}
-.popup-arrow:hover {
-     background-color: rgba(255, 255, 255, 0.15);
-     color: white;
-     border-bottom: none;
-     border-color: rgba(255, 255, 255, 0.3);
-}
-.popup-arrow.disabled {
-    opacity: 0.3;
-    pointer-events: none;
-    border-color: transparent;
-}
-.current-reading-label {
-    font-style: italic;
-    opacity: 0.8;
-    text-align: center;
-    flex-grow: 1;
-    margin: 0 0.5rem;
 }
 /* --- End Daily Readings Popup --- */
 
@@ -512,6 +647,8 @@ hr {
         padding: 0.5rem 1rem;
         font-size: 0.8em;
         border-radius: 8px; /* Slightly smaller radius */
+        backdrop-filter: blur(8px); /* Adjust blur slightly */
+         -webkit-backdrop-filter: blur(8px);
     }
     .popup-header {
         margin-bottom: 0.3rem;
@@ -520,25 +657,13 @@ hr {
     .popup-header h4 {
         font-size: 1em;
     }
+    .popup-header .popup-date {
+        font-size: 0.85em; /* Smaller date on mobile */
+    }
     .popup-reading-list {
         gap: 0.2rem 1rem; /* Adjust gap */
         flex-direction: column; /* Stack list items vertically */
         align-items: flex-start;
-    }
-     .popup-nav {
-        padding-top: 0.1rem;
-    }
-    /* Make arrows smaller and text wrap */
-    .popup-arrow {
-        font-size: 0.8em;
-        padding: 0.2rem 0.4rem;
-        white-space: normal; /* Allow text wrapping */
-        text-align: center;
-        flex-basis: 35%; /* Give arrows some space */
-    }
-    .current-reading-label {
-        font-size: 0.9em;
-        flex-basis: auto; /* Allow label to shrink/grow */
     }
 
 }
