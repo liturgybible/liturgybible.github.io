@@ -614,7 +614,7 @@ hr {
     body {
         max-width: 100%;
         padding: 0.75rem; /* Further reduce padding on mobile */
-        padding-top: 60px; /* Adjust for potentially smaller top nav */
+        padding-top: 85px; /* Adjust for potentially smaller top nav */
         padding-bottom: 80px; /* Adjust for bottom nav height */
     }
 
