@@ -340,7 +340,7 @@ hr {
 /* Use the ID selector for the main script */
 #daily-readings-popup {
     position: fixed;
-    bottom: 55px;
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
     width: auto; /* Allow width to fit content */
@@ -488,8 +488,8 @@ hr {
     align-items: flex-start;
     margin-bottom: 0.5rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Default light border */
-    padding-bottom: 0.5rem;
-    gap: 1rem;
+    padding-bottom: 0.0rem;
+    gap: 0rem;
 }
 .liturgical-color-white .popup-header,
 .liturgical-color-rose .popup-header {
@@ -641,7 +641,7 @@ hr {
 
     /* Adjust popup layout on mobile */
     #daily-readings-popup {
-        bottom: 45px; /* Adjust if bottom nav height changed */
+        bottom: 10px; /* Adjust if bottom nav height changed */
         width: 95%; /* Take more width on mobile */
         max-width: 95%;
         padding: 0.5rem 1rem;
