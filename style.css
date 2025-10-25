@@ -84,6 +84,7 @@ a:hover {
     align-items: center;
     padding: 0.5rem 1.5rem;
     box-sizing: border-box;
+    min-height: 50px; 
 }
 
 .top-nav a {
@@ -133,6 +134,26 @@ a:hover {
     padding: 0;
     font-size: 1.1rem;
     color: #7B2E2B;
+}
+
+/* --- Mobile Warning Banner --- */
+#mobile-warning-banner {
+    display: none; /* Hidden on desktop */
+    background-color: #fff3cd; /* Light warning yellow */
+    color: #856404; /* Darker yellow text */
+    padding: 0.5rem 1rem; /* Adjust padding */
+    border-bottom: 1px solid #ffeeba;
+    text-align: center;
+    font-size: 0.85em; /* Smaller text */
+    font-family: MiloWeb, sans-serif;
+    font-weight: 500;
+    position: fixed;
+    /* Position below the top nav */
+    top: 50px; /* Match the min-height of top-nav */
+    left: 0;
+    width: 100%;
+    z-index: 999; /* Below top-nav */
+    box-sizing: border-box;
 }
 
 /* --- Bottom Navigation --- */
@@ -664,6 +685,12 @@ hr {
         gap: 0.2rem 1rem; /* Adjust gap */
         flex-direction: column; /* Stack list items vertically */
         align-items: flex-start;
+    }
+
+    /* --- Show Mobile Warning Banner --- */
+    #mobile-warning-banner {
+        display: block; /* Show the banner only on mobile */
+        top: 50px; /* Ensure it's below the possibly smaller mobile top-nav */
     }
 
 }

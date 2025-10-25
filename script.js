@@ -207,7 +207,7 @@ function displayReadingsPopup(readingsData) {
      // Ensure the date string from JSON is parsed correctly (assuming YYYY-MM-DD)
     const readingDate = new Date(readingsData.date + 'T00:00:00'); // Add time component to avoid timezone issues
 
-    // --- NEW LOGIC: Only show on chapter pages if relevant ---
+    // --- Only show on chapter pages if relevant ---
     if (isChapterPage) {
         const intersects = checkReadingIntersection(currentBookSlug, currentChapterNum, readingsData);
         if (!intersects) {
@@ -215,7 +215,6 @@ function displayReadingsPopup(readingsData) {
             return; // Don't display the popup
         }
     }
-    // --- END NEW LOGIC ---
 
     let popupContent = '';
     const readingSequence = []; // To store the sequence of readings
@@ -309,6 +308,17 @@ window.addEventListener('load', () => {
             console.error("Error fetching or processing daily readings:", error);
         });
     // --- End Daily Readings Popup Logic ---
+
+    // --- Inject Mobile Warning Banner ---
+    const topNav = document.querySelector('.top-nav');
+    if (topNav) {
+        const warningBanner = document.createElement('div');
+        warningBanner.id = 'mobile-warning-banner';
+        warningBanner.innerHTML = 'View on larger screen to see liturgical annotations.';
+        // Insert the banner right after the top navigation bar
+        topNav.insertAdjacentElement('afterend', warningBanner);
+    }
+    // --- END NEW ---
 
 
     if (!book || !chapter) {
