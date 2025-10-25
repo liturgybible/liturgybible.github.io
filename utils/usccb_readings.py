@@ -55,8 +55,8 @@ WHITE = "White"
 RED = "Red"
 GREEN = "Green"
 VIOLET = "Violet"
-# Rose and Black are less common for daily readings, Gold/Silver are alternates
-# Define hex codes if needed later, for now just use names
+ROSE = "Rose"
+BLACK = "Black"
 
 # --- HELPER FUNCTIONS ---
 
@@ -214,9 +214,9 @@ def get_liturgical_color(target_date, day_name):
     # 4. Fallback/Default (Should ideally hit Ordinary Time Green)
     # Violet often used for Masses for the Dead if not specified
     if "Masses for the Dead" in day_name: return VIOLET # Or Black if preferred
-    
-    print(f"  -> Warning: Could not determine color for {target_date} - {day_name}. Defaulting to Green.")
-    return GREEN # Default to Green if no other rule applies
+     
+    # Default to Green if no other rule applies
+    return GREEN 
 
 
 def scrape_day(target_date):
@@ -273,11 +273,17 @@ def scrape_day(target_date):
         heading_text = heading_tag.get_text(strip=True)
 
         current_reading_type = None
-        if "Reading 1" in heading_text: current_reading_type = "reading_1"
-        elif "Responsorial Psalm" in heading_text: current_reading_type = "psalm"
-        elif "Reading 2" in heading_text: current_reading_type = "reading_2"
-        elif "Alleluia" in heading_text or "Gospel Accl" in heading_text: current_reading_type = "allelulia"
-        elif "Gospel" in heading_text: current_reading_type = "gospel"
+        # --- Use regex to match Reading 1/I and 2/II ---
+        if re.search(r'Reading\s+(1|I)\b', heading_text, re.IGNORECASE):
+            current_reading_type = "reading_1"
+        elif re.search(r'Responsorial\s+Psalm', heading_text, re.IGNORECASE):
+            current_reading_type = "psalm"
+        elif re.search(r'Reading\s+(2|II)\b', heading_text, re.IGNORECASE):
+            current_reading_type = "reading_2"
+        elif re.search(r'Alleluia|Gospel\s+Accl', heading_text, re.IGNORECASE):
+            current_reading_type = "allelulia"
+        elif re.search(r'Gospel\b', heading_text, re.IGNORECASE):
+            current_reading_type = "gospel"
 
         if not current_reading_type: continue 
 
