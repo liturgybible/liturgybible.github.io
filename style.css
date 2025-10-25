@@ -231,6 +231,12 @@ a:hover {
     flex-shrink: 0;
 }
 
+.annotation-bar-left:hover .label {
+    right: 25px; /* Position popup 25px from the right edge */
+    left: auto;
+    text-align: right; /* Align text to the right */
+}
+
 /* Annotation Bar Styling (Left & Right) */
 .annotation-bar-left, .annotation-bar-right {
     position: absolute;
