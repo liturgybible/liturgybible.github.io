@@ -617,7 +617,7 @@
       "end": "1:56"
     },
     {
-      "name": "OT, Week 12, Sat (resp. - note 2) [I, #376]",
+      "name": "OT, Week 12, Sat [I, #376]",
       "color": "#B35C58",
       "segments": [
         {
@@ -671,7 +671,7 @@
       "end": "1:79"
     },
     {
-      "name": "OT, Week 3, Sat (resp. - note 2) [I, #322]",
+      "name": "OT, Week 3, Sat [I, #322]",
       "color": "#B35C58",
       "segments": [
         {
@@ -689,7 +689,7 @@
       ]
     },
     {
-      "name": "OT, Week 29, Mon (resp. - note 2) [I, #473]",
+      "name": "OT, Week 29, Mon [I, #473]",
       "color": "#B35C58",
       "segments": [
         {
@@ -707,7 +707,7 @@
       ]
     },
     {
-      "name": "OT, Week 27, Thurs (resp. - note 2) [II, #464]",
+      "name": "OT, Week 27, Thurs [II, #464]",
       "color": "#B35C58",
       "segments": [
         {
@@ -735,18 +735,6 @@
       "color": "#B35C58",
       "start": "2:22",
       "end": "2:35"
-    },
-    {
-      "name": "Feb 2: Feast: Presentation of the Lord [I/II, #524]",
-      "color": "#C9A441",
-      "start": "2:22",
-      "end": "2:40"
-    },
-    {
-      "name": "Feb 2: Feast: Presentation of the Lord [I/II, #524] (short)",
-      "color": "#C9A441",
-      "start": "2:22",
-      "end": "2:32"
     },
     {
       "name": "Sept 15: Our Lady of Sorrows (Proper Gospel only; option 2) [I/II, #639]",

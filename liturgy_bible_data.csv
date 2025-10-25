@@ -632,7 +632,7 @@ Lectionary,Psalm,16th Sunday in Ordinary Time,"Ps 23:1-3a, 3b-4, 5, 6",Sunday Re
 Lectionary,Psalm,28th Sunday in Ordinary Time,"Ps 23:1-3a, 3b-4, 5, 6",Sunday Reading,142,A,“I shall live in the house of the Lord all the days of my life.”
 Lectionary,Psalm,Friday after 2nd Sun after Pentecost: Sacred Heart,"Ps 23:1-3a, 3b-4, 5, 6",Sunday Reading,172,C,“The Lord is my shepherd; there is nothing I shall want.”
 Lectionary,Psalm,Nov. 2: Commemoration of All Souls,"Ps 23:1-3a, 3b-4, 5, 6",Solemnities & Feasts,668,,"“The Lord is my shepherd; there is nothing I shall want.” 
- or “Though I walk in the valley of darkness, I fear no evil, for you are with me.”"
+or “Though I walk in the valley of darkness, I fear no evil, for you are with me.”"
 Lectionary,Psalm,4th Sunday of Advent,"Ps 24:1-2, 3-4, 5-6",Sunday Reading,10,A,“Let the Lord enter; he is the king of glory.”
 Lectionary,Psalm,Nov 1: All Saints,"Ps 24:1bc-2, 3-4ab, 5-6",Solemnities & Feasts,667,,"“Lord, this is the people that longs to see your face.”"
 Lectionary,Psalm,Feb 2: Presentation of the Lord,"Ps 24:7, 8, 9, 10",Solemnities & Feasts,524,,“Who is this king of glory? It is the Lord!”
@@ -641,10 +641,10 @@ Lectionary,Psalm,3rd Sunday in Ordinary Time,"Ps 25:4-5, 6-7, 8-9",Sunday Readin
 Lectionary,Psalm,26th Sunday in Ordinary Time,"Ps 25:4-5, 6-7, 8-9",Sunday Reading,136,A,"“Remember your mercies, O Lord.”"
 Lectionary,Psalm,1st Sunday of Advent,"Ps 25:4-5, 8-9, 10+14",Sunday Reading,3,C,"“To you, O Lord, I lift my soul.”"
 Lectionary,Psalm,Nov. 2: Commemoration of All Souls,"Ps 25:6+7b, 17-18, 20-21",Solemnities & Feasts,668,,"“To you, O Lord, I lift my soul.” 
- or ""No one who waits for you, O Lord, will ever be put to shame."""
+or ""No one who waits for you, O Lord, will ever be put to shame."""
 Lectionary,Psalm,7th Sunday of Easter (note 2),"Ps 27:1, 4, 7-8",Sunday Reading,59,A,“I believe that I shall see the good things of the Lord in the land of the living.” or “Alleluia.”
 Lectionary,Psalm,Nov. 2: Commemoration of All Souls,"Ps 27:1, 4, 7+8b+9a, 13-14",Solemnities & Feasts,668,,"“The Lord is my light and my salvation.” 
- or “I believe that I shall see the good things of the Lord in the land of the living.”"
+or “I believe that I shall see the good things of the Lord in the land of the living.”"
 Lectionary,Psalm,3rd Sunday in Ordinary Time,"Ps 27:1, 4, 13-14",Sunday Reading,67,A,“The Lord is my light and my salvation.”
 Lectionary,Psalm,2nd Sunday of Lent,"Ps 27:1, 7-8a, 8b-9, 13-14",Sunday Reading,27,C,“The Lord is my light and my salvation.”
 Lectionary,Psalm,Sunday after Epiphany: Baptism of the Lord,"Ps 29:1-2, 3-4, 3b+9b-10",Sunday Reading,21,ABC,“The Lord will bless his people with peace.”
@@ -1342,17 +1342,16 @@ Lectionary,Luke,"Advent, Dec. 21",Luke 1:39-45,Weekday Reading,197,I/II,
 Lectionary,Luke,Dec 12: Our Lady of Guadalupe (option 2),Luke 1:39-47,Solemnities & Feasts,,I/II,
 Lectionary,Luke,May 31: Visitation of the BVMary,Luke 1:39-56,Solemnities & Feasts,572,I/II,
 Lectionary,Luke,"Aug 15: Solemnity: Assumption of the BVMary, Day",Luke 1:39-56,Solemnities & Feasts,622,I/II,
-Lectionary,Luke,"OT, Week 12, Sat (resp. - note 2)","Luke 1:46-47, 48-49, 50+53, 54-55",Weekday Reading,376,I,
+Lectionary,Luke,"OT, Week 12, Sat","Luke 1:46-47, 48-49, 50+53, 54-55",Weekday Reading,376,I,
 Lectionary,Luke,"Advent, Dec. 22",Luke 1:46-56,Weekday Reading,198,I/II,
 Lectionary,Luke,"Advent, Dec. 23",Luke 1:57-66,Weekday Reading,199,I/II,
 Lectionary,Luke,"June 24: Solemnity: Nativity of St. John the Baptist, Day","Luke 1:57-66, 80",Solemnities & Feasts,587,I/II,
 Lectionary,Luke,"Advent, Dec. 24 (morning Mass)",Luke 1:67-79,Weekday Reading,200,I/II,
-Lectionary,Luke,"OT, Week 3, Sat (resp. - note 2)","Luke 1:69-70, 71-72, 73-75",Weekday Reading,322,I,
-Lectionary,Luke,"OT, Week 29, Mon (resp. - note 2)","Luke 1:69-70, 71-72, 73-75",Weekday Reading,473,I,
-Lectionary,Luke,"OT, Week 27, Thurs (resp. - note 2)","Luke 1:69-70, 71-72, 73-75",Weekday Reading,464,II,
+Lectionary,Luke,"OT, Week 3, Sat","Luke 1:69-70, 71-72, 73-75",Weekday Reading,322,I,
+Lectionary,Luke,"OT, Week 29, Mon","Luke 1:69-70, 71-72, 73-75",Weekday Reading,473,I,
+Lectionary,Luke,"OT, Week 27, Thurs","Luke 1:69-70, 71-72, 73-75",Weekday Reading,464,II,
 Lectionary,Luke,Jan 3: Most Holy Name of Jesus,Luke 2:21-24,Solemnities & Feasts,,I/II,
 Lectionary,Luke,"5th Day in Xmas Octave, Dec. 29",Luke 2:22-35,Weekday Reading,202,I/II,
-Lectionary,Luke,Feb 2: Feast: Presentation of the Lord,Luke 2:22-40 or 2:22-32,Solemnities & Feasts,524,I/II,
 Lectionary,Luke,Sept 15: Our Lady of Sorrows (Proper Gospel only; option 2),Luke 2:33-35,Solemnities & Feasts,639,I/II,
 Lectionary,Luke,"6th Day in Xmas Octave, Dec. 30",Luke 2:36-40,Weekday Reading,203,I/II,
 Lectionary,Luke,Sat >2nd Sun >Pentecost: Immaculate Heart of BVMary (Proper Gospel only),Luke 2:41-51,Solemnities & Feasts,573,I/II,
@@ -2919,8 +2918,8 @@ Divine Office,#N/A,Week 4: Tuesday MP,Ps 101,LOTH: Psalms,,,Avowal of a good rul
 Divine Office,#N/A,Week 4: Tuesday OR,Ps 102 (I&II&III),LOTH: Psalms,,,The longings and prayers of an exile
 Divine Office,#N/A,Week 4: Wednesday OR,Ps 103 (I&II&III),LOTH: Psalms,,,Praise for God's tender compassion
 Divine Office,#N/A,Week 2: Sunday OR,Ps 104 (I&II&III),LOTH: Psalms,,,Hymn to God the Creator
-Divine Office,#N/A,"Week 1: Saturday OR  (only in Advent, Christmas, Lent, Easter)",Ps 105 (I&II&III),LOTH: Psalms,,,The Lord is faithful to his promises
-Divine Office,#N/A,"Week 2: Saturday OR  (only in Advent, Christmas, Lent, Easter)",Ps 106 (I&II&III),LOTH: Psalms,,,The goodness of the Lord; the faithlessness of his people
+Divine Office,#N/A,"Week 1: Saturday OR (only in Advent, Christmas, Lent, Easter)",Ps 105 (I&II&III),LOTH: Psalms,,,The Lord is faithful to his promises
+Divine Office,#N/A,"Week 2: Saturday OR (only in Advent, Christmas, Lent, Easter)",Ps 106 (I&II&III),LOTH: Psalms,,,The goodness of the Lord; the faithlessness of his people
 Divine Office,#N/A,Week 3: Saturday OR,Ps 107 (I&II&III),LOTH: Psalms,,,Thanksgiving for deliverance
 Divine Office,#N/A,Week 4: Wednesday MP,Ps 108,LOTH: Psalms,,,Praise of God and a plea for help
 Divine Office,Psalm,"Weeks 1,2,3,4: Sunday EP2","Ps 110:1-5, 7",LOTH: Psalms,,,"The Messiah, king and priest"
@@ -2970,13 +2969,13 @@ Divine Office,#N/A,Week 4: Sunday EP1 & Night Prayer: Wednesday,Ps 130,LOTH: Psa
 Divine Office,#N/A,Week 3: Tuesday EP,Ps 131,LOTH: Psalms,,,Childlike trust in God
 Divine Office,#N/A,Week 1: Saturday OR (only in Ordinary Time),Ps 131,LOTH: Psalms,,,Childlike trust in God
 Divine Office,#N/A,Week 3: Thursday EP,Ps 132 (I&II),LOTH: Psalms,,,God's promises to the house of David
-Divine Office,#N/A,Week 1: Saturday OR  (only in Ordinary Time),Ps 132 (I&II),LOTH: Psalms,,,Divine promise to the house of David
+Divine Office,#N/A,Week 1: Saturday OR (only in Ordinary Time),Ps 132 (I&II),LOTH: Psalms,,,Divine promise to the house of David
 Divine Office,#N/A,Week 4: Friday DP,Ps 133,LOTH: Psalms,,,Joy when hearts are united in love
 Divine Office,#N/A,Night Prayer: after EP-I on Sun,Ps 134,LOTH: Psalms,,,Evening prayer in the temple
 Divine Office,#N/A,Week 3: Friday EP,Ps 135 (I&II),LOTH: Psalms,,,Praise for the wonderful things God does for us
 Divine Office,Psalm,Week 4: Monday MP,Ps 135:1-12,LOTH: Psalms,,,Praise for the wonderful things God does for us
 Divine Office,#N/A,Week 4: Monday EP,Ps 136 (I&II),LOTH: Psalms,,,Easter hymn
-Divine Office,#N/A,Week 2: Saturday OR  (only in Ordinary Time),Ps 136 (I&II&III),LOTH: Psalms,,,Paschal hymn
+Divine Office,#N/A,Week 2: Saturday OR (only in Ordinary Time),Ps 136 (I&II&III),LOTH: Psalms,,,Paschal hymn
 Divine Office,Psalm,Week 4: Tuesday EP,Ps 137:1-6,LOTH: Psalms,,,By the rivers of Babylon
 Divine Office,#N/A,Week 4: Tuesday EP,Ps 138,LOTH: Psalms,,,Thanksgiving
 Divine Office,Psalm,Week 4: Wednesday EP,"Ps 139:1-18, 23-24 (I&II)",LOTH: Psalms,,,God sees all that is
