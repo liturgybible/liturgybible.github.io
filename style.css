@@ -211,6 +211,31 @@ a:hover {
     display: block;
 }
 
+/* --- Daily Reading Highlight Style --- */
+
+/* This ensures the highlight blocks are positioned correctly inside the text container */
+.bible-text {
+    /* ... existing styles like max-width, text-align ... */
+    position: relative; 
+}
+
+/* This lifts the verse text above the highlight blocks */
+.bible-text p,
+span[data-verse-part] {
+    position: relative; 
+    z-index: 2; 
+    background-color: transparent; /* Ensures highlight block is visible */
+}
+
+.daily-reading-highlight-block {
+    position: absolute;
+    background-color: lightgray;
+    z-index: 1; /* Sits behind the text (z-index: 2) */
+    border-radius: 4px;
+    left: -5px;
+    right: -5px;
+}
+
 .bible-text p {
     margin: 0 0 1rem 0;
 }

@@ -40,7 +40,6 @@ function formatDisplayDate(date) {
 }
 
 // --- Book Slug Mapping (Simplified for JS) ---
-// Add more mappings as needed, mirroring your Python script
 const BOOK_SLUG_MAP_JS = {
     "genesis": "genesis", "exodus": "exodus", "leviticus": "leviticus", "numbers": "numbers", "deuteronomy": "deuteronomy",
     "joshua": "joshua", "judges": "judges", "ruth": "ruth", "1 samuel": "1-samuel", "2 samuel": "2-samuel",
@@ -69,7 +68,6 @@ const SORTED_BOOK_KEYS_JS = Object.keys(BOOK_SLUG_MAP_JS).sort((a, b) => b.lengt
 
 /**
  * --- Parses a full scripture reference string into book slug and ranges ---
- * Handles complex references like "Gen 1:1-2:2" or "Ps 96:1-2, 11-12, 13".
  * @param {string} refString - The scripture reference string.
  * @returns {object|null} An object { bookSlug: string, ranges: array } or null if parsing fails.
  */
@@ -80,18 +78,15 @@ function parseFullReference(refString) {
     let bookSlug = null;
     let restOfString = null;
 
-    // Find the book name/abbreviation in the string
     for (const key of SORTED_BOOK_KEYS_JS) {
-        // Use regex word boundary to avoid partial matches within words
         const pattern = new RegExp(`\\b${key}\\b`, 'i');
         const match = normalizedRef.match(pattern);
         if (match) {
             const potentialRest = normalizedRef.substring(match.index + match[0].length).trim();
-            // Check if what follows starts with a digit (chapter number)
             if (/^\d/.test(potentialRest)) {
-                bookSlug = BOOK_SLUG_MAP_JS[key.toLowerCase()]; // Get the slug from the matched key
+                bookSlug = BOOK_SLUG_MAP_JS[key.toLowerCase()]; 
                 restOfString = potentialRest;
-                break; // Found the best match
+                break; 
             }
         }
     }
@@ -109,44 +104,48 @@ function parseFullReference(refString) {
         const trimmedPart = part.trim();
         if (!trimmedPart) continue;
 
-        let startChapter, startVerse, endChapter, endVerse;
+        let startChapter, startVerseStr, endChapter, endVerseStr;
 
         try {
-            // Check for cross-chapter range first (e.g., 1:1-2:2)
             const crossChapterMatch = trimmedPart.match(/^(\d+):(\d+[a-z]?)\s*-\s*(\d+):(\d+[a-z]?)$/);
             if (crossChapterMatch) {
                 startChapter = parseInt(crossChapterMatch[1]);
-                startVerse = parseInt(crossChapterMatch[2]); // Ignore letters for range check
+                startVerseStr = crossChapterMatch[2];
                 endChapter = parseInt(crossChapterMatch[3]);
-                endVerse = parseInt(crossChapterMatch[4]);
+                endVerseStr = crossChapterMatch[4];
                 lastChapter = endChapter;
             } else {
-                // Check for range within a chapter (e.g., 1:10-14 or 10-14)
                 const withinChapterRangeMatch = trimmedPart.match(/^(?:(\d+):)?(\d+[a-z]?)\s*-\s*(\d+[a-z]?)$/);
                  if (withinChapterRangeMatch) {
                     startChapter = withinChapterRangeMatch[1] ? parseInt(withinChapterRangeMatch[1]) : lastChapter;
-                    startVerse = parseInt(withinChapterRangeMatch[2]);
-                    endChapter = startChapter; // Range is within the same chapter
-                    endVerse = parseInt(withinChapterRangeMatch[3]);
+                    startVerseStr = withinChapterRangeMatch[2];
+                    endChapter = startChapter; 
+                    endVerseStr = withinChapterRangeMatch[3];
                     lastChapter = startChapter;
                  } else {
-                     // Check for single verse (e.g., 1:5 or just 5)
                      const singleVerseMatch = trimmedPart.match(/^(?:(\d+):)?(\d+[a-z]?)$/);
                      if (singleVerseMatch) {
                         startChapter = singleVerseMatch[1] ? parseInt(singleVerseMatch[1]) : lastChapter;
-                        startVerse = parseInt(singleVerseMatch[2]);
+                        startVerseStr = singleVerseMatch[2];
                         endChapter = startChapter;
-                        endVerse = startVerse;
+                        endVerseStr = startVerseStr; // Start and end are the same
                         lastChapter = startChapter;
                      } else {
                         console.warn(`[parseFullReference] Could not parse part: "${trimmedPart}" in "${refString}"`);
-                        continue; // Skip this part if unparseable
+                        continue; 
                      }
                  }
             }
             
-            if (startChapter !== null && startVerse !== null && endChapter !== null && endVerse !== null) {
-                 ranges.push({ startChapter, startVerse, endChapter, endVerse });
+            if (startChapter && startVerseStr && endChapter && endVerseStr) {
+                 ranges.push({ 
+                     startChapter: startChapter, 
+                     startVerse: parseInt(startVerseStr), 
+                     startPart: (startVerseStr.match(/[a-z]/) || [''])[0],
+                     endChapter: endChapter, 
+                     endVerse: parseInt(endVerseStr),
+                     endPart: (endVerseStr.match(/[a-z]/) || [''])[0]
+                 });
             }
 
         } catch (e) {
@@ -179,7 +178,6 @@ function checkReadingIntersection(currentBookSlug, currentChapterNum, todaysRead
             const parsedRef = parseFullReference(refString);
             if (parsedRef && parsedRef.bookSlug === currentBookSlug) {
                 for (const range of parsedRef.ranges) {
-                    // Check if the current chapter falls within the range of this segment
                     if (currentChapterNum >= range.startChapter && currentChapterNum <= range.endChapter) {
                         return true; // Found an intersection
                     }
@@ -200,31 +198,26 @@ function displayReadingsPopup(readingsData) {
 
     const body = document.body;
     const isIndexPage = window.location.pathname.endsWith('index.html') || window.location.pathname === '/' || window.location.pathname.endsWith('/');
-    const isAboutPage = window.location.pathname.endsWith('about.html'); // Add about page check if you have one
+    const isAboutPage = window.location.pathname.endsWith('about.html');
     const isChapterPage = window.location.pathname.includes('/bible/');
     const currentBookSlug = body.dataset.book;
     const currentChapterNum = parseInt(body.dataset.chapter, 10);
-     // Ensure the date string from JSON is parsed correctly (assuming YYYY-MM-DD)
-    const readingDate = new Date(readingsData.date + 'T00:00:00'); // Add time component to avoid timezone issues
+    const readingDate = new Date(readingsData.date + 'T00:00:00');
 
-    // --- Only show on chapter pages if relevant ---
     if (isChapterPage) {
         const intersects = checkReadingIntersection(currentBookSlug, currentChapterNum, readingsData);
         if (!intersects) {
             console.log("Current chapter page does not intersect with today's readings. Hiding popup.");
-            return; // Don't display the popup
+            return; 
         }
     }
 
     let popupContent = '';
-    const readingSequence = []; // To store the sequence of readings
+    const readingSequence = []; 
 
-    // Helper to create link HTML - Adjusted link path
     const createLink = (text, link) => link ? `<a href="../${link}">${text}</a>` : text;
 
-    // Helper to populate readingSequence array
     const addReadingToSequence = (label, readingRef, readingLink) => {
-        // Only add if both ref and link exist
         if (readingRef && readingLink) {
              readingSequence.push({ ref: readingRef, link: readingLink, label: label});
         }
@@ -239,23 +232,20 @@ function displayReadingsPopup(readingsData) {
 
     // --- Build Popup Content ---
     popupContent += `<div class="popup-header">`;
-    popupContent += `<div>`; // Container for title and date
+    popupContent += `<div>`; 
     popupContent += `<h4>${readingsData.name || 'Daily Readings'}</h4>`;
-    // Always show formatted date now
     popupContent += `<p class="popup-date">${formatDisplayDate(readingDate)}</p>`;
     popupContent += `</div>`;
     popupContent += `<button class="popup-close-btn">&times;</button>`;
     popupContent += `</div>`;
 
-    // --- Always show the full list ---
     popupContent += `<ul class="popup-reading-list">`;
-    // Use the populated sequence to build the list
     if (readingSequence.length > 0) {
         readingSequence.forEach(reading => {
              popupContent += `<li><strong>${reading.label}:</strong> ${createLink(reading.ref, reading.link)}</li>`;
         });
     } else {
-        popupContent += `<li>No readings available for this date.</li>`; // Fallback message
+        popupContent += `<li>No readings available for this date.</li>`; 
     }
     popupContent += `</ul>`;
 
@@ -264,17 +254,15 @@ function displayReadingsPopup(readingsData) {
     popupDiv.id = 'daily-readings-popup';
     popupDiv.innerHTML = popupContent;
 
-    // --- Apply Liturgical Color Class ---
-    const liturgicalColor = (readingsData.color || '').toLowerCase(); // e.g., "white", "red"
+    const liturgicalColor = (readingsData.color || '').toLowerCase(); 
     if (liturgicalColor) {
         popupDiv.classList.add(`liturgical-color-${liturgicalColor}`);
     } else {
-         popupDiv.classList.add(`liturgical-color-default`); // Fallback class
+         popupDiv.classList.add(`liturgical-color-default`); 
     }
 
     body.appendChild(popupDiv);
 
-    // Add close functionality
     const closeButton = popupDiv.querySelector('.popup-close-btn');
     if (closeButton) {
         closeButton.addEventListener('click', () => {
@@ -283,11 +271,104 @@ function displayReadingsPopup(readingsData) {
     }
 }
 
+/**
+ * --- UPDATED: Highlights verses by drawing a continuous block ---
+ * @param {object} todaysReadings - The readings data object for the current day.
+ */
+function highlightDailyReadings(todaysReadings) {
+    const bibleTextContainer = document.querySelector('.bible-text');
+    
+    // 1. Clear any existing highlights
+    document.querySelectorAll('.daily-reading-highlight-block').forEach(el => {
+        el.remove();
+    });
 
+    const body = document.body;
+    const currentBookSlug = body.dataset.book;
+    const currentChapterNum = parseInt(body.dataset.chapter, 10);
+
+    if (!todaysReadings || !currentBookSlug || isNaN(currentChapterNum) || !bibleTextContainer) {
+        return; // Not a chapter page or no data
+    }
+
+    // 2. Build a list of applicable ranges for this specific page
+    const applicableRanges = [];
+    const readingKeys = ['reading_1', 'psalm', 'reading_2', 'allelulia', 'gospel'];
+    
+    for (const key of readingKeys) {
+        const refString = todaysReadings[key];
+        if (refString) {
+            const parsedRef = parseFullReference(refString);
+            if (parsedRef && parsedRef.bookSlug === currentBookSlug) {
+                for (const range of parsedRef.ranges) {
+                    if (currentChapterNum >= range.startChapter && currentChapterNum <= range.endChapter) {
+                        applicableRanges.push(range);
+                    }
+                }
+            }
+        }
+    }
+
+    if (applicableRanges.length === 0) {
+        return; // No readings for this chapter today
+    }
+    
+    // 3. Find all verse elements on the page (for calculations)
+    const allVersesOnPage = document.querySelectorAll(`.translation-text.active p[data-verse^="${currentChapterNum}:"], .translation-text.active span[data-verse-part^="${currentChapterNum}:"]`);
+    if (allVersesOnPage.length === 0) return;
+    
+    const firstVerseOnPage = allVersesOnPage[0].dataset.verse || allVersesOnPage[0].dataset.versePart;
+    const lastVerseOnPage = allVersesOnPage[allVersesOnPage.length - 1].dataset.verse || allVersesOnPage[allVersesOnPage.length - 1].dataset.versePart;
+
+    // 4. Iterate through ranges and draw highlight blocks
+    applicableRanges.forEach(range => {
+        const { startChapter, startVerse, startPart, endChapter, endVerse, endPart } = range;
+
+        // Determine the start and end element IDs for this specific page
+        let startID, endID;
+
+        if (startChapter < currentChapterNum) {
+            startID = firstVerseOnPage; // Reading starts before this chapter
+        } else {
+            startID = `${startChapter}:${startVerse}${startPart}`;
+        }
+        
+        if (endChapter > currentChapterNum) {
+            endID = lastVerseOnPage; // Reading ends after this chapter
+        } else {
+            endID = `${endChapter}:${endVerse}${endPart}`;
+        }
+
+        const startEl = findElement(startID);
+        const endEl = findElement(endID);
+
+        if (startEl && endEl) {
+            // --- MODIFICATION HERE ---
+            const padding = 4; // 4px padding
+            // Measure positions relative to the bibleTextContainer
+            const startPos = startEl.offsetTop - padding; // Move up by 4px
+            const endPos = endEl.offsetTop + endEl.offsetHeight + padding; // Move down by 4px
+            const height = endPos - startPos; // Recalculate height
+            // --- END MODIFICATION ---
+
+            const highlightBlock = document.createElement('div');
+            highlightBlock.className = 'daily-reading-highlight-block';
+            highlightBlock.style.top = startPos + 'px';
+            highlightBlock.style.height = height + 'px';
+            
+            bibleTextContainer.appendChild(highlightBlock);
+        }
+    });
+}
+
+
+// --- MAIN SCRIPT EXECUTION ON LOAD ---
 window.addEventListener('load', () => {
     const body = document.body;
     const book = body.dataset.book;
     const chapter = body.dataset.chapter;
+    
+    let todaysReadingsData = null; // Store today's readings to pass to other functions
 
     // --- Daily Readings Popup Logic ---
     const todayStr = getCurrentDateString();
@@ -297,9 +378,13 @@ window.addEventListener('load', () => {
             return response.json();
         })
         .then(allReadings => {
-            const todaysReadings = allReadings.find(reading => reading.date === todayStr);
-            if (todaysReadings) {
-                displayReadingsPopup(todaysReadings);
+            todaysReadingsData = allReadings.find(reading => reading.date === todayStr);
+            if (todaysReadingsData) {
+                displayReadingsPopup(todaysReadingsData);
+                // Also highlight readings on load
+                if (book && chapter) {
+                    highlightDailyReadings(todaysReadingsData);
+                }
             } else {
                 console.log("No readings found for today:", todayStr);
             }
@@ -309,20 +394,16 @@ window.addEventListener('load', () => {
         });
     // --- End Daily Readings Popup Logic ---
 
-    // --- Inject Mobile Warning Banner ---
+    // --- Mobile Warning Banner ---
     const topNav = document.querySelector('.top-nav');
     if (topNav) {
         const warningBanner = document.createElement('div');
         warningBanner.id = 'mobile-warning-banner';
-        warningBanner.innerHTML = 'View on larger screen to see liturgical annotations.';
-        // Insert the banner right after the top navigation bar
+        warningBanner.innerHTML = 'View on wider screen to see liturgical annotations.';
         topNav.insertAdjacentElement('afterend', warningBanner);
     }
-    // --- END NEW ---
-
 
     if (!book || !chapter) {
-        // Allow index page or other non-chapter pages to load without annotation logic
         console.log("Not a chapter page, skipping annotation logic.");
         return;
     }
@@ -330,18 +411,20 @@ window.addEventListener('load', () => {
     let lectionaryReadingsData = [];
     let divineOfficeData = [];
 
-    const redraw = () => drawAnnotations(lectionaryReadingsData, divineOfficeData);
+    const redraw = () => {
+        drawAnnotations(lectionaryReadingsData, divineOfficeData);
+        // Also re-highlight readings when redrawing (e.g., on translation switch)
+        highlightDailyReadings(todaysReadingsData);
+    };
 
     // --- Translation Switcher Logic ---
     const switcher = document.getElementById('translation-switcher');
     if (switcher) {
-        // Set initial value from localStorage if it exists
         const savedTranslation = localStorage.getItem('selectedTranslation');
         if (savedTranslation) {
             switcher.value = savedTranslation;
         }
 
-        // Function to apply the selected translation
         const applyTranslation = () => {
             const selectedValue = switcher.value;
             document.querySelectorAll('.translation-text').forEach(div => {
@@ -351,29 +434,26 @@ window.addEventListener('load', () => {
             if (selectedTranslationDiv) {
                 selectedTranslationDiv.classList.add('active');
             }
-            localStorage.setItem('selectedTranslation', selectedValue); // Save user's choice
-            redraw(); // Redraw annotations for the new layout
+            localStorage.setItem('selectedTranslation', selectedValue); 
+            redraw(); // Redraw annotations AND highlights
         };
 
         switcher.addEventListener('change', applyTranslation);
-        // Apply the initial translation on page load
-        applyTranslation();
+        // applyTranslation(); // Don't call here, call in the fetch success
     }
     
     // --- ARROW KEY NAVIGATION ---
     document.addEventListener('keydown', function(event) {
-        // Find the previous and next links in the bottom navigation
         const prevLink = document.querySelector('.bottom-nav a:first-of-type');
         const nextLink = document.querySelector('.bottom-nav a:last-of-type');
 
         if (event.key === 'ArrowLeft') {
-            // Check if the link exists and has a valid href before navigating
             if (prevLink && prevLink.hasAttribute('href')) {
-                window.location.href = prevLink.href; // Use window.location for reliability
+                window.location.href = prevLink.href; 
             }
         } else if (event.key === 'ArrowRight') {
              if (nextLink && nextLink.hasAttribute('href')) {
-                window.location.href = nextLink.href; // Use window.location for reliability
+                window.location.href = nextLink.href; 
             }
         }
     });
@@ -381,7 +461,7 @@ window.addEventListener('load', () => {
     const currentChapterNum = parseInt(chapter, 10);
 
     const parseVerse = (verseStr) => {
-        const [c, v] = verseStr.split(/[:a-z]/).map(Number); // Regex handles 'a', 'b', etc.
+        const [c, v] = verseStr.split(/[:a-z]/).map(Number);
         return { chapter: c, verse: v };
     };
 
@@ -401,7 +481,25 @@ window.addEventListener('load', () => {
         .then(data => {
             lectionaryReadingsData = (data.lectionaryReadings || []).filter(isReadingInChapter);
             divineOfficeData = (data.divineOffice || []).filter(isReadingInChapter);
-            redraw(); // Initial draw after data is fetched
+            
+            // Apply initial translation and draw annotations/highlights
+            const applyTranslationOnLoad = () => {
+                const selectedValue = switcher ? switcher.value : 'dra'; // Default to 'dra' if no switcher
+                document.querySelectorAll('.translation-text').forEach(div => {
+                    div.classList.remove('active');
+                });
+                let selectedTranslationDiv = document.querySelector(`.translation-text.${selectedValue}`);
+                if (!selectedTranslationDiv) { // Fallback to the first translation if saved one isn't found
+                    selectedTranslationDiv = document.querySelector('.translation-text');
+                    if (selectedTranslationDiv) selectedTranslationDiv.classList.add('active');
+                }
+                if (selectedTranslationDiv) selectedTranslationDiv.classList.add('active');
+                
+                // Now that translation is active, redraw annotations and highlights
+                redraw(); 
+            };
+            applyTranslationOnLoad(); // Call the combined function
+            
             window.addEventListener('resize', redraw);
         })
         .catch(error => console.error("Error loading annotation data:", error));
@@ -460,9 +558,9 @@ function renderSide(readings, container, isRightSided) {
         const lastDrawEl = findElement(segmentsToDraw[segmentsToDraw.length - 1].end);
         if (!firstDrawEl || !lastDrawEl) return;
         
-        const containerTop = bibleTextContainer.offsetTop;
-        const totalStartPos = firstDrawEl.offsetTop - containerTop;
-        const totalEndPos = lastDrawEl.offsetTop + lastDrawEl.offsetHeight - containerTop;
+        // --- Use offsetTop *relative to the bibleTextContainer* ---
+        const totalStartPos = firstDrawEl.offsetTop;
+        const totalEndPos = lastDrawEl.offsetTop + lastDrawEl.offsetHeight;
 
         let slotIndex = 0;
         while (occupiedSlots.some(s => s.slotIndex === slotIndex && totalStartPos < s.end && totalEndPos > s.start)) {
@@ -510,9 +608,8 @@ function renderSide(readings, container, isRightSided) {
             const endVerseEl = findElement(segment.end);
             if (!startVerseEl || !endVerseEl) return;
 
-            const containerTop = bibleTextContainer.offsetTop;
-            const startPos = startVerseEl.offsetTop - containerTop;
-            const endPos = endVerseEl.offsetTop + endVerseEl.offsetHeight - containerTop;
+            const startPos = startVerseEl.offsetTop;
+            const endPos = endVerseEl.offsetTop + endVerseEl.offsetHeight;
             
             const bar = document.createElement('div');
             bar.style.top = `${startPos}px`;
