@@ -200,6 +200,8 @@ a:hover {
     max-width: 650px;
     text-align: justify;
     flex-shrink: 0;
+    /* --- ADDED FOR HIGHLIGHTING --- */
+    position: relative; /* Crucial for positioning highlight blocks */
 }
 
 /* Translation Switching */
@@ -211,14 +213,7 @@ a:hover {
     display: block;
 }
 
-/* --- Daily Reading Highlight Style --- */
-
-/* This ensures the highlight blocks are positioned correctly inside the text container */
-.bible-text {
-    /* ... existing styles like max-width, text-align ... */
-    position: relative; 
-}
-
+/* --- ADDED FOR HIGHLIGHTING --- */
 /* This lifts the verse text above the highlight blocks */
 .bible-text p,
 span[data-verse-part] {
@@ -227,18 +222,20 @@ span[data-verse-part] {
     background-color: transparent; /* Ensures highlight block is visible */
 }
 
+.bible-text p {
+    margin: 0 0 1rem 0;
+}
+
+/* --- Daily Reading Highlight Style --- */
 .daily-reading-highlight-block {
     position: absolute;
     background-color: lightgray;
     z-index: 1; /* Sits behind the text (z-index: 2) */
     border-radius: 4px;
-    left: -5px;
-    right: -5px;
+    left: -4px; /* Add 4px horizontal padding */
+    right: -4px; /* Add 4px horizontal padding */
 }
 
-.bible-text p {
-    margin: 0 0 1rem 0;
-}
 
 .verse-num {
     font-size: 0.7em;
@@ -256,30 +253,47 @@ span[data-verse-part] {
     flex-shrink: 0;
 }
 
-.annotation-bar-left:hover .label {
-    right: 25px; /* Position popup 25px from the right edge */
-    left: auto;
-    text-align: right; /* Align text to the right */
-}
-
 /* Annotation Bar Styling (Left & Right) */
 .annotation-bar-left, .annotation-bar-right {
     position: absolute;
-    width: 20px;
+    width: 5px; /* --- CHANGED: Set width directly --- */
     z-index: 5; /* Lower than label hover */
     overflow: visible; /* Needed for label extension */
+    border-radius: 3px;
+    background-color: slategrey; /* --- Fallback color --- */
 }
 
+/* --- Bring bar to front on hover --- */
+/*qq*/
+/*.annotation-bar-left:hover,
+.annotation-bar-right:hover {
+    z-index: 10; /* Bring the whole bar to the front */
+}*/
+
 .annotation-bar-left {
-    padding-right: 5px;
-    border-right-style: solid;
-    border-right-width: 5px;
+    /* --- REMOVED border/padding styles --- */
 }
 
 .annotation-bar-right {
-    padding-left: 5px;
-    border-left-style: solid;
-    border-left-width: 5px;
+    /* --- REMOVED border/padding styles --- */
+}
+
+/* --- Annotation Connector Styles --- */
+.annotation-bar-left.annotation-bar-connector {
+    border-right-style: dotted;
+    border-right-width: 1px;
+    width: auto; /* override the 5px */
+    background-color: transparent; /* override bg color */
+    border-radius: 0; /* override rounded ends */
+    z-index: 4; /* Ensure connector is behind the main bars */
+}
+.annotation-bar-right.annotation-bar-connector {
+    border-left-style: dotted;
+    border-left-width: 1px;
+    width: auto;
+    background-color: transparent;
+    border-radius: 0;
+    z-index: 4; /* Ensure connector is behind the main bars */
 }
 
 .annotation-bar-left .label, .annotation-bar-right .label {
@@ -296,15 +310,56 @@ span[data-verse-part] {
     top: 4px;
     overflow: hidden; /* Prevent text wrapping in vertical mode */
     text-overflow: ellipsis;
-    /* max-height is now set dynamically by script */
+    
+    /* --- Stop the spinning animation --- */
+    /* Only transition properties that won't cause spinning */
+    transition: background-color 0.2s ease-in-out, width 0.2s ease-in-out, 
+                left 0.2s ease-in-out, right 0.2s ease-in-out,
+                opacity 0.2s ease-in-out;
+    pointer-events: auto; /* --- FIX: Make label hoverable --- */
+    z-index: 6; /* --- FIX: Ensure label is above bar --- */
+}
+
+/* --- FIX: Style label popup on hover (triggered by bar hover) --- */
+
+.annotation-bar-left .label:hover {
+    text-align: right;
+}
+
+.annotation-bar-left .label:hover,
+.annotation-bar-right .label:hover {
+    max-height: none !important; /* Override JS inline style */
+    writing-mode: horizontal-tb;
+    transform: none;
+    white-space: normal;
+    overflow: visible;
+    width: 200px;
+    background-color: whitesmoke;
+    border: 1px solid slategrey;
+    padding: 5px 8px;
+    border-radius: 4px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    z-index: 999 !important; /* Ensure label is on top of everything */
 }
 
 .annotation-bar-left .label {
-    right: 2px;
+    right: 6px; /* Position next to the 5px bar */
+}
+/* --- Align left-side popup to the right --- */
+.annotation-bar-left .label:hover {
+    right: 12px; /* Position popup away from the bar (5px bar + 7px gap) */
+    left: auto;
+    text-align: right; /* Align text to the right */
 }
 
 .annotation-bar-right .label {
-    left: 2px;
+    left: 6px; /* Position next to the 5px bar */
+}
+/* --- Align right-side popup to the left --- */
+.annotation-bar-right .label:hover {
+    left: 12px; /* Position popup away from the bar */
+    right: auto;
+    text-align: left; /* Align text to the left */
 }
 
 /* Verse parts on own line */
@@ -312,7 +367,7 @@ span[data-verse-part] {
   display: block;
 }
 
-/* Button */
+/* --- Button --- */
 
 input[type="submit"],
 input[type="reset"],
@@ -341,7 +396,7 @@ button,
     border-bottom: none;
 }
 
-/*Legend Container*/
+/* --- Legend Container --- */
 
 .legend-container {
         display: flex;
@@ -368,7 +423,7 @@ hr {
     margin: 2em 0;
 }
 
-/* Footer */
+/* --- Footer --- */
 
 #footer .copyright {
     color: #9fa3a6;
@@ -389,7 +444,6 @@ hr {
 }
 
 /* --- Daily Readings Popup Styles --- */
-/* Use the ID selector for the main script */
 #daily-readings-popup {
     position: fixed;
     bottom: 20px;
@@ -413,7 +467,7 @@ hr {
     -webkit-backdrop-filter: blur(10px); /* Safari support */
 }
 
-/* Liturgical Color Themes */
+/* --- Liturgical Color Themes --- */
 #daily-readings-popup.liturgical-color-white {
     background-color: rgba(255, 255, 255, 0.85); /* Slightly less transparent white */
     color: var(--color-text-dark);
@@ -462,7 +516,7 @@ hr {
 }
 /* Link color for White theme */
 .liturgical-color-white .popup-reading-list a {
-     color: var(--muted-gold);
+     color: var(--muted-gold-darker); /* Darker gold for better contrast */
 }
 /* Gold hover for White theme */
 .liturgical-color-white .popup-reading-list a:hover {
@@ -533,7 +587,7 @@ hr {
 }
 
 
-/* Header and List styling */
+/* --- Header and List styling --- */
 #daily-readings-popup .popup-header {
     display: flex;
     justify-content: space-between;
@@ -620,8 +674,8 @@ hr {
 #daily-readings-popup a {
     text-decoration: underline;
     border-bottom: none;
-    border-radius: 3px; /* Add slight rounding for hover effect */
-    padding: 0.1em 0.2em; /* Add slight padding for hover background */
+    border-radius: 3px; /* Slight rounding for hover effect */
+    padding: 0.1em 0.2em; /* Slight padding for hover background */
     margin: -0.1em -0.2em; /* Counteract padding */
 }
  #daily-readings-popup a:hover {
@@ -634,7 +688,6 @@ hr {
 
 /* --- MOBILE RESPONSIVE STYLES --- */
 
-/* @media (max-width: 1200px) { */
 @media (max-width: 800px) { /* Adjusted breakpoint for better mobile layout */
     /* Hide the annotation margins on smaller screens */
     .annotations-margin-left, .annotations-margin-right {
@@ -645,7 +698,7 @@ hr {
     body {
         max-width: 100%;
         padding: 0.75rem; /* Further reduce padding on mobile */
-        padding-top: 85px; /* Adjust for potentially smaller top nav */
+        padding-top: 85px; /* Approx top-nav height + banner height */
         padding-bottom: 80px; /* Adjust for bottom nav height */
     }
 
@@ -717,6 +770,10 @@ hr {
         flex-direction: column; /* Stack list items vertically */
         align-items: flex-start;
     }
+
+    #daily-readings-popup .popup-reading-list li {
+         white-space: normal; /* Allow wrapping on mobile */
+     }
 
     /* --- Show Mobile Warning Banner --- */
     #mobile-warning-banner {

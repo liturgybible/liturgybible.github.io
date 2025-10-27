@@ -343,13 +343,11 @@ function highlightDailyReadings(todaysReadings) {
         const endEl = findElement(endID);
 
         if (startEl && endEl) {
-            // --- MODIFICATION HERE ---
             const padding = 4; // 4px padding
             // Measure positions relative to the bibleTextContainer
             const startPos = startEl.offsetTop - padding; // Move up by 4px
             const endPos = endEl.offsetTop + endEl.offsetHeight + padding; // Move down by 4px
-            const height = endPos - startPos; // Recalculate height
-            // --- END MODIFICATION ---
+            const height = endPos - startPos; 
 
             const highlightBlock = document.createElement('div');
             highlightBlock.className = 'daily-reading-highlight-block';
@@ -603,7 +601,9 @@ function renderSide(readings, container, isRightSided) {
         }
         
         let labelHasBeenShown = false;
-        segmentsToDraw.forEach(segment => {
+        let lastSegmentEndPos = null; // --- ADDED FOR CONNECTORS ---
+
+        segmentsToDraw.forEach((segment, segmentIndex) => {
             const startVerseEl = findElement(segment.start);
             const endVerseEl = findElement(segment.end);
             if (!startVerseEl || !endVerseEl) return;
@@ -611,10 +611,36 @@ function renderSide(readings, container, isRightSided) {
             const startPos = startVerseEl.offsetTop;
             const endPos = endVerseEl.offsetTop + endVerseEl.offsetHeight;
             
+            // --- NEW: Draw connecting line if this is not the first segment ---
+            if (segmentIndex > 0 && lastSegmentEndPos !== null) {
+                const connectorHeight = startPos - lastSegmentEndPos;
+                // Only draw if there's a visible gap (e.g., > 1px)
+                if (connectorHeight > 1) { 
+                    const connectorBar = document.createElement('div');
+                    connectorBar.style.top = `${lastSegmentEndPos}px`;
+                    connectorBar.style.height = `${connectorHeight}px`;
+                    connectorBar.style.borderColor = reading.color; // Use the same color
+
+                    if (isRightSided) {
+                        connectorBar.className = 'annotation-bar-right annotation-bar-connector'; // New class
+                        // --- FIX: Center the 1px connector in the 5px bar area ---
+                        connectorBar.style.left = `${(slotIndex * 25) + 10 + 2}px`; // +2px
+                    } else {
+                        connectorBar.className = 'annotation-bar-left annotation-bar-connector'; // New class
+                        // --- FIX: Center the 1px connector in the 5px bar area ---
+                        connectorBar.style.right = `${(slotIndex * 25) + 10 + 2}px`; // +2px
+                    }
+                    container.appendChild(connectorBar);
+                }
+            }
+            lastSegmentEndPos = endPos; // Update for the next iteration
+            // --- END NEW ---
+            
             const bar = document.createElement('div');
             bar.style.top = `${startPos}px`;
             bar.style.height = `${endPos - startPos}px`;
-            bar.style.borderColor = reading.color;
+            // --- CHANGE: Use backgroundColor for rounded corners ---
+            bar.style.backgroundColor = reading.color; 
 
             if (!labelHasBeenShown) {
                 const label = document.createElement('span');
@@ -628,46 +654,8 @@ function renderSide(readings, container, isRightSided) {
                 bar.appendChild(label);
                 labelHasBeenShown = true;
 
-                // --- HOVER LOGIC (Attach to the first bar segment) ---
-                bar.addEventListener('mouseenter', () => {
-                    label.style.maxHeight = 'none';
-                    label.style.writingMode = 'horizontal-tb';
-                    label.style.transform = 'none';
-                    label.style.whiteSpace = 'normal';
-                    label.style.overflow = 'visible';
-                    label.style.width = '200px';
-                    label.style.backgroundColor = '#fffff7'; // Light parchment
-                    label.style.border = `1px solid ${reading.color}`;
-                    label.style.padding = '5px 8px';
-                    label.style.borderRadius = '4px';
-                    label.style.boxShadow = '0 3px 10px rgba(0,0,0,0.2)';
-                    label.style.zIndex = '10';
-                    
-                    if (isRightSided) {
-                        label.style.left = '25px';
-                    } else {
-                        label.style.right = '25px';
-                    }
-                });
-
-                bar.addEventListener('mouseleave', () => {
-                    // Reset all styles
-                    label.style.maxHeight = `${maxLabelHeight - 8}px`;
-                    label.style.writingMode = '';
-                    label.style.transform = '';
-                    label.style.whiteSpace = '';
-                    label.style.overflow = '';
-                    label.style.width = '';
-                    label.style.backgroundColor = '';
-                    label.style.border = '';
-                    label.style.padding = '';
-                    label.style.borderRadius = '';
-                    label.style.boxShadow = '';
-                    label.style.zIndex = '';
-                    label.style.left = '';
-                    label.style.right = '';
-                });
-                // --- END HOVER LOGIC ---
+                // --- REMOVED JAVASCRIPT HOVER LOGIC ---
+                // All hover logic is now handled by CSS
             }
 
             if (isRightSided) {
