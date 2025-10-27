@@ -161,37 +161,37 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 5th Sunday in OT",
+      "name": "Office of Readings: 5th Sunday in OT",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:12"
     },
     {
-      "name": "OR: Jan. 25: Conversion of Paul, Apostle",
+      "name": "Office of Readings: Jan. 25: Conversion of Paul, Apostle",
       "color": "#4C6B4F",
       "start": "1:11",
       "end": "1:24"
     },
     {
-      "name": "OR: 5th Week in OT, Monday",
+      "name": "Office of Readings: 5th Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "1:13",
       "end": "2:10"
     },
     {
-      "name": "OR: June 29: Peter and Paul, Apostles",
+      "name": "Office of Readings: June 29: Peter and Paul, Apostles",
       "color": "#4C6B4F",
       "start": "1:15",
       "end": "2:10"
     },
     {
-      "name": "OR: 5th Week in OT, Tuesday",
+      "name": "Office of Readings: 5th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "2:11",
       "end": "3:14"
     },
     {
-      "name": "OR: Sept. 14: Triumph of the Cross",
+      "name": "Office of Readings: Sept. 14: Triumph of the Cross",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -209,31 +209,31 @@
       ]
     },
     {
-      "name": "OR: 5th Week in OT, Wednesday",
+      "name": "Office of Readings: 5th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "3:15",
       "end": "4:17"
     },
     {
-      "name": "OR: Common of the Blessed Virgin Mary, alt. (Ordinary Time)",
+      "name": "Office of Readings: Common of the Blessed Virgin Mary, alt. (Ordinary Time)",
       "color": "#4C6B4F",
       "start": "3:22",
       "end": "4:7"
     },
     {
-      "name": "OR: 5th Week in OT, Thursday",
+      "name": "Office of Readings: 5th Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "4:8",
       "end": "4:31"
     },
     {
-      "name": "OR: 5th Week in OT, Friday",
+      "name": "Office of Readings: 5th Week in OT, Friday",
       "color": "#4C6B4F",
       "start": "5:1",
       "end": "5:25"
     },
     {
-      "name": "OR: 5th Week in OT, Saturday",
+      "name": "Office of Readings: 5th Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "5:25",
       "end": "6:18"

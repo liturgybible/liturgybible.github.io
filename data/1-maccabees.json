@@ -51,19 +51,19 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 31st Sunday in OT",
+      "name": "Office of Readings: 31st Sunday in OT",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:24"
     },
     {
-      "name": "OR: 31st Week in OT, Monday",
+      "name": "Office of Readings: 31st Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "1:43",
       "end": "1:63"
     },
     {
-      "name": "OR: 31st Week in OT, Tuesday",
+      "name": "Office of Readings: 31st Week in OT, Tuesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -85,19 +85,19 @@
       ]
     },
     {
-      "name": "OR: 31st Week in OT, Wednesday",
+      "name": "Office of Readings: 31st Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:26"
     },
     {
-      "name": "OR: 31st Week in OT, Thursday",
+      "name": "Office of Readings: 31st Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "4:36",
       "end": "4:59"
     },
     {
-      "name": "OR: 31st Week in OT, Saturday",
+      "name": "Office of Readings: 31st Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "9:1",
       "end": "9:22"

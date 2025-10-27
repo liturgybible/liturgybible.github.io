@@ -159,43 +159,43 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 26th Sunday in OT",
+      "name": "Office of Readings: 26th Sunday in OT",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:11"
     },
     {
-      "name": "OR: 26th Week in OT, Monday",
+      "name": "Office of Readings: 26th Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "1:12",
       "end": "1:26"
     },
     {
-      "name": "OR: 26th Week in OT, Tuesday",
+      "name": "Office of Readings: 26th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "1:27",
       "end": "2:11"
     },
     {
-      "name": "OR: Common of Holy Men, alt. (Advent/Christmas/Lent/Easter)",
+      "name": "Office of Readings: Common of Holy Men, alt. (Advent/Christmas/Lent/Easter)",
       "color": "#4C6B4F",
       "start": "1:29",
       "end": "2:16"
     },
     {
-      "name": "OR: 26th Week in OT, Wednesday",
+      "name": "Office of Readings: 26th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "2:12",
       "end": "2:30"
     },
     {
-      "name": "OR: 26th Week in OT, Thursday",
+      "name": "Office of Readings: 26th Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:16"
     },
     {
-      "name": "OR: Common of Holy Men & Women, For Religious (Ordinary Time)",
+      "name": "Office of Readings: Common of Holy Men & Women, For Religious (Ordinary Time)",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -209,13 +209,13 @@
       ]
     },
     {
-      "name": "OR: 26th Week in OT, Friday",
+      "name": "Office of Readings: 26th Week in OT, Friday",
       "color": "#4C6B4F",
       "start": "3:17",
       "end": "4:9"
     },
     {
-      "name": "OR: 26th Week in OT, Saturday",
+      "name": "Office of Readings: 26th Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "4:10",
       "end": "4:23"
@@ -251,6 +251,12 @@
           "end": "4:9b"
         }
       ]
+    },
+    {
+      "name": "Office for the Dead: Evening Prayer",
+      "color": "#4A628A",
+      "start": "2:6",
+      "end": "2:11"
     }
   ]
 }

@@ -213,7 +213,7 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 14th Week in OT, Friday",
+      "name": "Office of Readings: 14th Week in OT, Friday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -227,7 +227,7 @@
       ]
     },
     {
-      "name": "OR: Common of the Dedication of a Church (Lent)",
+      "name": "Office of Readings: Common of the Dedication of a Church (Lent)",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -245,19 +245,19 @@
       ]
     },
     {
-      "name": "OR: 15th Sunday in OT",
+      "name": "Office of Readings: 15th Sunday in OT",
       "color": "#4C6B4F",
       "start": "16:29",
       "end": "17:16"
     },
     {
-      "name": "OR: 15th Week in OT, Monday",
+      "name": "Office of Readings: 15th Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "18:16b",
       "end": "18:40"
     },
     {
-      "name": "OR: 15th Week in OT, Tuesday",
+      "name": "Office of Readings: 15th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -271,7 +271,7 @@
       ]
     },
     {
-      "name": "OR: 15th Week in OT, Wednesday",
+      "name": "Office of Readings: 15th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -285,7 +285,7 @@
       ]
     },
     {
-      "name": "OR: 15th Week in OT, Thursday",
+      "name": "Office of Readings: 15th Week in OT, Thursday",
       "color": "#4C6B4F",
       "segments": [
         {

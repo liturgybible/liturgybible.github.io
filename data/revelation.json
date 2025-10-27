@@ -305,13 +305,13 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 2nd Week of Easter, Monday",
+      "name": "Office of Readings: 2nd Week of Easter, Monday",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:20"
     },
     {
-      "name": "OR: Last Sunday in OT: Christ the King",
+      "name": "Office of Readings: Last Sunday in OT: Christ the King",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -349,115 +349,115 @@
       ]
     },
     {
-      "name": "OR: 2nd Week of Easter, Tuesday",
+      "name": "Office of Readings: 2nd Week of Easter, Tuesday",
       "color": "#4C6B4F",
       "start": "2:1",
       "end": "2:11"
     },
     {
-      "name": "OR: 2nd Week of Easter, Wednesday",
+      "name": "Office of Readings: 2nd Week of Easter, Wednesday",
       "color": "#4C6B4F",
       "start": "2:12",
       "end": "2:29"
     },
     {
-      "name": "OR: 2nd Week of Easter, Thursday",
+      "name": "Office of Readings: 2nd Week of Easter, Thursday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:22"
     },
     {
-      "name": "OR: 2nd Week of Easter, Friday",
+      "name": "Office of Readings: 2nd Week of Easter, Friday",
       "color": "#4C6B4F",
       "start": "4:1",
       "end": "4:11"
     },
     {
-      "name": "OR: Nov. 1: All Saints",
+      "name": "Office of Readings: Nov. 1: All Saints",
       "color": "#4C6B4F",
       "start": "5:1",
       "end": "5:4"
     },
     {
-      "name": "OR: 2nd Week of Easter, Saturday",
+      "name": "Office of Readings: 2nd Week of Easter, Saturday",
       "color": "#4C6B4F",
       "start": "5:1",
       "end": "5:14"
     },
     {
-      "name": "OR: 3rd Sunday of Easter",
+      "name": "Office of Readings: 3rd Sunday of Easter",
       "color": "#4C6B4F",
       "start": "6:1",
       "end": "6:17"
     },
     {
-      "name": "OR: 3rd Week of Easter, Monday",
+      "name": "Office of Readings: 3rd Week of Easter, Monday",
       "color": "#4C6B4F",
       "start": "7:1",
       "end": "7:17"
     },
     {
-      "name": "OR: Common of Several Martyrs (Easter) & Common of One Martyr (Easter)",
+      "name": "Office of Readings: Common of Several Martyrs (Easter) & Common of One Martyr (Easter)",
       "color": "#4C6B4F",
       "start": "7:9",
       "end": "7:17"
     },
     {
-      "name": "OR: 3rd Week of Easter, Tuesday",
+      "name": "Office of Readings: 3rd Week of Easter, Tuesday",
       "color": "#4C6B4F",
       "start": "8:1",
       "end": "8:13"
     },
     {
-      "name": "OR: 3rd Week of Easter, Wednesday",
+      "name": "Office of Readings: 3rd Week of Easter, Wednesday",
       "color": "#4C6B4F",
       "start": "9:1",
       "end": "9:12"
     },
     {
-      "name": "OR: 3rd Week of Easter, Thursday",
+      "name": "Office of Readings: 3rd Week of Easter, Thursday",
       "color": "#4C6B4F",
       "start": "9:13",
       "end": "9:21"
     },
     {
-      "name": "OR: 3rd Week of Easter, Friday",
+      "name": "Office of Readings: 3rd Week of Easter, Friday",
       "color": "#4C6B4F",
       "start": "10:1",
       "end": "10:11"
     },
     {
-      "name": "OR: 3rd Week of Easter, Saturday",
+      "name": "Office of Readings: 3rd Week of Easter, Saturday",
       "color": "#4C6B4F",
       "start": "11:1",
       "end": "11:19"
     },
     {
-      "name": "OR: Common of the Blessed Virgin Mary (Easter)",
+      "name": "Office of Readings: Common of the Blessed Virgin Mary (Easter)",
       "color": "#4C6B4F",
       "start": "11:19",
       "end": "12:17a"
     },
     {
-      "name": "OR: Sept. 29: Michael, Gabriel, and Raphael, Archangels",
+      "name": "Office of Readings: Sept. 29: Michael, Gabriel, and Raphael, Archangels",
       "color": "#4C6B4F",
       "start": "12:1",
       "end": "12:17a"
     },
     {
-      "name": "OR: 4th Sunday of Easter",
+      "name": "Office of Readings: 4th Sunday of Easter",
       "color": "#4C6B4F",
       "start": "12:1",
       "end": "12:17"
     },
     {
-      "name": "OR: 4th Week of Easter, Monday",
+      "name": "Office of Readings: 4th Week of Easter, Monday",
       "color": "#4C6B4F",
       "start": "13:1",
       "end": "13:18"
     },
     {
-      "name": "OR: Common of Holy Men (Easter)",
+      "name": "Office of Readings: Common of Holy Men (Easter)",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -471,79 +471,79 @@
       ]
     },
     {
-      "name": "OR: 4th Week of Easter, Tuesday",
+      "name": "Office of Readings: 4th Week of Easter, Tuesday",
       "color": "#4C6B4F",
       "start": "14:1",
       "end": "14:13"
     },
     {
-      "name": "OR: 4th Week of Easter, Wednesday",
+      "name": "Office of Readings: 4th Week of Easter, Wednesday",
       "color": "#4C6B4F",
       "start": "14:14",
       "end": "15:4"
     },
     {
-      "name": "OR: 4th Week of Easter, Thursday",
+      "name": "Office of Readings: 4th Week of Easter, Thursday",
       "color": "#4C6B4F",
       "start": "15:5",
       "end": "16:21"
     },
     {
-      "name": "OR: 4th Week of Easter, Friday",
+      "name": "Office of Readings: 4th Week of Easter, Friday",
       "color": "#4C6B4F",
       "start": "17:1",
       "end": "17:18"
     },
     {
-      "name": "OR: 4th Week of Easter, Saturday",
+      "name": "Office of Readings: 4th Week of Easter, Saturday",
       "color": "#4C6B4F",
       "start": "18:1",
       "end": "18:20"
     },
     {
-      "name": "OR: 5th Sunday of Easter",
+      "name": "Office of Readings: 5th Sunday of Easter",
       "color": "#4C6B4F",
       "start": "18:21",
       "end": "19:10"
     },
     {
-      "name": "OR: 5th Week of Easter, Monday",
+      "name": "Office of Readings: 5th Week of Easter, Monday",
       "color": "#4C6B4F",
       "start": "19:11",
       "end": "19:21"
     },
     {
-      "name": "OR: 5th Week of Easter, Tuesday",
+      "name": "Office of Readings: 5th Week of Easter, Tuesday",
       "color": "#4C6B4F",
       "start": "20:1",
       "end": "20:15"
     },
     {
-      "name": "OR: 5th Week of Easter, Wednesday",
+      "name": "Office of Readings: 5th Week of Easter, Wednesday",
       "color": "#4C6B4F",
       "start": "21:1",
       "end": "21:8"
     },
     {
-      "name": "OR: 5th Week of Easter, Thursday",
+      "name": "Office of Readings: 5th Week of Easter, Thursday",
       "color": "#4C6B4F",
       "start": "21:9",
       "end": "21:27"
     },
     {
-      "name": "OR: Common of the Dedication of a Church (Advent/Christmas/Easter)",
+      "name": "Office of Readings: Common of the Dedication of a Church (Advent/Christmas/Easter)",
       "color": "#4C6B4F",
       "start": "21:9",
       "end": "21:27"
     },
     {
-      "name": "OR: 5th Week of Easter, Friday",
+      "name": "Office of Readings: 5th Week of Easter, Friday",
       "color": "#4C6B4F",
       "start": "22:1",
       "end": "22:9"
     },
     {
-      "name": "OR: 5th Week of Easter, Saturday",
+      "name": "Office of Readings: 5th Week of Easter, Saturday",
       "color": "#4C6B4F",
       "start": "22:10",
       "end": "22:21"

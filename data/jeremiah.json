@@ -331,13 +331,13 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 21st Week in OT, Tuesday",
+      "name": "Office of Readings: 21st Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:19"
     },
     {
-      "name": "OR: June 24: Birth of John the Baptist",
+      "name": "Office of Readings: June 24: Birth of John the Baptist",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -351,7 +351,7 @@
       ]
     },
     {
-      "name": "OR: 21st Week in OT, Wednesday",
+      "name": "Office of Readings: 21st Week in OT, Wednesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -365,7 +365,7 @@
       ]
     },
     {
-      "name": "OR: 21st Week in OT, Thursday",
+      "name": "Office of Readings: 21st Week in OT, Thursday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -379,7 +379,7 @@
       ]
     },
     {
-      "name": "OR: 21st Week in OT, Friday",
+      "name": "Office of Readings: 21st Week in OT, Friday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -393,13 +393,13 @@
       ]
     },
     {
-      "name": "OR: 21st Week in OT, Saturday",
+      "name": "Office of Readings: 21st Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "7:1",
       "end": "7:20"
     },
     {
-      "name": "OR: 22nd Sunday in OT",
+      "name": "Office of Readings: 22nd Sunday in OT",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -413,7 +413,7 @@
       ]
     },
     {
-      "name": "OR: 22nd Week in OT, Monday",
+      "name": "Office of Readings: 22nd Week in OT, Monday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -427,31 +427,31 @@
       ]
     },
     {
-      "name": "OR: 22nd Week in OT, Tuesday",
+      "name": "Office of Readings: 22nd Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "20:7",
       "end": "20:18"
     },
     {
-      "name": "OR: 22nd Week in OT, Wednesday",
+      "name": "Office of Readings: 22nd Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "26:1",
       "end": "26:15"
     },
     {
-      "name": "OR: 22nd Week in OT, Thursday",
+      "name": "Office of Readings: 22nd Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "29:1",
       "end": "29:14"
     },
     {
-      "name": "OR: 22nd Week in OT, Friday",
+      "name": "Office of Readings: 22nd Week in OT, Friday",
       "color": "#4C6B4F",
       "start": "30:18",
       "end": "31:19"
     },
     {
-      "name": "OR: 22nd Week in OT, Saturday",
+      "name": "Office of Readings: 22nd Week in OT, Saturday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -465,7 +465,7 @@
       ]
     },
     {
-      "name": "OR: 23rd Sunday in OT",
+      "name": "Office of Readings: 23rd Sunday in OT",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -479,7 +479,7 @@
       ]
     },
     {
-      "name": "OR: 23rd Week in OT, Monday",
+      "name": "Office of Readings: 23rd Week in OT, Monday",
       "color": "#4C6B4F",
       "segments": [
         {

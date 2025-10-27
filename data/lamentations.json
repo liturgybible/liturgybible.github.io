@@ -21,7 +21,7 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 23rd Week in OT, Thursday",
+      "name": "Office of Readings: 23rd Week in OT, Thursday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -35,13 +35,13 @@
       ]
     },
     {
-      "name": "OR: 23rd Week in OT, Friday",
+      "name": "Office of Readings: 23rd Week in OT, Friday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:33"
     },
     {
-      "name": "OR: 23rd Week in OT, Saturday",
+      "name": "Office of Readings: 23rd Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "5:1",
       "end": "5:22"

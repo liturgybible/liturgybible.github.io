@@ -87,7 +87,7 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 4th Week of Lent, Wednesday",
+      "name": "Office of Readings: 4th Week of Lent, Wednesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -101,7 +101,7 @@
       ]
     },
     {
-      "name": "OR: 4th Week of Lent, Thursday",
+      "name": "Office of Readings: 4th Week of Lent, Thursday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -115,13 +115,13 @@
       ]
     },
     {
-      "name": "OR: 4th Week of Lent, Friday",
+      "name": "Office of Readings: 4th Week of Lent, Friday",
       "color": "#4C6B4F",
       "start": "14:1",
       "end": "14:25"
     },
     {
-      "name": "OR: 4th Week of Lent, Saturday",
+      "name": "Office of Readings: 4th Week of Lent, Saturday",
       "color": "#4C6B4F",
       "segments": [
         {

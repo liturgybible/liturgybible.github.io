@@ -829,13 +829,13 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 1st Sunday of Advent",
+      "name": "Office of Readings: 1st Sunday of Advent",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:18"
     },
     {
-      "name": "OR: 1st Week of Advent: Monday",
+      "name": "Office of Readings: 1st Week of Advent: Monday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -849,7 +849,7 @@
       ]
     },
     {
-      "name": "OR: 1st Week of Advent: Tuesday",
+      "name": "Office of Readings: 1st Week of Advent: Tuesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -863,31 +863,31 @@
       ]
     },
     {
-      "name": "OR: 20th Week in OT, Monday",
+      "name": "Office of Readings: 20th Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:15"
     },
     {
-      "name": "OR: 1st Week of Advent: Wednesday",
+      "name": "Office of Readings: 1st Week of Advent: Wednesday",
       "color": "#4C6B4F",
       "start": "5:1",
       "end": "5:7"
     },
     {
-      "name": "OR: 20th Sunday in OT",
+      "name": "Office of Readings: 20th Sunday in OT",
       "color": "#4C6B4F",
       "start": "6:1",
       "end": "6:13"
     },
     {
-      "name": "OR: 20th Week in OT, Tuesday",
+      "name": "Office of Readings: 20th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "7:1",
       "end": "7:17"
     },
     {
-      "name": "OR: Common of the Blessed Virgin Mary (Ordinary Time)",
+      "name": "Office of Readings: Common of the Blessed Virgin Mary (Ordinary Time)",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -905,25 +905,25 @@
       ]
     },
     {
-      "name": "OR: 20th Week in OT, Wednesday",
+      "name": "Office of Readings: 20th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "9:7",
       "end": "10:4"
     },
     {
-      "name": "OR: Dec. 25: Christmas",
+      "name": "Office of Readings: Dec. 25: Christmas",
       "color": "#4C6B4F",
       "start": "11:1",
       "end": "11:10"
     },
     {
-      "name": "OR: 20th Week in OT, Thursday",
+      "name": "Office of Readings: 20th Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "11:1",
       "end": "11:16"
     },
     {
-      "name": "OR: 1st Week of Advent: Thursday",
+      "name": "Office of Readings: 1st Week of Advent: Thursday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -937,79 +937,79 @@
       ]
     },
     {
-      "name": "OR: 1st Week of Advent: Friday",
+      "name": "Office of Readings: 1st Week of Advent: Friday",
       "color": "#4C6B4F",
       "start": "19:16",
       "end": "19:25"
     },
     {
-      "name": "OR: 1st Week of Advent: Saturday",
+      "name": "Office of Readings: 1st Week of Advent: Saturday",
       "color": "#4C6B4F",
       "start": "21:6",
       "end": "21:12"
     },
     {
-      "name": "OR: 2nd Sunday of Advent",
+      "name": "Office of Readings: 2nd Sunday of Advent",
       "color": "#4C6B4F",
       "start": "22:8b",
       "end": "22:23"
     },
     {
-      "name": "OR: 2nd Week of Advent: Monday",
+      "name": "Office of Readings: 2nd Week of Advent: Monday",
       "color": "#4C6B4F",
       "start": "24:1",
       "end": "24:18"
     },
     {
-      "name": "OR: 2nd Week of Advent: Tuesday",
+      "name": "Office of Readings: 2nd Week of Advent: Tuesday",
       "color": "#4C6B4F",
       "start": "24:19",
       "end": "25:5"
     },
     {
-      "name": "OR: 2nd Week of Advent: Wednesday",
+      "name": "Office of Readings: 2nd Week of Advent: Wednesday",
       "color": "#4C6B4F",
       "start": "25:6",
       "end": "26:6"
     },
     {
-      "name": "OR: 2nd Week of Advent: Thursday",
+      "name": "Office of Readings: 2nd Week of Advent: Thursday",
       "color": "#4C6B4F",
       "start": "26:7",
       "end": "26:21"
     },
     {
-      "name": "OR: 2nd Week of Advent: Friday",
+      "name": "Office of Readings: 2nd Week of Advent: Friday",
       "color": "#4C6B4F",
       "start": "27:1",
       "end": "27:13"
     },
     {
-      "name": "OR: 2nd Week of Advent: Saturday",
+      "name": "Office of Readings: 2nd Week of Advent: Saturday",
       "color": "#4C6B4F",
       "start": "29:1",
       "end": "29:8"
     },
     {
-      "name": "OR: 3rd Sunday of Advent",
+      "name": "Office of Readings: 3rd Sunday of Advent",
       "color": "#4C6B4F",
       "start": "29:13",
       "end": "29:24"
     },
     {
-      "name": "OR: 20th Week in OT, Friday",
+      "name": "Office of Readings: 20th Week in OT, Friday",
       "color": "#4C6B4F",
       "start": "30:1",
       "end": "30:18"
     },
     {
-      "name": "OR: 3rd Week of Advent: Monday",
+      "name": "Office of Readings: 3rd Week of Advent: Monday",
       "color": "#4C6B4F",
       "start": "30:18",
       "end": "30:26"
     },
     {
-      "name": "OR: 3rd Week of Advent: Tuesday",
+      "name": "Office of Readings: 3rd Week of Advent: Tuesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -1023,7 +1023,7 @@
       ]
     },
     {
-      "name": "OR: 3rd Week of Advent: Wednesday",
+      "name": "Office of Readings: 3rd Week of Advent: Wednesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -1037,31 +1037,31 @@
       ]
     },
     {
-      "name": "OR: 3rd Week of Advent: Thursday",
+      "name": "Office of Readings: 3rd Week of Advent: Thursday",
       "color": "#4C6B4F",
       "start": "32:15",
       "end": "33:6"
     },
     {
-      "name": "OR: 3rd Week of Advent: Friday",
+      "name": "Office of Readings: 3rd Week of Advent: Friday",
       "color": "#4C6B4F",
       "start": "33:7",
       "end": "33:24"
     },
     {
-      "name": "OR: 20th Week in OT, Saturday",
+      "name": "Office of Readings: 20th Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "37:21",
       "end": "37:35"
     },
     {
-      "name": "OR: From Jan. 2 to Epiphany: Friday",
+      "name": "Office of Readings: From Jan. 2 to Epiphany: Friday",
       "color": "#4C6B4F",
       "start": "42:1",
       "end": "42:8"
     },
     {
-      "name": "OR: Sun. after Jan. 6: Baptism of the Lord",
+      "name": "Office of Readings: Sun. after Jan. 6: Baptism of the Lord",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -1075,19 +1075,19 @@
       ]
     },
     {
-      "name": "OR: 46008",
+      "name": "Office of Readings: 46008",
       "color": "#4C6B4F",
       "start": "45:1",
       "end": "45:13"
     },
     {
-      "name": "OR: 46009",
+      "name": "Office of Readings: 46009",
       "color": "#4C6B4F",
       "start": "46:1",
       "end": "46:13"
     },
     {
-      "name": "OR: 46010",
+      "name": "Office of Readings: 46010",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -1101,13 +1101,13 @@
       ]
     },
     {
-      "name": "OR: 46011",
+      "name": "Office of Readings: 46011",
       "color": "#4C6B4F",
       "start": "48:1",
       "end": "48:11"
     },
     {
-      "name": "OR: 46012",
+      "name": "Office of Readings: 46012",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -1121,19 +1121,19 @@
       ]
     },
     {
-      "name": "OR: 46013",
+      "name": "Office of Readings: 46013",
       "color": "#4C6B4F",
       "start": "49:14",
       "end": "50:1"
     },
     {
-      "name": "OR: 46014",
+      "name": "Office of Readings: 46014",
       "color": "#4C6B4F",
       "start": "51:1",
       "end": "51:11"
     },
     {
-      "name": "OR: 46015",
+      "name": "Office of Readings: 46015",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -1147,55 +1147,55 @@
       ]
     },
     {
-      "name": "OR: Ash Wednesday",
+      "name": "Office of Readings: Ash Wednesday",
       "color": "#4C6B4F",
       "start": "58:1",
       "end": "58:12"
     },
     {
-      "name": "OR: Jan. 6 or Sunday between Jan. 2-8: Epiphany",
+      "name": "Office of Readings: Jan. 6 or Sunday between Jan. 2-8: Epiphany",
       "color": "#4C6B4F",
       "start": "60:1",
       "end": "60:22"
     },
     {
-      "name": "OR: From Jan. 2 to Epiphany: Saturday",
+      "name": "Office of Readings: From Jan. 2 to Epiphany: Saturday",
       "color": "#4C6B4F",
       "start": "61:1",
       "end": "61:11"
     },
     {
-      "name": "OR: After Epiphany to the Baptism of the Lord: Monday",
+      "name": "Office of Readings: After Epiphany to the Baptism of the Lord: Monday",
       "color": "#4C6B4F",
       "start": "61:1",
       "end": "61:11"
     },
     {
-      "name": "OR: After Epiphany to the Baptism of the Lord: Tuesday",
+      "name": "Office of Readings: After Epiphany to the Baptism of the Lord: Tuesday",
       "color": "#4C6B4F",
       "start": "62:1",
       "end": "62:12"
     },
     {
-      "name": "OR: After Epiphany to the Baptism of the Lord: Thursday",
+      "name": "Office of Readings: After Epiphany to the Baptism of the Lord: Thursday",
       "color": "#4C6B4F",
       "start": "63:19b",
       "end": "64:11"
     },
     {
-      "name": "OR: After Epiphany to the Baptism of the Lord: Wednesday",
+      "name": "Office of Readings: After Epiphany to the Baptism of the Lord: Wednesday",
       "color": "#4C6B4F",
       "start": "63:7",
       "end": "63:19"
     },
     {
-      "name": "OR: After Epiphany to the Baptism of the Lord: Friday",
+      "name": "Office of Readings: After Epiphany to the Baptism of the Lord: Friday",
       "color": "#4C6B4F",
       "start": "65:13",
       "end": "65:25"
     },
     {
-      "name": "OR: After Epiphany to the Baptism of the Lord: Saturday",
+      "name": "Office of Readings: After Epiphany to the Baptism of the Lord: Saturday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -1311,6 +1311,26 @@
       "color": "#4A628A",
       "start": "55:10",
       "end": "55:11"
+    },
+    {
+      "name": "Office for the Dead: Morning Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "38:10",
+          "end": "38:14"
+        },
+        {
+          "start": "38:17",
+          "end": "38:20"
+        }
+      ]
+    },
+    {
+      "name": "Office for the Dead: Daytime Prayer",
+      "color": "#4A628A",
+      "start": "25:8",
+      "end": "25:8"
     }
   ]
 }

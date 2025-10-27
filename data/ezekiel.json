@@ -253,7 +253,7 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 24th Sunday in OT",
+      "name": "Office of Readings: 24th Sunday in OT",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -267,7 +267,7 @@
       ]
     },
     {
-      "name": "OR: 24th Week in OT, Monday",
+      "name": "Office of Readings: 24th Week in OT, Monday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -281,7 +281,7 @@
       ]
     },
     {
-      "name": "OR: 24th Week in OT, Tuesday",
+      "name": "Office of Readings: 24th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -295,7 +295,7 @@
       ]
     },
     {
-      "name": "OR: 24th Week in OT, Wednesday",
+      "name": "Office of Readings: 24th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -309,13 +309,13 @@
       ]
     },
     {
-      "name": "OR: 24th Week in OT, Thursday",
+      "name": "Office of Readings: 24th Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "12:1",
       "end": "12:6"
     },
     {
-      "name": "OR: 24th Week in OT, Friday",
+      "name": "Office of Readings: 24th Week in OT, Friday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -349,7 +349,7 @@
       ]
     },
     {
-      "name": "OR: 24th Week in OT, Saturday",
+      "name": "Office of Readings: 24th Week in OT, Saturday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -363,13 +363,13 @@
       ]
     },
     {
-      "name": "OR: 25th Sunday in OT",
+      "name": "Office of Readings: 25th Sunday in OT",
       "color": "#4C6B4F",
       "start": "24:15",
       "end": "24:27"
     },
     {
-      "name": "OR: 25th Week in OT, Monday",
+      "name": "Office of Readings: 25th Week in OT, Monday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -387,31 +387,31 @@
       ]
     },
     {
-      "name": "OR: Easter Sunday, 2nd Reading",
+      "name": "Office of Readings: Easter Sunday, 2nd Reading",
       "color": "#4C6B4F",
       "start": "36:16",
       "end": "36:28"
     },
     {
-      "name": "OR: 25th Week in OT, Tuesday",
+      "name": "Office of Readings: 25th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "36:16",
       "end": "36:36"
     },
     {
-      "name": "OR: 25th Week in OT, Wednesday",
+      "name": "Office of Readings: 25th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "37:1",
       "end": "37:14"
     },
     {
-      "name": "OR: 25th Week in OT, Thursday",
+      "name": "Office of Readings: 25th Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "37:15",
       "end": "37:28"
     },
     {
-      "name": "OR: 25th Week in OT, Friday",
+      "name": "Office of Readings: 25th Week in OT, Friday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -429,7 +429,7 @@
       ]
     },
     {
-      "name": "OR: 25th Week in OT, Saturday",
+      "name": "Office of Readings: 25th Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "47:1",
       "end": "47:12"

@@ -437,19 +437,19 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 32nd Sunday in OT",
+      "name": "Office of Readings: 32nd Sunday in OT",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:21"
     },
     {
-      "name": "OR: 32nd Week in OT, Monday",
+      "name": "Office of Readings: 32nd Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "2:26",
       "end": "2:47"
     },
     {
-      "name": "OR: 32nd Week in OT, Tuesday",
+      "name": "Office of Readings: 32nd Week in OT, Tuesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -467,7 +467,7 @@
       ]
     },
     {
-      "name": "OR: 32nd Week in OT, Wednesday",
+      "name": "Office of Readings: 32nd Week in OT, Wednesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -489,7 +489,7 @@
       ]
     },
     {
-      "name": "OR: 32nd Week in OT, Thursday",
+      "name": "Office of Readings: 32nd Week in OT, Thursday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -503,13 +503,13 @@
       ]
     },
     {
-      "name": "OR: 32nd Week in OT, Friday",
+      "name": "Office of Readings: 32nd Week in OT, Friday",
       "color": "#4C6B4F",
       "start": "10:1",
       "end": "10:21"
     },
     {
-      "name": "OR: 32nd Week in OT, Saturday",
+      "name": "Office of Readings: 32nd Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "12:1",
       "end": "12:13"

@@ -111,55 +111,55 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 8th Sunday in OT",
+      "name": "Office of Readings: 8th Sunday in OT",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:22"
     },
     {
-      "name": "OR: 8th Week in OT, Monday",
+      "name": "Office of Readings: 8th Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "2:1",
       "end": "2:13"
     },
     {
-      "name": "OR: 8th Week in OT, Tuesday",
+      "name": "Office of Readings: 8th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:26"
     },
     {
-      "name": "OR: 8th Week in OT, Wednesday",
+      "name": "Office of Readings: 8th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "7:1",
       "end": "7:21"
     },
     {
-      "name": "OR: 8th Week in OT, Thursday",
+      "name": "Office of Readings: 8th Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "11:1",
       "end": "11:20"
     },
     {
-      "name": "OR: 8th Week in OT, Friday",
+      "name": "Office of Readings: 8th Week in OT, Friday",
       "color": "#4C6B4F",
       "start": "12:1",
       "end": "12:25"
     },
     {
-      "name": "OR: 8th Week in OT, Saturday",
+      "name": "Office of Readings: 8th Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "13:13",
       "end": "14:6"
     },
     {
-      "name": "OR: 9th Sunday in OT",
+      "name": "Office of Readings: 9th Sunday in OT",
       "color": "#4C6B4F",
       "start": "28:1",
       "end": "28:28"
     },
     {
-      "name": "OR: 9th Week in OT, Monday",
+      "name": "Office of Readings: 9th Week in OT, Monday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -177,7 +177,7 @@
       ]
     },
     {
-      "name": "OR: 9th Week in OT, Tuesday",
+      "name": "Office of Readings: 9th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -195,7 +195,7 @@
       ]
     },
     {
-      "name": "OR: 9th Week in OT, Wednesday",
+      "name": "Office of Readings: 9th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -209,13 +209,13 @@
       ]
     },
     {
-      "name": "OR: 9th Week in OT, Thursday",
+      "name": "Office of Readings: 9th Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "38:1",
       "end": "38:30"
     },
     {
-      "name": "OR: 9th Week in OT, Friday",
+      "name": "Office of Readings: 9th Week in OT, Friday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -229,7 +229,7 @@
       ]
     },
     {
-      "name": "OR: 9th Week in OT, Saturday",
+      "name": "Office of Readings: 9th Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "42:7",
       "end": "42:17"
@@ -253,6 +253,12 @@
           "end": "2:10b"
         }
       ]
+    },
+    {
+      "name": "Office for the Dead: Daytime Prayer",
+      "color": "#4A628A",
+      "start": "19:25",
+      "end": "19:26a"
     }
   ]
 }

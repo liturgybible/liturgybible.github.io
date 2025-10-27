@@ -55,25 +55,25 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 28th Week in OT, Tuesday",
+      "name": "Office of Readings: 28th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "2:4"
     },
     {
-      "name": "OR: 33rd Week in OT, Wednesday",
+      "name": "Office of Readings: 33rd Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "10:3",
       "end": "11:3"
     },
     {
-      "name": "OR: 33rd Week in OT, Thursday",
+      "name": "Office of Readings: 33rd Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "11:4",
       "end": "12:8"
     },
     {
-      "name": "OR: 33rd Week in OT, Friday",
+      "name": "Office of Readings: 33rd Week in OT, Friday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -87,19 +87,19 @@
       ]
     },
     {
-      "name": "OR: 33rd Week in OT, Saturday",
+      "name": "Office of Readings: 33rd Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "14:1",
       "end": "14:21"
     },
     {
-      "name": "OR: 28th Week in OT, Wednesday",
+      "name": "Office of Readings: 28th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "4:14"
     },
     {
-      "name": "OR: 28th Week in OT, Thursday",
+      "name": "Office of Readings: 28th Week in OT, Thursday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -113,7 +113,7 @@
       ]
     },
     {
-      "name": "OR: 33rd Week in OT, Tuesday",
+      "name": "Office of Readings: 33rd Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "9:1",
       "end": "10:2"

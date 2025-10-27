@@ -485,55 +485,55 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: Nov. 30: Andrew, Apostle",
+      "name": "Office of Readings: Nov. 30: Andrew, Apostle",
       "color": "#4C6B4F",
       "start": "1:18",
       "end": "2:5"
     },
     {
-      "name": "OR: Common of Apostles (Advent/Christmas/Lent)",
+      "name": "Office of Readings: Common of Apostles (Advent/Christmas/Lent)",
       "color": "#4C6B4F",
       "start": "1:18",
       "end": "2:5"
     },
     {
-      "name": "OR: Sunday after Pentecost: Trinity Sunday",
+      "name": "Office of Readings: Sunday after Pentecost: Trinity Sunday",
       "color": "#4C6B4F",
       "start": "2:1",
       "end": "2:16"
     },
     {
-      "name": "OR: Common of Doctors of the Church (Easter)",
+      "name": "Office of Readings: Common of Doctors of the Church (Easter)",
       "color": "#4C6B4F",
       "start": "2:1",
       "end": "2:16"
     },
     {
-      "name": "OR: Common of Apostles (Ordinary Time)",
+      "name": "Office of Readings: Common of Apostles (Ordinary Time)",
       "color": "#4C6B4F",
       "start": "4:1",
       "end": "4:16"
     },
     {
-      "name": "OR: Common of Virgins",
+      "name": "Office of Readings: Common of Virgins",
       "color": "#4C6B4F",
       "start": "7:25",
       "end": "7:40"
     },
     {
-      "name": "OR: Common of Holy M&W, For those who worked for the underprivileged (Ord.Time)",
+      "name": "Office of Readings: Common of Holy M&W, For those who worked for the underprivileged (Ord.Time)",
       "color": "#4C6B4F",
       "start": "12:31",
       "end": "13:13"
     },
     {
-      "name": "OR: Office for the Dead",
+      "name": "Office of Readings: Office for the Dead",
       "color": "#4C6B4F",
       "start": "15:12",
       "end": "15:34"
     },
     {
-      "name": "OR: Office for the Dead, alt.",
+      "name": "Office of Readings: Office for the Dead, alt.",
       "color": "#4C6B4F",
       "start": "15:35",
       "end": "15:57"
@@ -609,6 +609,24 @@
           "end": "10:31"
         }
       ]
+    },
+    {
+      "name": "Office for the Dead: Office of Readings",
+      "color": "#4A628A",
+      "start": "15:12",
+      "end": "15:34"
+    },
+    {
+      "name": "Office for the Dead: Office of Readings (Alternative)",
+      "color": "#4A628A",
+      "start": "15:35",
+      "end": "15:57"
+    },
+    {
+      "name": "Office for the Dead: Evening Prayer",
+      "color": "#4A628A",
+      "start": "15:55",
+      "end": "15:57"
     }
   ]
 }

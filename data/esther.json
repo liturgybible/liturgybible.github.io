@@ -2,7 +2,7 @@
   "lectionaryReadings": [],
   "divineOffice": [
     {
-      "name": "OR: 29th Sunday in OT",
+      "name": "Office of Readings: 29th Sunday in OT",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -36,19 +36,19 @@
       ]
     },
     {
-      "name": "OR: 29th Week in OT, Monday",
+      "name": "Office of Readings: 29th Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:15"
     },
     {
-      "name": "OR: 29th Week in OT, Tuesday",
+      "name": "Office of Readings: 29th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "4:1",
       "end": "4:16"
     },
     {
-      "name": "OR: 29th Week in OT, Thursday",
+      "name": "Office of Readings: 29th Week in OT, Thursday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -62,7 +62,7 @@
       ]
     },
     {
-      "name": "OR: 29th Week in OT, Wednesday",
+      "name": "Office of Readings: 29th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "14:1",
       "end": "14:19"

@@ -145,13 +145,13 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 30th Sunday in OT",
+      "name": "Office of Readings: 30th Sunday in OT",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:15"
     },
     {
-      "name": "OR: 30th Week in OT, Monday",
+      "name": "Office of Readings: 30th Week in OT, Monday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -165,31 +165,31 @@
       ]
     },
     {
-      "name": "OR: Common of Several Martyrs (Advent/Christmas/Lent)",
+      "name": "Office of Readings: Common of Several Martyrs (Advent/Christmas/Lent)",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:15"
     },
     {
-      "name": "OR: 30th Week in OT, Tuesday",
+      "name": "Office of Readings: 30th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:19"
     },
     {
-      "name": "OR: Common of Holy Men (Advent/Christmas/Lent)",
+      "name": "Office of Readings: Common of Holy Men (Advent/Christmas/Lent)",
       "color": "#4C6B4F",
       "start": "5:1",
       "end": "5:15"
     },
     {
-      "name": "OR: 30th Week in OT, Wednesday",
+      "name": "Office of Readings: 30th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "6:1",
       "end": "6:25"
     },
     {
-      "name": "OR: Common of Doctors of the Church (Advent/Christmas/Lent)",
+      "name": "Office of Readings: Common of Doctors of the Church (Advent/Christmas/Lent)",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -203,19 +203,19 @@
       ]
     },
     {
-      "name": "OR: 30th Week in OT, Thursday",
+      "name": "Office of Readings: 30th Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "7:15",
       "end": "7:30"
     },
     {
-      "name": "OR: 30th Week in OT, Friday",
+      "name": "Office of Readings: 30th Week in OT, Friday",
       "color": "#4C6B4F",
       "start": "8:1",
       "end": "8:21b"
     },
     {
-      "name": "OR: 30th Week in OT, Saturday",
+      "name": "Office of Readings: 30th Week in OT, Saturday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -287,6 +287,20 @@
       "color": "#4A628A",
       "start": "1:1",
       "end": "1:2"
+    },
+    {
+      "name": "Office for the Dead: Daytime Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "1:13",
+          "end": "1:14a"
+        },
+        {
+          "start": "1:15",
+          "end": "1:15"
+        }
+      ]
     }
   ]
 }

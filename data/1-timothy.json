@@ -77,37 +77,37 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 27th Sunday in OT",
+      "name": "Office of Readings: 27th Sunday in OT",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:20"
     },
     {
-      "name": "OR: 27th Week in OT, Monday",
+      "name": "Office of Readings: 27th Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "2:1",
       "end": "2:15"
     },
     {
-      "name": "OR: 27th Week in OT, Tuesday",
+      "name": "Office of Readings: 27th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:16"
     },
     {
-      "name": "OR: 27th Week in OT, Wednesday",
+      "name": "Office of Readings: 27th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "4:1",
       "end": "5:2"
     },
     {
-      "name": "OR: 27th Week in OT, Thursday",
+      "name": "Office of Readings: 27th Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "5:3",
       "end": "5:25"
     },
     {
-      "name": "OR: Common of Pastors, For a priest (Advent/Christmas/Lent/Easter)",
+      "name": "Office of Readings: Common of Pastors, For a priest (Advent/Christmas/Lent/Easter)",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -121,13 +121,13 @@
       ]
     },
     {
-      "name": "OR: 27th Week in OT, Friday",
+      "name": "Office of Readings: 27th Week in OT, Friday",
       "color": "#4C6B4F",
       "start": "6:1",
       "end": "6:10"
     },
     {
-      "name": "OR: 27th Week in OT, Saturday",
+      "name": "Office of Readings: 27th Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "6:11",
       "end": "6:21"

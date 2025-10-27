@@ -383,13 +383,13 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: Thursday after Ash Wednesday",
+      "name": "Office of Readings: Thursday after Ash Wednesday",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:22"
     },
     {
-      "name": "OR: Dec. 28: Holy Innocents, Martyrs",
+      "name": "Office of Readings: Dec. 28: Holy Innocents, Martyrs",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -403,7 +403,7 @@
       ]
     },
     {
-      "name": "OR: Friday after Ash Wednesday",
+      "name": "Office of Readings: Friday after Ash Wednesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -417,49 +417,49 @@
       ]
     },
     {
-      "name": "OR: Saturday after Ash Wednesday",
+      "name": "Office of Readings: Saturday after Ash Wednesday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:20"
     },
     {
-      "name": "OR: 1st Sunday of Lent",
+      "name": "Office of Readings: 1st Sunday of Lent",
       "color": "#4C6B4F",
       "start": "5:1",
       "end": "6:1"
     },
     {
-      "name": "OR: 1st Week of Lent, Monday",
+      "name": "Office of Readings: 1st Week of Lent, Monday",
       "color": "#4C6B4F",
       "start": "6:2",
       "end": "6:13"
     },
     {
-      "name": "OR: 1st Week of Lent, Tuesday",
+      "name": "Office of Readings: 1st Week of Lent, Tuesday",
       "color": "#4C6B4F",
       "start": "6:29",
       "end": "7:25"
     },
     {
-      "name": "OR: 1st Week of Lent, Wednesday",
+      "name": "Office of Readings: 1st Week of Lent, Wednesday",
       "color": "#4C6B4F",
       "start": "10:21",
       "end": "11:10"
     },
     {
-      "name": "OR: 1st Week of Lent, Thursday",
+      "name": "Office of Readings: 1st Week of Lent, Thursday",
       "color": "#4C6B4F",
       "start": "12:1",
       "end": "12:20"
     },
     {
-      "name": "OR: 1st Week of Lent, Friday",
+      "name": "Office of Readings: 1st Week of Lent, Friday",
       "color": "#4C6B4F",
       "start": "12:21",
       "end": "12:36"
     },
     {
-      "name": "OR: 1st Week of Lent, Saturday",
+      "name": "Office of Readings: 1st Week of Lent, Saturday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -473,7 +473,7 @@
       ]
     },
     {
-      "name": "OR: Feb. 2: Presentation of the Lord",
+      "name": "Office of Readings: Feb. 2: Presentation of the Lord",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -487,25 +487,25 @@
       ]
     },
     {
-      "name": "OR: 2nd Sunday of Lent",
+      "name": "Office of Readings: 2nd Sunday of Lent",
       "color": "#4C6B4F",
       "start": "13:17",
       "end": "14:9"
     },
     {
-      "name": "OR: 2nd Week of Lent, Monday",
+      "name": "Office of Readings: 2nd Week of Lent, Monday",
       "color": "#4C6B4F",
       "start": "14:10",
       "end": "14:31"
     },
     {
-      "name": "OR: Easter Sunday, 1st Reading",
+      "name": "Office of Readings: Easter Sunday, 1st Reading",
       "color": "#4C6B4F",
       "start": "14:15",
       "end": "15:1a"
     },
     {
-      "name": "OR: 2nd Week of Lent, Tuesday",
+      "name": "Office of Readings: 2nd Week of Lent, Tuesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -519,19 +519,19 @@
       ]
     },
     {
-      "name": "OR: 2nd Week of Lent, Wednesday",
+      "name": "Office of Readings: 2nd Week of Lent, Wednesday",
       "color": "#4C6B4F",
       "start": "17:1",
       "end": "17:16"
     },
     {
-      "name": "OR: 2nd Week of Lent, Thursday",
+      "name": "Office of Readings: 2nd Week of Lent, Thursday",
       "color": "#4C6B4F",
       "start": "18:13",
       "end": "18:27"
     },
     {
-      "name": "OR: 2nd Week of Lent, Friday",
+      "name": "Office of Readings: 2nd Week of Lent, Friday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -545,37 +545,37 @@
       ]
     },
     {
-      "name": "OR: 2nd Week of Lent, Saturday",
+      "name": "Office of Readings: 2nd Week of Lent, Saturday",
       "color": "#4C6B4F",
       "start": "20:1",
       "end": "20:17"
     },
     {
-      "name": "OR: 3rd Sunday of Lent",
+      "name": "Office of Readings: 3rd Sunday of Lent",
       "color": "#4C6B4F",
       "start": "22:20",
       "end": "23:9"
     },
     {
-      "name": "OR: Thursday after Trinity Sunday: Corpus Christi",
+      "name": "Office of Readings: Thursday after Trinity Sunday: Corpus Christi",
       "color": "#4C6B4F",
       "start": "24:1",
       "end": "24:11"
     },
     {
-      "name": "OR: 3rd Week of Lent, Monday",
+      "name": "Office of Readings: 3rd Week of Lent, Monday",
       "color": "#4C6B4F",
       "start": "24:1",
       "end": "24:18"
     },
     {
-      "name": "OR: 3rd Week of Lent, Tuesday",
+      "name": "Office of Readings: 3rd Week of Lent, Tuesday",
       "color": "#4C6B4F",
       "start": "32:1",
       "end": "32:20"
     },
     {
-      "name": "OR: 3rd Week of Lent, Wednesday",
+      "name": "Office of Readings: 3rd Week of Lent, Wednesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -597,13 +597,13 @@
       ]
     },
     {
-      "name": "OR: 3rd Week of Lent, Thursday",
+      "name": "Office of Readings: 3rd Week of Lent, Thursday",
       "color": "#4C6B4F",
       "start": "34:10",
       "end": "34:28"
     },
     {
-      "name": "OR: 3rd Week of Lent, Friday",
+      "name": "Office of Readings: 3rd Week of Lent, Friday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -617,7 +617,7 @@
       ]
     },
     {
-      "name": "OR: 3rd Week of Lent, Saturday",
+      "name": "Office of Readings: 3rd Week of Lent, Saturday",
       "color": "#4C6B4F",
       "start": "40:16",
       "end": "40:38"

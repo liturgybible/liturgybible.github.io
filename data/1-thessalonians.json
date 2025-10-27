@@ -123,13 +123,13 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 4th Sunday in OT",
+      "name": "Office of Readings: 4th Sunday in OT",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "2:12"
     },
     {
-      "name": "OR: Common of Pastors, For a pope or bishop (Advent/Christmas/Lent)",
+      "name": "Office of Readings: Common of Pastors, For a pope or bishop (Advent/Christmas/Lent)",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -143,19 +143,19 @@
       ]
     },
     {
-      "name": "OR: 4th Week in OT, Monday",
+      "name": "Office of Readings: 4th Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "2:13",
       "end": "3:13"
     },
     {
-      "name": "OR: 4th Week in OT, Tuesday",
+      "name": "Office of Readings: 4th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "4:1",
       "end": "4:18"
     },
     {
-      "name": "OR: 4th Week in OT, Wednesday",
+      "name": "Office of Readings: 4th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "5:1",
       "end": "5:28"
@@ -195,6 +195,12 @@
       "color": "#4A628A",
       "start": "5:23",
       "end": "5:23"
+    },
+    {
+      "name": "Office for the Dead: Morning Prayer",
+      "color": "#4A628A",
+      "start": "4:14",
+      "end": "4:14"
     }
   ]
 }

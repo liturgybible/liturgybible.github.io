@@ -631,13 +631,13 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: Common of Apostles (Easter)",
+      "name": "Office of Readings: Common of Apostles (Easter)",
       "color": "#4C6B4F",
       "start": "5:12",
       "end": "5:32"
     },
     {
-      "name": "OR: Aug. 10: Lawrence, Deacon and Martyr",
+      "name": "Office of Readings: Aug. 10: Lawrence, Deacon and Martyr",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -655,7 +655,7 @@
       ]
     },
     {
-      "name": "OR: Dec. 26: Stephen, First Martyr",
+      "name": "Office of Readings: Dec. 26: Stephen, First Martyr",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -669,7 +669,7 @@
       ]
     },
     {
-      "name": "OR: Oct. 18: Luke, Evangelist",
+      "name": "Office of Readings: Oct. 18: Luke, Evangelist",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -683,13 +683,13 @@
       ]
     },
     {
-      "name": "OR: Feb. 22: Chair of Peter, Apostle",
+      "name": "Office of Readings: Feb. 22: Chair of Peter, Apostle",
       "color": "#4C6B4F",
       "start": "11:1",
       "end": "11:18"
     },
     {
-      "name": "OR: Common of Pastors, For a pope or bishop (Easter)",
+      "name": "Office of Readings: Common of Pastors, For a pope or bishop (Easter)",
       "color": "#4C6B4F",
       "start": "20:17",
       "end": "20:36"

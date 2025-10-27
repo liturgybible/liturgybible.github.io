@@ -213,43 +213,43 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 1st Week in OT, Monday",
+      "name": "Office of Readings: 1st Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:18"
     },
     {
-      "name": "OR: 1st Week in OT, Tuesday",
+      "name": "Office of Readings: 1st Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "11:12",
       "end": "11:28"
     },
     {
-      "name": "OR: 1st Week in OT, Wednesday",
+      "name": "Office of Readings: 1st Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "24:1",
       "end": "24:22"
     },
     {
-      "name": "OR: Common of Doctors of the Church (Ordinary Time)",
+      "name": "Office of Readings: Common of Doctors of the Church (Ordinary Time)",
       "color": "#4C6B4F",
       "start": "39:1",
       "end": "39:10"
     },
     {
-      "name": "OR: 1st Week in OT, Thursday",
+      "name": "Office of Readings: 1st Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "42:15",
       "end": "43:12"
     },
     {
-      "name": "OR: 1st Week in OT, Friday",
+      "name": "Office of Readings: 1st Week in OT, Friday",
       "color": "#4C6B4F",
       "start": "43:13",
       "end": "43:35"
     },
     {
-      "name": "OR: 1st Week in OT, Saturday",
+      "name": "Office of Readings: 1st Week in OT, Saturday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -263,19 +263,19 @@
       ]
     },
     {
-      "name": "OR: 10th Sunday in OT",
+      "name": "Office of Readings: 10th Sunday in OT",
       "color": "#4C6B4F",
       "start": "46:1",
       "end": "46:10"
     },
     {
-      "name": "OR: 14th Week in OT, Saturday",
+      "name": "Office of Readings: 14th Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "47:12",
       "end": "47:25"
     },
     {
-      "name": "OR: Common of One Martyr (Advent/Christmas/Lent)",
+      "name": "Office of Readings: Common of One Martyr (Advent/Christmas/Lent)",
       "color": "#4C6B4F",
       "start": "51:1",
       "end": "51:12"

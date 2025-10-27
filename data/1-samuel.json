@@ -235,13 +235,13 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 12th Sunday in OT",
+      "name": "Office of Readings: 12th Sunday in OT",
       "color": "#4C6B4F",
       "start": "16:1",
       "end": "16:13"
     },
     {
-      "name": "OR: 12th Week in OT, Monday",
+      "name": "Office of Readings: 12th Week in OT, Monday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -259,7 +259,7 @@
       ]
     },
     {
-      "name": "OR: 12th Week in OT, Tuesday",
+      "name": "Office of Readings: 12th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -273,7 +273,7 @@
       ]
     },
     {
-      "name": "OR: 12th Week in OT, Wednesday",
+      "name": "Office of Readings: 12th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -287,7 +287,7 @@
       ]
     },
     {
-      "name": "OR: 12th Week in OT, Thursday",
+      "name": "Office of Readings: 12th Week in OT, Thursday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -301,7 +301,7 @@
       ]
     },
     {
-      "name": "OR: 12th Week in OT, Saturday",
+      "name": "Office of Readings: 12th Week in OT, Saturday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -315,19 +315,19 @@
       ]
     },
     {
-      "name": "OR: 13th Sunday in OT",
+      "name": "Office of Readings: 13th Sunday in OT",
       "color": "#4C6B4F",
       "start": "26:5",
       "end": "26:25"
     },
     {
-      "name": "OR: 13th Week in OT, Monday",
+      "name": "Office of Readings: 13th Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "28:3",
       "end": "28:25"
     },
     {
-      "name": "OR: 13th Week in OT, Tuesday",
+      "name": "Office of Readings: 13th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "segments": [
         {

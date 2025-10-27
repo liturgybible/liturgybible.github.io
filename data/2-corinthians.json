@@ -181,103 +181,103 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: 16th Sunday in OT",
+      "name": "Office of Readings: 16th Sunday in OT",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:14"
     },
     {
-      "name": "OR: 16th Week in OT, Monday",
+      "name": "Office of Readings: 16th Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "1:15",
       "end": "2:11"
     },
     {
-      "name": "OR: 16th Week in OT, Tuesday",
+      "name": "Office of Readings: 16th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "2:12",
       "end": "3:16"
     },
     {
-      "name": "OR: 16th Week in OT, Wednesday",
+      "name": "Office of Readings: 16th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "3:7",
       "end": "4:4"
     },
     {
-      "name": "OR: Aug. 6: Transfiguration",
+      "name": "Office of Readings: Aug. 6: Transfiguration",
       "color": "#4C6B4F",
       "start": "3:7",
       "end": "4:6"
     },
     {
-      "name": "OR: 16th Week in OT, Thursday",
+      "name": "Office of Readings: 16th Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "4:5",
       "end": "4:18"
     },
     {
-      "name": "OR: Common of One Martyr (Ordinary Time)",
+      "name": "Office of Readings: Common of One Martyr (Ordinary Time)",
       "color": "#4C6B4F",
       "start": "4:7",
       "end": "5:8"
     },
     {
-      "name": "OR: Office for the Dead, alt.",
+      "name": "Office of Readings: Office for the Dead, alt.",
       "color": "#4C6B4F",
       "start": "4:16",
       "end": "5:10"
     },
     {
-      "name": "OR: 16th Week in OT, Friday",
+      "name": "Office of Readings: 16th Week in OT, Friday",
       "color": "#4C6B4F",
       "start": "5:1",
       "end": "5:21"
     },
     {
-      "name": "OR: 16th Week in OT, Saturday",
+      "name": "Office of Readings: 16th Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "6:1",
       "end": "7:1"
     },
     {
-      "name": "OR: 17th Sunday in OT",
+      "name": "Office of Readings: 17th Sunday in OT",
       "color": "#4C6B4F",
       "start": "7:2",
       "end": "7:16"
     },
     {
-      "name": "OR: 17th Week in OT, Monday",
+      "name": "Office of Readings: 17th Week in OT, Monday",
       "color": "#4C6B4F",
       "start": "8:1",
       "end": "8:24"
     },
     {
-      "name": "OR: 17th Week in OT, Tuesday",
+      "name": "Office of Readings: 17th Week in OT, Tuesday",
       "color": "#4C6B4F",
       "start": "9:1",
       "end": "9:15"
     },
     {
-      "name": "OR: 17th Week in OT, Wednesday",
+      "name": "Office of Readings: 17th Week in OT, Wednesday",
       "color": "#4C6B4F",
       "start": "10:1",
       "end": "11:6"
     },
     {
-      "name": "OR: 17th Week in OT, Thursday",
+      "name": "Office of Readings: 17th Week in OT, Thursday",
       "color": "#4C6B4F",
       "start": "11:7",
       "end": "11:29"
     },
     {
-      "name": "OR: 17th Week in OT, Friday",
+      "name": "Office of Readings: 17th Week in OT, Friday",
       "color": "#4C6B4F",
       "start": "11:30",
       "end": "12:12"
     },
     {
-      "name": "OR: 17th Week in OT, Saturday",
+      "name": "Office of Readings: 17th Week in OT, Saturday",
       "color": "#4C6B4F",
       "start": "12:14",
       "end": "13:13"
@@ -311,6 +311,12 @@
       "color": "#4A628A",
       "start": "12:9b",
       "end": "12:10"
+    },
+    {
+      "name": "Office for the Dead: Office of Readings (Alternative)",
+      "color": "#4A628A",
+      "start": "4:16",
+      "end": "5:10"
     }
   ]
 }

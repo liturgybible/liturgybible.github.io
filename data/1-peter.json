@@ -107,37 +107,37 @@
   ],
   "divineOffice": [
     {
-      "name": "OR: Monday within the Octave of Easter",
+      "name": "Office of Readings: Monday within the Octave of Easter",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:21"
     },
     {
-      "name": "OR: Tuesday within the Octave of Easter",
+      "name": "Office of Readings: Tuesday within the Octave of Easter",
       "color": "#4C6B4F",
       "start": "1:22",
       "end": "2:10"
     },
     {
-      "name": "OR: Common of the Dedication of a Church (Ordinary Time)",
+      "name": "Office of Readings: Common of the Dedication of a Church (Ordinary Time)",
       "color": "#4C6B4F",
       "start": "2:1",
       "end": "2:17"
     },
     {
-      "name": "OR: Wednesday within the Octave of Easter",
+      "name": "Office of Readings: Wednesday within the Octave of Easter",
       "color": "#4C6B4F",
       "start": "2:11",
       "end": "2:25"
     },
     {
-      "name": "OR: Thursday within the Octave of Easter",
+      "name": "Office of Readings: Thursday within the Octave of Easter",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:17"
     },
     {
-      "name": "OR: Common of Holy Women, alt. reading, For a married woman",
+      "name": "Office of Readings: Common of Holy Women, alt. reading, For a married woman",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -151,25 +151,25 @@
       ]
     },
     {
-      "name": "OR: Common of Holy Men, For a married man (Advent/Christmas/Lent/Easter)",
+      "name": "Office of Readings: Common of Holy Men, For a married man (Advent/Christmas/Lent/Easter)",
       "color": "#4C6B4F",
       "start": "3:7",
       "end": "3:17"
     },
     {
-      "name": "OR: Friday within the Octave of Easter",
+      "name": "Office of Readings: Friday within the Octave of Easter",
       "color": "#4C6B4F",
       "start": "3:18",
       "end": "4:11"
     },
     {
-      "name": "OR: Saturday within the Octave of Easter",
+      "name": "Office of Readings: Saturday within the Octave of Easter",
       "color": "#4C6B4F",
       "start": "4:12",
       "end": "5:14"
     },
     {
-      "name": "OR: Common of Pastors, For a priest (Ordinary Time)",
+      "name": "Office of Readings: Common of Pastors, For a priest (Ordinary Time)",
       "color": "#4C6B4F",
       "start": "5:1",
       "end": "5:11"
