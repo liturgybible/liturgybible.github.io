@@ -607,7 +607,7 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Default light border */
     padding-bottom: 0.0rem;
     gap: 0rem;
@@ -658,7 +658,6 @@ hr {
 .popup-date-picker::-webkit-calendar-picker-indicator {
     cursor: pointer;
     filter: invert(0.8); /* Makes the dark icon light grey */
-/*    background: transparent;*/
 }
 /* Invert the icon color on dark backgrounds */
 .liturgical-color-red .popup-date-picker::-webkit-calendar-picker-indicator,
@@ -698,8 +697,7 @@ hr {
 #daily-readings-popup .popup-reading-list {
     list-style: none;
     padding: 0;
-    margin: 0.5rem 0 0 0;
-    display: flex;
+    margin: 0.3rem 0 0 0;
     flex-wrap: wrap;
     white-space: nowrap;
     gap: 0.5rem 1.5rem;
