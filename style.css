@@ -313,13 +313,13 @@ span[data-verse-part] {
     /* --- Stop the spinning animation --- */
     /* Only transition properties that won't cause spinning */
     transition: background-color 0.2s ease-in-out, width 0.2s ease-in-out, 
-                left 0.2s ease-in-out, right 0.2s ease-in-out,
+/*                left 0.2s ease-in-out, right 0.2s ease-in-out,*/
                 opacity 0.2s ease-in-out;
     pointer-events: auto; /* --- FIX: Make label hoverable --- */
     z-index: 6; /* --- FIX: Ensure label is above bar --- */
 }
 
-/* --- FIX: Style label popup on hover (triggered by bar hover) --- */
+/* --- Style label popup on hover (triggered by bar hover) --- */
 
 .annotation-bar-left .label:hover {
     text-align: right;
