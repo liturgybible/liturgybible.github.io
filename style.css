@@ -513,6 +513,12 @@ hr {
 .liturgical-color-rose .popup-reading-list li {
     color: var(--color-text-dark);
 }
+/* Date picker text color for light themes */
+.liturgical-color-white .popup-date-picker,
+.liturgical-color-rose .popup-date-picker {
+    color: var(--color-text-dark);
+    opacity: 0.9;
+}
 /* Link color for White theme */
 .liturgical-color-white .popup-reading-list a {
      color: var(--muted-gold-darker); /* Darker gold for better contrast */
@@ -550,6 +556,16 @@ hr {
 .liturgical-color-default .popup-header p,
 .liturgical-color-default .popup-reading-list li {
     color: var(--color-text-light);
+}
+
+/* Date picker text color for dark themes */
+.liturgical-color-red .popup-date-picker,
+.liturgical-color-green .popup-date-picker,
+.liturgical-color-violet .popup-date-picker,
+.liturgical-color-black .popup-date-picker,
+.liturgical-color-default .popup-date-picker {
+    color: var(--color-text-light);
+    opacity: 0.9;
 }
 
 .liturgical-color-red .popup-reading-list a,
@@ -624,6 +640,36 @@ hr {
     opacity: 0.9;
     white-space: nowrap;
 }
+
+/* --- Date Picker Styles --- */
+.popup-date-picker {
+    background: none;
+    border: none;
+    font-family: MiloWeb, Georgia, TimesNewRoman, serif; /* Match body fonts */
+    font-size: 0.9em;
+    font-style: italic;
+    font-weight: 600; /* Match body weight */
+    padding: 0;
+    margin: 0;
+    width: auto
+    box-sizing: border-box;
+}
+/* Style the calendar icon */
+.popup-date-picker::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    filter: invert(0.8); /* Makes the dark icon light grey */
+/*    background: transparent;*/
+}
+/* Invert the icon color on dark backgrounds */
+.liturgical-color-red .popup-date-picker::-webkit-calendar-picker-indicator,
+.liturgical-color-green .popup-date-picker::-webkit-calendar-picker-indicator,
+.liturgical-color-violet .popup-date-picker::-webkit-calendar-picker-indicator,
+.liturgical-color-black .popup-date-picker::-webkit-calendar-picker-indicator,
+.liturgical-color-default .popup-date-picker::-webkit-calendar-picker-indicator {
+    filter: invert(1) brightness(1.2); /* Makes it bright white */
+}
+
+/* --- End Date Picker Styles --- */
 
 #daily-readings-popup .popup-close-btn {
     background: none;

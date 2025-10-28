@@ -202,8 +202,13 @@ function displayReadingsPopup(readingsData) {
     const isChapterPage = window.location.pathname.includes('/bible/');
     const currentBookSlug = body.dataset.book;
     const currentChapterNum = parseInt(body.dataset.chapter, 10);
-    const readingDate = new Date(readingsData.date + 'T00:00:00');
+    
+    // Use the date string directly from data, assume it's YYYY-MM-DD
+    const dateValue = readingsData.date; 
+    // Create a date object for formatting
+    const readingDate = new Date(dateValue + 'T00:00:00'); // Add time component to avoid timezone issues
 
+    // --- Only show on chapter pages if relevant ---
     if (isChapterPage) {
         const intersects = checkReadingIntersection(currentBookSlug, currentChapterNum, readingsData);
         if (!intersects) {
@@ -234,7 +239,7 @@ function displayReadingsPopup(readingsData) {
     popupContent += `<div class="popup-header">`;
     popupContent += `<div>`; 
     popupContent += `<h4>${readingsData.name || 'Daily Readings'}</h4>`;
-    popupContent += `<p class="popup-date">${formatDisplayDate(readingDate)}</p>`;
+    popupContent += `<input type="date" class="popup-date-picker" value="${dateValue}">`;
     popupContent += `</div>`;
     popupContent += `<button class="popup-close-btn">&times;</button>`;
     popupContent += `</div>`;
@@ -263,16 +268,43 @@ function displayReadingsPopup(readingsData) {
 
     body.appendChild(popupDiv);
 
+    // close functionality
     const closeButton = popupDiv.querySelector('.popup-close-btn');
     if (closeButton) {
         closeButton.addEventListener('click', () => {
             popupDiv.style.display = 'none';
         });
     }
+
+    // --- Event listener for date picker ---
+    const datePicker = popupDiv.querySelector('.popup-date-picker');
+    if (datePicker) {
+        datePicker.addEventListener('change', (event) => {
+            const newDateStr = event.target.value;
+            const newReadings = window.allUsccbReadings.find(reading => reading.date === newDateStr);
+            
+            popupDiv.remove(); // Remove current popup
+            
+            if (newReadings) {
+                // Update global-scoped variable that highlights depend on
+                window.todaysReadingsData = newReadings; 
+                displayReadingsPopup(newReadings); // Show popup for the new date
+            } else {
+                window.todaysReadingsData = null; // Clear data
+                displayReadingsPopup({ // Show a "not found" popup
+                    date: newDateStr, 
+                    name: "No readings found for this date", 
+                    color: "black" 
+                });
+            }
+            // Manually call redraw to update highlights for the new date
+            highlightDailyReadings(window.todaysReadingsData); 
+        });
+    }
 }
 
 /**
- * --- UPDATED: Highlights verses by drawing a continuous block ---
+ * --- Highlights verses by drawing a continuous block ---
  * @param {object} todaysReadings - The readings data object for the current day.
  */
 function highlightDailyReadings(todaysReadings) {
@@ -366,7 +398,9 @@ window.addEventListener('load', () => {
     const book = body.dataset.book;
     const chapter = body.dataset.chapter;
     
-    let todaysReadingsData = null; // Store today's readings to pass to other functions
+    // --- Make readings data globally accessible ---
+    window.todaysReadingsData = null; // Store today's readings to pass to other functions
+    window.allUsccbReadings = []; // Store all readings
 
     // --- Daily Readings Popup Logic ---
     const todayStr = getCurrentDateString();
@@ -375,13 +409,15 @@ window.addEventListener('load', () => {
             if (!response.ok) throw new Error('Failed to load readings data');
             return response.json();
         })
-        .then(allReadings => {
-            todaysReadingsData = allReadings.find(reading => reading.date === todayStr);
-            if (todaysReadingsData) {
-                displayReadingsPopup(todaysReadingsData);
+        .then(data => {
+            window.allUsccbReadings = data; // Store globally
+            window.todaysReadingsData = window.allUsccbReadings.find(reading => reading.date === todayStr);
+            
+            if (window.todaysReadingsData) {
+                displayReadingsPopup(window.todaysReadingsData);
                 // Also highlight readings on load
                 if (book && chapter) {
-                    highlightDailyReadings(todaysReadingsData);
+                    highlightDailyReadings(window.todaysReadingsData);
                 }
             } else {
                 console.log("No readings found for today:", todayStr);
@@ -412,7 +448,7 @@ window.addEventListener('load', () => {
     const redraw = () => {
         drawAnnotations(lectionaryReadingsData, divineOfficeData);
         // Also re-highlight readings when redrawing (e.g., on translation switch)
-        highlightDailyReadings(todaysReadingsData);
+        highlightDailyReadings(window.todaysReadingsData);
     };
 
     // --- Translation Switcher Logic ---
