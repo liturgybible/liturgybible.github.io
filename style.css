@@ -116,6 +116,7 @@ a:hover {
     display: flex;
     align-items: center;
     gap: 1rem;
+    z-index: 2; /* --- Ensure controls are above centered title --- */
 }
 
 #translation-switcher {
@@ -134,6 +135,12 @@ a:hover {
     padding: 0;
     font-size: 1.1rem;
     color: #7B2E2B;
+
+    /* Center chapter */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1; /* Sits behind controls but centered */
 }
 
 /* --- Mobile Warning Banner --- */
@@ -200,8 +207,7 @@ a:hover {
     max-width: 650px;
     text-align: justify;
     flex-shrink: 0;
-    /* --- ADDED FOR HIGHLIGHTING --- */
-    position: relative; /* Crucial for positioning highlight blocks */
+    position: relative; /* for positioning highlight blocks */
 }
 
 /* Translation Switching */
@@ -213,8 +219,8 @@ a:hover {
     display: block;
 }
 
-/* --- ADDED FOR HIGHLIGHTING --- */
-/* This lifts the verse text above the highlight blocks */
+/* --- HIGHLIGHTING --- */
+/* Lifts the verse text above the highlight blocks */
 .bible-text p,
 span[data-verse-part] {
     position: relative; 
@@ -256,26 +262,19 @@ span[data-verse-part] {
 /* Annotation Bar Styling (Left & Right) */
 .annotation-bar-left, .annotation-bar-right {
     position: absolute;
-    width: 5px; /* --- CHANGED: Set width directly --- */
+    width: 5px; /* --- Set width directly --- */
     z-index: 5; /* Lower than label hover */
     overflow: visible; /* Needed for label extension */
     border-radius: 3px;
     background-color: slategrey; /* --- Fallback color --- */
 }
 
-/* --- Bring bar to front on hover --- */
-/*qq*/
-/*.annotation-bar-left:hover,
-.annotation-bar-right:hover {
-    z-index: 10; /* Bring the whole bar to the front */
-}*/
-
 .annotation-bar-left {
-    /* --- REMOVED border/padding styles --- */
+    /* --- empty --- */
 }
 
 .annotation-bar-right {
-    /* --- REMOVED border/padding styles --- */
+    /* --- empty --- */
 }
 
 /* --- Annotation Connector Styles --- */
