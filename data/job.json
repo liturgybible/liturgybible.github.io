@@ -29,13 +29,13 @@
       ]
     },
     {
-      "name": "OT, Week 26, Mon [II, #455]",
+      "name": "Ordinary Time, Week 26, Mon [II, #455]",
       "color": "#B35C58",
       "start": "1:6",
       "end": "1:22"
     },
     {
-      "name": "OT, Week 26, Tues [II, #456]",
+      "name": "Ordinary Time, Week 26, Tues [II, #456]",
       "color": "#B35C58",
       "segments": [
         {
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "name": "OT, Week 26, Wed [II, #457]",
+      "name": "Ordinary Time, Week 26, Wed [II, #457]",
       "color": "#B35C58",
       "segments": [
         {
@@ -67,13 +67,13 @@
       ]
     },
     {
-      "name": "OT, Week 26, Thurs [II, #458]",
+      "name": "Ordinary Time, Week 26, Thurs [II, #458]",
       "color": "#B35C58",
       "start": "19:21",
       "end": "19:27"
     },
     {
-      "name": "OT, Week 26, Fri [II, #459]",
+      "name": "Ordinary Time, Week 26, Fri [II, #459]",
       "color": "#B35C58",
       "segments": [
         {
@@ -91,7 +91,7 @@
       ]
     },
     {
-      "name": "OT, Week 26, Sat [II, #460]",
+      "name": "Ordinary Time, Week 26, Sat [II, #460]",
       "color": "#B35C58",
       "segments": [
         {
@@ -111,55 +111,55 @@
   ],
   "divineOffice": [
     {
-      "name": "Office of Readings: 8th Sunday in OT",
+      "name": "Office of Readings: 8th Sunday in Ordinary Time",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:22"
     },
     {
-      "name": "Office of Readings: 8th Week in OT, Monday",
+      "name": "Office of Readings: 8th Week in Ordinary Time, Monday",
       "color": "#4C6B4F",
       "start": "2:1",
       "end": "2:13"
     },
     {
-      "name": "Office of Readings: 8th Week in OT, Tuesday",
+      "name": "Office of Readings: 8th Week in Ordinary Time, Tuesday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:26"
     },
     {
-      "name": "Office of Readings: 8th Week in OT, Wednesday",
+      "name": "Office of Readings: 8th Week in Ordinary Time, Wednesday",
       "color": "#4C6B4F",
       "start": "7:1",
       "end": "7:21"
     },
     {
-      "name": "Office of Readings: 8th Week in OT, Thursday",
+      "name": "Office of Readings: 8th Week in Ordinary Time, Thursday",
       "color": "#4C6B4F",
       "start": "11:1",
       "end": "11:20"
     },
     {
-      "name": "Office of Readings: 8th Week in OT, Friday",
+      "name": "Office of Readings: 8th Week in Ordinary Time, Friday",
       "color": "#4C6B4F",
       "start": "12:1",
       "end": "12:25"
     },
     {
-      "name": "Office of Readings: 8th Week in OT, Saturday",
+      "name": "Office of Readings: 8th Week in Ordinary Time, Saturday",
       "color": "#4C6B4F",
       "start": "13:13",
       "end": "14:6"
     },
     {
-      "name": "Office of Readings: 9th Sunday in OT",
+      "name": "Office of Readings: 9th Sunday in Ordinary Time",
       "color": "#4C6B4F",
       "start": "28:1",
       "end": "28:28"
     },
     {
-      "name": "Office of Readings: 9th Week in OT, Monday",
+      "name": "Office of Readings: 9th Week in Ordinary Time, Monday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -177,7 +177,7 @@
       ]
     },
     {
-      "name": "Office of Readings: 9th Week in OT, Tuesday",
+      "name": "Office of Readings: 9th Week in Ordinary Time, Tuesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -195,7 +195,7 @@
       ]
     },
     {
-      "name": "Office of Readings: 9th Week in OT, Wednesday",
+      "name": "Office of Readings: 9th Week in Ordinary Time, Wednesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -209,13 +209,13 @@
       ]
     },
     {
-      "name": "Office of Readings: 9th Week in OT, Thursday",
+      "name": "Office of Readings: 9th Week in Ordinary Time, Thursday",
       "color": "#4C6B4F",
       "start": "38:1",
       "end": "38:30"
     },
     {
-      "name": "Office of Readings: 9th Week in OT, Friday",
+      "name": "Office of Readings: 9th Week in Ordinary Time, Friday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -229,19 +229,19 @@
       ]
     },
     {
-      "name": "Office of Readings: 9th Week in OT, Saturday",
+      "name": "Office of Readings: 9th Week in Ordinary Time, Saturday",
       "color": "#4C6B4F",
       "start": "42:7",
       "end": "42:17"
     },
     {
-      "name": "Week 1: Tuesday DP3",
+      "name": "Week 1: Tuesday Daytime Prayer3",
       "color": "#4A628A",
       "start": "5:17",
       "end": "5:18"
     },
     {
-      "name": "Week 3: Wednesday MP",
+      "name": "Week 3: Wednesday Morning Prayer",
       "color": "#4A628A",
       "segments": [
         {

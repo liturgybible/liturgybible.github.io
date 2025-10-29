@@ -27,7 +27,7 @@
       "end": "8:7"
     },
     {
-      "name": "OT, Week 13, Mon [II, #377]",
+      "name": "Ordinary Time, Week 13, Mon [II, #377]",
       "color": "#B35C58",
       "segments": [
         {
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "name": "OT, Week 13, Tues [II, #378]",
+      "name": "Ordinary Time, Week 13, Tues [II, #378]",
       "color": "#B35C58",
       "segments": [
         {
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "name": "OT, Week 13, Wed [II, #379]",
+      "name": "Ordinary Time, Week 13, Wed [II, #379]",
       "color": "#B35C58",
       "segments": [
         {
@@ -69,13 +69,13 @@
       ]
     },
     {
-      "name": "OT, Week 13, Thurs [II, #380]",
+      "name": "Ordinary Time, Week 13, Thurs [II, #380]",
       "color": "#B35C58",
       "start": "7:10",
       "end": "7:17"
     },
     {
-      "name": "OT, Week 13, Fri [II, #381]",
+      "name": "Ordinary Time, Week 13, Fri [II, #381]",
       "color": "#B35C58",
       "segments": [
         {
@@ -89,7 +89,7 @@
       ]
     },
     {
-      "name": "OT, Week 13, Sat [II, #382]",
+      "name": "Ordinary Time, Week 13, Sat [II, #382]",
       "color": "#B35C58",
       "start": "9:11",
       "end": "9:15"
@@ -97,37 +97,37 @@
   ],
   "divineOffice": [
     {
-      "name": "Office of Readings: 18th Sunday in OT",
+      "name": "Office of Readings: 18th Sunday in Ordinary Time",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "2:3"
     },
     {
-      "name": "Office of Readings: 18th Week in OT, Monday",
+      "name": "Office of Readings: 18th Week in Ordinary Time, Monday",
       "color": "#4C6B4F",
       "start": "2:4",
       "end": "2:16"
     },
     {
-      "name": "Office of Readings: 18th Week in OT, Tuesday",
+      "name": "Office of Readings: 18th Week in Ordinary Time, Tuesday",
       "color": "#4C6B4F",
       "start": "7:1",
       "end": "7:17"
     },
     {
-      "name": "Office of Readings: 18th Week in OT, Wednesday",
+      "name": "Office of Readings: 18th Week in Ordinary Time, Wednesday",
       "color": "#4C6B4F",
       "start": "9:1",
       "end": "9:15"
     },
     {
-      "name": "Week 1: Thursday DP1",
+      "name": "Week 1: Thursday Daytime Prayer1",
       "color": "#4A628A",
       "start": "4:13",
       "end": "4:13"
     },
     {
-      "name": "Week 1: Thursday DP2",
+      "name": "Week 1: Thursday Daytime Prayer2",
       "color": "#4A628A",
       "segments": [
         {
@@ -141,7 +141,7 @@
       ]
     },
     {
-      "name": "Week 1: Thursday DP3",
+      "name": "Week 1: Thursday Daytime Prayer3",
       "color": "#4A628A",
       "start": "9:6",
       "end": "9:6"

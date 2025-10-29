@@ -15,7 +15,7 @@
       ]
     },
     {
-      "name": "OT, Week 18, Sat [II, #412]",
+      "name": "Ordinary Time, Week 18, Sat [II, #412]",
       "color": "#B35C58",
       "start": "1:12",
       "end": "2:4"
@@ -23,19 +23,19 @@
   ],
   "divineOffice": [
     {
-      "name": "Office of Readings: 23rd Week in OT, Tuesday",
+      "name": "Office of Readings: 23rd Week in Ordinary Time, Tuesday",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "2:4a"
     },
     {
-      "name": "Office of Readings: 23rd Week in OT, Wednesday",
+      "name": "Office of Readings: 23rd Week in Ordinary Time, Wednesday",
       "color": "#4C6B4F",
       "start": "2:5",
       "end": "2:20"
     },
     {
-      "name": "Week 2: Friday MP",
+      "name": "Week 2: Friday Morning Prayer",
       "color": "#5E4B81",
       "segments": [
         {

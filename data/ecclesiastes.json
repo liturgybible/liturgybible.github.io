@@ -15,19 +15,19 @@
       ]
     },
     {
-      "name": "OT, Week 25, Thurs [II, #452]",
+      "name": "Ordinary Time, Week 25, Thurs [II, #452]",
       "color": "#B35C58",
       "start": "1:2",
       "end": "1:11"
     },
     {
-      "name": "OT, Week 25, Fri [II, #453]",
+      "name": "Ordinary Time, Week 25, Fri [II, #453]",
       "color": "#B35C58",
       "start": "3:1",
       "end": "3:11"
     },
     {
-      "name": "OT, Week 25, Sat [II, #454]",
+      "name": "Ordinary Time, Week 25, Sat [II, #454]",
       "color": "#B35C58",
       "start": "11:9",
       "end": "12:8"
@@ -35,13 +35,13 @@
   ],
   "divineOffice": [
     {
-      "name": "Office of Readings: 7th Sunday in OT",
+      "name": "Office of Readings: 7th Sunday in Ordinary Time",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:18"
     },
     {
-      "name": "Office of Readings: 7th Week in OT, Monday",
+      "name": "Office of Readings: 7th Week in Ordinary Time, Monday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -55,31 +55,31 @@
       ]
     },
     {
-      "name": "Office of Readings: 7th Week in OT, Tuesday",
+      "name": "Office of Readings: 7th Week in Ordinary Time, Tuesday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:22"
     },
     {
-      "name": "Office of Readings: 7th Week in OT, Wednesday",
+      "name": "Office of Readings: 7th Week in Ordinary Time, Wednesday",
       "color": "#4C6B4F",
       "start": "5:9",
       "end": "6:8"
     },
     {
-      "name": "Office of Readings: 7th Week in OT, Thursday",
+      "name": "Office of Readings: 7th Week in Ordinary Time, Thursday",
       "color": "#4C6B4F",
       "start": "6:12",
       "end": "7:28"
     },
     {
-      "name": "Office of Readings: 7th Week in OT, Friday",
+      "name": "Office of Readings: 7th Week in Ordinary Time, Friday",
       "color": "#4C6B4F",
       "start": "8:5",
       "end": "9:10"
     },
     {
-      "name": "Office of Readings: 7th Week in OT, Saturday",
+      "name": "Office of Readings: 7th Week in Ordinary Time, Saturday",
       "color": "#4C6B4F",
       "start": "11:7",
       "end": "12:4"

@@ -17,7 +17,7 @@
   ],
   "divineOffice": [
     {
-      "name": "Week 1: Wednesday MP",
+      "name": "Week 1: Wednesday Morning Prayer",
       "color": "#5E4B81",
       "segments": [
         {
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "name": "Week 4: Monday MP",
+      "name": "Week 4: Monday Morning Prayer",
       "color": "#4A628A",
       "start": "8:25",
       "end": "8:27"

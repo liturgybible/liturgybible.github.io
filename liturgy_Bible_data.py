@@ -16,7 +16,7 @@ COLOR_MAP = {
     "Sunday Reading": "#7B2E2B",
     "Solemnities & Feasts": "#C9A441",
     "Weekday Reading": "#B35C58",
-    "LOTH: OR": "#4C6B4F",
+    "LOTH: Office of Readings": "#4C6B4F",
     "LOTH: Psalms": "#5E4B81",
     "LOTH: Ordinary": "#5E4B81",
     "LOTH: Other": "#4A628A"

@@ -49,31 +49,31 @@
       "end": "5:10"
     },
     {
-      "name": "OT, Week 6, Mon [II, #335]",
+      "name": "Ordinary Time, Week 6, Mon [II, #335]",
       "color": "#B35C58",
       "start": "1:1",
       "end": "1:11"
     },
     {
-      "name": "OT, Week 6, Tues [II, #336]",
+      "name": "Ordinary Time, Week 6, Tues [II, #336]",
       "color": "#B35C58",
       "start": "1:12",
       "end": "1:18"
     },
     {
-      "name": "OT, Week 6, Wed [II, #337]",
+      "name": "Ordinary Time, Week 6, Wed [II, #337]",
       "color": "#B35C58",
       "start": "1:19",
       "end": "1:27"
     },
     {
-      "name": "OT, Week 6, Thurs [II, #338]",
+      "name": "Ordinary Time, Week 6, Thurs [II, #338]",
       "color": "#B35C58",
       "start": "2:1",
       "end": "2:9"
     },
     {
-      "name": "OT, Week 6, Fri [II, #339]",
+      "name": "Ordinary Time, Week 6, Fri [II, #339]",
       "color": "#B35C58",
       "segments": [
         {
@@ -87,43 +87,43 @@
       ]
     },
     {
-      "name": "OT, Week 6, Sat [II, #340]",
+      "name": "Ordinary Time, Week 6, Sat [II, #340]",
       "color": "#B35C58",
       "start": "3:1",
       "end": "3:10"
     },
     {
-      "name": "OT, Week 7, Mon [II, #341]",
+      "name": "Ordinary Time, Week 7, Mon [II, #341]",
       "color": "#B35C58",
       "start": "3:13",
       "end": "3:18"
     },
     {
-      "name": "OT, Week 7, Tues [II, #342]",
+      "name": "Ordinary Time, Week 7, Tues [II, #342]",
       "color": "#B35C58",
       "start": "4:1",
       "end": "4:10"
     },
     {
-      "name": "OT, Week 7, Wed [II, #343]",
+      "name": "Ordinary Time, Week 7, Wed [II, #343]",
       "color": "#B35C58",
       "start": "4:13",
       "end": "4:17"
     },
     {
-      "name": "OT, Week 7, Thurs [II, #344]",
+      "name": "Ordinary Time, Week 7, Thurs [II, #344]",
       "color": "#B35C58",
       "start": "5:1",
       "end": "5:6"
     },
     {
-      "name": "OT, Week 7, Fri [II, #345]",
+      "name": "Ordinary Time, Week 7, Fri [II, #345]",
       "color": "#B35C58",
       "start": "5:9",
       "end": "5:12"
     },
     {
-      "name": "OT, Week 7, Sat [II, #346]",
+      "name": "Ordinary Time, Week 7, Sat [II, #346]",
       "color": "#B35C58",
       "start": "5:13",
       "end": "5:20"
@@ -131,7 +131,7 @@
   ],
   "divineOffice": [
     {
-      "name": "Week 1: Monday DP2",
+      "name": "Week 1: Monday Daytime Prayer2",
       "color": "#4A628A",
       "segments": [
         {
@@ -145,7 +145,7 @@
       ]
     },
     {
-      "name": "Week 1: Wednesday DP3",
+      "name": "Week 1: Wednesday Daytime Prayer3",
       "color": "#4A628A",
       "segments": [
         {
@@ -159,7 +159,7 @@
       ]
     },
     {
-      "name": "Week 1: Wednesday EP",
+      "name": "Week 1: Wednesday Evening Prayer",
       "color": "#4A628A",
       "segments": [
         {
@@ -173,19 +173,19 @@
       ]
     },
     {
-      "name": "Week 3: Monday MP",
+      "name": "Week 3: Monday Morning Prayer",
       "color": "#4A628A",
       "start": "2:12",
       "end": "2:13"
     },
     {
-      "name": "Week 3: Monday EP",
+      "name": "Week 3: Monday Evening Prayer",
       "color": "#4A628A",
       "start": "4:11",
       "end": "4:12"
     },
     {
-      "name": "Week 3: Friday EP",
+      "name": "Week 3: Friday Evening Prayer",
       "color": "#4A628A",
       "start": "1:2",
       "end": "1:4"

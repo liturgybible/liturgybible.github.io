@@ -25,7 +25,7 @@
       "end": "33:9"
     },
     {
-      "name": "34th Sunday in OT: Christ the King [A, #160]",
+      "name": "34th Sunday in Ordinary Time: Christ the King [A, #160]",
       "color": "#7B2E2B",
       "segments": [
         {
@@ -89,7 +89,7 @@
       ]
     },
     {
-      "name": "OT, Week 19, Mon [II, #413]",
+      "name": "Ordinary Time, Week 19, Mon [II, #413]",
       "color": "#B35C58",
       "segments": [
         {
@@ -103,13 +103,13 @@
       ]
     },
     {
-      "name": "OT, Week 19, Tues [II, #414]",
+      "name": "Ordinary Time, Week 19, Tues [II, #414]",
       "color": "#B35C58",
       "start": "2:8",
       "end": "3:4"
     },
     {
-      "name": "OT, Week 19, Wed [II, #415]",
+      "name": "Ordinary Time, Week 19, Wed [II, #415]",
       "color": "#B35C58",
       "segments": [
         {
@@ -123,13 +123,13 @@
       ]
     },
     {
-      "name": "OT, Week 19, Thurs [II, #416]",
+      "name": "Ordinary Time, Week 19, Thurs [II, #416]",
       "color": "#B35C58",
       "start": "12:1",
       "end": "12:12"
     },
     {
-      "name": "OT, Week 19, Fri [II, #417]",
+      "name": "Ordinary Time, Week 19, Fri [II, #417]",
       "color": "#B35C58",
       "segments": [
         {
@@ -147,13 +147,13 @@
       ]
     },
     {
-      "name": "OT, Week 19, Fri [II, #417] (short)",
+      "name": "Ordinary Time, Week 19, Fri [II, #417] (short)",
       "color": "#B35C58",
       "start": "16:59",
       "end": "16:63"
     },
     {
-      "name": "OT, Week 19, Sat [II, #418]",
+      "name": "Ordinary Time, Week 19, Sat [II, #418]",
       "color": "#B35C58",
       "segments": [
         {
@@ -177,31 +177,31 @@
       "end": "18:28"
     },
     {
-      "name": "OT, Week 20, Mon [II, #419]",
+      "name": "Ordinary Time, Week 20, Mon [II, #419]",
       "color": "#B35C58",
       "start": "24:15",
       "end": "24:23"
     },
     {
-      "name": "OT, Week 20, Tues [II, #420]",
+      "name": "Ordinary Time, Week 20, Tues [II, #420]",
       "color": "#B35C58",
       "start": "28:1",
       "end": "28:10"
     },
     {
-      "name": "OT, Week 20, Wed [II, #421]",
+      "name": "Ordinary Time, Week 20, Wed [II, #421]",
       "color": "#B35C58",
       "start": "34:1",
       "end": "34:11"
     },
     {
-      "name": "OT, Week 20, Thurs [II, #422]",
+      "name": "Ordinary Time, Week 20, Thurs [II, #422]",
       "color": "#B35C58",
       "start": "36:23",
       "end": "36:28"
     },
     {
-      "name": "OT, Week 20, Fri [II, #423]",
+      "name": "Ordinary Time, Week 20, Fri [II, #423]",
       "color": "#B35C58",
       "start": "37:1",
       "end": "37:14"
@@ -213,7 +213,7 @@
       "end": "37:28"
     },
     {
-      "name": "OT, Week 20, Sat [II, #424]",
+      "name": "Ordinary Time, Week 20, Sat [II, #424]",
       "color": "#B35C58",
       "start": "43:1",
       "end": "43:7ab"
@@ -253,7 +253,7 @@
   ],
   "divineOffice": [
     {
-      "name": "Office of Readings: 24th Sunday in OT",
+      "name": "Office of Readings: 24th Sunday in Ordinary Time",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -267,7 +267,7 @@
       ]
     },
     {
-      "name": "Office of Readings: 24th Week in OT, Monday",
+      "name": "Office of Readings: 24th Week in Ordinary Time, Monday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -281,7 +281,7 @@
       ]
     },
     {
-      "name": "Office of Readings: 24th Week in OT, Tuesday",
+      "name": "Office of Readings: 24th Week in Ordinary Time, Tuesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -295,7 +295,7 @@
       ]
     },
     {
-      "name": "Office of Readings: 24th Week in OT, Wednesday",
+      "name": "Office of Readings: 24th Week in Ordinary Time, Wednesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -309,13 +309,13 @@
       ]
     },
     {
-      "name": "Office of Readings: 24th Week in OT, Thursday",
+      "name": "Office of Readings: 24th Week in Ordinary Time, Thursday",
       "color": "#4C6B4F",
       "start": "12:1",
       "end": "12:6"
     },
     {
-      "name": "Office of Readings: 24th Week in OT, Friday",
+      "name": "Office of Readings: 24th Week in Ordinary Time, Friday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -349,7 +349,7 @@
       ]
     },
     {
-      "name": "Office of Readings: 24th Week in OT, Saturday",
+      "name": "Office of Readings: 24th Week in Ordinary Time, Saturday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -363,13 +363,13 @@
       ]
     },
     {
-      "name": "Office of Readings: 25th Sunday in OT",
+      "name": "Office of Readings: 25th Sunday in Ordinary Time",
       "color": "#4C6B4F",
       "start": "24:15",
       "end": "24:27"
     },
     {
-      "name": "Office of Readings: 25th Week in OT, Monday",
+      "name": "Office of Readings: 25th Week in Ordinary Time, Monday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -393,25 +393,25 @@
       "end": "36:28"
     },
     {
-      "name": "Office of Readings: 25th Week in OT, Tuesday",
+      "name": "Office of Readings: 25th Week in Ordinary Time, Tuesday",
       "color": "#4C6B4F",
       "start": "36:16",
       "end": "36:36"
     },
     {
-      "name": "Office of Readings: 25th Week in OT, Wednesday",
+      "name": "Office of Readings: 25th Week in Ordinary Time, Wednesday",
       "color": "#4C6B4F",
       "start": "37:1",
       "end": "37:14"
     },
     {
-      "name": "Office of Readings: 25th Week in OT, Thursday",
+      "name": "Office of Readings: 25th Week in Ordinary Time, Thursday",
       "color": "#4C6B4F",
       "start": "37:15",
       "end": "37:28"
     },
     {
-      "name": "Office of Readings: 25th Week in OT, Friday",
+      "name": "Office of Readings: 25th Week in Ordinary Time, Friday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -429,31 +429,31 @@
       ]
     },
     {
-      "name": "Office of Readings: 25th Week in OT, Saturday",
+      "name": "Office of Readings: 25th Week in Ordinary Time, Saturday",
       "color": "#4C6B4F",
       "start": "47:1",
       "end": "47:12"
     },
     {
-      "name": "Week 4: Saturday MP",
+      "name": "Week 4: Saturday Morning Prayer",
       "color": "#5E4B81",
       "start": "36:24",
       "end": "36:28"
     },
     {
-      "name": "Week 2: Sunday MP",
+      "name": "Week 2: Sunday Morning Prayer",
       "color": "#4A628A",
       "start": "36:25",
       "end": "36:27"
     },
     {
-      "name": "Week 2: Monday DP3",
+      "name": "Week 2: Monday Daytime Prayer3",
       "color": "#4A628A",
       "start": "34:31",
       "end": "34:31"
     },
     {
-      "name": "Week 3: Sunday MP",
+      "name": "Week 3: Sunday Morning Prayer",
       "color": "#4A628A",
       "start": "37:12b",
       "end": "37:14"

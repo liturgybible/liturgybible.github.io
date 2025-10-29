@@ -31,13 +31,13 @@
       ]
     },
     {
-      "name": "OT, Week 25, Mon [II, #449]",
+      "name": "Ordinary Time, Week 25, Mon [II, #449]",
       "color": "#B35C58",
       "start": "3:27",
       "end": "3:34"
     },
     {
-      "name": "OT, Week 25, Tues [II, #450]",
+      "name": "Ordinary Time, Week 25, Tues [II, #450]",
       "color": "#B35C58",
       "segments": [
         {
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "name": "OT, Week 25, Wed [II, #451]",
+      "name": "Ordinary Time, Week 25, Wed [II, #451]",
       "color": "#B35C58",
       "start": "30:5",
       "end": "30:9"
@@ -59,7 +59,7 @@
   ],
   "divineOffice": [
     {
-      "name": "Office of Readings: 6th Sunday in OT",
+      "name": "Office of Readings: 6th Sunday in Ordinary Time",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -73,13 +73,13 @@
       ]
     },
     {
-      "name": "Office of Readings: 6th Week in OT, Monday",
+      "name": "Office of Readings: 6th Week in Ordinary Time, Monday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:20"
     },
     {
-      "name": "Office of Readings: 6th Week in OT, Tuesday",
+      "name": "Office of Readings: 6th Week in Ordinary Time, Tuesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -93,19 +93,19 @@
       ]
     },
     {
-      "name": "Office of Readings: 6th Week in OT, Wednesday",
+      "name": "Office of Readings: 6th Week in Ordinary Time, Wednesday",
       "color": "#4C6B4F",
       "start": "9:1",
       "end": "9:18"
     },
     {
-      "name": "Office of Readings: 6th Week in OT, Thursday",
+      "name": "Office of Readings: 6th Week in Ordinary Time, Thursday",
       "color": "#4C6B4F",
       "start": "10:6",
       "end": "10:32"
     },
     {
-      "name": "Office of Readings: 6th Week in OT, Friday",
+      "name": "Office of Readings: 6th Week in Ordinary Time, Friday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "name": "Office of Readings: 6th Week in OT, Saturday",
+      "name": "Office of Readings: 6th Week in Ordinary Time, Saturday",
       "color": "#4C6B4F",
       "start": "31:10",
       "end": "31:31"
@@ -151,13 +151,13 @@
       "end": "31:31"
     },
     {
-      "name": "Week 1: Tuesday DP2",
+      "name": "Week 1: Tuesday Daytime Prayer2",
       "color": "#4A628A",
       "start": "3:13",
       "end": "3:15"
     },
     {
-      "name": "Week 3: Tuesday DP3",
+      "name": "Week 3: Tuesday Daytime Prayer3",
       "color": "#4A628A",
       "start": "22:22",
       "end": "22:23"

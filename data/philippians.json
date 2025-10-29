@@ -97,19 +97,19 @@
       ]
     },
     {
-      "name": "OT, Week 30, Fri [II, #483]",
+      "name": "Ordinary Time, Week 30, Fri [II, #483]",
       "color": "#B35C58",
       "start": "1:1",
       "end": "1:11"
     },
     {
-      "name": "OT, Week 30, Sat [II, #484]",
+      "name": "Ordinary Time, Week 30, Sat [II, #484]",
       "color": "#B35C58",
       "start": "1:18b",
       "end": "1:26"
     },
     {
-      "name": "OT, Week 31, Mon [II, #485]",
+      "name": "Ordinary Time, Week 31, Mon [II, #485]",
       "color": "#B35C58",
       "start": "2:1",
       "end": "2:4"
@@ -121,7 +121,7 @@
       "end": "2:11"
     },
     {
-      "name": "OT, Week 31, Tues [II, #486]",
+      "name": "Ordinary Time, Week 31, Tues [II, #486]",
       "color": "#B35C58",
       "start": "2:5",
       "end": "2:11"
@@ -133,25 +133,25 @@
       "end": "2:11"
     },
     {
-      "name": "OT, Week 31, Wed [II, #487]",
+      "name": "Ordinary Time, Week 31, Wed [II, #487]",
       "color": "#B35C58",
       "start": "2:12",
       "end": "2:18"
     },
     {
-      "name": "OT, Week 31, Thurs [II, #488]",
+      "name": "Ordinary Time, Week 31, Thurs [II, #488]",
       "color": "#B35C58",
       "start": "3:3",
       "end": "3:8a"
     },
     {
-      "name": "OT, Week 31, Fri [II, #489]",
+      "name": "Ordinary Time, Week 31, Fri [II, #489]",
       "color": "#B35C58",
       "start": "3:17",
       "end": "4:1"
     },
     {
-      "name": "OT, Week 31, Sat [II, #490]",
+      "name": "Ordinary Time, Week 31, Sat [II, #490]",
       "color": "#B35C58",
       "start": "4:10",
       "end": "4:19"
@@ -159,19 +159,19 @@
   ],
   "divineOffice": [
     {
-      "name": "Office of Readings: 26th Sunday in OT",
+      "name": "Office of Readings: 26th Sunday in Ordinary Time",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:11"
     },
     {
-      "name": "Office of Readings: 26th Week in OT, Monday",
+      "name": "Office of Readings: 26th Week in Ordinary Time, Monday",
       "color": "#4C6B4F",
       "start": "1:12",
       "end": "1:26"
     },
     {
-      "name": "Office of Readings: 26th Week in OT, Tuesday",
+      "name": "Office of Readings: 26th Week in Ordinary Time, Tuesday",
       "color": "#4C6B4F",
       "start": "1:27",
       "end": "2:11"
@@ -183,13 +183,13 @@
       "end": "2:16"
     },
     {
-      "name": "Office of Readings: 26th Week in OT, Wednesday",
+      "name": "Office of Readings: 26th Week in Ordinary Time, Wednesday",
       "color": "#4C6B4F",
       "start": "2:12",
       "end": "2:30"
     },
     {
-      "name": "Office of Readings: 26th Week in OT, Thursday",
+      "name": "Office of Readings: 26th Week in Ordinary Time, Thursday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:16"
@@ -209,37 +209,37 @@
       ]
     },
     {
-      "name": "Office of Readings: 26th Week in OT, Friday",
+      "name": "Office of Readings: 26th Week in Ordinary Time, Friday",
       "color": "#4C6B4F",
       "start": "3:17",
       "end": "4:9"
     },
     {
-      "name": "Office of Readings: 26th Week in OT, Saturday",
+      "name": "Office of Readings: 26th Week in Ordinary Time, Saturday",
       "color": "#4C6B4F",
       "start": "4:10",
       "end": "4:23"
     },
     {
-      "name": "Weeks 1,2,3,4: Sunday EP1",
+      "name": "Weeks 1,2,3,4: Sunday Evening Prayer I",
       "color": "#5E4B81",
       "start": "2:6",
       "end": "2:11"
     },
     {
-      "name": "Week 1: Friday DP1",
+      "name": "Week 1: Friday Daytime Prayer1",
       "color": "#4A628A",
       "start": "2:2b",
       "end": "2:4"
     },
     {
-      "name": "Week 3: Saturday MP",
+      "name": "Week 3: Saturday Morning Prayer",
       "color": "#4A628A",
       "start": "2:14",
       "end": "2:15"
     },
     {
-      "name": "Week 4: Saturday DP3",
+      "name": "Week 4: Saturday Daytime Prayer3",
       "color": "#4A628A",
       "segments": [
         {
@@ -251,6 +251,12 @@
           "end": "4:9b"
         }
       ]
+    },
+    {
+      "name": "Office for the Dead: Evening Prayer",
+      "color": "#4A628A",
+      "start": "2:6",
+      "end": "2:11"
     },
     {
       "name": "Office for the Dead: Evening Prayer",

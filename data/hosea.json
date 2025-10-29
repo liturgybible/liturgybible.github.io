@@ -43,7 +43,7 @@
       ]
     },
     {
-      "name": "OT, Week 14, Mon [II, #383]",
+      "name": "Ordinary Time, Week 14, Mon [II, #383]",
       "color": "#B35C58",
       "segments": [
         {
@@ -67,7 +67,7 @@
       "end": "6:6"
     },
     {
-      "name": "OT, Week 14, Tues [II, #384]",
+      "name": "Ordinary Time, Week 14, Tues [II, #384]",
       "color": "#B35C58",
       "segments": [
         {
@@ -81,7 +81,7 @@
       ]
     },
     {
-      "name": "OT, Week 14, Wed [II, #385]",
+      "name": "Ordinary Time, Week 14, Wed [II, #385]",
       "color": "#B35C58",
       "segments": [
         {
@@ -99,7 +99,7 @@
       ]
     },
     {
-      "name": "OT, Week 14, Thurs [II, #386]",
+      "name": "Ordinary Time, Week 14, Thurs [II, #386]",
       "color": "#B35C58",
       "segments": [
         {
@@ -119,7 +119,7 @@
       "end": "14:10"
     },
     {
-      "name": "OT, Week 14, Fri [II, #387]",
+      "name": "Ordinary Time, Week 14, Fri [II, #387]",
       "color": "#B35C58",
       "start": "14:2",
       "end": "14:10"
@@ -127,7 +127,7 @@
   ],
   "divineOffice": [
     {
-      "name": "Office of Readings: 18th Week in OT, Thursday",
+      "name": "Office of Readings: 18th Week in Ordinary Time, Thursday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -141,7 +141,7 @@
       ]
     },
     {
-      "name": "Office of Readings: 18th Week in OT, Friday",
+      "name": "Office of Readings: 18th Week in Ordinary Time, Friday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -155,19 +155,19 @@
       ]
     },
     {
-      "name": "Office of Readings: 18th Week in OT, Saturday",
+      "name": "Office of Readings: 18th Week in Ordinary Time, Saturday",
       "color": "#4C6B4F",
       "start": "6:1",
       "end": "7:2"
     },
     {
-      "name": "Office of Readings: 19th Sunday in OT",
+      "name": "Office of Readings: 19th Sunday in Ordinary Time",
       "color": "#4C6B4F",
       "start": "11:1",
       "end": "11:11"
     },
     {
-      "name": "Office of Readings: 19th Week in OT, Monday",
+      "name": "Office of Readings: 19th Week in Ordinary Time, Monday",
       "color": "#4C6B4F",
       "start": "14:2",
       "end": "14:10"

@@ -375,7 +375,7 @@
       ]
     },
     {
-      "name": "34th Sunday in OT: Christ the King [A, #160]",
+      "name": "34th Sunday in Ordinary Time: Christ the King [A, #160]",
       "color": "#7B2E2B",
       "start": "25:31",
       "end": "25:46"
@@ -493,13 +493,13 @@
       "end": "5:12a"
     },
     {
-      "name": "OT, Week 10, Mon [I/II, #359]",
+      "name": "Ordinary Time, Week 10, Mon [I/II, #359]",
       "color": "#B35C58",
       "start": "5:1",
       "end": "5:12"
     },
     {
-      "name": "OT, Week 10, Tues [I/II, #360]",
+      "name": "Ordinary Time, Week 10, Tues [I/II, #360]",
       "color": "#B35C58",
       "start": "5:13",
       "end": "5:16"
@@ -511,7 +511,7 @@
       "end": "5:19"
     },
     {
-      "name": "OT, Week 10, Wed [I/II, #361]",
+      "name": "Ordinary Time, Week 10, Wed [I/II, #361]",
       "color": "#B35C58",
       "start": "5:17",
       "end": "5:19"
@@ -523,25 +523,25 @@
       "end": "5:26"
     },
     {
-      "name": "OT, Week 10, Thurs [I/II, #362]",
+      "name": "Ordinary Time, Week 10, Thurs [I/II, #362]",
       "color": "#B35C58",
       "start": "5:20",
       "end": "5:26"
     },
     {
-      "name": "OT, Week 10, Fri [I/II, #363]",
+      "name": "Ordinary Time, Week 10, Fri [I/II, #363]",
       "color": "#B35C58",
       "start": "5:27",
       "end": "5:32"
     },
     {
-      "name": "OT, Week 10, Sat [I/II, #364]",
+      "name": "Ordinary Time, Week 10, Sat [I/II, #364]",
       "color": "#B35C58",
       "start": "5:33",
       "end": "5:37"
     },
     {
-      "name": "OT, Week 11, Mon [I/II, #365]",
+      "name": "Ordinary Time, Week 11, Mon [I/II, #365]",
       "color": "#B35C58",
       "start": "5:38",
       "end": "5:42"
@@ -553,7 +553,7 @@
       "end": "5:48"
     },
     {
-      "name": "OT, Week 11, Tues [I/II, #366]",
+      "name": "Ordinary Time, Week 11, Tues [I/II, #366]",
       "color": "#B35C58",
       "start": "5:43",
       "end": "5:48"
@@ -573,7 +573,7 @@
       ]
     },
     {
-      "name": "OT, Week 11, Wed [I/II, #367]",
+      "name": "Ordinary Time, Week 11, Wed [I/II, #367]",
       "color": "#B35C58",
       "segments": [
         {
@@ -587,13 +587,13 @@
       ]
     },
     {
-      "name": "OT, Week 11, Fri [I/II, #369]",
+      "name": "Ordinary Time, Week 11, Fri [I/II, #369]",
       "color": "#B35C58",
       "start": "6:19",
       "end": "6:23"
     },
     {
-      "name": "OT, Week 11, Sat [I/II, #370]",
+      "name": "Ordinary Time, Week 11, Sat [I/II, #370]",
       "color": "#B35C58",
       "start": "6:24",
       "end": "6:34"
@@ -605,19 +605,19 @@
       "end": "6:15"
     },
     {
-      "name": "OT, Week 11, Thurs [I/II, #368]",
+      "name": "Ordinary Time, Week 11, Thurs [I/II, #368]",
       "color": "#B35C58",
       "start": "6:7",
       "end": "6:15"
     },
     {
-      "name": "OT, Week 12, Mon [I/II, #371]",
+      "name": "Ordinary Time, Week 12, Mon [I/II, #371]",
       "color": "#B35C58",
       "start": "7:1",
       "end": "7:5"
     },
     {
-      "name": "OT, Week 12, Tues [I/II, #372]",
+      "name": "Ordinary Time, Week 12, Tues [I/II, #372]",
       "color": "#B35C58",
       "segments": [
         {
@@ -637,7 +637,7 @@
       "end": "7:12"
     },
     {
-      "name": "OT, Week 12, Wed [I/II, #373]",
+      "name": "Ordinary Time, Week 12, Wed [I/II, #373]",
       "color": "#B35C58",
       "start": "7:15",
       "end": "7:20"
@@ -657,13 +657,13 @@
       ]
     },
     {
-      "name": "OT, Week 12, Thurs [I/II, #374]",
+      "name": "Ordinary Time, Week 12, Thurs [I/II, #374]",
       "color": "#B35C58",
       "start": "7:21",
       "end": "7:29"
     },
     {
-      "name": "OT, Week 12, Fri [I/II, #375]",
+      "name": "Ordinary Time, Week 12, Fri [I/II, #375]",
       "color": "#B35C58",
       "start": "8:1",
       "end": "8:4"
@@ -675,37 +675,37 @@
       "end": "8:11"
     },
     {
-      "name": "OT, Week 12, Sat [I/II, #376]",
+      "name": "Ordinary Time, Week 12, Sat [I/II, #376]",
       "color": "#B35C58",
       "start": "8:5",
       "end": "8:17"
     },
     {
-      "name": "OT, Week 13, Mon [I/II, #377]",
+      "name": "Ordinary Time, Week 13, Mon [I/II, #377]",
       "color": "#B35C58",
       "start": "8:18",
       "end": "8:22"
     },
     {
-      "name": "OT, Week 13, Tues [I/II, #378]",
+      "name": "Ordinary Time, Week 13, Tues [I/II, #378]",
       "color": "#B35C58",
       "start": "8:23",
       "end": "8:27"
     },
     {
-      "name": "OT, Week 13, Wed [I/II, #379]",
+      "name": "Ordinary Time, Week 13, Wed [I/II, #379]",
       "color": "#B35C58",
       "start": "8:28",
       "end": "8:34"
     },
     {
-      "name": "OT, Week 13, Thurs [I/II, #380]",
+      "name": "Ordinary Time, Week 13, Thurs [I/II, #380]",
       "color": "#B35C58",
       "start": "9:1",
       "end": "9:8"
     },
     {
-      "name": "OT, Week 13, Fri [I/II, #381]",
+      "name": "Ordinary Time, Week 13, Fri [I/II, #381]",
       "color": "#B35C58",
       "start": "9:9",
       "end": "9:13"
@@ -723,13 +723,13 @@
       "end": "9:15"
     },
     {
-      "name": "OT, Week 13, Sat [I/II, #382]",
+      "name": "Ordinary Time, Week 13, Sat [I/II, #382]",
       "color": "#B35C58",
       "start": "9:14",
       "end": "9:17"
     },
     {
-      "name": "OT, Week 14, Mon [I/II, #383]",
+      "name": "Ordinary Time, Week 14, Mon [I/II, #383]",
       "color": "#B35C58",
       "start": "9:18",
       "end": "9:26"
@@ -741,7 +741,7 @@
       "end": "9:31"
     },
     {
-      "name": "OT, Week 14, Tues [I/II, #384]",
+      "name": "Ordinary Time, Week 14, Tues [I/II, #384]",
       "color": "#B35C58",
       "start": "9:32",
       "end": "9:38"
@@ -765,7 +765,7 @@
       ]
     },
     {
-      "name": "OT, Week 14, Wed [I/II, #385]",
+      "name": "Ordinary Time, Week 14, Wed [I/II, #385]",
       "color": "#B35C58",
       "start": "10:1",
       "end": "10:7"
@@ -777,13 +777,13 @@
       "end": "10:13"
     },
     {
-      "name": "OT, Week 14, Thurs [I/II, #386]",
+      "name": "Ordinary Time, Week 14, Thurs [I/II, #386]",
       "color": "#B35C58",
       "start": "10:7",
       "end": "10:15"
     },
     {
-      "name": "OT, Week 14, Fri [I/II, #387]",
+      "name": "Ordinary Time, Week 14, Fri [I/II, #387]",
       "color": "#B35C58",
       "start": "10:16",
       "end": "10:23"
@@ -795,13 +795,13 @@
       "end": "10:22"
     },
     {
-      "name": "OT, Week 14, Sat [I/II, #388]",
+      "name": "Ordinary Time, Week 14, Sat [I/II, #388]",
       "color": "#B35C58",
       "start": "10:24",
       "end": "10:33"
     },
     {
-      "name": "OT, Week 15, Mon [I/II, #389]",
+      "name": "Ordinary Time, Week 15, Mon [I/II, #389]",
       "color": "#B35C58",
       "start": "10:34",
       "end": "11:1"
@@ -819,13 +819,13 @@
       "end": "11:19"
     },
     {
-      "name": "OT, Week 15, Tues [I/II, #390]",
+      "name": "Ordinary Time, Week 15, Tues [I/II, #390]",
       "color": "#B35C58",
       "start": "11:20",
       "end": "11:24"
     },
     {
-      "name": "OT, Week 15, Wed [I/II, #391]",
+      "name": "Ordinary Time, Week 15, Wed [I/II, #391]",
       "color": "#B35C58",
       "start": "11:25",
       "end": "11:27"
@@ -837,43 +837,43 @@
       "end": "11:30"
     },
     {
-      "name": "OT, Week 15, Thurs [I/II, #392]",
+      "name": "Ordinary Time, Week 15, Thurs [I/II, #392]",
       "color": "#B35C58",
       "start": "11:28",
       "end": "11:30"
     },
     {
-      "name": "OT, Week 15, Fri [I/II, #393]",
+      "name": "Ordinary Time, Week 15, Fri [I/II, #393]",
       "color": "#B35C58",
       "start": "12:1",
       "end": "12:8"
     },
     {
-      "name": "OT, Week 15, Sat [I/II, #394]",
+      "name": "Ordinary Time, Week 15, Sat [I/II, #394]",
       "color": "#B35C58",
       "start": "12:14",
       "end": "12:21"
     },
     {
-      "name": "OT, Week 16, Mon [I/II, #395]",
+      "name": "Ordinary Time, Week 16, Mon [I/II, #395]",
       "color": "#B35C58",
       "start": "12:38",
       "end": "12:42"
     },
     {
-      "name": "OT, Week 16, Tues [I/II, #396]",
+      "name": "Ordinary Time, Week 16, Tues [I/II, #396]",
       "color": "#B35C58",
       "start": "12:46",
       "end": "12:50"
     },
     {
-      "name": "OT, Week 16, Wed [I/II, #397]",
+      "name": "Ordinary Time, Week 16, Wed [I/II, #397]",
       "color": "#B35C58",
       "start": "13:1",
       "end": "13:9"
     },
     {
-      "name": "OT, Week 16, Thurs [I/II, #398]",
+      "name": "Ordinary Time, Week 16, Thurs [I/II, #398]",
       "color": "#B35C58",
       "start": "13:10",
       "end": "13:17"
@@ -885,43 +885,43 @@
       "end": "13:17"
     },
     {
-      "name": "OT, Week 16, Fri [I/II, #399]",
+      "name": "Ordinary Time, Week 16, Fri [I/II, #399]",
       "color": "#B35C58",
       "start": "13:18",
       "end": "13:23"
     },
     {
-      "name": "OT, Week 16, Sat [I/II, #400]",
+      "name": "Ordinary Time, Week 16, Sat [I/II, #400]",
       "color": "#B35C58",
       "start": "13:24",
       "end": "13:30"
     },
     {
-      "name": "OT, Week 17, Mon [I/II, #401]",
+      "name": "Ordinary Time, Week 17, Mon [I/II, #401]",
       "color": "#B35C58",
       "start": "13:31",
       "end": "13:35"
     },
     {
-      "name": "OT, Week 17, Tues [I/II, #402]",
+      "name": "Ordinary Time, Week 17, Tues [I/II, #402]",
       "color": "#B35C58",
       "start": "13:36",
       "end": "13:43"
     },
     {
-      "name": "OT, Week 17, Wed [I/II, #403]",
+      "name": "Ordinary Time, Week 17, Wed [I/II, #403]",
       "color": "#B35C58",
       "start": "13:44",
       "end": "13:46"
     },
     {
-      "name": "OT, Week 17, Thurs [I/II, #404]",
+      "name": "Ordinary Time, Week 17, Thurs [I/II, #404]",
       "color": "#B35C58",
       "start": "13:47",
       "end": "13:53"
     },
     {
-      "name": "OT, Week 17, Fri [I/II, #405]",
+      "name": "Ordinary Time, Week 17, Fri [I/II, #405]",
       "color": "#B35C58",
       "start": "13:54",
       "end": "13:58"
@@ -933,13 +933,13 @@
       "end": "13:58"
     },
     {
-      "name": "OT, Week 17, Sat [I/II, #406]",
+      "name": "Ordinary Time, Week 17, Sat [I/II, #406]",
       "color": "#B35C58",
       "start": "14:1",
       "end": "14:12"
     },
     {
-      "name": "OT, Week 18, Mon [I/II, #407]",
+      "name": "Ordinary Time, Week 18, Mon [I/II, #407]",
       "color": "#B35C58",
       "start": "14:13",
       "end": "14:21"
@@ -951,19 +951,19 @@
       "end": "14:33"
     },
     {
-      "name": "OT, Week 18, Tues [I/II, #408]",
+      "name": "Ordinary Time, Week 18, Tues [I/II, #408]",
       "color": "#B35C58",
       "start": "14:22",
       "end": "14:36"
     },
     {
-      "name": "OT, Week 18, Mon (Year A) [I/II, #407]",
+      "name": "Ordinary Time, Week 18, Mon (Year A) [I/II, #407]",
       "color": "#B35C58",
       "start": "14:22",
       "end": "14:36"
     },
     {
-      "name": "OT, Week 18, Tues (Year A) [I/II, #408]",
+      "name": "Ordinary Time, Week 18, Tues (Year A) [I/II, #408]",
       "color": "#B35C58",
       "segments": [
         {
@@ -977,7 +977,7 @@
       ]
     },
     {
-      "name": "OT, Week 18, Wed [I/II, #409]",
+      "name": "Ordinary Time, Week 18, Wed [I/II, #409]",
       "color": "#B35C58",
       "start": "15:21",
       "end": "15:28"
@@ -1001,13 +1001,13 @@
       "end": "16:19"
     },
     {
-      "name": "OT, Week 18, Thurs [I/II, #410]",
+      "name": "Ordinary Time, Week 18, Thurs [I/II, #410]",
       "color": "#B35C58",
       "start": "16:13",
       "end": "16:23"
     },
     {
-      "name": "OT, Week 18, Fri [I/II, #411]",
+      "name": "Ordinary Time, Week 18, Fri [I/II, #411]",
       "color": "#B35C58",
       "start": "16:24",
       "end": "16:28"
@@ -1033,13 +1033,13 @@
       ]
     },
     {
-      "name": "OT, Week 18, Sat [I/II, #412]",
+      "name": "Ordinary Time, Week 18, Sat [I/II, #412]",
       "color": "#B35C58",
       "start": "17:14",
       "end": "17:20"
     },
     {
-      "name": "OT, Week 19, Mon [I/II, #413]",
+      "name": "Ordinary Time, Week 19, Mon [I/II, #413]",
       "color": "#B35C58",
       "start": "17:22",
       "end": "17:27"
@@ -1059,7 +1059,7 @@
       ]
     },
     {
-      "name": "OT, Week 19, Tues [I/II, #414]",
+      "name": "Ordinary Time, Week 19, Tues [I/II, #414]",
       "color": "#B35C58",
       "segments": [
         {
@@ -1083,7 +1083,7 @@
       "end": "18:14"
     },
     {
-      "name": "OT, Week 19, Wed [I/II, #415]",
+      "name": "Ordinary Time, Week 19, Wed [I/II, #415]",
       "color": "#B35C58",
       "start": "18:15",
       "end": "18:20"
@@ -1095,37 +1095,37 @@
       "end": "18:35"
     },
     {
-      "name": "OT, Week 19, Thurs [I/II, #416]",
+      "name": "Ordinary Time, Week 19, Thurs [I/II, #416]",
       "color": "#B35C58",
       "start": "18:21",
       "end": "19:1"
     },
     {
-      "name": "OT, Week 19, Fri [I/II, #417]",
+      "name": "Ordinary Time, Week 19, Fri [I/II, #417]",
       "color": "#B35C58",
       "start": "19:3",
       "end": "19:12"
     },
     {
-      "name": "OT, Week 19, Sat [I/II, #418]",
+      "name": "Ordinary Time, Week 19, Sat [I/II, #418]",
       "color": "#B35C58",
       "start": "19:13",
       "end": "19:15"
     },
     {
-      "name": "OT, Week 20, Mon [I/II, #419]",
+      "name": "Ordinary Time, Week 20, Mon [I/II, #419]",
       "color": "#B35C58",
       "start": "19:16",
       "end": "19:22"
     },
     {
-      "name": "OT, Week 20, Tues [I/II, #420]",
+      "name": "Ordinary Time, Week 20, Tues [I/II, #420]",
       "color": "#B35C58",
       "start": "19:23",
       "end": "19:30"
     },
     {
-      "name": "OT, Week 20, Wed [I/II, #421]",
+      "name": "Ordinary Time, Week 20, Wed [I/II, #421]",
       "color": "#B35C58",
       "start": "20:1",
       "end": "20:16"
@@ -1169,13 +1169,13 @@
       ]
     },
     {
-      "name": "OT, Week 20, Thurs [I/II, #422]",
+      "name": "Ordinary Time, Week 20, Thurs [I/II, #422]",
       "color": "#B35C58",
       "start": "22:1",
       "end": "22:14"
     },
     {
-      "name": "OT, Week 20, Fri [I/II, #423]",
+      "name": "Ordinary Time, Week 20, Fri [I/II, #423]",
       "color": "#B35C58",
       "start": "22:34",
       "end": "22:40"
@@ -1187,43 +1187,43 @@
       "end": "23:12"
     },
     {
-      "name": "OT, Week 20, Sat [I/II, #424]",
+      "name": "Ordinary Time, Week 20, Sat [I/II, #424]",
       "color": "#B35C58",
       "start": "23:1",
       "end": "23:12"
     },
     {
-      "name": "OT, Week 21, Mon [I/II, #425]",
+      "name": "Ordinary Time, Week 21, Mon [I/II, #425]",
       "color": "#B35C58",
       "start": "23:13",
       "end": "23:22"
     },
     {
-      "name": "OT, Week 21, Tues [I/II, #426]",
+      "name": "Ordinary Time, Week 21, Tues [I/II, #426]",
       "color": "#B35C58",
       "start": "23:23",
       "end": "23:26"
     },
     {
-      "name": "OT, Week 21, Wed [I/II, #427]",
+      "name": "Ordinary Time, Week 21, Wed [I/II, #427]",
       "color": "#B35C58",
       "start": "23:27",
       "end": "23:32"
     },
     {
-      "name": "OT, Week 21, Thurs [I/II, #428]",
+      "name": "Ordinary Time, Week 21, Thurs [I/II, #428]",
       "color": "#B35C58",
       "start": "24:42",
       "end": "24:51"
     },
     {
-      "name": "OT, Week 21, Fri [I/II, #429]",
+      "name": "Ordinary Time, Week 21, Fri [I/II, #429]",
       "color": "#B35C58",
       "start": "25:1",
       "end": "25:13"
     },
     {
-      "name": "OT, Week 21, Sat [I/II, #430]",
+      "name": "Ordinary Time, Week 21, Sat [I/II, #430]",
       "color": "#B35C58",
       "start": "25:14",
       "end": "25:30"

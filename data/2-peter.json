@@ -13,7 +13,7 @@
       "end": "3:14"
     },
     {
-      "name": "OT, Week 9, Mon [II, #353]",
+      "name": "Ordinary Time, Week 9, Mon [II, #353]",
       "color": "#B35C58",
       "start": "1:2",
       "end": "1:7"
@@ -25,7 +25,7 @@
       "end": "1:19"
     },
     {
-      "name": "OT, Week 9, Tues [II, #354]",
+      "name": "Ordinary Time, Week 9, Tues [II, #354]",
       "color": "#B35C58",
       "segments": [
         {
@@ -41,49 +41,49 @@
   ],
   "divineOffice": [
     {
-      "name": "Office of Readings: 34th Week in OT, Monday",
+      "name": "Office of Readings: 34th Week in Ordinary Time, Monday",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:11"
     },
     {
-      "name": "Office of Readings: 34th Week in OT, Tuesday",
+      "name": "Office of Readings: 34th Week in Ordinary Time, Tuesday",
       "color": "#4C6B4F",
       "start": "1:12",
       "end": "1:21"
     },
     {
-      "name": "Office of Readings: 34th Week in OT, Wednesday",
+      "name": "Office of Readings: 34th Week in Ordinary Time, Wednesday",
       "color": "#4C6B4F",
       "start": "2:1",
       "end": "2:9"
     },
     {
-      "name": "Office of Readings: 34th Week in OT, Thursday",
+      "name": "Office of Readings: 34th Week in Ordinary Time, Thursday",
       "color": "#4C6B4F",
       "start": "2:9",
       "end": "2:22"
     },
     {
-      "name": "Office of Readings: 34th Week in OT, Friday",
+      "name": "Office of Readings: 34th Week in Ordinary Time, Friday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:18"
     },
     {
-      "name": "Week 1: Saturday MP",
+      "name": "Week 1: Saturday Morning Prayer",
       "color": "#4A628A",
       "start": "1:10",
       "end": "1:11"
     },
     {
-      "name": "Week 4: Sunday EP1",
+      "name": "Week 4: Sunday Evening Prayer I",
       "color": "#4A628A",
       "start": "1:19",
       "end": "1:21"
     },
     {
-      "name": "Week 4: Saturday MP",
+      "name": "Week 4: Saturday Morning Prayer",
       "color": "#4A628A",
       "start": "3:13",
       "end": "3:15a"

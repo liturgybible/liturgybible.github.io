@@ -7,7 +7,7 @@
       "end": "5:4a"
     },
     {
-      "name": "OT, Week 15, Sat [II, #394]",
+      "name": "Ordinary Time, Week 15, Sat [II, #394]",
       "color": "#B35C58",
       "start": "2:1",
       "end": "2:5"
@@ -19,7 +19,7 @@
       "end": "5:4a"
     },
     {
-      "name": "OT, Week 16, Mon [II, #395]",
+      "name": "Ordinary Time, Week 16, Mon [II, #395]",
       "color": "#B35C58",
       "segments": [
         {
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "name": "OT, Week 16, Tues [II, #396]",
+      "name": "Ordinary Time, Week 16, Tues [II, #396]",
       "color": "#B35C58",
       "segments": [
         {
@@ -69,37 +69,37 @@
   ],
   "divineOffice": [
     {
-      "name": "Office of Readings: 19th Week in OT, Tuesday",
+      "name": "Office of Readings: 19th Week in Ordinary Time, Tuesday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:12"
     },
     {
-      "name": "Office of Readings: 19th Week in OT, Thursday",
+      "name": "Office of Readings: 19th Week in Ordinary Time, Thursday",
       "color": "#4C6B4F",
       "start": "4:14",
       "end": "5:7"
     },
     {
-      "name": "Office of Readings: 19th Week in OT, Wednesday",
+      "name": "Office of Readings: 19th Week in Ordinary Time, Wednesday",
       "color": "#4C6B4F",
       "start": "4:1",
       "end": "4:7"
     },
     {
-      "name": "Office of Readings: 19th Week in OT, Friday",
+      "name": "Office of Readings: 19th Week in Ordinary Time, Friday",
       "color": "#4C6B4F",
       "start": "6:1",
       "end": "6:15"
     },
     {
-      "name": "Office of Readings: 19th Week in OT, Saturday",
+      "name": "Office of Readings: 19th Week in Ordinary Time, Saturday",
       "color": "#4C6B4F",
       "start": "7:7",
       "end": "7:20"
     },
     {
-      "name": "Week 3: Saturday DP3",
+      "name": "Week 3: Saturday Daytime Prayer3",
       "color": "#4A628A",
       "start": "6:8",
       "end": "6:8"

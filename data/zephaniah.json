@@ -49,7 +49,7 @@
   ],
   "divineOffice": [
     {
-      "name": "Office of Readings: 21st Sunday in OT",
+      "name": "Office of Readings: 21st Sunday in Ordinary Time",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -63,7 +63,7 @@
       ]
     },
     {
-      "name": "Office of Readings: 21st Week in OT, Monday",
+      "name": "Office of Readings: 21st Week in Ordinary Time, Monday",
       "color": "#4C6B4F",
       "start": "3:8",
       "end": "3:20"

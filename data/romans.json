@@ -267,37 +267,37 @@
       "end": "16:27"
     },
     {
-      "name": "OT, Week 28, Mon [I, #467]",
+      "name": "Ordinary Time, Week 28, Mon [I, #467]",
       "color": "#B35C58",
       "start": "1:1",
       "end": "1:7"
     },
     {
-      "name": "OT, Week 28, Tues [I, #468]",
+      "name": "Ordinary Time, Week 28, Tues [I, #468]",
       "color": "#B35C58",
       "start": "1:16",
       "end": "1:25"
     },
     {
-      "name": "OT, Week 28, Wed [I, #469]",
+      "name": "Ordinary Time, Week 28, Wed [I, #469]",
       "color": "#B35C58",
       "start": "2:1",
       "end": "2:11"
     },
     {
-      "name": "OT, Week 28, Thurs [I, #470]",
+      "name": "Ordinary Time, Week 28, Thurs [I, #470]",
       "color": "#B35C58",
       "start": "3:21",
       "end": "3:30"
     },
     {
-      "name": "OT, Week 28, Fri [I, #471]",
+      "name": "Ordinary Time, Week 28, Fri [I, #471]",
       "color": "#B35C58",
       "start": "4:1",
       "end": "4:8"
     },
     {
-      "name": "OT, Week 28, Sat [I, #472]",
+      "name": "Ordinary Time, Week 28, Sat [I, #472]",
       "color": "#B35C58",
       "segments": [
         {
@@ -329,13 +329,13 @@
       ]
     },
     {
-      "name": "OT, Week 29, Mon [I, #473]",
+      "name": "Ordinary Time, Week 29, Mon [I, #473]",
       "color": "#B35C58",
       "start": "4:20",
       "end": "4:25"
     },
     {
-      "name": "OT, Week 29, Tues [I, #474]",
+      "name": "Ordinary Time, Week 29, Tues [I, #474]",
       "color": "#B35C58",
       "segments": [
         {
@@ -357,43 +357,43 @@
       ]
     },
     {
-      "name": "OT, Week 29, Wed [I, #475]",
+      "name": "Ordinary Time, Week 29, Wed [I, #475]",
       "color": "#B35C58",
       "start": "6:12",
       "end": "6:18"
     },
     {
-      "name": "OT, Week 29, Thurs [I, #476]",
+      "name": "Ordinary Time, Week 29, Thurs [I, #476]",
       "color": "#B35C58",
       "start": "6:19",
       "end": "6:23"
     },
     {
-      "name": "OT, Week 29, Fri [I, #477]",
+      "name": "Ordinary Time, Week 29, Fri [I, #477]",
       "color": "#B35C58",
       "start": "7:18",
       "end": "7:25a"
     },
     {
-      "name": "OT, Week 29, Sat [I, #478]",
+      "name": "Ordinary Time, Week 29, Sat [I, #478]",
       "color": "#B35C58",
       "start": "8:1",
       "end": "8:11"
     },
     {
-      "name": "OT, Week 30, Mon [I, #479]",
+      "name": "Ordinary Time, Week 30, Mon [I, #479]",
       "color": "#B35C58",
       "start": "8:12",
       "end": "8:17"
     },
     {
-      "name": "OT, Week 30, Tues [I, #480]",
+      "name": "Ordinary Time, Week 30, Tues [I, #480]",
       "color": "#B35C58",
       "start": "8:18",
       "end": "8:25"
     },
     {
-      "name": "OT, Week 30, Wed [I, #481]",
+      "name": "Ordinary Time, Week 30, Wed [I, #481]",
       "color": "#B35C58",
       "start": "8:26",
       "end": "8:30"
@@ -405,13 +405,13 @@
       "end": "8:30"
     },
     {
-      "name": "OT, Week 30, Thurs [I, #482]",
+      "name": "Ordinary Time, Week 30, Thurs [I, #482]",
       "color": "#B35C58",
       "start": "8:31b",
       "end": "8:39"
     },
     {
-      "name": "OT, Week 30, Fri [I, #483]",
+      "name": "Ordinary Time, Week 30, Fri [I, #483]",
       "color": "#B35C58",
       "start": "9:1",
       "end": "9:5"
@@ -423,7 +423,7 @@
       "end": "10:18"
     },
     {
-      "name": "OT, Week 30, Sat [I, #484]",
+      "name": "Ordinary Time, Week 30, Sat [I, #484]",
       "color": "#B35C58",
       "segments": [
         {
@@ -441,13 +441,13 @@
       ]
     },
     {
-      "name": "OT, Week 31, Mon [I, #485]",
+      "name": "Ordinary Time, Week 31, Mon [I, #485]",
       "color": "#B35C58",
       "start": "11:29",
       "end": "11:36"
     },
     {
-      "name": "OT, Week 31, Tues [I, #486]",
+      "name": "Ordinary Time, Week 31, Tues [I, #486]",
       "color": "#B35C58",
       "start": "12:5",
       "end": "12:16ab"
@@ -459,25 +459,25 @@
       "end": "12:16"
     },
     {
-      "name": "OT, Week 31, Wed [I, #487]",
+      "name": "Ordinary Time, Week 31, Wed [I, #487]",
       "color": "#B35C58",
       "start": "13:8",
       "end": "13:10"
     },
     {
-      "name": "OT, Week 31, Thurs [I, #488]",
+      "name": "Ordinary Time, Week 31, Thurs [I, #488]",
       "color": "#B35C58",
       "start": "14:7",
       "end": "14:12"
     },
     {
-      "name": "OT, Week 31, Fri [I, #489]",
+      "name": "Ordinary Time, Week 31, Fri [I, #489]",
       "color": "#B35C58",
       "start": "15:14",
       "end": "15:21"
     },
     {
-      "name": "OT, Week 31, Sat [I, #490]",
+      "name": "Ordinary Time, Week 31, Sat [I, #490]",
       "color": "#B35C58",
       "segments": [
         {
@@ -533,13 +533,13 @@
       "end": "12:21"
     },
     {
-      "name": "Week 1: Sunday EP1",
+      "name": "Week 1: Sunday Evening Prayer I",
       "color": "#4A628A",
       "start": "11:33",
       "end": "11:36"
     },
     {
-      "name": "Week 1: Monday DP1",
+      "name": "Week 1: Monday Daytime Prayer1",
       "color": "#4A628A",
       "segments": [
         {
@@ -553,7 +553,7 @@
       ]
     },
     {
-      "name": "Week 1: Tuesday MP",
+      "name": "Week 1: Tuesday Morning Prayer",
       "color": "#4A628A",
       "segments": [
         {
@@ -567,13 +567,13 @@
       ]
     },
     {
-      "name": "Week 1: Friday EP",
+      "name": "Week 1: Friday Evening Prayer",
       "color": "#4A628A",
       "start": "15:1",
       "end": "15:3"
     },
     {
-      "name": "Week 2: Sunday DP1",
+      "name": "Week 2: Sunday Daytime Prayer1",
       "color": "#4A628A",
       "segments": [
         {
@@ -587,19 +587,19 @@
       ]
     },
     {
-      "name": "Week 2: Sunday DP2",
+      "name": "Week 2: Sunday Daytime Prayer2",
       "color": "#4A628A",
       "start": "8:26",
       "end": "8:26"
     },
     {
-      "name": "Week 2: Tuesday EP",
+      "name": "Week 2: Tuesday Evening Prayer",
       "color": "#4A628A",
       "start": "3:23",
       "end": "3:25a"
     },
     {
-      "name": "Week 2: Wednesday MP",
+      "name": "Week 2: Wednesday Morning Prayer",
       "color": "#4A628A",
       "segments": [
         {
@@ -613,61 +613,61 @@
       ]
     },
     {
-      "name": "Week 2: Thursday MP",
+      "name": "Week 2: Thursday Morning Prayer",
       "color": "#4A628A",
       "start": "14:17",
       "end": "14:19"
     },
     {
-      "name": "Week 2: Saturday MP",
+      "name": "Week 2: Saturday Morning Prayer",
       "color": "#4A628A",
       "start": "12:14",
       "end": "12:16a"
     },
     {
-      "name": "Week 3: Sunday DP1",
+      "name": "Week 3: Sunday Daytime Prayer1",
       "color": "#4A628A",
       "start": "8:15",
       "end": "8:16"
     },
     {
-      "name": "Week 3: Sunday DP2",
+      "name": "Week 3: Sunday Daytime Prayer2",
       "color": "#4A628A",
       "start": "8:22",
       "end": "8:23"
     },
     {
-      "name": "Week 3: Monday DP2",
+      "name": "Week 3: Monday Daytime Prayer2",
       "color": "#4A628A",
       "start": "6:22",
       "end": "6:22"
     },
     {
-      "name": "Week 3: Tuesday EP",
+      "name": "Week 3: Tuesday Evening Prayer",
       "color": "#4A628A",
       "start": "12:9",
       "end": "12:12"
     },
     {
-      "name": "Week 3: Friday DP1",
+      "name": "Week 3: Friday Daytime Prayer1",
       "color": "#4A628A",
       "start": "1:16b",
       "end": "1:17"
     },
     {
-      "name": "Week 3: Friday DP2",
+      "name": "Week 3: Friday Daytime Prayer2",
       "color": "#4A628A",
       "start": "3:21",
       "end": "3:22"
     },
     {
-      "name": "Week 4: Thursday MP",
+      "name": "Week 4: Thursday Morning Prayer",
       "color": "#4A628A",
       "start": "8:18",
       "end": "8:21"
     },
     {
-      "name": "Week 4: Friday DP1",
+      "name": "Week 4: Friday Daytime Prayer1",
       "color": "#4A628A",
       "segments": [
         {
@@ -689,13 +689,13 @@
       ]
     },
     {
-      "name": "Week 4: Friday EP",
+      "name": "Week 4: Friday Evening Prayer",
       "color": "#4A628A",
       "start": "8:1",
       "end": "8:2"
     },
     {
-      "name": "Week 4: Saturday DP2",
+      "name": "Week 4: Saturday Daytime Prayer2",
       "color": "#4A628A",
       "start": "15:5",
       "end": "15:7"

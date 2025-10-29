@@ -167,7 +167,7 @@
       ]
     },
     {
-      "name": "OT, Week 15, Mon [I, #389]",
+      "name": "Ordinary Time, Week 15, Mon [I, #389]",
       "color": "#B35C58",
       "segments": [
         {
@@ -181,13 +181,13 @@
       ]
     },
     {
-      "name": "OT, Week 15, Tues [I, #390]",
+      "name": "Ordinary Time, Week 15, Tues [I, #390]",
       "color": "#B35C58",
       "start": "2:1",
       "end": "2:15a"
     },
     {
-      "name": "OT, Week 15, Wed [I, #391]",
+      "name": "Ordinary Time, Week 15, Wed [I, #391]",
       "color": "#B35C58",
       "segments": [
         {
@@ -201,37 +201,37 @@
       ]
     },
     {
-      "name": "OT, Week 15, Thurs [I, #392]",
+      "name": "Ordinary Time, Week 15, Thurs [I, #392]",
       "color": "#B35C58",
       "start": "3:13",
       "end": "3:20"
     },
     {
-      "name": "OT, Week 15, Fri [I, #393]",
+      "name": "Ordinary Time, Week 15, Fri [I, #393]",
       "color": "#B35C58",
       "start": "11:10",
       "end": "12:14"
     },
     {
-      "name": "OT, Week 15, Sat [I, #394]",
+      "name": "Ordinary Time, Week 15, Sat [I, #394]",
       "color": "#B35C58",
       "start": "12:37",
       "end": "12:42"
     },
     {
-      "name": "OT, Week 16, Mon [I, #395]",
+      "name": "Ordinary Time, Week 16, Mon [I, #395]",
       "color": "#B35C58",
       "start": "14:5",
       "end": "14:18"
     },
     {
-      "name": "OT, Week 16, Tues [I, #396]",
+      "name": "Ordinary Time, Week 16, Tues [I, #396]",
       "color": "#B35C58",
       "start": "14:21",
       "end": "15:1"
     },
     {
-      "name": "OT, Week 16, Mon (resp. - note 2) [I, #395]",
+      "name": "Ordinary Time, Week 16, Mon (resp. - note 2) [I, #395]",
       "color": "#B35C58",
       "segments": [
         {
@@ -249,7 +249,7 @@
       ]
     },
     {
-      "name": "OT, Week 16, Tues (resp. - note 2) [I, #396]",
+      "name": "Ordinary Time, Week 16, Tues (resp. - note 2) [I, #396]",
       "color": "#B35C58",
       "segments": [
         {
@@ -267,7 +267,7 @@
       ]
     },
     {
-      "name": "OT, Week 16, Wed [I, #397]",
+      "name": "Ordinary Time, Week 16, Wed [I, #397]",
       "color": "#B35C58",
       "segments": [
         {
@@ -287,7 +287,7 @@
       "end": "17:7"
     },
     {
-      "name": "OT, Week 16, Thurs [I, #398]",
+      "name": "Ordinary Time, Week 16, Thurs [I, #398]",
       "color": "#B35C58",
       "segments": [
         {
@@ -305,7 +305,7 @@
       ]
     },
     {
-      "name": "OT, Week 16, Fri [I, #399]",
+      "name": "Ordinary Time, Week 16, Fri [I, #399]",
       "color": "#B35C58",
       "start": "20:1",
       "end": "20:17"
@@ -317,7 +317,7 @@
       "end": "23:23"
     },
     {
-      "name": "OT, Week 16, Sat [I, #400]",
+      "name": "Ordinary Time, Week 16, Sat [I, #400]",
       "color": "#B35C58",
       "start": "24:3",
       "end": "24:8"
@@ -329,7 +329,7 @@
       "end": "32:14"
     },
     {
-      "name": "OT, Week 17, Mon [I, #401]",
+      "name": "Ordinary Time, Week 17, Mon [I, #401]",
       "color": "#B35C58",
       "segments": [
         {
@@ -343,7 +343,7 @@
       ]
     },
     {
-      "name": "OT, Week 17, Tues [I, #402]",
+      "name": "Ordinary Time, Week 17, Tues [I, #402]",
       "color": "#B35C58",
       "segments": [
         {
@@ -361,13 +361,13 @@
       ]
     },
     {
-      "name": "OT, Week 17, Wed [I, #403]",
+      "name": "Ordinary Time, Week 17, Wed [I, #403]",
       "color": "#B35C58",
       "start": "34:29",
       "end": "34:35"
     },
     {
-      "name": "OT, Week 17, Thurs [I, #404]",
+      "name": "Ordinary Time, Week 17, Thurs [I, #404]",
       "color": "#B35C58",
       "segments": [
         {
@@ -623,7 +623,7 @@
       "end": "40:38"
     },
     {
-      "name": "Week 1: Saturday MP",
+      "name": "Week 1: Saturday Morning Prayer",
       "color": "#5E4B81",
       "segments": [
         {

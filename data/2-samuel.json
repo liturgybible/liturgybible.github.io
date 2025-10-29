@@ -1,7 +1,7 @@
 {
   "lectionaryReadings": [
     {
-      "name": "34th Sunday in OT: Christ the King [C, #162]",
+      "name": "34th Sunday in Ordinary Time: Christ the King [C, #162]",
       "color": "#7B2E2B",
       "start": "5:1",
       "end": "5:3"
@@ -61,7 +61,7 @@
       ]
     },
     {
-      "name": "OT, Week 2, Sat [II, #316]",
+      "name": "Ordinary Time, Week 2, Sat [II, #316]",
       "color": "#B35C58",
       "segments": [
         {
@@ -83,7 +83,7 @@
       ]
     },
     {
-      "name": "OT, Week 3, Mon [II, #317]",
+      "name": "Ordinary Time, Week 3, Mon [II, #317]",
       "color": "#B35C58",
       "segments": [
         {
@@ -97,7 +97,7 @@
       ]
     },
     {
-      "name": "OT, Week 3, Tues [II, #318]",
+      "name": "Ordinary Time, Week 3, Tues [II, #318]",
       "color": "#B35C58",
       "segments": [
         {
@@ -151,13 +151,13 @@
       ]
     },
     {
-      "name": "OT, Week 3, Wed [II, #319]",
+      "name": "Ordinary Time, Week 3, Wed [II, #319]",
       "color": "#B35C58",
       "start": "7:4",
       "end": "7:17"
     },
     {
-      "name": "OT, Week 3, Thurs [II, #320]",
+      "name": "Ordinary Time, Week 3, Thurs [II, #320]",
       "color": "#B35C58",
       "segments": [
         {
@@ -171,7 +171,7 @@
       ]
     },
     {
-      "name": "OT, Week 3, Fri [II, #321]",
+      "name": "Ordinary Time, Week 3, Fri [II, #321]",
       "color": "#B35C58",
       "segments": [
         {
@@ -189,7 +189,7 @@
       ]
     },
     {
-      "name": "OT, Week 3, Sat [II, #322]",
+      "name": "Ordinary Time, Week 3, Sat [II, #322]",
       "color": "#B35C58",
       "segments": [
         {
@@ -203,7 +203,7 @@
       ]
     },
     {
-      "name": "OT, Week 4, Mon [II, #323]",
+      "name": "Ordinary Time, Week 4, Mon [II, #323]",
       "color": "#B35C58",
       "segments": [
         {
@@ -221,7 +221,7 @@
       ]
     },
     {
-      "name": "OT, Week 4, Tues [II, #324]",
+      "name": "Ordinary Time, Week 4, Tues [II, #324]",
       "color": "#B35C58",
       "segments": [
         {
@@ -243,7 +243,7 @@
       ]
     },
     {
-      "name": "OT, Week 4, Wed [II, #325]",
+      "name": "Ordinary Time, Week 4, Wed [II, #325]",
       "color": "#B35C58",
       "segments": [
         {
@@ -259,7 +259,7 @@
   ],
   "divineOffice": [
     {
-      "name": "Office of Readings: 13th Week in OT, Wednesday",
+      "name": "Office of Readings: 13th Week in Ordinary Time, Wednesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -273,25 +273,25 @@
       ]
     },
     {
-      "name": "Office of Readings: 13th Week in OT, Thursday",
+      "name": "Office of Readings: 13th Week in Ordinary Time, Thursday",
       "color": "#4C6B4F",
       "start": "4:2",
       "end": "5:7"
     },
     {
-      "name": "Office of Readings: 13th Week in OT, Friday",
+      "name": "Office of Readings: 13th Week in Ordinary Time, Friday",
       "color": "#4C6B4F",
       "start": "6:1",
       "end": "6:23"
     },
     {
-      "name": "Office of Readings: 13th Week in OT, Saturday",
+      "name": "Office of Readings: 13th Week in Ordinary Time, Saturday",
       "color": "#4C6B4F",
       "start": "7:1",
       "end": "7:25"
     },
     {
-      "name": "Office of Readings: 14th Sunday in OT",
+      "name": "Office of Readings: 14th Sunday in Ordinary Time",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -305,13 +305,13 @@
       ]
     },
     {
-      "name": "Office of Readings: 14th Week in OT, Monday",
+      "name": "Office of Readings: 14th Week in Ordinary Time, Monday",
       "color": "#4C6B4F",
       "start": "12:1",
       "end": "12:25"
     },
     {
-      "name": "Office of Readings: 12th Week in OT, Friday",
+      "name": "Office of Readings: 12th Week in Ordinary Time, Friday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -329,7 +329,7 @@
       ]
     },
     {
-      "name": "Office of Readings: 14th Week in OT, Tuesday",
+      "name": "Office of Readings: 14th Week in Ordinary Time, Tuesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -343,7 +343,7 @@
       ]
     },
     {
-      "name": "Office of Readings: 14th Week in OT, Wednesday",
+      "name": "Office of Readings: 14th Week in Ordinary Time, Wednesday",
       "color": "#4C6B4F",
       "segments": [
         {

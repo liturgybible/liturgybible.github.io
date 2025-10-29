@@ -1,7 +1,7 @@
 {
   "lectionaryReadings": [
     {
-      "name": "OT, Week 9, Mon [I, #353]",
+      "name": "Ordinary Time, Week 9, Mon [I, #353]",
       "color": "#B35C58",
       "segments": [
         {
@@ -15,13 +15,13 @@
       ]
     },
     {
-      "name": "OT, Week 9, Tues [I, #354]",
+      "name": "Ordinary Time, Week 9, Tues [I, #354]",
       "color": "#B35C58",
       "start": "2:9",
       "end": "2:14"
     },
     {
-      "name": "OT, Week 9, Wed [I, #355]",
+      "name": "Ordinary Time, Week 9, Wed [I, #355]",
       "color": "#B35C58",
       "segments": [
         {
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "name": "OT, Week 9, Thurs [I, #356]",
+      "name": "Ordinary Time, Week 9, Thurs [I, #356]",
       "color": "#B35C58",
       "segments": [
         {
@@ -57,13 +57,13 @@
       ]
     },
     {
-      "name": "OT, Week 9, Fri [I, #357]",
+      "name": "Ordinary Time, Week 9, Fri [I, #357]",
       "color": "#B35C58",
       "start": "11:5",
       "end": "11:17"
     },
     {
-      "name": "OT, Week 9, Sat [I, #358]",
+      "name": "Ordinary Time, Week 9, Sat [I, #358]",
       "color": "#B35C58",
       "segments": [
         {
@@ -81,7 +81,7 @@
       ]
     },
     {
-      "name": "OT, Week 25, Wed (resp. - note 2) [I, #451]",
+      "name": "Ordinary Time, Week 25, Wed (resp. - note 2) [I, #451]",
       "color": "#B35C58",
       "segments": [
         {
@@ -107,7 +107,7 @@
       ]
     },
     {
-      "name": "OT, Week 9, Sat (resp. - note 2) [I, #358]",
+      "name": "Ordinary Time, Week 9, Sat (resp. - note 2) [I, #358]",
       "color": "#B35C58",
       "segments": [
         {
@@ -131,13 +131,13 @@
   ],
   "divineOffice": [
     {
-      "name": "Week 1: Tuesday MP",
+      "name": "Week 1: Tuesday Morning Prayer",
       "color": "#5E4B81",
       "start": "13:1",
       "end": "13:8"
     },
     {
-      "name": "Week 4: Friday MP",
+      "name": "Week 4: Friday Morning Prayer",
       "color": "#5E4B81",
       "segments": [
         {
@@ -151,7 +151,7 @@
       ]
     },
     {
-      "name": "Week 1: Wednesday MP",
+      "name": "Week 1: Wednesday Morning Prayer",
       "color": "#4A628A",
       "segments": [
         {

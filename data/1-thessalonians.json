@@ -57,7 +57,7 @@
       "end": "5:24"
     },
     {
-      "name": "OT, Week 21, Mon [I, #425]",
+      "name": "Ordinary Time, Week 21, Mon [I, #425]",
       "color": "#B35C58",
       "segments": [
         {
@@ -71,43 +71,43 @@
       ]
     },
     {
-      "name": "OT, Week 21, Tues [I, #426]",
+      "name": "Ordinary Time, Week 21, Tues [I, #426]",
       "color": "#B35C58",
       "start": "2:1",
       "end": "2:8"
     },
     {
-      "name": "OT, Week 21, Wed [I, #427]",
+      "name": "Ordinary Time, Week 21, Wed [I, #427]",
       "color": "#B35C58",
       "start": "2:9",
       "end": "2:13"
     },
     {
-      "name": "OT, Week 21, Thurs [I, #428]",
+      "name": "Ordinary Time, Week 21, Thurs [I, #428]",
       "color": "#B35C58",
       "start": "3:7",
       "end": "3:13"
     },
     {
-      "name": "OT, Week 21, Fri [I, #429]",
+      "name": "Ordinary Time, Week 21, Fri [I, #429]",
       "color": "#B35C58",
       "start": "4:1",
       "end": "4:8"
     },
     {
-      "name": "OT, Week 21, Sat [I, #430]",
+      "name": "Ordinary Time, Week 21, Sat [I, #430]",
       "color": "#B35C58",
       "start": "4:9",
       "end": "4:11"
     },
     {
-      "name": "OT, Week 22, Mon [I, #431]",
+      "name": "Ordinary Time, Week 22, Mon [I, #431]",
       "color": "#B35C58",
       "start": "4:13",
       "end": "4:18"
     },
     {
-      "name": "OT, Week 22, Tues [I, #432]",
+      "name": "Ordinary Time, Week 22, Tues [I, #432]",
       "color": "#B35C58",
       "segments": [
         {
@@ -123,7 +123,7 @@
   ],
   "divineOffice": [
     {
-      "name": "Office of Readings: 4th Sunday in OT",
+      "name": "Office of Readings: 4th Sunday in Ordinary Time",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "2:12"
@@ -143,43 +143,43 @@
       ]
     },
     {
-      "name": "Office of Readings: 4th Week in OT, Monday",
+      "name": "Office of Readings: 4th Week in Ordinary Time, Monday",
       "color": "#4C6B4F",
       "start": "2:13",
       "end": "3:13"
     },
     {
-      "name": "Office of Readings: 4th Week in OT, Tuesday",
+      "name": "Office of Readings: 4th Week in Ordinary Time, Tuesday",
       "color": "#4C6B4F",
       "start": "4:1",
       "end": "4:18"
     },
     {
-      "name": "Office of Readings: 4th Week in OT, Wednesday",
+      "name": "Office of Readings: 4th Week in Ordinary Time, Wednesday",
       "color": "#4C6B4F",
       "start": "5:1",
       "end": "5:28"
     },
     {
-      "name": "Week 1: Monday MP",
+      "name": "Week 1: Monday Morning Prayer",
       "color": "#4A628A",
       "start": "3:10b",
       "end": "3:13"
     },
     {
-      "name": "Week 2: Monday EP",
+      "name": "Week 2: Monday Evening Prayer",
       "color": "#4A628A",
       "start": "2:13",
       "end": "2:13"
     },
     {
-      "name": "Week 2: Tuesday MP",
+      "name": "Week 2: Tuesday Morning Prayer",
       "color": "#4A628A",
       "start": "5:4",
       "end": "5:5"
     },
     {
-      "name": "Week 4: Monday EP",
+      "name": "Week 4: Monday Evening Prayer",
       "color": "#4A628A",
       "start": "3:12",
       "end": "3:13"

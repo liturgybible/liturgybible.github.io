@@ -33,7 +33,7 @@
       ]
     },
     {
-      "name": "OT, Week 19, Thurs [I, #416]",
+      "name": "Ordinary Time, Week 19, Thurs [I, #416]",
       "color": "#B35C58",
       "segments": [
         {
@@ -51,13 +51,13 @@
       ]
     },
     {
-      "name": "OT, Week 19, Fri [I, #417]",
+      "name": "Ordinary Time, Week 19, Fri [I, #417]",
       "color": "#B35C58",
       "start": "24:1",
       "end": "24:13"
     },
     {
-      "name": "OT, Week 19, Sat [I, #418]",
+      "name": "Ordinary Time, Week 19, Sat [I, #418]",
       "color": "#B35C58",
       "start": "24:14",
       "end": "24:29"
@@ -65,19 +65,19 @@
   ],
   "divineOffice": [
     {
-      "name": "Office of Readings: 10th Week in OT, Monday",
+      "name": "Office of Readings: 10th Week in Ordinary Time, Monday",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:18"
     },
     {
-      "name": "Office of Readings: 10th Week in OT, Tuesday",
+      "name": "Office of Readings: 10th Week in Ordinary Time, Tuesday",
       "color": "#4C6B4F",
       "start": "2:1",
       "end": "2:24"
     },
     {
-      "name": "Office of Readings: 10th Week in OT, Wednesday",
+      "name": "Office of Readings: 10th Week in Ordinary Time, Wednesday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -95,13 +95,13 @@
       ]
     },
     {
-      "name": "Office of Readings: 10th Week in OT, Thursday",
+      "name": "Office of Readings: 10th Week in Ordinary Time, Thursday",
       "color": "#4C6B4F",
       "start": "5:13",
       "end": "6:21"
     },
     {
-      "name": "Office of Readings: 10th Week in OT, Friday",
+      "name": "Office of Readings: 10th Week in Ordinary Time, Friday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "name": "Office of Readings: 10th Week in OT, Saturday",
+      "name": "Office of Readings: 10th Week in Ordinary Time, Saturday",
       "color": "#4C6B4F",
       "segments": [
         {

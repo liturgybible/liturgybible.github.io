@@ -21,7 +21,7 @@
       ]
     },
     {
-      "name": "OT, Week 25, Sat [I, #454]",
+      "name": "Ordinary Time, Week 25, Sat [I, #454]",
       "color": "#B35C58",
       "segments": [
         {
@@ -41,13 +41,13 @@
       "end": "2:17"
     },
     {
-      "name": "OT, Week 26, Mon [I, #455]",
+      "name": "Ordinary Time, Week 26, Mon [I, #455]",
       "color": "#B35C58",
       "start": "8:1",
       "end": "8:8"
     },
     {
-      "name": "OT, Week 26, Tues [I, #456]",
+      "name": "Ordinary Time, Week 26, Tues [I, #456]",
       "color": "#B35C58",
       "start": "8:20",
       "end": "8:23"
@@ -55,25 +55,25 @@
   ],
   "divineOffice": [
     {
-      "name": "Office of Readings: 28th Week in OT, Tuesday",
+      "name": "Office of Readings: 28th Week in Ordinary Time, Tuesday",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "2:4"
     },
     {
-      "name": "Office of Readings: 33rd Week in OT, Wednesday",
+      "name": "Office of Readings: 33rd Week in Ordinary Time, Wednesday",
       "color": "#4C6B4F",
       "start": "10:3",
       "end": "11:3"
     },
     {
-      "name": "Office of Readings: 33rd Week in OT, Thursday",
+      "name": "Office of Readings: 33rd Week in Ordinary Time, Thursday",
       "color": "#4C6B4F",
       "start": "11:4",
       "end": "12:8"
     },
     {
-      "name": "Office of Readings: 33rd Week in OT, Friday",
+      "name": "Office of Readings: 33rd Week in Ordinary Time, Friday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -87,19 +87,19 @@
       ]
     },
     {
-      "name": "Office of Readings: 33rd Week in OT, Saturday",
+      "name": "Office of Readings: 33rd Week in Ordinary Time, Saturday",
       "color": "#4C6B4F",
       "start": "14:1",
       "end": "14:21"
     },
     {
-      "name": "Office of Readings: 28th Week in OT, Wednesday",
+      "name": "Office of Readings: 28th Week in Ordinary Time, Wednesday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "4:14"
     },
     {
-      "name": "Office of Readings: 28th Week in OT, Thursday",
+      "name": "Office of Readings: 28th Week in Ordinary Time, Thursday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -113,7 +113,7 @@
       ]
     },
     {
-      "name": "Office of Readings: 33rd Week in OT, Tuesday",
+      "name": "Office of Readings: 33rd Week in Ordinary Time, Tuesday",
       "color": "#4C6B4F",
       "start": "9:1",
       "end": "10:2"

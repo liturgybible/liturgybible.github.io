@@ -195,19 +195,19 @@
       ]
     },
     {
-      "name": "OT, Week 1, Mon [I, #305]",
+      "name": "Ordinary Time, Week 1, Mon [I, #305]",
       "color": "#B35C58",
       "start": "1:1",
       "end": "1:6"
     },
     {
-      "name": "OT, Week 1, Tues [I, #306]",
+      "name": "Ordinary Time, Week 1, Tues [I, #306]",
       "color": "#B35C58",
       "start": "2:5",
       "end": "2:12"
     },
     {
-      "name": "OT, Week 1, Wed [I, #307]",
+      "name": "Ordinary Time, Week 1, Wed [I, #307]",
       "color": "#B35C58",
       "start": "2:14",
       "end": "2:18"
@@ -219,13 +219,13 @@
       "end": "2:18"
     },
     {
-      "name": "OT, Week 1, Thurs [I, #308]",
+      "name": "Ordinary Time, Week 1, Thurs [I, #308]",
       "color": "#B35C58",
       "start": "3:7",
       "end": "3:14"
     },
     {
-      "name": "OT, Week 1, Fri [I, #309]",
+      "name": "Ordinary Time, Week 1, Fri [I, #309]",
       "color": "#B35C58",
       "segments": [
         {
@@ -239,25 +239,25 @@
       ]
     },
     {
-      "name": "OT, Week 1, Sat [I, #310]",
+      "name": "Ordinary Time, Week 1, Sat [I, #310]",
       "color": "#B35C58",
       "start": "4:12",
       "end": "4:16"
     },
     {
-      "name": "OT, Week 2, Mon [I, #311]",
+      "name": "Ordinary Time, Week 2, Mon [I, #311]",
       "color": "#B35C58",
       "start": "5:1",
       "end": "5:10"
     },
     {
-      "name": "OT, Week 2, Tues [I, #312]",
+      "name": "Ordinary Time, Week 2, Tues [I, #312]",
       "color": "#B35C58",
       "start": "6:10",
       "end": "6:20"
     },
     {
-      "name": "OT, Week 2, Wed [I, #313]",
+      "name": "Ordinary Time, Week 2, Wed [I, #313]",
       "color": "#B35C58",
       "segments": [
         {
@@ -271,19 +271,19 @@
       ]
     },
     {
-      "name": "OT, Week 2, Thurs [I, #314]",
+      "name": "Ordinary Time, Week 2, Thurs [I, #314]",
       "color": "#B35C58",
       "start": "7:25",
       "end": "8:6"
     },
     {
-      "name": "OT, Week 2, Fri [I, #315]",
+      "name": "Ordinary Time, Week 2, Fri [I, #315]",
       "color": "#B35C58",
       "start": "8:6",
       "end": "8:13"
     },
     {
-      "name": "OT, Week 2, Sat [I, #316]",
+      "name": "Ordinary Time, Week 2, Sat [I, #316]",
       "color": "#B35C58",
       "segments": [
         {
@@ -297,7 +297,7 @@
       ]
     },
     {
-      "name": "OT, Week 3, Mon [I, #317]",
+      "name": "Ordinary Time, Week 3, Mon [I, #317]",
       "color": "#B35C58",
       "segments": [
         {
@@ -311,7 +311,7 @@
       ]
     },
     {
-      "name": "OT, Week 3, Tues [I, #318]",
+      "name": "Ordinary Time, Week 3, Tues [I, #318]",
       "color": "#B35C58",
       "start": "10:1",
       "end": "10:10"
@@ -323,25 +323,25 @@
       "end": "10:10"
     },
     {
-      "name": "OT, Week 3, Wed [I, #319]",
+      "name": "Ordinary Time, Week 3, Wed [I, #319]",
       "color": "#B35C58",
       "start": "10:11",
       "end": "10:18"
     },
     {
-      "name": "OT, Week 3, Thurs [I, #320]",
+      "name": "Ordinary Time, Week 3, Thurs [I, #320]",
       "color": "#B35C58",
       "start": "10:19",
       "end": "10:25"
     },
     {
-      "name": "OT, Week 3, Fri [I, #321]",
+      "name": "Ordinary Time, Week 3, Fri [I, #321]",
       "color": "#B35C58",
       "start": "10:32",
       "end": "10:39"
     },
     {
-      "name": "OT, Week 3, Sat [I, #322]",
+      "name": "Ordinary Time, Week 3, Sat [I, #322]",
       "color": "#B35C58",
       "segments": [
         {
@@ -355,19 +355,19 @@
       ]
     },
     {
-      "name": "OT, Week 4, Mon [I, #323]",
+      "name": "Ordinary Time, Week 4, Mon [I, #323]",
       "color": "#B35C58",
       "start": "11:32",
       "end": "11:40"
     },
     {
-      "name": "OT, Week 4, Tues [I, #324]",
+      "name": "Ordinary Time, Week 4, Tues [I, #324]",
       "color": "#B35C58",
       "start": "12:1",
       "end": "12:4"
     },
     {
-      "name": "OT, Week 4, Wed [I, #325]",
+      "name": "Ordinary Time, Week 4, Wed [I, #325]",
       "color": "#B35C58",
       "segments": [
         {
@@ -381,7 +381,7 @@
       ]
     },
     {
-      "name": "OT, Week 4, Thurs [I, #326]",
+      "name": "Ordinary Time, Week 4, Thurs [I, #326]",
       "color": "#B35C58",
       "segments": [
         {
@@ -395,13 +395,13 @@
       ]
     },
     {
-      "name": "OT, Week 4, Fri [I, #327]",
+      "name": "Ordinary Time, Week 4, Fri [I, #327]",
       "color": "#B35C58",
       "start": "13:1",
       "end": "13:8"
     },
     {
-      "name": "OT, Week 4, Sat [I, #328]",
+      "name": "Ordinary Time, Week 4, Sat [I, #328]",
       "color": "#B35C58",
       "segments": [
         {
@@ -415,7 +415,7 @@
       ]
     },
     {
-      "name": "OT, Week 6, Sat [I, #340]",
+      "name": "Ordinary Time, Week 6, Sat [I, #340]",
       "color": "#B35C58",
       "start": "11:1",
       "end": "11:7"
@@ -519,19 +519,19 @@
       "end": "12:29"
     },
     {
-      "name": "Week 3: Sunday EP1",
+      "name": "Week 3: Sunday Evening Prayer I",
       "color": "#4A628A",
       "start": "13:20",
       "end": "13:21"
     },
     {
-      "name": "Week 4: Sunday EP2",
+      "name": "Week 4: Sunday Evening Prayer II",
       "color": "#4A628A",
       "start": "12:22",
       "end": "12:24"
     },
     {
-      "name": "Week 4: Thursday DP3",
+      "name": "Week 4: Thursday Daytime Prayer3",
       "color": "#4A628A",
       "start": "12:1b",
       "end": "12:2"

@@ -49,7 +49,7 @@
       "end": "4:16"
     },
     {
-      "name": "OT, Week 8, Mon [II, #347]",
+      "name": "Ordinary Time, Week 8, Mon [II, #347]",
       "color": "#B35C58",
       "start": "1:3",
       "end": "1:9"
@@ -61,19 +61,19 @@
       "end": "1:12"
     },
     {
-      "name": "OT, Week 8, Tues [II, #348]",
+      "name": "Ordinary Time, Week 8, Tues [II, #348]",
       "color": "#B35C58",
       "start": "1:10",
       "end": "1:16"
     },
     {
-      "name": "OT, Week 8, Wed [II, #349]",
+      "name": "Ordinary Time, Week 8, Wed [II, #349]",
       "color": "#B35C58",
       "start": "1:18",
       "end": "1:25"
     },
     {
-      "name": "OT, Week 8, Thurs [II, #350]",
+      "name": "Ordinary Time, Week 8, Thurs [II, #350]",
       "color": "#B35C58",
       "segments": [
         {
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "name": "OT, Week 8, Fri [II, #351]",
+      "name": "Ordinary Time, Week 8, Fri [II, #351]",
       "color": "#B35C58",
       "start": "4:7",
       "end": "4:13"
@@ -175,61 +175,61 @@
       "end": "5:11"
     },
     {
-      "name": "Weeks 1,2,3,4: Sunday EP2 (only in Lent)",
+      "name": "Weeks 1,2,3,4: Sunday Evening Prayer II (only in Lent)",
       "color": "#5E4B81",
       "start": "2:21",
       "end": "2:24"
     },
     {
-      "name": "Week 1: Monday DP3",
+      "name": "Week 1: Monday Daytime Prayer3",
       "color": "#4A628A",
       "start": "1:17b",
       "end": "1:19"
     },
     {
-      "name": "Week 1: Wednesday DP1",
+      "name": "Week 1: Wednesday Daytime Prayer1",
       "color": "#4A628A",
       "start": "1:13",
       "end": "1:14"
     },
     {
-      "name": "Week 1: Wednesday DP2",
+      "name": "Week 1: Wednesday Daytime Prayer2",
       "color": "#4A628A",
       "start": "1:15",
       "end": "1:16"
     },
     {
-      "name": "Week 1: Thursday EP",
+      "name": "Week 1: Thursday Evening Prayer",
       "color": "#4A628A",
       "start": "1:6",
       "end": "1:9"
     },
     {
-      "name": "Week 2: Wednesday EP",
+      "name": "Week 2: Wednesday Evening Prayer",
       "color": "#4A628A",
       "start": "5:5b",
       "end": "5:7"
     },
     {
-      "name": "Week 2: Thursday EP",
+      "name": "Week 2: Thursday Evening Prayer",
       "color": "#4A628A",
       "start": "1:22",
       "end": "1:23"
     },
     {
-      "name": "Week 3: Sunday EP2",
+      "name": "Week 3: Sunday Evening Prayer II",
       "color": "#4A628A",
       "start": "1:3",
       "end": "1:5"
     },
     {
-      "name": "Week 3: Thursday MP",
+      "name": "Week 3: Thursday Morning Prayer",
       "color": "#4A628A",
       "start": "4:10",
       "end": "4:11a"
     },
     {
-      "name": "Week 3: Thursday EP",
+      "name": "Week 3: Thursday Evening Prayer",
       "color": "#4A628A",
       "start": "3:8",
       "end": "3:9"

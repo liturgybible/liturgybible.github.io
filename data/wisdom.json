@@ -85,7 +85,7 @@
       "end": "18:9"
     },
     {
-      "name": "OT, Week 32, Mon [I, #491]",
+      "name": "Ordinary Time, Week 32, Mon [I, #491]",
       "color": "#B35C58",
       "start": "1:1",
       "end": "1:7"
@@ -105,31 +105,31 @@
       ]
     },
     {
-      "name": "OT, Week 32, Tues [I, #492]",
+      "name": "Ordinary Time, Week 32, Tues [I, #492]",
       "color": "#B35C58",
       "start": "2:23",
       "end": "3:9"
     },
     {
-      "name": "OT, Week 32, Wed [I, #493]",
+      "name": "Ordinary Time, Week 32, Wed [I, #493]",
       "color": "#B35C58",
       "start": "6:1",
       "end": "6:11"
     },
     {
-      "name": "OT, Week 32, Thurs [I, #494]",
+      "name": "Ordinary Time, Week 32, Thurs [I, #494]",
       "color": "#B35C58",
       "start": "7:22b",
       "end": "8:1"
     },
     {
-      "name": "OT, Week 32, Fri [I, #495]",
+      "name": "Ordinary Time, Week 32, Fri [I, #495]",
       "color": "#B35C58",
       "start": "13:1",
       "end": "13:9"
     },
     {
-      "name": "OT, Week 32, Sat [I, #496]",
+      "name": "Ordinary Time, Week 32, Sat [I, #496]",
       "color": "#B35C58",
       "segments": [
         {
@@ -145,13 +145,13 @@
   ],
   "divineOffice": [
     {
-      "name": "Office of Readings: 30th Sunday in OT",
+      "name": "Office of Readings: 30th Sunday in Ordinary Time",
       "color": "#4C6B4F",
       "start": "1:1",
       "end": "1:15"
     },
     {
-      "name": "Office of Readings: 30th Week in OT, Monday",
+      "name": "Office of Readings: 30th Week in Ordinary Time, Monday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -171,7 +171,7 @@
       "end": "3:15"
     },
     {
-      "name": "Office of Readings: 30th Week in OT, Tuesday",
+      "name": "Office of Readings: 30th Week in Ordinary Time, Tuesday",
       "color": "#4C6B4F",
       "start": "3:1",
       "end": "3:19"
@@ -183,7 +183,7 @@
       "end": "5:15"
     },
     {
-      "name": "Office of Readings: 30th Week in OT, Wednesday",
+      "name": "Office of Readings: 30th Week in Ordinary Time, Wednesday",
       "color": "#4C6B4F",
       "start": "6:1",
       "end": "6:25"
@@ -203,19 +203,19 @@
       ]
     },
     {
-      "name": "Office of Readings: 30th Week in OT, Thursday",
+      "name": "Office of Readings: 30th Week in Ordinary Time, Thursday",
       "color": "#4C6B4F",
       "start": "7:15",
       "end": "7:30"
     },
     {
-      "name": "Office of Readings: 30th Week in OT, Friday",
+      "name": "Office of Readings: 30th Week in Ordinary Time, Friday",
       "color": "#4C6B4F",
       "start": "8:1",
       "end": "8:21b"
     },
     {
-      "name": "Office of Readings: 30th Week in OT, Saturday",
+      "name": "Office of Readings: 30th Week in Ordinary Time, Saturday",
       "color": "#4C6B4F",
       "segments": [
         {
@@ -229,7 +229,7 @@
       ]
     },
     {
-      "name": "Week 3: Saturday MP",
+      "name": "Week 3: Saturday Morning Prayer",
       "color": "#5E4B81",
       "segments": [
         {
@@ -243,7 +243,7 @@
       ]
     },
     {
-      "name": "Week 1: Saturday DP3",
+      "name": "Week 1: Saturday Daytime Prayer3",
       "color": "#4A628A",
       "segments": [
         {
@@ -257,19 +257,19 @@
       ]
     },
     {
-      "name": "Week 2: Friday DP3",
+      "name": "Week 2: Friday Daytime Prayer3",
       "color": "#4A628A",
       "start": "1:13",
       "end": "1:15"
     },
     {
-      "name": "Week 3: Thursday DP1",
+      "name": "Week 3: Thursday Daytime Prayer1",
       "color": "#4A628A",
       "start": "19:22",
       "end": "19:22"
     },
     {
-      "name": "Week 4: Monday DP2",
+      "name": "Week 4: Monday Daytime Prayer2",
       "color": "#4A628A",
       "segments": [
         {
@@ -283,7 +283,7 @@
       ]
     },
     {
-      "name": "Week 4: Thursday DP2",
+      "name": "Week 4: Thursday Daytime Prayer2",
       "color": "#4A628A",
       "start": "1:1",
       "end": "1:2"
