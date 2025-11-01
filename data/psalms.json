@@ -5413,24 +5413,6 @@
       ]
     },
     {
-      "name": "Nov 1: Solemnity: All Saints [I/II, #667]",
-      "color": "#C9A441",
-      "segments": [
-        {
-          "start": "24:1bc",
-          "end": "24:2"
-        },
-        {
-          "start": "24:3",
-          "end": "24:4ab"
-        },
-        {
-          "start": "24:5",
-          "end": "24:6"
-        }
-      ]
-    },
-    {
       "name": "Ordinary Time, Week 3, Tues [II, #318]",
       "color": "#B35C58",
       "segments": [
