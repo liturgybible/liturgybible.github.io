@@ -71,16 +71,28 @@
       ]
     },
     {
-      "name": "Week 2: Friday Daytime Prayer2",
+      "name": "Ordinary Time, Week 2: Friday Midday Prayer",
       "color": "#4A628A",
       "start": "4:28",
       "end": "4:29"
     },
     {
-      "name": "Week 4: Monday Daytime Prayer3",
+      "name": "Ordinary Time, Week 4: Monday Midafternoon Prayer",
       "color": "#4A628A",
       "start": "4:21b",
       "end": "4:22"
+    },
+    {
+      "name": "Advent, Fridays & Dec. 23: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "3:5",
+      "end": "3:6a"
+    },
+    {
+      "name": "Jan. 1, Mary, Mother of God: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "5:3",
+      "end": "5:4"
     }
   ]
 }

@@ -121,13 +121,13 @@
       "end": "9:15"
     },
     {
-      "name": "Week 1: Thursday Daytime Prayer1",
+      "name": "Ordinary Time, Week 1: Thursday Midmorning Prayer",
       "color": "#4A628A",
       "start": "4:13",
       "end": "4:13"
     },
     {
-      "name": "Week 1: Thursday Daytime Prayer2",
+      "name": "Ordinary Time, Week 1: Thursday Midday Prayer",
       "color": "#4A628A",
       "segments": [
         {
@@ -141,7 +141,7 @@
       ]
     },
     {
-      "name": "Week 1: Thursday Daytime Prayer3",
+      "name": "Ordinary Time, Week 1: Thursday Midafternoon Prayer",
       "color": "#4A628A",
       "start": "9:6",
       "end": "9:6"

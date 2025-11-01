@@ -333,25 +333,25 @@
       "end": "1:10"
     },
     {
-      "name": "Week 1: Friday Morning Prayer",
+      "name": "Ordinary Time, Week 1: Friday Morning Prayer",
       "color": "#4A628A",
       "start": "4:29",
       "end": "4:32"
     },
     {
-      "name": "Week 2: Friday Morning Prayer",
+      "name": "Ordinary Time, Week 2: Friday Morning Prayer",
       "color": "#4A628A",
       "start": "2:13",
       "end": "2:16"
     },
     {
-      "name": "Week 3: Wednesday Evening Prayer",
+      "name": "Ordinary Time, Week 3: Wednesday Evening Prayer",
       "color": "#4A628A",
       "start": "3:20",
       "end": "3:21"
     },
     {
-      "name": "Week 3: Friday Daytime Prayer3",
+      "name": "Ordinary Time, Week 3: Friday Midafternoon Prayer",
       "color": "#4A628A",
       "start": "2:8",
       "end": "2:9"
@@ -361,6 +361,18 @@
       "color": "#4A628A",
       "start": "4:26",
       "end": "4:27"
+    },
+    {
+      "name": "Dec. 28: Evening Prayer",
+      "color": "#4A628A",
+      "start": "2:3b",
+      "end": "2:5"
+    },
+    {
+      "name": "Tuesday\u2014after Epiphany to Baptism: Evening Prayer",
+      "color": "#4A628A",
+      "start": "2:3b",
+      "end": "2:5"
     }
   ]
 }

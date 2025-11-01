@@ -283,34 +283,40 @@
       "end": "13:13"
     },
     {
-      "name": "Week 1: Sunday Evening Prayer II",
+      "name": "Ordinary Time, Week 1: Sunday Evening Prayer II",
       "color": "#4A628A",
       "start": "1:3",
       "end": "1:4"
     },
     {
-      "name": "Week 1: Friday Daytime Prayer2",
+      "name": "Ordinary Time, Week 1: Friday Midday Prayer",
       "color": "#4A628A",
       "start": "13:4",
       "end": "13:4"
     },
     {
-      "name": "Week 2: Sunday Daytime Prayer3",
+      "name": "Ordinary Time, Week 2: Sunday Midafternoon Prayer",
       "color": "#4A628A",
       "start": "1:21",
       "end": "1:22"
     },
     {
-      "name": "Week 3: Monday Daytime Prayer1",
+      "name": "Ordinary Time, Week 3: Monday Midmorning Prayer",
       "color": "#4A628A",
       "start": "13:11",
       "end": "13:11"
     },
     {
-      "name": "Week 3: Friday Morning Prayer",
+      "name": "Ordinary Time, Week 3: Friday Morning Prayer",
       "color": "#4A628A",
       "start": "12:9b",
       "end": "12:10"
+    },
+    {
+      "name": "Holy Family: Evening Prayer I",
+      "color": "#4A628A",
+      "start": "8:9",
+      "end": "8:9"
     }
   ]
 }

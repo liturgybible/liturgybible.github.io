@@ -557,10 +557,16 @@
       ]
     },
     {
-      "name": "Week 4: Saturday Daytime Prayer1",
+      "name": "Ordinary Time, Week 4: Saturday Midmorning Prayer",
       "color": "#4A628A",
       "start": "6:27b",
       "end": "6:28a"
+    },
+    {
+      "name": "Advent, Wednesdays & Dec. 21: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "9:19",
+      "end": "9:19"
     }
   ]
 }

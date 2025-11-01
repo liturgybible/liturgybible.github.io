@@ -117,6 +117,30 @@
       "color": "#4C6B4F",
       "start": "9:1",
       "end": "10:2"
+    },
+    {
+      "name": "Jan. 1, Mary, Mother of God: Midday Prayer",
+      "color": "#4A628A",
+      "start": "9:9a",
+      "end": "9:9a"
+    },
+    {
+      "name": "Wednesday\u2014from Jan. 2 to Epiphany: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "8:7",
+      "end": "8:8"
+    },
+    {
+      "name": "Epiphany: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "2:11",
+      "end": "2:11"
+    },
+    {
+      "name": "Friday\u2014after Epiphany to Baptism: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "8:7",
+      "end": "8:8"
     }
   ]
 }

@@ -131,7 +131,7 @@
   ],
   "divineOffice": [
     {
-      "name": "Week 1: Monday Daytime Prayer2",
+      "name": "Ordinary Time, Week 1: Monday Midday Prayer",
       "color": "#4A628A",
       "segments": [
         {
@@ -145,7 +145,7 @@
       ]
     },
     {
-      "name": "Week 1: Wednesday Daytime Prayer3",
+      "name": "Ordinary Time, Week 1: Wednesday Midafternoon Prayer",
       "color": "#4A628A",
       "segments": [
         {
@@ -159,7 +159,7 @@
       ]
     },
     {
-      "name": "Week 1: Wednesday Evening Prayer",
+      "name": "Ordinary Time, Week 1: Wednesday Evening Prayer",
       "color": "#4A628A",
       "segments": [
         {
@@ -173,22 +173,36 @@
       ]
     },
     {
-      "name": "Week 3: Monday Morning Prayer",
+      "name": "Ordinary Time, Week 3: Monday Morning Prayer",
       "color": "#4A628A",
       "start": "2:12",
       "end": "2:13"
     },
     {
-      "name": "Week 3: Monday Evening Prayer",
+      "name": "Ordinary Time, Week 3: Monday Evening Prayer",
       "color": "#4A628A",
       "start": "4:11",
       "end": "4:12"
     },
     {
-      "name": "Week 3: Friday Evening Prayer",
+      "name": "Ordinary Time, Week 3: Friday Evening Prayer",
       "color": "#4A628A",
       "start": "1:2",
       "end": "1:4"
+    },
+    {
+      "name": "Advent, Thursdays & Dec. 22: Evening Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "5:7",
+          "end": "5:8"
+        },
+        {
+          "start": "5:9b",
+          "end": "5:9b"
+        }
+      ]
     }
   ]
 }

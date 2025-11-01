@@ -441,22 +441,52 @@
       "end": "36:28"
     },
     {
-      "name": "Week 2: Sunday Morning Prayer",
+      "name": "Ordinary Time, Week 2: Sunday Morning Prayer",
       "color": "#4A628A",
       "start": "36:25",
       "end": "36:27"
     },
     {
-      "name": "Week 2: Monday Daytime Prayer3",
+      "name": "Ordinary Time, Week 2: Monday Midafternoon Prayer",
       "color": "#4A628A",
       "start": "34:31",
       "end": "34:31"
     },
     {
-      "name": "Week 3: Sunday Morning Prayer",
+      "name": "Ordinary Time, Week 3: Sunday Morning Prayer",
       "color": "#4A628A",
       "start": "37:12b",
       "end": "37:14"
+    },
+    {
+      "name": "Advent, Tuesdays & Dec. 20: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "34:15",
+      "end": "34:16"
+    },
+    {
+      "name": "Thursday\u2014from Jan. 2 to Epiphany: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "20:41",
+      "end": "20:42a"
+    },
+    {
+      "name": "Thursday\u2014from Jan. 2 to Epiphany: Midday Prayer",
+      "color": "#4A628A",
+      "start": "34:11",
+      "end": "34:12"
+    },
+    {
+      "name": "Saturday\u2014after Epiphany to Baptism: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "10:41",
+      "end": "10:42a"
+    },
+    {
+      "name": "Saturday\u2014after Epiphany to Baptism: Midday Prayer",
+      "color": "#4A628A",
+      "start": "34:11",
+      "end": "34:12"
     }
   ]
 }

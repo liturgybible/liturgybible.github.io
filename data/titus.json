@@ -73,6 +73,24 @@
           "end": "2:8"
         }
       ]
+    },
+    {
+      "name": "Dec. 25, Christmas: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "2:11",
+      "end": "2:12"
+    },
+    {
+      "name": "Second Sunday After Christmas: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "2:11",
+      "end": "2:12"
+    },
+    {
+      "name": "Epiphany: Evening Prayer II",
+      "color": "#4A628A",
+      "start": "3:4",
+      "end": "3:5"
     }
   ]
 }

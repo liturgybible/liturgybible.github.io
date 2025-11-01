@@ -505,43 +505,43 @@
       "end": "31:14"
     },
     {
-      "name": "Week 1: Tuesday Daytime Prayer1",
+      "name": "Ordinary Time, Week 1: Tuesday Midmorning Prayer",
       "color": "#4A628A",
       "start": "17:7",
       "end": "17:8"
     },
     {
-      "name": "Week 1: Saturday Daytime Prayer2",
+      "name": "Ordinary Time, Week 1: Saturday Midday Prayer",
       "color": "#4A628A",
       "start": "17:9",
       "end": "17:10"
     },
     {
-      "name": "Week 2: Monday Morning Prayer",
+      "name": "Ordinary Time, Week 2: Monday Morning Prayer",
       "color": "#4A628A",
       "start": "15:16",
       "end": "15:16"
     },
     {
-      "name": "Week 2: Monday Daytime Prayer1",
+      "name": "Ordinary Time, Week 2: Monday Midmorning Prayer",
       "color": "#4A628A",
       "start": "31:33",
       "end": "31:33"
     },
     {
-      "name": "Week 2: Monday Daytime Prayer2",
+      "name": "Ordinary Time, Week 2: Monday Midday Prayer",
       "color": "#4A628A",
       "start": "32:40",
       "end": "32:40"
     },
     {
-      "name": "Week 2: Saturday Daytime Prayer3",
+      "name": "Ordinary Time, Week 2: Saturday Midafternoon Prayer",
       "color": "#4A628A",
       "start": "6:16a",
       "end": "6:16a"
     },
     {
-      "name": "Week 3: Tuesday Daytime Prayer1",
+      "name": "Ordinary Time, Week 3: Tuesday Midmorning Prayer",
       "color": "#4A628A",
       "start": "22:3",
       "end": "22:3"
@@ -551,6 +551,76 @@
       "color": "#4A628A",
       "start": "14:9a",
       "end": "14:9a"
+    },
+    {
+      "name": "Advent, Tuesdays & Dec. 20: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "23:5",
+      "end": "23:5"
+    },
+    {
+      "name": "Advent, Tuesdays & Dec. 20: Midday Prayer",
+      "color": "#4A628A",
+      "start": "23:6",
+      "end": "23:6"
+    },
+    {
+      "name": "Advent, Fridays & Dec. 23: Morning Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "30:21",
+          "end": "30:21"
+        },
+        {
+          "start": "30:22",
+          "end": "30:22"
+        }
+      ]
+    },
+    {
+      "name": "Advent, Fridays & Dec. 23: Midmorning Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "29:11",
+          "end": "29:11"
+        },
+        {
+          "start": "29:13",
+          "end": "29:13"
+        }
+      ]
+    },
+    {
+      "name": "Advent, Fridays & Dec. 23: Midday Prayer",
+      "color": "#4A628A",
+      "start": "30:18",
+      "end": "30:18"
+    },
+    {
+      "name": "Wednesday\u2014from Jan. 2 to Epiphany: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "31:7",
+      "end": "31:8"
+    },
+    {
+      "name": "Wednesday\u2014from Jan. 2 to Epiphany: Midday Prayer",
+      "color": "#4A628A",
+      "start": "31:11",
+      "end": "31:12"
+    },
+    {
+      "name": "Friday\u2014after Epiphany to Baptism: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "31:7",
+      "end": "31:8"
+    },
+    {
+      "name": "Friday\u2014after Epiphany to Baptism: Midday Prayer",
+      "color": "#4A628A",
+      "start": "31:11",
+      "end": "31:12"
     }
   ]
 }

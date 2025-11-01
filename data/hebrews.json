@@ -519,22 +519,34 @@
       "end": "12:29"
     },
     {
-      "name": "Week 3: Sunday Evening Prayer I",
+      "name": "Ordinary Time, Week 3: Sunday Evening Prayer I",
       "color": "#4A628A",
       "start": "13:20",
       "end": "13:21"
     },
     {
-      "name": "Week 4: Sunday Evening Prayer II",
+      "name": "Ordinary Time, Week 4: Sunday Evening Prayer II",
       "color": "#4A628A",
       "start": "12:22",
       "end": "12:24"
     },
     {
-      "name": "Week 4: Thursday Daytime Prayer3",
+      "name": "Ordinary Time, Week 4: Thursday Midafternoon Prayer",
       "color": "#4A628A",
       "start": "12:1b",
       "end": "12:2"
+    },
+    {
+      "name": "Dec. 25, Christmas: Morning Prayer",
+      "color": "#4A628A",
+      "start": "1:1",
+      "end": "1:2"
+    },
+    {
+      "name": "Second Sunday After Christmas: Morning Prayer",
+      "color": "#4A628A",
+      "start": "1:1",
+      "end": "1:2"
     }
   ]
 }

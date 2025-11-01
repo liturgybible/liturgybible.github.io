@@ -161,25 +161,25 @@
       "end": "5:28"
     },
     {
-      "name": "Week 1: Monday Morning Prayer",
+      "name": "Ordinary Time, Week 1: Monday Morning Prayer",
       "color": "#4A628A",
       "start": "3:10b",
       "end": "3:13"
     },
     {
-      "name": "Week 2: Monday Evening Prayer",
+      "name": "Ordinary Time, Week 2: Monday Evening Prayer",
       "color": "#4A628A",
       "start": "2:13",
       "end": "2:13"
     },
     {
-      "name": "Week 2: Tuesday Morning Prayer",
+      "name": "Ordinary Time, Week 2: Tuesday Morning Prayer",
       "color": "#4A628A",
       "start": "5:4",
       "end": "5:5"
     },
     {
-      "name": "Week 4: Monday Evening Prayer",
+      "name": "Ordinary Time, Week 4: Monday Evening Prayer",
       "color": "#4A628A",
       "start": "3:12",
       "end": "3:13"
@@ -195,6 +195,18 @@
       "color": "#4A628A",
       "start": "5:23",
       "end": "5:23"
+    },
+    {
+      "name": "Advent, Sundays & Dec. 17: Evening Prayer I",
+      "color": "#4A628A",
+      "start": "5:23",
+      "end": "5:24"
+    },
+    {
+      "name": "Advent, Sundays & Dec. 18: Midday Prayer",
+      "color": "#4A628A",
+      "start": "3:12",
+      "end": "3:13"
     },
     {
       "name": "Office for the Dead: Morning Prayer",

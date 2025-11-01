@@ -1289,28 +1289,348 @@
       "end": "66:14a"
     },
     {
-      "name": "Week 1: Thursday Morning Prayer",
+      "name": "Ordinary Time, Week 1: Thursday Morning Prayer",
       "color": "#4A628A",
       "start": "66:1",
       "end": "66:2"
     },
     {
-      "name": "Week 2: Wednesday Daytime Prayer2",
+      "name": "Ordinary Time, Week 2: Wednesday Midday Prayer",
       "color": "#4A628A",
       "start": "55:8",
       "end": "55:9"
     },
     {
-      "name": "Week 4: Tuesday Morning Prayer",
+      "name": "Ordinary Time, Week 4: Tuesday Morning Prayer",
       "color": "#4A628A",
       "start": "55:1",
       "end": "55:1"
     },
     {
-      "name": "Week 4: Tuesday Daytime Prayer3",
+      "name": "Ordinary Time, Week 4: Tuesday Midafternoon Prayer",
       "color": "#4A628A",
       "start": "55:10",
       "end": "55:11"
+    },
+    {
+      "name": "Advent, Mondays & Dec 19: Morning Prayer",
+      "color": "#4A628A",
+      "start": "2:3",
+      "end": "2:3"
+    },
+    {
+      "name": "Advent, Mondays & Dec 19: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "10:20",
+      "end": "10:21"
+    },
+    {
+      "name": "Advent, Mondays & Dec 19: Midday Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "10:24a",
+          "end": "10:24a"
+        },
+        {
+          "start": "10:27",
+          "end": "10:27"
+        }
+      ]
+    },
+    {
+      "name": "Advent, Mondays & Dec 19: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "13:22b",
+      "end": "14:1a"
+    },
+    {
+      "name": "Advent, Wednesdays & Dec. 21: Morning Prayer",
+      "color": "#4A628A",
+      "start": "7:14b",
+      "end": "7:15"
+    },
+    {
+      "name": "Advent, Wednesdays & Dec. 21: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "2:11",
+      "end": "2:12"
+    },
+    {
+      "name": "Advent, Wednesdays & Dec. 21: Midday Prayer",
+      "color": "#4A628A",
+      "start": "12:2",
+      "end": "12:2"
+    },
+    {
+      "name": "Advent, Thursdays & Dec. 22: Morning Prayer",
+      "color": "#4A628A",
+      "start": "45:8",
+      "end": "45:8"
+    },
+    {
+      "name": "Advent, Saturday: Morning Prayer",
+      "color": "#4A628A",
+      "start": "11:1",
+      "end": "11:2"
+    },
+    {
+      "name": "Advent, Saturday: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "4:2",
+      "end": "4:2"
+    },
+    {
+      "name": "Advent, Saturday: Midday Prayer",
+      "color": "#4A628A",
+      "start": "4:3",
+      "end": "4:3"
+    },
+    {
+      "name": "Advent, Saturday: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "61:11",
+      "end": "61:11"
+    },
+    {
+      "name": "Dec. 17 & Dec. 24: Morning Prayer",
+      "color": "#4A628A",
+      "start": "11:1",
+      "end": "11:3a"
+    },
+    {
+      "name": "Dec. 17 & Dec. 24: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "4:2",
+      "end": "4:2"
+    },
+    {
+      "name": "Dec. 17 & Dec. 24: Midday Prayer",
+      "color": "#4A628A",
+      "start": "4:3",
+      "end": "4:3"
+    },
+    {
+      "name": "Dec. 17 & Dec. 24: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "61:11",
+      "end": "61:11"
+    },
+    {
+      "name": "Dec. 30: Morning Prayer",
+      "color": "#4A628A",
+      "start": "9:6",
+      "end": "9:6"
+    },
+    {
+      "name": "Dec. 30: Midday Prayer",
+      "color": "#4A628A",
+      "start": "12:5",
+      "end": "12:6"
+    },
+    {
+      "name": "Dec. 31: Morning Prayer",
+      "color": "#4A628A",
+      "start": "4:2",
+      "end": "4:3"
+    },
+    {
+      "name": "Dec. 31: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "45:13",
+      "end": "45:13"
+    },
+    {
+      "name": "Dec. 31: Midday Prayer",
+      "color": "#4A628A",
+      "start": "48:20",
+      "end": "48:20"
+    },
+    {
+      "name": "Dec. 31: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "65:1",
+      "end": "65:1"
+    },
+    {
+      "name": "Monday\u2014from Jan. 2 to Epiphany: Morning Prayer",
+      "color": "#4A628A",
+      "start": "49:8",
+      "end": "49:9"
+    },
+    {
+      "name": "Tuesday\u2014from Jan. 2 to Epiphany: Morning Prayer",
+      "color": "#4A628A",
+      "start": "62:11",
+      "end": "62:12"
+    },
+    {
+      "name": "Tuesday\u2014from Jan. 2 to Epiphany: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "2:3",
+      "end": "2:4"
+    },
+    {
+      "name": "Tuesday\u2014from Jan. 2 to Epiphany: Midday Prayer",
+      "color": "#4A628A",
+      "start": "9:1",
+      "end": "9:1"
+    },
+    {
+      "name": "Tuesday\u2014from Jan. 2 to Epiphany: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "60:4",
+      "end": "60:5"
+    },
+    {
+      "name": "Wednesday\u2014from Jan. 2 to Epiphany: Morning Prayer",
+      "color": "#4A628A",
+      "start": "45:22",
+      "end": "45:23"
+    },
+    {
+      "name": "Friday\u2014from Jan. 2 to Epiphany: Morning Prayer",
+      "color": "#4A628A",
+      "start": "61:1",
+      "end": "61:2a"
+    },
+    {
+      "name": "Friday\u2014from Jan. 2 to Epiphany: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "11:1",
+      "end": "11:3a"
+    },
+    {
+      "name": "Friday\u2014from Jan. 2 to Epiphany: Midday Prayer",
+      "color": "#4A628A",
+      "start": "42:1",
+      "end": "42:1"
+    },
+    {
+      "name": "Friday\u2014from Jan. 2 to Epiphany: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "49:6",
+      "end": "49:6"
+    },
+    {
+      "name": "Saturday\u2014from Jan. 2 to Epiphany: Morning Prayer",
+      "color": "#4A628A",
+      "start": "9:5",
+      "end": "9:5"
+    },
+    {
+      "name": "Saturday\u2014from Jan. 2 to Epiphany: Midday Prayer",
+      "color": "#4A628A",
+      "start": "12:5",
+      "end": "12:6"
+    },
+    {
+      "name": "Epiphany: Morning Prayer",
+      "color": "#4A628A",
+      "start": "52:7",
+      "end": "52:10"
+    },
+    {
+      "name": "Epiphany: Midday Prayer",
+      "color": "#4A628A",
+      "start": "49:6",
+      "end": "49:6"
+    },
+    {
+      "name": "Monday\u2014after Epiphany to Baptism: Morning Prayer",
+      "color": "#4A628A",
+      "start": "9:5",
+      "end": "9:5"
+    },
+    {
+      "name": "Monday\u2014after Epiphany to Baptism: Midday Prayer",
+      "color": "#4A628A",
+      "start": "12:5",
+      "end": "12:6"
+    },
+    {
+      "name": "Tuesday\u2014after Epiphany to Baptism: Morning Prayer",
+      "color": "#4A628A",
+      "start": "4:2",
+      "end": "4:3"
+    },
+    {
+      "name": "Tuesday\u2014after Epiphany to Baptism: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "45:13",
+      "end": "45:13"
+    },
+    {
+      "name": "Tuesday\u2014after Epiphany to Baptism: Midday Prayer",
+      "color": "#4A628A",
+      "start": "48:20",
+      "end": "48:20"
+    },
+    {
+      "name": "Tuesday\u2014after Epiphany to Baptism: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "65:1",
+      "end": "65:1"
+    },
+    {
+      "name": "Wednesday\u2014after Epiphany to Baptism: Morning Prayer",
+      "color": "#4A628A",
+      "start": "49:8",
+      "end": "49:9"
+    },
+    {
+      "name": "Thursday\u2014after Epiphany to Baptism: Morning Prayer",
+      "color": "#4A628A",
+      "start": "62:11",
+      "end": "62:12"
+    },
+    {
+      "name": "Thursday\u2014after Epiphany to Baptism: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "2:3",
+      "end": "2:4"
+    },
+    {
+      "name": "Thursday\u2014after Epiphany to Baptism: Midday Prayer",
+      "color": "#4A628A",
+      "start": "9:1",
+      "end": "9:1"
+    },
+    {
+      "name": "Thursday\u2014after Epiphany to Baptism: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "60:4",
+      "end": "60:5"
+    },
+    {
+      "name": "Friday\u2014after Epiphany to Baptism: Morning Prayer",
+      "color": "#4A628A",
+      "start": "45:22",
+      "end": "45:23"
+    },
+    {
+      "name": "Baptism of the Lord: Morning Prayer",
+      "color": "#4A628A",
+      "start": "61:1",
+      "end": "61:2a"
+    },
+    {
+      "name": "Baptism of the Lord: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "11:1",
+      "end": "11:3"
+    },
+    {
+      "name": "Baptism of the Lord: Midday Prayer",
+      "color": "#4A628A",
+      "start": "42:1",
+      "end": "42:1"
+    },
+    {
+      "name": "Baptism of the Lord: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "49:6",
+      "end": "49:6"
     },
     {
       "name": "Office for the Dead: Morning Prayer",

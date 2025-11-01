@@ -227,19 +227,19 @@
       "end": "2:11"
     },
     {
-      "name": "Week 1: Friday Daytime Prayer1",
+      "name": "Ordinary Time, Week 1: Friday Midmorning Prayer",
       "color": "#4A628A",
       "start": "2:2b",
       "end": "2:4"
     },
     {
-      "name": "Week 3: Saturday Morning Prayer",
+      "name": "Ordinary Time, Week 3: Saturday Morning Prayer",
       "color": "#4A628A",
       "start": "2:14",
       "end": "2:15"
     },
     {
-      "name": "Week 4: Saturday Daytime Prayer3",
+      "name": "Ordinary Time, Week 4: Saturday Midafternoon Prayer",
       "color": "#4A628A",
       "segments": [
         {
@@ -253,10 +253,22 @@
       ]
     },
     {
-      "name": "Office for the Dead: Evening Prayer",
+      "name": "Advent, Sundays & Dec. 18: Evening Prayer II",
+      "color": "#4A628A",
+      "start": "4:4",
+      "end": "4:5"
+    },
+    {
+      "name": "Advent, Mondays & Dec 19: Evening Prayer",
+      "color": "#4A628A",
+      "start": "3:20b",
+      "end": "3:21"
+    },
+    {
+      "name": "Holy Family: Evening Prayer II",
       "color": "#4A628A",
       "start": "2:6",
-      "end": "2:11"
+      "end": "2:7"
     },
     {
       "name": "Office for the Dead: Evening Prayer",

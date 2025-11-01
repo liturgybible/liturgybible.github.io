@@ -693,6 +693,36 @@
       "color": "#4C6B4F",
       "start": "20:17",
       "end": "20:36"
+    },
+    {
+      "name": "Dec. 25, Christmas: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "10:36",
+      "end": "10:36"
+    },
+    {
+      "name": "Second Sunday After Christmas: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "10:36",
+      "end": "10:36"
+    },
+    {
+      "name": "Friday\u2014from Jan. 2 to Epiphany: Evening Prayer",
+      "color": "#4A628A",
+      "start": "10:37",
+      "end": "10:38"
+    },
+    {
+      "name": "Baptism of the Lord: Evening Prayer I",
+      "color": "#4A628A",
+      "start": "10:37",
+      "end": "10:38"
+    },
+    {
+      "name": "Baptism of the Lord: Evening Prayer II",
+      "color": "#4A628A",
+      "start": "10:37:38",
+      "end": "10:37:38"
     }
   ]
 }

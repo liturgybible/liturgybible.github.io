@@ -99,10 +99,46 @@
       "end": "7:20"
     },
     {
-      "name": "Week 3: Saturday Daytime Prayer3",
+      "name": "Ordinary Time, Week 3: Saturday Midafternoon Prayer",
       "color": "#4A628A",
       "start": "6:8",
       "end": "6:8"
+    },
+    {
+      "name": "Advent, Thursdays & Dec. 22: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "5:4",
+      "end": "5:5a"
+    },
+    {
+      "name": "Jan. 1, Mary, Mother of God: Morning Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "5:2",
+          "end": "5:2"
+        },
+        {
+          "start": "5:3",
+          "end": "5:3"
+        },
+        {
+          "start": "5:4a",
+          "end": "5:4a"
+        }
+      ]
+    },
+    {
+      "name": "Thursday\u2014from Jan. 2 to Epiphany: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "2:12",
+      "end": "2:12"
+    },
+    {
+      "name": "Saturday\u2014after Epiphany to Baptism: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "2:12",
+      "end": "2:12"
     }
   ]
 }

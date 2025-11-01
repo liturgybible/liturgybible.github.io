@@ -121,13 +121,13 @@
   ],
   "divineOffice": [
     {
-      "name": "Week 3: Sunday Daytime Prayer3",
+      "name": "Ordinary Time, Week 3: Sunday Midafternoon Prayer",
       "color": "#4A628A",
       "start": "1:9",
       "end": "1:9"
     },
     {
-      "name": "Week 4: Sunday Morning Prayer",
+      "name": "Ordinary Time, Week 4: Sunday Morning Prayer",
       "color": "#4A628A",
       "segments": [
         {
@@ -139,6 +139,12 @@
           "end": "2:13"
         }
       ]
+    },
+    {
+      "name": "Epiphany: Evening Prayer I",
+      "color": "#4A628A",
+      "start": "1:9",
+      "end": "1:10"
     }
   ]
 }

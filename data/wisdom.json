@@ -243,7 +243,7 @@
       ]
     },
     {
-      "name": "Week 1: Saturday Daytime Prayer3",
+      "name": "Ordinary Time, Week 1: Saturday Midafternoon Prayer",
       "color": "#4A628A",
       "segments": [
         {
@@ -257,19 +257,19 @@
       ]
     },
     {
-      "name": "Week 2: Friday Daytime Prayer3",
+      "name": "Ordinary Time, Week 2: Friday Midafternoon Prayer",
       "color": "#4A628A",
       "start": "1:13",
       "end": "1:15"
     },
     {
-      "name": "Week 3: Thursday Daytime Prayer1",
+      "name": "Ordinary Time, Week 3: Thursday Midmorning Prayer",
       "color": "#4A628A",
       "start": "19:22",
       "end": "19:22"
     },
     {
-      "name": "Week 4: Monday Daytime Prayer2",
+      "name": "Ordinary Time, Week 4: Monday Midday Prayer",
       "color": "#4A628A",
       "segments": [
         {
@@ -283,10 +283,22 @@
       ]
     },
     {
-      "name": "Week 4: Thursday Daytime Prayer2",
+      "name": "Ordinary Time, Week 4: Thursday Midday Prayer",
       "color": "#4A628A",
       "start": "1:1",
       "end": "1:2"
+    },
+    {
+      "name": "Thursday\u2014from Jan. 2 to Epiphany: Morning Prayer",
+      "color": "#4A628A",
+      "start": "7:26",
+      "end": "7:27"
+    },
+    {
+      "name": "Saturday\u2014after Epiphany to Baptism: Morning Prayer",
+      "color": "#4A628A",
+      "start": "7:26",
+      "end": "7:27"
     },
     {
       "name": "Office for the Dead: Daytime Prayer",

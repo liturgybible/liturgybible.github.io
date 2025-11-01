@@ -67,6 +67,20 @@
       "color": "#4C6B4F",
       "start": "3:8",
       "end": "3:20"
+    },
+    {
+      "name": "Jan. 1, Mary, Mother of God: Midmorning Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "3:14",
+          "end": "3:14"
+        },
+        {
+          "start": "3:15b",
+          "end": "3:15b"
+        }
+      ]
     }
   ]
 }

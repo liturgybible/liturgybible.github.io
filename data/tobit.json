@@ -151,7 +151,7 @@
       ]
     },
     {
-      "name": "Week 1: Wednesday Morning Prayer",
+      "name": "Ordinary Time, Week 1: Wednesday Morning Prayer",
       "color": "#4A628A",
       "segments": [
         {
@@ -171,6 +171,24 @@
           "end": "4:19"
         }
       ]
+    },
+    {
+      "name": "Dec. 30: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "14:6",
+      "end": "14:7"
+    },
+    {
+      "name": "Saturday\u2014from Jan. 2 to Epiphany: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "14:6",
+      "end": "14:7"
+    },
+    {
+      "name": "Monday\u2014after Epiphany to Baptism: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "14:6",
+      "end": "14:7"
     }
   ]
 }

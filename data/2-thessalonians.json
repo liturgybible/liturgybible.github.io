@@ -81,10 +81,28 @@
       "end": "3:18"
     },
     {
-      "name": "Week 2: Sunday Evening Prayer II",
+      "name": "Ordinary Time, Week 2: Sunday Evening Prayer II",
       "color": "#4A628A",
       "start": "2:13",
       "end": "2:14"
+    },
+    {
+      "name": "Advent, Sundays & Dec. 18: Midafternoon Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "1:6",
+          "end": "1:6"
+        },
+        {
+          "start": "1:7",
+          "end": "1:7"
+        },
+        {
+          "start": "1:10a",
+          "end": "1:10a"
+        }
+      ]
     }
   ]
 }

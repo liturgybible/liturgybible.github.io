@@ -457,12 +457,6 @@
       "end": "15:20"
     },
     {
-      "name": "Aug 15: Solemnity: Assumption of the BVMary, Day [I/II, #622]",
-      "color": "#C9A441",
-      "start": "15:20",
-      "end": "15:27"
-    },
-    {
       "name": "Ordinary Time, Week 24, Sat [II, #448]",
       "color": "#B35C58",
       "segments": [
@@ -475,12 +469,6 @@
           "end": "15:49"
         }
       ]
-    },
-    {
-      "name": "Aug 15: Solemnity: Assumption of the BVMary, Vigil [I/II, #621]",
-      "color": "#C9A441",
-      "start": "15:54b",
-      "end": "15:57"
     }
   ],
   "divineOffice": [
@@ -539,19 +527,19 @@
       "end": "15:57"
     },
     {
-      "name": "Week 2: Tuesday Daytime Prayer1",
+      "name": "Ordinary Time, Week 2: Tuesday Midmorning Prayer",
       "color": "#4A628A",
       "start": "12:4",
       "end": "12:6"
     },
     {
-      "name": "Week 2: Tuesday Daytime Prayer2",
+      "name": "Ordinary Time, Week 2: Tuesday Midday Prayer",
       "color": "#4A628A",
       "start": "12:12",
       "end": "12:13"
     },
     {
-      "name": "Week 2: Tuesday Daytime Prayer3",
+      "name": "Ordinary Time, Week 2: Tuesday Midafternoon Prayer",
       "color": "#4A628A",
       "segments": [
         {
@@ -565,19 +553,19 @@
       ]
     },
     {
-      "name": "Week 2: Friday Evening Prayer",
+      "name": "Ordinary Time, Week 2: Friday Evening Prayer",
       "color": "#4A628A",
       "start": "2:7",
       "end": "2:10a"
     },
     {
-      "name": "Week 3: Wednesday Daytime Prayer1",
+      "name": "Ordinary Time, Week 3: Wednesday Midmorning Prayer",
       "color": "#4A628A",
       "start": "13:4",
       "end": "13:7"
     },
     {
-      "name": "Week 3: Wednesday Daytime Prayer2",
+      "name": "Ordinary Time, Week 3: Wednesday Midday Prayer",
       "color": "#4A628A",
       "segments": [
         {
@@ -591,13 +579,13 @@
       ]
     },
     {
-      "name": "Week 4: Sunday Daytime Prayer1",
+      "name": "Ordinary Time, Week 4: Sunday Midmorning Prayer",
       "color": "#4A628A",
       "start": "6:19",
       "end": "6:20"
     },
     {
-      "name": "Week 4: Wednesday Daytime Prayer1",
+      "name": "Ordinary Time, Week 4: Wednesday Midmorning Prayer",
       "color": "#4A628A",
       "segments": [
         {
@@ -611,16 +599,22 @@
       ]
     },
     {
+      "name": "Advent, Tuesdays & Dec. 20: Evening Prayer",
+      "color": "#4A628A",
+      "start": "1:7b",
+      "end": "1:9"
+    },
+    {
+      "name": "Advent, Wednesdays & Dec. 21: Evening Prayer",
+      "color": "#4A628A",
+      "start": "4:5",
+      "end": "4:5"
+    },
+    {
       "name": "Office for the Dead: Office of Readings",
       "color": "#4A628A",
       "start": "15:12",
       "end": "15:34"
-    },
-    {
-      "name": "Office for the Dead: Evening Prayer",
-      "color": "#4A628A",
-      "start": "15:55",
-      "end": "15:57"
     },
     {
       "name": "Office for the Dead: Evening Prayer",

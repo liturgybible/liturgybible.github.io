@@ -407,43 +407,43 @@
       "end": "32:12"
     },
     {
-      "name": "Week 2: Wednesday Daytime Prayer1",
+      "name": "Ordinary Time, Week 2: Wednesday Midmorning Prayer",
       "color": "#4A628A",
       "start": "1:16",
       "end": "1:17a"
     },
     {
-      "name": "Week 2: Friday Daytime Prayer1",
+      "name": "Ordinary Time, Week 2: Friday Midmorning Prayer",
       "color": "#4A628A",
       "start": "1:31b",
       "end": "1:31b"
     },
     {
-      "name": "Week 2: Saturday Daytime Prayer1",
+      "name": "Ordinary Time, Week 2: Saturday Midmorning Prayer",
       "color": "#4A628A",
       "start": "8:5b",
       "end": "8:6"
     },
     {
-      "name": "Week 3: Tuesday Daytime Prayer2",
+      "name": "Ordinary Time, Week 3: Tuesday Midday Prayer",
       "color": "#4A628A",
       "start": "15:7",
       "end": "15:8"
     },
     {
-      "name": "Week 3: Thursday Daytime Prayer2",
+      "name": "Ordinary Time, Week 3: Thursday Midday Prayer",
       "color": "#4A628A",
       "start": "4:7",
       "end": "4:7"
     },
     {
-      "name": "Week 4: Sunday Daytime Prayer2",
+      "name": "Ordinary Time, Week 4: Sunday Midday Prayer",
       "color": "#4A628A",
       "start": "10:12",
       "end": "10:12"
     },
     {
-      "name": "Week 4: Tuesday Daytime Prayer2",
+      "name": "Ordinary Time, Week 4: Tuesday Midday Prayer",
       "color": "#4A628A",
       "segments": [
         {
@@ -457,16 +457,40 @@
       ]
     },
     {
-      "name": "Week 4: Wednesday Morning Prayer",
+      "name": "Ordinary Time, Week 4: Wednesday Morning Prayer",
       "color": "#4A628A",
       "start": "4:39",
       "end": "4:40a"
     },
     {
-      "name": "Night Prayer: After Evening Prayer I on Sundays",
+      "name": "Ordinary Time Night Prayer: After Evening Prayer I on Sundays",
       "color": "#4A628A",
       "start": "6:4",
       "end": "6:7"
+    },
+    {
+      "name": "Dec. 30: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "4:7",
+      "end": "4:7"
+    },
+    {
+      "name": "Holy Family: Morning Prayer",
+      "color": "#4A628A",
+      "start": "5:16",
+      "end": "5:16"
+    },
+    {
+      "name": "Saturday\u2014from Jan. 2 to Epiphany: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "4:7",
+      "end": "4:7"
+    },
+    {
+      "name": "Monday\u2014after Epiphany to Baptism: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "4:7",
+      "end": "4:7"
     }
   ]
 }

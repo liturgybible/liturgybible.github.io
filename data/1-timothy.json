@@ -137,6 +137,18 @@
       "color": "#5E4B81",
       "start": "3:16",
       "end": "3:16"
+    },
+    {
+      "name": "Monday\u2014from Jan. 2 to Epiphany: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "1:15",
+      "end": "1:15"
+    },
+    {
+      "name": "Wednesday\u2014after Epiphany to Baptism: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "1:15",
+      "end": "1:15"
     }
   ]
 }

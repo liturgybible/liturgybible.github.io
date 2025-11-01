@@ -25,6 +25,20 @@
       "color": "#4C6B4F",
       "start": "2:11",
       "end": "2:24"
+    },
+    {
+      "name": "Advent, Thursdays & Dec. 22: Midday Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "2:6",
+          "end": "2:6"
+        },
+        {
+          "start": "2:9",
+          "end": "2:9"
+        }
+      ]
     }
   ]
 }

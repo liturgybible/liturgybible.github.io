@@ -597,7 +597,7 @@
       "end": "19:7"
     },
     {
-      "name": "Week 1: Sunday Morning Prayer",
+      "name": "Ordinary Time, Week 1: Sunday Morning Prayer",
       "color": "#4A628A",
       "segments": [
         {
@@ -611,10 +611,28 @@
       ]
     },
     {
-      "name": "Night Prayer: After Evening Prayer II on Sundays",
+      "name": "Ordinary Time Night Prayer: After Evening Prayer II on Sundays",
       "color": "#4A628A",
       "start": "22:4",
       "end": "22:5"
+    },
+    {
+      "name": "Monday\u2014from Jan. 2 to Epiphany: Midday Prayer",
+      "color": "#4A628A",
+      "start": "21:23",
+      "end": "21:24"
+    },
+    {
+      "name": "Epiphany: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "15:4",
+      "end": "15:4"
+    },
+    {
+      "name": "Wednesday\u2014after Epiphany to Baptism: Midday Prayer",
+      "color": "#4A628A",
+      "start": "21:23",
+      "end": "21:24"
     }
   ]
 }
