@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="See today's readings for Mass in the biblical context. Pray the Mass from the Bible, and read the Bible with the Church in the liturgy.">
+    <meta name="keywords" content="daily, reading, readings, usccb, bible, catholic, liturgy, liturgical, gospel, lectionary, breviary, divine, office, hours, church">
+    <!-- The title will be dynamically updated by JavaScript -->
+    <title>Today's Readings - Liturgy Bible</title>
+    
+    <!-- Link to your main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google tag (gtag.js) - Placed in <head> as recommended by Google -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BGRS7FKZLX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-BGRS7FKZLX');
+    </script>
+
+    <style>
+        /* --- Styles for the Daily Readings Pane --- */
+        #daily-readings-pane {
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: var(--color-text-dark);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Lighter shadow */
+            z-index: 1; /* Sits normally in the page flow */
+            padding: 1rem 1.5rem;
+            box-sizing: border-box;
+            font-family: MiloWeb, sans-serif;
+            font-weight: 400;
+            font-size: 0.9em;
+            border-radius: 12px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            margin-bottom: 2rem; /* Space below the pane */
+        }
+
+        /* --- Liturgical Color Themes --- */
+        #daily-readings-pane.liturgical-color-white {
+            background-color: rgba(255, 255, 255, 0.85);
+            color: var(--color-text-dark);
+            border-color: var(--muted-gold-border-stronger);
+        }
+        #daily-readings-pane.liturgical-color-red {
+            background-color: rgba(218, 41, 28, 0.75);
+            color: var(--color-text-light);
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+        #daily-readings-pane.liturgical-color-green {
+            background-color: rgba(0, 132, 61, 0.8);
+            color: var(--color-text-light);
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+        #daily-readings-pane.liturgical-color-violet {
+            background-color: rgba(142, 68, 173, 0.8);
+            color: var(--color-text-light);
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+        #daily-readings-pane.liturgical-color-rose {
+            background-color: rgba(244, 191, 190, 0.85);
+            color: var(--color-text-dark);
+            border-color: rgba(123, 46, 43, 0.3);
+        }
+        #daily-readings-pane.liturgical-color-black {
+            background-color: rgba(33, 33, 33, 0.8);
+            color: var(--color-text-light);
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+        #daily-readings-pane.liturgical-color-default {
+            background-color: rgba(128, 128, 128, 0.8);
+            color: var(--color-text-light);
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        /* --- Pane Header & List --- */
+        #daily-readings-pane .pane-header {
+            margin-bottom: 0.5rem;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            padding-bottom: 0.5rem;
+        }
+        .liturgical-color-white .pane-header,
+        .liturgical-color-rose .pane-header {
+            border-bottom-color: var(--muted-gold-border);
+        }
+        .liturgical-color-red .pane-header,
+        .liturgical-color-green .pane-header,
+        .liturgical-color-violet .pane-header,
+        .liturgical-color-black .pane-header,
+        .liturgical-color-default .pane-header {
+            border-bottom-color: rgba(255, 255, 255, 0.3);
+        }
+
+        #daily-readings-pane .pane-header h4 {
+            margin: 0 0 0.2rem 0;
+            font-size: 1.2em;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+        #daily-readings-pane .pane-header .pane-date {
+            margin: 0;
+            font-size: 1em;
+            font-style: italic;
+            opacity: 0.9;
+        }
+        
+        #daily-readings-pane .pane-reading-list {
+            list-style: none;
+            padding: 0;
+            margin: 0.5rem 0 0 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem 1.5rem;
+        }
+        #daily-readings-pane .pane-reading-list li {
+            margin: 0;
+            white-space: nowrap;
+        }
+        #daily-readings-pane .pane-reading-list li strong {
+            margin-right: 0.5em;
+            opacity: 0.9;
+            font-weight: 600;
+        }
+        #daily-readings-pane a {
+            text-decoration: underline;
+            border-bottom: none;
+        }
+        #daily-readings-pane a:hover {
+            background: none;
+            border-bottom: none;
+            text-decoration: none;
+        }
+        
+        /* --- Pane Color Theming (Links) --- */
+        .liturgical-color-white .pane-reading-list a { color: var(--muted-gold-darker); }
+        .liturgical-color-white .pane-reading-list a:hover { color: var(--muted-gold-darker); background: var(--muted-gold-light-bg); }
+        .liturgical-color-rose .pane-reading-list a { color: #5E4B81; }
+        .liturgical-color-rose .pane-reading-list a:hover { color: #401514; }
+        .liturgical-color-red .pane-reading-list a,
+        .liturgical-color-green .pane-reading-list a,
+        .liturgical-color-violet .pane-reading-list a,
+        .liturgical-color-black .pane-reading-list a,
+        .liturgical-color-default .pane-reading-list a {
+            color: rgba(255, 255, 255, 0.9);
+        }
+        .liturgical-color-red .pane-reading-list a:hover,
+        .liturgical-color-green .pane-reading-list a:hover,
+        .liturgical-color-violet .pane-reading-list a:hover,
+        .liturgical-color-black .pane-reading-list a:hover,
+        .liturgical-color-default .pane-reading-list a:hover {
+            color: white;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        /* --- Pane Mobile Styles --- */
+        @media (max-width: 800px) {
+            #daily-readings-pane .pane-reading-list {
+                flex-direction: column;
+                gap: 0.2rem 1rem;
+                white-space: normal;
+            }
+            #daily-readings-pane .pane-reading-list li {
+                white-space: normal;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="top-nav">
+        <a href="index.html">
+            <img src="images/liturgy-Bible-horiz.png" alt="Liturgy Bible Logo" class="header-logo">
+            <img src="images/lb.png" alt="Liturgy Bible Logo" class="header-logo-mobile">
+            <!-- Use .webp for faster loading -->
+            <!-- <img src="images/liturgy-Bible-horiz.webp" alt="Liturgy Bible Logo" class="header-logo">
+            <img src="images/lb.webp" alt="Liturgy Bible Logo" class="header-logo-mobile"> -->
+        </a>
+        <div class="header-controls">
+            <!-- Title and date are now populated by JavaScript for SEO -->
+            <h1 id="page-title" class="header-chapter">Today's Readings</h1>
+        </div>
+    </header>
+    
+    <div class="bible-container">
+        <main class="bible-text">
+            
+            <!-- This h2 will be filled by JS -->
+            <h2 id="day-name" style="text-align: center; font-style: bold; font-weight: 600; margin-bottom: 1.5rem;">
+                <!-- Placeholder for date, e.g., "Mon. Nov 3, 2025" -->
+            </h2>
+
+            <!-- This div will be filled by the script -->
+            <div id="readings-pane-placeholder">
+                <p>Loading today's readings...</p>
+            </div>
+
+            <hr>
+
+            <p>Welcome to the Liturgy Bible, a tool for exploring <strong>today's Daily Readings</strong> for Catholic Mass in their full <strong>biblical context</strong>. Instead of viewing the readings as a list, this page links you directly to the Bible chapters where they are found.</p>
+
+            <p>As you read, you can see the verses that come before and after the day's selection. Annotations in the margins show how the Church uses this part of Scripture throughout the year, both in the <strong>Lectionary for Mass</strong> (left margin) and the <strong>Liturgy of the Hours</strong> (right margin).</p>
+
+            <p>This site is a companion for study and prayer. For the official list of today's readings, we gratefully direct you to the <a href="https://bible.usccb.org/daily-bible-reading" target="_blank">USCCB Daily Readings</a> page, which is the primary source for the text used at Mass in the United States. The Liturgy Bible is designed to be a complementary resource, perfect for diving deeper into the readings within the context of the whole Bible.</p>
+
+            <center>
+                <div class="content">
+                    <a href="about.html" class="button">About</a> <!-- <br><br> -->
+                    <a href="mailto:liturgybible@gmail.com?subject=Liturgy%20Bible" target="_blank" class="button">Contact</a>
+                </div>
+            </center>
+
+        </main>
+    </div>
+    <hr>
+    <footer id="footer" align="center">
+        <center>
+            <img src="images/lb.png" width="100px">
+            <!-- Use .webp for faster loading -->
+            <!-- <img src="images/lb.webp" width="100px"> -->
+            <p class="copyright">&copy; <script>document.write(new Date().getFullYear())</script> liturgybible.org</p>
+        </center>
+    </footer>
+    
+    
+    <script>
+        // --- Book Slug Mapping (Minimal) ---
+        // to build the links
+        const BOOK_SLUG_MAP_JS = {
+            "genesis": "genesis", "exodus": "exodus", "leviticus": "leviticus", "numbers": "numbers", "deuteronomy": "deuteronomy",
+            "joshua": "joshua", "judges": "judges", "ruth": "ruth", "1 samuel": "1-samuel", "2 samuel": "2-samuel",
+            "1 kings": "1-kings", "2 kings": "2-kings", "1 chronicles": "1-chronicles", "2 chronicles": "2-chronicles",
+            "ezra": "ezra", "nehemiah": "nehemiah", "tobit": "tobit", "judith": "judith", "esther": "esther",
+            "1 maccabees": "1-maccabees", "2 maccabees": "2-maccabees", "job": "job", "psalms": "psalms", "proverbs": "proverbs",
+            "ecclesiastes": "ecclesiastes", "song of songs": "song-of-songs", "wisdom": "wisdom", "sirach": "sirach",
+            "isaiah": "isaiah", "jeremiah": "jeremiah", "lamentations": "lamentations", "baruch": "baruch", "ezekiel": "ezekiel",
+            "daniel": "daniel", "hosea": "hosea", "joel": "joel", "amos": "amos", "obadiah": "obadiah",
+            "jonah": "jonah", "micah": "micah", "nahum": "nahum", "habakkuk": "habakkuk", "zephaniah": "zephaniah",
+            "haggai": "haggai", "zechariah": "zechariah", "malachi": "malachi", "matthew": "matthew", "mark": "mark",
+            "luke": "luke", "john": "john", "acts": "acts", "romans": "romans", "1 corinthians": "1-corinthians",
+            "2 corinthians": "2-corinthians", "galatians": "galatians", "ephesians": "ephesians", "philippians": "philippians",
+            "colossians": "colossians", "1 thessalonians": "1-thessalonians", "2 thessalonians": "2-thessalonians",
+            "1 timothy": "1-timothy", "2 timothy": "2-timothy", "titus": "titus", "philemon": "philemon",
+            "hebrews": "hebrews", "james": "james", "1 peter": "1-peter", "2 peter": "2-peter",
+            "1 john": "1-john", "2 john": "2-john", "3 john": "3-john", "jude": "jude", "revelation": "revelation",
+            "ps": "psalms", "1 cor": "1-corinthians", "2 cor": "2-corinthians", "gal": "galatians", "eph": "ephesians",
+            "phil": "philippians", "col": "colossians", "1 thes": "1-thessalonians", "2 thes": "2-thessalonians",
+            "1 tm": "1-timothy", "2 tm": "2-timothy", "ti": "titus", "phlm": "philemon", "heb": "hebrews",
+            "jas": "james", "1 pt": "1-peter", "2 pt": "2-peter", "1 jn": "1-john", "2 jn": "2-john", "3 jn": "3-john",
+            "jud": "jude", "rv": "revelation"
+        };
+        const SORTED_BOOK_KEYS_JS = Object.keys(BOOK_SLUG_MAP_JS).sort((a, b) => b.length - a.length);
+
+        /**
+         * Gets the current date in YYYY-MM-DD format based on the user's browser.
+         */
+        function getCurrentDateString() {
+            const today = new Date();
+            const year = today.getFullYear();
+            const month = String(today.getMonth() + 1).padStart(2, '0');
+            const day = String(today.getDate()).padStart(2, '0');
+            return `${year}-${month}-${day}`;
+        }
+
+        /**
+         * Formats a date object into "Fri. Oct 24, 2025" format.
+         */
+        function formatDisplayDate(date) {
+            const options = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' };
+            let formatted = date.toLocaleDateString('en-US', options);
+            formatted = formatted.replace(/^(\w{3}),/, '$1.');
+            return formatted;
+        }
+
+        /**
+         * Creates and injects the HTML for the daily readings pane.
+         */
+        function buildReadingsPane(readingsData) {
+            const placeholder = document.getElementById('readings-pane-placeholder');
+            if (!readingsData || !placeholder) return;
+
+            const readingDate = new Date(readingsData.date + 'T00:00:00');
+            const readingSequence = [];
+
+            // Helper to create links
+            const createLink = (text, link) => {
+                // Note: Links are relative to the root `index.html`, not `../`
+                return link ? `<a href="${link}">${text}</a>` : text;
+            }
+
+            // Helper to populate readingSequence array
+            const addReadingToSequence = (label, readingRef, readingLink) => {
+                if (readingRef && readingLink) {
+                    readingSequence.push({ ref: readingRef, link: readingLink, label: label });
+                }
+            };
+
+            // Populate the sequence
+            addReadingToSequence('Reading 1', readingsData.reading_1, readingsData.reading_1_link);
+            addReadingToSequence('Psalm', readingsData.psalm, readingsData.psalm_link);
+            addReadingToSequence('Reading 2', readingsData.reading_2, readingsData.reading_2_link);
+            addReadingToSequence('Alleluia', readingsData.allelulia, readingsData.allelulia_link);
+            addReadingToSequence('Gospel', readingsData.gospel, readingsData.gospel_link);
+
+            // --- Build Pane Content ---
+            let paneContent = `<div class="pane-header">`;
+            paneContent += `<h4>${readingsData.name || 'Daily Readings'}</h4>`;
+            paneContent += `<p class="pane-date">${formatDisplayDate(readingDate)}</p>`;
+            paneContent += `</div>`;
+            paneContent += `<ul class="pane-reading-list">`;
+            
+            if (readingSequence.length > 0) {
+                readingSequence.forEach(reading => {
+                    paneContent += `<li><strong>${reading.label}:</strong> ${createLink(reading.ref, reading.link)}</li>`;
+                });
+            } else {
+                paneContent += `<li>No readings available for this date.</li>`;
+            }
+            paneContent += `</ul>`;
+
+            // --- Create and Inject Pane ---
+            const paneDiv = document.createElement('div');
+            paneDiv.id = 'daily-readings-pane'; // Use this ID to style it
+            paneDiv.innerHTML = paneContent;
+
+            // Apply Liturgical Color
+            const liturgicalColor = (readingsData.color || '').toLowerCase();
+            if (liturgicalColor) {
+                paneDiv.classList.add(`liturgical-color-${liturgicalColor}`);
+            } else {
+                paneDiv.classList.add(`liturgical-color-default`);
+            }
+
+            // Replace placeholder with the new pane
+            placeholder.parentNode.replaceChild(paneDiv, placeholder);
+
+            // --- Update SEO Content ---
+            const pageTitle = document.getElementById('page-title');
+            const dayName = document.getElementById('day-name');
+            const newTitle = `${readingsData.name || "Today's Readings"} | Liturgy Bible`;
+            
+            document.title = newTitle; // Update tab title
+            if (pageTitle) pageTitle.textContent = readingsData.name || "Today's Readings"; // Update <h1>
+            if (dayName) dayName.textContent = formatDisplayDate(readingDate); // Update <h2>
+
+            // --- DYNAMICALLY UPDATE/CREATE SCHEMA.ORG ---
+            // Find and remove any old schema to prevent duplicates
+            const oldSchema = document.getElementById('schema-org-data');
+            if (oldSchema) {
+                oldSchema.remove();
+            }
+
+            // Create the new schema object
+            const schema = {
+              "@context": "https://schema.org",
+              "@type": "BlogPosting",
+              "headline": readingsData.name,
+              "datePublished": readingsData.date, // e.g., "2025-11-03"
+              "dateModified": readingsData.date,
+              "author": {
+                "@type": "Organization",
+                "name": "Liturgy Bible",
+                "url": "https://liturgybible.org/" // Use your main site URL
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Liturgy Bible",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://liturgybible.org/images/lb.png" 
+                }
+              },
+              // Pull the description from the meta tag
+              "description": document.querySelector('meta[name="description"]')?.content || "See today's readings for Mass in the biblical context."
+            };
+
+            // Create the <script> tag
+            const schemaScript = document.createElement('script');
+            schemaScript.type = 'application/ld+json';
+            schemaScript.id = 'schema-org-data';
+            schemaScript.textContent = JSON.stringify(schema);
+            
+            // Append the new schema to the <head>
+            document.head.appendChild(schemaScript);
+            // --- END SCHEMA LOGIC ---
+        }
+
+        // --- Main execution on page load ---
+        window.addEventListener('load', () => {
+            const todayStr = getCurrentDateString();
+            // Assumes data file is in `data_usccb/` relative to this HTML file
+            fetch('data_usccb/usccb-readings.json') 
+                .then(response => {
+                    if (!response.ok) throw new Error('Failed to load readings data');
+                    return response.json();
+                })
+                .then(allReadings => {
+                    const todaysReadings = allReadings.find(reading => reading.date === todayStr);
+                    if (todaysReadings) {
+                        buildReadingsPane(todaysReadings);
+                    } else {
+                        document.getElementById('readings-pane-placeholder').innerHTML = `<p>No readings found for today (${todayStr}).</p>`;
+                        console.log("No readings found for today:", todayStr);
+                    }
+                })
+                .catch(error => {
+                    console.error("Error fetching or processing daily readings:", error);
+                    document.getElementById('readings-pane-placeholder').innerHTML = `<p>Error loading readings. Please try again later.</p>`;
+                });
+        });
+
+    </script>
+</body>
+</html>
