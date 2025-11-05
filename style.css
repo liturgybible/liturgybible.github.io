@@ -468,7 +468,7 @@ hr {
 
 /* --- Liturgical Color Themes --- */
 #daily-readings-popup.liturgical-color-white {
-    background-color: rgba(255, 255, 255, 0.85); /* Slightly less transparent white */
+    background-color: rgba(255, 255, 245, 0.85);
     color: var(--color-text-dark);
     border-color: var(--muted-gold-border-stronger); /* Subtle gold border */
 }
