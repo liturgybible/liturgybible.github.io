@@ -7,7 +7,17 @@ function findElement(verseIdentifier) {
     // Only search within the visible .translation-text.active container
     let element = document.querySelector(`.translation-text.active [data-verse-part="${verseIdentifier}"]`);
     if (!element) {
+        // Try exact match on data-verse as-is
         element = document.querySelector(`.translation-text.active [data-verse="${verseIdentifier}"]`);
+    }
+    if (!element) {
+        // Fallback: if verseIdentifier includes a part (e.g., "1:5b") but HTML lacks parts,
+        // strip the trailing letter and use the full verse container.
+        const m = String(verseIdentifier).match(/^(\d+):(\d+)[a-z]$/i);
+        if (m) {
+            const fallbackID = `${m[1]}:${m[2]}`;
+            element = document.querySelector(`.translation-text.active [data-verse="${fallbackID}"]`);
+        }
     }
     return element;
 }
@@ -346,7 +356,12 @@ function highlightDailyReadings(todaysReadings) {
     }
     
     // 3. Find all verse elements on the page (for calculations)
-    const allVersesOnPage = document.querySelectorAll(`.translation-text.active p[data-verse^="${currentChapterNum}:"], .translation-text.active span[data-verse-part^="${currentChapterNum}:"]`);
+    let allVersesOnPage = document.querySelectorAll(`.translation-text.active p[data-verse^="${currentChapterNum}:"], .translation-text.active span[data-verse-part^="${currentChapterNum}:"]`);
+    if (allVersesOnPage.length === 0) {
+        // Fallback: if no verse parts are present in the HTML, look for full-verse containers
+        allVersesOnPage = document.querySelectorAll(`.translation-text.active p[data-verse^="${currentChapterNum}:"]`);
+        if (allVersesOnPage.length === 0) return;
+    }
     if (allVersesOnPage.length === 0) return;
     
     const firstVerseOnPage = allVersesOnPage[0].dataset.verse || allVersesOnPage[0].dataset.versePart;
@@ -705,4 +720,3 @@ function renderSide(readings, container, isRightSided) {
         });
     });
 }
-
