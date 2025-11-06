@@ -651,7 +651,7 @@ hr {
     font-weight: 600; /* Match body weight */
     padding: 0;
     margin: 0;
-    width: auto
+    width: auto;
     box-sizing: border-box;
 }
 /* Style the calendar icon */
