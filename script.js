@@ -4,22 +4,40 @@
  * @returns {HTMLElement|null} The found element or null.
  */
 function findElement(verseIdentifier) {
-    // Only search within the visible .translation-text.active container
-    let element = document.querySelector(`.translation-text.active [data-verse-part="${verseIdentifier}"]`);
-    if (!element) {
-        // Try exact match on data-verse as-is
-        element = document.querySelector(`.translation-text.active [data-verse="${verseIdentifier}"]`);
+    const activeTranslation = document.querySelector('.translation-text.active');
+    if (!activeTranslation) return null;
+
+    // 1. Try to find the exact verse part (e.g., "8:31b")
+    let element = activeTranslation.querySelector(`[data-verse-part="${verseIdentifier}"]`);
+    if (element) {
+        return element;
     }
-    if (!element) {
-        // Fallback: if verseIdentifier includes a part (e.g., "1:5b") but HTML lacks parts,
-        // strip the trailing letter and use the full verse container.
-        const m = String(verseIdentifier).match(/^(\d+):(\d+)[a-z]$/i);
-        if (m) {
-            const fallbackID = `${m[1]}:${m[2]}`;
-            element = document.querySelector(`.translation-text.active [data-verse="${fallbackID}"]`);
+
+    // 2. Try to find the exact whole verse (e.g., "8:39")
+    element = activeTranslation.querySelector(`[data-verse="${verseIdentifier}"]`);
+    if (element) {
+        return element;
+    }
+
+    // 3. Fallback: If looking for a verse part (e.g., "1:1b") and it's not found,
+    //    try to find the whole verse element (e.g., "1:1").
+    const partMatch = verseIdentifier.match(/^(\d+:\d+)[a-z]$/); // Matches "1:1b", "1:1c", etc.
+    if (partMatch) {
+        const wholeVerseIdentifier = partMatch[1]; // "1:1"
+        element = activeTranslation.querySelector(`[data-verse="${wholeVerseIdentifier}"]`);
+        if (element) {
+            return element;
         }
     }
-    return element;
+    
+    // 4. Fallback: If looking for a whole verse (e.g. "1:1") and it's not found,
+    //    maybe it's split into parts in the HTML? Try to find the first part (e.g. "1:1a").
+    element = activeTranslation.querySelector(`[data-verse-part="${verseIdentifier}a"]`);
+    if (element) {
+         return element;
+    }
+
+    return null; // No match found
 }
 
 /**
@@ -356,12 +374,7 @@ function highlightDailyReadings(todaysReadings) {
     }
     
     // 3. Find all verse elements on the page (for calculations)
-    let allVersesOnPage = document.querySelectorAll(`.translation-text.active p[data-verse^="${currentChapterNum}:"], .translation-text.active span[data-verse-part^="${currentChapterNum}:"]`);
-    if (allVersesOnPage.length === 0) {
-        // Fallback: if no verse parts are present in the HTML, look for full-verse containers
-        allVersesOnPage = document.querySelectorAll(`.translation-text.active p[data-verse^="${currentChapterNum}:"]`);
-        if (allVersesOnPage.length === 0) return;
-    }
+    const allVersesOnPage = document.querySelectorAll(`.translation-text.active p[data-verse^="${currentChapterNum}:"], .translation-text.active span[data-verse-part^="${currentChapterNum}:"]`);
     if (allVersesOnPage.length === 0) return;
     
     const firstVerseOnPage = allVersesOnPage[0].dataset.verse || allVersesOnPage[0].dataset.versePart;
@@ -720,3 +733,4 @@ function renderSide(readings, container, isRightSided) {
         });
     });
 }
+
