@@ -429,6 +429,11 @@ window.addEventListener('load', () => {
     // --- Make readings data globally accessible ---
     window.todaysReadingsData = null; // Store today's readings to pass to other functions
     window.allUsccbReadings = []; // Store all readings
+    
+    // --- CCC Data ---
+    window.bookCccRefs = null; // Store per-book CCC refs
+    window.cccTextData = null; // Lazy-loaded full CCC text
+    window.cccTextPromise = null; // Promise to manage lazy-loading
 
     // --- Daily Readings Popup Logic ---
     const todayStr = getCurrentDateString();
@@ -455,6 +460,23 @@ window.addEventListener('load', () => {
             console.error("Error fetching or processing daily readings:", error);
         });
     // --- End Daily Readings Popup Logic ---
+    
+    // --- CCC Reference Logic ---
+    if (book && chapter) {
+        fetch(`../data/ccc-refs/${book}.json`)
+            .then(response => {
+                if (!response.ok) throw new Error(`Could not load CCC refs for ${book}.`);
+                return response.json();
+            })
+            .then(data => {
+                window.bookCccRefs = data;
+                // Inject pills *after* translation is applied
+                // This is now handled in applyTranslationOnLoad
+            })
+            .catch(error => console.error("Error fetching CCC references:", error));
+    }
+    // --- End CCC Reference Logic ---
+
 
     // --- Mobile Warning Banner ---
     const topNav = document.querySelector('.top-nav');
@@ -477,6 +499,12 @@ window.addEventListener('load', () => {
         drawAnnotations(lectionaryReadingsData, divineOfficeData);
         // Also re-highlight readings when redrawing (e.g., on translation switch)
         highlightDailyReadings(window.todaysReadingsData);
+        
+        // --- CCC: Clear and re-inject pills ---
+        clearCccPills();
+        if (window.bookCccRefs && chapter) {
+            injectCccPills(window.bookCccRefs, parseInt(chapter, 10));
+        }
     };
 
     // --- Translation Switcher Logic ---
@@ -598,11 +626,11 @@ function renderSide(readings, container, isRightSided) {
         const originalSegments = reading.segments || [{ start: reading.start, end: reading.end }];
         if (!originalSegments[0].start) return;
 
-        const allVersesOnPage = document.querySelectorAll(`.translation-text.active p[data-verse^="${currentChapterNum}:"]`);
+        const allVersesOnPage = document.querySelectorAll(`.translation-text.active p[data-verse^="${currentChapterNum}:"], .translation-text.active span[data-verse-part^="${currentChapterNum}:"]`);
         if (allVersesOnPage.length === 0) return;
         
-        const firstVerseOnPage = allVersesOnPage[0].dataset.verse;
-        const lastVerseOnPage = allVersesOnPage[allVersesOnPage.length - 1].dataset.verse;
+        const firstVerseOnPage = allVersesOnPage[0].dataset.verse || allVersesOnPage[0].dataset.versePart;
+        const lastVerseOnPage = allVersesOnPage[allVersesOnPage.length - 1].dataset.verse || allVersesOnPage[allVersesOnPage.length - 1].dataset.versePart;
 
         const segmentsToDraw = [];
         originalSegments.forEach(segment => {
@@ -734,3 +762,188 @@ function renderSide(readings, container, isRightSided) {
     });
 }
 
+
+// --- CCC POPUP FUNCTIONS ---
+
+/**
+ * Clears all existing CCC pills from the document.
+ * Called before redrawing (e.g., on translation switch).
+ */
+function clearCccPills() {
+    document.querySelectorAll('.ccc-pill').forEach(pill => pill.remove());
+}
+
+/**
+ * Injects CCC pills into the active translation's text.
+ * @param {object} bookCccRefs - The reference data for the current book.
+ * @param {number} chapterNum - The current chapter number.
+ */
+function injectCccPills(bookCccRefs, chapterNum) {
+    if (!bookCccRefs) return;
+    
+    const chapterStr = String(chapterNum);
+    const chapterRefs = bookCccRefs[chapterStr];
+    
+    if (!chapterRefs) {
+        // No refs for this chapter
+        return;
+    }
+    
+    // Find the currently active translation container
+    const activeTranslation = document.querySelector('.translation-text.active');
+    if (!activeTranslation) return;
+
+    for (const verseStr in chapterRefs) {
+        const paraIds = chapterRefs[verseStr]; // e.g., ["289", "337"]
+        if (!paraIds || paraIds.length === 0) continue;
+        
+        const verseIdentifier = `${chapterStr}:${verseStr}`;
+        
+        // Use findElement to locate the verse element
+        const verseElement = findElement(verseIdentifier);
+        
+        if (verseElement) {
+            const pill = document.createElement('span');
+            pill.className = 'ccc-pill';
+            pill.textContent = 'CCC';
+            pill.dataset.refs = JSON.stringify(paraIds);
+            
+            pill.addEventListener('click', showCccPopup);
+            
+            // Append pill as the last child of the verse element
+            verseElement.appendChild(pill);
+        }
+    }
+}
+
+/**
+ * Handles the click event on a CCC pill.
+ * @param {Event} event - The click event.
+ */
+function showCccPopup(event) {
+    event.stopPropagation(); // Stop click from bubbling up
+    const pill = event.currentTarget;
+    const paraIds = JSON.parse(pill.dataset.refs);
+    
+    pill.textContent = '...'; // Show loading state
+    
+    getCccTextData()
+        .then(cccData => {
+            buildAndShowCccModal(paraIds, cccData);
+            pill.textContent = 'CCC'; // Reset pill text
+        })
+        .catch(err => {
+            console.error("Failed to load CCC text:", err);
+            pill.textContent = 'CCC'; // Reset on error
+        });
+}
+
+/**
+ * Lazy-loads the ccc-text.json file.
+ * @returns {Promise<object>} A promise that resolves with the CCC text data.
+ */
+function getCccTextData() {
+    // If data is already loaded, return it
+    if (window.cccTextData) {
+        return Promise.resolve(window.cccTextData);
+    }
+    
+    // If we are already fetching, return the existing promise
+    if (window.cccTextPromise) {
+        return window.cccTextPromise;
+    }
+    
+    // Start fetching the data
+    console.log("Fetching ccc-text.json...");
+    window.cccTextPromise = fetch('../data/ccc-text.json')
+        .then(response => {
+            if (!response.ok) throw new Error('Failed to load ccc-text.json');
+            return response.json();
+        })
+        .then(data => {
+            window.cccTextData = data; // Cache the data
+            console.log("CCC text data loaded.");
+            return data;
+        })
+        .catch(err => {
+            window.cccTextPromise = null; // Clear promise on error
+            throw err;
+        });
+        
+    return window.cccTextPromise;
+}
+
+/**
+ * Builds and injects the CCC modal into the DOM.
+ * @param {string[]} paraIds - Array of paragraph IDs to display.
+ * @param {object} cccData - The complete CCC text data.
+ */
+function buildAndShowCccModal(paraIds, cccData) {
+    // Close any existing modal first
+    closeCccModal();
+    
+    let modalContent = '';
+    
+    paraIds.forEach((paraId, index) => {
+        const paraData = cccData[paraId];
+        if (paraData) {
+            // Get the last (most specific) header
+            const header = paraData.headers.slice(-1)[0] || 'Catechism of the Catholic Church';
+            
+            if (index > 0) {
+                 modalContent += '<hr class="ccc-divider">';
+            }
+            
+            modalContent += `<div class="ccc-paragraph-container">`;
+            modalContent += `<h4 class="ccc-header">${header}</h4>`;
+            
+            // Paragraph text with ID
+            modalContent += `<p class="ccc-text"><b>${paraId}</b> ${paraData.text}</p>`;
+            
+            // Footnotes
+            if (paraData.footnotes && paraData.footnotes.length > 0) {
+                modalContent += `<ol class="ccc-footnotes">`;
+                paraData.footnotes.forEach(fn => {
+                    modalContent += `<li>${fn.text}</li>`;
+                });
+                modalContent += `</ol>`;
+            }
+            
+            // Source link
+            modalContent += `<a href="${paraData.source_url}" class="ccc-source-link" target="_blank">CCC ${paraId} →</a>`;
+            modalContent += `</div>`;
+        }
+    });
+
+    // Create backdrop
+    const backdrop = document.createElement('div');
+    backdrop.id = 'ccc-modal-backdrop';
+    backdrop.addEventListener('click', closeCccModal);
+    
+    // Create modal
+    const modal = document.createElement('div');
+    modal.id = 'ccc-modal';
+    
+    modal.innerHTML = `
+        <div id="ccc-modal-header">
+            <button id="ccc-modal-close">&times;</button>
+        </div>
+        <div id="ccc-modal-content">
+            ${modalContent}
+        </div>
+    `;
+    
+    document.body.appendChild(backdrop);
+    document.body.appendChild(modal);
+    
+    // Add close listener
+    modal.querySelector('#ccc-modal-close').addEventListener('click', closeCccModal);
+}
+
+/**
+ * Removes the CCC modal and backdrop from the DOM.
+ */
+function closeCccModal() {
+    document.getElementById('ccc-modal')?.remove();
+    document.getElementById('ccc-modal-backdrop')?.remove();
+}

@@ -10,15 +10,15 @@ UA info: http://uadigital.arizona.edu/ua-bootstrap/fonts.html
 --- Theme Color Palette --- 
 | Color                       | Hex     | Description                                              |
 | --------------------------- | ------- | -------------------------------------------------------- |
-| **Red (Primary)**           | #7B2E2B | Primary Theme & Sunday Readings                          |
+| **Red (Primary)** | #7B2E2B | Primary Theme & Sunday Readings                          |
 | **Rose Accent (Secondary)** | #B35C58 | Weekday Readings                                         |
-| **Dark Red**                | #401514 | Extra                                                    |
-| **Rose Beige**              | #D4A09E | Extra                                                    |
-| **Parchment Background**    | #F3EAE9 | Parchment-like background — evokes manuscript tradition  |
-| **Gold Accent**             | #C9A441 | Solemnities & Feasts                                     |
-| **Deep Green**              | #4C6B4F | DO: Office of Readings                                   |
-| **Marian Blue**             | #4A628A | DO: Other Readings                                       |
-| **Purple**                  | #5E4B81 | DO: Ordinary                                             |
+| **Dark Red** | #401514 | Extra                                                    |
+| **Rose Beige** | #D4A09E | Extra                                                    |
+| **Parchment Background** | #F3EAE9 | Parchment-like background — evokes manuscript tradition  |
+| **Gold Accent** | #C9A441 | Solemnities & Feasts                                     |
+| **Deep Green** | #4C6B4F | DO: Office of Readings                                   |
+| **Marian Blue** | #4A628A | DO: Other Readings                                       |
+| **Purple** | #5E4B81 | DO: Ordinary                                             |
 */
 
 
@@ -313,7 +313,7 @@ span[data-verse-part] {
     /* --- Stop the spinning animation --- */
     /* Only transition properties that won't cause spinning */
     transition: background-color 0.2s ease-in-out, width 0.2s ease-in-out, 
-/*                left 0.2s ease-in-out, right 0.2s ease-in-out,*/
+/* left 0.2s ease-in-out, right 0.2s ease-in-out,*/
                 opacity 0.2s ease-in-out;
     pointer-events: auto; /* --- FIX: Make label hoverable --- */
     z-index: 6; /* --- FIX: Ensure label is above bar --- */
@@ -826,3 +826,170 @@ hr {
 
 }
 
+/* --- CCC PILL AND MODAL STYLES --- */
+
+/* --- Pill Style --- */
+.ccc-pill {
+    font-family: MiloWeb, 'Roboto', sans-serif;
+    font-size: 0.65em;
+    font-weight: 600;
+    color: slategrey;
+    background-color: rgba(150, 150, 150, 0.08);
+    border: 1px solid rgba(150, 150, 150, 0.2);
+    border-radius: 8px;
+    padding: 1px 6px;
+    margin-left: 0.75em;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.ccc-pill:hover {
+    color: white;
+    background-color: #7B2E2B;
+}
+
+/* --- Modal Container --- */
+#ccc-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 600px;
+    max-height: 80vh;
+    background-color: #fcfcfc;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    z-index: 2001;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* For containing the scrolling content */
+}
+
+/* --- Modal Header --- */
+#ccc-modal-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #f1f1f1;
+    line-height: 0;
+}
+
+#ccc-modal-close {
+    background: none;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.75rem;
+    height: 1.75rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #888;
+    cursor: pointer;
+    padding: 0;
+    margin: 0.125rem 0.25rem;
+    border-radius: 4px;
+    transition: color 0.2s ease background-color 0.2s ease;
+}
+
+#ccc-modal-close:hover {
+    color: #333;
+    background-color: #e0e0e0;
+}
+
+/* --- Modal Content --- */
+#ccc-modal-content {
+/*    padding: top right bottom left; */
+    padding: 0.5rem 1rem 0.75rem 1rem; 
+    overflow-y: auto;
+    font-weight: 500;
+    color: #444444;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.ccc-paragraph-container {
+    margin-bottom: 0.1rem;
+}
+
+.ccc-divider {
+    border: 0;
+    border-top: 1px dashed #ccc;
+    margin: 0.5rem 0;
+}
+
+.ccc-header {
+    font-family: MiloWeb, sans-serif;
+    font-size: 0.8em;
+    font-weight: 700;
+    color: #777;
+    text-transform: uppercase;
+    margin: 0.1rem 0 0.1rem 0;
+    letter-spacing: 0.5px;
+}
+
+.ccc-text {
+    font-size: 0.95em;
+    margin: 0;
+    text-align: justify;
+}
+
+.ccc-text b {
+    color: #7B2E2B; /* Primary Red */
+    margin-right: 0.25em;
+}
+
+.ccc-footnotes {
+    font-size: 0.75em;
+    line-height: 0.9;
+    color: #555;
+    margin: 0.5rem 0 0.5rem 1.5rem;
+    padding-left: 25px;
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+    list-style-type: decimal;
+}
+
+.ccc-footnotes li {
+    margin-bottom: 2px;
+}
+
+.ccc-source-link {
+    font-family: MiloWeb, sans-serif;
+    font-size: 0.8em;
+    color: #3377b3;
+    text-decoration: none;
+    border-bottom: 1px dotted #3377b3;
+    transition: color 0.2s, background-color 0.2s;
+}
+
+
+/* --- Mobile styles for Modal --- */
+@media (max-width: 800px) {
+    #ccc-modal {
+        width: 95%;
+        max-height: 85vh;
+        top: 5%;
+        transform: translate(-50%, 0);
+    }
+    
+    #ccc-modal-header {
+        padding: 0.1rem 0.1rem;
+    }
+    
+    #ccc-modal-content {
+        padding: 1rem;
+        line-height: 1.4;
+    }
+    
+    .ccc-text {
+        font-size: 0.95em;
+    }
+}
