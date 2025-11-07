@@ -4,6 +4,7 @@ import json
 import os
 import re
 from urllib.parse import urljoin
+import time
 from tqdm import tqdm
 
 # --- Constants ---
