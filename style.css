@@ -235,11 +235,12 @@ span[data-verse-part] {
 /* --- Daily Reading Highlight Style --- */
 .daily-reading-highlight-block {
     position: absolute;
-    background-color: lightgray;
+    background-color: #fffef0;
     z-index: 1; /* Sits behind the text (z-index: 2) */
     border-radius: 4px;
-    left: -4px; /* Add 4px horizontal padding */
-    right: -4px; /* Add 4px horizontal padding */
+    left: -4px;
+    right: -4px;
+    border: 1px lightgray dotted;
 }
 
 
