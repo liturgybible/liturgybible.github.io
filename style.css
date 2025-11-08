@@ -942,23 +942,30 @@ hr {
 }
 
 .ccc-text b {
+    font-family: MiloWeb, sans-serif;
     color: #7B2E2B; /* Primary Red */
     margin-right: 0.25em;
 }
 
 .ccc-footnotes {
-    font-size: 0.75em;
+    font-family: MiloWeb, sans-serif;
+    font-size: 0.7em;
+    font-weight: 300;
     line-height: 0.9;
-    color: #555;
-    margin: 0.5rem 0 0.5rem 1.5rem;
+    color: #808080;
+    margin: 0.75rem 0 0.5rem 0; /* remove left indent */
     padding-left: 25px;
-    margin-top: 0.75rem;
-    margin-bottom: 0.5rem;
-    list-style-type: decimal;
+    list-style: none;           /* hide numbers/bullets */
 }
 
 .ccc-footnotes li {
-    margin-bottom: 2px;
+    display: inline;            /* inline items -> one line */
+    margin: 0;                  /* no vertical spacing */
+}
+
+.ccc-footnotes li:not(:last-child)::after {
+    content: "  ·  ";           /* middle dot separator */
+    white-space: pre;           /* keep spaces around dot */
 }
 
 .ccc-source-link {
