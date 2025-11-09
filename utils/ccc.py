@@ -17,6 +17,19 @@ SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 OUTPUT_FILE = os.path.join(SCRIPT_DIR, "../data/ccc-text.json") 
 EXPECTED_PARAGRAPHS = 2865
 
+# Set to True to skip scraping and load OUTPUT_FILE to apply text replacements
+PARSE_EXISTING_JSON = True
+
+# TEXT REPLACEMENTS ---
+# A dictionary of "find": "replace" strings to apply to all paragraph text
+# This is applied *after* scraping and *before* saving.
+TEXT_REPLACEMENTS = {
+    ". the": ". The",
+    "? the": "? The",
+    "! the": "! The",
+    # Add more replacements here...
+}
+
 # --- TEST MODE ---
 # Set to True to scrape only the first 10 pages and print sample output
 # Set to False to run the full scrape
@@ -185,45 +198,59 @@ def save_data(data, filepath):
 
 def main():
     """Main execution function."""
-    print("Starting CCC Scraper...")
-    content_urls = get_content_urls(INDEX_PAGE)
     
-    if not content_urls:
-        print("No content URLs found. Exiting.")
-        return
-
-    if TEST_MODE:
-        print(f"\n--- !!! TEST MODE ACTIVE !!! ---")
-        print(f"Will scrape a maximum of {TEST_PAGES_TO_SCRAPE} pages.")
-        content_urls = content_urls[0:TEST_PAGES_TO_SCRAPE]
-        print(f"--- !!! ---------------------- !!!\n")
-
-
     all_ccc_data = {}
-    current_header_stack = []
 
-    try:
-        for url in tqdm(content_urls, desc="Scraping pages"):
-            try:
-                response = requests.get(url)
-                response.raise_for_status()
-                response.encoding = 'iso-8859-1' # Set encoding
-                
-                soup = BeautifulSoup(response.text, 'html.parser')
-                
-                page_data = scrape_page(url, current_header_stack, soup)
-                all_ccc_data.update(page_data)
-                
-                time.sleep(0.1) # Be polite to the server
-                
-            except requests.exceptions.RequestException as e:
-                print(f"Warning: Could not scrape {url}. Error: {e}")
-                
-    except KeyboardInterrupt:
-        print("\nScraping interrupted by user.")
+    if PARSE_EXISTING_JSON:
+        print(f"--- PARSE EXISTING JSON MODE ---")
+        print(f"Loading data from {OUTPUT_FILE}...")
+        if not os.path.exists(OUTPUT_FILE):
+            print(f"Error: File not found: {OUTPUT_FILE}")
+            print("Cannot re-parse. Set PARSE_EXISTING_JSON = False to scrape.")
+            return
+        
+        with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
+            all_ccc_data = json.load(f)
+        print(f"Loaded {len(all_ccc_data)} paragraphs from file.")
+        
+    else:
+        print("Starting CCC Scraper...")
+        content_urls = get_content_urls(INDEX_PAGE)
+        
+        if not content_urls:
+            print("No content URLs found. Exiting.")
+            return
 
-    # --- TEST MODE: Print Sample Output ---
-    if TEST_MODE:
+        if TEST_MODE:
+            print(f"\n--- !!! TEST MODE ACTIVE !!! ---")
+            print(f"Will scrape a maximum of {TEST_PAGES_TO_SCRAPE} pages.")
+            content_urls = content_urls[0:TEST_PAGES_TO_SCRAPE]
+            print(f"--- !!! ---------------------- !!!\n")
+
+        current_header_stack = []
+
+        try:
+            for url in tqdm(content_urls, desc="Scraping pages"):
+                try:
+                    response = requests.get(url)
+                    response.raise_for_status()
+                    response.encoding = 'iso-8859-1' # Set encoding
+                    
+                    soup = BeautifulSoup(response.text, 'html.parser')
+                    
+                    page_data = scrape_page(url, current_header_stack, soup)
+                    all_ccc_data.update(page_data)
+                    
+                    time.sleep(0.1) # Be polite to the server
+                    
+                except requests.exceptions.RequestException as e:
+                    print(f"Warning: Could not scrape {url}. Error: {e}")
+                    
+        except KeyboardInterrupt:
+            print("\nScraping interrupted by user.")
+
+    # --- TEST MODE: Print Sample Output (if not re-parsing) ---
+    if TEST_MODE and not PARSE_EXISTING_JSON:
         print("\n\n--- TEST MODE: SAMPLE OUTPUT ---")
         if not all_ccc_data:
             print("No paragraphs found. The parsing logic may still be incorrect.")
@@ -243,27 +270,45 @@ def main():
                 print("==============================")
         print(f"\nTest mode finished. Found {len(all_ccc_data)} paragraphs.")
         print("Data was NOT saved.")
-        return # Exit before saving
+        return # Exit before saving or replacements
+
+    # --- NEW: APPLY TEXT REPLACEMENTS ---
+    if TEXT_REPLACEMENTS:
+        print(f"\nApplying {len(TEXT_REPLACEMENTS)} text replacement(s)...")
+        for para_id in tqdm(all_ccc_data.keys(), desc="Applying replacements"):
+            original_text = all_ccc_data[para_id]['text']
+            modified_text = original_text
+            for find_str, replace_str in TEXT_REPLACEMENTS.items():
+                modified_text = modified_text.replace(find_str, replace_str)
+            
+            all_ccc_data[para_id]['text'] = modified_text
+    else:
+        print("\nNo text replacements defined. Skipping.")
+
 
     # --- Full Run: Final Verification ---
     found_paragraphs = len(all_ccc_data)
-    print("\n--- Scraping Complete ---")
-    print(f"Total paragraphs found: {found_paragraphs}")
+    print("\n--- Processing Complete ---")
+    print(f"Total paragraphs processed: {found_paragraphs}")
     
-    if found_paragraphs == EXPECTED_PARAGRAPHS:
-        print(f"Success! Found all {EXPECTED_PARAGRAPHS} paragraphs.")
-    else:
-        print(f"Warning: Expected {EXPECTED_PARAGRAPHS} paragraphs, but found {found_paragraphs}.")
-        # Check for missing paragraphs
-        expected_set = set(range(1, EXPECTED_PARAGRAPHS + 1))
-        found_set = set(int(k) for k in all_ccc_data.keys())
-        missing = sorted(list(expected_set - found_set))
-        if missing:
-            print(f"Missing paragraphs: {missing[:20]}..." if len(missing) > 20 else f"Missing paragraphs: {missing}")
+    if not PARSE_EXISTING_JSON: # Only run verification if we did a fresh scrape
+        if found_paragraphs == EXPECTED_PARAGRAPHS:
+            print(f"Success! Found all {EXPECTED_PARAGRAPHS} paragraphs.")
+        else:
+            print(f"Warning: Expected {EXPECTED_PARAGRAPHS} paragraphs, but found {found_paragraphs}.")
+            # Check for missing paragraphs
+            expected_set = set(range(1, EXPECTED_PARAGRAPHS + 1))
+            found_set = set(int(k) for k in all_ccc_data.keys())
+            missing = sorted(list(expected_set - found_set))
+            if missing:
+                print(f"Missing paragraphs: {missing[:20]}..." if len(missing) > 20 else f"Missing paragraphs: {missing}")
 
     # Save the file
     save_data(all_ccc_data, OUTPUT_FILE)
-    print(f"Successfully created {OUTPUT_FILE}.")
+    if PARSE_EXISTING_JSON:
+        print(f"Successfully re-processed and saved {OUTPUT_FILE}.")
+    else:
+        print(f"Successfully created {OUTPUT_FILE}.")
 
 if __name__ == "__main__":
     main()
