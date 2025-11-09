@@ -14,7 +14,7 @@ INDEX_PAGE = urljoin(BASE_URL, "_INDEX.HTM")
 # Get the directory where the script is located
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 # Save the output file in the same directory as the script
-OUTPUT_FILE = os.path.join(SCRIPT_DIR, "ccc-text.json") 
+OUTPUT_FILE = os.path.join(SCRIPT_DIR, "../data/ccc-text.json") 
 EXPECTED_PARAGRAPHS = 2865
 
 # --- TEST MODE ---
@@ -135,28 +135,35 @@ def scrape_page(page_url, header_stack, soup):
                 # --- END: MODIFIED FOOTNOTE PARSING ---
                 
             # 4. --- TEXT EXTRACTION ---
-            # To get *just* the paragraph text, we take the matched text
-            # and then strip any footnote text from the end
+            # Find all footnote links (e.g., href="#$Y")
+            fn_links_to_replace = el.find_all('a', href=re.compile(r"#\$[A-Z0-9]+$"))
             
-            # Re-get text, but this time extract (remove) footnote tags
-            # We must operate on a copy or be careful
+            for link in fn_links_to_replace:
+                # The link is inside a <sup> inside a <font>
+                # We replace the outer <font> tag with an asterisk
+                # NO space after, as the following text node (" As a mother")
+                # often already has the leading space.
+                font_tag = link.find_parent('font')
+                if font_tag:
+                    font_tag.replace_with("*") # Replace the tag with just an asterisk
+                else:
+                    # Fallback: maybe it's just a <sup>?
+                    sup_tag = link.find_parent('sup')
+                    if sup_tag:
+                        sup_tag.replace_with("*")
+
+            # Get text again, *after* replacing footnotes
+            # We do NOT use strip=True here, as it removes the critical
+            # leading space on text nodes that follow a footnote.
+            clean_text = el.get_text(strip=False)
             
-            # Simpler way: just use the regex-matched text
-            # and clean it up.
+            # Manually strip leading/trailing whitespace from the whole block
+            clean_text = clean_text.strip()
             
-            # Let's clean the *element* and then get the text
-            
-            # Remove all footnote tags
-            for tag in el.find_all(['font', 'sup']):
-                tag.extract()
-            
-            # Get text again, *after* removing footnotes
-            clean_text = el.get_text(strip=True)
-            
-            # Remove the number prefix
+            # Remove the number prefix (which is now at the start)
             clean_text = re.sub(r"^\d+\s*", "", clean_text)
             
-            # Normalize whitespace
+            # Normalize internal whitespace (e.g., newlines, tabs) to a single space
             para_text = re.sub(r"\s+", " ", clean_text).strip()
             
             # 5. --- ASSEMBLE DATA ---
