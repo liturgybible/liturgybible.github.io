@@ -855,19 +855,19 @@ hr {
 /* --- Modal Container --- */
 #ccc-modal {
     position: fixed;
-    top: 30%;
+    top: 40px; 
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0); 
     width: 90%;
     max-width: 600px;
-    max-height: 80vh;
+    max-height: 80vh; 
     background-color: #fcfcfc;
     border-radius: 12px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.3);
     z-index: 2001;
     display: flex;
     flex-direction: column;
-    overflow: hidden; /* For containing the scrolling content */
+    overflow: hidden;
 }
 
 /* --- Modal Header --- */
