@@ -6,7 +6,7 @@ from tqdm import tqdm
 
 # Get the directory where the script is located
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
-TEXT_INPUT_FILE = os.path.join(SCRIPT_DIR, "ccc-text.json") 
+TEXT_INPUT_FILE = os.path.join(SCRIPT_DIR, "../data/ccc-text.json") 
 # Output directory will be *one level up* in /data/ccc-refs/
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "..", "data", "ccc-refs")
 

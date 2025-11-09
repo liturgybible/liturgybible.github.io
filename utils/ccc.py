@@ -27,6 +27,7 @@ TEXT_REPLACEMENTS = {
     ". the": ". The",
     "? the": "? The",
     "! the": "! The",
+    "I Jn": "1 Jn",
     # Add more replacements here...
 }
 
