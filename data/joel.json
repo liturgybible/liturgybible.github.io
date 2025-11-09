@@ -53,6 +53,18 @@
           "end": "4:21"
         }
       ]
+    },
+    {
+      "name": "Lent Weeks 1-4, Tuesday: Morning Prayer",
+      "color": "#4A628A",
+      "start": "2:12",
+      "end": "2:13"
+    },
+    {
+      "name": "Lent Weeks 1-4, Tuesday: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "2:17a",
+      "end": "2:17a"
     }
   ]
 }

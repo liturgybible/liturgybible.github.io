@@ -547,6 +547,96 @@
       "color": "#4A628A",
       "start": "1:1",
       "end": "1:2"
+    },
+    {
+      "name": "Thursday after Ash Wednesday: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "10:35",
+      "end": "10:36"
+    },
+    {
+      "name": "Lent Weeks 1-4, Thursday: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "10:35",
+      "end": "10:36"
+    },
+    {
+      "name": "Fifth Week of Lent & Holy Week, Wednesday: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "9:28",
+      "end": "9:28"
+    },
+    {
+      "name": "Fifth Week of Lent & Holy Week, Thursday: Morning Prayer",
+      "color": "#4A628A",
+      "start": "2:9",
+      "end": "2:10"
+    },
+    {
+      "name": "Fifth Week of Lent & Holy Week, Thursday: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "4:14",
+      "end": "4:15"
+    },
+    {
+      "name": "Fifth Week of Lent & Holy Week, Thursday: Midday Prayer",
+      "color": "#4A628A",
+      "start": "7:26",
+      "end": "7:27"
+    },
+    {
+      "name": "Fifth Week of Lent & Holy Week, Thursday: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "9:11",
+      "end": "9:12"
+    },
+    {
+      "name": "Fifth Week of Lent, Thursday: Evening Prayer",
+      "color": "#4A628A",
+      "start": "13:12",
+      "end": "13:15"
+    },
+    {
+      "name": "Holy Thursday: Evening Prayer",
+      "color": "#4A628A",
+      "start": "13:12",
+      "end": "13:15"
+    },
+    {
+      "name": "Easter, Sundays: Evening Prayer",
+      "color": "#4A628A",
+      "start": "10:12",
+      "end": "10:14"
+    },
+    {
+      "name": "Easter, Mondays: Evening Prayer",
+      "color": "#4A628A",
+      "start": "8:1b",
+      "end": "8:3a"
+    },
+    {
+      "name": "Easter, Wednesdays: Evening Prayer",
+      "color": "#4A628A",
+      "start": "7:24",
+      "end": "7:27"
+    },
+    {
+      "name": "Easter, Fridays: Evening Prayer",
+      "color": "#4A628A",
+      "start": "5:8",
+      "end": "5:10"
+    },
+    {
+      "name": "Ascension of the Lord: Morning Prayer",
+      "color": "#4A628A",
+      "start": "10:12",
+      "end": "10:14"
+    },
+    {
+      "name": "Ascension of the Lord: Midday Prayer",
+      "color": "#4A628A",
+      "start": "8:1b",
+      "end": "8:3a"
     }
   ]
 }

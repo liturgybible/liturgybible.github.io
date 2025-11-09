@@ -1313,19 +1313,19 @@
       "end": "55:11"
     },
     {
-      "name": "Advent, Mondays & Dec 19: Morning Prayer",
+      "name": "Advent, Mondays & Dec 19:  Morning Prayer",
       "color": "#4A628A",
       "start": "2:3",
       "end": "2:3"
     },
     {
-      "name": "Advent, Mondays & Dec 19: Midmorning Prayer",
+      "name": "Advent, Mondays & Dec 19:  Midmorning Prayer",
       "color": "#4A628A",
       "start": "10:20",
       "end": "10:21"
     },
     {
-      "name": "Advent, Mondays & Dec 19: Midday Prayer",
+      "name": "Advent, Mondays & Dec 19:  Midday Prayer",
       "color": "#4A628A",
       "segments": [
         {
@@ -1339,55 +1339,55 @@
       ]
     },
     {
-      "name": "Advent, Mondays & Dec 19: Midafternoon Prayer",
+      "name": "Advent, Mondays & Dec 19:  Midafternoon Prayer",
       "color": "#4A628A",
       "start": "13:22b",
       "end": "14:1a"
     },
     {
-      "name": "Advent, Wednesdays & Dec. 21: Morning Prayer",
+      "name": "Advent, Wednesdays & Dec. 21:  Morning Prayer",
       "color": "#4A628A",
       "start": "7:14b",
       "end": "7:15"
     },
     {
-      "name": "Advent, Wednesdays & Dec. 21: Midmorning Prayer",
+      "name": "Advent, Wednesdays & Dec. 21:  Midmorning Prayer",
       "color": "#4A628A",
       "start": "2:11",
       "end": "2:12"
     },
     {
-      "name": "Advent, Wednesdays & Dec. 21: Midday Prayer",
+      "name": "Advent, Wednesdays & Dec. 21:  Midday Prayer",
       "color": "#4A628A",
       "start": "12:2",
       "end": "12:2"
     },
     {
-      "name": "Advent, Thursdays & Dec. 22: Morning Prayer",
+      "name": "Advent, Thursdays & Dec. 22:  Morning Prayer",
       "color": "#4A628A",
       "start": "45:8",
       "end": "45:8"
     },
     {
-      "name": "Advent, Saturday: Morning Prayer",
+      "name": "Advent, Saturday:  Morning Prayer",
       "color": "#4A628A",
       "start": "11:1",
       "end": "11:2"
     },
     {
-      "name": "Advent, Saturday: Midmorning Prayer",
+      "name": "Advent, Saturday:  Midmorning Prayer",
       "color": "#4A628A",
       "start": "4:2",
       "end": "4:2"
     },
     {
-      "name": "Advent, Saturday: Midday Prayer",
+      "name": "Advent, Saturday:  Midday Prayer",
       "color": "#4A628A",
       "start": "4:3",
       "end": "4:3"
     },
     {
-      "name": "Advent, Saturday: Midafternoon Prayer",
+      "name": "Advent, Saturday:  Midafternoon Prayer",
       "color": "#4A628A",
       "start": "61:11",
       "end": "61:11"
@@ -1631,6 +1631,152 @@
       "color": "#4A628A",
       "start": "49:6",
       "end": "49:6"
+    },
+    {
+      "name": "Thursday after Ash Wednesday: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "55:6",
+      "end": "55:7"
+    },
+    {
+      "name": "Friday after Ash Wednesday: Morning Prayer",
+      "color": "#4A628A",
+      "start": "53:11b",
+      "end": "53:12"
+    },
+    {
+      "name": "Friday after Ash Wednesday: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "55:3",
+      "end": "55:3"
+    },
+    {
+      "name": "Saturday after Ash Wednesday: Morning Prayer",
+      "color": "#4A628A",
+      "start": "1:16",
+      "end": "1:18"
+    },
+    {
+      "name": "Saturday after Ash Wednesday: Midday Prayer",
+      "color": "#4A628A",
+      "start": "44:21",
+      "end": "44:22"
+    },
+    {
+      "name": "Lent Weeks 1-4, Sundays: Midday Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "30:15",
+          "end": "30:15"
+        },
+        {
+          "start": "30:18",
+          "end": "30:18"
+        }
+      ]
+    },
+    {
+      "name": "Lent Weeks 1-4, Monday: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "58:7",
+      "end": "58:7"
+    },
+    {
+      "name": "Lent Weeks 1-4, Tuesday: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "58:1",
+      "end": "58:2"
+    },
+    {
+      "name": "Lent Weeks 1-4, Thursday: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "55:6",
+      "end": "55:7"
+    },
+    {
+      "name": "Lent Weeks 1-4, Friday: Morning Prayer",
+      "color": "#4A628A",
+      "start": "53:11b",
+      "end": "53:12"
+    },
+    {
+      "name": "Lent Weeks 1-4, Friday: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "55:3",
+      "end": "55:3"
+    },
+    {
+      "name": "Lent Weeks 1-4, Saturday: Morning Prayer",
+      "color": "#4A628A",
+      "start": "1:16",
+      "end": "1:18"
+    },
+    {
+      "name": "Lent Weeks 1-4, Saturday: Midday Prayer",
+      "color": "#4A628A",
+      "start": "44:21",
+      "end": "44:22"
+    },
+    {
+      "name": "Fifth Week of Lent & Holy Week, Wednesday: Morning Prayer",
+      "color": "#4A628A",
+      "start": "50:4b",
+      "end": "50:7"
+    },
+    {
+      "name": "Fifth Week of Lent, Friday: Morning Prayer",
+      "color": "#4A628A",
+      "start": "52:13",
+      "end": "52:15"
+    },
+    {
+      "name": "Fifth Week of Lent, Friday: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "53:2",
+      "end": "53:3"
+    },
+    {
+      "name": "Fifth Week of Lent, Friday: Midday Prayer",
+      "color": "#4A628A",
+      "start": "53:4",
+      "end": "53:5"
+    },
+    {
+      "name": "Fifth Week of Lent, Friday: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "53:6",
+      "end": "53:7"
+    },
+    {
+      "name": "Fifth Week of Lent, Saturday: Morning Prayer",
+      "color": "#4A628A",
+      "start": "65:1b",
+      "end": "65:3a"
+    },
+    {
+      "name": "Good Friday: Morning Prayer",
+      "color": "#4A628A",
+      "start": "52:13",
+      "end": "52:15"
+    },
+    {
+      "name": "Good Friday: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "53:2",
+      "end": "53:3"
+    },
+    {
+      "name": "Good Friday: Midday Prayer",
+      "color": "#4A628A",
+      "start": "53:4",
+      "end": "53:5"
+    },
+    {
+      "name": "Good Friday: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "53:6",
+      "end": "53:7"
     },
     {
       "name": "Office for the Dead: Morning Prayer",

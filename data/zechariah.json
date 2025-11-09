@@ -141,6 +141,30 @@
       "color": "#4A628A",
       "start": "8:7",
       "end": "8:8"
+    },
+    {
+      "name": "Ash Wednesday: Midday Prayer",
+      "color": "#4A628A",
+      "start": "1:3b",
+      "end": "1:4b"
+    },
+    {
+      "name": "Lent Weeks 1-4, Wednesday: Midday Prayer",
+      "color": "#4A628A",
+      "start": "1:3b",
+      "end": "1:4b"
+    },
+    {
+      "name": "Fifth Week of Lent & Holy Week, Tuesday: Morning Prayer",
+      "color": "#4A628A",
+      "start": "12:10",
+      "end": "12:11a"
+    },
+    {
+      "name": "Palm Sunday: Morning Prayer",
+      "color": "#4A628A",
+      "start": "9:9",
+      "end": "9:9"
     }
   ]
 }

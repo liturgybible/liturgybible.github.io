@@ -301,6 +301,20 @@
       "end": "7:27"
     },
     {
+      "name": "Lent Weeks 1-4, Monday: Midmorning Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "11:23",
+          "end": "11:23"
+        },
+        {
+          "start": "11:24a",
+          "end": "11:24a"
+        }
+      ]
+    },
+    {
       "name": "Office for the Dead: Daytime Prayer",
       "color": "#4A628A",
       "segments": [

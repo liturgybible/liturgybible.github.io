@@ -597,7 +597,7 @@
       ]
     },
     {
-      "name": "Ordinary Time Night Prayer: After Evening Prayer II on Sundays",
+      "name": "Night Prayer: After Evening Prayer II on Sundays",
       "color": "#4A628A",
       "start": "22:4",
       "end": "22:5"
@@ -619,6 +619,30 @@
       "color": "#4A628A",
       "start": "21:23",
       "end": "21:24"
+    },
+    {
+      "name": "Saturday after Ash Wednesday: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "3:19",
+      "end": "3:20"
+    },
+    {
+      "name": "Lent Weeks 1-4, Saturday: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "3:19",
+      "end": "3:20"
+    },
+    {
+      "name": "Easter, Mondays: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "1:17c",
+      "end": "1:18"
+    },
+    {
+      "name": "Ascension of the Lord: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "1:17c",
+      "end": "1:18"
     }
   ]
 }

@@ -723,6 +723,62 @@
       "color": "#4A628A",
       "start": "10:37:38",
       "end": "10:37:38"
+    },
+    {
+      "name": "Fifth Sunday of Lent: Evening Prayer II",
+      "color": "#4A628A",
+      "start": "13:26",
+      "end": "13:30"
+    },
+    {
+      "name": "Palm Sunday: Evening Prayer II",
+      "color": "#4A628A",
+      "start": "13:26",
+      "end": "13:30"
+    },
+    {
+      "name": "Easter, Sundays: Morning Prayer",
+      "color": "#4A628A",
+      "start": "10:40",
+      "end": "10:43"
+    },
+    {
+      "name": "Easter, Tuesdays: Morning Prayer",
+      "color": "#4A628A",
+      "start": "13:30",
+      "end": "13:33"
+    },
+    {
+      "name": "Easter, Tuesdays: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "4:11",
+      "end": "4:12"
+    },
+    {
+      "name": "Easter, Fridays: Morning Prayer",
+      "color": "#4A628A",
+      "start": "5:30",
+      "end": "5:32"
+    },
+    {
+      "name": "Easter, Fridays: Midmorning Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "2:32",
+          "end": "2:32"
+        },
+        {
+          "start": "2:36",
+          "end": "2:36"
+        }
+      ]
+    },
+    {
+      "name": "Pentecost: Morning Prayer",
+      "color": "#4A628A",
+      "start": "5:30",
+      "end": "5:32"
     }
   ]
 }

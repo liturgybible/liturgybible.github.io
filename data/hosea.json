@@ -171,6 +171,12 @@
       "color": "#4C6B4F",
       "start": "14:2",
       "end": "14:10"
+    },
+    {
+      "name": "Holy Saturday: Morning Prayer",
+      "color": "#4A628A",
+      "start": "5:15b",
+      "end": "16:2"
     }
   ]
 }

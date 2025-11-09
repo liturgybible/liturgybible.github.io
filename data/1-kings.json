@@ -317,6 +317,18 @@
       "color": "#4A628A",
       "start": "2:2b",
       "end": "2:3"
+    },
+    {
+      "name": "Thursday after Ash Wednesday: Morning Prayer",
+      "color": "#4A628A",
+      "start": "8:51",
+      "end": "8:53a"
+    },
+    {
+      "name": "Lent Weeks 1-4, Thursday: Morning Prayer",
+      "color": "#4A628A",
+      "start": "8:51",
+      "end": "8:53a"
     }
   ]
 }

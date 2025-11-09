@@ -599,16 +599,84 @@
       ]
     },
     {
-      "name": "Advent, Tuesdays & Dec. 20: Evening Prayer",
+      "name": "Advent, Tuesdays & Dec. 20:  Evening Prayer",
       "color": "#4A628A",
       "start": "1:7b",
       "end": "1:9"
     },
     {
-      "name": "Advent, Wednesdays & Dec. 21: Evening Prayer",
+      "name": "Advent, Wednesdays & Dec. 21:  Evening Prayer",
       "color": "#4A628A",
       "start": "4:5",
       "end": "4:5"
+    },
+    {
+      "name": "Lent Weeks 1-4, Sundays: Evening Prayer II",
+      "color": "#4A628A",
+      "start": "9:24",
+      "end": "9:25"
+    },
+    {
+      "name": "Fifth Week of Lent & Holy Week, Tuesday: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "1:18",
+      "end": "1:19"
+    },
+    {
+      "name": "Fifth Week of Lent & Holy Week, Tuesday: Midday Prayer",
+      "color": "#4A628A",
+      "start": "1:22",
+      "end": "1:24"
+    },
+    {
+      "name": "Fifth Week of Lent & Holy Week, Tuesday: Midafternoon Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "1:25",
+          "end": "1:25"
+        },
+        {
+          "start": "1:27a",
+          "end": "1:27a"
+        }
+      ]
+    },
+    {
+      "name": "Fifth Week of Lent & Holy Week, Tuesday: Evening Prayer",
+      "color": "#4A628A",
+      "start": "1:27b",
+      "end": "1:30"
+    },
+    {
+      "name": "Easter, Sundays: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "15:3b",
+      "end": "15:5"
+    },
+    {
+      "name": "Easter, Thursdays: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "12:13",
+      "end": "12:13"
+    },
+    {
+      "name": "Easter, Fridays: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "5:7",
+      "end": "5:8"
+    },
+    {
+      "name": "Easter, Saturdays: Midday Prayer",
+      "color": "#4A628A",
+      "start": "15:20",
+      "end": "15:22"
+    },
+    {
+      "name": "Pentecost: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "12:13",
+      "end": "12:13"
     },
     {
       "name": "Office for the Dead: Office of Readings",

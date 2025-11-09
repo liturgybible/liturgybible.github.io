@@ -395,6 +395,48 @@
           "end": "1:7"
         }
       ]
+    },
+    {
+      "name": "Fifth Week of Lent, Saturday: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "1:8",
+      "end": "1:9"
+    },
+    {
+      "name": "Fifth Week of Lent, Saturday: Midday Prayer",
+      "color": "#4A628A",
+      "start": "2:1b",
+      "end": "2:2"
+    },
+    {
+      "name": "Fifth Week of Lent, Saturday: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "2:8b",
+      "end": "2:10"
+    },
+    {
+      "name": "Holy Saturday: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "1:8",
+      "end": "1:9"
+    },
+    {
+      "name": "Holy Saturday: Midday Prayer",
+      "color": "#4A628A",
+      "start": "2:1b",
+      "end": "2:2"
+    },
+    {
+      "name": "Holy Saturday: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "2:8b",
+      "end": "2:10"
+    },
+    {
+      "name": "Easter, Wednesdays: Midday Prayer",
+      "color": "#4A628A",
+      "start": "5:5",
+      "end": "5:6a"
     }
   ]
 }

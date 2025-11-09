@@ -373,6 +373,36 @@
       "color": "#4A628A",
       "start": "2:3b",
       "end": "2:5"
+    },
+    {
+      "name": "Fifth Week of Lent & Holy Week, Wednesday: Evening Prayer",
+      "color": "#4A628A",
+      "start": "4:32",
+      "end": "5:2"
+    },
+    {
+      "name": "Easter, Sundays: Midday Prayer",
+      "color": "#4A628A",
+      "start": "2:4",
+      "end": "2:6"
+    },
+    {
+      "name": "Easter, Wednesdays: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "4:23",
+      "end": "4:24"
+    },
+    {
+      "name": "Ascension of the Lord: Evening Prayer I",
+      "color": "#4A628A",
+      "start": "2:4",
+      "end": "2:6"
+    },
+    {
+      "name": "Pentecost: Evening Prayer II",
+      "color": "#4A628A",
+      "start": "4:3",
+      "end": "4:6"
     }
   ]
 }

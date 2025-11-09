@@ -239,6 +239,106 @@
       "color": "#4A628A",
       "start": "5:8",
       "end": "5:9a"
+    },
+    {
+      "name": "Fifth Sunday of Lent: Evening Prayer I",
+      "color": "#4A628A",
+      "start": "1:18",
+      "end": "1:21"
+    },
+    {
+      "name": "Fifth Sunday of Lent: Midday Prayer",
+      "color": "#4A628A",
+      "start": "4:13",
+      "end": "4:14"
+    },
+    {
+      "name": "Fifth Sunday of Lent: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "5:10",
+      "end": "5:11"
+    },
+    {
+      "name": "Fifth Week of Lent, Friday: Evening Prayer",
+      "color": "#4A628A",
+      "start": "2:21",
+      "end": "2:24"
+    },
+    {
+      "name": "Palm Sunday: Evening Prayer I",
+      "color": "#4A628A",
+      "start": "1:18",
+      "end": "1:21"
+    },
+    {
+      "name": "Palm Sunday: Midday Prayer",
+      "color": "#4A628A",
+      "start": "4:13",
+      "end": "4:14"
+    },
+    {
+      "name": "Palm Sunday: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "5:10",
+      "end": "5:11"
+    },
+    {
+      "name": "Good Friday: Evening Prayer",
+      "color": "#4A628A",
+      "start": "2:21",
+      "end": "2:24"
+    },
+    {
+      "name": "Holy Saturday: Evening Prayer",
+      "color": "#4A628A",
+      "start": "1:18",
+      "end": "1:21"
+    },
+    {
+      "name": "Easter, Tuesdays: Midday Prayer",
+      "color": "#4A628A",
+      "start": "3:21",
+      "end": "3:22a"
+    },
+    {
+      "name": "Easter, Tuesdays: Evening Prayer",
+      "color": "#4A628A",
+      "start": "2:4",
+      "end": "2:5"
+    },
+    {
+      "name": "Easter, Thursdays: Evening Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "3:18",
+          "end": "3:18"
+        },
+        {
+          "start": "3:22",
+          "end": "3:22"
+        }
+      ]
+    },
+    {
+      "name": "Easter, Sundays: Evening Prayer I",
+      "color": "#4A628A",
+      "start": "2:9",
+      "end": "2:10"
+    },
+    {
+      "name": "Ascension of the Lord: Evening Prayer II",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "3:18",
+          "end": "3:18"
+        },
+        {
+          "start": "3:22",
+          "end": "3:22"
+        }
+      ]
     }
   ]
 }

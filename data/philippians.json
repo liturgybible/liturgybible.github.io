@@ -259,7 +259,7 @@
       "end": "4:5"
     },
     {
-      "name": "Advent, Mondays & Dec 19: Evening Prayer",
+      "name": "Advent, Mondays & Dec 19:  Evening Prayer",
       "color": "#4A628A",
       "start": "3:20b",
       "end": "3:21"
@@ -269,6 +269,18 @@
       "color": "#4A628A",
       "start": "2:6",
       "end": "2:7"
+    },
+    {
+      "name": "Ash Wednesday: Evening Prayer",
+      "color": "#4A628A",
+      "start": "2:12b",
+      "end": "2:15a"
+    },
+    {
+      "name": "Lent Weeks 1-4, Wednesday: Evening Prayer",
+      "color": "#4A628A",
+      "start": "2:12b",
+      "end": "2:15a"
     },
     {
       "name": "Office for the Dead: Evening Prayer",

@@ -317,6 +317,36 @@
       "color": "#4A628A",
       "start": "8:9",
       "end": "8:9"
+    },
+    {
+      "name": "Lent Weeks 1-4, Sundays: Evening Prayer I",
+      "color": "#4A628A",
+      "start": "6:1",
+      "end": "6:4a"
+    },
+    {
+      "name": "Fifth Sunday of Lent: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "4:10",
+      "end": "4:11"
+    },
+    {
+      "name": "Palm Sunday: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "4:10",
+      "end": "4:12"
+    },
+    {
+      "name": "Easter, Saturdays: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "5:14",
+      "end": "5:15"
+    },
+    {
+      "name": "Pentecost: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "1:21",
+      "end": "1:22"
     }
   ]
 }

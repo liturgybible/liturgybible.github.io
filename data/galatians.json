@@ -311,6 +311,24 @@
       "color": "#4A628A",
       "start": "4:4",
       "end": "4:5"
+    },
+    {
+      "name": "Saturday after Ash Wednesday: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "6:7b",
+      "end": "6:8"
+    },
+    {
+      "name": "Lent Weeks 1-4, Saturday: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "6:7b",
+      "end": "6:8"
+    },
+    {
+      "name": "Easter, Fridays: Midday Prayer",
+      "color": "#4A628A",
+      "start": "3:27",
+      "end": "3:28"
     }
   ]
 }

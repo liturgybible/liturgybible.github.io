@@ -553,19 +553,19 @@
       "end": "14:9a"
     },
     {
-      "name": "Advent, Tuesdays & Dec. 20: Midmorning Prayer",
+      "name": "Advent, Tuesdays & Dec. 20:  Midmorning Prayer",
       "color": "#4A628A",
       "start": "23:5",
       "end": "23:5"
     },
     {
-      "name": "Advent, Tuesdays & Dec. 20: Midday Prayer",
+      "name": "Advent, Tuesdays & Dec. 20:  Midday Prayer",
       "color": "#4A628A",
       "start": "23:6",
       "end": "23:6"
     },
     {
-      "name": "Advent, Fridays & Dec. 23: Morning Prayer",
+      "name": "Advent, Fridays & Dec. 23:  Morning Prayer",
       "color": "#4A628A",
       "segments": [
         {
@@ -579,7 +579,7 @@
       ]
     },
     {
-      "name": "Advent, Fridays & Dec. 23: Midmorning Prayer",
+      "name": "Advent, Fridays & Dec. 23:  Midmorning Prayer",
       "color": "#4A628A",
       "segments": [
         {
@@ -593,7 +593,7 @@
       ]
     },
     {
-      "name": "Advent, Fridays & Dec. 23: Midday Prayer",
+      "name": "Advent, Fridays & Dec. 23:  Midday Prayer",
       "color": "#4A628A",
       "start": "30:18",
       "end": "30:18"
@@ -621,6 +621,70 @@
       "color": "#4A628A",
       "start": "31:11",
       "end": "31:12"
+    },
+    {
+      "name": "Friday after Ash Wednesday: Midday Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "3:12b",
+          "end": "3:12b"
+        },
+        {
+          "start": "3:14a",
+          "end": "3:14a"
+        }
+      ]
+    },
+    {
+      "name": "Lent Weeks 1-4, Tuesday: Midday Prayer",
+      "color": "#4A628A",
+      "start": "3:25b",
+      "end": "3:25b"
+    },
+    {
+      "name": "Lent Weeks 1-4, Friday: Midday Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "3:12",
+          "end": "3:12"
+        },
+        {
+          "start": "3:14a",
+          "end": "3:14a"
+        }
+      ]
+    },
+    {
+      "name": "Fifth Week of Lent & Holy Week, Monday: Morning Prayer",
+      "color": "#4A628A",
+      "start": "11:19",
+      "end": "11:20"
+    },
+    {
+      "name": "Fifth Week of Lent & Holy Week, Monday: Midday Prayer",
+      "color": "#4A628A",
+      "start": "18:20b",
+      "end": "18:20b"
+    },
+    {
+      "name": "Fifth Week of Lent & Holy Week, Monday: Midafternoon Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "31:2",
+          "end": "31:2"
+        },
+        {
+          "start": "31:3b",
+          "end": "31:3b"
+        },
+        {
+          "start": "31:4a",
+          "end": "31:4a"
+        }
+      ]
     }
   ]
 }

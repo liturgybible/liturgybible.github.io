@@ -563,10 +563,22 @@
       "end": "6:28a"
     },
     {
-      "name": "Advent, Wednesdays & Dec. 21: Midafternoon Prayer",
+      "name": "Advent, Wednesdays & Dec. 21:  Midafternoon Prayer",
       "color": "#4A628A",
       "start": "9:19",
       "end": "9:19"
+    },
+    {
+      "name": "Ash Wednesday: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "4:24b",
+      "end": "4:24b"
+    },
+    {
+      "name": "Lent Weeks 1-4, Wednesday: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "4:24b",
+      "end": "4:24b"
     }
   ]
 }

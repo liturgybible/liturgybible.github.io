@@ -741,6 +741,72 @@
       "color": "#4A628A",
       "start": "8:3",
       "end": "8:4"
+    },
+    {
+      "name": "Lent Weeks 1-4, Monday: Evening Prayer",
+      "color": "#4A628A",
+      "start": "12:1",
+      "end": "12:2"
+    },
+    {
+      "name": "Fifth Week of Lent & Holy Week, Monday: Evening Prayer",
+      "color": "#4A628A",
+      "start": "5:8",
+      "end": "5:9"
+    },
+    {
+      "name": "Fifth Week of Lent & Holy Week, Wednesday: Midday Prayer",
+      "color": "#4A628A",
+      "start": "15:3",
+      "end": "15:3"
+    },
+    {
+      "name": "Easter, Sundays: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "6:4",
+      "end": "6:4"
+    },
+    {
+      "name": "Easter, Mondays: Morning Prayer",
+      "color": "#4A628A",
+      "start": "10:8b",
+      "end": "10:10"
+    },
+    {
+      "name": "Easter, Wednesdays: Morning Prayer",
+      "color": "#4A628A",
+      "start": "6:8",
+      "end": "6:11"
+    },
+    {
+      "name": "Easter, Wednesdays: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "4:24",
+      "end": "4:25"
+    },
+    {
+      "name": "Easter, Thursdays: Morning Prayer",
+      "color": "#4A628A",
+      "start": "8:10",
+      "end": "8:11"
+    },
+    {
+      "name": "Easter, Saturdays: Morning Prayer",
+      "color": "#4A628A",
+      "start": "14:7",
+      "end": "14:9"
+    },
+    {
+      "name": "Easter, Saturdays: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "5:10",
+      "end": "5:11"
+    },
+    {
+      "name": "Pentecost: Evening Prayer I",
+      "color": "#4A628A",
+      "start": "8:11",
+      "end": "8:11"
     }
   ]
 }

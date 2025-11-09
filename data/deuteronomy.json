@@ -463,7 +463,7 @@
       "end": "4:40a"
     },
     {
-      "name": "Ordinary Time Night Prayer: After Evening Prayer I on Sundays",
+      "name": "Night Prayer: After Evening Prayer I on Sundays",
       "color": "#4A628A",
       "start": "6:4",
       "end": "6:7"
@@ -491,6 +491,52 @@
       "color": "#4A628A",
       "start": "4:7",
       "end": "4:7"
+    },
+    {
+      "name": "Ash Wednesday: Morning Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "7:6",
+          "end": "7:6"
+        },
+        {
+          "start": "7:8",
+          "end": "7:9"
+        }
+      ]
+    },
+    {
+      "name": "Thursday after Ash Wednesday: Midday Prayer",
+      "color": "#4A628A",
+      "start": "30:2",
+      "end": "30:3a"
+    },
+    {
+      "name": "Lent Weeks 1-4, Sundays: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "4:29",
+      "end": "4:31"
+    },
+    {
+      "name": "Lent Weeks 1-4, Wednesday: Morning Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "7:6",
+          "end": "7:6"
+        },
+        {
+          "start": "7:8",
+          "end": "7:9"
+        }
+      ]
+    },
+    {
+      "name": "Lent Weeks 1-4, Thursday: Midday Prayer",
+      "color": "#4A628A",
+      "start": "30:2",
+      "end": "30:3a"
     }
   ]
 }

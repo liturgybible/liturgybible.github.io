@@ -91,6 +91,18 @@
       "color": "#4A628A",
       "start": "3:4",
       "end": "3:5"
+    },
+    {
+      "name": "Easter, Thursdays: Midday Prayer",
+      "color": "#4A628A",
+      "start": "3:5b",
+      "end": "3:7"
+    },
+    {
+      "name": "Pentecost: Midday Prayer",
+      "color": "#4A628A",
+      "start": "3:5b",
+      "end": "3:7"
     }
   ]
 }

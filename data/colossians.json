@@ -249,6 +249,38 @@
       "color": "#4A628A",
       "start": "1:13",
       "end": "1:15"
+    },
+    {
+      "name": "Easter, Mondays: Midday Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "2:9",
+          "end": "2:9"
+        },
+        {
+          "start": "2:12",
+          "end": "2:12"
+        }
+      ]
+    },
+    {
+      "name": "Easter, Tuesdays: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "3:1",
+      "end": "3:2"
+    },
+    {
+      "name": "Easter, Thursdays: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "1:12",
+      "end": "1:14"
+    },
+    {
+      "name": "Ascension of the Lord: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "3:1",
+      "end": "3:2"
     }
   ]
 }
