@@ -91,10 +91,29 @@ def parse_reading_string(reading_str):
         if not part: continue
 
         full_ref = part
+        
         if ':' not in part:
+            # Part has no colon. It's either a chapter ("1") or verses ("5-10") or a single verse ("5")
+            
             if not last_chapter:
-                return None, None, f"Reference part '{part}' has no chapter and no previous one was set."
-            full_ref = f"{last_chapter}:{part}"
+                # No previous chapter context. This MUST be a whole chapter.
+                if re.match(r'^\d+$', part):
+                    # It's a whole chapter number
+                    current_chapter = part
+                    last_chapter = current_chapter
+                    segments.append({'start': f"{current_chapter}:1", 'end': f"{current_chapter}:1000"})
+                    continue # Skip to next part
+                else:
+                    # It's something like "5-10" but with no chapter. This is an error.
+                    return None, None, f"Reference part '{part}' has no chapter and no previous one was set."
+            else:
+                # We HAVE a last_chapter. This part must be verses.
+                # e.g., "5" or "5-10"
+                full_ref = f"{last_chapter}:{part}"
+                # Now we let it fall through to the logic below
+
+        # By this point, full_ref *must* have a colon (e.g., "1:5" or "1:5-10" or "1:1")
+        # or it was a whole chapter and we 'continued'
         
         current_chapter = full_ref.split(':')[0].strip()
         last_chapter = current_chapter

@@ -637,8 +637,23 @@ function renderSide(readings, container, isRightSided) {
             const segStart = parseVerse(segment.start);
             const segEnd = parseVerse(segment.end);
             if (currentChapterNum < segStart.chapter || currentChapterNum > segEnd.chapter) return;
-            let drawStartVerse = segStart.chapter < currentChapterNum ? firstVerseOnPage : segment.start;
-            let drawEndVerse = segEnd.chapter > currentChapterNum ? lastVerseOnPage : segment.end;
+            
+            let drawStartVerse, drawEndVerse;
+
+            // Determine Start
+            if (segStart.chapter < currentChapterNum) {
+                drawStartVerse = firstVerseOnPage;
+            } else {
+                drawStartVerse = segment.start;
+            }
+
+            // Determine End
+            if (segEnd.chapter > currentChapterNum || segEnd.verse === 1000) {
+                drawEndVerse = lastVerseOnPage; // Use the last verse found on the page
+            } else {
+                drawEndVerse = segment.end;
+            }
+
             segmentsToDraw.push({ start: drawStartVerse, end: drawEndVerse });
         });
 
@@ -680,14 +695,20 @@ function renderSide(readings, container, isRightSided) {
 
         const startChapter = parseVerse((reading.segments || [{ start: reading.start }])[0].start).chapter;
         const endChapter = parseVerse((reading.segments || [{ end: reading.end }])[reading.segments ? reading.segments.length - 1 : 0].end).chapter;
-
+        
         let labelText = reading.name;
+        // Check if it spans chapters
         if (startChapter !== endChapter) {
+            // If the start chapter is not the current one, it's a continuation
             if (currentChapterNum === startChapter) {
                 labelText = `${reading.name} (cont...)`;
-            } else if (currentChapterNum === endChapter) {
+            } 
+            // If the end chapter is not the current one (or is 1000), it's a continuation
+            else if (currentChapterNum === endChapter) {
                 labelText = `(cont...) ${reading.name}`;
-            } else {
+            } 
+            // If neither start nor end chapter matches, it's passing through
+            else {
                 labelText = `(cont...) ${reading.name} (cont...)`;
             }
         }
