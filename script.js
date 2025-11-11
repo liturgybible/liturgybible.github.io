@@ -908,15 +908,30 @@ function buildAndShowCccModal(paraIds, cccData) {
     paraIds.forEach((paraId, index) => {
         const paraData = cccData[paraId];
         if (paraData) {
-            // Get the last (most specific) header
-            const header = paraData.headers.slice(-1)[0] || 'Catechism of the Catholic Church';
-            
-            if (index > 0) {
-                 modalContent += '<hr class="ccc-divider">';
-            }
-            
-            modalContent += `<div class="ccc-paragraph-container">`;
-            modalContent += `<h4 class="ccc-header">${header}</h4>`;
+            // Get the first and last headers
+             const firstHeader = paraData.headers[0];
+             const lastHeader = paraData.headers.slice(-1)[0];
+             let displayHeader;
+
+         if (firstHeader && lastHeader) {
+             // Check if they are the same (e.g., only one header in the array)
+             if (firstHeader === lastHeader) {
+             displayHeader = firstHeader;
+             } else {
+             // Combine first and last with a line break
+             displayHeader = `${firstHeader}<br>${lastHeader}`;
+             }
+             } else {
+             // Default if headers array is empty
+             displayHeader = 'Catechism of the Catholic Church';
+         }
+        
+         if (index > 0) {
+        modalContent += '<hr class="ccc-divider">';
+         }
+        
+         modalContent += `<div class="ccc-paragraph-container">`;
+         modalContent += `<h4 class="ccc-header">${displayHeader}</h4>`;
             
             // Paragraph text with ID
             modalContent += `<p class="ccc-text"><b>${paraId}</b> ${paraData.text}</p>`;

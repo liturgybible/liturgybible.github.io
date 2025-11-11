@@ -18,7 +18,7 @@ OUTPUT_FILE = os.path.join(SCRIPT_DIR, "../data/ccc-text.json")
 EXPECTED_PARAGRAPHS = 2865
 
 # Set to True to skip scraping and load OUTPUT_FILE to apply text replacements
-PARSE_EXISTING_JSON = True
+PARSE_EXISTING_JSON = False
 
 # TEXT REPLACEMENTS ---
 # A dictionary of "find": "replace" strings to apply to all paragraph text
@@ -67,12 +67,21 @@ def get_content_urls(index_url):
         print(f"Error fetching index page: {e}")
         return []
 
-def scrape_page(page_url, header_stack, soup):
+def scrape_page(page_url, soup):
     """
     Scrapes a single content page for paragraphs, headers, and footnotes.
-    Modifies header_stack in place.
     """
     page_data = {}
+    
+    # --- HEADERS ---
+    # 1. Get the base header stack from the <meta name="part"> tag.
+    # This is more reliable than passing a stack between page loads.
+    meta_tag = soup.find('meta', {'name': 'part'})
+    header_stack = [] 
+    if meta_tag and meta_tag.get('content'):
+        content_str = meta_tag.get('content')
+        # Split by ' > ' and strip whitespace from each header
+        header_stack = [h.strip() for h in content_str.split(' > ')]
     
     # Iterate over all <p> tags recursively
     for el in soup.body.find_all('p'):
@@ -81,18 +90,24 @@ def scrape_page(page_url, header_stack, soup):
             continue # Skip empty <p> tags
 
         # --- HEADER LOGIC ---
-        # Headers are <p> tags with <b> children
+        # Headers are <p> tags with <b> children.
+        # These headers (like "IN BRIEF" or "I.") modify the stack
+        # for the content *below* them on the *same page*.
         is_header = False
         if el.b:
-            b_text = el.b.get_text(strip=True)
+            b_text = el.b.get_text(separator=" ", strip=True)
+            b_text = re.sub(r'\s+', ' ', b_text).strip()
+            
             if (b_text.startswith("PART") or b_text.startswith("SECTION") or
                 b_text.startswith("CHAPTER") or b_text.startswith("Article") or
                 b_text.startswith("Paragraph") or re.match(r"^[IVXLCDM]+\.", b_text) or
                 (b_text.isupper() and len(b_text) > 1 and not re.fullmatch(r"\d+", b_text))):
                 
                 is_header = True
-                header_text = el.get_text(strip=True) # Get all text in header <p>
+                header_text = el.get_text(separator=" ", strip=True)
+                header_text = re.sub(r'\s+', ' ', header_text).strip()
                 
+                # Apply the stack-slicing logic to the *current* page's stack
                 if header_text.startswith("PART"):
                     header_stack[:] = [header_text]
                 elif header_text.startswith("SECTION"):
@@ -146,7 +161,6 @@ def scrape_page(page_url, header_stack, soup):
                 else:
                     # If anchor isn't found, still add, but log it's empty
                     para_footnotes.append({"id": fn_id, "text": "[Footnote anchor not found]"})
-                # --- END: MODIFIED FOOTNOTE PARSING ---
                 
             # 4. --- TEXT EXTRACTION ---
             # Find all footnote links (e.g., href="#$Y")
@@ -183,7 +197,8 @@ def scrape_page(page_url, header_stack, soup):
             # 5. --- ASSEMBLE DATA ---
             page_data[para_id] = {
                 "text": para_text,
-                "headers": list(header_stack), # Copy the current stack
+                # FIX: Remove duplicates from header list while preserving order
+                "headers": list(dict.fromkeys(header_stack).keys()), # Copy + Dedupe
                 "source_url": page_url,
                 "footnotes": para_footnotes
             }
@@ -228,8 +243,6 @@ def main():
             content_urls = content_urls[0:TEST_PAGES_TO_SCRAPE]
             print(f"--- !!! ---------------------- !!!\n")
 
-        current_header_stack = []
-
         try:
             for url in tqdm(content_urls, desc="Scraping pages"):
                 try:
@@ -239,7 +252,7 @@ def main():
                     
                     soup = BeautifulSoup(response.text, 'html.parser')
                     
-                    page_data = scrape_page(url, current_header_stack, soup)
+                    page_data = scrape_page(url, soup)
                     all_ccc_data.update(page_data)
                     
                     time.sleep(0.1) # Be polite to the server
