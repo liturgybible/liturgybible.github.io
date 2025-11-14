@@ -212,6 +212,30 @@
                 </div>
             </center>
 
+            <div id="subscribe-form-container">
+                <h3>Subscribe to Learn More</h3>
+                <p>Get updates on the Liturgy Bible project, including new features and news about a potential print edition.</p>
+                
+                <form action="https://buttondown.email/api/v1/subscriptions"
+                      method="POST"
+                      target="_blank">
+
+                    <div class="form-group">
+                        <label for="bd-email">Email Address</label>
+                        
+                        <input type="email" name="email" id="bd-email" placeholder="your.email@example.com" required>
+                    </div>
+                    
+                    <input type="hidden" name="list" value="liturgybible">
+                    
+                    <input type="hidden" name="tag" value="about-page-form">
+                    
+                    <div class="form-submit">
+                        <input type="submit" value="Subscribe">
+                    </div>
+                </form>
+            </div>
+
         </main>
     </div>
     <hr>

@@ -155,6 +155,30 @@
 
     <p>Finally, please <a href="mailto:liturgybible@gmail.com?subject=Liturgy%20Bible">share your thoughts</a> about the <em>Liturgy Bible</em>: Your feedback is helpful for improving the project!</p>
 
+    <div id="subscribe-form-container">
+        <h3>Subscribe to Learn More</h3>
+        <p>Get updates on the Liturgy Bible project, including new features and news about a potential print edition.</p>
+        
+        <form action="https://buttondown.email/api/v1/subscriptions"
+              method="POST"
+              target="_blank">
+
+            <div class="form-group">
+                <label for="bd-email">Email Address</label>
+                
+                <input type="email" name="email" id="bd-email" placeholder="your.email@example.com" required>
+            </div>
+            
+            <input type="hidden" name="list" value="liturgybible">
+            
+            <input type="hidden" name="tag" value="about-page-form">
+            
+            <div class="form-submit">
+                <input type="submit" value="Subscribe">
+            </div>
+        </form>
+    </div>
+
     <!-- <li><strong>Print Edition</strong>: This project started as a hand-annotated Bible, and the eventual goal is to publish—or partner with a Catholic publisher to publish—a print edition of the <em>Liturgy Bible</em>. This online version is a step in that direction to visualize the concept, hone the design, and prepare the data. The online protoype is useful of itself, but the goal is still to produce a printed edition for personal reading and reference. If you are a publisher interested, or know one who is, please <a href="mailto:liturgybible@gmail.com?subject=Liturgy%20Bible">reach out</a>.</li> -->
 
     <!-- Bible index will be generated here -->

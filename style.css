@@ -730,6 +730,62 @@ hr {
 /* --- End Daily Readings Popup --- */
 
 
+/* --- SUBSCRIPTION FORM STYLES --- */
+#subscribe-form-container {
+    background-color: #f8f8f8;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#subscribe-form-container h3 {
+    color: #7B2E2B; /* Matches your site's theme */
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: MiloSerifWeb, MiloWeb, Georgia, TimesNewRoman, serif;
+}
+#subscribe-form-container p {
+    font-size: 0.9em;
+    margin-bottom: 1.5rem;
+}
+#subscribe-form-container .form-group {
+    margin-bottom: 1rem;
+}
+#subscribe-form-container label {
+    display: none; /* Hide label for a cleaner look */
+}
+#subscribe-form-container input[type="email"] {
+    width: 80%;
+    max-width: 350px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    font-family: MiloWeb, Georgia, TimesNewRoman, serif;
+}
+#subscribe-form-container input[type="submit"] {
+    background-color: #7B2E2B; /* Main theme color */
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1em;
+    font-family: MiloWeb, Georgia, TimesNewRoman, serif;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    line-height: normal;
+}
+#subscribe-form-container input[type="submit"]:hover {
+    background-color: #9a4f4c; /* Hover color from your .wisdom class */
+}
+
+
 /* --- MOBILE RESPONSIVE STYLES --- */
 
 @media (max-width: 800px) { /* Adjusted breakpoint for better mobile layout */
