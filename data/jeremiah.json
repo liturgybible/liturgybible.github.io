@@ -553,19 +553,19 @@
       "end": "14:9a"
     },
     {
-      "name": "Advent, Tuesdays & Dec. 20:  Midmorning Prayer",
+      "name": "Advent, Tuesdays & Dec. 20: Midmorning Prayer",
       "color": "#4A628A",
       "start": "23:5",
       "end": "23:5"
     },
     {
-      "name": "Advent, Tuesdays & Dec. 20:  Midday Prayer",
+      "name": "Advent, Tuesdays & Dec. 20: Midday Prayer",
       "color": "#4A628A",
       "start": "23:6",
       "end": "23:6"
     },
     {
-      "name": "Advent, Fridays & Dec. 23:  Morning Prayer",
+      "name": "Advent, Fridays & Dec. 23: Morning Prayer",
       "color": "#4A628A",
       "segments": [
         {
@@ -579,7 +579,7 @@
       ]
     },
     {
-      "name": "Advent, Fridays & Dec. 23:  Midmorning Prayer",
+      "name": "Advent, Fridays & Dec. 23: Midmorning Prayer",
       "color": "#4A628A",
       "segments": [
         {
@@ -593,7 +593,7 @@
       ]
     },
     {
-      "name": "Advent, Fridays & Dec. 23:  Midday Prayer",
+      "name": "Advent, Fridays & Dec. 23: Midday Prayer",
       "color": "#4A628A",
       "start": "30:18",
       "end": "30:18"
@@ -683,6 +683,44 @@
         {
           "start": "31:4a",
           "end": "31:4a"
+        }
+      ]
+    },
+    {
+      "name": "Dec 28, Holy Innocents: Morning Prayer",
+      "color": "#4A628A",
+      "start": "31:15",
+      "end": "31:15"
+    },
+    {
+      "name": "Dec 28, Holy Innocents: Midafternoon Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "31:16",
+          "end": "31:16"
+        },
+        {
+          "start": "31:17a",
+          "end": "31:17a"
+        }
+      ]
+    },
+    {
+      "name": "Common of the Dedication of a Church: Midafternoon Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "7:2b",
+          "end": "7:2b"
+        },
+        {
+          "start": "7:4",
+          "end": "7:5a"
+        },
+        {
+          "start": "7:7a",
+          "end": "7:7a"
         }
       ]
     }

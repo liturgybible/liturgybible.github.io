@@ -159,6 +159,30 @@
           "end": "2:11"
         }
       ]
+    },
+    {
+      "name": "Apr 25, St. Mark: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "1:8b",
+      "end": "1:9"
+    },
+    {
+      "name": "Jun 11, St. Barnabas: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "1:8b",
+      "end": "1:9"
+    },
+    {
+      "name": "Sep 15, Our Lady of Sorrows: Evening Prayer",
+      "color": "#4A628A",
+      "start": "2:10",
+      "end": "2:12a"
+    },
+    {
+      "name": "Oct 18, St. Luke: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "1:8b",
+      "end": "1:9"
     }
   ]
 }

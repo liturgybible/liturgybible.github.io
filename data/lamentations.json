@@ -45,6 +45,18 @@
       "color": "#4C6B4F",
       "start": "5:1",
       "end": "5:22"
+    },
+    {
+      "name": "Dec 28, Holy Innocents: Midorning Prayer",
+      "color": "#4A628A",
+      "start": "1:16",
+      "end": "1:16"
+    },
+    {
+      "name": "Dec 28, Holy Innocents: Midday Prayer",
+      "color": "#4A628A",
+      "start": "2:11",
+      "end": "2:11"
     }
   ]
 }

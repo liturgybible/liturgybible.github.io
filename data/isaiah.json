@@ -1313,19 +1313,19 @@
       "end": "55:11"
     },
     {
-      "name": "Advent, Mondays & Dec 19:  Morning Prayer",
+      "name": "Advent, Mondays & Dec 19: Morning Prayer",
       "color": "#4A628A",
       "start": "2:3",
       "end": "2:3"
     },
     {
-      "name": "Advent, Mondays & Dec 19:  Midmorning Prayer",
+      "name": "Advent, Mondays & Dec 19: Midmorning Prayer",
       "color": "#4A628A",
       "start": "10:20",
       "end": "10:21"
     },
     {
-      "name": "Advent, Mondays & Dec 19:  Midday Prayer",
+      "name": "Advent, Mondays & Dec 19: Midday Prayer",
       "color": "#4A628A",
       "segments": [
         {
@@ -1339,55 +1339,55 @@
       ]
     },
     {
-      "name": "Advent, Mondays & Dec 19:  Midafternoon Prayer",
+      "name": "Advent, Mondays & Dec 19: Midafternoon Prayer",
       "color": "#4A628A",
       "start": "13:22b",
       "end": "14:1a"
     },
     {
-      "name": "Advent, Wednesdays & Dec. 21:  Morning Prayer",
+      "name": "Advent, Wednesdays & Dec. 21: Morning Prayer",
       "color": "#4A628A",
       "start": "7:14b",
       "end": "7:15"
     },
     {
-      "name": "Advent, Wednesdays & Dec. 21:  Midmorning Prayer",
+      "name": "Advent, Wednesdays & Dec. 21: Midmorning Prayer",
       "color": "#4A628A",
       "start": "2:11",
       "end": "2:12"
     },
     {
-      "name": "Advent, Wednesdays & Dec. 21:  Midday Prayer",
+      "name": "Advent, Wednesdays & Dec. 21: Midday Prayer",
       "color": "#4A628A",
       "start": "12:2",
       "end": "12:2"
     },
     {
-      "name": "Advent, Thursdays & Dec. 22:  Morning Prayer",
+      "name": "Advent, Thursdays & Dec. 22: Morning Prayer",
       "color": "#4A628A",
       "start": "45:8",
       "end": "45:8"
     },
     {
-      "name": "Advent, Saturday:  Morning Prayer",
+      "name": "Advent, Saturday: Morning Prayer",
       "color": "#4A628A",
       "start": "11:1",
       "end": "11:2"
     },
     {
-      "name": "Advent, Saturday:  Midmorning Prayer",
+      "name": "Advent, Saturday: Midmorning Prayer",
       "color": "#4A628A",
       "start": "4:2",
       "end": "4:2"
     },
     {
-      "name": "Advent, Saturday:  Midday Prayer",
+      "name": "Advent, Saturday: Midday Prayer",
       "color": "#4A628A",
       "start": "4:3",
       "end": "4:3"
     },
     {
-      "name": "Advent, Saturday:  Midafternoon Prayer",
+      "name": "Advent, Saturday: Midafternoon Prayer",
       "color": "#4A628A",
       "start": "61:11",
       "end": "61:11"
@@ -1777,6 +1777,90 @@
       "color": "#4A628A",
       "start": "53:6",
       "end": "53:7"
+    },
+    {
+      "name": "Dec 8, Immaculate Conception: Morning Prayer",
+      "color": "#4A628A",
+      "start": "43:1",
+      "end": "43:1"
+    },
+    {
+      "name": "Feb 22, Chair of Peter: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "22:22",
+      "end": "22:22"
+    },
+    {
+      "name": "Jun 24, Nativity of St. John the Baptist: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "49:1",
+      "end": "49:1"
+    },
+    {
+      "name": "Jun 24, Nativity of St. John the Baptist: Midday Prayer",
+      "color": "#4A628A",
+      "start": "49:5",
+      "end": "49:6"
+    },
+    {
+      "name": "Jun 24, Nativity of St. John the Baptist: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "49:7b",
+      "end": "49:7b"
+    },
+    {
+      "name": "Jul 26, Sts. Joachim and Ann: Morning Prayer",
+      "color": "#4A628A",
+      "start": "55:3",
+      "end": "55:3"
+    },
+    {
+      "name": "Aug 15, Assumption: Morning Prayer",
+      "color": "#4A628A",
+      "start": "61:10",
+      "end": "61:10"
+    },
+    {
+      "name": "Aug 29, Beheading of John the Baptist: Morning Prayer",
+      "color": "#4A628A",
+      "start": "49:1b",
+      "end": "49:2"
+    },
+    {
+      "name": "Sep 8, Birth of Mary: Morning Prayer",
+      "color": "#4A628A",
+      "start": "11:1",
+      "end": "11:3"
+    },
+    {
+      "name": "Oct 7, Our Lady of the Rosary: Morning Prayer",
+      "color": "#4A628A",
+      "start": "61:10",
+      "end": "61:10"
+    },
+    {
+      "name": "Nov 1, All Saints: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "65:18",
+      "end": "65:19"
+    },
+    {
+      "name": "Common of the Dedication of a Church: Morning Prayer",
+      "color": "#4A628A",
+      "start": "56:7",
+      "end": "56:7"
+    },
+    {
+      "name": "Common of the Blessed Virgin Mary: Morning Prayer",
+      "color": "#4A628A",
+      "start": "61:10",
+      "end": "61:10"
+    },
+    {
+      "name": "Memorial of the Blessed Virgin Mary on Saturday: Morning Prayer (Alt)",
+      "color": "#4A628A",
+      "start": "61:10",
+      "end": "61:10"
     },
     {
       "name": "Office for the Dead: Morning Prayer",

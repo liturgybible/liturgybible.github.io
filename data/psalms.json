@@ -14349,6 +14349,12 @@
       "end": "6:1000"
     },
     {
+      "name": "Week 1: Monday Daytime Prayer",
+      "color": "#5E4B81",
+      "start": "7:1",
+      "end": "7:1000"
+    },
+    {
       "name": "Weeks 2 & 4: Saturday Morning Prayer",
       "color": "#5E4B81",
       "start": "8:1",
@@ -14980,133 +14986,133 @@
       "name": "Week 1: Tuesday Daytime Prayer",
       "color": "#5E4B81",
       "start": "119:1",
-      "end": "8 (I: Aleph)"
+      "end": "119:8"
     },
     {
       "name": "Week 1: Wednesday Daytime Prayer",
       "color": "#5E4B81",
       "start": "119:9",
-      "end": "16 (II: Beth)"
+      "end": "119:16"
     },
     {
       "name": "Week 1: Thursday Daytime Prayer",
       "color": "#5E4B81",
       "start": "119:17",
-      "end": "24 (III: Ghimel)"
+      "end": "119:24"
     },
     {
       "name": "Week 1: Friday Daytime Prayer",
       "color": "#5E4B81",
       "start": "119:25",
-      "end": "32 (IV: Daleth)"
+      "end": "119:32"
     },
     {
       "name": "Week 1: Saturday Daytime Prayer",
       "color": "#5E4B81",
       "start": "119:33",
-      "end": "40 (V: He)"
+      "end": "119:40"
     },
     {
       "name": "Week 2: Monday Daytime Prayer",
       "color": "#5E4B81",
       "start": "119:41",
-      "end": "48 (VI: Vau)"
+      "end": "119:48"
     },
     {
       "name": "Week 2: Tuesday Daytime Prayer",
       "color": "#5E4B81",
       "start": "119:49",
-      "end": "56 (VII: Zain)"
+      "end": "119:56"
     },
     {
       "name": "Week 2: Wednesday Daytime Prayer",
       "color": "#5E4B81",
       "start": "119:57",
-      "end": "64 (VIII: Heth)"
+      "end": "119:64"
     },
     {
       "name": "Week 2: Thursday Daytime Prayer",
       "color": "#5E4B81",
       "start": "119:65",
-      "end": "72 (IX: Teth)"
+      "end": "119:72"
     },
     {
       "name": "Week 2: Friday Daytime Prayer",
       "color": "#5E4B81",
       "start": "119:73",
-      "end": "80 (X: Yod)"
+      "end": "119:80"
     },
     {
       "name": "Week 2: Saturday Daytime Prayer",
       "color": "#5E4B81",
       "start": "119:81",
-      "end": "88 (XI: Caph)"
+      "end": "119:88"
     },
     {
       "name": "Week 3: Monday Daytime Prayer",
       "color": "#5E4B81",
       "start": "119:89",
-      "end": "96 (XII: Lamed)"
+      "end": "119:96"
     },
     {
       "name": "Week 3: Tuesday Daytime Prayer",
       "color": "#5E4B81",
       "start": "119:97",
-      "end": "104 (XIII: Mem)"
+      "end": "119:104"
     },
     {
       "name": "Week 2: Sunday Evening Prayer I & Week 3: Wednesday Daytime Prayer",
       "color": "#5E4B81",
       "start": "119:105",
-      "end": "112 (XIV: Nun)"
+      "end": "119:112"
     },
     {
       "name": "Week 3: Thursday Daytime Prayer",
       "color": "#5E4B81",
       "start": "119:113",
-      "end": "120 (XV: Samech)"
+      "end": "119:120"
     },
     {
       "name": "Week 3: Saturday Daytime Prayer",
       "color": "#5E4B81",
       "start": "119:121",
-      "end": "128 (XVI: Ain)"
+      "end": "119:128"
     },
     {
       "name": "Week 4: Monday Daytime Prayer",
       "color": "#5E4B81",
       "start": "119:129",
-      "end": "136 (XVII: Pe)"
+      "end": "119:136"
     },
     {
       "name": "Week 4: Tuesday Daytime Prayer",
       "color": "#5E4B81",
       "start": "119:137",
-      "end": "144 (XVIII: Sade)"
+      "end": "119:144"
     },
     {
       "name": "Weeks 1 & 3: Saturday Morning Prayer & Week 4: Wednesday Daytime Prayer",
       "color": "#5E4B81",
       "start": "119:145",
-      "end": "152 (XIX: Koph)"
+      "end": "119:152"
     },
     {
       "name": "Week 4: Thursday Daytime Prayer",
       "color": "#5E4B81",
       "start": "119:153",
-      "end": "160 (XX: Resh)"
+      "end": "119:160"
     },
     {
       "name": "Week 4: Friday Daytime Prayer",
       "color": "#5E4B81",
       "start": "119:161",
-      "end": "168 (XXI: Shin)"
+      "end": "119:168"
     },
     {
       "name": "Week 4: Saturday Daytime Prayer",
       "color": "#5E4B81",
       "start": "119:169",
-      "end": "176 (XXII: Tau)"
+      "end": "119:176"
     },
     {
       "name": "Week 4: Monday Daytime Prayer & Complementary Psalmody: Midmorning",

@@ -645,6 +645,32 @@
       "color": "#4A628A",
       "start": "19:4",
       "end": "19:6a"
+    },
+    {
+      "name": "Aug 6, Transfiguration: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "19:9a",
+      "end": "19:9a"
+    },
+    {
+      "name": "Aug 6, Transfiguration: Midday Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "33:9",
+          "end": "33:9"
+        },
+        {
+          "start": "33:11a",
+          "end": "33:11a"
+        }
+      ]
+    },
+    {
+      "name": "Oct 2, Guardian Angels: Morning Prayer",
+      "color": "#4A628A",
+      "start": "23:20",
+      "end": "23:21a"
     }
   ]
 }

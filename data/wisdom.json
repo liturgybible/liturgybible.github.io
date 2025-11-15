@@ -315,6 +315,72 @@
       ]
     },
     {
+      "name": "Dec 26, St. Stephen: Midafternoon Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "3:1",
+          "end": "3:2a"
+        },
+        {
+          "start": "3:3b",
+          "end": "3:3b"
+        }
+      ]
+    },
+    {
+      "name": "Mar 19, St. Joseph: Midday Prayer",
+      "color": "#4A628A",
+      "start": "10:10",
+      "end": "10:10"
+    },
+    {
+      "name": "May 31, Visitation: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "7:27",
+      "end": "7:28"
+    },
+    {
+      "name": "Common of Several Martyrs: Midafternoon Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "3:1",
+          "end": "3:2a"
+        },
+        {
+          "start": "3:3b",
+          "end": "3:3b"
+        }
+      ]
+    },
+    {
+      "name": "Common of One Martyr: Midafternoon Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "3:1",
+          "end": "3:2a"
+        },
+        {
+          "start": "3:3b",
+          "end": "3:3b"
+        }
+      ]
+    },
+    {
+      "name": "Common of Doctors of the Church: Morning Prayer",
+      "color": "#4A628A",
+      "start": "7:13",
+      "end": "7:14"
+    },
+    {
+      "name": "Common of Virgins: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "8:21a",
+      "end": "8:21a"
+    },
+    {
       "name": "Office for the Dead: Daytime Prayer",
       "color": "#4A628A",
       "segments": [

@@ -329,6 +329,50 @@
       "color": "#4A628A",
       "start": "3:27",
       "end": "3:28"
+    },
+    {
+      "name": "Jun 29, Sts. Peter and Paul, Midday Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "1:15",
+          "end": "1:16a"
+        },
+        {
+          "start": "1:17b",
+          "end": "1:18a"
+        }
+      ]
+    },
+    {
+      "name": "Oct 7, Our Lady of the Rosary: Evening Prayer",
+      "color": "#4A628A",
+      "start": "4:4",
+      "end": "4:5"
+    },
+    {
+      "name": "Common of the Blessed Virgin Mary: Evening Prayer I",
+      "color": "#4A628A",
+      "start": "4:4",
+      "end": "4:5"
+    },
+    {
+      "name": "Memorial of the Blessed Virgin Mary on Saturday: Morning Prayer",
+      "color": "#4A628A",
+      "start": "4:4",
+      "end": "4:5"
+    },
+    {
+      "name": "Common of Holy Men: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "6:7b",
+      "end": "6:8"
+    },
+    {
+      "name": "Common of Holy Women: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "6:7b",
+      "end": "6:8"
     }
   ]
 }

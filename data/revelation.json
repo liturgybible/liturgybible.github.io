@@ -643,6 +643,96 @@
       "color": "#4A628A",
       "start": "1:17c",
       "end": "1:18"
+    },
+    {
+      "name": "Aug 6, Transfiguration: Morning Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "21:10",
+          "end": "21:10"
+        },
+        {
+          "start": "21:23",
+          "end": "21:23"
+        }
+      ]
+    },
+    {
+      "name": "Aug 15, Assumption: Midday Prayer",
+      "color": "#4A628A",
+      "start": "12:1",
+      "end": "12:1"
+    },
+    {
+      "name": "Sep 8, Birth of Mary: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "21:3",
+      "end": "21:3"
+    },
+    {
+      "name": "Sep 29, Michael, Gabriel, and Raphael: Evening Prayer",
+      "color": "#4A628A",
+      "start": "1:14b",
+      "end": "1:5"
+    },
+    {
+      "name": "Oct 2, Guardian Angels: Evening Prayer",
+      "color": "#4A628A",
+      "start": "8:3",
+      "end": "8:4"
+    },
+    {
+      "name": "Nov 1, All Saints: Midafternoon Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "21:10",
+          "end": "21:11a"
+        },
+        {
+          "start": "22:3b",
+          "end": "22:4"
+        }
+      ]
+    },
+    {
+      "name": "Common of the Dedication of a Church: Evening Prayer I&II",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "21:2",
+          "end": "21:3"
+        },
+        {
+          "start": "21:22",
+          "end": "21:22"
+        },
+        {
+          "start": "21:27",
+          "end": "21:27"
+        }
+      ]
+    },
+    {
+      "name": "Memorial of the Blessed Virgin Mary on Saturday: Morning Prayer (Alt)",
+      "color": "#4A628A",
+      "start": "12:1",
+      "end": "12:1"
+    },
+    {
+      "name": "Common of Virgins: Midafternoon Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "19:6",
+          "end": "19:6"
+        },
+        {
+          "start": "19:7",
+          "end": "19:7"
+        }
+      ]
     }
   ]
 }

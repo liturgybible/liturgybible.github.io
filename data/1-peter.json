@@ -339,6 +339,96 @@
           "end": "3:22"
         }
       ]
+    },
+    {
+      "name": "Dec 26, St. Stephen: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "5:10",
+      "end": "5:11"
+    },
+    {
+      "name": "Feb 22, Chair of Peter: Midday Prayer",
+      "color": "#4A628A",
+      "start": "5:1",
+      "end": "5:2a"
+    },
+    {
+      "name": "Feb 22, Chair of Peter: Evening Prayer",
+      "color": "#4A628A",
+      "start": "1:3",
+      "end": "1:5"
+    },
+    {
+      "name": "May 31, Visitation: Evening Prayer",
+      "color": "#4A628A",
+      "start": "5:5b",
+      "end": "5:7"
+    },
+    {
+      "name": "Jun 29, Sts. Peter and Paul, Morning Prayer",
+      "color": "#4A628A",
+      "start": "4:13",
+      "end": "4:14"
+    },
+    {
+      "name": "Aug 10, St. Lawrence: Evening Prayer",
+      "color": "#4A628A",
+      "start": "4:13",
+      "end": "4:14"
+    },
+    {
+      "name": "Sep 14, Triumph of the Cross: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "1:18",
+      "end": "1:19"
+    },
+    {
+      "name": "Nov 1, All Saints: Midday Prayer",
+      "color": "#4A628A",
+      "start": "1:15",
+      "end": "1:16"
+    },
+    {
+      "name": "Nov 11, St. Martin of Tours: Evening Prayer",
+      "color": "#4A628A",
+      "start": "5:1",
+      "end": "5:4"
+    },
+    {
+      "name": "Common of Several Martyrs: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "5:10",
+      "end": "5:11"
+    },
+    {
+      "name": "Common of Several Martyrs: Evening Prayer II",
+      "color": "#4A628A",
+      "start": "5:10",
+      "end": "5:11"
+    },
+    {
+      "name": "Common of One Martyr: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "5:10",
+      "end": "5:11"
+    },
+    {
+      "name": "Common of One Martyr: Evening Prayer II",
+      "color": "#4A628A",
+      "start": "4:13",
+      "end": "4:14"
+    },
+    {
+      "name": "Common of Pastors: Evening Prayer I",
+      "color": "#4A628A",
+      "start": "5:1",
+      "end": "5:4"
+    },
+    {
+      "name": "Common of Pastors: Evening Prayer II",
+      "color": "#4A628A",
+      "start": "5:1",
+      "end": "5:4"
     }
   ]
 }

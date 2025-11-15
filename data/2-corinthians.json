@@ -347,6 +347,74 @@
       "color": "#4A628A",
       "start": "1:21",
       "end": "1:22"
+    },
+    {
+      "name": "Dec 27, St. John the Apostle: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "5:19b",
+      "end": "5:20"
+    },
+    {
+      "name": "Jun 29, Sts. Peter and Paul, Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "4:13",
+      "end": "4:14"
+    },
+    {
+      "name": "Aug 6, Transfiguration: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "3:18",
+      "end": "3:18"
+    },
+    {
+      "name": "Aug 10, St. Lawrence: Morning Prayer",
+      "color": "#4A628A",
+      "start": "1:3",
+      "end": "1:5"
+    },
+    {
+      "name": "Aug 15, Assumption: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "5:1",
+      "end": "5:1"
+    },
+    {
+      "name": "Nov 1, All Saints: Evening Prayer II",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "6:16b",
+          "end": "6:16b"
+        },
+        {
+          "start": "7:1",
+          "end": "7:1"
+        }
+      ]
+    },
+    {
+      "name": "Common of the Dedication of a Church: Midday Prayer",
+      "color": "#4A628A",
+      "start": "6:16",
+      "end": "6:16"
+    },
+    {
+      "name": "Common of Apostles: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "5:19b",
+      "end": "5:20"
+    },
+    {
+      "name": "Common of Several Martyrs: Morning Prayer",
+      "color": "#4A628A",
+      "start": "1:3",
+      "end": "1:5"
+    },
+    {
+      "name": "Common of One Martyr: Morning Prayer",
+      "color": "#4A628A",
+      "start": "1:3",
+      "end": "1:5"
     }
   ]
 }

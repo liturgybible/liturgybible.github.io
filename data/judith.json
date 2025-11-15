@@ -35,6 +35,46 @@
       "color": "#4A628A",
       "start": "8:25",
       "end": "8:27"
+    },
+    {
+      "name": "May 31, Visitation: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "14:7b",
+      "end": "14:7b"
+    },
+    {
+      "name": "Aug 15, Assumption: Midmorning Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "13:17b",
+          "end": "13:17b"
+        },
+        {
+          "start": "13:18a",
+          "end": "13:18a"
+        }
+      ]
+    },
+    {
+      "name": "Sep 8, Birth of Mary: Midday Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "13:24",
+          "end": "13:24"
+        },
+        {
+          "start": "13:25",
+          "end": "13:25"
+        }
+      ]
+    },
+    {
+      "name": "Common of the Blessed Virgin Mary: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "13:31",
+      "end": "13:31"
     }
   ]
 }

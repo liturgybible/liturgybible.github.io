@@ -223,6 +223,32 @@
       ]
     },
     {
+      "name": "Apr 25, St. Mark: Midday Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "2:2b",
+          "end": "2:3"
+        },
+        {
+          "start": "2:4",
+          "end": "2:4"
+        }
+      ]
+    },
+    {
+      "name": "Jun 11, St. Barnabas: Midday Prayer",
+      "color": "#4A628A",
+      "start": "2:2b",
+      "end": "2:4"
+    },
+    {
+      "name": "Oct 18, St. Luke: Midday Prayer",
+      "color": "#4A628A",
+      "start": "2:2b",
+      "end": "2:4"
+    },
+    {
       "name": "Office for the Dead: Morning Prayer",
       "color": "#4A628A",
       "start": "4:14",

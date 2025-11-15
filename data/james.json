@@ -191,7 +191,7 @@
       "end": "1:4"
     },
     {
-      "name": "Advent, Thursdays & Dec. 22:  Evening Prayer",
+      "name": "Advent, Thursdays & Dec. 22: Evening Prayer",
       "color": "#4A628A",
       "segments": [
         {
@@ -289,6 +289,30 @@
           "end": "5:20"
         }
       ]
+    },
+    {
+      "name": "Dec 26, St. Stephen: Midday Prayer",
+      "color": "#4A628A",
+      "start": "1:12",
+      "end": "1:12"
+    },
+    {
+      "name": "Common of One Martyr: Midday Prayer",
+      "color": "#4A628A",
+      "start": "1:12",
+      "end": "1:12"
+    },
+    {
+      "name": "Common of Doctors of the Church: Evening Prayer I",
+      "color": "#4A628A",
+      "start": "3:17",
+      "end": "3:18"
+    },
+    {
+      "name": "Common of Doctors of the Church: Evening Prayer II",
+      "color": "#4A628A",
+      "start": "3:17",
+      "end": "3:18"
     }
   ]
 }

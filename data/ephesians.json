@@ -403,6 +403,108 @@
       "color": "#4A628A",
       "start": "4:3",
       "end": "4:6"
+    },
+    {
+      "name": "Nov 30, St. Andrew, Apostle: Morning Prayer",
+      "color": "#4A628A",
+      "start": "2:19",
+      "end": "2:22"
+    },
+    {
+      "name": "Nov 30, St. Andrew, Apostle: Evening Prayer",
+      "color": "#4A628A",
+      "start": "4:11",
+      "end": "4:13"
+    },
+    {
+      "name": "Dec 8, Immaculate Conception: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "1:4",
+      "end": "1:4"
+    },
+    {
+      "name": "Dec 8, Immaculate Conception: Midday Prayer",
+      "color": "#4A628A",
+      "start": "1:11",
+      "end": "1:12"
+    },
+    {
+      "name": "Dec 8, Immaculate Conception: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "5:25",
+      "end": "5:27"
+    },
+    {
+      "name": "Mar 25, Annunciation: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "1:9b",
+      "end": "1:10"
+    },
+    {
+      "name": "May 3, Sts. Philip and James: Morning Prayer",
+      "color": "#4A628A",
+      "start": "2:19",
+      "end": "2:22"
+    },
+    {
+      "name": "May 3, Sts. Philip and James: Evening Prayer",
+      "color": "#4A628A",
+      "start": "4:11",
+      "end": "4:13"
+    },
+    {
+      "name": "Jul 3, St. Thomas: Morning Prayer",
+      "color": "#4A628A",
+      "start": "2:19",
+      "end": "2:22"
+    },
+    {
+      "name": "Jul 3, St. Thomas: Evening Prayer",
+      "color": "#4A628A",
+      "start": "3:11",
+      "end": "3:13"
+    },
+    {
+      "name": "Jul 25, St. James: Morning Prayer",
+      "color": "#4A628A",
+      "start": "2:19",
+      "end": "2:22"
+    },
+    {
+      "name": "Jul 25, St. James: Evening Prayer",
+      "color": "#4A628A",
+      "start": "4:11",
+      "end": "4:13"
+    },
+    {
+      "name": "Sep 14, Triumph of the Cross: Midday Prayer",
+      "color": "#4A628A",
+      "start": "1:7",
+      "end": "1:8"
+    },
+    {
+      "name": "Nov 1, All Saints: Morning Prayer",
+      "color": "#4A628A",
+      "start": "1:17",
+      "end": "1:18"
+    },
+    {
+      "name": "Common of the Dedication of a Church: Evening Prayer I",
+      "color": "#4A628A",
+      "start": "2:19",
+      "end": "2:22"
+    },
+    {
+      "name": "Common of Apostles: Morning Prayer",
+      "color": "#4A628A",
+      "start": "2:19",
+      "end": "2:20"
+    },
+    {
+      "name": "Common of Apostles: Evening Prayer II",
+      "color": "#4A628A",
+      "start": "4:11",
+      "end": "4:13"
     }
   ]
 }

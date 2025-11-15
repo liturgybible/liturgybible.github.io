@@ -599,13 +599,13 @@
       ]
     },
     {
-      "name": "Advent, Tuesdays & Dec. 20:  Evening Prayer",
+      "name": "Advent, Tuesdays & Dec. 20: Evening Prayer",
       "color": "#4A628A",
       "start": "1:7b",
       "end": "1:9"
     },
     {
-      "name": "Advent, Wednesdays & Dec. 21:  Evening Prayer",
+      "name": "Advent, Wednesdays & Dec. 21: Evening Prayer",
       "color": "#4A628A",
       "start": "4:5",
       "end": "4:5"
@@ -677,6 +677,140 @@
       "color": "#4A628A",
       "start": "12:13",
       "end": "12:13"
+    },
+    {
+      "name": "Apr 25, St. Mark: Morning Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "15:1",
+          "end": "15:2a"
+        },
+        {
+          "start": "15:3",
+          "end": "15:4"
+        }
+      ]
+    },
+    {
+      "name": "Jun 11, St. Barnabas: Morning Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "15:1",
+          "end": "15:2a"
+        },
+        {
+          "start": "15:3",
+          "end": "15:4"
+        }
+      ]
+    },
+    {
+      "name": "Jun 29, Sts. Peter and Paul, Evening Prayer II",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "15:3",
+          "end": "15:5"
+        },
+        {
+          "start": "15:8a",
+          "end": "15:8a"
+        }
+      ]
+    },
+    {
+      "name": "Aug 15, Assumption: Evening Prayer II",
+      "color": "#4A628A",
+      "start": "15:22",
+      "end": "15:23"
+    },
+    {
+      "name": "Sep 14, Triumph of the Cross: Evening Prayer I",
+      "color": "#4A628A",
+      "start": "1:23",
+      "end": "1:24"
+    },
+    {
+      "name": "Sep 14, Triumph of the Cross: Evening Prayer II",
+      "color": "#4A628A",
+      "start": "1:23",
+      "end": "1:24"
+    },
+    {
+      "name": "Oct 18, St. Luke: Morning Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "15:1",
+          "end": "15:2a"
+        },
+        {
+          "start": "15:3",
+          "end": "15:4"
+        }
+      ]
+    },
+    {
+      "name": "Common of the Dedication of a Church: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "3:16",
+      "end": "3:17"
+    },
+    {
+      "name": "Common of Virgins: Evening Prayer I",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "7:32b",
+          "end": "7:32b"
+        },
+        {
+          "start": "7:34a",
+          "end": "7:34a"
+        }
+      ]
+    },
+    {
+      "name": "Common of Virgins: Midday Prayer",
+      "color": "#4A628A",
+      "start": "7:25",
+      "end": "7:25"
+    },
+    {
+      "name": "Common of Virgins: Evening Prayer II",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "7:32b",
+          "end": "7:32b"
+        },
+        {
+          "start": "7:34",
+          "end": "7:34"
+        }
+      ]
+    },
+    {
+      "name": "Common of Holy Men: Midday Prayer",
+      "color": "#4A628A",
+      "start": "9:26",
+      "end": "9:27a"
+    },
+    {
+      "name": "Common of Holy Women: Midday Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "9:26",
+          "end": "9:26"
+        },
+        {
+          "start": "9:27a",
+          "end": "9:27a"
+        }
+      ]
     },
     {
       "name": "Office for the Dead: Office of Readings",

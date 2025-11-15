@@ -779,6 +779,112 @@
       "color": "#4A628A",
       "start": "5:30",
       "end": "5:32"
+    },
+    {
+      "name": "Dec 26, St. Stephen: Morning Prayer",
+      "color": "#4A628A",
+      "start": "6:2b",
+      "end": "6:5a"
+    },
+    {
+      "name": "Dec 27, St. John the Apostle: Morning Prayer",
+      "color": "#4A628A",
+      "start": "4:19",
+      "end": "4:20"
+    },
+    {
+      "name": "Dec 27, St. John the Apostle: Midday Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "5:12a",
+          "end": "5:12a"
+        },
+        {
+          "start": "5:14",
+          "end": "5:14"
+        }
+      ]
+    },
+    {
+      "name": "Dec 27, St. John the Apostle: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "5:41",
+      "end": "5:42"
+    },
+    {
+      "name": "Feb 22, Chair of Peter: Morning Prayer",
+      "color": "#4A628A",
+      "start": "15:7b",
+      "end": "15:9"
+    },
+    {
+      "name": "Jun 24, Nativity of St. John the Baptist: Evening Prayer I",
+      "color": "#4A628A",
+      "start": "13:23",
+      "end": "13:25"
+    },
+    {
+      "name": "Jun 24, Nativity of St. John the Baptist: Evening Prayer II",
+      "color": "#4A628A",
+      "start": "13:23",
+      "end": "13:25"
+    },
+    {
+      "name": "Jun 29, Sts. Peter and Paul, Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "15:7b",
+      "end": "15:9"
+    },
+    {
+      "name": "Aug 29, Beheading of John the Baptist: Evening Prayer",
+      "color": "#4A628A",
+      "start": "13:23",
+      "end": "13:25"
+    },
+    {
+      "name": "Oct 2, Guardian Angels: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "5:17",
+      "end": "5:20"
+    },
+    {
+      "name": "Oct 2, Guardian Angels: Midday Prayer",
+      "color": "#4A628A",
+      "start": "12:7",
+      "end": "12:7"
+    },
+    {
+      "name": "Oct 2, Guardian Angels: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "10:3",
+      "end": "10:5"
+    },
+    {
+      "name": "Common of Apostles: Evening Prayer I",
+      "color": "#4A628A",
+      "start": "2:42",
+      "end": "2:45"
+    },
+    {
+      "name": "Common of Apostles: Midday Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "5:12a",
+          "end": "5:12a"
+        },
+        {
+          "start": "5:14",
+          "end": "5:14"
+        }
+      ]
+    },
+    {
+      "name": "Common of Apostles: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "5:41",
+      "end": "5:42"
     }
   ]
 }

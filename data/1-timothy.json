@@ -155,6 +155,30 @@
       "color": "#4A628A",
       "start": "2:4",
       "end": "2:6"
+    },
+    {
+      "name": "Mar 25, Annunciation: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "2:5b",
+      "end": "2:6a"
+    },
+    {
+      "name": "Common of Pastors: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "4:16",
+      "end": "4:16"
+    },
+    {
+      "name": "Common of Pastors: Midday Prayer",
+      "color": "#4A628A",
+      "start": "1:12",
+      "end": "1:12"
+    },
+    {
+      "name": "Common of Pastors: Midafternoon Prayer",
+      "color": "#4A628A",
+      "start": "3:13",
+      "end": "3:13"
     }
   ]
 }

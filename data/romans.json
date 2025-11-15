@@ -807,6 +807,138 @@
       "color": "#4A628A",
       "start": "8:11",
       "end": "8:11"
+    },
+    {
+      "name": "Dec 8, Immaculate Conception: Evening Prayer I",
+      "color": "#4A628A",
+      "start": "8:29",
+      "end": "8:30"
+    },
+    {
+      "name": "Dec 8, Immaculate Conception: Evening Prayer II",
+      "color": "#4A628A",
+      "start": "5:20",
+      "end": "5:21"
+    },
+    {
+      "name": "Apr 25, St. Mark: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "1:16",
+      "end": "1:17"
+    },
+    {
+      "name": "Jun 11, St. Barnabas: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "1:16",
+      "end": "1:17"
+    },
+    {
+      "name": "Jun 29, Sts. Peter and Paul, Evening Prayer I",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:2"
+        },
+        {
+          "start": "1:7",
+          "end": "1:7"
+        }
+      ]
+    },
+    {
+      "name": "Jul 22, St. Mary Magdalene: Morning Prayer",
+      "color": "#4A628A",
+      "start": "12:1",
+      "end": "12:2"
+    },
+    {
+      "name": "Jul 22, St. Mary Magdalene: Evening Prayer",
+      "color": "#4A628A",
+      "start": "8:28",
+      "end": "8:30"
+    },
+    {
+      "name": "Jul 26, Sts. Joachim and Ann: Evening Prayer",
+      "color": "#4A628A",
+      "start": "9:4",
+      "end": "9:5"
+    },
+    {
+      "name": "Aug 6, Transfiguration: Evening Prayer II",
+      "color": "#4A628A",
+      "start": "8:16",
+      "end": "8:17"
+    },
+    {
+      "name": "Aug 15, Assumption: Evening Prayer I",
+      "color": "#4A628A",
+      "start": "8:30",
+      "end": "8:30"
+    },
+    {
+      "name": "Sep 8, Birth of Mary: Evening Prayer",
+      "color": "#4A628A",
+      "start": "9:4",
+      "end": "9:5"
+    },
+    {
+      "name": "Oct 18, St. Luke: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "1:16",
+      "end": "1:17"
+    },
+    {
+      "name": "Common of Several Martyrs: Evening Prayer I",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "8:35",
+          "end": "8:35"
+        },
+        {
+          "start": "8:37",
+          "end": "8:39"
+        }
+      ]
+    },
+    {
+      "name": "Common of One Martyr: Evening Prayer I",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "8:35",
+          "end": "8:35"
+        },
+        {
+          "start": "8:37",
+          "end": "8:39"
+        }
+      ]
+    },
+    {
+      "name": "Common of Holy Men: Morning Prayer",
+      "color": "#4A628A",
+      "start": "12:1",
+      "end": "12:2"
+    },
+    {
+      "name": "Common of Holy Men: Evening Prayer II",
+      "color": "#4A628A",
+      "start": "8:28",
+      "end": "8:30"
+    },
+    {
+      "name": "Common of Holy Women: Morning Prayer",
+      "color": "#4A628A",
+      "start": "12:1",
+      "end": "12:2"
+    },
+    {
+      "name": "Common of Holy Women: Evening Prayer II",
+      "color": "#4A628A",
+      "start": "8:28",
+      "end": "8:30"
     }
   ]
 }

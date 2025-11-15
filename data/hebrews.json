@@ -637,6 +637,42 @@
       "color": "#4A628A",
       "start": "8:1b",
       "end": "8:3a"
+    },
+    {
+      "name": "Sep 14, Triumph of the Cross: Morning Prayer",
+      "color": "#4A628A",
+      "start": "2:9",
+      "end": "2:10"
+    },
+    {
+      "name": "Sep 14, Triumph of the Cross: Midmorning Prayer",
+      "color": "#4A628A",
+      "start": "5:7",
+      "end": "5:9"
+    },
+    {
+      "name": "Nov 1, All Saints: Evening Prayer I",
+      "color": "#4A628A",
+      "start": "12:22",
+      "end": "12:24"
+    },
+    {
+      "name": "Nov 11, St. Martin of Tours: Morning Prayer",
+      "color": "#4A628A",
+      "start": "13:7",
+      "end": "13:8"
+    },
+    {
+      "name": "Common of Several Martyrs: Midday Prayer",
+      "color": "#4A628A",
+      "start": "11:33",
+      "end": "11:33"
+    },
+    {
+      "name": "Common of Pastors: Morning Prayer",
+      "color": "#4A628A",
+      "start": "13:7",
+      "end": "13:9a"
     }
   ]
 }

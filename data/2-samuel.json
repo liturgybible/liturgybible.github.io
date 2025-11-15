@@ -359,6 +359,18 @@
           "end": "24:25"
         }
       ]
+    },
+    {
+      "name": "Mar 19, St. Joseph: Morning Prayer",
+      "color": "#4A628A",
+      "start": "7:28",
+      "end": "7:29"
+    },
+    {
+      "name": "May 1, St. Joseph the Worker: Morning Prayer",
+      "color": "#4A628A",
+      "start": "7:28",
+      "end": "7:29"
     }
   ]
 }

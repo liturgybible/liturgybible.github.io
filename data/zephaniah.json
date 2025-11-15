@@ -81,6 +81,20 @@
           "end": "3:15b"
         }
       ]
+    },
+    {
+      "name": "Common of the Blessed Virgin Mary: Midmorning Prayer",
+      "color": "#4A628A",
+      "segments": [
+        {
+          "start": "3:14",
+          "end": "3:14"
+        },
+        {
+          "start": "3:15",
+          "end": "3:15"
+        }
+      ]
     }
   ]
 }
