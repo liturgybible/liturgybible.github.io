@@ -17,3 +17,11 @@
 2. Copy/paste the `Data Export` tab to `liturgy_bible_data.csv`
 
 3. Run `liturgy_bible_data.py`, which parses `liturgy_bible_data.csv` and generates a JSON data file for each chapter of the Bible in `data/`
+
+
+## Test Site
+
+```bash
+python3 -m http.server
+http://localhost:8000/luke-02.html
+```

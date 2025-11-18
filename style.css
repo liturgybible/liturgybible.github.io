@@ -883,10 +883,10 @@ hr {
 
 }
 
-/* --- CCC PILL AND MODAL STYLES --- */
+/* --- REFERENCE (CCC/RM) PILL AND MODAL STYLES --- */
 
 /* --- Pill Style --- */
-.ccc-pill {
+.ref-pill {
     font-family: MiloWeb, 'Roboto', sans-serif;
     font-size: 0.65em;
     font-weight: 600;
@@ -903,13 +903,24 @@ hr {
     white-space: nowrap;
 }
 
-.ccc-pill:hover {
+.ref-pill:hover {
     color: white;
     background-color: #7B2E2B;
 }
 
+/* --- Modal Backdrop --- */
+#ref-modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2000;
+}
+
 /* --- Modal Container --- */
-#ccc-modal {
+#ref-modal {
     position: fixed;
     top: 40px; 
     left: 50%;
@@ -927,7 +938,7 @@ hr {
 }
 
 /* --- Modal Header --- */
-#ccc-modal-header {
+#ref-modal-header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -937,7 +948,7 @@ hr {
     line-height: 0;
 }
 
-#ccc-modal-close {
+#ref-modal-close {
     background: none;
     border: none;
     display: inline-flex;
@@ -956,14 +967,14 @@ hr {
     transition: color 0.2s ease background-color 0.2s ease;
 }
 
-#ccc-modal-close:hover {
+#ref-modal-close:hover {
     color: #333;
     background-color: #e0e0e0;
 }
 
 /* --- Modal Content --- */
-#ccc-modal-content {
-/*    padding: top right bottom left; */
+#ref-modal-content {
+/* padding: top right bottom left; */
     padding: 0.5rem 1rem 0.75rem 1rem; 
     overflow-y: auto;
     font-weight: 500;
@@ -972,17 +983,34 @@ hr {
     text-align: left;
 }
 
-.ccc-paragraph-container {
+.ref-modal-section-header {
+    font-family: MiloWeb, Georgia, TimesNewRoman, serif;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: white;
+    margin: 0.5rem 0 0.5rem 0;
+    border-radius: 7px;
+    background-color: gray;
+    text-align: center;
+}
+
+.ref-paragraph-container {
     margin-bottom: 0.1rem;
 }
 
-.ccc-divider {
+.ref-divider {
     border: 0;
     border-top: 1px dashed #ccc;
     margin: 0.5rem 0;
 }
 
-.ccc-header {
+.ref-divider-major {
+    border: 0;
+    border-top: 2px solid darkgrey;
+    margin: 1.5rem 0;
+}
+
+.ref-header {
     font-family: MiloWeb, sans-serif;
     font-size: 0.8em;
     font-weight: 700;
@@ -990,21 +1018,30 @@ hr {
     text-transform: uppercase;
     margin: 0.1rem 0 0.1rem 0;
     letter-spacing: 0.5px;
+    line-height: 1.4;
 }
 
-.ccc-text {
+.ref-text {
     font-size: 0.95em;
     margin: 0;
     text-align: justify;
 }
 
-.ccc-text b {
+/* Style for bolded paragraph numbers */
+.ref-text b {
     font-family: MiloWeb, sans-serif;
     color: #7B2E2B; /* Primary Red */
     margin-right: 0.25em;
 }
 
-.ccc-footnotes {
+/* Style for rubrics (red text) from RM */
+.ref-text .rubric {
+    color: #7B2E2B;
+    justify-content: left;
+    font-style: italic;
+}
+
+.ref-footnotes {
     font-family: MiloWeb, sans-serif;
     font-size: 0.7em;
     font-weight: 300;
@@ -1015,45 +1052,47 @@ hr {
     list-style: none;           /* hide numbers/bullets */
 }
 
-.ccc-footnotes li {
+.ref-footnotes li {
     display: inline;            /* inline items -> one line */
     margin: 0;                  /* no vertical spacing */
 }
 
-.ccc-footnotes li:not(:last-child)::after {
+.ref-footnotes li:not(:last-child)::after {
     content: "  ·  ";           /* middle dot separator */
     white-space: pre;           /* keep spaces around dot */
 }
 
-.ccc-source-link {
+.ref-source-link {
     font-family: MiloWeb, sans-serif;
     font-size: 0.8em;
     color: #3377b3;
     text-decoration: none;
     border-bottom: 1px dotted #3377b3;
     transition: color 0.2s, background-color 0.2s;
+    display: inline-block;
+    margin-top: 0.5rem;
 }
 
 
 /* --- Mobile styles for Modal --- */
 @media (max-width: 800px) {
-    #ccc-modal {
+    #ref-modal {
         width: 95%;
         max-height: 85vh;
         top: 5%;
         transform: translate(-50%, 0);
     }
     
-    #ccc-modal-header {
+    #ref-modal-header {
         padding: 0.1rem 0.1rem;
     }
     
-    #ccc-modal-content {
+    #ref-modal-content {
         padding: 1rem;
         line-height: 1.4;
     }
     
-    .ccc-text {
+    .ref-text {
         font-size: 0.95em;
     }
 }

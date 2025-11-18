@@ -430,10 +430,13 @@ window.addEventListener('load', () => {
     window.todaysReadingsData = null; // Store today's readings to pass to other functions
     window.allUsccbReadings = []; // Store all readings
     
-    // --- CCC Data ---
+    // --- Reference Data (CCC & RM) ---
     window.bookCccRefs = null; // Store per-book CCC refs
     window.cccTextData = null; // Lazy-loaded full CCC text
     window.cccTextPromise = null; // Promise to manage lazy-loading
+    window.bookRmRefs = null; // Store all RM refs (from single file)
+    window.rmTextData = null; // Lazy-loaded full RM text
+    window.rmTextPromise = null; // Promise to manage lazy-loading
 
     // --- Daily Readings Popup Logic ---
     const todayStr = getCurrentDateString();
@@ -476,6 +479,22 @@ window.addEventListener('load', () => {
             .catch(error => console.error("Error fetching CCC references:", error));
     }
     // --- End CCC Reference Logic ---
+    
+    // --- Roman Missal Reference Logic ---
+    if (book && chapter) {
+        fetch(`../data/roman-missal-refs/roman-missal-refs.json`)
+            .then(response => {
+                if (!response.ok) throw new Error(`Could not load RM refs.`);
+                return response.json();
+            })
+            .then(data => {
+                // The file contains all books, so we extract the one we need
+                window.bookRmRefs = data[book] || null;
+                // Injection is handled by redraw()
+            })
+            .catch(error => console.error("Error fetching Roman Missal references:", error));
+    }
+    // --- End Roman Missal Reference Logic ---
 
 
     // --- Mobile Warning Banner ---
@@ -500,10 +519,10 @@ window.addEventListener('load', () => {
         // Also re-highlight readings when redrawing (e.g., on translation switch)
         highlightDailyReadings(window.todaysReadingsData);
         
-        // --- CCC: Clear and re-inject pills ---
-        clearCccPills();
-        if (window.bookCccRefs && chapter) {
-            injectCccPills(window.bookCccRefs, parseInt(chapter, 10));
+        // --- References: Clear and re-inject pills ---
+        clearRefPills();
+        if ((window.bookCccRefs || window.bookRmRefs) && chapter) {
+            injectRefPills(window.bookCccRefs, window.bookRmRefs, parseInt(chapter, 10));
         }
     };
 
@@ -784,39 +803,48 @@ function renderSide(readings, container, isRightSided) {
 }
 
 
-// --- CCC POPUP FUNCTIONS ---
+// --- REFERENCE POPUP FUNCTIONS ---
 
 /**
- * Clears all existing CCC pills from the document.
+ * Clears all existing reference pills from the document.
  * Called before redrawing (e.g., on translation switch).
  */
-function clearCccPills() {
-    document.querySelectorAll('.ccc-pill').forEach(pill => pill.remove());
+function clearRefPills() {
+    document.querySelectorAll('.ref-pill').forEach(pill => pill.remove());
 }
 
 /**
- * Injects CCC pills into the active translation's text.
- * @param {object} bookCccRefs - The reference data for the current book.
+ * Injects CCC and RM pills into the active translation's text.
+ * @param {object | null} bookCccRefs - The CCC reference data for the current book.
+ * @param {object | null} bookRmRefs - The RM reference data for the current book.
  * @param {number} chapterNum - The current chapter number.
  */
-function injectCccPills(bookCccRefs, chapterNum) {
-    if (!bookCccRefs) return;
-    
+function injectRefPills(bookCccRefs, bookRmRefs, chapterNum) {
     const chapterStr = String(chapterNum);
-    const chapterRefs = bookCccRefs[chapterStr];
     
-    if (!chapterRefs) {
+    // Get refs for the current chapter
+    const chapterCccRefs = bookCccRefs ? bookCccRefs[chapterStr] : null;
+    const chapterRmRefs = bookRmRefs ? bookRmRefs[chapterStr] : null; // RM refs are {book: {chapter: {verse: []}}}
+    
+    if (!chapterCccRefs && !chapterRmRefs) {
         // No refs for this chapter
         return;
     }
+
+    // Find all unique verse strings from both sources
+    const allVerseStrs = new Set();
+    if (chapterCccRefs) { Object.keys(chapterCccRefs).forEach(v => allVerseStrs.add(v)); }
+    if (chapterRmRefs) { Object.keys(chapterRmRefs).forEach(v => allVerseStrs.add(v)); }
     
     // Find the currently active translation container
     const activeTranslation = document.querySelector('.translation-text.active');
     if (!activeTranslation) return;
 
-    for (const verseStr in chapterRefs) {
-        const paraIds = chapterRefs[verseStr]; // e.g., ["289", "337"]
-        if (!paraIds || paraIds.length === 0) continue;
+    for (const verseStr of allVerseStrs) {
+        const cccParaIds = (chapterCccRefs && chapterCccRefs[verseStr]) ? chapterCccRefs[verseStr] : [];
+        const rmParaIds = (chapterRmRefs && chapterRmRefs[verseStr]) ? chapterRmRefs[verseStr] : [];
+
+        if (cccParaIds.length === 0 && rmParaIds.length === 0) continue;
         
         const verseIdentifier = `${chapterStr}:${verseStr}`;
         
@@ -825,11 +853,22 @@ function injectCccPills(bookCccRefs, chapterNum) {
         
         if (verseElement) {
             const pill = document.createElement('span');
-            pill.className = 'ccc-pill';
-            pill.textContent = 'CCC';
-            pill.dataset.refs = JSON.stringify(paraIds);
+            pill.className = 'ref-pill';
             
-            pill.addEventListener('click', showCccPopup);
+            // Set dataset for both
+            pill.dataset.cccRefs = JSON.stringify(cccParaIds);
+            pill.dataset.rmRefs = JSON.stringify(rmParaIds);
+
+            // Set pill text
+            if (cccParaIds.length > 0 && rmParaIds.length > 0) {
+                pill.textContent = 'CCC / RM';
+            } else if (cccParaIds.length > 0) {
+                pill.textContent = 'CCC';
+            } else {
+                pill.textContent = 'RM';
+            }
+            
+            pill.addEventListener('click', showRefPopup);
             
             // Append pill as the last child of the verse element
             verseElement.appendChild(pill);
@@ -838,24 +877,31 @@ function injectCccPills(bookCccRefs, chapterNum) {
 }
 
 /**
- * Handles the click event on a CCC pill.
+ * Handles the click event on a reference pill.
  * @param {Event} event - The click event.
  */
-function showCccPopup(event) {
+function showRefPopup(event) {
     event.stopPropagation(); // Stop click from bubbling up
     const pill = event.currentTarget;
-    const paraIds = JSON.parse(pill.dataset.refs);
     
+    const cccParaIds = JSON.parse(pill.dataset.cccRefs);
+    const rmParaIds = JSON.parse(pill.dataset.rmRefs);
+    
+    const originalText = pill.textContent;
     pill.textContent = '...'; // Show loading state
     
-    getCccTextData()
-        .then(cccData => {
-            buildAndShowCccModal(paraIds, cccData);
-            pill.textContent = 'CCC'; // Reset pill text
+    // Determine which promises to run
+    const cccPromise = (cccParaIds.length > 0) ? getCccTextData() : Promise.resolve(null);
+    const rmPromise = (rmParaIds.length > 0) ? getRmTextData() : Promise.resolve(null);
+    
+    Promise.all([cccPromise, rmPromise])
+        .then(([cccData, rmData]) => {
+            buildAndShowRefModal(cccParaIds, cccData, rmParaIds, rmData);
+            pill.textContent = originalText; // Reset pill text
         })
         .catch(err => {
-            console.error("Failed to load CCC text:", err);
-            pill.textContent = 'CCC'; // Reset on error
+            console.error("Failed to load reference text:", err);
+            pill.textContent = originalText; // Reset on error
         });
 }
 
@@ -895,76 +941,155 @@ function getCccTextData() {
 }
 
 /**
- * Builds and injects the CCC modal into the DOM.
- * @param {string[]} paraIds - Array of paragraph IDs to display.
- * @param {object} cccData - The complete CCC text data.
+ * Lazy-loads the roman-missal-text.json file.
+ * @returns {Promise<object>} A promise that resolves with the RM text data.
  */
-function buildAndShowCccModal(paraIds, cccData) {
+function getRmTextData() {
+    // If data is already loaded, return it
+    if (window.rmTextData) {
+        return Promise.resolve(window.rmTextData);
+    }
+    
+    // If we are already fetching, return the existing promise
+    if (window.rmTextPromise) {
+        return window.rmTextPromise;
+    }
+    
+    // Start fetching the data
+    console.log("Fetching roman-missal-text.json...");
+    window.rmTextPromise = fetch('../data/roman-missal-text.json')
+        .then(response => {
+            if (!response.ok) throw new Error('Failed to load roman-missal-text.json');
+            return response.json();
+        })
+        .then(data => {
+            window.rmTextData = data; // Cache the data
+            console.log("RM text data loaded.");
+            return data;
+        })
+        .catch(err => {
+            window.rmTextPromise = null; // Clear promise on error
+            throw err;
+        });
+        
+    return window.rmTextPromise;
+}
+
+
+/**
+ * Builds and injects the Reference modal into the DOM.
+ * @param {string[]} cccParaIds - Array of CCC paragraph IDs to display.
+ * @param {object} cccData - The complete CCC text data.
+ * @param {string[]} rmParaIds - Array of RM paragraph IDs to display.
+ * @param {object} rmData - The complete RM text data.
+ */
+function buildAndShowRefModal(cccParaIds, cccData, rmParaIds, rmData) {
     // Close any existing modal first
-    closeCccModal();
+    closeRefModal();
     
     let modalContent = '';
     
-    paraIds.forEach((paraId, index) => {
-        const paraData = cccData[paraId];
-        if (paraData) {
-            // Get the first and last headers
-             const firstHeader = paraData.headers[0];
-             const lastHeader = paraData.headers.slice(-1)[0];
-             let displayHeader;
+    // --- 1. Add CCC Content ---
+    if (cccParaIds.length > 0 && cccData) {
+        modalContent += '<h3 class="ref-modal-section-header">Catechism of the Catholic Church</h3>';
+        
+        cccParaIds.forEach((paraId, index) => {
+            const paraData = cccData[paraId];
+            if (paraData) {
+                // Get the first and last headers
+                 const firstHeader = paraData.headers[0];
+                 const lastHeader = paraData.headers.slice(-1)[0];
+                 let displayHeader;
 
-         if (firstHeader && lastHeader) {
-             // Check if they are the same (e.g., only one header in the array)
-             if (firstHeader === lastHeader) {
-             displayHeader = firstHeader;
-             } else {
-             // Combine first and last with a line break
-             displayHeader = `${firstHeader}<br>${lastHeader}`;
-             }
-             } else {
-             // Default if headers array is empty
-             displayHeader = 'Catechism of the Catholic Church';
-         }
-        
-         if (index > 0) {
-        modalContent += '<hr class="ccc-divider">';
-         }
-        
-         modalContent += `<div class="ccc-paragraph-container">`;
-         modalContent += `<h4 class="ccc-header">${displayHeader}</h4>`;
+                 if (firstHeader && lastHeader) {
+                     // Check if they are the same (e.g., only one header in the array)
+                     if (firstHeader === lastHeader) {
+                         displayHeader = firstHeader;
+                     } else {
+                         // Combine first and last with a line break
+                         displayHeader = `${firstHeader}<br>${lastHeader}`;
+                     }
+                 } else {
+                     // Default if headers array is empty
+                     displayHeader = 'Catechism of the Catholic Church';
+                 }
             
-            // Paragraph text with ID
-            modalContent += `<p class="ccc-text"><b>${paraId}</b> ${paraData.text}</p>`;
+                 if (index > 0) {
+                    modalContent += '<hr class="ref-divider">';
+                 }
             
-            // Footnotes
-            if (paraData.footnotes && paraData.footnotes.length > 0) {
-                modalContent += `<ol class="ccc-footnotes">`;
-                paraData.footnotes.forEach(fn => {
-                    modalContent += `<li>${fn.text}</li>`;
-                });
-                modalContent += `</ol>`;
+                 modalContent += `<div class="ref-paragraph-container">`;
+                 modalContent += `<h4 class="ref-header">${displayHeader}</h4>`;
+                
+                // Paragraph text with ID
+                modalContent += `<p class="ref-text"><b>${paraId}</b> ${paraData.text}</p>`;
+                
+                // Footnotes
+                if (paraData.footnotes && paraData.footnotes.length > 0) {
+                    modalContent += `<ol class="ref-footnotes">`;
+                    paraData.footnotes.forEach(fn => {
+                        modalContent += `<li>${fn.text}</li>`;
+                    });
+                    modalContent += `</ol>`;
+                }
+                
+                // Source link
+                modalContent += `<a href="${paraData.source_url}" class="ref-source-link" target="_blank">CCC ${paraId} →</a>`;
+                modalContent += `</div>`;
             }
-            
-            // Source link
-            modalContent += `<a href="${paraData.source_url}" class="ccc-source-link" target="_blank">CCC ${paraId} →</a>`;
-            modalContent += `</div>`;
-        }
-    });
+        });
+    }
+
+    // --- 2. Add Divider ---
+    if (cccParaIds.length > 0 && rmParaIds.length > 0) {
+        modalContent += '<hr class="ref-divider-major">';
+    }
+
+    // --- 3. Add RM Content ---
+    if (rmParaIds.length > 0 && rmData) {
+        modalContent += '<h3 class="ref-modal-section-header">Roman Missal - Order of Mass</h3>';
+        
+        rmParaIds.forEach((paraId, index) => {
+            const paraData = rmData[paraId];
+            if (paraData) {
+                if (index > 0) {
+                    modalContent += '<hr class="ref-divider">';
+                }
+                
+                modalContent += `<div class="ref-paragraph-container">`;
+                
+                // Get the last header
+                const lastHeader = paraData.headers.slice(-1)[0];
+                if (lastHeader) {
+                    modalContent += `<h4 class="ref-header">${lastHeader}</h4>`;
+                }
+                
+                // Paragraph text with ID
+                // RM text already contains HTML, so just inject it
+                modalContent += `<div class="ref-text"><b>${paraId}</b> ${paraData.text}</div>`;
+                
+                // Source link
+                // modalContent += `<a href="${paraData.source_url}" class="ref-source-link" target="_blank">RM ${paraId} →</a>`;
+                // modalContent += `</div>`;
+            }
+        });
+    }
+
 
     // Create backdrop
     const backdrop = document.createElement('div');
-    backdrop.id = 'ccc-modal-backdrop';
-    backdrop.addEventListener('click', closeCccModal);
+    backdrop.id = 'ref-modal-backdrop';
+    backdrop.addEventListener('click', closeRefModal);
     
     // Create modal
     const modal = document.createElement('div');
-    modal.id = 'ccc-modal';
+    modal.id = 'ref-modal';
     
     modal.innerHTML = `
-        <div id="ccc-modal-header">
-            <button id="ccc-modal-close">&times;</button>
+        <div id="ref-modal-header">
+            <button id="ref-modal-close">&times;</button>
         </div>
-        <div id="ccc-modal-content">
+        <div id="ref-modal-content">
             ${modalContent}
         </div>
     `;
@@ -973,13 +1098,13 @@ function buildAndShowCccModal(paraIds, cccData) {
     document.body.appendChild(modal);
     
     // Add close listener
-    modal.querySelector('#ccc-modal-close').addEventListener('click', closeCccModal);
+    modal.querySelector('#ref-modal-close').addEventListener('click', closeRefModal);
 }
 
 /**
- * Removes the CCC modal and backdrop from the DOM.
+ * Removes the Reference modal and backdrop from the DOM.
  */
-function closeCccModal() {
-    document.getElementById('ccc-modal')?.remove();
-    document.getElementById('ccc-modal-backdrop')?.remove();
+function closeRefModal() {
+    document.getElementById('ref-modal')?.remove();
+    document.getElementById('ref-modal-backdrop')?.remove();
 }
