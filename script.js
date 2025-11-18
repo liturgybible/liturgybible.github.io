@@ -1108,3 +1108,196 @@ function closeRefModal() {
     document.getElementById('ref-modal')?.remove();
     document.getElementById('ref-modal-backdrop')?.remove();
 }
+
+
+// --- BIBLE NAVIGATION MODAL LOGIC ---
+
+// 1. Bible Data Structure (Catholic Canon)
+const BIBLE_NAV_DATA = [
+    // Pentateuch (Law)
+    { name: "Genesis", slug: "genesis", abbr: "Gen", ch: 50, section: "law" },
+    { name: "Exodus", slug: "exodus", abbr: "Ex", ch: 40, section: "law" },
+    { name: "Leviticus", slug: "leviticus", abbr: "Lev", ch: 27, section: "law" },
+    { name: "Numbers", slug: "numbers", abbr: "Num", ch: 36, section: "law" },
+    { name: "Deuteronomy", slug: "deuteronomy", abbr: "Dt", ch: 34, section: "law" },
+    // History
+    { name: "Joshua", slug: "joshua", abbr: "Jos", ch: 24, section: "hist" },
+    { name: "Judges", slug: "judges", abbr: "Jgs", ch: 21, section: "hist" },
+    { name: "Ruth", slug: "ruth", abbr: "Ru", ch: 4, section: "hist" },
+    { name: "1 Samuel", slug: "1-samuel", abbr: "1Sm", ch: 31, section: "hist" },
+    { name: "2 Samuel", slug: "2-samuel", abbr: "2Sm", ch: 24, section: "hist" },
+    { name: "1 Kings", slug: "1-kings", abbr: "1Kgs", ch: 22, section: "hist" },
+    { name: "2 Kings", slug: "2-kings", abbr: "2Kgs", ch: 25, section: "hist" },
+    { name: "1 Chronicles", slug: "1-chronicles", abbr: "1Chr", ch: 29, section: "hist" },
+    { name: "2 Chronicles", slug: "2-chronicles", abbr: "2Chr", ch: 36, section: "hist" },
+    { name: "Ezra", slug: "ezra", abbr: "Ezr", ch: 10, section: "hist" },
+    { name: "Nehemiah", slug: "nehemiah", abbr: "Neh", ch: 13, section: "hist" },
+    { name: "Tobit", slug: "tobit", abbr: "Tb", ch: 14, section: "hist" },
+    { name: "Judith", slug: "judith", abbr: "Jdt", ch: 16, section: "hist" },
+    { name: "Esther", slug: "esther", abbr: "Est", ch: 10, section: "hist" },
+    { name: "1 Maccabees", slug: "1-maccabees", abbr: "1Mc", ch: 16, section: "hist" },
+    { name: "2 Maccabees", slug: "2-maccabees", abbr: "2Mc", ch: 15, section: "hist" },
+    // Wisdom
+    { name: "Job", slug: "job", abbr: "Jb", ch: 42, section: "wis" },
+    { name: "Psalms", slug: "psalms", abbr: "Ps", ch: 150, section: "wis" },
+    { name: "Proverbs", slug: "proverbs", abbr: "Prv", ch: 31, section: "wis" },
+    { name: "Ecclesiastes", slug: "ecclesiastes", abbr: "Eccl", ch: 12, section: "wis" },
+    { name: "Song of Songs", slug: "song-of-songs", abbr: "Sg", ch: 8, section: "wis" },
+    { name: "Wisdom", slug: "wisdom", abbr: "Wis", ch: 19, section: "wis" },
+    { name: "Sirach", slug: "sirach", abbr: "Sir", ch: 51, section: "wis" },
+    // Prophets
+    { name: "Isaiah", slug: "isaiah", abbr: "Is", ch: 66, section: "prop" },
+    { name: "Jeremiah", slug: "jeremiah", abbr: "Jer", ch: 52, section: "prop" },
+    { name: "Lamentations", slug: "lamentations", abbr: "Lam", ch: 5, section: "prop" },
+    { name: "Baruch", slug: "baruch", abbr: "Bar", ch: 6, section: "prop" },
+    { name: "Ezekiel", slug: "ezekiel", abbr: "Ez", ch: 48, section: "prop" },
+    { name: "Daniel", slug: "daniel", abbr: "Dn", ch: 14, section: "prop" },
+    { name: "Hosea", slug: "hosea", abbr: "Hos", ch: 14, section: "prop" },
+    { name: "Joel", slug: "joel", abbr: "Jl", ch: 4, section: "prop" },
+    { name: "Amos", slug: "amos", abbr: "Am", ch: 9, section: "prop" },
+    { name: "Obadiah", slug: "obadiah", abbr: "Ob", ch: 1, section: "prop" },
+    { name: "Jonah", slug: "jonah", abbr: "Jon", ch: 4, section: "prop" },
+    { name: "Micah", slug: "micah", abbr: "Mi", ch: 7, section: "prop" },
+    { name: "Nahum", slug: "nahum", abbr: "Na", ch: 3, section: "prop" },
+    { name: "Habakkuk", slug: "habakkuk", abbr: "Hb", ch: 3, section: "prop" },
+    { name: "Zephaniah", slug: "zephaniah", abbr: "Zep", ch: 3, section: "prop" },
+    { name: "Haggai", slug: "haggai", abbr: "Hg", ch: 2, section: "prop" },
+    { name: "Zechariah", slug: "zechariah", abbr: "Zec", ch: 14, section: "prop" },
+    { name: "Malachi", slug: "malachi", abbr: "Mal", ch: 3, section: "prop" },
+    // Gospels
+    { name: "Matthew", slug: "matthew", abbr: "Mt", ch: 28, section: "gosp" },
+    { name: "Mark", slug: "mark", abbr: "Mk", ch: 16, section: "gosp" },
+    { name: "Luke", slug: "luke", abbr: "Lk", ch: 24, section: "gosp" },
+    { name: "John", slug: "john", abbr: "Jn", ch: 21, section: "gosp" },
+    { name: "Acts", slug: "acts", abbr: "Acts", ch: 28, section: "hist-nt" },
+    // Epistles (Pauline)
+    { name: "Romans", slug: "romans", abbr: "Rom", ch: 16, section: "epist" },
+    { name: "1 Corinthians", slug: "1-corinthians", abbr: "1Cor", ch: 16, section: "epist" },
+    { name: "2 Corinthians", slug: "2-corinthians", abbr: "2Cor", ch: 13, section: "epist" },
+    { name: "Galatians", slug: "galatians", abbr: "Gal", ch: 6, section: "epist" },
+    { name: "Ephesians", slug: "ephesians", abbr: "Eph", ch: 6, section: "epist" },
+    { name: "Philippians", slug: "philippians", abbr: "Phil", ch: 4, section: "epist" },
+    { name: "Colossians", slug: "colossians", abbr: "Col", ch: 4, section: "epist" },
+    { name: "1 Thessalonians", slug: "1-thessalonians", abbr: "1Thes", ch: 5, section: "epist" },
+    { name: "2 Thessalonians", slug: "2-thessalonians", abbr: "2Thes", ch: 3, section: "epist" },
+    { name: "1 Timothy", slug: "1-timothy", abbr: "1Tm", ch: 6, section: "epist" },
+    { name: "2 Timothy", slug: "2-timothy", abbr: "2Tm", ch: 4, section: "epist" },
+    { name: "Titus", slug: "titus", abbr: "Ti", ch: 3, section: "epist" },
+    { name: "Philemon", slug: "philemon", abbr: "Phlm", ch: 1, section: "epist" },
+    { name: "Hebrews", slug: "hebrews", abbr: "Heb", ch: 13, section: "epist" },
+    // Catholic Epistles
+    { name: "James", slug: "james", abbr: "Jas", ch: 5, section: "epist" },
+    { name: "1 Peter", slug: "1-peter", abbr: "1Pt", ch: 5, section: "epist" },
+    { name: "2 Peter", slug: "2-peter", abbr: "2Pt", ch: 3, section: "epist" },
+    { name: "1 John", slug: "1-john", abbr: "1Jn", ch: 5, section: "epist" },
+    { name: "2 John", slug: "2-john", abbr: "2Jn", ch: 1, section: "epist" },
+    { name: "3 John", slug: "3-john", abbr: "3Jn", ch: 1, section: "epist" },
+    { name: "Jude", slug: "jude", abbr: "Jude", ch: 1, section: "epist" },
+    { name: "Revelation", slug: "revelation", abbr: "Rv", ch: 22, section: "prop-nt" }
+];
+
+// 2. Navigation Controller
+function initNavigationModal() {
+    const headerTitle = document.querySelector('.header-chapter');
+    if (!headerTitle) return;
+
+    // Make header interactive
+    headerTitle.style.cursor = 'pointer';
+    headerTitle.title = "Click to navigate";
+    
+    headerTitle.addEventListener('click', () => {
+        openNavModal();
+    });
+}
+
+function openNavModal() {
+    // Remove existing if any
+    const existing = document.getElementById('nav-modal');
+    if (existing) existing.remove();
+
+    const backdrop = document.createElement('div');
+    backdrop.id = 'nav-modal-backdrop';
+    backdrop.addEventListener('click', closeNavModal);
+
+    const modal = document.createElement('div');
+    modal.id = 'nav-modal';
+    modal.innerHTML = `
+        <div id="nav-modal-header">
+            <h3 id="nav-modal-title">Select Book</h3>
+        </div>
+        <div id="nav-modal-content"></div>
+    `;
+
+    document.body.appendChild(backdrop);
+    document.body.appendChild(modal);
+
+    renderBookGrid();
+}
+
+function closeNavModal() {
+    const modal = document.getElementById('nav-modal');
+    const backdrop = document.getElementById('nav-modal-backdrop');
+    if (modal) modal.remove();
+    if (backdrop) backdrop.remove();
+}
+
+function renderBookGrid() {
+    const container = document.getElementById('nav-modal-content');
+    const title = document.getElementById('nav-modal-title');
+    if(!container) return;
+
+    title.innerHTML = ''; 
+    
+    container.innerHTML = ''; 
+    container.className = 'nav-grid-books'; 
+
+    BIBLE_NAV_DATA.forEach(book => {
+        const btn = document.createElement('button');
+        // Added 'square' class for styling
+        btn.className = `nav-item square nav-section-${book.section}`;
+        btn.textContent = book.abbr;
+        btn.title = book.name;
+        
+        btn.addEventListener('click', () => {
+            renderChapterGrid(book);
+        });
+
+        container.appendChild(btn);
+    });
+}
+
+function renderChapterGrid(bookData) {
+    const container = document.getElementById('nav-modal-content');
+    const title = document.getElementById('nav-modal-title');
+    if(!container) return;
+
+    container.innerHTML = '';
+    container.className = 'nav-grid-chapters';
+
+    for (let i = 1; i <= bookData.ch; i++) {
+        const btn = document.createElement('button');
+        btn.className = `nav-item square nav-chapter-item`;
+        btn.textContent = i;
+        
+        btn.addEventListener('click', () => {
+            navigateToChapter(bookData.slug, i);
+        });
+
+        container.appendChild(btn);
+    }
+}
+
+function navigateToChapter(bookSlug, chapterNum) {
+    // Pad chapter number with leading zero if < 10
+    const paddedChapter = String(chapterNum).padStart(2, '0');
+    
+    // Assuming structure is /bible/[slug]-[chapter].html
+    // If script is running in a file like /bible/1-chronicles-01.html, 
+    // we can simply link relative to the current folder.
+    window.location.href = `${bookSlug}-${paddedChapter}.html`;
+}
+
+// 3. Initialize on Load (Append this to your existing window.onload logic or just call it here)
+window.addEventListener('load', () => {
+    initNavigationModal();
+});

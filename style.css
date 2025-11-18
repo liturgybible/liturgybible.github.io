@@ -1096,3 +1096,138 @@ hr {
         font-size: 0.95em;
     }
 }
+
+/* --- NAVIGATION MODAL STYLES --- */
+
+#nav-modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+/*    background-color: rgba(0, 0, 0, 0.6);*/
+/*    backdrop-filter: blur(2px);*/
+    z-index: 3000;
+}
+
+#nav-modal {
+    position: fixed;
+    top: 40px; /* Set distance from top */
+    left: 50%;
+    transform: translateX(-50%); /* Only center horizontally */
+    width: 90%;
+    max-width: 600px;
+    max-height: 80vh;
+    background-color: #fcfcfc;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    z-index: 3001;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#nav-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    background-color: lightgray;
+    line-height: 0;
+}
+
+/* Title/Back Button styles */
+#nav-modal-title {
+    margin: 0;
+    font-family: MiloWeb, sans-serif;
+    color: white; /* White text on red bg */
+    font-size: 0.9em;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.nav-back-arrow {
+    margin-right: 0.5rem;
+    color: white;
+    text-decoration: none;
+}
+.nav-back-arrow:hover {
+    text-decoration: underline;
+}
+
+#nav-modal-content {
+    padding: 0;
+    overflow-y: auto;
+}
+
+/* --- Grids --- */
+
+/* Tight grid with no gaps */
+.nav-grid-books, .nav-grid-chapters {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(45px, 1fr));
+    gap: 0; /* Touching */
+}
+
+/* --- Nav Items (Buttons) --- */
+
+.nav-item {
+    border: none;
+    border-radius: 0;
+    padding: 0; /* Centered by flex/grid */
+    font-family: MiloWeb, sans-serif;
+    font-weight: 600;
+    font-size: 0.85em;
+    cursor: pointer;
+    transition: filter 0.1s;
+    text-align: center;
+    color: white !important;
+    box-shadow: none; /* Flat look */
+    height: auto !important; 
+    
+    /* Make them square */
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nav-item:hover {
+    transform: none;
+    filter: brightness(1.15); /* Lighten on hover */
+    z-index: 1; /* Bring above borders */
+    outline: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* --- Section Color Coding --- */
+.nav-section-law { background-color: #4A628A; }
+.nav-section-hist, .nav-section-hist-nt { background-color: #7B2E2B; }
+.nav-section-wis { background-color: #5E4B81; }
+.nav-section-prop, .nav-section-prop-nt { background-color: #4C6B4F; }
+.nav-section-gosp { 
+    background-color: #C9A441; 
+    color: #333 !important; 
+}
+.nav-section-epist { background-color: #B35C58; }
+
+.nav-chapter-item {
+    background-color: white;
+    color: #333 !important;
+/*    outline: 1px solid lightgray;*/
+}
+.nav-chapter-item:hover {
+    background-color: lightgray;
+}
+
+/* --- Mobile Adjustments --- */
+@media (max-width: 600px) {
+    .nav-grid-books, .nav-grid-chapters {
+        grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+    }
+    .nav-item {
+        font-size: 0.75em;
+    }
+}
