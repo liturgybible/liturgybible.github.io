@@ -29,12 +29,12 @@ function findElement(verseIdentifier) {
             return element;
         }
     }
-    
+
     // 4. Fallback: If looking for a whole verse (e.g. "1:1") and it's not found,
     //    maybe it's split into parts in the HTML? Try to find the first part (e.g. "1:1a").
     element = activeTranslation.querySelector(`[data-verse-part="${verseIdentifier}a"]`);
     if (element) {
-         return element;
+        return element;
     }
 
     return null; // No match found
@@ -112,9 +112,9 @@ function parseFullReference(refString) {
         if (match) {
             const potentialRest = normalizedRef.substring(match.index + match[0].length).trim();
             if (/^\d/.test(potentialRest)) {
-                bookSlug = BOOK_SLUG_MAP_JS[key.toLowerCase()]; 
+                bookSlug = BOOK_SLUG_MAP_JS[key.toLowerCase()];
                 restOfString = potentialRest;
-                break; 
+                break;
             }
         }
     }
@@ -144,36 +144,36 @@ function parseFullReference(refString) {
                 lastChapter = endChapter;
             } else {
                 const withinChapterRangeMatch = trimmedPart.match(/^(?:(\d+):)?(\d+[a-z]?)\s*-\s*(\d+[a-z]?)$/);
-                 if (withinChapterRangeMatch) {
+                if (withinChapterRangeMatch) {
                     startChapter = withinChapterRangeMatch[1] ? parseInt(withinChapterRangeMatch[1]) : lastChapter;
                     startVerseStr = withinChapterRangeMatch[2];
-                    endChapter = startChapter; 
+                    endChapter = startChapter;
                     endVerseStr = withinChapterRangeMatch[3];
                     lastChapter = startChapter;
-                 } else {
-                     const singleVerseMatch = trimmedPart.match(/^(?:(\d+):)?(\d+[a-z]?)$/);
-                     if (singleVerseMatch) {
+                } else {
+                    const singleVerseMatch = trimmedPart.match(/^(?:(\d+):)?(\d+[a-z]?)$/);
+                    if (singleVerseMatch) {
                         startChapter = singleVerseMatch[1] ? parseInt(singleVerseMatch[1]) : lastChapter;
                         startVerseStr = singleVerseMatch[2];
                         endChapter = startChapter;
                         endVerseStr = startVerseStr; // Start and end are the same
                         lastChapter = startChapter;
-                     } else {
+                    } else {
                         console.warn(`[parseFullReference] Could not parse part: "${trimmedPart}" in "${refString}"`);
-                        continue; 
-                     }
-                 }
+                        continue;
+                    }
+                }
             }
-            
+
             if (startChapter && startVerseStr && endChapter && endVerseStr) {
-                 ranges.push({ 
-                     startChapter: startChapter, 
-                     startVerse: parseInt(startVerseStr), 
-                     startPart: (startVerseStr.match(/[a-z]/) || [''])[0],
-                     endChapter: endChapter, 
-                     endVerse: parseInt(endVerseStr),
-                     endPart: (endVerseStr.match(/[a-z]/) || [''])[0]
-                 });
+                ranges.push({
+                    startChapter: startChapter,
+                    startVerse: parseInt(startVerseStr),
+                    startPart: (startVerseStr.match(/[a-z]/) || [''])[0],
+                    endChapter: endChapter,
+                    endVerse: parseInt(endVerseStr),
+                    endPart: (endVerseStr.match(/[a-z]/) || [''])[0]
+                });
             }
 
         } catch (e) {
@@ -230,9 +230,9 @@ function displayReadingsPopup(readingsData) {
     const isChapterPage = window.location.pathname.includes('/bible/');
     const currentBookSlug = body.dataset.book;
     const currentChapterNum = parseInt(body.dataset.chapter, 10);
-    
+
     // Use the date string directly from data, assume it's YYYY-MM-DD
-    const dateValue = readingsData.date; 
+    const dateValue = readingsData.date;
     // Create a date object for formatting
     const readingDate = new Date(dateValue + 'T00:00:00'); // Add time component to avoid timezone issues
 
@@ -241,18 +241,18 @@ function displayReadingsPopup(readingsData) {
         const intersects = checkReadingIntersection(currentBookSlug, currentChapterNum, readingsData);
         if (!intersects) {
             console.log("Current chapter page does not intersect with today's readings. Hiding popup.");
-            return; 
+            return;
         }
     }
 
     let popupContent = '';
-    const readingSequence = []; 
+    const readingSequence = [];
 
     const createLink = (text, link) => link ? `<a href="../${link}">${text}</a>` : text;
 
     const addReadingToSequence = (label, readingRef, readingLink) => {
         if (readingRef && readingLink) {
-             readingSequence.push({ ref: readingRef, link: readingLink, label: label});
+            readingSequence.push({ ref: readingRef, link: readingLink, label: label });
         }
     };
 
@@ -265,7 +265,7 @@ function displayReadingsPopup(readingsData) {
 
     // --- Build Popup Content ---
     popupContent += `<div class="popup-header">`;
-    popupContent += `<div>`; 
+    popupContent += `<div>`;
     popupContent += `<h4>${readingsData.name || 'Daily Readings'}</h4>`;
     popupContent += `<input type="date" class="popup-date-picker" value="${dateValue}">`;
     popupContent += `</div>`;
@@ -275,10 +275,10 @@ function displayReadingsPopup(readingsData) {
     popupContent += `<ul class="popup-reading-list">`;
     if (readingSequence.length > 0) {
         readingSequence.forEach(reading => {
-             popupContent += `<li><strong>${reading.label}:</strong> ${createLink(reading.ref, reading.link)}</li>`;
+            popupContent += `<li><strong>${reading.label}:</strong> ${createLink(reading.ref, reading.link)}</li>`;
         });
     } else {
-        popupContent += `<li>No readings available for this date.</li>`; 
+        popupContent += `<li>No readings available for this date.</li>`;
     }
     popupContent += `</ul>`;
 
@@ -287,11 +287,11 @@ function displayReadingsPopup(readingsData) {
     popupDiv.id = 'daily-readings-popup';
     popupDiv.innerHTML = popupContent;
 
-    const liturgicalColor = (readingsData.color || '').toLowerCase(); 
+    const liturgicalColor = (readingsData.color || '').toLowerCase();
     if (liturgicalColor) {
         popupDiv.classList.add(`liturgical-color-${liturgicalColor}`);
     } else {
-         popupDiv.classList.add(`liturgical-color-default`); 
+        popupDiv.classList.add(`liturgical-color-default`);
     }
 
     body.appendChild(popupDiv);
@@ -310,23 +310,23 @@ function displayReadingsPopup(readingsData) {
         datePicker.addEventListener('change', (event) => {
             const newDateStr = event.target.value;
             const newReadings = window.allUsccbReadings.find(reading => reading.date === newDateStr);
-            
+
             popupDiv.remove(); // Remove current popup
-            
+
             if (newReadings) {
                 // Update global-scoped variable that highlights depend on
-                window.todaysReadingsData = newReadings; 
+                window.todaysReadingsData = newReadings;
                 displayReadingsPopup(newReadings); // Show popup for the new date
             } else {
                 window.todaysReadingsData = null; // Clear data
                 displayReadingsPopup({ // Show a "not found" popup
-                    date: newDateStr, 
-                    name: "No readings found for this date", 
-                    color: "black" 
+                    date: newDateStr,
+                    name: "No readings found for this date",
+                    color: "black"
                 });
             }
             // Manually call redraw to update highlights for the new date
-            highlightDailyReadings(window.todaysReadingsData); 
+            highlightDailyReadings(window.todaysReadingsData);
         });
     }
 }
@@ -337,7 +337,7 @@ function displayReadingsPopup(readingsData) {
  */
 function highlightDailyReadings(todaysReadings) {
     const bibleTextContainer = document.querySelector('.bible-text');
-    
+
     // 1. Clear any existing highlights
     document.querySelectorAll('.daily-reading-highlight-block').forEach(el => {
         el.remove();
@@ -354,7 +354,7 @@ function highlightDailyReadings(todaysReadings) {
     // 2. Build a list of applicable ranges for this specific page
     const applicableRanges = [];
     const readingKeys = ['reading_1', 'psalm', 'reading_2', 'allelulia', 'gospel'];
-    
+
     for (const key of readingKeys) {
         const refString = todaysReadings[key];
         if (refString) {
@@ -372,11 +372,11 @@ function highlightDailyReadings(todaysReadings) {
     if (applicableRanges.length === 0) {
         return; // No readings for this chapter today
     }
-    
+
     // 3. Find all verse elements on the page (for calculations)
     const allVersesOnPage = document.querySelectorAll(`.translation-text.active p[data-verse^="${currentChapterNum}:"], .translation-text.active span[data-verse-part^="${currentChapterNum}:"]`);
     if (allVersesOnPage.length === 0) return;
-    
+
     const firstVerseOnPage = allVersesOnPage[0].dataset.verse || allVersesOnPage[0].dataset.versePart;
     const lastVerseOnPage = allVersesOnPage[allVersesOnPage.length - 1].dataset.verse || allVersesOnPage[allVersesOnPage.length - 1].dataset.versePart;
 
@@ -392,7 +392,7 @@ function highlightDailyReadings(todaysReadings) {
         } else {
             startID = `${startChapter}:${startVerse}${startPart}`;
         }
-        
+
         if (endChapter > currentChapterNum) {
             endID = lastVerseOnPage; // Reading ends after this chapter
         } else {
@@ -407,14 +407,158 @@ function highlightDailyReadings(todaysReadings) {
             // Measure positions relative to the bibleTextContainer
             const startPos = startEl.offsetTop - padding; // Move up by 4px
             const endPos = endEl.offsetTop + endEl.offsetHeight + padding; // Move down by 4px
-            const height = endPos - startPos; 
+            const height = endPos - startPos;
 
             const highlightBlock = document.createElement('div');
             highlightBlock.className = 'daily-reading-highlight-block';
             highlightBlock.style.top = startPos + 'px';
             highlightBlock.style.height = height + 'px';
-            
+
             bibleTextContainer.appendChild(highlightBlock);
+        }
+    });
+}
+
+
+
+/**
+ * --- Initializes the Search Modal ---
+ */
+function initSearchModal() {
+    // 1. Create Modal HTML
+    const modalOverlay = document.createElement('div');
+    modalOverlay.id = 'search-modal-overlay';
+    modalOverlay.innerHTML = `
+        <div id="search-modal">
+            <div class="search-input-container">
+                <input type="text" id="search-input" placeholder="Go to... (e.g. 'Gen 1', 'John 3')">
+                <span class="search-icon">↵</span>
+            </div>
+            <div id="search-results"></div>
+            <div class="search-hint">
+                <span>Type a book and chapter</span>
+                <span><span class="shortcut-badge">Esc</span> to close</span>
+            </div>
+        </div>
+    `;
+    document.body.appendChild(modalOverlay);
+
+    const searchInput = modalOverlay.querySelector('#search-input');
+    const searchResults = modalOverlay.querySelector('#search-results');
+
+    // 2. Toggle Logic
+    const toggleModal = (show) => {
+        if (show) {
+            modalOverlay.classList.add('active');
+            searchInput.value = '';
+            searchResults.innerHTML = '';
+            searchInput.focus();
+        } else {
+            modalOverlay.classList.remove('active');
+            searchInput.blur();
+        }
+    };
+
+    // 3. Keyboard Shortcuts
+    document.addEventListener('keydown', (e) => {
+        // Open: '/' or Cmd+K
+        if ((e.key === '/' && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) ||
+            ((e.metaKey || e.ctrlKey) && e.key === 'k')) {
+            e.preventDefault();
+            toggleModal(true);
+        }
+        // Close: Esc
+        if (e.key === 'Escape' && modalOverlay.classList.contains('active')) {
+            toggleModal(false);
+        }
+    });
+
+    // Close on click outside
+    modalOverlay.addEventListener('click', (e) => {
+        if (e.target === modalOverlay) {
+            toggleModal(false);
+        }
+    });
+
+    // 4. Search Logic
+    const handleSearch = () => {
+        const query = searchInput.value.trim();
+        if (!query) {
+            searchResults.innerHTML = '';
+            return;
+        }
+
+        // Parse query: "Book Chapter"
+        const match = query.match(/^([1-3]?\s*[a-zA-Z\s]+?)\s*(\d*)$/);
+
+        if (!match) {
+            searchResults.innerHTML = '<div class="search-result-item">No match found</div>';
+            return;
+        }
+
+        const bookQuery = match[1].trim().toLowerCase();
+        const chapterQuery = match[2] ? parseInt(match[2]) : 1;
+
+        // Find matching books
+        const matches = [];
+        for (const key of SORTED_BOOK_KEYS_JS) {
+            if (key.includes(bookQuery)) {
+                matches.push({
+                    name: key.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '),
+                    slug: BOOK_SLUG_MAP_JS[key],
+                    chapter: chapterQuery
+                });
+            }
+        }
+
+        // Limit results
+        const topMatches = matches.slice(0, 5);
+
+        // Render results
+        searchResults.innerHTML = '';
+        topMatches.forEach((match, index) => {
+            const div = document.createElement('div');
+            div.className = `search-result-item ${index === 0 ? 'selected' : ''}`;
+            div.innerHTML = `
+                <span class="book-name">${match.name}</span>
+                <span class="chapter-num">Chapter ${match.chapter}</span>
+            `;
+            div.addEventListener('click', () => {
+                navigateToChapter(match.slug, match.chapter);
+            });
+            searchResults.appendChild(div);
+        });
+
+        if (topMatches.length === 0) {
+            searchResults.innerHTML = '<div class="search-result-item">No book found</div>';
+        }
+    };
+
+    // 5. Navigation Logic
+    const navigateToChapter = (bookSlug, chapter) => {
+        const filename = `${bookSlug}-${String(chapter).padStart(2, '0')}.html`;
+        let targetUrl = '';
+
+        if (window.location.pathname.includes('/bible/')) {
+            targetUrl = filename;
+        } else {
+            targetUrl = `bible/${filename}`;
+        }
+
+        window.location.href = targetUrl;
+    };
+
+    // Input Event Listeners
+    searchInput.addEventListener('input', handleSearch);
+
+    searchInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+            const selected = searchResults.querySelector('.selected');
+            if (selected) {
+                selected.click();
+            } else if (searchResults.children.length > 0) {
+                searchResults.children[0].click();
+            }
         }
     });
 }
@@ -422,14 +566,16 @@ function highlightDailyReadings(todaysReadings) {
 
 // --- MAIN SCRIPT EXECUTION ON LOAD ---
 window.addEventListener('load', () => {
+    initSearchModal();
+
     const body = document.body;
     const book = body.dataset.book;
     const chapter = body.dataset.chapter;
-    
+
     // --- Make readings data globally accessible ---
     window.todaysReadingsData = null; // Store today's readings to pass to other functions
     window.allUsccbReadings = []; // Store all readings
-    
+
     // --- Reference Data (CCC & RM) ---
     window.bookCccRefs = null; // Store per-book CCC refs
     window.cccTextData = null; // Lazy-loaded full CCC text
@@ -448,7 +594,7 @@ window.addEventListener('load', () => {
         .then(data => {
             window.allUsccbReadings = data; // Store globally
             window.todaysReadingsData = window.allUsccbReadings.find(reading => reading.date === todayStr);
-            
+
             if (window.todaysReadingsData) {
                 displayReadingsPopup(window.todaysReadingsData);
                 // Also highlight readings on load
@@ -463,7 +609,7 @@ window.addEventListener('load', () => {
             console.error("Error fetching or processing daily readings:", error);
         });
     // --- End Daily Readings Popup Logic ---
-    
+
     // --- CCC Reference Logic ---
     if (book && chapter) {
         fetch(`../data/ccc-refs/${book}.json`)
@@ -479,7 +625,7 @@ window.addEventListener('load', () => {
             .catch(error => console.error("Error fetching CCC references:", error));
     }
     // --- End CCC Reference Logic ---
-    
+
     // --- Roman Missal Reference Logic ---
     if (book && chapter) {
         fetch(`../data/roman-missal-refs/roman-missal-refs.json`)
@@ -518,7 +664,7 @@ window.addEventListener('load', () => {
         drawAnnotations(lectionaryReadingsData, divineOfficeData);
         // Also re-highlight readings when redrawing (e.g., on translation switch)
         highlightDailyReadings(window.todaysReadingsData);
-        
+
         // --- References: Clear and re-inject pills ---
         clearRefPills();
         if ((window.bookCccRefs || window.bookRmRefs) && chapter) {
@@ -543,26 +689,26 @@ window.addEventListener('load', () => {
             if (selectedTranslationDiv) {
                 selectedTranslationDiv.classList.add('active');
             }
-            localStorage.setItem('selectedTranslation', selectedValue); 
+            localStorage.setItem('selectedTranslation', selectedValue);
             redraw(); // Redraw annotations AND highlights
         };
 
         switcher.addEventListener('change', applyTranslation);
         // applyTranslation(); // Don't call here, call in the fetch success
     }
-    
+
     // --- ARROW KEY NAVIGATION ---
-    document.addEventListener('keydown', function(event) {
+    document.addEventListener('keydown', function (event) {
         const prevLink = document.querySelector('.bottom-nav a:first-of-type');
         const nextLink = document.querySelector('.bottom-nav a:last-of-type');
 
         if (event.key === 'ArrowLeft') {
             if (prevLink && prevLink.hasAttribute('href')) {
-                window.location.href = prevLink.href; 
+                window.location.href = prevLink.href;
             }
         } else if (event.key === 'ArrowRight') {
-             if (nextLink && nextLink.hasAttribute('href')) {
-                window.location.href = nextLink.href; 
+            if (nextLink && nextLink.hasAttribute('href')) {
+                window.location.href = nextLink.href;
             }
         }
     });
@@ -590,7 +736,7 @@ window.addEventListener('load', () => {
         .then(data => {
             lectionaryReadingsData = (data.lectionaryReadings || []).filter(isReadingInChapter);
             divineOfficeData = (data.divineOffice || []).filter(isReadingInChapter);
-            
+
             // Apply initial translation and draw annotations/highlights
             const applyTranslationOnLoad = () => {
                 const selectedValue = switcher ? switcher.value : 'dra'; // Default to 'dra' if no switcher
@@ -603,12 +749,12 @@ window.addEventListener('load', () => {
                     if (selectedTranslationDiv) selectedTranslationDiv.classList.add('active');
                 }
                 if (selectedTranslationDiv) selectedTranslationDiv.classList.add('active');
-                
+
                 // Now that translation is active, redraw annotations and highlights
-                redraw(); 
+                redraw();
             };
             applyTranslationOnLoad(); // Call the combined function
-            
+
             window.addEventListener('resize', redraw);
         })
         .catch(error => console.error("Error loading annotation data:", error));
@@ -647,7 +793,7 @@ function renderSide(readings, container, isRightSided) {
 
         const allVersesOnPage = document.querySelectorAll(`.translation-text.active p[data-verse^="${currentChapterNum}:"], .translation-text.active span[data-verse-part^="${currentChapterNum}:"]`);
         if (allVersesOnPage.length === 0) return;
-        
+
         const firstVerseOnPage = allVersesOnPage[0].dataset.verse || allVersesOnPage[0].dataset.versePart;
         const lastVerseOnPage = allVersesOnPage[allVersesOnPage.length - 1].dataset.verse || allVersesOnPage[allVersesOnPage.length - 1].dataset.versePart;
 
@@ -656,7 +802,7 @@ function renderSide(readings, container, isRightSided) {
             const segStart = parseVerse(segment.start);
             const segEnd = parseVerse(segment.end);
             if (currentChapterNum < segStart.chapter || currentChapterNum > segEnd.chapter) return;
-            
+
             let drawStartVerse, drawEndVerse;
 
             // Determine Start
@@ -681,7 +827,7 @@ function renderSide(readings, container, isRightSided) {
         const firstDrawEl = findElement(segmentsToDraw[0].start);
         const lastDrawEl = findElement(segmentsToDraw[segmentsToDraw.length - 1].end);
         if (!firstDrawEl || !lastDrawEl) return;
-        
+
         // --- Use offsetTop *relative to the bibleTextContainer* ---
         const totalStartPos = firstDrawEl.offsetTop;
         const totalEndPos = lastDrawEl.offsetTop + lastDrawEl.offsetHeight;
@@ -691,7 +837,7 @@ function renderSide(readings, container, isRightSided) {
             slotIndex++;
         }
         occupiedSlots.push({ start: totalStartPos, end: totalEndPos, slotIndex: slotIndex });
-        
+
         positionalReadings.push({ reading, segmentsToDraw, totalStartPos, totalEndPos, slotIndex });
     });
 
@@ -702,8 +848,8 @@ function renderSide(readings, container, isRightSided) {
     positionalReadings.forEach((posReading, index) => {
         const { reading, segmentsToDraw, totalStartPos, totalEndPos, slotIndex } = posReading;
 
-        let maxLabelHeight = 9999; 
-        
+        let maxLabelHeight = 9999;
+
         for (let i = index + 1; i < positionalReadings.length; i++) {
             const nextReading = positionalReadings[i];
             if (nextReading.slotIndex === slotIndex) {
@@ -714,24 +860,24 @@ function renderSide(readings, container, isRightSided) {
 
         const startChapter = parseVerse((reading.segments || [{ start: reading.start }])[0].start).chapter;
         const endChapter = parseVerse((reading.segments || [{ end: reading.end }])[reading.segments ? reading.segments.length - 1 : 0].end).chapter;
-        
+
         let labelText = reading.name;
         // Check if it spans chapters
         if (startChapter !== endChapter) {
             // If the start chapter is not the current one, it's a continuation
             if (currentChapterNum === startChapter) {
                 labelText = `${reading.name} (cont...)`;
-            } 
+            }
             // If the end chapter is not the current one (or is 1000), it's a continuation
             else if (currentChapterNum === endChapter) {
                 labelText = `(cont...) ${reading.name}`;
-            } 
+            }
             // If neither start nor end chapter matches, it's passing through
             else {
                 labelText = `(cont...) ${reading.name} (cont...)`;
             }
         }
-        
+
         let labelHasBeenShown = false;
         let lastSegmentEndPos = null; // --- ADDED FOR CONNECTORS ---
 
@@ -742,12 +888,12 @@ function renderSide(readings, container, isRightSided) {
 
             const startPos = startVerseEl.offsetTop;
             const endPos = endVerseEl.offsetTop + endVerseEl.offsetHeight;
-            
+
             // --- NEW: Draw connecting line if this is not the first segment ---
             if (segmentIndex > 0 && lastSegmentEndPos !== null) {
                 const connectorHeight = startPos - lastSegmentEndPos;
                 // Only draw if there's a visible gap (e.g., > 1px)
-                if (connectorHeight > 1) { 
+                if (connectorHeight > 1) {
                     const connectorBar = document.createElement('div');
                     connectorBar.style.top = `${lastSegmentEndPos}px`;
                     connectorBar.style.height = `${connectorHeight}px`;
@@ -767,22 +913,22 @@ function renderSide(readings, container, isRightSided) {
             }
             lastSegmentEndPos = endPos; // Update for the next iteration
             // --- END NEW ---
-            
+
             const bar = document.createElement('div');
             bar.style.top = `${startPos}px`;
             bar.style.height = `${endPos - startPos}px`;
             // --- CHANGE: Use backgroundColor for rounded corners ---
-            bar.style.backgroundColor = reading.color; 
+            bar.style.backgroundColor = reading.color;
 
             if (!labelHasBeenShown) {
                 const label = document.createElement('span');
                 label.className = 'label';
                 label.textContent = labelText;
-                
-                label.style.maxHeight = `${maxLabelHeight - 8}px`; 
+
+                label.style.maxHeight = `${maxLabelHeight - 8}px`;
                 bar.style.overflow = 'visible';
-                bar.style.zIndex = '5'; 
-                
+                bar.style.zIndex = '5';
+
                 bar.appendChild(label);
                 labelHasBeenShown = true;
 
@@ -821,11 +967,11 @@ function clearRefPills() {
  */
 function injectRefPills(bookCccRefs, bookRmRefs, chapterNum) {
     const chapterStr = String(chapterNum);
-    
+
     // Get refs for the current chapter
     const chapterCccRefs = bookCccRefs ? bookCccRefs[chapterStr] : null;
     const chapterRmRefs = bookRmRefs ? bookRmRefs[chapterStr] : null; // RM refs are {book: {chapter: {verse: []}}}
-    
+
     if (!chapterCccRefs && !chapterRmRefs) {
         // No refs for this chapter
         return;
@@ -835,7 +981,7 @@ function injectRefPills(bookCccRefs, bookRmRefs, chapterNum) {
     const allVerseStrs = new Set();
     if (chapterCccRefs) { Object.keys(chapterCccRefs).forEach(v => allVerseStrs.add(v)); }
     if (chapterRmRefs) { Object.keys(chapterRmRefs).forEach(v => allVerseStrs.add(v)); }
-    
+
     // Find the currently active translation container
     const activeTranslation = document.querySelector('.translation-text.active');
     if (!activeTranslation) return;
@@ -845,16 +991,16 @@ function injectRefPills(bookCccRefs, bookRmRefs, chapterNum) {
         const rmParaIds = (chapterRmRefs && chapterRmRefs[verseStr]) ? chapterRmRefs[verseStr] : [];
 
         if (cccParaIds.length === 0 && rmParaIds.length === 0) continue;
-        
+
         const verseIdentifier = `${chapterStr}:${verseStr}`;
-        
+
         // Use findElement to locate the verse element
         const verseElement = findElement(verseIdentifier);
-        
+
         if (verseElement) {
             const pill = document.createElement('span');
             pill.className = 'ref-pill';
-            
+
             // Set dataset for both
             pill.dataset.cccRefs = JSON.stringify(cccParaIds);
             pill.dataset.rmRefs = JSON.stringify(rmParaIds);
@@ -867,9 +1013,9 @@ function injectRefPills(bookCccRefs, bookRmRefs, chapterNum) {
             } else {
                 pill.textContent = 'RM';
             }
-            
+
             pill.addEventListener('click', showRefPopup);
-            
+
             // Append pill as the last child of the verse element
             verseElement.appendChild(pill);
         }
@@ -883,17 +1029,17 @@ function injectRefPills(bookCccRefs, bookRmRefs, chapterNum) {
 function showRefPopup(event) {
     event.stopPropagation(); // Stop click from bubbling up
     const pill = event.currentTarget;
-    
+
     const cccParaIds = JSON.parse(pill.dataset.cccRefs);
     const rmParaIds = JSON.parse(pill.dataset.rmRefs);
-    
+
     const originalText = pill.textContent;
     pill.textContent = '...'; // Show loading state
-    
+
     // Determine which promises to run
     const cccPromise = (cccParaIds.length > 0) ? getCccTextData() : Promise.resolve(null);
     const rmPromise = (rmParaIds.length > 0) ? getRmTextData() : Promise.resolve(null);
-    
+
     Promise.all([cccPromise, rmPromise])
         .then(([cccData, rmData]) => {
             buildAndShowRefModal(cccParaIds, cccData, rmParaIds, rmData);
@@ -914,12 +1060,12 @@ function getCccTextData() {
     if (window.cccTextData) {
         return Promise.resolve(window.cccTextData);
     }
-    
+
     // If we are already fetching, return the existing promise
     if (window.cccTextPromise) {
         return window.cccTextPromise;
     }
-    
+
     // Start fetching the data
     console.log("Fetching ccc-text.json...");
     window.cccTextPromise = fetch('../data/ccc-text.json')
@@ -936,7 +1082,7 @@ function getCccTextData() {
             window.cccTextPromise = null; // Clear promise on error
             throw err;
         });
-        
+
     return window.cccTextPromise;
 }
 
@@ -949,12 +1095,12 @@ function getRmTextData() {
     if (window.rmTextData) {
         return Promise.resolve(window.rmTextData);
     }
-    
+
     // If we are already fetching, return the existing promise
     if (window.rmTextPromise) {
         return window.rmTextPromise;
     }
-    
+
     // Start fetching the data
     console.log("Fetching roman-missal-text.json...");
     window.rmTextPromise = fetch('../data/roman-missal-text.json')
@@ -971,7 +1117,7 @@ function getRmTextData() {
             window.rmTextPromise = null; // Clear promise on error
             throw err;
         });
-        
+
     return window.rmTextPromise;
 }
 
@@ -986,44 +1132,44 @@ function getRmTextData() {
 function buildAndShowRefModal(cccParaIds, cccData, rmParaIds, rmData) {
     // Close any existing modal first
     closeRefModal();
-    
+
     let modalContent = '';
-    
+
     // --- 1. Add CCC Content ---
     if (cccParaIds.length > 0 && cccData) {
         modalContent += '<h3 class="ref-modal-section-header">Catechism of the Catholic Church</h3>';
-        
+
         cccParaIds.forEach((paraId, index) => {
             const paraData = cccData[paraId];
             if (paraData) {
                 // Get the first and last headers
-                 const firstHeader = paraData.headers[0];
-                 const lastHeader = paraData.headers.slice(-1)[0];
-                 let displayHeader;
+                const firstHeader = paraData.headers[0];
+                const lastHeader = paraData.headers.slice(-1)[0];
+                let displayHeader;
 
-                 if (firstHeader && lastHeader) {
-                     // Check if they are the same (e.g., only one header in the array)
-                     if (firstHeader === lastHeader) {
-                         displayHeader = firstHeader;
-                     } else {
-                         // Combine first and last with a line break
-                         displayHeader = `${firstHeader}<br>${lastHeader}`;
-                     }
-                 } else {
-                     // Default if headers array is empty
-                     displayHeader = 'Catechism of the Catholic Church';
-                 }
-            
-                 if (index > 0) {
+                if (firstHeader && lastHeader) {
+                    // Check if they are the same (e.g., only one header in the array)
+                    if (firstHeader === lastHeader) {
+                        displayHeader = firstHeader;
+                    } else {
+                        // Combine first and last with a line break
+                        displayHeader = `${firstHeader}<br>${lastHeader}`;
+                    }
+                } else {
+                    // Default if headers array is empty
+                    displayHeader = 'Catechism of the Catholic Church';
+                }
+
+                if (index > 0) {
                     modalContent += '<hr class="ref-divider">';
-                 }
-            
-                 modalContent += `<div class="ref-paragraph-container">`;
-                 modalContent += `<h4 class="ref-header">${displayHeader}</h4>`;
-                
+                }
+
+                modalContent += `<div class="ref-paragraph-container">`;
+                modalContent += `<h4 class="ref-header">${displayHeader}</h4>`;
+
                 // Paragraph text with ID
                 modalContent += `<p class="ref-text"><b>${paraId}</b> ${paraData.text}</p>`;
-                
+
                 // Footnotes
                 if (paraData.footnotes && paraData.footnotes.length > 0) {
                     modalContent += `<ol class="ref-footnotes">`;
@@ -1032,7 +1178,7 @@ function buildAndShowRefModal(cccParaIds, cccData, rmParaIds, rmData) {
                     });
                     modalContent += `</ol>`;
                 }
-                
+
                 // Source link
                 modalContent += `<a href="${paraData.source_url}" class="ref-source-link" target="_blank">CCC ${paraId} →</a>`;
                 modalContent += `</div>`;
@@ -1048,26 +1194,26 @@ function buildAndShowRefModal(cccParaIds, cccData, rmParaIds, rmData) {
     // --- 3. Add RM Content ---
     if (rmParaIds.length > 0 && rmData) {
         modalContent += '<h3 class="ref-modal-section-header">Roman Missal - Order of Mass</h3>';
-        
+
         rmParaIds.forEach((paraId, index) => {
             const paraData = rmData[paraId];
             if (paraData) {
                 if (index > 0) {
                     modalContent += '<hr class="ref-divider">';
                 }
-                
+
                 modalContent += `<div class="ref-paragraph-container">`;
-                
+
                 // Get the last header
                 const lastHeader = paraData.headers.slice(-1)[0];
                 if (lastHeader) {
                     modalContent += `<h4 class="ref-header">${lastHeader}</h4>`;
                 }
-                
+
                 // Paragraph text with ID
                 // RM text already contains HTML, so just inject it
                 modalContent += `<div class="ref-text"><b>${paraId}</b> ${paraData.text}</div>`;
-                
+
                 // Source link
                 // modalContent += `<a href="${paraData.source_url}" class="ref-source-link" target="_blank">RM ${paraId} →</a>`;
                 // modalContent += `</div>`;
@@ -1080,11 +1226,11 @@ function buildAndShowRefModal(cccParaIds, cccData, rmParaIds, rmData) {
     const backdrop = document.createElement('div');
     backdrop.id = 'ref-modal-backdrop';
     backdrop.addEventListener('click', closeRefModal);
-    
+
     // Create modal
     const modal = document.createElement('div');
     modal.id = 'ref-modal';
-    
+
     modal.innerHTML = `
         <div id="ref-modal-header">
             <button id="ref-modal-close">&times;</button>
@@ -1093,12 +1239,29 @@ function buildAndShowRefModal(cccParaIds, cccData, rmParaIds, rmData) {
             ${modalContent}
         </div>
     `;
-    
+
     document.body.appendChild(backdrop);
     document.body.appendChild(modal);
-    
+
     // Add close listener
     modal.querySelector('#ref-modal-close').addEventListener('click', closeRefModal);
+
+    // Add Esc key listener
+    const handleEsc = (e) => {
+        if (e.key === 'Escape') {
+            closeRefModal();
+        }
+    };
+    document.addEventListener('keydown', handleEsc);
+
+    // Store the listener on the modal element so we can remove it later
+    modal.dataset.escListener = 'true';
+    // (Note: Removing anonymous listeners is tricky, so we'll handle removal in closeRefModal by checking if it exists, 
+    // or better, define the function outside or attach it to the modal and check in closeRefModal.
+    // Simpler approach: Just add it here, and in closeRefModal remove it. 
+    // To remove it, we need a reference. Let's attach it to the window object temporarily or use a named function.)
+
+    window.currentRefModalEscHandler = handleEsc;
 }
 
 /**
@@ -1107,6 +1270,11 @@ function buildAndShowRefModal(cccParaIds, cccData, rmParaIds, rmData) {
 function closeRefModal() {
     document.getElementById('ref-modal')?.remove();
     document.getElementById('ref-modal-backdrop')?.remove();
+
+    if (window.currentRefModalEscHandler) {
+        document.removeEventListener('keydown', window.currentRefModalEscHandler);
+        window.currentRefModalEscHandler = null;
+    }
 }
 
 
@@ -1204,7 +1372,7 @@ function initNavigationModal() {
     // Make header interactive
     headerTitle.style.cursor = 'pointer';
     headerTitle.title = "Click to navigate";
-    
+
     headerTitle.addEventListener('click', () => {
         openNavModal();
     });
@@ -1244,12 +1412,12 @@ function closeNavModal() {
 function renderBookGrid() {
     const container = document.getElementById('nav-modal-content');
     const title = document.getElementById('nav-modal-title');
-    if(!container) return;
+    if (!container) return;
 
-    title.innerHTML = ''; 
-    
-    container.innerHTML = ''; 
-    container.className = 'nav-grid-books'; 
+    title.innerHTML = '';
+
+    container.innerHTML = '';
+    container.className = 'nav-grid-books';
 
     BIBLE_NAV_DATA.forEach(book => {
         const btn = document.createElement('button');
@@ -1257,7 +1425,7 @@ function renderBookGrid() {
         btn.className = `nav-item square nav-section-${book.section}`;
         btn.textContent = book.abbr;
         btn.title = book.name;
-        
+
         btn.addEventListener('click', () => {
             renderChapterGrid(book);
         });
@@ -1269,7 +1437,7 @@ function renderBookGrid() {
 function renderChapterGrid(bookData) {
     const container = document.getElementById('nav-modal-content');
     const title = document.getElementById('nav-modal-title');
-    if(!container) return;
+    if (!container) return;
 
     container.innerHTML = '';
     container.className = 'nav-grid-chapters';
@@ -1278,7 +1446,7 @@ function renderChapterGrid(bookData) {
         const btn = document.createElement('button');
         btn.className = `nav-item square nav-chapter-item`;
         btn.textContent = i;
-        
+
         btn.addEventListener('click', () => {
             navigateToChapter(bookData.slug, i);
         });
@@ -1290,7 +1458,7 @@ function renderChapterGrid(bookData) {
 function navigateToChapter(bookSlug, chapterNum) {
     // Pad chapter number with leading zero if < 10
     const paddedChapter = String(chapterNum).padStart(2, '0');
-    
+
     // Assuming structure is /bible/[slug]-[chapter].html
     // If script is running in a file like /bible/1-chronicles-01.html, 
     // we can simply link relative to the current folder.

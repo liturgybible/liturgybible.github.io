@@ -25,13 +25,18 @@ UA info: http://uadigital.arizona.edu/ua-bootstrap/fonts.html
 /* --- Liturgical Color Palette --- */
 :root {
     --color-white: #FFFFFF;
-    --color-red: #DA291C; /* Standard liturgical red */
-    --color-green: #00843D; /* Standard liturgical green */
-    --color-violet: #8E44AD; /* Standard liturgical violet */
+    --color-red: #DA291C;
+    /* Standard liturgical red */
+    --color-green: #00843D;
+    /* Standard liturgical green */
+    --color-violet: #8E44AD;
+    /* Standard liturgical violet */
     --color-rose: #F4BFBE;
     --color-black: #212121;
-    --color-gold: #FFD700; /* Alternate for white */
-    --color-silver: #C0C0C0; /* Alternate for white */
+    --color-gold: #FFD700;
+    /* Alternate for white */
+    --color-silver: #C0C0C0;
+    /* Alternate for white */
     --muted-gold: #b58e31;
     --muted-gold-darker: #8c6d2f;
     --muted-gold-light-bg: rgba(201, 164, 65, 0.1);
@@ -53,12 +58,12 @@ body {
     font-weight: 600;
     background-color: white;
     color: #444444;
-    padding-top: 80px; 
+    padding-top: 80px;
     padding-bottom: 80px;
 }
 
 a {
-    color:#3377b3;
+    color: #3377b3;
     text-decoration: none;
 }
 
@@ -77,14 +82,14 @@ a:hover {
     width: 100%;
     background-color: #f5f5f1;
     z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid #e0e0e0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 1.5rem;
     box-sizing: border-box;
-    min-height: 50px; 
+    min-height: 50px;
 }
 
 .top-nav a {
@@ -104,7 +109,8 @@ a:hover {
 .header-logo {
     height: 25px;
     width: auto;
-    display: block; /* Explicitly set display */
+    display: block;
+    /* Explicitly set display */
 }
 
 /* Hide the mobile logo by default on desktop */
@@ -116,7 +122,8 @@ a:hover {
     display: flex;
     align-items: center;
     gap: 1rem;
-    z-index: 2; /* --- Ensure controls are above centered title --- */
+    z-index: 2;
+    /* --- Ensure controls are above centered title --- */
 }
 
 #translation-switcher {
@@ -140,26 +147,34 @@ a:hover {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 1; /* Sits behind controls but centered */
+    z-index: 1;
+    /* Sits behind controls but centered */
 }
 
 /* --- Mobile Warning Banner --- */
 #mobile-warning-banner {
-    display: none; /* Hidden on desktop */
-    background-color: #fff3cd; /* Light warning yellow */
-    color: #856404; /* Darker yellow text */
-    padding: 0.5rem 1rem; /* Adjust padding */
+    display: none;
+    /* Hidden on desktop */
+    background-color: #fff3cd;
+    /* Light warning yellow */
+    color: #856404;
+    /* Darker yellow text */
+    padding: 0.5rem 1rem;
+    /* Adjust padding */
     border-bottom: 1px solid #ffeeba;
     text-align: center;
-    font-size: 0.85em; /* Smaller text */
+    font-size: 0.85em;
+    /* Smaller text */
     font-family: MiloWeb, sans-serif;
     font-weight: 500;
     position: fixed;
     /* Position below the top nav */
-    top: 50px; /* Match the min-height of top-nav */
+    top: 50px;
+    /* Match the min-height of top-nav */
     left: 0;
     width: 100%;
-    z-index: 999; /* Below top-nav */
+    z-index: 999;
+    /* Below top-nav */
     box-sizing: border-box;
 }
 
@@ -173,14 +188,15 @@ a:hover {
     justify-content: space-between;
     padding: 0.5rem 2rem;
     background-color: #f5f5f1;
-    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     box-sizing: border-box;
     color: #7B2E2B;
     border-top: 1px solid #e0e0e0;
 }
 
-.bottom-nav a, .bottom-nav span {
+.bottom-nav a,
+.bottom-nav span {
     font-family: MiloSerifWeb, MiloWeb, Georgia, TimesNewRoman, "Times New Roman", Times, Baskerville, serif;
     text-decoration: none;
     color: #7B2E2B;
@@ -207,7 +223,8 @@ a:hover {
     max-width: 650px;
     text-align: justify;
     flex-shrink: 0;
-    position: relative; /* for positioning highlight blocks */
+    position: relative;
+    /* for positioning highlight blocks */
 }
 
 /* Translation Switching */
@@ -223,9 +240,10 @@ a:hover {
 /* Lifts the verse text above the highlight blocks */
 .bible-text p,
 span[data-verse-part] {
-    position: relative; 
-    z-index: 2; 
-    background-color: transparent; /* Ensures highlight block is visible */
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+    /* Ensures highlight block is visible */
 }
 
 .bible-text p {
@@ -236,7 +254,8 @@ span[data-verse-part] {
 .daily-reading-highlight-block {
     position: absolute;
     background-color: #fffef0;
-    z-index: 1; /* Sits behind the text (z-index: 2) */
+    z-index: 1;
+    /* Sits behind the text (z-index: 2) */
     border-radius: 4px;
     left: -4px;
     right: -4px;
@@ -253,7 +272,8 @@ span[data-verse-part] {
 }
 
 /* Margins (Left and Right) */
-.annotations-margin-left, .annotations-margin-right {
+.annotations-margin-left,
+.annotations-margin-right {
     flex-grow: 1;
     position: relative;
     width: 200px;
@@ -261,13 +281,18 @@ span[data-verse-part] {
 }
 
 /* Annotation Bar Styling (Left & Right) */
-.annotation-bar-left, .annotation-bar-right {
+.annotation-bar-left,
+.annotation-bar-right {
     position: absolute;
-    width: 5px; /* --- Set width directly --- */
-    z-index: 5; /* Lower than label hover */
-    overflow: visible; /* Needed for label extension */
+    width: 5px;
+    /* --- Set width directly --- */
+    z-index: 5;
+    /* Lower than label hover */
+    overflow: visible;
+    /* Needed for label extension */
     border-radius: 3px;
-    background-color: slategrey; /* --- Fallback color --- */
+    background-color: slategrey;
+    /* --- Fallback color --- */
 }
 
 .annotation-bar-left {
@@ -282,21 +307,28 @@ span[data-verse-part] {
 .annotation-bar-left.annotation-bar-connector {
     border-right-style: dotted;
     border-right-width: 1px;
-    width: auto; /* override the 5px */
-    background-color: transparent; /* override bg color */
-    border-radius: 0; /* override rounded ends */
-    z-index: 4; /* Ensure connector is behind the main bars */
+    width: auto;
+    /* override the 5px */
+    background-color: transparent;
+    /* override bg color */
+    border-radius: 0;
+    /* override rounded ends */
+    z-index: 4;
+    /* Ensure connector is behind the main bars */
 }
+
 .annotation-bar-right.annotation-bar-connector {
     border-left-style: dotted;
     border-left-width: 1px;
     width: auto;
     background-color: transparent;
     border-radius: 0;
-    z-index: 4; /* Ensure connector is behind the main bars */
+    z-index: 4;
+    /* Ensure connector is behind the main bars */
 }
 
-.annotation-bar-left .label, .annotation-bar-right .label {
+.annotation-bar-left .label,
+.annotation-bar-right .label {
     font-family: MiloWeb, MiloSerifWeb, 'Helvetica Neue', Arial, sans-serif;
     font-size: 10px;
     font-style: normal;
@@ -308,16 +340,19 @@ span[data-verse-part] {
     white-space: nowrap;
     position: absolute;
     top: 4px;
-    overflow: hidden; /* Prevent text wrapping in vertical mode */
+    overflow: hidden;
+    /* Prevent text wrapping in vertical mode */
     text-overflow: ellipsis;
-    
+
     /* --- Stop the spinning animation --- */
     /* Only transition properties that won't cause spinning */
-    transition: background-color 0.2s ease-in-out, width 0.2s ease-in-out, 
-/* left 0.2s ease-in-out, right 0.2s ease-in-out,*/
-                opacity 0.2s ease-in-out;
-    pointer-events: auto; /* --- FIX: Make label hoverable --- */
-    z-index: 6; /* --- FIX: Ensure label is above bar --- */
+    transition: background-color 0.2s ease-in-out, width 0.2s ease-in-out,
+        /* left 0.2s ease-in-out, right 0.2s ease-in-out,*/
+        opacity 0.2s ease-in-out;
+    pointer-events: auto;
+    /* --- FIX: Make label hoverable --- */
+    z-index: 6;
+    /* --- FIX: Ensure label is above bar --- */
 }
 
 /* --- Style label popup on hover (triggered by bar hover) --- */
@@ -328,7 +363,8 @@ span[data-verse-part] {
 
 .annotation-bar-left .label:hover,
 .annotation-bar-right .label:hover {
-    max-height: none !important; /* Override JS inline style */
+    max-height: none !important;
+    /* Override JS inline style */
     writing-mode: horizontal-tb;
     transform: none;
     white-space: normal;
@@ -338,33 +374,42 @@ span[data-verse-part] {
     border: 1px solid slategrey;
     padding: 5px 8px;
     border-radius: 4px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
-    z-index: 999 !important; /* Ensure label is on top of everything */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    z-index: 999 !important;
+    /* Ensure label is on top of everything */
 }
 
 .annotation-bar-left .label {
-    right: 6px; /* Position next to the 5px bar */
+    right: 6px;
+    /* Position next to the 5px bar */
 }
+
 /* --- Align left-side popup to the right --- */
 .annotation-bar-left .label:hover {
-    right: 12px; /* Position popup away from the bar (5px bar + 7px gap) */
+    right: 12px;
+    /* Position popup away from the bar (5px bar + 7px gap) */
     left: auto;
-    text-align: right; /* Align text to the right */
+    text-align: right;
+    /* Align text to the right */
 }
 
 .annotation-bar-right .label {
-    left: 6px; /* Position next to the 5px bar */
+    left: 6px;
+    /* Position next to the 5px bar */
 }
+
 /* --- Align right-side popup to the left --- */
 .annotation-bar-right .label:hover {
-    left: 12px; /* Position popup away from the bar */
+    left: 12px;
+    /* Position popup away from the bar */
     right: auto;
-    text-align: left; /* Align text to the left */
+    text-align: left;
+    /* Align text to the left */
 }
 
 /* Verse parts on own line */
 span[data-verse-part] {
-  display: block;
+    display: block;
 }
 
 /* --- Button --- */
@@ -399,20 +444,24 @@ button,
 /* --- Legend Container --- */
 
 .legend-container {
-        display: flex;
-        justify-content: center;
-        gap: 2rem; /* Adjust space between columns */
-    }
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    /* Adjust space between columns */
+}
+
 .legend-column ul {
     /* make bullets invisible */
     list-style-type: none;
     padding-left: 0;
     margin-top: 0.5em;
 }
+
 .legend-column p {
     font-weight: bold;
     margin-bottom: 0.5em;
 }
+
 .legend-column li {
     margin-bottom: 0.25em;
 }
@@ -430,16 +479,19 @@ hr {
     font-size: 0.9em;
     padding: 0em 0.1em 0.1em 0.1em;
 }
+
 #footer .img {
     border-radius: 5em;
 }
+
 #footer .copyright a {
     color: inherit;
     border-bottom: dotted 1px;
 }
+
 #footer .copyright a:hover {
     color: #5B7894;
-    background:whitesmoke;
+    background: whitesmoke;
     text-decoration: none;
 }
 
@@ -449,59 +501,84 @@ hr {
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    width: auto; /* Allow width to fit content */
-    max-width: 90%; /* Max width relative to viewport */
+    width: auto;
+    /* Allow width to fit content */
+    max-width: 90%;
+    /* Max width relative to viewport */
     /* Base style for frosted glass */
-    background-color: rgba(255, 255, 255, 0.1); /* Very transparent white base */
-    color: var(--color-text-dark); /* Default to dark text */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow for floating effect */
-    z-index: 1001; /* Above bottom nav */
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Very transparent white base */
+    color: var(--color-text-dark);
+    /* Default to dark text */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    /* Enhanced shadow for floating effect */
+    z-index: 1001;
+    /* Above bottom nav */
     padding: 0.75rem 1.5rem;
     box-sizing: border-box;
     font-family: MiloWeb, sans-serif;
     font-weight: 400;
     font-size: 0.9em;
-    border-radius: 12px; /* Large rounded corners */
-    border: 1px solid rgba(255, 255, 255, 0.3); /* Lighter border */
-    backdrop-filter: blur(10px); /* Frosted glass effect */
-    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border-radius: 12px;
+    /* Large rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* Lighter border */
+    backdrop-filter: blur(10px);
+    /* Frosted glass effect */
+    -webkit-backdrop-filter: blur(10px);
+    /* Safari support */
 }
 
 /* --- Liturgical Color Themes --- */
 #daily-readings-popup.liturgical-color-white {
     background-color: rgba(255, 255, 245, 0.85);
     color: var(--color-text-dark);
-    border-color: var(--muted-gold-border-stronger); /* Subtle gold border */
+    border-color: var(--muted-gold-border-stronger);
+    /* Subtle gold border */
 }
+
 #daily-readings-popup.liturgical-color-red {
-    background-color: rgba(218, 41, 28, 0.75); /* Red */
+    background-color: rgba(218, 41, 28, 0.75);
+    /* Red */
     color: var(--color-text-light);
     border-color: rgba(255, 255, 255, 0.3);
 }
+
 #daily-readings-popup.liturgical-color-green {
-    background-color: rgba(0, 132, 61, 0.8); /* Green */
+    background-color: rgba(0, 132, 61, 0.8);
+    /* Green */
     color: var(--color-text-light);
     border-color: rgba(255, 255, 255, 0.3);
 }
+
 #daily-readings-popup.liturgical-color-violet {
-    background-color: rgba(142, 68, 173, 0.8); /* Violet */
+    background-color: rgba(142, 68, 173, 0.8);
+    /* Violet */
     color: var(--color-text-light);
     border-color: rgba(255, 255, 255, 0.3);
 }
+
 #daily-readings-popup.liturgical-color-rose {
-    background-color: rgba(244, 191, 190, 0.85); /* Rose */
+    background-color: rgba(244, 191, 190, 0.85);
+    /* Rose */
     color: var(--color-text-dark);
-    border-color: rgba(123, 46, 43, 0.3); /* Dark red border */
+    border-color: rgba(123, 46, 43, 0.3);
+    /* Dark red border */
 }
+
 #daily-readings-popup.liturgical-color-black {
-    background-color: rgba(33, 33, 33, 0.8); /* Black */
+    background-color: rgba(33, 33, 33, 0.8);
+    /* Black */
     color: var(--color-text-light);
     border-color: rgba(255, 255, 255, 0.3);
 }
-#daily-readings-popup.liturgical-color-default { /* Fallback */
-     background-color: rgba(128, 128, 128, 0.8); /* Grey */
-     color: var(--color-text-light);
-     border-color: rgba(255, 255, 255, 0.3);
+
+#daily-readings-popup.liturgical-color-default {
+    /* Fallback */
+    background-color: rgba(128, 128, 128, 0.8);
+    /* Grey */
+    color: var(--color-text-light);
+    border-color: rgba(255, 255, 255, 0.3);
 }
 
 
@@ -514,30 +591,40 @@ hr {
 .liturgical-color-rose .popup-reading-list li {
     color: var(--color-text-dark);
 }
+
 /* Date picker text color for light themes */
 .liturgical-color-white .popup-date-picker,
 .liturgical-color-rose .popup-date-picker {
     color: var(--color-text-dark);
     opacity: 0.9;
 }
+
 /* Link color for White theme */
 .liturgical-color-white .popup-reading-list a {
-     color: var(--muted-gold-darker); /* Darker gold for better contrast */
+    color: var(--muted-gold-darker);
+    /* Darker gold for better contrast */
 }
+
 /* Gold hover for White theme */
 .liturgical-color-white .popup-reading-list a:hover {
     color: var(--muted-gold-darker);
     background: var(--muted-gold-light-bg);
 }
+
 .liturgical-color-rose .popup-reading-list a {
-    color: #5E4B81; /* Use a contrast color, e.g., violet */
+    color: #5E4B81;
+    /* Use a contrast color, e.g., violet */
 }
+
 .liturgical-color-rose .popup-reading-list a:hover {
-    color: #401514; /* Darker contrast on hover */
+    color: #401514;
+    /* Darker contrast on hover */
 }
+
 .liturgical-color-white .popup-close-btn,
 .liturgical-color-rose .popup-close-btn {
-     color: var(--color-text-dark); /* Dark close button */
+    color: var(--color-text-dark);
+    /* Dark close button */
 }
 
 
@@ -579,8 +666,10 @@ hr {
 .liturgical-color-black .popup-arrow,
 .liturgical-color-default .popup-reading-list a,
 .liturgical-color-default .popup-arrow {
-    color: rgba(255, 255, 255, 0.9); /* Lighter link color */
+    color: rgba(255, 255, 255, 0.9);
+    /* Lighter link color */
 }
+
 .liturgical-color-red .popup-reading-list a:hover,
 .liturgical-color-red .popup-arrow:hover,
 .liturgical-color-green .popup-reading-list a:hover,
@@ -591,15 +680,18 @@ hr {
 .liturgical-color-black .popup-arrow:hover,
 .liturgical-color-default .popup-reading-list a:hover,
 .liturgical-color-default .popup-arrow:hover {
-    color: white; /* Brighter on hover */
+    color: white;
+    /* Brighter on hover */
     background-color: rgba(255, 255, 255, 0.1);
 }
+
 .liturgical-color-red .popup-close-btn,
 .liturgical-color-green .popup-close-btn,
 .liturgical-color-violet .popup-close-btn,
 .liturgical-color-black .popup-close-btn,
 .liturgical-color-default .popup-close-btn {
-     color: var(--color-text-light); /* Light close button */
+    color: var(--color-text-light);
+    /* Light close button */
 }
 
 
@@ -609,21 +701,25 @@ hr {
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 0.2rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Default light border */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    /* Default light border */
     padding-bottom: 0.0rem;
     gap: 0rem;
 }
+
 .liturgical-color-white .popup-header,
 .liturgical-color-rose .popup-header {
-     border-bottom-color: rgba(0, 0, 0, 0.2); /* Darker border for light themes */
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    /* Darker border for light themes */
 }
+
 /* Subtle gold border for white theme */
 .liturgical-color-white .popup-header {
-     border-bottom: 1px solid var(--muted-gold-border);
+    border-bottom: 1px solid var(--muted-gold-border);
 }
 
 
-#daily-readings-popup .popup-header > div {
+#daily-readings-popup .popup-header>div {
     flex-grow: 1;
 }
 
@@ -646,27 +742,33 @@ hr {
 .popup-date-picker {
     background: none;
     border: none;
-    font-family: MiloWeb, Georgia, TimesNewRoman, serif; /* Match body fonts */
+    font-family: MiloWeb, Georgia, TimesNewRoman, serif;
+    /* Match body fonts */
     font-size: 0.9em;
     font-style: italic;
-    font-weight: 600; /* Match body weight */
+    font-weight: 600;
+    /* Match body weight */
     padding: 0;
     margin: 0;
     width: auto;
     box-sizing: border-box;
 }
+
 /* Style the calendar icon */
 .popup-date-picker::-webkit-calendar-picker-indicator {
     cursor: pointer;
-    filter: invert(0.8); /* Makes the dark icon light grey */
+    filter: invert(0.8);
+    /* Makes the dark icon light grey */
 }
+
 /* Invert the icon color on dark backgrounds */
 .liturgical-color-red .popup-date-picker::-webkit-calendar-picker-indicator,
 .liturgical-color-green .popup-date-picker::-webkit-calendar-picker-indicator,
 .liturgical-color-violet .popup-date-picker::-webkit-calendar-picker-indicator,
 .liturgical-color-black .popup-date-picker::-webkit-calendar-picker-indicator,
 .liturgical-color-default .popup-date-picker::-webkit-calendar-picker-indicator {
-    filter: invert(1) brightness(1.2); /* Makes it bright white */
+    filter: invert(1) brightness(1.2);
+    /* Makes it bright white */
 }
 
 /* --- End Date Picker Styles --- */
@@ -682,6 +784,7 @@ hr {
     opacity: 0.7;
     transition: opacity 0.2s ease;
 }
+
 #daily-readings-popup .popup-close-btn:hover {
     opacity: 1;
 }
@@ -714,19 +817,24 @@ hr {
     font-weight: 600;
 }
 
- /* Base link styles within popup */
+/* Base link styles within popup */
 #daily-readings-popup a {
     text-decoration: underline;
     border-bottom: none;
-    border-radius: 3px; /* Slight rounding for hover effect */
-    padding: 0.1em 0.2em; /* Slight padding for hover background */
-    margin: -0.1em -0.2em; /* Counteract padding */
+    border-radius: 3px;
+    /* Slight rounding for hover effect */
+    padding: 0.1em 0.2em;
+    /* Slight padding for hover background */
+    margin: -0.1em -0.2em;
+    /* Counteract padding */
 }
- #daily-readings-popup a:hover {
+
+#daily-readings-popup a:hover {
     background: none;
     border-bottom: none;
     text-decoration: none;
 }
+
 /* --- End Daily Readings Popup --- */
 
 
@@ -743,22 +851,29 @@ hr {
     margin-right: auto;
     text-align: center;
 }
+
 #subscribe-form-container h3 {
-    color: #7B2E2B; /* Matches your site's theme */
+    color: #7B2E2B;
+    /* Matches your site's theme */
     margin-top: 0;
     margin-bottom: 0.5rem;
     font-family: MiloSerifWeb, MiloWeb, Georgia, TimesNewRoman, serif;
 }
+
 #subscribe-form-container p {
     font-size: 0.9em;
     margin-bottom: 1.5rem;
 }
+
 #subscribe-form-container .form-group {
     margin-bottom: 1rem;
 }
+
 #subscribe-form-container label {
-    display: none; /* Hide label for a cleaner look */
+    display: none;
+    /* Hide label for a cleaner look */
 }
+
 #subscribe-form-container input[type="email"] {
     width: 80%;
     max-width: 350px;
@@ -768,8 +883,10 @@ hr {
     font-size: 1em;
     font-family: MiloWeb, Georgia, TimesNewRoman, serif;
 }
+
 #subscribe-form-container input[type="submit"] {
-    background-color: #7B2E2B; /* Main theme color */
+    background-color: #7B2E2B;
+    /* Main theme color */
     color: white;
     padding: 10px 25px;
     border: none;
@@ -781,25 +898,33 @@ hr {
     transition: background-color 0.2s ease-in-out;
     line-height: normal;
 }
+
 #subscribe-form-container input[type="submit"]:hover {
-    background-color: #9a4f4c; /* Hover color from your .wisdom class */
+    background-color: #9a4f4c;
+    /* Hover color from your .wisdom class */
 }
 
 
 /* --- MOBILE RESPONSIVE STYLES --- */
 
-@media (max-width: 800px) { /* Adjusted breakpoint for better mobile layout */
+@media (max-width: 800px) {
+
+    /* Adjusted breakpoint for better mobile layout */
     /* Hide the annotation margins on smaller screens */
-    .annotations-margin-left, .annotations-margin-right {
+    .annotations-margin-left,
+    .annotations-margin-right {
         display: none;
     }
 
     /* Allow body to fill the screen with less padding */
     body {
         max-width: 100%;
-        padding: 0.75rem; /* Further reduce padding on mobile */
-        padding-top: 85px; /* Approx top-nav height + banner height */
-        padding-bottom: 80px; /* Adjust for bottom nav height */
+        padding: 0.75rem;
+        /* Further reduce padding on mobile */
+        padding-top: 85px;
+        /* Approx top-nav height + banner height */
+        padding-bottom: 80px;
+        /* Adjust for bottom nav height */
     }
 
     /* Make the bible container a simple block, not a flex row */
@@ -815,70 +940,95 @@ hr {
     /* Adjust padding on nav bars for smaller screens */
     .top-nav {
         padding: 0.4rem 0.75rem;
-        min-height: 50px; /* Ensure space */
+        min-height: 50px;
+        /* Ensure space */
     }
+
     .bottom-nav {
         padding: 0.4rem 0.75rem;
-        min-height: 40px; /* Ensure space */
+        min-height: 40px;
+        /* Ensure space */
     }
 
     .header-logo {
-        display: none; /* Hide the desktop (horizontal) logo */
+        display: none;
+        /* Hide the desktop (horizontal) logo */
     }
+
     .header-logo-mobile {
-        display: block; /* Show the mobile (square) logo */
-        height: 25px; /* Slightly smaller logo */
+        display: block;
+        /* Show the mobile (square) logo */
+        height: 25px;
+        /* Slightly smaller logo */
         width: auto;
     }
 
-     /* Adjust header controls on mobile */
+    /* Adjust header controls on mobile */
     .header-controls {
-        gap: 0.5rem; /* Reduce gap */
+        gap: 0.5rem;
+        /* Reduce gap */
     }
+
     #translation-switcher {
         font-size: 0.8em;
         padding: 0.2rem 0.4rem;
     }
+
     .header-chapter {
-        font-size: 1em; /* Smaller chapter title */
+        font-size: 1em;
+        /* Smaller chapter title */
     }
 
 
     /* Adjust popup layout on mobile */
     #daily-readings-popup {
-        bottom: 10px; /* Adjust if bottom nav height changed */
-        width: 95%; /* Take more width on mobile */
+        bottom: 10px;
+        /* Adjust if bottom nav height changed */
+        width: 95%;
+        /* Take more width on mobile */
         max-width: 95%;
         padding: 0.5rem 1rem;
         font-size: 0.8em;
-        border-radius: 8px; /* Slightly smaller radius */
-        backdrop-filter: blur(8px); /* Adjust blur slightly */
-         -webkit-backdrop-filter: blur(8px);
+        border-radius: 8px;
+        /* Slightly smaller radius */
+        backdrop-filter: blur(8px);
+        /* Adjust blur slightly */
+        -webkit-backdrop-filter: blur(8px);
     }
+
     .popup-header {
         margin-bottom: 0.3rem;
         padding-bottom: 0.3rem;
     }
+
     .popup-header h4 {
         font-size: 1em;
     }
+
     .popup-header .popup-date {
-        font-size: 0.85em; /* Smaller date on mobile */
+        font-size: 0.85em;
+        /* Smaller date on mobile */
     }
+
     .popup-reading-list {
-        gap: 0.2rem 1rem; /* Adjust gap */
-        flex-direction: column; /* Stack list items vertically */
+        gap: 0.2rem 1rem;
+        /* Adjust gap */
+        flex-direction: column;
+        /* Stack list items vertically */
         align-items: flex-start;
     }
 
     #daily-readings-popup .popup-reading-list li {
-         white-space: normal; /* Allow wrapping on mobile */
-     }
+        white-space: normal;
+        /* Allow wrapping on mobile */
+    }
 
     /* --- Show Mobile Warning Banner --- */
     #mobile-warning-banner {
-        display: block; /* Show the banner only on mobile */
-        top: 50px; /* Ensure it's below the possibly smaller mobile top-nav */
+        display: block;
+        /* Show the banner only on mobile */
+        top: 50px;
+        /* Ensure it's below the possibly smaller mobile top-nav */
     }
 
 }
@@ -922,15 +1072,15 @@ hr {
 /* --- Modal Container --- */
 #ref-modal {
     position: fixed;
-    top: 40px; 
+    top: 40px;
     left: 50%;
-    transform: translate(-50%, 0); 
+    transform: translate(-50%, 0);
     width: 90%;
     max-width: 600px;
-    max-height: 80vh; 
+    max-height: 80vh;
     background-color: #fcfcfc;
     border-radius: 12px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     z-index: 2001;
     display: flex;
     flex-direction: column;
@@ -974,8 +1124,8 @@ hr {
 
 /* --- Modal Content --- */
 #ref-modal-content {
-/* padding: top right bottom left; */
-    padding: 0.5rem 1rem 0.75rem 1rem; 
+    /* padding: top right bottom left; */
+    padding: 0.5rem 1rem 0.75rem 1rem;
     overflow-y: auto;
     font-weight: 500;
     color: #444444;
@@ -1030,7 +1180,8 @@ hr {
 /* Style for bolded paragraph numbers */
 .ref-text b {
     font-family: MiloWeb, sans-serif;
-    color: #7B2E2B; /* Primary Red */
+    color: #7B2E2B;
+    /* Primary Red */
     margin-right: 0.25em;
 }
 
@@ -1047,19 +1198,25 @@ hr {
     font-weight: 300;
     line-height: 0.9;
     color: #808080;
-    margin: 0.75rem 0 0.5rem 0; /* remove left indent */
+    margin: 0.75rem 0 0.5rem 0;
+    /* remove left indent */
     padding-left: 25px;
-    list-style: none;           /* hide numbers/bullets */
+    list-style: none;
+    /* hide numbers/bullets */
 }
 
 .ref-footnotes li {
-    display: inline;            /* inline items -> one line */
-    margin: 0;                  /* no vertical spacing */
+    display: inline;
+    /* inline items -> one line */
+    margin: 0;
+    /* no vertical spacing */
 }
 
 .ref-footnotes li:not(:last-child)::after {
-    content: "  ·  ";           /* middle dot separator */
-    white-space: pre;           /* keep spaces around dot */
+    content: "  ·  ";
+    /* middle dot separator */
+    white-space: pre;
+    /* keep spaces around dot */
 }
 
 .ref-source-link {
@@ -1082,16 +1239,16 @@ hr {
         top: 5%;
         transform: translate(-50%, 0);
     }
-    
+
     #ref-modal-header {
         padding: 0.1rem 0.1rem;
     }
-    
+
     #ref-modal-content {
         padding: 1rem;
         line-height: 1.4;
     }
-    
+
     .ref-text {
         font-size: 0.95em;
     }
@@ -1105,22 +1262,24 @@ hr {
     left: 0;
     width: 100%;
     height: 100%;
-/*    background-color: rgba(0, 0, 0, 0.6);*/
-/*    backdrop-filter: blur(2px);*/
+    /*    background-color: rgba(0, 0, 0, 0.6);*/
+    /*    backdrop-filter: blur(2px);*/
     z-index: 3000;
 }
 
 #nav-modal {
     position: fixed;
-    top: 40px; /* Set distance from top */
+    top: 40px;
+    /* Set distance from top */
     left: 50%;
-    transform: translateX(-50%); /* Only center horizontally */
+    transform: translateX(-50%);
+    /* Only center horizontally */
     width: 90%;
     max-width: 600px;
     max-height: 80vh;
     background-color: #fcfcfc;
     border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
     z-index: 3001;
     display: flex;
     flex-direction: column;
@@ -1140,7 +1299,8 @@ hr {
 #nav-modal-title {
     margin: 0;
     font-family: MiloWeb, sans-serif;
-    color: white; /* White text on red bg */
+    color: white;
+    /* White text on red bg */
     font-size: 0.9em;
     font-weight: 600;
     cursor: pointer;
@@ -1153,6 +1313,7 @@ hr {
     color: white;
     text-decoration: none;
 }
+
 .nav-back-arrow:hover {
     text-decoration: underline;
 }
@@ -1165,10 +1326,12 @@ hr {
 /* --- Grids --- */
 
 /* Tight grid with no gaps */
-.nav-grid-books, .nav-grid-chapters {
+.nav-grid-books,
+.nav-grid-chapters {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(45px, 1fr));
-    gap: 0; /* Touching */
+    gap: 0;
+    /* Touching */
 }
 
 /* --- Nav Items (Buttons) --- */
@@ -1176,7 +1339,8 @@ hr {
 .nav-item {
     border: none;
     border-radius: 0;
-    padding: 0; /* Centered by flex/grid */
+    padding: 0;
+    /* Centered by flex/grid */
     font-family: MiloWeb, sans-serif;
     font-weight: 600;
     font-size: 0.85em;
@@ -1184,50 +1348,197 @@ hr {
     transition: filter 0.1s;
     text-align: center;
     color: white !important;
-    box-shadow: none; /* Flat look */
-    height: auto !important; 
-    
+    box-shadow: none;
+    /* Flat look */
+    height: auto !important;
+
     /* Make them square */
     aspect-ratio: 1 / 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .nav-item:hover {
     transform: none;
-    filter: brightness(1.15); /* Lighten on hover */
-    z-index: 1; /* Bring above borders */
+    filter: brightness(1.15);
+    /* Lighten on hover */
+    z-index: 1;
+    /* Bring above borders */
     outline: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 /* --- Section Color Coding --- */
-.nav-section-law { background-color: #4A628A; }
-.nav-section-hist, .nav-section-hist-nt { background-color: #7B2E2B; }
-.nav-section-wis { background-color: #5E4B81; }
-.nav-section-prop, .nav-section-prop-nt { background-color: #4C6B4F; }
-.nav-section-gosp { 
-    background-color: #C9A441; 
-    color: #333 !important; 
+.nav-section-law {
+    background-color: #4A628A;
 }
-.nav-section-epist { background-color: #B35C58; }
+
+.nav-section-hist,
+.nav-section-hist-nt {
+    background-color: #7B2E2B;
+}
+
+.nav-section-wis {
+    background-color: #5E4B81;
+}
+
+.nav-section-prop,
+.nav-section-prop-nt {
+    background-color: #4C6B4F;
+}
+
+.nav-section-gosp {
+    background-color: #C9A441;
+    color: #333 !important;
+}
+
+.nav-section-epist {
+    background-color: #B35C58;
+}
 
 .nav-chapter-item {
     background-color: white;
     color: #333 !important;
-/*    outline: 1px solid lightgray;*/
+    /*    outline: 1px solid lightgray;*/
 }
+
 .nav-chapter-item:hover {
     background-color: lightgray;
 }
 
 /* --- Mobile Adjustments --- */
 @media (max-width: 600px) {
-    .nav-grid-books, .nav-grid-chapters {
+
+    .nav-grid-books,
+    .nav-grid-chapters {
         grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
     }
+
     .nav-item {
         font-size: 0.75em;
     }
+}
+
+/* --- Search Modal Styles --- */
+#search-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 4000;
+    /* High z-index to sit on top of everything */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* Align to top */
+    padding-top: 20vh;
+    /* Start 20% down the screen */
+    backdrop-filter: blur(3px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease-in-out;
+}
+
+#search-modal-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#search-modal {
+    background-color: white;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transform: scale(0.95);
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+#search-modal-overlay.active #search-modal {
+    transform: scale(1);
+}
+
+.search-input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#search-input {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    font-family: MiloWeb, sans-serif;
+    color: #333;
+}
+
+#search-input::placeholder {
+    color: #aaa;
+}
+
+.search-icon {
+    position: absolute;
+    right: 1.5rem;
+    color: #aaa;
+    pointer-events: none;
+}
+
+#search-results {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 0.5rem 0;
+}
+
+.search-result-item {
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.1s;
+    font-family: MiloWeb, sans-serif;
+    color: #444;
+}
+
+.search-result-item:hover,
+.search-result-item.selected {
+    background-color: #f5f5f5;
+    color: #7B2E2B;
+}
+
+.search-result-item .book-name {
+    font-weight: 600;
+}
+
+.search-result-item .chapter-num {
+    color: #888;
+    font-size: 0.9em;
+}
+
+.search-hint {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.85em;
+    color: #888;
+    background-color: #fafafa;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shortcut-badge {
+    background-color: #eee;
+    border-radius: 4px;
+    padding: 0.1rem 0.4rem;
+    font-family: monospace;
+    font-size: 0.9em;
+    border: 1px solid #ddd;
 }
