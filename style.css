@@ -593,8 +593,8 @@ hr {
 }
 
 /* Date picker text color for light themes */
-.liturgical-color-white .popup-date-picker,
-.liturgical-color-rose .popup-date-picker {
+.liturgical-color-white .popup-date-text,
+.liturgical-color-rose .popup-date-text {
     color: var(--color-text-dark);
     opacity: 0.9;
 }
@@ -647,11 +647,11 @@ hr {
 }
 
 /* Date picker text color for dark themes */
-.liturgical-color-red .popup-date-picker,
-.liturgical-color-green .popup-date-picker,
-.liturgical-color-violet .popup-date-picker,
-.liturgical-color-black .popup-date-picker,
-.liturgical-color-default .popup-date-picker {
+.liturgical-color-red .popup-date-text,
+.liturgical-color-green .popup-date-text,
+.liturgical-color-violet .popup-date-text,
+.liturgical-color-black .popup-date-text,
+.liturgical-color-default .popup-date-text {
     color: var(--color-text-light);
     opacity: 0.9;
 }
@@ -697,14 +697,12 @@ hr {
 
 /* --- Header and List styling --- */
 #daily-readings-popup .popup-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.1rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    /* Default light border */
-    padding-bottom: 0.0rem;
-    gap: 0rem;
+    padding-bottom: 0.1rem;
+    padding-right: 0;
+    margin-right: 2rem;
+    /* Stop the border before the button */
 }
 
 .liturgical-color-white .popup-header,
@@ -739,50 +737,53 @@ hr {
 }
 
 /* --- Date Picker Styles --- */
-.popup-date-picker {
-    background: none;
-    border: none;
+.popup-date-container {
+    position: relative;
+    display: inline-block;
+}
+
+.popup-date-text {
+    margin: 0;
     font-family: MiloWeb, Georgia, TimesNewRoman, serif;
-    /* Match body fonts */
-    font-size: 0.9em;
+    font-size: 0.95em;
     font-style: italic;
     font-weight: 600;
-    /* Match body weight */
+    /* Color set by theme rules */
+}
+
+.popup-date-picker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    border: none;
     padding: 0;
     margin: 0;
-    width: auto;
-    box-sizing: border-box;
-}
-
-/* Style the calendar icon */
-.popup-date-picker::-webkit-calendar-picker-indicator {
-    cursor: pointer;
-    filter: invert(0.8);
-    /* Makes the dark icon light grey */
-}
-
-/* Invert the icon color on dark backgrounds */
-.liturgical-color-red .popup-date-picker::-webkit-calendar-picker-indicator,
-.liturgical-color-green .popup-date-picker::-webkit-calendar-picker-indicator,
-.liturgical-color-violet .popup-date-picker::-webkit-calendar-picker-indicator,
-.liturgical-color-black .popup-date-picker::-webkit-calendar-picker-indicator,
-.liturgical-color-default .popup-date-picker::-webkit-calendar-picker-indicator {
-    filter: invert(1) brightness(1.2);
-    /* Makes it bright white */
+    z-index: 10;
 }
 
 /* --- End Date Picker Styles --- */
 
 #daily-readings-popup .popup-close-btn {
+    position: absolute;
+    top: 0.2rem;
+    /* Moved up slightly */
+    right: 0.3rem;
+    /* Moved right slightly */
     background: none;
     border: none;
     font-size: 1.8em;
     line-height: 0.8;
     cursor: pointer;
-    padding: 0 0.2rem;
-    margin-left: 0.5rem;
+    padding: 0;
+    margin: 0;
     opacity: 0.7;
     transition: opacity 0.2s ease;
+    z-index: 1002;
+    /* Ensure above everything */
 }
 
 #daily-readings-popup .popup-close-btn:hover {
@@ -801,7 +802,7 @@ hr {
 #daily-readings-popup .popup-reading-list {
     list-style: none;
     padding: 0;
-    margin: 0.3rem 0 0 0;
+    margin: 0.2rem 0 0 0;
     flex-wrap: wrap;
     white-space: nowrap;
     gap: 0.5rem 1.5rem;

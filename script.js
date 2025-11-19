@@ -290,12 +290,15 @@ function displayReadingsPopup(readingsData) {
     addReadingToSequence('Gospel', readingsData.gospel, readingsData.gospel_link);
 
     // --- Build Popup Content ---
+    popupContent += `<button class="popup-close-btn">&times;</button>`; // Moved to top for absolute positioning
     popupContent += `<div class="popup-header">`;
     popupContent += `<div>`;
-    popupContent += `<h4>${readingsData.name || 'Daily Readings'}</h4>`;
-    popupContent += `<input type="date" class="popup-date-picker" value="${dateValue}">`;
+    popupContent += `<h4 style="margin-bottom: 0;">${readingsData.name || 'Daily Readings'}</h4>`;
+    popupContent += `<div class="popup-date-container" style="cursor: pointer;">`;
+    popupContent += `<p class="popup-date-text">${formatDisplayDate(readingDate)}</p>`;
+    popupContent += `<input type="date" class="popup-date-picker" value="${dateValue}" style="position: absolute; visibility: hidden; pointer-events: none;">`;
     popupContent += `</div>`;
-    popupContent += `<button class="popup-close-btn">&times;</button>`;
+    popupContent += `</div>`;
     popupContent += `</div>`;
 
     popupContent += `<ul class="popup-reading-list">`;
@@ -332,6 +335,25 @@ function displayReadingsPopup(readingsData) {
 
     // --- Event listener for date picker ---
     const datePicker = popupDiv.querySelector('.popup-date-picker');
+    const dateContainer = popupDiv.querySelector('.popup-date-container');
+
+    if (dateContainer && datePicker) {
+        dateContainer.addEventListener('click', () => {
+            if ('showPicker' in HTMLInputElement.prototype) {
+                try {
+                    datePicker.showPicker();
+                } catch (error) {
+                    console.warn('showPicker failed:', error);
+                    // Fallback: try clicking it directly (might not work if hidden)
+                    datePicker.click();
+                }
+            } else {
+                // Fallback for older browsers
+                datePicker.click();
+            }
+        });
+    }
+
     if (datePicker) {
         datePicker.addEventListener('change', (event) => {
             const newDateStr = event.target.value;
