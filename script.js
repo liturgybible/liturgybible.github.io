@@ -1,43 +1,69 @@
 /**
  * Helper function to find a verse element within the currently active translation.
+ * Uses a cache to avoid repeated DOM queries.
  * @param {string} verseIdentifier - The verse to find (e.g., "1:5a" or "1:5").
  * @returns {HTMLElement|null} The found element or null.
  */
 function findElement(verseIdentifier) {
-    const activeTranslation = document.querySelector('.translation-text.active');
-    if (!activeTranslation) return null;
+    if (!window.verseCache) return null;
 
-    // 1. Try to find the exact verse part (e.g., "8:31b")
-    let element = activeTranslation.querySelector(`[data-verse-part="${verseIdentifier}"]`);
-    if (element) {
-        return element;
-    }
+    // 1. Direct lookup (covers exact part or exact whole verse)
+    let element = window.verseCache.get(verseIdentifier);
+    if (element) return element;
 
-    // 2. Try to find the exact whole verse (e.g., "8:39")
-    element = activeTranslation.querySelector(`[data-verse="${verseIdentifier}"]`);
-    if (element) {
-        return element;
-    }
-
-    // 3. Fallback: If looking for a verse part (e.g., "1:1b") and it's not found,
+    // 2. Fallback: If looking for a verse part (e.g., "1:1b") and it's not found,
     //    try to find the whole verse element (e.g., "1:1").
     const partMatch = verseIdentifier.match(/^(\d+:\d+)[a-z]$/); // Matches "1:1b", "1:1c", etc.
     if (partMatch) {
         const wholeVerseIdentifier = partMatch[1]; // "1:1"
-        element = activeTranslation.querySelector(`[data-verse="${wholeVerseIdentifier}"]`);
-        if (element) {
-            return element;
-        }
+        element = window.verseCache.get(wholeVerseIdentifier);
+        if (element) return element;
     }
 
-    // 4. Fallback: If looking for a whole verse (e.g. "1:1") and it's not found,
+    // 3. Fallback: If looking for a whole verse (e.g. "1:1") and it's not found,
     //    maybe it's split into parts in the HTML? Try to find the first part (e.g. "1:1a").
-    element = activeTranslation.querySelector(`[data-verse-part="${verseIdentifier}a"]`);
-    if (element) {
-        return element;
-    }
+    element = window.verseCache.get(verseIdentifier + 'a');
+    if (element) return element;
 
     return null; // No match found
+}
+
+/**
+ * Builds a cache of verse elements for the active translation.
+ * Should be called whenever the active translation changes.
+ */
+function buildVerseCache() {
+    window.verseCache = new Map();
+    const activeTranslation = document.querySelector('.translation-text.active');
+    if (!activeTranslation) return;
+
+    // Index parts
+    const parts = activeTranslation.querySelectorAll('[data-verse-part]');
+    parts.forEach(el => {
+        window.verseCache.set(el.dataset.versePart, el);
+    });
+
+    // Index whole verses
+    const wholes = activeTranslation.querySelectorAll('[data-verse]');
+    wholes.forEach(el => {
+        window.verseCache.set(el.dataset.verse, el);
+    });
+    // console.log(`[Performance] Verse cache built with ${window.verseCache.size} items.`);
+}
+
+/**
+ * Debounce utility function.
+ * @param {Function} func - The function to debounce.
+ * @param {number} wait - The delay in milliseconds.
+ * @returns {Function} The debounced function.
+ */
+function debounce(func, wait) {
+    let timeout;
+    return function (...args) {
+        const context = this;
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(context, args), wait);
+    };
 }
 
 /**
@@ -335,14 +361,12 @@ function displayReadingsPopup(readingsData) {
  * --- Highlights verses by drawing a continuous block ---
  * @param {object} todaysReadings - The readings data object for the current day.
  */
+/**
+ * --- Highlights verses by drawing a continuous block ---
+ * @param {object} todaysReadings - The readings data object for the current day.
+ */
 function highlightDailyReadings(todaysReadings) {
     const bibleTextContainer = document.querySelector('.bible-text');
-
-    // 1. Clear any existing highlights
-    document.querySelectorAll('.daily-reading-highlight-block').forEach(el => {
-        el.remove();
-    });
-
     const body = document.body;
     const currentBookSlug = body.dataset.book;
     const currentChapterNum = parseInt(body.dataset.chapter, 10);
@@ -351,7 +375,7 @@ function highlightDailyReadings(todaysReadings) {
         return; // Not a chapter page or no data
     }
 
-    // 2. Build a list of applicable ranges for this specific page
+    // 1. Build a list of applicable ranges for this specific page
     const applicableRanges = [];
     const readingKeys = ['reading_1', 'psalm', 'reading_2', 'allelulia', 'gospel'];
 
@@ -370,17 +394,20 @@ function highlightDailyReadings(todaysReadings) {
     }
 
     if (applicableRanges.length === 0) {
-        return; // No readings for this chapter today
+        // Clear highlights if no readings apply
+        document.querySelectorAll('.daily-reading-highlight-block').forEach(el => el.remove());
+        return;
     }
 
-    // 3. Find all verse elements on the page (for calculations)
+    // 2. Find all verse elements on the page (for calculations)
     const allVersesOnPage = document.querySelectorAll(`.translation-text.active p[data-verse^="${currentChapterNum}:"], .translation-text.active span[data-verse-part^="${currentChapterNum}:"]`);
     if (allVersesOnPage.length === 0) return;
 
     const firstVerseOnPage = allVersesOnPage[0].dataset.verse || allVersesOnPage[0].dataset.versePart;
     const lastVerseOnPage = allVersesOnPage[allVersesOnPage.length - 1].dataset.verse || allVersesOnPage[allVersesOnPage.length - 1].dataset.versePart;
 
-    // 4. Iterate through ranges and draw highlight blocks
+    // 3. Measure Phase: Calculate positions
+    const highlightsToDraw = [];
     applicableRanges.forEach(range => {
         const { startChapter, startVerse, startPart, endChapter, endVerse, endPart } = range;
 
@@ -403,20 +430,32 @@ function highlightDailyReadings(todaysReadings) {
         const endEl = findElement(endID);
 
         if (startEl && endEl) {
+            const containerRect = bibleTextContainer.getBoundingClientRect();
+            const startRect = startEl.getBoundingClientRect();
+            const endRect = endEl.getBoundingClientRect();
+
             const padding = 4; // 4px padding
             // Measure positions relative to the bibleTextContainer
-            const startPos = startEl.offsetTop - padding; // Move up by 4px
-            const endPos = endEl.offsetTop + endEl.offsetHeight + padding; // Move down by 4px
+            const startPos = startRect.top - containerRect.top - padding;
+            const endPos = endRect.bottom - containerRect.top + padding;
             const height = endPos - startPos;
-
-            const highlightBlock = document.createElement('div');
-            highlightBlock.className = 'daily-reading-highlight-block';
-            highlightBlock.style.top = startPos + 'px';
-            highlightBlock.style.height = height + 'px';
-
-            bibleTextContainer.appendChild(highlightBlock);
+            highlightsToDraw.push({ top: startPos, height: height });
         }
     });
+
+    // 4. Mutate Phase: Clear and Draw
+    document.querySelectorAll('.daily-reading-highlight-block').forEach(el => el.remove());
+
+    const fragment = document.createDocumentFragment();
+    highlightsToDraw.forEach(h => {
+        const highlightBlock = document.createElement('div');
+        highlightBlock.className = 'daily-reading-highlight-block';
+        highlightBlock.style.top = h.top + 'px';
+        highlightBlock.style.height = h.height + 'px';
+        fragment.appendChild(highlightBlock);
+    });
+
+    bibleTextContainer.appendChild(fragment);
 }
 
 
@@ -552,12 +591,45 @@ function initSearchModal() {
     searchInput.addEventListener('input', handleSearch);
 
     searchInput.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter') {
+        const items = searchResults.querySelectorAll('.search-result-item');
+        let selectedIndex = -1;
+
+        items.forEach((item, index) => {
+            if (item.classList.contains('selected')) {
+                selectedIndex = index;
+            }
+        });
+
+        if (e.key === 'ArrowDown') {
+            e.preventDefault(); // Prevent cursor moving to end of input
+            if (items.length > 0) {
+                if (selectedIndex >= 0) {
+                    items[selectedIndex].classList.remove('selected');
+                }
+                // Move down, or select first if none selected
+                const nextIndex = selectedIndex < items.length - 1 ? selectedIndex + 1 : 0;
+                items[nextIndex].classList.add('selected');
+                items[nextIndex].scrollIntoView({ block: 'nearest' });
+            }
+        } else if (e.key === 'ArrowUp') {
+            e.preventDefault(); // Prevent cursor moving to start of input
+            if (items.length > 0) {
+                if (selectedIndex >= 0) {
+                    items[selectedIndex].classList.remove('selected');
+                }
+                // Move up, or select last if none selected (or loop back to bottom)
+                const prevIndex = selectedIndex > 0 ? selectedIndex - 1 : items.length - 1;
+                items[prevIndex].classList.add('selected');
+                items[prevIndex].scrollIntoView({ block: 'nearest' });
+            }
+        } else if (e.key === 'Enter') {
+            e.preventDefault();
             const selected = searchResults.querySelector('.selected');
             if (selected) {
                 selected.click();
-            } else if (searchResults.children.length > 0) {
-                searchResults.children[0].click();
+            } else if (items.length > 0) {
+                // Fallback to first item if nothing selected (though handleSearch selects first by default)
+                items[0].click();
             }
         }
     });
@@ -620,7 +692,7 @@ window.addEventListener('load', () => {
             .then(data => {
                 window.bookCccRefs = data;
                 // Inject pills *after* translation is applied
-                // This is now handled in applyTranslationOnLoad
+                redraw();
             })
             .catch(error => console.error("Error fetching CCC references:", error));
     }
@@ -636,7 +708,7 @@ window.addEventListener('load', () => {
             .then(data => {
                 // The file contains all books, so we extract the one we need
                 window.bookRmRefs = data[book] || null;
-                // Injection is handled by redraw()
+                redraw();
             })
             .catch(error => console.error("Error fetching Roman Missal references:", error));
     }
@@ -661,15 +733,16 @@ window.addEventListener('load', () => {
     let divineOfficeData = [];
 
     const redraw = () => {
-        drawAnnotations(lectionaryReadingsData, divineOfficeData);
-        // Also re-highlight readings when redrawing (e.g., on translation switch)
-        highlightDailyReadings(window.todaysReadingsData);
-
-        // --- References: Clear and re-inject pills ---
+        // --- References: Clear and re-inject pills FIRST ---
+        // This ensures they affect the layout (height) before we measure for annotations
         clearRefPills();
         if ((window.bookCccRefs || window.bookRmRefs) && chapter) {
             injectRefPills(window.bookCccRefs, window.bookRmRefs, parseInt(chapter, 10));
         }
+
+        drawAnnotations(lectionaryReadingsData, divineOfficeData);
+        // Also re-highlight readings when redrawing (e.g., on translation switch)
+        highlightDailyReadings(window.todaysReadingsData);
     };
 
     // --- Translation Switcher Logic ---
@@ -690,6 +763,7 @@ window.addEventListener('load', () => {
                 selectedTranslationDiv.classList.add('active');
             }
             localStorage.setItem('selectedTranslation', selectedValue);
+            buildVerseCache(); // Rebuild cache for new translation
             redraw(); // Redraw annotations AND highlights
         };
 
@@ -751,11 +825,12 @@ window.addEventListener('load', () => {
                 if (selectedTranslationDiv) selectedTranslationDiv.classList.add('active');
 
                 // Now that translation is active, redraw annotations and highlights
+                buildVerseCache(); // Build cache initially
                 redraw();
             };
             applyTranslationOnLoad(); // Call the combined function
 
-            window.addEventListener('resize', redraw);
+            window.addEventListener('resize', debounce(redraw, 200));
         })
         .catch(error => console.error("Error loading annotation data:", error));
 });
@@ -786,7 +861,7 @@ function renderSide(readings, container, isRightSided) {
     let occupiedSlots = [];
     const positionalReadings = [];
 
-    // --- Step 1: Calculate positions and slots for all readings ---
+    // --- Step 1: Calculate positions and slots for all readings (MEASURE PHASE) ---
     readings.forEach(reading => {
         const originalSegments = reading.segments || [{ start: reading.start, end: reading.end }];
         if (!originalSegments[0].start) return;
@@ -819,18 +894,31 @@ function renderSide(readings, container, isRightSided) {
                 drawEndVerse = segment.end;
             }
 
-            segmentsToDraw.push({ start: drawStartVerse, end: drawEndVerse });
+            // MEASURE HERE
+            const startVerseEl = findElement(drawStartVerse);
+            const endVerseEl = findElement(drawEndVerse);
+
+            if (startVerseEl && endVerseEl) {
+                const containerRect = bibleTextContainer.getBoundingClientRect();
+                const startRect = startVerseEl.getBoundingClientRect();
+                const endRect = endVerseEl.getBoundingClientRect();
+
+                const startPos = startRect.top - containerRect.top;
+                const endPos = endRect.bottom - containerRect.top;
+                segmentsToDraw.push({
+                    start: drawStartVerse,
+                    end: drawEndVerse,
+                    startPos: startPos, // Store measurement
+                    endPos: endPos      // Store measurement
+                });
+            }
         });
 
         if (segmentsToDraw.length === 0) return;
 
-        const firstDrawEl = findElement(segmentsToDraw[0].start);
-        const lastDrawEl = findElement(segmentsToDraw[segmentsToDraw.length - 1].end);
-        if (!firstDrawEl || !lastDrawEl) return;
-
-        // --- Use offsetTop *relative to the bibleTextContainer* ---
-        const totalStartPos = firstDrawEl.offsetTop;
-        const totalEndPos = lastDrawEl.offsetTop + lastDrawEl.offsetHeight;
+        // Use stored measurements for total bounds
+        const totalStartPos = segmentsToDraw[0].startPos;
+        const totalEndPos = segmentsToDraw[segmentsToDraw.length - 1].endPos;
 
         let slotIndex = 0;
         while (occupiedSlots.some(s => s.slotIndex === slotIndex && totalStartPos < s.end && totalEndPos > s.start)) {
@@ -844,7 +932,9 @@ function renderSide(readings, container, isRightSided) {
     // Sort by position to make finding the "next" reading easier
     positionalReadings.sort((a, b) => a.totalStartPos - b.totalStartPos);
 
-    // --- Step 2: Render each reading with calculated max heights ---
+    // --- Step 2: Render each reading with calculated max heights (MUTATE PHASE) ---
+    const fragment = document.createDocumentFragment(); // Use Fragment
+
     positionalReadings.forEach((posReading, index) => {
         const { reading, segmentsToDraw, totalStartPos, totalEndPos, slotIndex } = posReading;
 
@@ -882,12 +972,9 @@ function renderSide(readings, container, isRightSided) {
         let lastSegmentEndPos = null; // --- ADDED FOR CONNECTORS ---
 
         segmentsToDraw.forEach((segment, segmentIndex) => {
-            const startVerseEl = findElement(segment.start);
-            const endVerseEl = findElement(segment.end);
-            if (!startVerseEl || !endVerseEl) return;
-
-            const startPos = startVerseEl.offsetTop;
-            const endPos = endVerseEl.offsetTop + endVerseEl.offsetHeight;
+            // Use stored measurements
+            const startPos = segment.startPos;
+            const endPos = segment.endPos;
 
             // --- NEW: Draw connecting line if this is not the first segment ---
             if (segmentIndex > 0 && lastSegmentEndPos !== null) {
@@ -908,7 +995,7 @@ function renderSide(readings, container, isRightSided) {
                         // --- FIX: Center the 1px connector in the 5px bar area ---
                         connectorBar.style.right = `${(slotIndex * 25) + 10 + 2}px`; // +2px
                     }
-                    container.appendChild(connectorBar);
+                    fragment.appendChild(connectorBar);
                 }
             }
             lastSegmentEndPos = endPos; // Update for the next iteration
@@ -943,9 +1030,11 @@ function renderSide(readings, container, isRightSided) {
                 bar.className = 'annotation-bar-left';
                 bar.style.right = `${(slotIndex * 25) + 10}px`;
             }
-            container.appendChild(bar);
+            fragment.appendChild(bar);
         });
     });
+
+    container.appendChild(fragment);
 }
 
 
