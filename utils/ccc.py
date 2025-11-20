@@ -67,6 +67,81 @@ def get_content_urls(index_url):
         print(f"Error fetching index page: {e}")
         return []
 
+def process_paragraph_content(el, soup, strip_number=False):
+    """
+    Extracts text and footnotes from a paragraph element.
+    Modifies the element in-place to replace footnote links with asterisks.
+    """
+    para_footnotes = []
+    
+    # --- FOOTNOTE LOGIC ---
+    # Find all footnote links (e.g., href="#$Y")
+    fn_links = el.find_all('a', href=re.compile(r"#\$[A-Z0-9]+$"))
+    
+    for link in fn_links:
+        fn_ref_name = link['href'][1:] # e.g., $Y
+        fn_num = link.get_text(strip=True)
+        fn_id = f"fn_{fn_num}"
+        
+        # Find the corresponding footnote anchor at the bottom
+        fn_anchor = soup.find('a', {'name': fn_ref_name})
+        
+        if fn_anchor:
+            # The anchor <a> is inside a <b> which is inside a <font>
+            # The actual text is in the *next* <font> tag
+            text_font_tag = fn_anchor.find_parent('font').find_next_sibling('font')
+            
+            fn_text = ""
+            if text_font_tag:
+                fn_text = text_font_tag.get_text(strip=True)
+                # Clean up any remaining whitespace
+                fn_text = re.sub(r"\s+", " ", fn_text).strip()
+            
+            para_footnotes.append({"id": fn_id, "text": fn_text})
+        
+        else:
+            # If anchor isn't found, still add, but log it's empty
+            para_footnotes.append({"id": fn_id, "text": "[Footnote anchor not found]"})
+        
+    # --- TEXT EXTRACTION ---
+    # Find all footnote links (e.g., href="#$Y")
+    fn_links_to_replace = el.find_all('a', href=re.compile(r"#\$[A-Z0-9]+$"))
+    
+    for link in fn_links_to_replace:
+        # The link is inside a <sup> inside a <font>
+        # We replace the outer <font> tag with an asterisk
+        # NO space after, as the following text node (" As a mother")
+        # often already has the leading space.
+        font_tag = link.find_parent('font')
+        if font_tag:
+            font_tag.replace_with("*") # Replace the tag with just an asterisk
+        else:
+            # Fallback: maybe it's just a <sup>?
+            sup_tag = link.find_parent('sup')
+            if sup_tag:
+                sup_tag.replace_with("*")
+
+    # Preserve <br> tags by replacing them with a text representation
+    for br in el.find_all("br"):
+        br.replace_with("<br>")
+
+    # Get text again, *after* replacing footnotes
+    # We do NOT use strip=True here, as it removes the critical
+    # leading space on text nodes that follow a footnote.
+    clean_text = el.get_text(strip=False)
+    
+    # Manually strip leading/trailing whitespace from the whole block
+    clean_text = clean_text.strip()
+    
+    if strip_number:
+        # Remove the number prefix (which is now at the start)
+        clean_text = re.sub(r"^\d+\s*", "", clean_text)
+    
+    # Normalize internal whitespace (e.g., newlines, tabs) to a single space
+    para_text = re.sub(r"\s+", " ", clean_text).strip()
+    
+    return para_text, para_footnotes
+
 def scrape_page(page_url, soup):
     """
     Scrapes a single content page for paragraphs, headers, and footnotes.
@@ -83,6 +158,8 @@ def scrape_page(page_url, soup):
         # Split by ' > ' and strip whitespace from each header
         header_stack = [h.strip() for h in content_str.split(' > ')]
     
+    current_para_id = None
+
     # Iterate over all <p> tags recursively
     for el in soup.body.find_all('p'):
         full_text = el.get_text(strip=True)
@@ -107,6 +184,9 @@ def scrape_page(page_url, soup):
                 header_text = el.get_text(separator=" ", strip=True)
                 header_text = re.sub(r'\s+', ' ', header_text).strip()
                 
+                # Reset current_para_id on header to prevent appending across sections
+                current_para_id = None
+
                 # Apply the stack-slicing logic to the *current* page's stack
                 if header_text.startswith("PART"):
                     header_stack[:] = [header_text]
@@ -128,71 +208,16 @@ def scrape_page(page_url, soup):
         # Check if the plain text of the <p> tag starts with a number
         match = re.match(r"^(\d+)\s+(.*)", full_text, re.DOTALL)
         
+        # Check for indentation (quoted section)
+        is_indented = False
+        if el.get('style') and 'margin-left' in el.get('style'):
+            is_indented = True
+
         if match:
             para_id = match.group(1)
+            current_para_id = para_id
             
-            # 3. --- FOOTNOTE LOGIC ---
-            para_footnotes = []
-            # Find all footnote links (e.g., href="#$Y")
-            fn_links = el.find_all('a', href=re.compile(r"#\$[A-Z0-9]+$"))
-            
-            for link in fn_links:
-                fn_ref_name = link['href'][1:] # e.g., $Y
-                fn_num = link.get_text(strip=True)
-                fn_id = f"fn_{fn_num}"
-                
-                # Find the corresponding footnote anchor at the bottom
-                fn_anchor = soup.find('a', {'name': fn_ref_name})
-                
-                # --- START: MODIFIED FOOTNOTE PARSING ---
-                if fn_anchor:
-                    # The anchor <a> is inside a <b> which is inside a <font>
-                    # The actual text is in the *next* <font> tag
-                    text_font_tag = fn_anchor.find_parent('font').find_next_sibling('font')
-                    
-                    fn_text = ""
-                    if text_font_tag:
-                        fn_text = text_font_tag.get_text(strip=True)
-                        # Clean up any remaining whitespace
-                        fn_text = re.sub(r"\s+", " ", fn_text).strip()
-                    
-                    para_footnotes.append({"id": fn_id, "text": fn_text})
-                
-                else:
-                    # If anchor isn't found, still add, but log it's empty
-                    para_footnotes.append({"id": fn_id, "text": "[Footnote anchor not found]"})
-                
-            # 4. --- TEXT EXTRACTION ---
-            # Find all footnote links (e.g., href="#$Y")
-            fn_links_to_replace = el.find_all('a', href=re.compile(r"#\$[A-Z0-9]+$"))
-            
-            for link in fn_links_to_replace:
-                # The link is inside a <sup> inside a <font>
-                # We replace the outer <font> tag with an asterisk
-                # NO space after, as the following text node (" As a mother")
-                # often already has the leading space.
-                font_tag = link.find_parent('font')
-                if font_tag:
-                    font_tag.replace_with("*") # Replace the tag with just an asterisk
-                else:
-                    # Fallback: maybe it's just a <sup>?
-                    sup_tag = link.find_parent('sup')
-                    if sup_tag:
-                        sup_tag.replace_with("*")
-
-            # Get text again, *after* replacing footnotes
-            # We do NOT use strip=True here, as it removes the critical
-            # leading space on text nodes that follow a footnote.
-            clean_text = el.get_text(strip=False)
-            
-            # Manually strip leading/trailing whitespace from the whole block
-            clean_text = clean_text.strip()
-            
-            # Remove the number prefix (which is now at the start)
-            clean_text = re.sub(r"^\d+\s*", "", clean_text)
-            
-            # Normalize internal whitespace (e.g., newlines, tabs) to a single space
-            para_text = re.sub(r"\s+", " ", clean_text).strip()
+            para_text, para_footnotes = process_paragraph_content(el, soup, strip_number=True)
             
             # 5. --- ASSEMBLE DATA ---
             page_data[para_id] = {
@@ -202,6 +227,40 @@ def scrape_page(page_url, soup):
                 "source_url": page_url,
                 "footnotes": para_footnotes
             }
+        
+        elif current_para_id and is_indented:
+            # Continuation paragraph (quoted text) - MUST be indented
+            # Append to the current paragraph
+            para_text, para_footnotes = process_paragraph_content(el, soup, strip_number=False)
+            
+            if para_text:
+                page_data[current_para_id]["text"] += "<br>" + para_text
+            
+            if para_footnotes:
+                page_data[current_para_id]["footnotes"].extend(para_footnotes)
+        
+        else:
+            # Not a numbered paragraph and NOT indented -> Treat as HEADER
+            # This catches headers that are not bolded or otherwise missed by the initial check
+            header_text = el.get_text(separator=" ", strip=True)
+            header_text = re.sub(r'\s+', ' ', header_text).strip()
+            
+            # Reset current_para_id on header to prevent appending across sections
+            current_para_id = None
+
+            # Apply the stack-slicing logic to the *current* page's stack
+            if header_text.startswith("PART"):
+                header_stack[:] = [header_text]
+            elif header_text.startswith("SECTION"):
+                header_stack[1:] = [header_text]
+            elif header_text.startswith("CHAPTER"):
+                header_stack[2:] = [header_text]
+            elif header_text.startswith("Article"):
+                header_stack[3:] = [header_text]
+            elif header_text.startswith("Paragraph"):
+                header_stack[4:] = [header_text]
+            elif re.match(r"^[IVXLCDM]+\.", header_text) or (header_text.isupper() and not re.fullmatch(r"\d+", header_text)):
+                header_stack[5:] = [header_text]
 
     return page_data
 
