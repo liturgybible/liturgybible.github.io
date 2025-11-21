@@ -14361,6 +14361,18 @@
       "end": "8:1000"
     },
     {
+      "name": "Week 1: Monday Office of Readings",
+      "color": "#5E4B81",
+      "start": "9:1",
+      "end": "9:1000"
+    },
+    {
+      "name": "Week 1: Tuesday Office of Readings",
+      "color": "#5E4B81",
+      "start": "10:1",
+      "end": "10:1000"
+    },
+    {
       "name": "Week 1: Monday Evening Prayer",
       "color": "#5E4B81",
       "start": "11:1",
@@ -14397,16 +14409,34 @@
       "end": "16:1000"
     },
     {
+      "name": "Week 1: Wednesday Daytime Prayer",
+      "color": "#5E4B81",
+      "start": "17:1",
+      "end": "17:1000"
+    },
+    {
       "name": "Week 1: Wednesday Office of Readings",
       "color": "#5E4B81",
       "start": "18:2",
-      "end": "18:30 (I&II&III)"
+      "end": "18:30"
     },
     {
       "name": "Week 1: Thursday Office of Readings",
       "color": "#5E4B81",
       "start": "18:31",
-      "end": "18:51 (IV&V&VI)"
+      "end": "18:51"
+    },
+    {
+      "name": "Week 2: Monday Morning Prayer",
+      "color": "#5E4B81",
+      "start": "19:1",
+      "end": "19:1000"
+    },
+    {
+      "name": "Week 1: Monday Daytime Prayer",
+      "color": "#5E4B81",
+      "start": "19:1",
+      "end": "19:1000"
     },
     {
       "name": "Week 1: Tuesday Evening Prayer",
@@ -14429,6 +14459,12 @@
       ]
     },
     {
+      "name": "Week 3: Friday Daytime Prayer",
+      "color": "#5E4B81",
+      "start": "22:1",
+      "end": "22:1000"
+    },
+    {
       "name": "Weeks 2 & 4: Sunday Daytime Prayer",
       "color": "#5E4B81",
       "start": "23:1",
@@ -14441,10 +14477,22 @@
       "end": "24:1000"
     },
     {
+      "name": "Week 1: Thursday Daytime Prayer",
+      "color": "#5E4B81",
+      "start": "25:1",
+      "end": "25:1000"
+    },
+    {
       "name": "Week 1: Friday Daytime Prayer",
       "color": "#5E4B81",
       "start": "26:1",
       "end": "26:1000"
+    },
+    {
+      "name": "Week 1: Wednesday Evening Prayer",
+      "color": "#5E4B81",
+      "start": "27:1",
+      "end": "27:1000"
     },
     {
       "name": "Week 1: Friday Daytime Prayer",
@@ -14488,7 +14536,7 @@
         },
         {
           "start": "31:20",
-          "end": "31:25 (I&II&III)"
+          "end": "31:25"
         }
       ]
     },
@@ -14503,6 +14551,12 @@
       "color": "#5E4B81",
       "start": "33:1",
       "end": "33:1000"
+    },
+    {
+      "name": "Weeks 1 & 3: Saturday Daytime Prayer",
+      "color": "#5E4B81",
+      "start": "34:1",
+      "end": "34:1000"
     },
     {
       "name": "Week 1: Friday Office of Readings",
@@ -14526,7 +14580,7 @@
         },
         {
           "start": "35:27",
-          "end": "35:28 (I&II&III)"
+          "end": "35:28"
         }
       ]
     },
@@ -14535,6 +14589,24 @@
       "color": "#5E4B81",
       "start": "36:1",
       "end": "36:1000"
+    },
+    {
+      "name": "Week 2: Tuesday Office of Readings",
+      "color": "#5E4B81",
+      "start": "37:1",
+      "end": "37:1000"
+    },
+    {
+      "name": "Week 2: Friday Office of Readings",
+      "color": "#5E4B81",
+      "start": "38:1",
+      "end": "38:1000"
+    },
+    {
+      "name": "Week 2: Wednesday Office of Readings",
+      "color": "#5E4B81",
+      "start": "39:1",
+      "end": "39:1000"
     },
     {
       "name": "Week 2: Monday Daytime Prayer",
@@ -14546,7 +14618,7 @@
         },
         {
           "start": "40:17",
-          "end": "40:18 (I&II)"
+          "end": "40:18"
         }
       ]
     },
@@ -14569,6 +14641,18 @@
       "end": "43:1000"
     },
     {
+      "name": "Weeks 2 & 4: Thursday Office of Readings",
+      "color": "#5E4B81",
+      "start": "44:1",
+      "end": "44:1000"
+    },
+    {
+      "name": "Week 2: Monday Evening Prayer & Week 4: Saturday Daytime Prayer",
+      "color": "#5E4B81",
+      "start": "45:1",
+      "end": "45:1000"
+    },
+    {
       "name": "Week 1: Friday Evening Prayer",
       "color": "#5E4B81",
       "start": "46:1",
@@ -14585,6 +14669,24 @@
       "color": "#5E4B81",
       "start": "48:1",
       "end": "48:1000"
+    },
+    {
+      "name": "Week 2: Tuesday Evening Prayer",
+      "color": "#5E4B81",
+      "start": "49:1",
+      "end": "49:1000"
+    },
+    {
+      "name": "Week 3: Monday Office of Readings",
+      "color": "#5E4B81",
+      "start": "50:1",
+      "end": "50:1000"
+    },
+    {
+      "name": "Week 4: Saturday Office of Readings (only in Ordinary Time)",
+      "color": "#5E4B81",
+      "start": "50:1",
+      "end": "50:1000"
     },
     {
       "name": "Weeks 1,2,3,4: Friday Morning Prayer",
@@ -14628,7 +14730,7 @@
         },
         {
           "start": "55:17",
-          "end": "55:24 (I&II)"
+          "end": "55:24"
         }
       ]
     },
@@ -14642,7 +14744,7 @@
         },
         {
           "start": "55:17",
-          "end": "55:24 (I&II)"
+          "end": "55:24"
         }
       ]
     },
@@ -14721,10 +14823,22 @@
       "end": "65:1000"
     },
     {
+      "name": "Week 4: Sunday Office of Readings",
+      "color": "#5E4B81",
+      "start": "66:1",
+      "end": "66:1000"
+    },
+    {
       "name": "Week 2: Wednesday Evening Prayer & Week 3: Tuesday Morning Prayer; also alt. Invitatory",
       "color": "#5E4B81",
       "start": "67:1",
       "end": "67:1000"
+    },
+    {
+      "name": "Week 3: Tuesday Office of Readings",
+      "color": "#5E4B81",
+      "start": "68:1",
+      "end": "68:1000"
     },
     {
       "name": "Week 3: Friday Office of Readings",
@@ -14736,7 +14850,7 @@
         },
         {
           "start": "69:30",
-          "end": "69:37 (I&II&III)"
+          "end": "69:37"
         }
       ]
     },
@@ -14747,16 +14861,40 @@
       "end": "70:1000"
     },
     {
+      "name": "Week 3: Monday Daytime Prayer",
+      "color": "#5E4B81",
+      "start": "71:1",
+      "end": "71:1000"
+    },
+    {
       "name": "Week 2: Thursday Evening Prayer",
       "color": "#5E4B81",
       "start": "72:1",
-      "end": "72:19 (I&II)"
+      "end": "72:19"
+    },
+    {
+      "name": "Week 4: Monday Office of Readings",
+      "color": "#5E4B81",
+      "start": "73:1",
+      "end": "73:1000"
+    },
+    {
+      "name": "Week 3: Tuesday Daytime Prayer",
+      "color": "#5E4B81",
+      "start": "74:1",
+      "end": "74:1000"
     },
     {
       "name": "Week 3: Wednesday Daytime Prayer",
       "color": "#5E4B81",
       "start": "75:1",
       "end": "75:1000"
+    },
+    {
+      "name": "Weeks 2 & 4: Sunday Daytime Prayer",
+      "color": "#5E4B81",
+      "start": "76:1",
+      "end": "76:1000"
     },
     {
       "name": "Week 2: Wednesday Morning Prayer",
@@ -14768,13 +14906,13 @@
       "name": "Week 4: Friday Office of Readings (only in Advent, Christmas, Lent, Easter)",
       "color": "#5E4B81",
       "start": "78:1",
-      "end": "78:39 (I&II&III)"
+      "end": "78:39"
     },
     {
       "name": "Week 4: Saturday Office of Readings (only in Advent, Christmas, Lent, Easter)",
       "color": "#5E4B81",
       "start": "78:40",
-      "end": "78:72 (IV&V&VI)"
+      "end": "78:72"
     },
     {
       "name": "Week 3: Thursday Daytime Prayer",
@@ -14837,16 +14975,22 @@
       "end": "87:1000"
     },
     {
+      "name": "Week 4: Tuesday Daytime Prayer & Night Prayer: Friday",
+      "color": "#5E4B81",
+      "start": "88:1",
+      "end": "88:1000"
+    },
+    {
       "name": "Week 3: Wednesday Office of Readings",
       "color": "#5E4B81",
       "start": "89:2",
-      "end": "89:38 (I&II&III)"
+      "end": "89:38"
     },
     {
       "name": "Week 3: Thursday Office of Readings",
       "color": "#5E4B81",
       "start": "89:39",
-      "end": "89:53 (IV&V)"
+      "end": "89:53"
     },
     {
       "name": "Week 3: Thursday Office of Readings & Week 4: Monday Morning Prayer",
@@ -14871,6 +15015,12 @@
       "color": "#5E4B81",
       "start": "93:1",
       "end": "93:1000"
+    },
+    {
+      "name": "Week 4: Wednesday Daytime Prayer",
+      "color": "#5E4B81",
+      "start": "94:1",
+      "end": "94:1000"
     },
     {
       "name": "ORDINARY: INVITATORY Psalm",
@@ -14913,6 +15063,42 @@
       "color": "#5E4B81",
       "start": "101:1",
       "end": "101:1000"
+    },
+    {
+      "name": "Week 4: Tuesday Office of Readings",
+      "color": "#5E4B81",
+      "start": "102:1",
+      "end": "102:1000"
+    },
+    {
+      "name": "Week 4: Wednesday Office of Readings",
+      "color": "#5E4B81",
+      "start": "103:1",
+      "end": "103:1000"
+    },
+    {
+      "name": "Week 2: Sunday Office of Readings",
+      "color": "#5E4B81",
+      "start": "104:1",
+      "end": "104:1000"
+    },
+    {
+      "name": "Week 1: Saturday Office of Readings  (only in Advent, Christmas, Lent, Easter)",
+      "color": "#5E4B81",
+      "start": "105:1",
+      "end": "105:1000"
+    },
+    {
+      "name": "Week 2: Saturday Office of Readings  (only in Advent, Christmas, Lent, Easter)",
+      "color": "#5E4B81",
+      "start": "106:1",
+      "end": "106:1000"
+    },
+    {
+      "name": "Week 3: Saturday Office of Readings",
+      "color": "#5E4B81",
+      "start": "107:1",
+      "end": "107:1000"
     },
     {
       "name": "Week 4: Wednesday Morning Prayer",
@@ -14981,6 +15167,18 @@
       "color": "#5E4B81",
       "start": "117:1",
       "end": "117:1000"
+    },
+    {
+      "name": "Weeks 1 & 3: Sunday Daytime Prayer",
+      "color": "#5E4B81",
+      "start": "118:1",
+      "end": "118:1000"
+    },
+    {
+      "name": "Weeks 2 & 4: Sunday Morning Prayer",
+      "color": "#5E4B81",
+      "start": "118:1",
+      "end": "118:1000"
     },
     {
       "name": "Week 1: Tuesday Daytime Prayer",
@@ -15193,6 +15391,18 @@
       "end": "131:1000"
     },
     {
+      "name": "Week 3: Thursday Evening Prayer",
+      "color": "#5E4B81",
+      "start": "132:1",
+      "end": "132:1000"
+    },
+    {
+      "name": "Week 1: Saturday Office of Readings  (only in Ordinary Time)",
+      "color": "#5E4B81",
+      "start": "132:1",
+      "end": "132:1000"
+    },
+    {
       "name": "Week 4: Friday Daytime Prayer",
       "color": "#5E4B81",
       "start": "133:1",
@@ -15205,10 +15415,28 @@
       "end": "134:1000"
     },
     {
+      "name": "Week 3: Friday Evening Prayer",
+      "color": "#5E4B81",
+      "start": "135:1",
+      "end": "135:1000"
+    },
+    {
       "name": "Week 4: Monday Morning Prayer",
       "color": "#5E4B81",
       "start": "135:1",
       "end": "135:12"
+    },
+    {
+      "name": "Week 4: Monday Evening Prayer",
+      "color": "#5E4B81",
+      "start": "136:1",
+      "end": "136:1000"
+    },
+    {
+      "name": "Week 2: Saturday Office of Readings  (only in Ordinary Time)",
+      "color": "#5E4B81",
+      "start": "136:1",
+      "end": "136:1000"
     },
     {
       "name": "Week 4: Tuesday Evening Prayer",
@@ -15232,7 +15460,7 @@
         },
         {
           "start": "139:23",
-          "end": "139:24 (I&II)"
+          "end": "139:24"
         }
       ]
     },
@@ -15269,10 +15497,22 @@
       "end": "143:11"
     },
     {
+      "name": "Week 4: Thursday Evening Prayer",
+      "color": "#5E4B81",
+      "start": "144:1",
+      "end": "144:1000"
+    },
+    {
       "name": "Week 4: Tuesday Morning Prayer",
       "color": "#5E4B81",
       "start": "144:1",
       "end": "144:10"
+    },
+    {
+      "name": "Week 3: Sunday Office of Readings & Week 4: Friday Evening Prayer",
+      "color": "#5E4B81",
+      "start": "145:1",
+      "end": "145:1000"
     },
     {
       "name": "Week 4: Wednesday Morning Prayer",
