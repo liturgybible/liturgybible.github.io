@@ -296,7 +296,7 @@ function displayReadingsPopup(readingsData) {
     popupContent += `<h4 style="margin-bottom: 0;">${readingsData.name || 'Daily Readings'}</h4>`;
     popupContent += `<div class="popup-date-container" style="cursor: pointer;">`;
     popupContent += `<p class="popup-date-text">${formatDisplayDate(readingDate)}</p>`;
-    popupContent += `<input type="date" class="popup-date-picker" value="${dateValue}" style="position: absolute; visibility: hidden; pointer-events: none;">`;
+    popupContent += `<input type="date" class="popup-date-picker" value="${dateValue}">`;
     popupContent += `</div>`;
     popupContent += `</div>`;
     popupContent += `</div>`;
