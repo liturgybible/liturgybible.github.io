@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+
+"""
+Scrapes CCC data from vatican.va to generate "../data/ccc-text.json"
+
+Subsequently requires manual edits in ccc-diffs.txt.
+"""
+
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -28,6 +36,14 @@ TEXT_REPLACEMENTS = {
     "? the": "? The",
     "! the": "! The",
     "I Jn": "1 Jn",
+    "I Pt": "1 Pt",
+    "I Sam": "1 Sam",
+    "I Kings": "1 Kings",
+    "I Chr": "1 Chr",
+    "I Cor": "1 Cor",
+    "I Tim": "1 Tim",
+    "Jude ": "Jude 1:",
+    "Cf. Eph 314.": "Cf. Eph 3:14.",
     # Add more replacements here...
 }
 

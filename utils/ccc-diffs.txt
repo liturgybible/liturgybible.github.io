@@ -1,0 +1,220 @@
+README
+Contains manual edits to make to "../data/ccc-text.json" after running ccc.py.
+- a couple of paragraphs are missing or formatted badly on vatican.va
+- several pages on vatican.va are formatted differently and not handled well by the parser—the below text should be replaced
+- missing footnotes for these sections must be added manually
+
+
+
+"2076": {
+    "text": "By his life and by his preaching Jesus attested to the permanent validity of the Decalogue.",
+    "headers": [
+      "PARTICIPATION IN SOCIAL LIFE",
+      "I. Authority",
+      "II. The Common Good",
+      "III. Responsibility and Participation",
+      "IN BRIEF",
+      "IN BRIEF"
+    ],
+    "source_url": "https://www.vatican.va/archive/ENG0015/__P79.HTM",
+    "footnotes": []
+  },
+  "2077": {
+    "text": "The gift of the Decalogue is bestowed from within the covenant concluded by God with his people. God's commandments take on their true meaning in and through this covenant.",
+    "headers": [
+      "PARTICIPATION IN SOCIAL LIFE",
+      "I. Authority",
+      "II. The Common Good",
+      "III. Responsibility and Participation",
+      "IN BRIEF",
+      "IN BRIEF"
+    ],
+    "source_url": "https://www.vatican.va/archive/ENG0015/__P79.HTM",
+    "footnotes": []
+  },
+
+
+
+
+
+  "2435": {
+    "text": "Recourse to a strike is morally legitimate when it cannot be avoided, or at least when it is necessary to obtain a proportionate benefit. It becomes morally unacceptable when accompanied by violence, or when objectives are included that are not directly linked to working conditions or are contrary to the common good.",
+    "headers": [
+      "PARTICIPATION IN SOCIAL LIFE",
+      "SECTION ONE",
+      "\"I BELIEVE\" - \"WE\r\nBELIEVE\"",
+      "II.Respect for the\r\nDignity of Persons",
+      "III.Safeguarding Peace",
+      "IV.Economic Activity and\r\nSocial Justice"
+    ],
+    "source_url": "https://www.vatican.va/archive/ENG0015/__P8D.HTM",
+    "footnotes": []
+  },
+  "2436": {
+    "text": "Unemployment almost always wounds its victim's dignity and threatens the equilibrium of his life. Besides the harm done to him personally, it entails many risks for his family.*",
+    "headers": [
+      "PARTICIPATION IN SOCIAL LIFE",
+      "SECTION ONE",
+      "\"I BELIEVE\" - \"WE\r\nBELIEVE\"",
+      "II.Respect for the\r\nDignity of Persons",
+      "III.Safeguarding Peace",
+      "IV.Economic Activity and\r\nSocial Justice"
+    ],
+    "source_url": "https://www.vatican.va/archive/ENG0015/__P8D.HTM",
+    "footnotes": [
+      {
+        "id": "fn_222",
+        "text": "Cf. LE 18."
+      }
+    ]
+  },
+
+
+
+
+227
+"text": "It means trusting God in every circumstance, even in adversity. A prayer of St. Teresa of Jesus wonderfully expresses this trust:<br>Let nothing trouble you / Let nothing frighten you Everything passes / God never changes Patience / Obtains all Whoever has God / Wants for nothing God alone is enough.*",
+
+256
+"text": "St. Gregory of Nazianzus, also called \"the Theologian\", entrusts this summary of Trinitarian faith to the catechumens of Constantinople: <br> Above all guard for me this great deposit of faith for which I live and fight, which I want to take with me as a companion, and which makes me bear all evils and despise all pleasures: I mean the profession of faith in the Father and the Son and the Holy Spirit. I entrust it to you today. By it I am soon going to plunge you into water and raise you up from it. I give it to you as the companion and patron of your whole life. I give you but one divinity and power, existing one in three, and containing the three in a distinct way. Divinity without disparity of substance or nature, without superior degree that raises up or inferior degree that casts down. . . The infinite co-naturality of three infinites. Each person considered in himself is entirely God. . . The three considered together. . . I have not even begun to think of unity when the Trinity bathes me in its splendour. I have not even begun to think of the Trinity when unity grasps me.*",
+
+401
+"text": "After that first sin, the world is virtually inundated by sin There is Cain's murder of his brother Abel and the universal corruption which follows in the wake of sin. Likewise, sin frequently manifests itself in the history of Israel, especially as infidelity to the God of the Covenant and as transgression of the Law of Moses. and even after Christ's atonement, sin raises its head in countless ways among Christians.* Scripture and the Church's Tradition continually recall the presence and universality of sin in man's history:<br>What Revelation makes known to us is confirmed by our own experience. For when man looks into his own heart he finds that he is drawn towards what is wrong and sunk in many evils which cannot come from his good creator. Often refusing to acknowledge God as his source, man has also upset the relationship which should link him to his last end, and at the same time he has broken the right order that should reign within himself as well as between himself and other men and all creatures.",
+
+425
+"text": "The transmission of the Christian faith consists primarily in proclaiming Jesus Christ in order to lead others to faith in him. From the beginning, the first disciples burned with the desire to proclaim Christ: \"We cannot but speak of what we have seen and heard.\"* It and they invite people of every era to enter into the joy of their communion with Christ:<br>That which was from the beginning, which we have heard, which we have seen with our eyes, which we have looked upon and touched with our hands, concerning the word of life - the life was made manifest, and we saw it, and testify to it, and proclaim to you the eternal life which was with the Father and was made manifest to us - that which we have seen and heard we proclaim also to you, so that you may have fellowship with us; and our fellowship is with the Father and with his Son Jesus Christ. and we are writing this that our joy may be complete.",
+
+518
+"text": "Christ's whole life is a mystery of recapitulation. All Jesus did, said and suffered had for its aim restoring fallen man to his original vocation:<br>When Christ became incarnate and was made man, he recapitulated in himself the long history of mankind and procured for us a "short cut" to salvation, so that what we had lost in Adam, that is, being in the image and likeness of God, we might recover in Christ Jesus.* For this reason Christ experienced all the stages of life, thereby giving communion with God to all men.",
+
+577
+"text": "At the beginning of the Sermon on the Mount Jesus issued a solemn warning in which he presented God's law, given on Sinai during the first covenant, in light of the grace of the New Covenant:<br>Do not think that I have come to abolish the law or the prophets: I have come not to abolish but to fulfil. For truly I tell you, until heaven and earth pass away, not one letter, not one stroke of a letter, will pass from the law, until all is accomplished. Therefore, whoever breaks one of the least of these commandments, and teaches others to do the same, will be called least in the kingdom of heaven; but whoever does them and teaches them will be called great in the kingdom of heaven.*",
+
+626
+"text": "Since the \"Author of life\" who was killed* is the same \"living one [who has] risen\",* The divine person of the Son of God necessarily continued to possess his human soul and body, separated from each other by death:<br>By the fact that at Chnst's death his soul was separated from his flesh, his one person is not itself divided into two persons; for the human body and soul of Christ have existed in the same way from the beginning of his earthly existence, in the divine person of the Word; and in death, although separated from each other, both remained with one and the same person of the Word.",
+
+842
+"text": "The Church's bond with non-Christian religions is in the first place the common origin and end of the human race:<br>All nations form but one community. This is so because all stem from the one stock which God created to people the entire earth, and also because all share a common destiny, namely God. His providence, evident goodness, and saving designs extend to all against the day when the elect are gathered together in the holy city. . .*",
+
+899
+"text": "The initiative of lay Christians is necessary especially when the matter involves discovering or inventing the means for permeating social, political, and economic realities with the demands of Christian doctrine and life. This initiative is a normal element of the life of the Church:<br>Lay believers are in the front line of Church life; for them the Church is the animating principle of human society. Therefore, they in particular ought to have an ever-clearer consciousness not only of belonging to the Church, but of being the Church, that is to say, the community of the faithful on earth under the leadership of the Pope, the common Head, and of the bishops in communion with him. They are the Church.*",
+
+933
+"text": "Whether their witness is public, as in the religious state, or less public, or even secret, Christ's coming remains for all those consecrated both the origin and rising sun of their life:<br>For the People of God has here no lasting city, . . . [and this state] reveals more clearly to all believers the heavenly goods which are already present in this age, witnessing to the new and eternal life which we have acquired through the redemptive work of Christ and preluding our future resurrection and the glory of the heavenly kingdom.*",
+
+1106
+"text": "Together with the anamnesis, the epiclesis is at the heart of each sacramental celebration, most especially of the Eucharist:<br>You ask how the bread becomes the Body of Christ, and the wine . . . The Blood of Christ I shall tell you: the Holy Spirit comes upon them and accomplishes what surpasses every word and thought . . . Let it be enough for you to understand that it is by the Holy Spirit, just as it was of the Holy Virgin and by the Holy Spirit that the Lord, through and in himself, took flesh.*",
+
+1227
+"text": "According to the Apostle Paul, the believer enters through Baptism into communion with Christ's death, is buried with him, and rises with him:<br>Do you not know that all of us who have been baptized into Christ Jesus were baptized into his death? We were buried therefore with him by baptism into death, so that as Christ was raised from the dead by the glory of the Father, we too might walk in newness of life.*<br>The baptized have \"put on Christ.\"* Through the Holy Spirit, Baptism is a bath that purifies, justifies, and sanctifies.*",
+
+1352
+"text": "The anaphora: with the Eucharistic Prayer - the prayer of thanksgiving and consecration - we come to the heart and summit of the celebration:<br>In the preface, the Church gives thanks to the Father, through Christ, in the Holy Spirit, for all his works: creation, redemption, and sanctification. The whole community thus joins in the unending praise that the Church in heaven, the angels and all the saints, sing to the thrice-holy God.",
+
+1366
+"text": "The Eucharist is thus a sacrifice because it re-presents (makes present) the sacrifice of the cross, because it is its memorial and because it applies its fruit:<br>[Christ], our Lord and God, was once and for all to offer himself to God the Father by his death on the altar of the cross, to accomplish there an everlasting redemption. But because his priesthood was not to end with his death, at the Last Supper \"on the night when he was betrayed,\" [he wanted] to leave to his beloved spouse the Church a visible sacrifice (as the nature of man demands) by which the bloody sacrifice which he was to accomplish once for all on the cross would be re-presented, its memory perpetuated until the end of the world, and its salutary power be applied to the forgiveness of the sins we daily commit.*",
+
+1369
+"text": "The whole Church is united with the offering and intercession of Christ. Since he has the ministry of Peter in the Church, the Pope is associated with every celebration of the Eucharist, wherein he is named as the sign and servant of the unity of the universal Church. The bishop of the place is always responsible for the Eucharist, even when a priest presides; the bishop's name is mentioned to signify his presidency over the particular Church, in the midst of his presbyterium and with the assistance of deacons. The community intercedes also for all ministers who, for it and with it, offer the Eucharistic sacrifice:<br>Let only that Eucharist be regarded as legitimate, which is celebrated under [the presidency of] the bishop or him to whom he has entrusted it.*<br>Through the ministry of priests the spiritual sacrifice of the faithful is completed in union with the sacrifice of Christ the only Mediator, which in the Eucharist is offered through the priests' hands in the name of the whole Church in an unbloody and sacramental manner until the Lord himself comes.*",
+
+1371
+"text": "The Eucharistic sacrifice is also offered for the faithful departed who \"have died in Christ but are not yet wholly purified,\"* so that they may be able to enter into the light and peace of Christ:<br>Put this body anywhere! Don't trouble yourselves about it! I simply ask you to remember me at the Lord's altar wherever you are.*<br>Then, we pray [in the anaphora] for the holy fathers and bishops who have fallen asleep, and in general for all who have fallen asleep before us, in the belief that it is a great benefit to the souls on whose behalf the supplication is offered, while the holy and tremendous Victim is present.... By offering to God our supplications for those who have fallen asleep, if they have sinned, we . . . offer Christ sacrificed for the sins of all, and so render favorable, for them and for us, the God who loves man.*",
+
+1372
+"text": "St. Augustine admirably summed up this doctrine that moves us to an ever more complete participation in our Redeemer's sacrifice which we celebrate in the Eucharist:<br>This wholly redeemed city, the assembly and society of the saints, is offered to God as a universal sacrifice by the high priest who in the form of a slave went so far as to offer himself for us in his Passion, to make us the Body of so great a head.... Such is the sacrifice of Christians: \"we who are many are one Body in Christ\" the Church continues to reproduce this sacrifice in the sacrament of the altar so well-known to believers wherein it is evident to them that in what she offers she herself is offered.",
+
+1375
+"text": "It is by the conversion of the bread and wine into Christ's body and blood that Christ becomes present in this sacrament. The Church Fathers strongly affirmed the faith of the Church in the efficacy of the Word of Christ and of the action of the Holy Spirit to bring about this conversion. Thus St. John Chrysostom declares:<br>It is not man that causes the things offered to become the Body and Blood of Christ, but he who was crucified for us, Christ himself. The priest, in the role of Christ, pronounces these words, but their power and grace are God's. This is my body, he says. This word transforms the things offered.*<br>and St. Ambrose says about this conversion:<br>Be convinced that this is not what nature has formed, but what the blessing has consecrated. The power of the blessing prevails over that of nature, because by the blessing nature itself is changed.... Could not Christ's word, which can make from nothing what did not exist, change existing things into what they were not before? It is no less a feat to give things their original nature than to change their nature.*",
+
+1380
+"text": "It is highly fitting that Christ should have wanted to remain present to his Church in this unique way. Since Christ was about to take his departure from his own in his visible form, he wanted to give us his sacramental presence; since he was about to offer himself on the cross to save us, he wanted us to have the memorial of the love with which he loved us \"to the end,\"* even to the giving of his life. In his Eucharistic presence he remains mysteriously in our midst as the one who loved us and gave himself up for us,* and he remains under signs that express and communicate this love:<br>The Church and the world have a great need for Eucharistic worship. Jesus awaits us in this sacrament of love. Let us not refuse the time to go to meet him in adoration, in contemplation full of faith, and open to making amends for the serious offenses and crimes of the world. Let our adoration never cease.*",
+
+1584
+"text": "Since it is ultimately Christ who acts and effects salvation through the ordained minister, the unworthiness of the latter does not prevent Christ from acting.* St. Augustine states this forcefully:<br>As for the proud minister, he is to be ranked with the devil. Christ's gift is not thereby profaned: what flows through him keeps its purity, and what passes through him remains dear and reaches the fertile earth.... The spiritual power of the sacrament is indeed comparable to light: those to be enlightened receive it in its purity, and if it should pass through defiled beings, it is not itself defiled.",
+
+1632
+"text": "So that the \"I do\" of the spouses may be a free and responsible act and so that the marriage covenant may have solid and lasting human and Christian foundations, preparation for marriage is of prime importance.<br>The example and teaching given by parents and families remain the special form of this preparation. <br> The role of pastors and of the Christian community as the \"family of God\" is indispensable for the transmission of the human and Christian values of marriage and family,* and much more so in our era when many young people experience broken homes which no longer sufficiently assure this initiation:<br><br> It is imperative to give suitable and timely instruction to young people, above all in the heart of their own families, about the dignity of married love, its role and its exercise, so that, having learned the value of chastity, they will be able at a suitable age to engage in honorable courtship and enter upon a marriage of their own.",
+
+1642
+"text": "Christ is the source of this grace. \"Just as of old God encountered his people with a covenant of love and fidelity, so our Savior, the spouse of the Church, now encounters Christian spouses through the sacrament of Matrimony.\"* Christ dwells with them, gives them the strength to take up their crosses and so follow him, to rise again after they have fallen, to forgive one another, to bear one another's burdens, to \"be subject to one another out of reverence for Christ,\"* and to love one another with supernatural, tender, and fruitful love. In the joys of their love and family life he gives them here on earth a foretaste of the wedding feast of the Lamb:<br>How can I ever express the happiness of a marriage joined by the Church, strengthened by an offering, sealed by a blessing, announced by angels, and ratified by the Father? . . . How wonderful the bond between two believers, now one in hope, one in desire, one in discipline, one in the same service! They are both children of one Father and servants of the same Master, undivided in spirit and flesh, truly two in one flesh. Where the flesh is one, one also is the spirit.*",
+
+1716
+"text": "The Beatitudes are at the heart of Jesus' preaching. They take up the promises made to the chosen people since Abraham. The Beatitudes fulfill the promises by ordering them no longer merely to the possession of a territory, but to the Kingdom of heaven:<br>Blessed are the poor in spirit, for theirs is the kingdom of heaven. <br> Blessed are those who mourn, for they shall be comforted. <br> Blessed are the meek, for they shall inherit the earth. <br> Blessed are those who hunger and thirst for righteousness, for they shall be satisfied. <br> Blessed are the merciful, for they shall obtain mercy. <br> Blessed are the pure in heart, for they shall see God. <br> Blessed are the peacemakers, for they shall be called sons of God. <br> Blessed are those who are persecuted for righteousness' sake, for theirs is the kingdom of heaven. <br> Blessed are you when men revile you and persecute you and utter all kinds of evil against you falsely on my account. <br> Rejoice and be glad, for your reward is great in heaven.*",
+
+1954
+"text": "Man participates in the wisdom and goodness of the Creator who gives him mastery over his acts and the ability to govern himself with a view to the true and the good.<br>The natural law expresses the original moral sense which enables man to discern by reason the good and the evil, the truth and the lie:<br>The natural law is written and engraved in the soul of each and every man, because it is human reason ordaining him to do good and forbidding him to sin . . . But this command of human reason would not have the force of law if it were not the voice and interpreter of a higher reason to which our spirit and our freedom must be submitted.*",
+
+25
+"text": "To conclude this Prologue, it is fitting to recall this pastoral principle stated by the Roman Catechism:<br>The whole concern of doctrine and its teaching must be directed to the love that never ends. Whether something is proposed for belief, for hope or for action, the love of our Lord must always be made accessible, so that anyone can see that all the works of perfect Christian virtue spring from love and have no other objective than to arrive at love.*",
+
+2052
+"text": "\"Teacher, what good deed must I do, to have eternal life?\" To the young man who asked this question, Jesus answers first by invoking the necessity to recognize God as the \"One there is who is good,\" as the supreme Good and the source of all good. Then Jesus tells him: \"If you would enter life, keep the commandments.\" and he cites for his questioner the precepts that concern love of neighbor: \"You shall not kill, You shall not commit adultery, You shall not steal, You shall not bear false witness, Honor your father and mother.\" Finally Jesus sums up these commandments positively: \"You shall love your neighbor as yourself.\"*",
+
+2053
+"text": "To this first reply Jesus adds a second: \"If you would be perfect, go, sell what you possess and give to the poor, and you will have treasure in heaven; and come, follow me.\"* This reply does not do away with the first: following Jesus Christ involves keeping the Commandments. the Law has not been abolished,* but rather man is invited to rediscover it in the person of his Master who is its perfect fulfillment. In the three synoptic Gospels, Jesus' call to the rich young man to follow him, in the obedience of a disciple and in the observance of the Commandments, is joined to the call to poverty and chastity.* The evangelical counsels are inseparable from the Commandments.",
+
+2054
+"text": "Jesus acknowledged the Ten Commandments, but he also showed the power of the Spirit at work in their letter. He preached a \"righteousness [which] exceeds that of the scribes and Pharisees\"* as well as that of the Gentiles.* He unfolded all the demands of the Commandments. \"You have heard that it was said to the men of old, 'You shall not kill.' . . . But I say to you that every one who is angry with his brother shall be liable to judgment.\"*",
+
+2055
+"text": "When someone asks him, \"Which commandment in the Law is the greatest?\"* Jesus replies: \"You<br>shall love the Lord your God with all your heart, and with all your soul, and with all your mind. This is the<br>greatest and first commandment. and a second is like it: You shall love your neighbor as yourself. On these<br>two commandments hang all the Law and the prophets.\"* The Decalogue must be interpreted in light of<br>this twofold yet single commandment of love, the fullness of the Law:<br>the commandments: \"You shall not commit adultery, You shall not kill, You shall not steal, You shall not covet,\" and any other commandment, are summed up in this sentence: \"You shall love your neighbor as yourself.\" Love does no wrong to a neighbor; therefore love is the fulfilling of the law.",
+
+2056
+"text": "The word \"Decalogue\" means literally \"ten words.\"* God revealed these \"ten words\" to his people on the holy mountain. They were written \"with the finger of God,\"* unlike the other commandments written by Moses.* They are pre-eminently the words of God. They are handed on to us in the books of Exodus* and Deuteronomy.* Beginning with the Old Testament, the sacred books refer to the \"ten words,\"* but it is in the New Covenant in Jesus Christ that their full meaning will be revealed.",
+
+2057
+"text": "The Decalogue must first be understood in the context of the Exodus, God's great liberating event at<br>the center of the Old Covenant. Whether formulated as negative commandments, prohibitions, or as<br>positive precepts such as: \"Honor your father and mother,\" the \"ten words\" point out the conditions of a life<br>freed from the slavery of sin. The Decalogue is a path of life:<br>If you love the LORD your God, by walking in his ways, and by keeping his commandments and his statutes and his ordinances, then you shall live andmultiply.*<br>This liberating power of the Decalogue appears, for example, in the commandment about the<br>sabbath rest, directed also to foreigners and slaves:<br>You shall remember that you were a servant in the land of Egypt, and the LORD your God brought you out thence with a mighty hand and an outstretched arm.*",
+
+2061
+"text": "The Commandments take on their full meaning within the covenant. According to Scripture, man's<br>moral life has all its meaning in and through the covenant. The first of the \"ten words\" recalls that God loved<br>his people first:<br>Since there was a passing from the paradise of freedom to the slavery of this world, in punishment for sin, the first phrase of the Decalogue, the first word of God's commandments, bears on freedom \"I am the LORD your God, who brought you out of the land of Egypt, out of the house of slavery.\"*",
+
+2062
+"text": "The Commandments properly so-called come in the second place: they express the implications of belonging to God through the establishment of the covenant. Moral existence is a response to the Lord's loving initiative. It is the acknowledgement and homage given to God and a worship of thanksgiving. It is cooperation with the plan God pursues in history.",
+
+2063
+"text": "The covenant and dialogue between God and man are also attested to by the fact that all the obligations<br>are stated in the first person (\"I am the Lord.\") and addressed by God to another personal subject (\"you\"). In<br>all God's commandments, the singular personal pronoun designates the recipient. God makes his will known<br>to each person in particular, at the same time as he makes it known to the whole people:<br>The Lord prescribed love towards God and taught justice towards neighbor, so that man would be neither unjust, nor unworthy of God. Thus, through the Decalogue, God prepared man to become his friend and to live in harmony with his neighbor.... The words of the Decalogue remain likewise for us Christians. Far from being abolished, they have received amplification and development from the fact of the coming of the Lord in the flesh.",
+
+2064
+"text": "In fidelity to Scripture and in conformity with the example of Jesus, the tradition of the Church has acknowledged the primordial importance and significance of the Decalogue.",
+
+2069
+"text": "The Decalogue forms a coherent whole. Each \"word\" refers to each of the others and to all of them; they reciprocally condition one another. the two tables shed light on one another; they form an organic unity. To transgress one commandment is to infringe all the others.30 One cannot honor another person without blessing God his Creator. One cannot adore God without loving all men, his creatures. the Decalogue brings man's religious and social life into unity.",
+
+2070
+"text": "The Ten Commandments belong to God's revelation. At the same time they teach us the true humanity<br>of man. They bring to light the essential duties, and therefore, indirectly, the fundamental rights inherent<br>in the nature of the human person. The Decalogue contains a privileged expression of the natural law:<br>From the beginning, God had implanted in the heart of man the precepts of the natural law. Then he was content to remind him of them. This was the Decalogue.*",
+
+2071
+"text": "The commandments of the Decalogue, although accessible to reason alone, have been revealed. To<br>attain a complete and certain understanding of the requirements of the natural law, sinful humanity needed<br>this revelation:<br>A full explanation of the commandments of the Decalogue became necessary in the state of sin because the light of reason was obscured and the will had gone astray.*<br>We know God's commandments through the<br>divine revelation proposed to us in the Church, and through the voice of moral conscience.",
+
+2072
+"text": "Since they express man's fundamental duties towards God and towards his neighbor, the Ten Commandments reveal, in their primordial content, grave obligations. They are fundamentally immutable, and they oblige always and everywhere. No one can dispense from them. the Ten Commandments are engraved by God in the human heart.",
+
+2073
+"text": "Obedience to the Commandments also implies obligations in matter which is, in itself, light. Thus abusive language is forbidden by the fifth commandment, but would be a grave offense only as a result of circumstances or the offender's intention.",
+
+2074
+"text": "Jesus says: \"I am the vine, you are the branches. He who abides in me, and I in him, he it is that bears much fruit, for apart from me you can do nothing.\"* The fruit referred to in this saying is the holiness of a life made fruitful by union with Christ. When we believe in Jesus Christ, partake of his mysteries, and keep his commandments, the Savior himself comes to love, in us, his Father and his brethren, our Father and our brethren. His person becomes, through the Spirit, the living and interior rule of our activity. \"This is my commandment, that you love one another as I have loved you.\"*",
+
+2240
+"text": "Submission to authority and co-responsibility for the common good make it morally obligatory to pay taxes, to exercise the right to vote, and to defend one's country:<br>Pay to all of them their dues, taxes to whom taxes are due, revenue to whom revenue is due, respect to whom respect is due, honor to whom honor is due.*<br>[Christians] reside in their own nations, but as resident aliens. They participate in all things as citizens and endure all things as foreigners.... They obey the established laws and their way of life surpasses the laws.... So noble is the position to which God has assigned them that they are not allowed to desert it.*<br>The Apostle exhorts us to offer prayers and thanksgiving for kings and all who exercise authority, \"that we may lead a quiet and peaceable life, godly and respectful in every way.\"*",
+
+2260
+"text": "The covenant between God and mankind is interwoven with reminders of God's gift of human life and man's murderous violence:<br>For your lifeblood I will surely require a reckoning.... Whoever sheds the blood of man, by man shall his blood be shed; for God made man in his own image.*<br>The Old Testament always considered blood a sacred sign of life.* This teaching remains necessary for all time.",
+
+2273
+"text": "The inalienable right to life of every innocent human individual is a constitutive element of a civil society and its legislation:<br>\"The inalienable rights of the person must be recognized and respected by civil society and the political authority. <br> These human rights depend neither on single individuals nor on parents; nor do they represent a concession made by society and the state; they belong to human nature and are inherent in the person by virtue of the creative act from which the person took his origin. <br> Among such fundamental rights one should mention in this regard every human being's right to life and physical integrity from the moment of conception until death.\"*<br>\"The moment a positive law deprives a category of human beings of the protection which civil legislation ought to accord them, the state is denying the equality of all before the law. <br> When the state does not place its power at the service of the rights of each citizen, and in particular of the more vulnerable, the very foundations of a state based on law are undermined.... <br> As a consequence of the respect and protection which must be ensured for the unborn child from the moment of conception, the law must provide appropriate penal sanctions for every deliberate violation of the child's rights.\"*",
+
+2349
+"text": "\"People should cultivate [chastity] in the way that is suited to their state of life. Some profess virginity or consecrated celibacy which enables them to give themselves to God alone with an undivided heart in a remarkable manner. Others live in the way prescribed for all by the moral law, whether they are married or single.\"* Married people are called to live conjugal chastity; others practice chastity in continence:<br>There are three forms of the virtue of chastity: the first is that of spouses, the second that of widows, and the third that of virgins. We do not praise any one of them to the exclusion of the others.... This is what makes for the richness of the discipline of the Church.*",
+
+2412
+"text": "In virtue of commutative justice, reparation for injustice committed requires the restitution of stolen goods to their owner:<br>Jesus blesses Zacchaeus for his pledge: \"If I have defrauded anyone of anything, I restore it fourfold.\"* Those who, directly or indirectly, have taken possession of the goods of another, are obliged to make restitution of them, or to return the equivalent in kind or in money, if the goods have disappeared, as well as the profit or advantages their owner would have legitimately obtained from them. Likewise, all who in some manner have taken part in a theft or who have knowingly benefited from it - for example, those who ordered it, assisted in it, or received the stolen goods - are obliged to make restitution in proportion to their responsibility and to their share of what was stolen.",
+
+2423
+"text": "The Church's social teaching proposes principles for reflection; it provides criteria for judgment; it gives guidelines for action:<br>Any system in which social relationships are determined entirely by economic factors is contrary to the nature of the human person and his acts.*",
+
+2759
+"text": "Jesus \"was praying at a certain place, and when he ceased, one of his disciples said to him, 'Lord, teach us to pray, as John taught his disciples.'\"* In response to this request the Lord entrusts to his disciples and to his Church the fundamental Christian prayer. St. Luke presents a brief text of five petitions,* while St. Matthew gives a more developed version of seven petitions.* The liturgical tradition of the Church has retained St. Matthew's text:<br>Our Father who art in heaven, hallowed be thy name. Thy kingdom come. Thy will be done on earth, as it is in heaven. Give us this day our daily bread, and forgive us our trespasses, as we forgive those who trespass against us, and lead us not into temptation, but deliver us from evil.",
+
+2768
+"text": "According to the apostolic tradition, the Lord's Prayer is essentially rooted in liturgical prayer:<br>[The Lord] teaches us to make prayer in common for all our brethren. For he did not say \"my Father\" who art in heaven, but \"our\" Father, offering petitions for the common body.*<br>In all the liturgical traditions, the Lord's Prayer is an integral part of the major hours of the Divine Office. In the three sacraments of Christian initiation its ecclesial character is especially in evidence:",

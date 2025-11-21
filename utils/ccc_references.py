@@ -1,3 +1,13 @@
+#!/usr/bin/env python3
+
+"""
+Parses "../data/ccc-text.json" for scripture references.
+
+# --- Processing Complete ---
+# Saved 61 per-book JSON files.
+# Found 6676 total cross-references.
+"""
+
 import json
 import os
 import re
@@ -305,8 +315,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-# --- Processing Complete ---
-# Saved 59 per-book JSON files.
-# Found 6170 total cross-references.
