@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page not found - Liturgy Bible">
+    <meta name="keywords"
+        content="bible, catholic, liturgy, liturgical, gospel, lectionary, breviary, divine, office, hours, church">
+    <title>Page Not Found - Liturgy Bible</title>
+
+    <!-- Link to your main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google tag (gtag.js) - Placed in <head> as recommended by Google -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BGRS7FKZLX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-BGRS7FKZLX');
+    </script>
+
+    <style>
+        /* --- Styles for the 404 Error Message --- */
+        .error-message {
+            text-align: center;
+            padding: 3rem 1.5rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .error-message h1 {
+            font-size: 6rem;
+            font-weight: 700;
+            color: var(--muted-gold-darker);
+            margin: 0 0 1rem 0;
+            line-height: 1;
+        }
+
+        .error-message h2 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin: 0 0 1.5rem 0;
+            color: var(--color-text-dark);
+        }
+
+        .error-message p {
+            font-size: 1.1rem;
+            margin: 0 0 2rem 0;
+            color: var(--color-text-dark);
+        }
+
+        .error-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 3rem;
+        }
+
+        @media (max-width: 800px) {
+            .error-message h1 {
+                font-size: 4rem;
+            }
+
+            .error-message h2 {
+                font-size: 1.5rem;
+            }
+
+            .error-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .error-buttons .button {
+                width: 200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="top-nav">
+        <a href="index.html">
+            <img src="images/liturgy-Bible-horiz.png" alt="Liturgy Bible Logo" class="header-logo">
+            <img src="images/lb.png" alt="Liturgy Bible Logo" class="header-logo-mobile">
+        </a>
+        <div class="header-controls">
+            <h1 id="page-title" class="header-chapter">Page Not Found</h1>
+        </div>
+    </header>
+
+    <div class="bible-container">
+        <main class="bible-text">
+
+            <div class="error-message">
+                <h1>404</h1>
+                <h2 id="error-phrase">Page Not Found</h2>
+                <p>We're sorry, we can't find that page. If you think this is an error, please <a
+                        href="mailto:liturgybible@gmail.com?subject=404%20Error%20Report">let us know</a>.</p>
+
+                <div class="error-buttons">
+                    <a href="index.html" class="button">Home</a>
+                    <a href="about.html" class="button">About</a>
+                </div>
+            </div>
+
+            <script>
+                // Array of witty biblical phrases for 404 errors
+                const errorPhrases = [
+                    "You must be a lost sheep to be here...",
+                    "Are you sure that's in the Bible...?",
+                    "You've wandered into the wilderness...",
+                    "Seek and you shall find...but not this page",
+                    "In the beginning...this page didn't exist",
+                    "This page isn't even in Dr. Bergsma's Bible...",
+                    "This page isn't even in Dr. Hanh's Bible..."
+                ];
+
+                // Select a random phrase
+                const randomPhrase = errorPhrases[Math.floor(Math.random() * errorPhrases.length)];
+
+                // Update the h2 element with the random phrase
+                document.getElementById('error-phrase').textContent = randomPhrase;
+            </script>
+
+            <hr>
+
+            <div id="subscribe-form-container">
+                <h3>Subscribe to Learn More</h3>
+                <p>Get updates on the Liturgy Bible project, including new features and news about a potential print
+                    edition.</p>
+
+                <form action="https://buttondown.com/api/emails/embed-subscribe/liturgybible" method="POST"
+                    class="embeddable-buttondown-form" target="_blank">
+                    <div class="form-group">
+                        <label for="bd-email">Email Address</label>
+
+                        <input type="email" name="email" id="bd-email" placeholder="your.email@example.com" required>
+                    </div>
+
+                    <input type="hidden" value="1" name="embed" />
+
+                    <div class="form-submit">
+                        <input type="submit" value="Subscribe">
+                    </div>
+                </form>
+            </div>
+
+        </main>
+    </div>
+    <hr>
+    <footer id="footer" align="center">
+        <center>
+            <img src="images/lb.png" width="100px">
+            <p class="copyright">&copy;
+                <script>document.write(new Date().getFullYear())</script> liturgybible.org
+            </p>
+        </center>
+    </footer>
+
+</body>
+
+</html>
