@@ -370,11 +370,21 @@ span[data-verse-part] {
     white-space: normal;
     overflow: visible;
     width: 200px;
-    background-color: whitesmoke;
-    border: 1px solid slategrey;
-    padding: 5px 8px;
+    background-color: white;
+    /* White background for better contrast */
+    color: #222;
+    /* Dark text for readability */
+    font-size: 14px;
+    /* Larger font for better readability */
+    border: 2px solid #444;
+    /* Stronger border */
+    padding: 8px 10px;
+    /* Slightly more padding for breathing room */
     border-radius: 4px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    /* Stronger shadow for better depth */
+    cursor: pointer;
+    /* Indicate clickable */
     z-index: 999 !important;
     /* Ensure label is on top of everything */
 }

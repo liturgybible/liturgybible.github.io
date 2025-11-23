@@ -1041,8 +1041,52 @@ function renderSide(readings, container, isRightSided) {
                 bar.appendChild(label);
                 labelHasBeenShown = true;
 
-                // --- REMOVED JAVASCRIPT HOVER LOGIC ---
-                // All hover logic is now handled by CSS
+                // --- Add hover event listeners to elevate z-index ---
+                label.addEventListener('mouseenter', () => {
+                    bar.style.zIndex = '1000'; // Bring to front
+                });
+                label.addEventListener('mouseleave', () => {
+                    bar.style.zIndex = '5'; // Reset to default
+                });
+                // --- End hover event listeners ---
+
+                // --- Add click event listener to copy text to clipboard ---
+                label.addEventListener('click', async (e) => {
+                    try {
+                        await navigator.clipboard.writeText(labelText);
+
+                        // Visual feedback: show "Copied!" text
+                        const feedback = document.createElement('div');
+                        feedback.textContent = 'Copied to clipboard';
+                        feedback.style.position = 'absolute';
+                        feedback.style.fontSize = '11px';
+                        feedback.style.color = '#769879';
+                        feedback.style.background = 'white';
+                        feedback.style.padding = '2px 6px';
+                        feedback.style.borderRadius = '3px';
+                        feedback.style.boxShadow = '0 2px 4px rgba(0,0,0,0.2)';
+                        feedback.style.zIndex = '1001';
+                        feedback.style.pointerEvents = 'none';
+                        feedback.style.transition = 'opacity 0.3s ease-out';
+
+                        // Position below the label
+                        const rect = label.getBoundingClientRect();
+                        feedback.style.top = `${rect.bottom - rect.top + 5}px`;
+                        feedback.style.left = '50%';
+                        feedback.style.transform = 'translateX(-50%)';
+
+                        label.appendChild(feedback);
+
+                        // Fade out and remove
+                        setTimeout(() => {
+                            feedback.style.opacity = '0';
+                            setTimeout(() => feedback.remove(), 300);
+                        }, 1200);
+                    } catch (err) {
+                        console.error('Failed to copy text to clipboard:', err);
+                    }
+                });
+                // --- End click event listener ---
             }
 
             if (isRightSided) {
