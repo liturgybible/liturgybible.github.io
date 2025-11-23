@@ -151,6 +151,198 @@
       "color": "#4C6B4F",
       "start": "2:1",
       "end": "2:15"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 18, Thursday",
+      "color": "#83A286",
+      "start": "2:1",
+      "end": "2:15"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 18, Friday",
+      "color": "#83A286",
+      "start": "3:5",
+      "end": "3:27"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 18, Saturday",
+      "color": "#83A286",
+      "start": "4:8",
+      "end": "4:37"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 19, Sunday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "4:38",
+          "end": "4:44"
+        },
+        {
+          "start": "6:1",
+          "end": "6:7"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 19, Monday",
+      "color": "#83A286",
+      "start": "5:1",
+      "end": "5:19"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 19, Tuesday",
+      "color": "#83A286",
+      "start": "6:8",
+      "end": "6:23"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 19, Wednesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "6:24",
+          "end": "6:25"
+        },
+        {
+          "start": "6:32",
+          "end": "7:16"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 19, Thursday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "9:1",
+          "end": "9:16"
+        },
+        {
+          "start": "9:22",
+          "end": "9:27"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 19, Friday",
+      "color": "#83A286",
+      "start": "11:1",
+      "end": "12:1"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 19, Saturday",
+      "color": "#83A286",
+      "start": "13:10",
+      "end": "13:25"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 22, Sunday",
+      "color": "#83A286",
+      "start": "14:1",
+      "end": "14:27"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 24, Saturday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "15:1",
+          "end": "15:5"
+        },
+        {
+          "start": "15:32",
+          "end": "15:35"
+        },
+        {
+          "start": "16:1",
+          "end": "16:8"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 26, Tuesday",
+      "color": "#83A286",
+      "start": "17:1",
+      "end": "17:18"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 26, Wednesday",
+      "color": "#83A286",
+      "start": "17:24",
+      "end": "17:41"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 26, Saturday",
+      "color": "#83A286",
+      "start": "20:1",
+      "end": "20:19"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 27, Tuesday",
+      "color": "#83A286",
+      "start": "18:17",
+      "end": "18:36"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 27, Wednesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "18:37",
+          "end": "19:19"
+        },
+        {
+          "start": "18:35",
+          "end": "18:37"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 27, Friday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "21:1",
+          "end": "21:18"
+        },
+        {
+          "start": "21:23",
+          "end": "22:1a"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 29, Sunday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "22:8",
+          "end": "22:8"
+        },
+        {
+          "start": "22:10",
+          "end": "23:4"
+        },
+        {
+          "start": "22:21",
+          "end": "22:23"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 31, Sunday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "24:20b",
+          "end": "25:13"
+        },
+        {
+          "start": "24:18",
+          "end": "24:21"
+        }
+      ]
     }
   ]
 }

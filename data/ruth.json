@@ -41,5 +41,36 @@
       ]
     }
   ],
-  "divineOffice": []
+  "divineOffice": [
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Week 2, Wednesday",
+      "color": "#83A286",
+      "start": "1:1",
+      "end": "1:22"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Week 2, Thursday",
+      "color": "#83A286",
+      "start": "2:1",
+      "end": "2:13"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Week 2, Friday",
+      "color": "#83A286",
+      "start": "2:14",
+      "end": "2:23"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Week 2, Saturday",
+      "color": "#83A286",
+      "start": "3:1",
+      "end": "3:18"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Week 3, Sunday",
+      "color": "#83A286",
+      "start": "4:1",
+      "end": "4:22"
+    }
+  ]
 }

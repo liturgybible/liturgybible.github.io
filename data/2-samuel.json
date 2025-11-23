@@ -361,6 +361,108 @@
       ]
     },
     {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 15, Monday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "2:1",
+          "end": "2:11"
+        },
+        {
+          "start": "3:1",
+          "end": "3:5"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 15, Tuesday",
+      "color": "#83A286",
+      "start": "4:2",
+      "end": "5:7"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 15, Wednesday",
+      "color": "#83A286",
+      "start": "6:1",
+      "end": "6:23"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 15, Thursday",
+      "color": "#83A286",
+      "start": "7:1",
+      "end": "7:25"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 15, Friday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "11:1",
+          "end": "11:17"
+        },
+        {
+          "start": "11:26",
+          "end": "11:27"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 15, Saturday",
+      "color": "#83A286",
+      "start": "12:1",
+      "end": "12:25"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 16, Sunday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "15:7",
+          "end": "15:14"
+        },
+        {
+          "start": "15:24",
+          "end": "15:30"
+        },
+        {
+          "start": "16:5",
+          "end": "16:13"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 16, Monday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "18:6",
+          "end": "18:17"
+        },
+        {
+          "start": "18:24",
+          "end": "19:5"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 16, Tuesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "24:1",
+          "end": "24:4"
+        },
+        {
+          "start": "24:10",
+          "end": "24:18"
+        },
+        {
+          "start": "24:24b",
+          "end": "24:25"
+        }
+      ]
+    },
+    {
       "name": "Mar 19, St. Joseph: Morning Prayer",
       "color": "#4A628A",
       "start": "7:28",

@@ -71,6 +71,34 @@
       ]
     },
     {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 24, Friday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "1:14",
+          "end": "2:5"
+        },
+        {
+          "start": "3:1",
+          "end": "3:8"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 24, Saturday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "3:9",
+          "end": "3:15"
+        },
+        {
+          "start": "3:24",
+          "end": "4:4"
+        }
+      ]
+    },
+    {
       "name": "Ordinary Time, Week 2: Friday Midday Prayer",
       "color": "#4A628A",
       "start": "4:28",

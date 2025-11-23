@@ -17,6 +17,116 @@
   ],
   "divineOffice": [
     {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 26, Sunday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "2:1",
+          "end": "2:6"
+        },
+        {
+          "start": "3:6",
+          "end": "3:6"
+        },
+        {
+          "start": "4:1",
+          "end": "4:2"
+        },
+        {
+          "start": "4:9",
+          "end": "4:15"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 26, Monday",
+      "color": "#83A286",
+      "start": "5:1",
+      "end": "5:21"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 26, Tuesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "6:1",
+          "end": "6:8"
+        },
+        {
+          "start": "6:10",
+          "end": "7:1"
+        },
+        {
+          "start": "6:4",
+          "end": "6:5"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 26, Wednesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "8:1a",
+          "end": "8:1a"
+        },
+        {
+          "start": "8:9b",
+          "end": "8:14"
+        },
+        {
+          "start": "8:28",
+          "end": "8:33"
+        },
+        {
+          "start": "9:1",
+          "end": "9:1"
+        },
+        {
+          "start": "9:4b",
+          "end": "9:6"
+        },
+        {
+          "start": "9:11",
+          "end": "9:14"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 26, Thursday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "10:1",
+          "end": "10:5"
+        },
+        {
+          "start": "10:11",
+          "end": "10:17"
+        },
+        {
+          "start": "11:1",
+          "end": "11:8"
+        },
+        {
+          "start": "11:20",
+          "end": "11:23"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 26, Friday",
+      "color": "#83A286",
+      "start": "12:1",
+      "end": "13:3"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 26, Saturday",
+      "color": "#83A286",
+      "start": "13:4",
+      "end": "13:20"
+    },
+    {
       "name": "Week 1: Wednesday Morning Prayer",
       "color": "#5E4B81",
       "segments": [

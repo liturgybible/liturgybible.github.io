@@ -515,6 +515,102 @@
       "end": "12:13"
     },
     {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 33, Thursday",
+      "color": "#83A286",
+      "start": "1:1",
+      "end": "1:21"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 33, Friday",
+      "color": "#83A286",
+      "start": "2:26",
+      "end": "2:47"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 33, Saturday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "3:8",
+          "end": "3:12"
+        },
+        {
+          "start": "3:19",
+          "end": "3:24"
+        },
+        {
+          "start": "3:91",
+          "end": "3:97"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Sunday Solemnity of Our Lord Jesus Christ, King of the Universe",
+      "color": "#83A286",
+      "start": "7:1",
+      "end": "7:27"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 34, Monday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "5:1",
+          "end": "5:2"
+        },
+        {
+          "start": "5:5",
+          "end": "5:9"
+        },
+        {
+          "start": "5:13",
+          "end": "5:17"
+        },
+        {
+          "start": "5:25",
+          "end": "6:1"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 34, Tuesday",
+      "color": "#83A286",
+      "start": "6:4",
+      "end": "6:28"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 34, Wednesday",
+      "color": "#83A286",
+      "start": "8:1",
+      "end": "8:26"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 34, Thursday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "9:1",
+          "end": "9:4"
+        },
+        {
+          "start": "9:18",
+          "end": "9:27"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 34, Friday",
+      "color": "#83A286",
+      "start": "10:1",
+      "end": "11:1"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 34, Saturday",
+      "color": "#83A286",
+      "start": "12:1",
+      "end": "12:13"
+    },
+    {
       "name": "Week 4: Tuesday Morning Prayer",
       "color": "#5E4B81",
       "segments": [

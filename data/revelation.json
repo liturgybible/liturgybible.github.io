@@ -535,6 +535,200 @@
       "end": "22:21"
     },
     {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 2, Monday",
+      "color": "#83A286",
+      "start": "1:1",
+      "end": "1:20"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 2, Tuesday",
+      "color": "#83A286",
+      "start": "2:1",
+      "end": "2:11"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 2, Wednesday",
+      "color": "#83A286",
+      "start": "2:12",
+      "end": "2:29"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 2, Thursday",
+      "color": "#83A286",
+      "start": "3:1",
+      "end": "3:22"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 2, Friday",
+      "color": "#83A286",
+      "start": "4:1",
+      "end": "4:11"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 2, Saturday",
+      "color": "#83A286",
+      "start": "5:1",
+      "end": "5:14"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 3, Sunday",
+      "color": "#83A286",
+      "start": "6:1",
+      "end": "6:17"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 3, Monday",
+      "color": "#83A286",
+      "start": "7:1",
+      "end": "7:17"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 3, Tuesday",
+      "color": "#83A286",
+      "start": "8:1",
+      "end": "8:13"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 3, Wednesday",
+      "color": "#83A286",
+      "start": "9:1",
+      "end": "9:12"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 3, Thursday",
+      "color": "#83A286",
+      "start": "9:13",
+      "end": "9:21"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 3, Friday",
+      "color": "#83A286",
+      "start": "10:1",
+      "end": "10:11"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 4, Sunday",
+      "color": "#83A286",
+      "start": "12:1",
+      "end": "12:18"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 4, Monday",
+      "color": "#83A286",
+      "start": "13:1",
+      "end": "13:18"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 4, Tuesday",
+      "color": "#83A286",
+      "start": "14:1",
+      "end": "14:13"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 4, Wednesday",
+      "color": "#83A286",
+      "start": "14:14",
+      "end": "15:4"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 4, Thursday",
+      "color": "#83A286",
+      "start": "15:4",
+      "end": "16:21"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 4, Friday",
+      "color": "#83A286",
+      "start": "17:1",
+      "end": "17:18"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 4, Saturday",
+      "color": "#83A286",
+      "start": "18:1",
+      "end": "18:20"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 5, Sunday",
+      "color": "#83A286",
+      "start": "18:21",
+      "end": "19:10"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 5, Monday",
+      "color": "#83A286",
+      "start": "19:11",
+      "end": "19:21"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 5, Tuesday",
+      "color": "#83A286",
+      "start": "20:1",
+      "end": "20:15"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 5, Wednesday",
+      "color": "#83A286",
+      "start": "21:1",
+      "end": "21:8"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 5, Thursday",
+      "color": "#83A286",
+      "start": "21:9",
+      "end": "21:27"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 5, Friday",
+      "color": "#83A286",
+      "start": "22:1",
+      "end": "22:9"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Easter, Week 5, Saturday",
+      "color": "#83A286",
+      "start": "22:10",
+      "end": "22:21"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Sunday Solemnity of Our Lord Jesus Christ, King of the Universe",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "1:4",
+          "end": "1:6"
+        },
+        {
+          "start": "1:10",
+          "end": "1:10"
+        },
+        {
+          "start": "1:12",
+          "end": "1:18"
+        },
+        {
+          "start": "2:26",
+          "end": "2:26"
+        },
+        {
+          "start": "2:28",
+          "end": "2:28"
+        },
+        {
+          "start": "3:5",
+          "end": "3:5"
+        },
+        {
+          "start": "3:12",
+          "end": "3:12"
+        },
+        {
+          "start": "3:20",
+          "end": "3:21"
+        }
+      ]
+    },
+    {
       "name": "Weeks 1,2,3,4: Tuesday Evening Prayer",
       "color": "#5E4B81",
       "segments": [

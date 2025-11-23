@@ -55,6 +55,38 @@
       ]
     },
     {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 18, Monday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:1"
+        },
+        {
+          "start": "1:13",
+          "end": "2:11"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 18, Tuesday",
+      "color": "#83A286",
+      "start": "2:12",
+      "end": "2:27"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 18, Wednesday",
+      "color": "#83A286",
+      "start": "3:1",
+      "end": "4:8"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 18, Thursday",
+      "color": "#83A286",
+      "start": "4:9",
+      "end": "4:21"
+    },
+    {
       "name": "Lent Weeks 1-4, Tuesday: Morning Prayer",
       "color": "#4A628A",
       "start": "2:12",

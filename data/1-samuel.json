@@ -341,6 +341,214 @@
       ]
     },
     {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 12, Tuesday",
+      "color": "#83A286",
+      "start": "1:1",
+      "end": "1:19"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 12, Wednesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "1:20",
+          "end": "1:28"
+        },
+        {
+          "start": "2:11",
+          "end": "2:21"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 12, Thursday",
+      "color": "#83A286",
+      "start": "2:22",
+      "end": "2:36"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 12, Friday",
+      "color": "#83A286",
+      "start": "3:1",
+      "end": "3:21"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 12, Saturday",
+      "color": "#83A286",
+      "start": "4:1",
+      "end": "4:18"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 13, Sunday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "5:1",
+          "end": "5:6"
+        },
+        {
+          "start": "6:1",
+          "end": "6:5a"
+        },
+        {
+          "start": "6:10",
+          "end": "6:12"
+        },
+        {
+          "start": "6:19",
+          "end": "6:21"
+        },
+        {
+          "start": "7:1",
+          "end": "7:1"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 13, Monday",
+      "color": "#83A286",
+      "start": "7:15",
+      "end": "8:22"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 13, Tuesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "9:1",
+          "end": "9:6"
+        },
+        {
+          "start": "9:14",
+          "end": "10:1"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 13, Wednesday",
+      "color": "#83A286",
+      "start": "11:1",
+      "end": "11:15"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 13, Thursday",
+      "color": "#83A286",
+      "start": "12:1",
+      "end": "12:25"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 13, Friday",
+      "color": "#83A286",
+      "start": "15:1",
+      "end": "15:23"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 13, Saturday",
+      "color": "#83A286",
+      "start": "16:1",
+      "end": "16:13"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 14, Sunday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "17:1",
+          "end": "17:10"
+        },
+        {
+          "start": "17:23b",
+          "end": "17:26"
+        },
+        {
+          "start": "17:40",
+          "end": "17:51"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 14, Monday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "17:57",
+          "end": "18:9"
+        },
+        {
+          "start": "17:20",
+          "end": "17:30"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 14, Tuesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "19:8",
+          "end": "19:10"
+        },
+        {
+          "start": "20:1",
+          "end": "20:17"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 14, Wednesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "21:1",
+          "end": "21:10"
+        },
+        {
+          "start": "22:1",
+          "end": "22:5"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 14, Thursday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "25:14",
+          "end": "25:24"
+        },
+        {
+          "start": "25:28",
+          "end": "25:39"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 14, Friday",
+      "color": "#83A286",
+      "start": "26:5",
+      "end": "26:25"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 14, Saturday",
+      "color": "#83A286",
+      "start": "28:3",
+      "end": "28:25"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 15, Sunday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "31:1",
+          "end": "31:4"
+        },
+        {
+          "start": "31:2",
+          "end": "31:2"
+        }
+      ]
+    },
+    {
       "name": "Week 2: Wednesday Morning Prayer",
       "color": "#5E4B81",
       "start": "2:1",

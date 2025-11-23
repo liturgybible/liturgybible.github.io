@@ -47,6 +47,148 @@
       "end": "5:22"
     },
     {
+      "name": "2-yr Office of Readings, Year I: Lent, Week 5, Tuesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:12"
+        },
+        {
+          "start": "1:18",
+          "end": "1:20"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Lent, Week 5, Wednesday",
+      "color": "#83A286",
+      "start": "2:1",
+      "end": "2:9"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Lent, Week 5, Optional",
+      "color": "#83A286",
+      "start": "2:10",
+      "end": "2:22"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Sacred Paschal Triduum, Alternate",
+      "color": "#83A286",
+      "start": "3:1",
+      "end": "3:33"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Sacred Paschal Triduum, Alternate (Canticle 1)",
+      "color": "#83A286",
+      "start": "2:13",
+      "end": "2:19"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Sacred Paschal Triduum, Alternate (Canticle 2)",
+      "color": "#83A286",
+      "start": "3:1",
+      "end": "3:12"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Sacred Paschal Triduum, Alternate (Canticle 3)",
+      "color": "#83A286",
+      "start": "3:13",
+      "end": "3:24"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Sacred Paschal Triduum, Alternate",
+      "color": "#83A286",
+      "start": "5:1",
+      "end": "5:22"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Sacred Paschal Triduum, Alternate (Canticle 1)",
+      "color": "#83A286",
+      "start": "3:25",
+      "end": "3:39"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Sacred Paschal Triduum, Alternate (Canticle 2)",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "3:40",
+          "end": "3:42"
+        },
+        {
+          "start": "3:49",
+          "end": "3:60"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Sacred Paschal Triduum, Alternate (Canticle 3)",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "5:1",
+          "end": "5:7"
+        },
+        {
+          "start": "5:13",
+          "end": "5:21"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Alternate (Canticle 1)",
+      "color": "#83A286",
+      "start": "2:13",
+      "end": "2:19"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Alternate (Canticle 2)",
+      "color": "#83A286",
+      "start": "3:1",
+      "end": "3:12"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Alternate (Canticle 3)",
+      "color": "#83A286",
+      "start": "3:13",
+      "end": "3:24"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Alternate (Canticle 1)",
+      "color": "#83A286",
+      "start": "3:25",
+      "end": "3:39"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Alternate (Canticle 2)",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "3:40",
+          "end": "3:42"
+        },
+        {
+          "start": "3:49",
+          "end": "3:60"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Alternate (Canticle 3)",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "5:1",
+          "end": "5:7"
+        },
+        {
+          "start": "5:13",
+          "end": "5:21"
+        }
+      ]
+    },
+    {
       "name": "Dec 28, Holy Innocents: Midorning Prayer",
       "color": "#4A628A",
       "start": "1:16",

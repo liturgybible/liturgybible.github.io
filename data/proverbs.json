@@ -151,6 +151,92 @@
       "end": "31:31"
     },
     {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 14, Sunday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:7"
+        },
+        {
+          "start": "1:20",
+          "end": "1:33"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 14, Monday",
+      "color": "#83A286",
+      "start": "3:1",
+      "end": "3:20"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 14, Tuesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "8:1",
+          "end": "8:5"
+        },
+        {
+          "start": "8:12",
+          "end": "8:36"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 14, Wednesday",
+      "color": "#83A286",
+      "start": "9:1",
+      "end": "9:18"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 14, Thursday",
+      "color": "#83A286",
+      "start": "10:6",
+      "end": "10:32"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 14, Friday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "15:8",
+          "end": "15:9"
+        },
+        {
+          "start": "15:16",
+          "end": "15:17"
+        },
+        {
+          "start": "15:25",
+          "end": "15:26"
+        },
+        {
+          "start": "15:29",
+          "end": "15:29"
+        },
+        {
+          "start": "15:33",
+          "end": "15:33"
+        },
+        {
+          "start": "16:1",
+          "end": "16:9"
+        },
+        {
+          "start": "16:17",
+          "end": "16:17"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 14, Saturday",
+      "color": "#83A286",
+      "start": "31:10",
+      "end": "31:31"
+    },
+    {
       "name": "Ordinary Time, Week 1: Tuesday Midday Prayer",
       "color": "#4A628A",
       "start": "3:13",

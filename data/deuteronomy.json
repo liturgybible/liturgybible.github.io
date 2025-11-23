@@ -401,6 +401,110 @@
       ]
     },
     {
+      "name": "2-yr Office of Readings, Year I: Lent, Week 1, Sunday",
+      "color": "#83A286",
+      "start": "6:4",
+      "end": "6:25"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Lent, Week 1, Monday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "7:6",
+          "end": "7:14"
+        },
+        {
+          "start": "8:1",
+          "end": "8:6"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Lent, Week 1, Tuesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "9:7",
+          "end": "9:21"
+        },
+        {
+          "start": "9:25",
+          "end": "9:29"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Lent, Week 1, Wednesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "10:12",
+          "end": "11:9"
+        },
+        {
+          "start": "10:26",
+          "end": "10:28"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Lent, Week 1, Thursday",
+      "color": "#83A286",
+      "start": "12:1",
+      "end": "12:14"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Lent, Week 1, Friday",
+      "color": "#83A286",
+      "start": "15:1",
+      "end": "15:18"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Lent, Week 1, Saturday",
+      "color": "#83A286",
+      "start": "16:1",
+      "end": "16:17"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Lent, Week 2, Sunday",
+      "color": "#83A286",
+      "start": "18:1",
+      "end": "18:22"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Lent, Week 2, Monday",
+      "color": "#83A286",
+      "start": "24:1",
+      "end": "25:4"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Lent, Week 2, Tuesday",
+      "color": "#83A286",
+      "start": "26:1",
+      "end": "26:19"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Lent, Week 2, Thursday",
+      "color": "#83A286",
+      "start": "30:1",
+      "end": "30:20"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Lent, Week 2, Saturday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "32:48",
+          "end": "32:52"
+        },
+        {
+          "start": "34:1",
+          "end": "34:12"
+        }
+      ]
+    },
+    {
       "name": "Week 2: Saturday Morning Prayer",
       "color": "#5E4B81",
       "start": "32:1",

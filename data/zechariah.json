@@ -119,6 +119,104 @@
       "end": "10:2"
     },
     {
+      "name": "2-yr Office of Readings, Year I: Lent, Week 5, Thursday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "11:4",
+          "end": "11:14"
+        },
+        {
+          "start": "13:4",
+          "end": "13:7"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Thursday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "11:4",
+          "end": "11:14"
+        },
+        {
+          "start": "13:4",
+          "end": "13:7"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 11, Friday",
+      "color": "#83A286",
+      "start": "1:1",
+      "end": "2:4"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 11, Saturday",
+      "color": "#83A286",
+      "start": "2:5",
+      "end": "2:17"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 12, Sunday",
+      "color": "#83A286",
+      "start": "3:1",
+      "end": "4:14"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 12, Monday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "8:1",
+          "end": "8:17"
+        },
+        {
+          "start": "8:20",
+          "end": "8:23"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 19, Tuesday",
+      "color": "#83A286",
+      "start": "9:1",
+      "end": "10:2"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 19, Wednesday",
+      "color": "#83A286",
+      "start": "10:3",
+      "end": "11:3"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 19, Thursday",
+      "color": "#83A286",
+      "start": "11:4",
+      "end": "12:8"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 19, Friday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "12:9",
+          "end": "12:12a"
+        },
+        {
+          "start": "13:1",
+          "end": "13:9"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 19, Saturday",
+      "color": "#83A286",
+      "start": "14:1",
+      "end": "14:21"
+    },
+    {
       "name": "Jan. 1, Mary, Mother of God: Midday Prayer",
       "color": "#4A628A",
       "start": "9:9a",

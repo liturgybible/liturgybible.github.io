@@ -99,6 +99,56 @@
       "end": "7:20"
     },
     {
+      "name": "2-yr Office of Readings, Year I: Advent, Week 3, Tuesday",
+      "color": "#83A286",
+      "start": "4:1",
+      "end": "4:14"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Week 3, Wednesday",
+      "color": "#83A286",
+      "start": "4:14",
+      "end": "5:7"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Week 3, Thursday",
+      "color": "#83A286",
+      "start": "7:7",
+      "end": "7:13"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Week 3, Friday",
+      "color": "#83A286",
+      "start": "7:14",
+      "end": "7:20"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 25, Saturday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:9"
+        },
+        {
+          "start": "2:1",
+          "end": "2:11"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 26, Sunday",
+      "color": "#83A286",
+      "start": "3:1",
+      "end": "3:12"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 26, Monday",
+      "color": "#83A286",
+      "start": "6:1",
+      "end": "6:15"
+    },
+    {
       "name": "Ordinary Time, Week 3: Saturday Midafternoon Prayer",
       "color": "#4A628A",
       "start": "6:8",

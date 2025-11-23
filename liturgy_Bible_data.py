@@ -17,6 +17,7 @@ COLOR_MAP = {
     "Solemnities & Feasts": "#C9A441",
     "Weekday Reading": "#B35C58",
     "LOTH: Office of Readings": "#4C6B4F",
+    "LOTH: Office of Readings (2 year cycle)": "#83A286",
     "LOTH: Psalms": "#5E4B81",
     "LOTH: Ordinary": "#5E4B81",
     "LOTH: Other": "#4A628A"
@@ -26,13 +27,13 @@ DEFAULT_COLOR = "#808080" # Grey for any unmapped colors
 # Mapping of book names from the CSV to the canonical name used for filenames/grouping
 BOOK_NAME_MAP = {
     "Gen": "Genesis", "Exod": "Exodus", "Lev": "Leviticus", "Num": "Numbers", "Deut": "Deuteronomy",
-    "Josh": "Joshua", "Judg": "Judges", "Ruth": "Ruth", "1 Sam": "1 Samuel", "2 Sam": "2 Samuel",
+    "Josh": "Joshua", "Judg": "Judges", "Ru": "Ruth", "1 Sam": "1 Samuel", "2 Sam": "2 Samuel",
     "1 Kgs": "1 Kings", "2 Kgs": "2 Kings", "1 Chr": "1 Chronicles", "2 Chr": "2 Chronicles",
-    "Ezra": "Ezra", "Neh": "Nehemiah", "Tob": "Tobit", "Jdt": "Judith", "Est": "Esther",
+    "Ezr": "Ezra", "Neh": "Nehemiah", "Tob": "Tobit", "Jdt": "Judith", "Est": "Esther",
     "1 Macc": "1 Maccabees", "2 Macc": "2 Maccabees", "Job": "Job", "Ps": "Psalms", "Prov": "Proverbs",
     "Eccl": "Ecclesiastes", "Song": "Song of Songs", "Wis": "Wisdom", "Sir": "Sirach",
     "Isa": "Isaiah", "Jer": "Jeremiah", "Lam": "Lamentations", "Bar": "Baruch", "Ezek": "Ezekiel",
-    "Dan": "Daniel", "Hos": "Hosea", "Joel": "Joel", "Amos": "Amos", "Obad": "Obadiah",
+    "Dan": "Daniel", "Hos": "Hosea", "Joel": "Joel", "Amos": "Amos", "Ob": "Obadiah",
     "Jonah": "Jonah", "Mic": "Micah", "Nah": "Nahum", "Hab": "Habakkuk", "Zeph": "Zephaniah",
     "Hag": "Haggai", "Zech": "Zechariah", "Mal": "Malachi", "Matt": "Matthew", "Mark": "Mark",
     "Luke": "Luke", "John": "John", "Acts": "Acts", "Rom": "Romans", "1 Cor": "1 Corinthians",

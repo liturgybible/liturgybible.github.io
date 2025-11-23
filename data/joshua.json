@@ -127,6 +127,76 @@
           "end": "24:28"
         }
       ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 10, Monday",
+      "color": "#83A286",
+      "start": "1:1",
+      "end": "1:18"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 10, Tuesday",
+      "color": "#83A286",
+      "start": "2:1",
+      "end": "2:24"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 10, Wednesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "3:1",
+          "end": "3:17"
+        },
+        {
+          "start": "4:14",
+          "end": "4:19"
+        },
+        {
+          "start": "5:10",
+          "end": "5:12"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 10, Thursday",
+      "color": "#83A286",
+      "start": "5:13",
+      "end": "6:21"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 10, Friday",
+      "color": "#83A286",
+      "start": "7:4",
+      "end": "7:26"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 10, Saturday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "10:1",
+          "end": "10:14"
+        },
+        {
+          "start": "11:15",
+          "end": "11:17"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 11, Sunday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "24:1",
+          "end": "24:7"
+        },
+        {
+          "start": "24:13",
+          "end": "24:28"
+        }
+      ]
     }
   ]
 }

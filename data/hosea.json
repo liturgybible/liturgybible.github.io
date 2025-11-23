@@ -173,6 +173,82 @@
       "end": "14:10"
     },
     {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 23, Wednesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:9"
+        },
+        {
+          "start": "3:1",
+          "end": "3:5"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 23, Thursday",
+      "color": "#83A286",
+      "start": "2:4",
+      "end": "2:26"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 23, Friday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "4:1",
+          "end": "4:10"
+        },
+        {
+          "start": "5:1",
+          "end": "5:7"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 23, Saturday",
+      "color": "#83A286",
+      "start": "5:15b",
+      "end": "7:2"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 24, Sunday",
+      "color": "#83A286",
+      "start": "8:1",
+      "end": "8:14"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 24, Monday",
+      "color": "#83A286",
+      "start": "9:1",
+      "end": "9:14"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 24, Tuesday",
+      "color": "#83A286",
+      "start": "10:1",
+      "end": "10:15"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 24, Wednesday",
+      "color": "#83A286",
+      "start": "11:1",
+      "end": "11:11"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 24, Thursday",
+      "color": "#83A286",
+      "start": "13:1",
+      "end": "14:1"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 24, Friday",
+      "color": "#83A286",
+      "start": "14:2",
+      "end": "14:10"
+    },
+    {
       "name": "Holy Saturday: Morning Prayer",
       "color": "#4A628A",
       "start": "5:15b",

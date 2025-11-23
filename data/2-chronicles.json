@@ -35,6 +35,40 @@
           "end": "20:24"
         }
       ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 18, Wednesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "20:1",
+          "end": "20:9"
+        },
+        {
+          "start": "20:13",
+          "end": "20:24"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 26, Thursday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "29:1",
+          "end": "29:2"
+        },
+        {
+          "start": "30:1",
+          "end": "30:16a"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 29, Tuesday",
+      "color": "#83A286",
+      "start": "35:20",
+      "end": "36:12"
     }
   ]
 }

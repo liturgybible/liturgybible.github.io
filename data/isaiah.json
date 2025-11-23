@@ -1209,6 +1209,626 @@
       ]
     },
     {
+      "name": "2-yr Office of Readings, Year I: Advent, Week 1, Sunday",
+      "color": "#83A286",
+      "start": "6:1",
+      "end": "6:13"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Week 1, Monday",
+      "color": "#83A286",
+      "start": "7:1",
+      "end": "7:17"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Week 1, Tuesday",
+      "color": "#83A286",
+      "start": "8:1",
+      "end": "8:18"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Week 1, Wednesday",
+      "color": "#83A286",
+      "start": "8:23b",
+      "end": "9:6"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Week 1, Thursday",
+      "color": "#83A286",
+      "start": "10:5",
+      "end": "10:21"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Week 1, Friday",
+      "color": "#83A286",
+      "start": "11:10",
+      "end": "11:16"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Week 1, Saturday",
+      "color": "#83A286",
+      "start": "13:1",
+      "end": "13:22a"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Week 2, Sunday",
+      "color": "#83A286",
+      "start": "14:1",
+      "end": "14:21"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Week 2, Monday",
+      "color": "#83A286",
+      "start": "34:1",
+      "end": "34:17"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Week 2, Tuesday",
+      "color": "#83A286",
+      "start": "35:1",
+      "end": "35:10"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Dec. 17",
+      "color": "#83A286",
+      "start": "40:1",
+      "end": "40:11"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Dec. 18",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "40:12",
+          "end": "40:18"
+        },
+        {
+          "start": "40:21",
+          "end": "40:31"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Dec. 19",
+      "color": "#83A286",
+      "start": "41:8",
+      "end": "41:20"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Dec. 20",
+      "color": "#83A286",
+      "start": "41:21",
+      "end": "41:29"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Dec. 21",
+      "color": "#83A286",
+      "start": "42:10",
+      "end": "42:25"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Dec. 22",
+      "color": "#83A286",
+      "start": "43:1",
+      "end": "43:13"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Dec. 23",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "43:14a",
+          "end": "43:14a"
+        },
+        {
+          "start": "43:18",
+          "end": "43:28"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Advent, Dec. 24",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "44:1",
+          "end": "44:8"
+        },
+        {
+          "start": "44:21",
+          "end": "44:23"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Week 1, Sunday",
+      "color": "#83A286",
+      "start": "1:1",
+      "end": "1:18"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Week 1, Monday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "1:21",
+          "end": "1:27"
+        },
+        {
+          "start": "2:1",
+          "end": "2:5"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Week 1, Tuesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "2:6",
+          "end": "2:21"
+        },
+        {
+          "start": "4:2",
+          "end": "4:6"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Week 1, Wednesday",
+      "color": "#83A286",
+      "start": "5:1",
+      "end": "5:7"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Week 1, Thursday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "16:1",
+          "end": "16:5"
+        },
+        {
+          "start": "17:4",
+          "end": "17:8"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Week 1, Friday",
+      "color": "#83A286",
+      "start": "19:16",
+      "end": "19:25"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Week 1, Saturday",
+      "color": "#83A286",
+      "start": "21:6",
+      "end": "21:12"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Week 2, Sunday",
+      "color": "#83A286",
+      "start": "22:8",
+      "end": "22:23"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Week 2, Monday",
+      "color": "#83A286",
+      "start": "24:1",
+      "end": "24:18"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Week 2, Tuesday",
+      "color": "#83A286",
+      "start": "24:19",
+      "end": "25:5"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Week 2, Wednesday",
+      "color": "#83A286",
+      "start": "25:6",
+      "end": "26:6"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Week 2, Thursday",
+      "color": "#83A286",
+      "start": "26:7",
+      "end": "26:21"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Week 2, Friday",
+      "color": "#83A286",
+      "start": "27:1",
+      "end": "27:13"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Week 2, Saturday",
+      "color": "#83A286",
+      "start": "29:1",
+      "end": "29:8"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Week 3, Sunday",
+      "color": "#83A286",
+      "start": "29:13",
+      "end": "29:24"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Week 3, Monday",
+      "color": "#83A286",
+      "start": "30:18",
+      "end": "30:26"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Week 3, Tuesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "30:27",
+          "end": "30:33"
+        },
+        {
+          "start": "31:4",
+          "end": "31:9"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Week 3, Wednesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "31:1",
+          "end": "31:3"
+        },
+        {
+          "start": "32:1",
+          "end": "32:8"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Week 3, Thursday",
+      "color": "#83A286",
+      "start": "32:15",
+      "end": "33:6"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Week 3, Friday",
+      "color": "#83A286",
+      "start": "33:7",
+      "end": "33:24"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Dec. 17",
+      "color": "#83A286",
+      "start": "45:1",
+      "end": "45:3"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Dec. 18",
+      "color": "#83A286",
+      "start": "46:1",
+      "end": "46:13"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Dec. 19",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "47:1",
+          "end": "47:1"
+        },
+        {
+          "start": "47:4",
+          "end": "47:15"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Dec. 20",
+      "color": "#83A286",
+      "start": "48:1",
+      "end": "48:11"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Dec. 21",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "48:12",
+          "end": "48:21"
+        },
+        {
+          "start": "49:9b",
+          "end": "49:13"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Dec. 22",
+      "color": "#83A286",
+      "start": "49:14",
+      "end": "50:1"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Dec. 23",
+      "color": "#83A286",
+      "start": "51:1",
+      "end": "51:11"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Advent, Dec. 24",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "51:17",
+          "end": "52:2"
+        },
+        {
+          "start": "51:7",
+          "end": "51:10"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Dec. 25, On Christmas Day",
+      "color": "#83A286",
+      "start": "11:1",
+      "end": "11:10"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Jan. 6, Christmas",
+      "color": "#83A286",
+      "start": "42:1",
+      "end": "42:8"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Jan. 7, Christmas",
+      "color": "#83A286",
+      "start": "61:1",
+      "end": "61:11"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Jan. 6, Epiphany of the Lord",
+      "color": "#83A286",
+      "start": "60:1",
+      "end": "60:22"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: 7 January or Monday after Epiphany",
+      "color": "#83A286",
+      "start": "61:1",
+      "end": "61:11"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: 8 January or Tuesday after Epiphany",
+      "color": "#83A286",
+      "start": "62:1",
+      "end": "62:12"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: 9 January or Wednesday after Epiphany",
+      "color": "#83A286",
+      "start": "63:7",
+      "end": "63:19"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: 10 January or Thursday after Epiphany",
+      "color": "#83A286",
+      "start": "63:19b",
+      "end": "64:11"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: 1Jan. 1, or Friday after Epiphany",
+      "color": "#83A286",
+      "start": "65:13",
+      "end": "65:25"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: 12 January or Saturday after Epiphany",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "66:10",
+          "end": "66:14"
+        },
+        {
+          "start": "66:18",
+          "end": "66:23"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Sunday after Jan. 6, Baptism of the Lord",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "42:1",
+          "end": "42:9"
+        },
+        {
+          "start": "49:1",
+          "end": "49:9"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Dec. 25, On Christmas Day",
+      "color": "#83A286",
+      "start": "11:1",
+      "end": "11:10"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Jan. 6, Christmas",
+      "color": "#83A286",
+      "start": "49:1",
+      "end": "49:9"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Jan. 7, Christmas",
+      "color": "#83A286",
+      "start": "54:1",
+      "end": "54:17"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Jan. 6, Sunday a die 2 ad day 8 January occurring In Epipha- nia Domini",
+      "color": "#83A286",
+      "start": "60:1",
+      "end": "60:22"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: 7 January or Monday after Epiphany",
+      "color": "#83A286",
+      "start": "54:1",
+      "end": "54:17"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: 8 January or Tuesday after Epiphany",
+      "color": "#83A286",
+      "start": "55:1",
+      "end": "55:13"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: 9 January or Wednesday after Epiphany",
+      "color": "#83A286",
+      "start": "56:1",
+      "end": "56:8"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: 10 January or Thursday after Epiphany",
+      "color": "#83A286",
+      "start": "59:15",
+      "end": "59:21"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Sunday after day 6 January occurrentem On the Baptism of the Lord",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "42:1",
+          "end": "42:9"
+        },
+        {
+          "start": "49:1",
+          "end": "49:9"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ash Wednesday",
+      "color": "#83A286",
+      "start": "58:1",
+      "end": "58:12"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Palm Sunday of the Passion of the Lord",
+      "color": "#83A286",
+      "start": "50:4",
+      "end": "51:3"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Lent, Week 5, Monday",
+      "color": "#83A286",
+      "start": "52:13",
+      "end": "53:12"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ash Wednesday",
+      "color": "#83A286",
+      "start": "58:1",
+      "end": "58:12"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 25, Sunday",
+      "color": "#83A286",
+      "start": "6:1",
+      "end": "6:13"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 25, Monday",
+      "color": "#83A286",
+      "start": "3:1",
+      "end": "3:15"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 25, Tuesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "5:8",
+          "end": "5:13"
+        },
+        {
+          "start": "5:17",
+          "end": "5:24"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 25, Wednesday",
+      "color": "#83A286",
+      "start": "7:1",
+      "end": "7:17"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 25, Thursday",
+      "color": "#83A286",
+      "start": "9:7",
+      "end": "10:4"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 25, Friday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "28:1",
+          "end": "28:6"
+        },
+        {
+          "start": "28:14",
+          "end": "28:22"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 26, Friday",
+      "color": "#83A286",
+      "start": "20:1",
+      "end": "20:6"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 27, Sunday",
+      "color": "#83A286",
+      "start": "22:1",
+      "end": "22:14"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 27, Monday",
+      "color": "#83A286",
+      "start": "30:1",
+      "end": "30:18"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 27, Thursday",
+      "color": "#83A286",
+      "start": "37:21",
+      "end": "37:35"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 11, Sunday",
+      "color": "#83A286",
+      "start": "44:21",
+      "end": "45:3"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 13, Saturday",
+      "color": "#83A286",
+      "start": "59:1",
+      "end": "59:14"
+    },
+    {
       "name": "Week 3: Monday Morning Prayer",
       "color": "#5E4B81",
       "start": "2:2",

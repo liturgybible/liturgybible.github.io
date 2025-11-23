@@ -695,6 +695,290 @@
       "end": "20:36"
     },
     {
+      "name": "2-yr Office of Readings, Year II: Monday within the octave of Easter",
+      "color": "#83A286",
+      "start": "1:1",
+      "end": "1:26"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Tuesday within the octave of Easter",
+      "color": "#83A286",
+      "start": "2:1",
+      "end": "2:1000"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Wednesday within the octave of Easter",
+      "color": "#83A286",
+      "start": "2:22",
+      "end": "2:41"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Thursday within the octave of Easter",
+      "color": "#83A286",
+      "start": "2:42",
+      "end": "3:10"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Friday within the octave of Easter",
+      "color": "#83A286",
+      "start": "3:11",
+      "end": "4:4"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Saturday within the octave of Easter",
+      "color": "#83A286",
+      "start": "4:5",
+      "end": "4:31"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 2, Monday",
+      "color": "#83A286",
+      "start": "4:32",
+      "end": "5:16"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 2, Tuesday",
+      "color": "#83A286",
+      "start": "5:17",
+      "end": "5:42"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 2, Wednesday",
+      "color": "#83A286",
+      "start": "6:1",
+      "end": "6:15"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 2, Thursday",
+      "color": "#83A286",
+      "start": "7:1",
+      "end": "7:16"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 2, Friday",
+      "color": "#83A286",
+      "start": "7:17",
+      "end": "7:43"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 2, Saturday",
+      "color": "#83A286",
+      "start": "7:44",
+      "end": "8:3"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 3, Sunday",
+      "color": "#83A286",
+      "start": "8:4",
+      "end": "8:25"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 3, Monday",
+      "color": "#83A286",
+      "start": "8:26",
+      "end": "8:40"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 3, Tuesday",
+      "color": "#83A286",
+      "start": "9:1",
+      "end": "9:22"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 3, Wednesday",
+      "color": "#83A286",
+      "start": "9:22",
+      "end": "9:43"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 3, Thursday",
+      "color": "#83A286",
+      "start": "10:1",
+      "end": "10:33"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 3, Friday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "10:34",
+          "end": "11:4"
+        },
+        {
+          "start": "10:15",
+          "end": "10:18"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 3, Saturday",
+      "color": "#83A286",
+      "start": "11:19",
+      "end": "11:30"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 4, Sunday",
+      "color": "#83A286",
+      "start": "12:1",
+      "end": "12:23"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 4, Monday",
+      "color": "#83A286",
+      "start": "12:24",
+      "end": "13:14a"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 4, Tuesday",
+      "color": "#83A286",
+      "start": "13:14b",
+      "end": "13:43"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 4, Wednesday",
+      "color": "#83A286",
+      "start": "13:44",
+      "end": "14:7"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 4, Thursday",
+      "color": "#83A286",
+      "start": "14:8",
+      "end": "15:4"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 4, Friday",
+      "color": "#83A286",
+      "start": "15:5",
+      "end": "15:35"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 4, Saturday",
+      "color": "#83A286",
+      "start": "15:36",
+      "end": "16:1"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 5, Sunday",
+      "color": "#83A286",
+      "start": "16:16",
+      "end": "16:40"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 5, Monday",
+      "color": "#83A286",
+      "start": "17:1",
+      "end": "17:18"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 5, Tuesday",
+      "color": "#83A286",
+      "start": "17:19",
+      "end": "17:34"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 5, Wednesday",
+      "color": "#83A286",
+      "start": "18:1",
+      "end": "18:28"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 5, Thursday",
+      "color": "#83A286",
+      "start": "19:1",
+      "end": "19:20"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 5, Friday",
+      "color": "#83A286",
+      "start": "19:21",
+      "end": "19:40"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 5, Saturday",
+      "color": "#83A286",
+      "start": "20:1",
+      "end": "20:16"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 6, Sunday",
+      "color": "#83A286",
+      "start": "20:17",
+      "end": "20:38"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 6, Monday",
+      "color": "#83A286",
+      "start": "21:1",
+      "end": "21:26"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 6, Tuesday",
+      "color": "#83A286",
+      "start": "21:27",
+      "end": "21:39"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 6, Wednesday",
+      "color": "#83A286",
+      "start": "21:40",
+      "end": "22:21"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 6, Friday",
+      "color": "#83A286",
+      "start": "22:22",
+      "end": "23:41"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 6, Saturday",
+      "color": "#83A286",
+      "start": "23:12",
+      "end": "23:35"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 7, Sunday",
+      "color": "#83A286",
+      "start": "24:1",
+      "end": "24:27"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 7, Monday",
+      "color": "#83A286",
+      "start": "25:1",
+      "end": "25:27"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 7, Tuesday",
+      "color": "#83A286",
+      "start": "26:1",
+      "end": "26:32"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 7, Wednesday",
+      "color": "#83A286",
+      "start": "27:1",
+      "end": "27:20"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 7, Thursday",
+      "color": "#83A286",
+      "start": "27:21",
+      "end": "27:40"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 7, Friday",
+      "color": "#83A286",
+      "start": "28:1",
+      "end": "28:14"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Easter, Week 7, Saturday",
+      "color": "#83A286",
+      "start": "28:15",
+      "end": "28:21"
+    },
+    {
       "name": "Dec. 25, Christmas: Midafternoon Prayer",
       "color": "#4A628A",
       "start": "10:36",

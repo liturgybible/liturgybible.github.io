@@ -68,6 +68,74 @@
       "end": "14:19"
     },
     {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 24, Sunday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:3"
+        },
+        {
+          "start": "1:9",
+          "end": "1:13"
+        },
+        {
+          "start": "1:15",
+          "end": "1:16"
+        },
+        {
+          "start": "1:19",
+          "end": "1:19"
+        },
+        {
+          "start": "2:5",
+          "end": "2:10"
+        },
+        {
+          "start": "2:16",
+          "end": "2:17"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 24, Monday",
+      "color": "#83A286",
+      "start": "3:1",
+      "end": "3:15"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 24, Tuesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "4:1",
+          "end": "4:8"
+        },
+        {
+          "start": "4:8a",
+          "end": "4:8a"
+        },
+        {
+          "start": "4:9",
+          "end": "4:17"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 24, Thursday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "5:1",
+          "end": "5:5"
+        },
+        {
+          "start": "7:1",
+          "end": "7:10"
+        }
+      ]
+    },
+    {
       "name": "Ordinary Time, Week 3: Thursday Midafternoon Prayer",
       "color": "#4A628A",
       "start": "10:6b",

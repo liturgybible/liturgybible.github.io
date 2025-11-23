@@ -75,6 +75,26 @@
       "end": "3:24"
     },
     {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 18, Friday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "1:14"
+        },
+        {
+          "start": "2:13",
+          "end": "2:16"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 18, Saturday",
+      "color": "#83A286",
+      "start": "3:1",
+      "end": "3:24"
+    },
+    {
       "name": "Advent, Thursdays & Dec. 22: Midafternoon Prayer",
       "color": "#4A628A",
       "start": "4:2",

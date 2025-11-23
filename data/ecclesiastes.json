@@ -83,6 +83,50 @@
       "color": "#4C6B4F",
       "start": "11:7",
       "end": "12:4"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 20, Sunday",
+      "color": "#83A286",
+      "start": "1:1",
+      "end": "1:18"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 20, Monday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "2:1",
+          "end": "2:3"
+        },
+        {
+          "start": "2:12",
+          "end": "2:26"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 20, Tuesday",
+      "color": "#83A286",
+      "start": "3:1",
+      "end": "3:22"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 20, Wednesday",
+      "color": "#83A286",
+      "start": "5:9",
+      "end": "6:8"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 20, Friday",
+      "color": "#83A286",
+      "start": "8:5",
+      "end": "9:10"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 20, Saturday",
+      "color": "#83A286",
+      "start": "11:7",
+      "end": "12:14"
     }
   ]
 }

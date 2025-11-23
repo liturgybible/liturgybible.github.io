@@ -69,5 +69,26 @@
       ]
     }
   ],
-  "divineOffice": []
+  "divineOffice": [
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 19, Sunday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "1:1",
+          "end": "2:1-2"
+        },
+        {
+          "start": "1:11",
+          "end": "1:11"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Ordinary Time, Week 19, Monday",
+      "color": "#83A286",
+      "start": "3:1",
+      "end": "4:11"
+    }
+  ]
 }

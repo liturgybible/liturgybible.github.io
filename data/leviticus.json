@@ -119,6 +119,54 @@
       ]
     },
     {
+      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Sunday 4",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "8:1",
+          "end": "8:17"
+        },
+        {
+          "start": "9:22",
+          "end": "9:24"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Monday",
+      "color": "#83A286",
+      "start": "16:2",
+      "end": "16:28"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Tuesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "19:1",
+          "end": "19:18"
+        },
+        {
+          "start": "19:31",
+          "end": "19:37"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Wednesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "26:3",
+          "end": "26:17"
+        },
+        {
+          "start": "26:38",
+          "end": "26:45"
+        }
+      ]
+    },
+    {
       "name": "Ordinary Time, Week 4: Monday Midmorning Prayer",
       "color": "#4A628A",
       "start": "20:26",

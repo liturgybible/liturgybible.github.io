@@ -131,6 +131,60 @@
   ],
   "divineOffice": [
     {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 8, Friday",
+      "color": "#83A286",
+      "start": "1:1",
+      "end": "1:18"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 8, Saturday",
+      "color": "#83A286",
+      "start": "1:19",
+      "end": "1:27"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 9, Sunday",
+      "color": "#83A286",
+      "start": "2:1",
+      "end": "2:13"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 9, Monday",
+      "color": "#83A286",
+      "start": "2:14",
+      "end": "2:26"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 9, Tuesday",
+      "color": "#83A286",
+      "start": "3:1",
+      "end": "3:12"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 9, Wednesday",
+      "color": "#83A286",
+      "start": "3:13",
+      "end": "3:18"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 9, Thursday",
+      "color": "#83A286",
+      "start": "4:1",
+      "end": "4:12"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 9, Friday",
+      "color": "#83A286",
+      "start": "4:13",
+      "end": "5:11"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 9, Saturday",
+      "color": "#83A286",
+      "start": "5:12",
+      "end": "5:20"
+    },
+    {
       "name": "Ordinary Time, Week 1: Monday Midday Prayer",
       "color": "#4A628A",
       "segments": [

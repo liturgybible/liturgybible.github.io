@@ -493,6 +493,270 @@
       ]
     },
     {
+      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Monday",
+      "color": "#83A286",
+      "start": "26:1",
+      "end": "26:15"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Tuesday",
+      "color": "#83A286",
+      "start": "8:13",
+      "end": "9:8"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Wednesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "11:18",
+          "end": "11:20"
+        },
+        {
+          "start": "12:1",
+          "end": "12:13"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Optional",
+      "color": "#83A286",
+      "start": "15:10",
+      "end": "15:21"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Alternate",
+      "color": "#83A286",
+      "start": "16:1",
+      "end": "16:15"
+    },
+    {
+      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Alternate",
+      "color": "#83A286",
+      "start": "20:7",
+      "end": "20:18"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 28, Monday",
+      "color": "#83A286",
+      "start": "1:1",
+      "end": "1:19"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 28, Tuesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "2:1",
+          "end": "2:13"
+        },
+        {
+          "start": "2:20",
+          "end": "2:25"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 28, Wednesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "3:1",
+          "end": "3:5"
+        },
+        {
+          "start": "3:19",
+          "end": "4:4"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 28, Thursday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "4:5",
+          "end": "4:8"
+        },
+        {
+          "start": "4:13",
+          "end": "4:28"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 28, Friday",
+      "color": "#83A286",
+      "start": "7:1",
+      "end": "7:20"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 28, Saturday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "9:1",
+          "end": "9:11"
+        },
+        {
+          "start": "9:16",
+          "end": "9:21"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 29, Friday",
+      "color": "#83A286",
+      "start": "22:10",
+      "end": "22:30"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 29, Saturday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "19:1",
+          "end": "19:5"
+        },
+        {
+          "start": "19:10",
+          "end": "20:6"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 30, Sunday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "23:9",
+          "end": "23:17"
+        },
+        {
+          "start": "23:21",
+          "end": "23:29"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 30, Monday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "25:15",
+          "end": "25:17"
+        },
+        {
+          "start": "25:27",
+          "end": "25:38"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 30, Tuesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "36:1",
+          "end": "36:10"
+        },
+        {
+          "start": "36:21",
+          "end": "36:32"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 30, Wednesday",
+      "color": "#83A286",
+      "start": "24:1",
+      "end": "24:10"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 30, Thursday",
+      "color": "#83A286",
+      "start": "27:1",
+      "end": "27:15"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 30, Friday",
+      "color": "#83A286",
+      "start": "28:1",
+      "end": "28:17"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 30, Saturday",
+      "color": "#83A286",
+      "start": "29:1",
+      "end": "29:14"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 31, Monday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "37:21",
+          "end": "37:21"
+        },
+        {
+          "start": "38:14",
+          "end": "38:28"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 31, Tuesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "32:6",
+          "end": "32:10"
+        },
+        {
+          "start": "32:16",
+          "end": "32:16"
+        },
+        {
+          "start": "32:24",
+          "end": "32:40"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 31, Wednesday",
+      "color": "#83A286",
+      "start": "30:18",
+      "end": "31:9"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 31, Thursday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "31:15",
+          "end": "31:22"
+        },
+        {
+          "start": "31:27",
+          "end": "31:34"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 31, Friday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "42:1",
+          "end": "42:16"
+        },
+        {
+          "start": "43:4",
+          "end": "43:7"
+        }
+      ]
+    },
+    {
       "name": "Week 3: Friday Morning Prayer",
       "color": "#5E4B81",
       "start": "14:17",

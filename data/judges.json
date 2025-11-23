@@ -125,6 +125,106 @@
           "end": "16:31"
         }
       ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 11, Monday",
+      "color": "#83A286",
+      "start": "2:6",
+      "end": "3:4"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 11, Tuesday",
+      "color": "#83A286",
+      "start": "4:1",
+      "end": "4:24"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 11, Wednesday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "6:1",
+          "end": "6:6"
+        },
+        {
+          "start": "6:11",
+          "end": "6:24a"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 11, Thursday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "6:33",
+          "end": "6:35"
+        },
+        {
+          "start": "7:1",
+          "end": "7:8"
+        },
+        {
+          "start": "7:16",
+          "end": "7:22"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 11, Friday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "8:22",
+          "end": "8:23"
+        },
+        {
+          "start": "8:30",
+          "end": "8:32"
+        },
+        {
+          "start": "9:1",
+          "end": "9:15"
+        },
+        {
+          "start": "9:19",
+          "end": "9:20"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 11, Saturday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "11:1",
+          "end": "11:9"
+        },
+        {
+          "start": "11:29",
+          "end": "11:40"
+        }
+      ]
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 12, Sunday",
+      "color": "#83A286",
+      "start": "13:1",
+      "end": "13:25"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Ordinary Time, Week 12, Monday",
+      "color": "#83A286",
+      "segments": [
+        {
+          "start": "16:4",
+          "end": "16:6"
+        },
+        {
+          "start": "16:16",
+          "end": "16:31"
+        }
+      ]
     }
   ]
 }
