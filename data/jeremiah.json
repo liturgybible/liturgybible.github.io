@@ -493,19 +493,19 @@
       ]
     },
     {
-      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Monday",
+      "name": "2-yr Office of Readings, Year II: Holy Week, Monday",
       "color": "#83A286",
       "start": "26:1",
       "end": "26:15"
     },
     {
-      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Tuesday",
+      "name": "2-yr Office of Readings, Year II: Holy Week, Tuesday",
       "color": "#83A286",
       "start": "8:13",
       "end": "9:8"
     },
     {
-      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Wednesday",
+      "name": "2-yr Office of Readings, Year II: Holy Week, Wednesday",
       "color": "#83A286",
       "segments": [
         {
@@ -519,19 +519,19 @@
       ]
     },
     {
-      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Optional",
+      "name": "2-yr Office of Readings, Year II: Holy Thursday, Optional",
       "color": "#83A286",
       "start": "15:10",
       "end": "15:21"
     },
     {
-      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Alternate",
+      "name": "2-yr Office of Readings, Year II: Good Friday, Alternate",
       "color": "#83A286",
       "start": "16:1",
       "end": "16:15"
     },
     {
-      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Alternate",
+      "name": "2-yr Office of Readings, Year II: Holy Saturday, Alternate",
       "color": "#83A286",
       "start": "20:7",
       "end": "20:18"

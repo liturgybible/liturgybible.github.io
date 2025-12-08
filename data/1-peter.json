@@ -175,6 +175,42 @@
       "end": "5:11"
     },
     {
+      "name": "2-yr Office of Readings, Year I: Monday within the octave of Easter",
+      "color": "#83A286",
+      "start": "1:1",
+      "end": "1:21"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Tuesday within the octave of Easter",
+      "color": "#83A286",
+      "start": "1:22",
+      "end": "2:10"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Wednesday within the octave of Easter",
+      "color": "#83A286",
+      "start": "2:11",
+      "end": "2:25"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Thursday within the octave of Easter",
+      "color": "#83A286",
+      "start": "3:1",
+      "end": "3:17"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Friday within the octave of Easter",
+      "color": "#83A286",
+      "start": "3:18",
+      "end": "4:11"
+    },
+    {
+      "name": "2-yr Office of Readings, Year I: Saturday within the octave of Easter",
+      "color": "#83A286",
+      "start": "4:12",
+      "end": "5:14"
+    },
+    {
       "name": "Weeks 1,2,3,4: Sunday Evening Prayer II (only in Lent)",
       "color": "#5E4B81",
       "start": "2:21",

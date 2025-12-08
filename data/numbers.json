@@ -135,7 +135,7 @@
       ]
     },
     {
-      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Thursday",
+      "name": "2-yr Office of Readings, Year II: Lent, Week 4, Thursday",
       "color": "#83A286",
       "segments": [
         {
@@ -149,7 +149,7 @@
       ]
     },
     {
-      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Friday",
+      "name": "2-yr Office of Readings, Year II: Lent, Week 4, Friday",
       "color": "#83A286",
       "segments": [
         {
@@ -163,7 +163,7 @@
       ]
     },
     {
-      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Saturday",
+      "name": "2-yr Office of Readings, Year II: Lent, Week 4, Saturday",
       "color": "#83A286",
       "segments": [
         {
@@ -177,13 +177,13 @@
       ]
     },
     {
-      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Sunday 5",
+      "name": "2-yr Office of Readings, Year II: Lent, Week 5, Sunday",
       "color": "#83A286",
       "start": "12:1",
       "end": "12:15"
     },
     {
-      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Monday",
+      "name": "2-yr Office of Readings, Year II: Lent, Week 5, Monday",
       "color": "#83A286",
       "segments": [
         {
@@ -197,13 +197,13 @@
       ]
     },
     {
-      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Tuesday",
+      "name": "2-yr Office of Readings, Year II: Lent, Week 5, Tuesday",
       "color": "#83A286",
       "start": "14:1",
       "end": "14:25"
     },
     {
-      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Wednesday",
+      "name": "2-yr Office of Readings, Year II: Lent, Week 5, Wednesday",
       "color": "#83A286",
       "segments": [
         {
@@ -221,7 +221,7 @@
       ]
     },
     {
-      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Thursday",
+      "name": "2-yr Office of Readings, Year II: Lent, Week 5, Thursday",
       "color": "#83A286",
       "segments": [
         {
@@ -235,7 +235,7 @@
       ]
     },
     {
-      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Friday",
+      "name": "2-yr Office of Readings, Year II: Lent, Week 5, Friday",
       "color": "#83A286",
       "segments": [
         {
@@ -249,7 +249,7 @@
       ]
     },
     {
-      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Saturday",
+      "name": "2-yr Office of Readings, Year II: Lent, Week 5, Saturday",
       "color": "#83A286",
       "start": "24:1",
       "end": "24:19"

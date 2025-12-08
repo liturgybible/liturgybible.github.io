@@ -47,7 +47,7 @@
       "end": "5:22"
     },
     {
-      "name": "2-yr Office of Readings, Year I: Lent, Week 5, Tuesday",
+      "name": "2-yr Office of Readings, Year I: Holy Week, Tuesday",
       "color": "#83A286",
       "segments": [
         {
@@ -61,55 +61,55 @@
       ]
     },
     {
-      "name": "2-yr Office of Readings, Year I: Lent, Week 5, Wednesday",
+      "name": "2-yr Office of Readings, Year I: Holy Week, Wednesday",
       "color": "#83A286",
       "start": "2:1",
       "end": "2:9"
     },
     {
-      "name": "2-yr Office of Readings, Year I: Lent, Week 5, Optional",
+      "name": "2-yr Office of Readings, Year I: Holy Thursday, Optional",
       "color": "#83A286",
       "start": "2:10",
       "end": "2:22"
     },
     {
-      "name": "2-yr Office of Readings, Year I: Sacred Paschal Triduum, Alternate",
+      "name": "2-yr Office of Readings, Year I: Good Friday, Prolonged Vigil, Alternate",
       "color": "#83A286",
       "start": "3:1",
       "end": "3:33"
     },
     {
-      "name": "2-yr Office of Readings, Year I: Sacred Paschal Triduum, Alternate (Canticle 1)",
+      "name": "2-yr Office of Readings, Year I: Good Friday, Prolonged Vigil, Alternate (Canticle 1)",
       "color": "#83A286",
       "start": "2:13",
       "end": "2:19"
     },
     {
-      "name": "2-yr Office of Readings, Year I: Sacred Paschal Triduum, Alternate (Canticle 2)",
+      "name": "2-yr Office of Readings, Year I: Good Friday, Prolonged Vigil, Alternate (Canticle 2)",
       "color": "#83A286",
       "start": "3:1",
       "end": "3:12"
     },
     {
-      "name": "2-yr Office of Readings, Year I: Sacred Paschal Triduum, Alternate (Canticle 3)",
+      "name": "2-yr Office of Readings, Year I: Good Friday, Prolonged Vigil, Alternate (Canticle 3)",
       "color": "#83A286",
       "start": "3:13",
       "end": "3:24"
     },
     {
-      "name": "2-yr Office of Readings, Year I: Sacred Paschal Triduum, Alternate",
+      "name": "2-yr Office of Readings, Year I: Holy Saturday, Alternate",
       "color": "#83A286",
       "start": "5:1",
       "end": "5:22"
     },
     {
-      "name": "2-yr Office of Readings, Year I: Sacred Paschal Triduum, Alternate (Canticle 1)",
+      "name": "2-yr Office of Readings, Year I: Holy Saturday, Alternate (Canticle 1)",
       "color": "#83A286",
       "start": "3:25",
       "end": "3:39"
     },
     {
-      "name": "2-yr Office of Readings, Year I: Sacred Paschal Triduum, Alternate (Canticle 2)",
+      "name": "2-yr Office of Readings, Year I: Holy Saturday, Alternate (Canticle 2)",
       "color": "#83A286",
       "segments": [
         {
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "name": "2-yr Office of Readings, Year I: Sacred Paschal Triduum, Alternate (Canticle 3)",
+      "name": "2-yr Office of Readings, Year I: Holy Saturday, Alternate (Canticle 3)",
       "color": "#83A286",
       "segments": [
         {
@@ -137,31 +137,31 @@
       ]
     },
     {
-      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Alternate (Canticle 1)",
+      "name": "2-yr Office of Readings, Year II: Good Friday, Alternate (Canticle 1)",
       "color": "#83A286",
       "start": "2:13",
       "end": "2:19"
     },
     {
-      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Alternate (Canticle 2)",
+      "name": "2-yr Office of Readings, Year II: Good Friday, Alternate (Canticle 2)",
       "color": "#83A286",
       "start": "3:1",
       "end": "3:12"
     },
     {
-      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Alternate (Canticle 3)",
+      "name": "2-yr Office of Readings, Year II: Good Friday, Alternate (Canticle 3)",
       "color": "#83A286",
       "start": "3:13",
       "end": "3:24"
     },
     {
-      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Alternate (Canticle 1)",
+      "name": "2-yr Office of Readings, Year II: Holy Saturday, Alternate (Canticle 1)",
       "color": "#83A286",
       "start": "3:25",
       "end": "3:39"
     },
     {
-      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Alternate (Canticle 2)",
+      "name": "2-yr Office of Readings, Year II: Holy Saturday, Alternate (Canticle 2)",
       "color": "#83A286",
       "segments": [
         {
@@ -175,7 +175,7 @@
       ]
     },
     {
-      "name": "2-yr Office of Readings, Year II: Sacred Paschal Triduum, Alternate (Canticle 3)",
+      "name": "2-yr Office of Readings, Year II: Holy Saturday, Alternate (Canticle 3)",
       "color": "#83A286",
       "segments": [
         {
