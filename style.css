@@ -928,7 +928,7 @@ hr {
 
 /* --- MOBILE RESPONSIVE STYLES --- */
 
-@media (max-width: 750px) {
+@media (max-width: 700px) {
 
     /* Adjusted breakpoint to allow annotations on small landscape screens (e.g., iPhone 13 mini landscape at 812px) */
     /* Hide the annotation margins on smaller screens */
