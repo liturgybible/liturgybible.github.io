@@ -295,14 +295,6 @@ span[data-verse-part] {
     /* --- Fallback color --- */
 }
 
-.annotation-bar-left {
-    /* --- empty --- */
-}
-
-.annotation-bar-right {
-    /* --- empty --- */
-}
-
 /* --- Annotation Connector Styles --- */
 .annotation-bar-left.annotation-bar-connector {
     border-right-style: dotted;
@@ -916,11 +908,29 @@ hr {
 }
 
 
+/* --- LANDSCAPE OPTIMIZATIONS FOR SMALL SCREENS --- */
+/* Optimize annotation display for small landscape screens (e.g., iPhone 13 mini landscape) */
+@media (max-width: 900px) and (max-height: 450px) and (orientation: landscape) {
+
+    /* Reduce annotation margin width to save space on narrow-height screens */
+    .annotations-margin-left,
+    .annotations-margin-right {
+        width: 120px;
+    }
+
+    /* Reduce body padding for more content space */
+    body {
+        padding: 0.5rem;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
 /* --- MOBILE RESPONSIVE STYLES --- */
 
-@media (max-width: 800px) {
+@media (max-width: 750px) {
 
-    /* Adjusted breakpoint for better mobile layout */
+    /* Adjusted breakpoint to allow annotations on small landscape screens (e.g., iPhone 13 mini landscape at 812px) */
     /* Hide the annotation margins on smaller screens */
     .annotations-margin-left,
     .annotations-margin-right {
