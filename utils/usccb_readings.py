@@ -6,17 +6,16 @@ import csv
 import re
 import time
 from datetime import date, timedelta
-from dateutil.easter import easter # Required for liturgical date calculations
-from dateutil.relativedelta import relativedelta, SU, TH # For finding Sundays, etc.
+from dateutil.easter import easter
+from dateutil.relativedelta import relativedelta, SU, TH
 
 # --- CONFIGURATION ---
-# Use the full date range for production runs
-START_DATE = date(2025, 10, 23)
+START_DATE = date(2025, 11, 27) 
 END_DATE = date(2026, 12, 31)
 # DEBUG_DATES = [date(2025, 10, 23), date(2025, 10, 26)] # Keep commented out for full runs
-OUTPUT_DIR = "../data_usccb" # Relative path from utils/ directory
-OUTPUT_CSV = os.path.join(OUTPUT_DIR, "usccb-readings.csv") # Use production filenames
-OUTPUT_JSON = os.path.join(OUTPUT_DIR, "usccb-readings.json") # Use production filenames
+OUTPUT_DIR = "../data_usccb"
+OUTPUT_CSV = os.path.join(OUTPUT_DIR, "usccb-readings.csv")
+OUTPUT_JSON = os.path.join(OUTPUT_DIR, "usccb-readings.json")
 BASE_URL = "https://bible.usccb.org/bible/readings/"
 REQUEST_DELAY_SECONDS = 1 # Be polite to the server
 
@@ -161,13 +160,17 @@ def get_liturgical_color(target_date, day_name):
     # Baptism of the Lord: Sunday after Epiphany (Jan 6)
     epiphany = date(year, 1, 6)
     baptism_of_lord = epiphany + relativedelta(weekday=SU(+1))
-    # Start of Advent: 4th Sunday before Christmas. Find Sunday before Nov 27th.
-    first_sunday_advent = date(year, 11, 27) + relativedelta(weekday=SU(-1))
+    # Start of Advent: Sunday on or after Nov 27 (falls between Nov 27 and Dec 3)
+    first_sunday_advent = date(year, 11, 27) + relativedelta(weekday=SU(0))
 
     # --- Color Logic (Priority Order) ---
-
-    # 1. Specific High-Ranking Feasts/Days
     name_lower = day_name.lower()
+
+    # 0. Handle All Souls / Faithful Departed early (Black)
+    if "All the Faithful Departed" in day_name or "All Souls" in day_name:
+        return BLACK
+
+    # 1. Specific High-Ranking Feasts/Days by date or name
     if target_date == date(year, 1, 1) or "Mary, Mother of God" in day_name: return WHITE
     if target_date == date(year, 11, 1) or "All Saints" in day_name: return WHITE
     if target_date == date(year, 12, 8) or "Immaculate Conception" in day_name: return WHITE
@@ -175,26 +178,55 @@ def get_liturgical_color(target_date, day_name):
     if target_date == date(year, 6, 24) or "Nativity of Saint John the Baptist" in day_name: return WHITE
     if target_date == date(year, 1, 25) or "Conversion of Saint Paul" in day_name: return WHITE
     if target_date == date(year, 2, 22) or "Chair of Saint Peter" in day_name: return WHITE
-    if target_date == date(year, 12, 27) or (month == 12 and day == 27 and "Saint John" in day_name): return WHITE # Apostle & Evangelist -> Usually Red, but rule says White for this one
+    if target_date == date(year, 12, 27) or (month == 12 and day == 27 and "Saint John" in day_name): return WHITE
     if target_date == palm_sunday or "Palm Sunday" in day_name: return RED
     if target_date == good_friday or "Good Friday" in day_name: return RED
     if target_date == pentecost or "Pentecost" in day_name: return RED
     if "Trinity Sunday" in day_name or target_date == pentecost + relativedelta(weekday=SU(+1)): return WHITE
     
-    # Check for keywords related to Red days AFTER specific feasts
+    # 1.5 Handle Apostles and Evangelists (Red, except St. John who is handled above in #1)
+    if "Apostle" in day_name or "Evangelist" in day_name:
+        # Note: St. John (Dec 27) returns White in block #1 above.
+        # This block catches other Apostles/Evangelists even if "Martyr" is missing.
+        # Double check to prevent St. John from falling here if somehow not caught by date rule (unlikely)
+        if "Saint John" not in day_name:
+             return RED
+
+    # 2. Handle Solemnities (always White unless overridden by specific rules above)
+    if "Solemnity" in day_name:
+        return WHITE
+    
+    # 3. Handle Feasts (White unless martyr -> Red)
+    if "Feast" in day_name:
+        if "Martyr" in day_name:
+            return RED
+        return WHITE
+    
+    # 4. Handle Memorials - check for martyr first (Red), then virgin/mary (White)
+    if "Memorial" in day_name:
+        if "Martyr" in day_name:
+            return RED
+        if "Virgin" in day_name or "Mary" in day_name or "Blessed Virgin" in day_name:
+            return WHITE
+        # Other memorials: typically White for non-martyrs, but some use Green in OT
+        # Default to White for safety
+        if "Martyr" not in day_name and ("Saint" in day_name or "Blessed" in day_name):
+            return WHITE
+    
+    # 5. Check for keywords related to Red days
     if "Passion of the Lord" in day_name: return RED
-    if "Apostle" in day_name and "Saint John" not in day_name: return RED # Exception handled above
+    if "Apostle" in day_name and "Saint John" not in day_name: return RED
     if "Evangelist" in day_name and "Saint John" not in day_name: return RED
     if "Martyr" in day_name: return RED
 
-    # Check for keywords related to White days (if not overridden by Red above)
-    if " of the Lord" in name_lower and "passion" not in name_lower: return WHITE # Other Lord feasts
-    if " Mary" in name_lower or "Our Lady" in name_lower or "Assumption" in name_lower: return WHITE
+    # 6. Check for keywords related to White days
+    if " of the Lord" in name_lower and "passion" not in name_lower: return WHITE
+    if " mary" in name_lower or "our lady" in name_lower or "assumption" in name_lower: return WHITE
+    if "guadalupe" in name_lower: return WHITE
     if "Angel" in day_name: return WHITE
-    # Saint check is tricky, could be Martyr (Red). Defaulting non-martyrs to White.
     if ("Saint" in day_name or "St." in day_name) and "Martyr" not in day_name and "Apostle" not in day_name and "Evangelist" not in day_name and "John" not in day_name: return WHITE
     
-    # 2. Liturgical Seasons
+    # 7. Liturgical Seasons
     # Christmas Time (Dec 25 to Baptism of the Lord)
     if (month == 12 and day >= 25) or (month == 1 and target_date <= baptism_of_lord): return WHITE
     # Easter Time (Easter Sunday to Pentecost Sunday)
@@ -204,40 +236,40 @@ def get_liturgical_color(target_date, day_name):
     # Advent (First Sunday of Advent to Dec 24)
     if first_sunday_advent <= target_date <= date(year, 12, 24): return VIOLET
 
-    # 3. Ordinary Time (Default)
-    # Check if weekday falls within known Ordinary Time periods
+    # 8. Ordinary Time (Green for weekdays not in special seasons)
     # Period 1: After Baptism of Lord until Ash Wednesday
     if baptism_of_lord < target_date < ash_wednesday: return GREEN
     # Period 2: After Pentecost until Advent starts
     if pentecost < target_date < first_sunday_advent: return GREEN
     
-    # 4. Fallback/Default (Should ideally hit Ordinary Time Green)
-    # Violet often used for Masses for the Dead if not specified
-    if "Masses for the Dead" in day_name: return VIOLET # Or Black if preferred
+    # 9. Fallback
+    if "Masses for the Dead" in day_name: return VIOLET
      
-    # Default to Green if no other rule applies
+    # Default to Green if no other rule applies (Ordinary Time)
     return GREEN 
 
 
-def scrape_day(target_date):
-    """Scrapes the readings for a single day, attempting URL fallback."""
-    date_str_url = target_date.strftime("%m%d%y")
-    date_str_iso = target_date.strftime("%Y-%m-%d")
-    url_cfm = f"{BASE_URL}{date_str_url}.cfm"
-    url_nocfm = f"{BASE_URL}{date_str_url}" # Fallback URL
 
-    # print(f"Attempting to scrape {date_str_iso} from {url_cfm}...") # Debug
-    soup = get_soup(url_cfm)
-    
-    # --- URL FALLBACK LOGIC ---
+# --- URL OVERRIDES FOR KNOWN ISSUES ---
+URL_OVERRIDES = {
+    date(2025, 11, 27): "https://bible.usccb.org/bible/readings/112725-Thanksgiving.cfm",
+    date(2026, 4, 26): "https://bible.usccb.org/bible/readings/040226-Supper.cfm",
+    date(2026, 5, 14): "https://bible.usccb.org/bible/readings/051426-Thursday",
+    date(2026, 5, 17): "https://bible.usccb.org/bible/readings/051726-Ascension",
+    date(2026, 8, 12): "https://bible.usccb.org/bible/readings/wednesday-nineteenth-week-ordinary-time",
+    date(2026, 11, 26): "https://bible.usccb.org/bible/readings/112626-Thanksgiving",
+    date(2026, 12, 25): "https://bible.usccb.org/bible/readings/122526-Day.cfm"
+}
+
+def scrape_url(url, target_date, date_str_iso):
+    """
+    Helper function to scrape data from a specific URL.
+    Returns a data dict (populated or partially populated).
+    Returns None if soup creation fails.
+    """
+    soup = get_soup(url)
     if soup is None:
-        print(f"  -> Initial scrape failed for {date_str_iso}. Trying fallback URL: {url_nocfm}...")
-        time.sleep(REQUEST_DELAY_SECONDS / 2) # Shorter delay before retry
-        soup = get_soup(url_nocfm)
-        if soup is None:
-            print(f"  -> ERROR: Fallback scrape also failed for {date_str_iso}.")
-            return None # Indicate complete failure for this date
-    # --- END FALLBACK LOGIC ---
+        return None
 
     data = {
         "date": date_str_iso, "name": None, "lectionary_number": None, "color": None,
@@ -265,7 +297,9 @@ def scrape_day(target_date):
     reading_blocks = soup.find_all('div', class_='b-verse')
     
     if not reading_blocks:
-         print(f"  -> Warning: Could not find any reading blocks ('div.b-verse') for {date_str_iso}.")
+         # Warn only if this isn't a fallback attempt handled by the caller,
+         # but here we just return what we have (empty readings).
+         pass 
     
     for block in reading_blocks:
         heading_tag = block.find('h3', class_='name')
@@ -288,9 +322,16 @@ def scrape_day(target_date):
         if not current_reading_type: continue 
 
         address_div = block.find('div', class_='address')
-        if not address_div: continue
-            
-        ref_link = address_div.find('a')
+        ref_link = None
+        
+        # First try finding link in address div
+        if address_div:
+            ref_link = address_div.find('a')
+        
+        # Fallback: Try finding any anchor with /bible/ href in the block itself
+        if not ref_link:
+            ref_link = block.find('a', href=lambda h: h and '/bible/' in h)
+        
         if ref_link and ('/bible/' in ref_link.get('href', '') or 'usccb.org/bible' in ref_link.get('href','')): 
             ref_text = ref_link.get_text(strip=True)
             if data[current_reading_type] is None:
@@ -300,27 +341,101 @@ def scrape_day(target_date):
             
     return data
 
+def scrape_day(target_date):
+    """Scrapes the readings for a single day, handling overrides and fallbacks."""
+    date_str_url = target_date.strftime("%m%d%y")
+    date_str_iso = target_date.strftime("%Y-%m-%d")
+    
+    # 1. Check for Manual Override
+    if target_date in URL_OVERRIDES:
+        override_url = URL_OVERRIDES[target_date]
+        # print(f"  -> Using manual override URL for {date_str_iso}")
+        data = scrape_url(override_url, target_date, date_str_iso)
+        if data: return data
+        print(f"  -> ERROR: Manual override URL failed for {date_str_iso}")
+        return None
+
+    # 2. Standard URL Construction
+    url_cfm = f"{BASE_URL}{date_str_url}.cfm"
+    
+    # Attempt 1: Standard URL
+    data = scrape_url(url_cfm, target_date, date_str_iso)
+    
+    # Check if we got essential data
+    has_readings = data and data.get('reading_1') and data.get('gospel')
+    
+    if not has_readings:
+        # 3. Fallback Strategy: Try suffixes (common for multi-option feasts)
+        fallbacks = [
+            f"{BASE_URL}{date_str_url}-Day.cfm",  # Priority: standard Day page with .cfm
+            f"{BASE_URL}{date_str_url}-Day",      # Some URLs don't have .cfm
+        ]
+        
+        if data: # If we got partial data (e.g. name/color) from main page, keep it handy
+             # But usually main page is just a useless list.
+             pass
+
+        print(f"  -> Missing readings for {date_str_iso}. Trying fallbacks...")
+        
+        for fb_url in fallbacks:
+            # print(f"     -> Trying: {fb_url}")
+            fb_data = scrape_url(fb_url, target_date, date_str_iso)
+            if fb_data and fb_data.get('reading_1') and fb_data.get('gospel'):
+                print(f"     -> Fallback successful: {fb_url}")
+                return fb_data
+        
+        # 4. Old Fallback Strategy: Try without .cfm (last resort)
+        url_nocfm = f"{BASE_URL}{date_str_url}"
+        fallback_data_2 = scrape_url(url_nocfm, target_date, date_str_iso)
+        if fallback_data_2 and fallback_data_2.get('reading_1') and fallback_data_2.get('gospel'):
+             return fallback_data_2
+        
+        # Return whatever we managed to find (even if incomplete)
+        if data: return data 
+        return fallback_data_2
+
+    return data
+
+# --- VALIDATION ---
+def validate_entry(entry):
+    """
+    Validates that an entry has minimum required fields.
+    Returns (is_valid, list_of_issues).
+    Required: date, name, reading_1, gospel
+    """
+    issues = []
+    required_fields = ['date', 'name', 'reading_1', 'gospel']
+    
+    for field in required_fields:
+        if not entry.get(field):
+            issues.append(f"missing {field}")
+    
+    return (len(issues) == 0, issues)
+
+
 # --- MAIN EXECUTION ---
 if __name__ == "__main__":
     print("Starting USCCB readings scraper...")
+    print(f"Date range: {START_DATE} to {END_DATE}")
     
-    # --- LOAD EXISTING DATA ---
-    existing_data = []
-    existing_dates = set()
+    # --- LOAD EXISTING DATA INTO A DICT BY DATE ---
+    existing_data_by_date = {}
     if os.path.exists(OUTPUT_JSON):
         try:
             with open(OUTPUT_JSON, 'r', encoding='utf-8') as f:
                 existing_data = json.load(f)
-            existing_dates = {item['date'] for item in existing_data if 'date' in item}
-            print(f"Loaded {len(existing_dates)} existing dates from {OUTPUT_JSON}")
+            existing_data_by_date = {item['date']: item for item in existing_data if 'date' in item}
+            print(f"Loaded {len(existing_data_by_date)} existing dates from {OUTPUT_JSON}")
         except json.JSONDecodeError:
             print(f"Warning: Could not read existing data from {OUTPUT_JSON}. File might be corrupted.")
         except Exception as e:
             print(f"Warning: An error occurred loading existing data: {e}")
-            
-    all_data = existing_data # Start with existing data
+    
     new_data_count = 0
-    failed_dates = [] # List to track dates that failed scraping
+    updated_data_count = 0
+    unchanged_data_count = 0
+    failed_dates = []
+    validation_issues = []
 
     total_days = (END_DATE - START_DATE).days + 1
     current_day_num = 0
@@ -329,31 +444,63 @@ if __name__ == "__main__":
         current_day_num += 1
         date_str_iso = single_date.strftime("%Y-%m-%d")
         
-        # --- CHECK IF DATE ALREADY EXISTS ---
-        if date_str_iso in existing_dates:
-            # print(f"Skipping day {current_day_num}/{total_days}: {date_str_iso} (already exists)")
-            continue
-            
-        print(f"Processing day {current_day_num}/{total_days}: {date_str_iso}")
         daily_data = scrape_day(single_date)
         
         if daily_data:
-            all_data.append(daily_data)
-            existing_dates.add(date_str_iso) # Add newly scraped date to set
-            new_data_count += 1
+            if date_str_iso in existing_data_by_date:
+                existing = existing_data_by_date[date_str_iso]
+                # Compare key fields to detect changes
+                changed_fields = []
+                for key in daily_data:
+                    if daily_data.get(key) != existing.get(key):
+                        changed_fields.append(key)
+                
+                if changed_fields:
+                    existing_data_by_date[date_str_iso] = daily_data
+                    updated_data_count += 1
+                    print(f"[{current_day_num}/{total_days}] {date_str_iso}: UPDATED - changed: {', '.join(changed_fields)}")
+                else:
+                    unchanged_data_count += 1
+                    print(f"[{current_day_num}/{total_days}] {date_str_iso}: UNCHANGED")
+            else:
+                # Add new entry
+                existing_data_by_date[date_str_iso] = daily_data
+                new_data_count += 1
+                print(f"[{current_day_num}/{total_days}] {date_str_iso}: NEW")
         else:
-            print(f"  -> Failed to scrape data for {date_str_iso}")
-            failed_dates.append(date_str_iso) # Record failure
+            print(f"[{current_day_num}/{total_days}] {date_str_iso}: FAILED to scrape")
+            failed_dates.append(date_str_iso)
             
         time.sleep(REQUEST_DELAY_SECONDS)
-        
-    print(f"\nScraping complete. Added data for {new_data_count} new days.")
     
-    # Sort data by date before writing
+    # Convert dict back to list and sort by date
+    all_data = list(existing_data_by_date.values())
     all_data.sort(key=lambda x: x.get('date', ''))
+    
+    print(f"\n--- Scraping Summary ---")
+    print(f"  NEW:       {new_data_count} dates")
+    print(f"  UPDATED:   {updated_data_count} dates")
+    print(f"  UNCHANGED: {unchanged_data_count} dates")
+    print(f"  FAILED:    {len(failed_dates)} dates")
+    
+    # --- VALIDATION ---
+    print("\nValidating entries...")
+    for entry in all_data:
+        is_valid, issues = validate_entry(entry)
+        if not is_valid:
+            validation_issues.append((entry.get('date', 'unknown'), entry.get('name', 'unknown'), issues))
+    
+    if validation_issues:
+        print(f"\n⚠️  Found {len(validation_issues)} entries with validation issues:")
+        for date_str, name, issues in validation_issues[:20]:  # Show first 20
+            print(f"  - {date_str}: {name[:40]} - {', '.join(issues)}")
+        if len(validation_issues) > 20:
+            print(f"  ... and {len(validation_issues) - 20} more")
+    else:
+        print("✓ All entries passed validation")
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    print(f"Ensured output directory exists: '{OUTPUT_DIR}'")
+    print(f"\nEnsured output directory exists: '{OUTPUT_DIR}'")
     
     print(f"Writing JSON data to {OUTPUT_JSON}...")
     try:
@@ -368,11 +515,10 @@ if __name__ == "__main__":
         with open(OUTPUT_CSV, 'w', newline='', encoding='utf-8') as f:
             if all_data:
                 # Dynamically get fieldnames from the first *complete* data entry
-                # Find the first entry that has more than just the date key
                 first_valid_entry = next((item for item in all_data if len(item) > 1), None)
                 if first_valid_entry:
                     fieldnames = first_valid_entry.keys()
-                    writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore') # Ignore extra fields if headers are inconsistent
+                    writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
                     writer.writeheader()
                     writer.writerows(all_data)
                     print("  -> CSV writing successful.")
@@ -390,7 +536,6 @@ if __name__ == "__main__":
         for failed_date in failed_dates:
             print(f"  - {failed_date}")
         print("---------------------------------")
-    # --- End Error Summary ---
 
     print("\n✅ Script finished.")
 
