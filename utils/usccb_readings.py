@@ -314,7 +314,7 @@ def scrape_url(url, target_date, date_str_iso):
             current_reading_type = "psalm"
         elif re.search(r'Reading\s+(2|II)\b', heading_text, re.IGNORECASE):
             current_reading_type = "reading_2"
-        elif re.search(r'Alleluia|Gospel\s+Accl', heading_text, re.IGNORECASE):
+        elif re.search(r'Alleluia|Gospel\s+Accl|Verse\s+Before\s+the\s+Gospel', heading_text, re.IGNORECASE):
             current_reading_type = "allelulia"
         elif re.search(r'Gospel\b', heading_text, re.IGNORECASE):
             current_reading_type = "gospel"

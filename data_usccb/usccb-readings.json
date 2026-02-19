@@ -1896,12 +1896,12 @@
     "reading_1_link": "bible/joel-02.html#11",
     "psalm": "Psalm 51:3-4, 5-6ab, 12-13, 14 and 17",
     "psalm_link": "bible/psalms-51.html#2",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "Psalm 95:8",
+    "allelulia_link": "bible/psalms-95.html#7",
     "reading_2": "2 Corinthians 5:20—6:2",
     "reading_2_link": "bible/2-corinthians-05.html#19",
-    "gospel": "Psalm 95:8",
-    "gospel_link": "bible/psalms-95.html#7"
+    "gospel": "Matthew 6:1-6, 16-18",
+    "gospel_link": "bible/matthew-06.html"
   },
   {
     "date": "2026-02-19",
@@ -1912,12 +1912,12 @@
     "reading_1_link": "bible/deuteronomy-30.html#14",
     "psalm": "Psalm 1:1-2, 3, 4 and 6",
     "psalm_link": "bible/psalms-01.html",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "Matthew 4:17",
+    "allelulia_link": "bible/matthew-04.html#16",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "Matthew 4:17",
-    "gospel_link": "bible/matthew-04.html#16"
+    "gospel": "Luke 9:22-25",
+    "gospel_link": "bible/luke-09.html#21"
   },
   {
     "date": "2026-02-20",
@@ -1928,12 +1928,12 @@
     "reading_1_link": "bible/isaiah-58.html",
     "psalm": "Psalm 51:3-4, 5-6ab, 18-19",
     "psalm_link": "bible/psalms-51.html#2",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "See Amos 5:14",
+    "allelulia_link": "bible/amos-05.html#13",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "See Amos 5:14",
-    "gospel_link": "bible/amos-05.html#13"
+    "gospel": "Matthew 9:14-15",
+    "gospel_link": "bible/matthew-09.html#13"
   },
   {
     "date": "2026-02-21",
@@ -1944,12 +1944,12 @@
     "reading_1_link": "bible/isaiah-58.html#8",
     "psalm": "Psalm 86:1-2, 3-4, 5-6",
     "psalm_link": "bible/psalms-86.html",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "Ezekiel 33:11",
+    "allelulia_link": "bible/ezekiel-33.html#10",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "Ezekiel 33:11",
-    "gospel_link": "bible/ezekiel-33.html#10"
+    "gospel": "Luke 5:27-32",
+    "gospel_link": "bible/luke-05.html#26"
   },
   {
     "date": "2026-02-22",
@@ -1960,12 +1960,12 @@
     "reading_1_link": "bible/genesis-02.html#6",
     "psalm": "Psalm 51:3-4, 5-6, 12-13, 17",
     "psalm_link": "bible/psalms-51.html#2",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "Matthew 4:4b",
+    "allelulia_link": "bible/matthew-04.html#3",
     "reading_2": "Romans 5:12-19 or 5:12, 17-19",
     "reading_2_link": "bible/romans-05.html#11",
-    "gospel": "Matthew 4:4b",
-    "gospel_link": "bible/matthew-04.html#3"
+    "gospel": "Matthew 4:1-11",
+    "gospel_link": "bible/matthew-04.html"
   },
   {
     "date": "2026-02-23",
@@ -1976,12 +1976,12 @@
     "reading_1_link": "bible/leviticus-19.html",
     "psalm": "Psalm 19:8, 9, 10, 15",
     "psalm_link": "bible/psalms-19.html#7",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "2 Corinthians 6:2b",
+    "allelulia_link": "bible/2-corinthians-06.html#1",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "2 Corinthians 6:2b",
-    "gospel_link": "bible/2-corinthians-06.html#1"
+    "gospel": "Matthew 25:31-46",
+    "gospel_link": "bible/matthew-25.html#30"
   },
   {
     "date": "2026-02-24",
@@ -1992,12 +1992,12 @@
     "reading_1_link": "bible/isaiah-55.html#9",
     "psalm": "Psalm 34:4-5, 6-7, 16-17, 18-19",
     "psalm_link": "bible/psalms-34.html#3",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "Matthew 4:4b",
+    "allelulia_link": "bible/matthew-04.html#3",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "Matthew 4:4b",
-    "gospel_link": "bible/matthew-04.html#3"
+    "gospel": "Matthew 6:7-15",
+    "gospel_link": "bible/matthew-06.html#6"
   },
   {
     "date": "2026-02-25",
@@ -2008,12 +2008,12 @@
     "reading_1_link": "bible/jonah-03.html",
     "psalm": "Psalm 51:3-4, 12-13, 18-19",
     "psalm_link": "bible/psalms-51.html#2",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "Joel 2:12-13",
+    "allelulia_link": "bible/joel-02.html#11",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "Joel 2:12-13",
-    "gospel_link": "bible/joel-02.html#11"
+    "gospel": "Luke 11:29-32",
+    "gospel_link": "bible/luke-11.html#28"
   },
   {
     "date": "2026-02-26",
@@ -2024,12 +2024,12 @@
     "reading_1_link": null,
     "psalm": "Psalm 138:1-2ab, 2cde-3, 7c-8",
     "psalm_link": "bible/psalms-138.html",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "Psalm 51:12a, 14a",
+    "allelulia_link": "bible/psalms-51.html#11",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "Psalm 51:12a, 14a",
-    "gospel_link": "bible/psalms-51.html#11"
+    "gospel": "Matthew 7:7-12",
+    "gospel_link": "bible/matthew-07.html#6"
   },
   {
     "date": "2026-02-27",
@@ -2040,12 +2040,12 @@
     "reading_1_link": "bible/ezekiel-18.html#20",
     "psalm": "Psalm 130:1-2, 3-4, 5-7a, 7bc-8",
     "psalm_link": "bible/psalms-130.html",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "Ezekiel 18:31",
+    "allelulia_link": "bible/ezekiel-18.html#30",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "Ezekiel 18:31",
-    "gospel_link": "bible/ezekiel-18.html#30"
+    "gospel": "Matthew 5:20-26",
+    "gospel_link": "bible/matthew-05.html#19"
   },
   {
     "date": "2026-02-28",
@@ -2056,12 +2056,12 @@
     "reading_1_link": "bible/deuteronomy-26.html#15",
     "psalm": "Psalm 119:1-2, 4-5, 7-8",
     "psalm_link": "bible/psalms-119.html",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "2 Corinthians 6:2b",
+    "allelulia_link": "bible/2-corinthians-06.html#1",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "2 Corinthians 6:2b",
-    "gospel_link": "bible/2-corinthians-06.html#1"
+    "gospel": "Matthew 5:43-48",
+    "gospel_link": "bible/matthew-05.html#42"
   },
   {
     "date": "2026-03-01",
@@ -2072,28 +2072,28 @@
     "reading_1_link": "bible/genesis-12.html",
     "psalm": "Psalm 33:4-5, 18-19, 20, 22.",
     "psalm_link": "bible/psalms-33.html#3",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "Matthew 17:5",
+    "allelulia_link": "bible/matthew-17.html#4",
     "reading_2": "2 Timothy 1:8b-10",
     "reading_2_link": "bible/2-timothy-01.html#7",
-    "gospel": "Matthew 17:5",
-    "gospel_link": "bible/matthew-17.html#4"
+    "gospel": "Matthew 17:1-9",
+    "gospel_link": "bible/matthew-17.html"
   },
   {
     "date": "2026-03-02",
-    "name": "Monday of the Second Week in Lent",
+    "name": "Monday of the Second Week of Lent",
     "lectionary_number": "230",
     "color": "Violet",
     "reading_1": "Daniel 9:4b-10",
     "reading_1_link": "bible/daniel-09.html#3",
     "psalm": "Psalm 79:8, 9, 11 and 13",
     "psalm_link": "bible/psalms-79.html#7",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "See John 6:63c, 68c",
+    "allelulia_link": "bible/john-06.html#62",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "See John 6:63c, 68c",
-    "gospel_link": "bible/john-06.html#62"
+    "gospel": "Luke 6:36-38",
+    "gospel_link": "bible/luke-06.html#35"
   },
   {
     "date": "2026-03-03",
@@ -2104,12 +2104,12 @@
     "reading_1_link": "bible/isaiah-01.html#9",
     "psalm": "Psalm 50:8-9, 16bc-17, 21 and 23",
     "psalm_link": "bible/psalms-50.html#7",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "Ezekiel 18:31",
+    "allelulia_link": "bible/ezekiel-18.html#30",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "Ezekiel 18:31",
-    "gospel_link": "bible/ezekiel-18.html#30"
+    "gospel": "Matthew 23:1-12",
+    "gospel_link": "bible/matthew-23.html"
   },
   {
     "date": "2026-03-04",
@@ -2120,12 +2120,12 @@
     "reading_1_link": "bible/jeremiah-18.html#17",
     "psalm": "Psalm 31:5-6, 14, 15-16",
     "psalm_link": "bible/psalms-31.html#4",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "John 8:12",
+    "allelulia_link": "bible/john-08.html#11",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "John 8:12",
-    "gospel_link": "bible/john-08.html#11"
+    "gospel": "Matthew 20:17-28",
+    "gospel_link": "bible/matthew-20.html#16"
   },
   {
     "date": "2026-03-05",
@@ -2136,12 +2136,12 @@
     "reading_1_link": "bible/jeremiah-17.html#4",
     "psalm": "Psalm 1:1-2, 3, 4 and 6",
     "psalm_link": "bible/psalms-01.html",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "See Luke 8:15",
+    "allelulia_link": "bible/luke-08.html#14",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "See Luke 8:15",
-    "gospel_link": "bible/luke-08.html#14"
+    "gospel": "Luke 16:19-31",
+    "gospel_link": "bible/luke-16.html#18"
   },
   {
     "date": "2026-03-06",
@@ -2152,12 +2152,12 @@
     "reading_1_link": "bible/genesis-37.html#2",
     "psalm": "Psalm 105:16-17, 18-19, 20-21",
     "psalm_link": "bible/psalms-105.html#15",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "John 3:16",
+    "allelulia_link": "bible/john-03.html#15",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "John 3:16",
-    "gospel_link": "bible/john-03.html#15"
+    "gospel": "Matthew 21:33-43, 45-46",
+    "gospel_link": "bible/matthew-21.html#32"
   },
   {
     "date": "2026-03-07",
@@ -2168,12 +2168,12 @@
     "reading_1_link": "bible/micah-07.html#13",
     "psalm": "Psalm 103:1-2, 3-4, 9-10, 11-12",
     "psalm_link": "bible/psalms-103.html",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "Luke 15:18",
+    "allelulia_link": "bible/luke-15.html#17",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "Luke 15:18",
-    "gospel_link": "bible/luke-15.html#17"
+    "gospel": "Luke 15:1-3, 11-32",
+    "gospel_link": "bible/luke-15.html"
   },
   {
     "date": "2026-03-08",
@@ -2184,12 +2184,12 @@
     "reading_1_link": "bible/exodus-17.html#2",
     "psalm": "Psalm 95:1-2, 6-7, 8-9",
     "psalm_link": "bible/psalms-95.html",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "John 4:42, 15",
+    "allelulia_link": "bible/john-04.html#41",
     "reading_2": "Romans 5:1-2, 5-8",
     "reading_2_link": "bible/romans-05.html",
-    "gospel": "John 4:42, 15",
-    "gospel_link": "bible/john-04.html#41"
+    "gospel": "John 4:5-42",
+    "gospel_link": "bible/john-04.html#4"
   },
   {
     "date": "2026-03-09",
@@ -2216,12 +2216,12 @@
     "reading_1_link": "bible/daniel-03.html#24",
     "psalm": "Psalm 25:4-5ab, 6 and 7bc, 8-9",
     "psalm_link": "bible/psalms-25.html#3",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "Joel 2:12-13",
+    "allelulia_link": "bible/joel-02.html#11",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "Joel 2:12-13",
-    "gospel_link": "bible/joel-02.html#11"
+    "gospel": "Matthew 18:21-35",
+    "gospel_link": "bible/matthew-18.html#20"
   },
   {
     "date": "2026-03-11",
@@ -2232,12 +2232,12 @@
     "reading_1_link": "bible/deuteronomy-04.html",
     "psalm": "Psalm 147:12-13, 15-16, 19-20",
     "psalm_link": "bible/psalms-147.html#11",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "See John 6:63c, 68c",
+    "allelulia_link": "bible/john-06.html#62",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "See John 6:63c, 68c",
-    "gospel_link": "bible/john-06.html#62"
+    "gospel": "Matthew 5:17-19",
+    "gospel_link": "bible/matthew-05.html#16"
   },
   {
     "date": "2026-03-12",
@@ -2248,12 +2248,12 @@
     "reading_1_link": "bible/jeremiah-07.html#22",
     "psalm": "Psalm 95:1-2, 6-7, 8-9",
     "psalm_link": "bible/psalms-95.html",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "Joel 2:12-13",
+    "allelulia_link": "bible/joel-02.html#11",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "Joel 2:12-13",
-    "gospel_link": "bible/joel-02.html#11"
+    "gospel": "Luke 11:14-23",
+    "gospel_link": "bible/luke-11.html#13"
   },
   {
     "date": "2026-03-13",
@@ -2264,12 +2264,12 @@
     "reading_1_link": "bible/hosea-14.html#1",
     "psalm": "Psalm 81:6c-8a, 8bc-9, 10-11ab, 14 and 17",
     "psalm_link": "bible/psalms-81.html#5",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "Matthew 4:17",
+    "allelulia_link": "bible/matthew-04.html#16",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "Matthew 4:17",
-    "gospel_link": "bible/matthew-04.html#16"
+    "gospel": "Mark 12:28-34",
+    "gospel_link": "bible/mark-12.html#27"
   },
   {
     "date": "2026-03-14",
@@ -2280,12 +2280,12 @@
     "reading_1_link": "bible/hosea-06.html",
     "psalm": "Psalm 51:3-4, 18-19, 20-21ab",
     "psalm_link": "bible/psalms-51.html#2",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "Psalm 95:8",
+    "allelulia_link": "bible/psalms-95.html#7",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "Psalm 95:8",
-    "gospel_link": "bible/psalms-95.html#7"
+    "gospel": "Luke 18:9-14",
+    "gospel_link": "bible/luke-18.html#8"
   },
   {
     "date": "2026-03-15",
@@ -2296,12 +2296,12 @@
     "reading_1_link": "bible/1-samuel-16.html",
     "psalm": "Psalm 23: 1-3a, 3b-4, 5, 6",
     "psalm_link": null,
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "John 8:12",
+    "allelulia_link": "bible/john-08.html#11",
     "reading_2": "Ephesians 5:8-14",
     "reading_2_link": "bible/ephesians-05.html#7",
-    "gospel": "John 8:12",
-    "gospel_link": "bible/john-08.html#11"
+    "gospel": "John 9:1-41",
+    "gospel_link": "bible/john-09.html"
   },
   {
     "date": "2026-03-16",
@@ -2312,12 +2312,12 @@
     "reading_1_link": "bible/isaiah-65.html#16",
     "psalm": "Psalm 30:2 and 4, 5-6, 11-12a and 13b",
     "psalm_link": "bible/psalms-30.html#1",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "Amos 5:14",
+    "allelulia_link": "bible/amos-05.html#13",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "Amos 5:14",
-    "gospel_link": "bible/amos-05.html#13"
+    "gospel": "John 4:43-54",
+    "gospel_link": "bible/john-04.html#42"
   },
   {
     "date": "2026-03-17",
@@ -2328,12 +2328,12 @@
     "reading_1_link": "bible/ezekiel-47.html",
     "psalm": "Psalm 46:2-3, 5-6, 8-9",
     "psalm_link": "bible/psalms-46.html#1",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "Psalm 51:12a, 14a",
+    "allelulia_link": "bible/psalms-51.html#11",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "Psalm 51:12a, 14a",
-    "gospel_link": "bible/psalms-51.html#11"
+    "gospel": "John 5:1-16",
+    "gospel_link": "bible/john-05.html"
   },
   {
     "date": "2026-03-18",
@@ -2344,12 +2344,12 @@
     "reading_1_link": "bible/isaiah-49.html#7",
     "psalm": "Psalm 145:8-9, 13cd-14, 17-18",
     "psalm_link": "bible/psalms-145.html#7",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "John 11:25a, 26",
+    "allelulia_link": "bible/john-11.html#24",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "John 11:25a, 26",
-    "gospel_link": "bible/john-11.html#24"
+    "gospel": "John 5:17-30",
+    "gospel_link": "bible/john-05.html#16"
   },
   {
     "date": "2026-03-19",
@@ -2360,12 +2360,12 @@
     "reading_1_link": "bible/2-samuel-07.html#3",
     "psalm": "Psalm 89:2-3, 4-5, 27 and 29",
     "psalm_link": "bible/psalms-89.html#1",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "Psalm 84:5",
+    "allelulia_link": "bible/psalms-84.html#4",
     "reading_2": "Romans 4:13, 16-18, 22",
     "reading_2_link": "bible/romans-04.html#12",
-    "gospel": "Psalm 84:5",
-    "gospel_link": "bible/psalms-84.html#4"
+    "gospel": "Matthew 1:16, 18-21, 24a",
+    "gospel_link": "bible/matthew-01.html#15"
   },
   {
     "date": "2026-03-20",
@@ -2376,12 +2376,12 @@
     "reading_1_link": "bible/wisdom-02.html",
     "psalm": "Psalm 34:17-18, 19-20, 21 and 23",
     "psalm_link": "bible/psalms-34.html#16",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "Matthew 4:4b",
+    "allelulia_link": "bible/matthew-04.html#3",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "Matthew 4:4b",
-    "gospel_link": "bible/matthew-04.html#3"
+    "gospel": "John 7:1-2, 10, 25-30",
+    "gospel_link": "bible/john-07.html"
   },
   {
     "date": "2026-03-21",
@@ -2392,12 +2392,12 @@
     "reading_1_link": "bible/jeremiah-11.html#17",
     "psalm": "Psalm 7:2-3, 9bc-10, 11-12",
     "psalm_link": "bible/psalms-07.html#1",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "See Luke 8:15",
+    "allelulia_link": "bible/luke-08.html#14",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "See Luke 8:15",
-    "gospel_link": "bible/luke-08.html#14"
+    "gospel": "John 7:40-53",
+    "gospel_link": "bible/john-07.html#39"
   },
   {
     "date": "2026-03-22",
@@ -2408,12 +2408,12 @@
     "reading_1_link": "bible/ezekiel-37.html#11",
     "psalm": "Psalm 130:1-2, 3-4, 5-6, 7-8",
     "psalm_link": "bible/psalms-130.html",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "John 11:25a, 26",
+    "allelulia_link": "bible/john-11.html#24",
     "reading_2": "Romans 8:8-11",
     "reading_2_link": "bible/romans-08.html#7",
-    "gospel": "John 11:25a, 26",
-    "gospel_link": "bible/john-11.html#24"
+    "gospel": "John 11:1-45",
+    "gospel_link": "bible/john-11.html"
   },
   {
     "date": "2026-03-23",
@@ -2424,12 +2424,12 @@
     "reading_1_link": "bible/daniel-13.html",
     "psalm": "Psalm 23:1-3a, 3b-4, 5, 6",
     "psalm_link": "bible/psalms-23.html",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "Ezekiel 33:11",
+    "allelulia_link": "bible/ezekiel-33.html#10",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "Ezekiel 33:11",
-    "gospel_link": "bible/ezekiel-33.html#10"
+    "gospel": "John 8:1-11",
+    "gospel_link": "bible/john-08.html"
   },
   {
     "date": "2026-03-24",
@@ -2456,12 +2456,12 @@
     "reading_1_link": "bible/isaiah-07.html#9",
     "psalm": "Psalm 40:7-8a, 8b-9, 10, 11",
     "psalm_link": "bible/psalms-40.html#6",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "John 1:14ab",
+    "allelulia_link": "bible/john-01.html#13",
     "reading_2": "Hebrews 10:4-10",
     "reading_2_link": "bible/hebrews-10.html#3",
-    "gospel": "John 1:14ab",
-    "gospel_link": "bible/john-01.html#13"
+    "gospel": "Luke 1:26-38",
+    "gospel_link": "bible/luke-01.html#25"
   },
   {
     "date": "2026-03-26",
@@ -2472,12 +2472,12 @@
     "reading_1_link": "bible/genesis-17.html#2",
     "psalm": "Psalm 105:4-5, 6-7, 8-9",
     "psalm_link": "bible/psalms-105.html#3",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "Psalm 95:8",
+    "allelulia_link": "bible/psalms-95.html#7",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "Psalm 95:8",
-    "gospel_link": "bible/psalms-95.html#7"
+    "gospel": "John 8:51-59",
+    "gospel_link": "bible/john-08.html#50"
   },
   {
     "date": "2026-03-27",
@@ -2488,12 +2488,12 @@
     "reading_1_link": "bible/jeremiah-20.html#9",
     "psalm": "Psalm 18:2-3a, 3bc-4, 5-6, 7",
     "psalm_link": "bible/psalms-18.html#1",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "John 6:63c, 68c",
+    "allelulia_link": "bible/john-06.html#62",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "John 6:63c, 68c",
-    "gospel_link": "bible/john-06.html#62"
+    "gospel": "John 10:31-42",
+    "gospel_link": "bible/john-10.html#30"
   },
   {
     "date": "2026-03-28",
@@ -2504,12 +2504,12 @@
     "reading_1_link": "bible/ezekiel-37.html#20",
     "psalm": "Jeremiah 31:10, 11-12abcd, 13",
     "psalm_link": "bible/jeremiah-31.html#9",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "Ezekiel 18:31",
+    "allelulia_link": "bible/ezekiel-18.html#30",
     "reading_2": null,
     "reading_2_link": null,
-    "gospel": "Ezekiel 18:31",
-    "gospel_link": "bible/ezekiel-18.html#30"
+    "gospel": "John 11:45-56",
+    "gospel_link": "bible/john-11.html#44"
   },
   {
     "date": "2026-03-29",
@@ -2520,8 +2520,8 @@
     "reading_1_link": "bible/isaiah-50.html#3",
     "psalm": "Psalm 22:8-9, 17-18, 19-20, 23-24",
     "psalm_link": "bible/psalms-22.html#7",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "Philippians 2:8-9",
+    "allelulia_link": "bible/philippians-02.html#7",
     "reading_2": "Philippians 2:6-11",
     "reading_2_link": "bible/philippians-02.html#5",
     "gospel": "Matthew 21:1-11",
@@ -2600,12 +2600,12 @@
     "reading_1_link": "bible/isaiah-52.html#12",
     "psalm": "Psalm 31:2, 6, 12-13, 15-16, 17, 25",
     "psalm_link": "bible/psalms-31.html#1",
-    "allelulia": null,
-    "allelulia_link": null,
+    "allelulia": "Philippians 2:8-9",
+    "allelulia_link": "bible/philippians-02.html#7",
     "reading_2": "Hebrews 4:14-16; 5:7-9",
     "reading_2_link": "bible/hebrews-04.html#13",
-    "gospel": "Philippians 2:8-9",
-    "gospel_link": "bible/philippians-02.html#7"
+    "gospel": "John 18:1—19:42",
+    "gospel_link": "bible/john-18.html"
   },
   {
     "date": "2026-04-04",
