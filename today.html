@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Liturgy Bible</title>
 
     <!-- Icons for Home Screen Shortcut -->
@@ -19,12 +19,17 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: 100vh;
+            min-height: 100vh;
+            min-height: 100dvh;
+            /* Dynamic viewport height for Safari */
             margin: 0;
+            padding-bottom: env(safe-area-inset-bottom, 40px);
+            /* Extra space for toolbar */
             background-color: #f8f8f8;
             color: #333;
             text-align: center;
             transition: opacity 0.3s ease;
+            box-sizing: border-box;
         }
 
         .container {
