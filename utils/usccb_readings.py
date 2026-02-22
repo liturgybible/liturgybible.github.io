@@ -504,11 +504,20 @@ if __name__ == "__main__":
     
     print(f"Writing JSON data to {OUTPUT_JSON}...")
     try:
+        # Minify main JSON (remove indent)
         with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
-            json.dump(all_data, f, indent=2, ensure_ascii=False)
-        print("  -> JSON writing successful.")
+            json.dump(all_data, f, separators=(',', ':'), ensure_ascii=False)
+        print("  -> JSON writing successful (minified).")
+        
+        # Generate minimalist daily-links.json for fast redirects
+        links_map = {item['date']: item['reading_1_link'] for item in all_data if 'date' in item and 'reading_1_link' in item}
+        output_links = os.path.join(OUTPUT_DIR, "daily-links.json")
+        print(f"Writing minimalist links map to {output_links}...")
+        with open(output_links, 'w', encoding='utf-8') as f:
+            json.dump(links_map, f, separators=(',', ':'), ensure_ascii=False)
+        print("  -> Daily links map writing successful.")
     except Exception as e:
-        print(f"  -> Error writing JSON file: {e}")
+        print(f"  -> Error writing JSON files: {e}")
         
     print(f"Writing CSV data to {OUTPUT_CSV}...")
     try:

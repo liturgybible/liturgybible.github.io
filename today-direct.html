@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting to Today's Reading...</title>
+    <script>
+        (function () {
+            const today = new Date();
+            const y = today.getFullYear();
+            const m = String(today.getMonth() + 1).padStart(2, '0');
+            const d = String(today.getDate()).padStart(2, '0');
+            const dateStr = `${y}-${m}-${d}`;
+
+            fetch('data_usccb/daily-links.json')
+                .then(r => r.json())
+                .then(data => {
+                    const link = data[dateStr];
+                    if (link) {
+                        window.location.replace(link);
+                    } else {
+                        window.location.replace('today.html');
+                    }
+                })
+                .catch(() => {
+                    window.location.replace('today.html');
+                });
+        })();
+    </script>
+</head>
+
+<body>
+    <p>Redirecting to today's reading... if it doesn't load, <a href="today.html">click here</a>.</p>
+</body>
+
+</html>
