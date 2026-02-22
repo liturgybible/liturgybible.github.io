@@ -81,6 +81,15 @@
     </style>
 
     <script>
+        // Register Service Worker
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(reg => console.log('SW Registered'))
+                    .catch(err => console.log('SW Registration Failed', err));
+            });
+        }
+
         function performRedirect() {
             const today = new Date();
             const y = today.getFullYear();
@@ -91,16 +100,42 @@
             fetch('data_usccb/daily-links.json')
                 .then(r => r.json())
                 .then(data => {
+                    // Prefetch logic: load today, then background fetch next 3 days
                     const link = data[dateStr];
                     if (link) {
                         window.location.replace(link);
                     } else {
                         window.location.replace('today-full.html');
                     }
+
+                    // Background prefetch next 3 days for offline support
+                    prefetchFutureReadings(data, today);
                 })
                 .catch(() => {
                     window.location.replace('today-full.html');
                 });
+        }
+
+        function prefetchFutureReadings(data, startDate) {
+            // We do this in a slight delay so it doesn't compete with the primary redirect
+            setTimeout(() => {
+                for (let i = 1; i <= 3; i++) {
+                    const futureDate = new Date(startDate);
+                    futureDate.setDate(startDate.getDate() + i);
+
+                    const y = futureDate.getFullYear();
+                    const m = String(futureDate.getMonth() + 1).padStart(2, '0');
+                    const d = String(futureDate.getDate()).padStart(2, '0');
+                    const futureDateStr = `${y}-${m}-${d}`;
+
+                    const futureLink = data[futureDateStr];
+                    if (futureLink) {
+                        fetch(futureLink, { priority: 'low' })
+                            .then(() => console.log(`Prefetched: ${futureDateStr}`))
+                            .catch(e => { });
+                    }
+                }
+            }, 1000);
         }
 
         (function () {
@@ -124,6 +159,11 @@
                 // In Mobile browser: show setup UI and wait a bit
                 window.addEventListener('DOMContentLoaded', () => {
                     document.getElementById('setup-ui').style.display = 'block';
+                    // We still prefetch in the background even if we show the setup UI
+                    fetch('data_usccb/daily-links.json')
+                        .then(r => r.json())
+                        .then(data => prefetchFutureReadings(data, new Date()))
+                        .catch(() => { });
                 });
             }
         })();
