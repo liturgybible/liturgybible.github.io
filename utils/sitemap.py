@@ -17,6 +17,7 @@ FILES_TO_IGNORE = [
 # Pages not listed here will get a default priority
 PAGE_PRIORITIES = {
     "today.html": "1.0",
+    "today-full.html": "1.0",
     "index.html": "0.9",
     "about.html": "0.8"
 }
