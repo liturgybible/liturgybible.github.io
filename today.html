@@ -104,18 +104,26 @@
         }
 
         (function () {
-            // Detect if launched from Home Screen (standalone mode)
+            // 1. Detect if launched from Home Screen (standalone mode)
             const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
 
-            if (isStandalone) {
-                // Instantly redirect if on home screen
+            // 2. Detect if Desktop (non-touch/mouse-primary)
+            // We look for 'coarse' pointer (touch) vs 'fine' pointer (mouse)
+            const isMobile = window.matchMedia('(pointer: coarse)').matches;
+
+            // 3. Fallback check for mobile-specific User Agents
+            const ua = navigator.userAgent || navigator.vendor || window.opera;
+            const isUAMobile = /android|iphone|ipad|ipod|windows phone/i.test(ua);
+
+            const shouldRedirectInstantly = isStandalone || (!isMobile && !isUAMobile);
+
+            if (shouldRedirectInstantly) {
+                // Instantly redirect if on home screen OR on a desktop browser
                 performRedirect();
             } else {
-                // In browser: show setup UI and wait a bit
+                // In Mobile browser: show setup UI and wait a bit
                 window.addEventListener('DOMContentLoaded', () => {
                     document.getElementById('setup-ui').style.display = 'block';
-                    // Optional: auto-redirect after a long delay if they don't do anything
-                    // setTimeout(performRedirect, 15000); 
                 });
             }
         })();
