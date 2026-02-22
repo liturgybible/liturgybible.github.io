@@ -31,10 +31,10 @@
             margin-bottom: 2rem;
         }
         .bible-section h3 {
-            border-bottom: 2px solid #7B2E2B;
+            border-bottom: 2px solid var(--primary-red);
             padding-bottom: 0.1rem;
             margin-bottom: 0.5rem;
-            color: #7B2E2B;
+            color: var(--primary-red);
             font-family: MiloSerifWeb, MiloWeb, Georgia, TimesNewRoman, serif;
         }
         
@@ -72,25 +72,25 @@
             font-family: MiloWeb, Georgia, TimesNewRoman, serif;
             font-size: 0.7em;
             font-weight: 700;
-            border: 1px solid white;
+            border: 1px solid var(--bg-color);
             border-radius: 0px;
             transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
-            background-color: var(--bg-color); /* Use CSS variable for color */
+            background-color: var(--bg-color-section); /* Use custom property for section color */
         }
         .chapter-box:hover {
             transform: scale(1.1);
             border-bottom: none; /* Override default link hover */
-            background-color: var(--bg-hover-color); /* Use CSS variable for hover color */
+            background-color: var(--bg-hover-color); /* Use custom property for hover color */
         }
 
         /* Color Coding for Sections with hover variables */
-        .pentateuch { --bg-color: #B35C58; --bg-hover-color: #c97f7a; }
-        .historical { --bg-color: #4A628A; --bg-hover-color: #6e85a9; }
-        .wisdom { --bg-color: #7B2E2B; --bg-hover-color: #9a4f4c; }
-        .prophets { --bg-color: #4C6B4F; --bg-hover-color: #6f8f72; }
-        .gospels { --bg-color: #C9A441; --bg-hover-color: #dcb965; }
-        .nt-letters { --bg-color: #5E4B81; --bg-hover-color: #7f6c9f; }
-        .apocalyptic { --bg-color: #401514; --bg-hover-color: #633938; }
+        .pentateuch { --bg-color-section: #B35C58; --bg-hover-color: #c97f7a; }
+        .historical { --bg-color-section: #4A628A; --bg-hover-color: #6e85a9; }
+        .wisdom { --bg-color-section: #7B2E2B; --bg-hover-color: #9a4f4c; }
+        .prophets { --bg-color-section: #4C6B4F; --bg-hover-color: #6f8f72; }
+        .gospels { --bg-color-section: #C9A441; --bg-hover-color: #dcb965; }
+        .nt-letters { --bg-color-section: #5E4B81; --bg-hover-color: #7f6c9f; }
+        .apocalyptic { --bg-color-section: #401514; --bg-hover-color: #633938; }
     </style>
 </head>
 

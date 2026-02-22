@@ -658,9 +658,111 @@ function initSearchModal() {
 }
 
 
+// --- Theme Management Logic ---
+/**
+ * Initializes the theme based on localStorage or system preference.
+ */
+function initTheme() {
+    // Force light mode on index and about pages
+    const isLightOnlyPage = window.location.pathname.endsWith('index.html') ||
+        window.location.pathname.endsWith('about.html') ||
+        window.location.pathname === '/' ||
+        window.location.pathname === '/liturgybible.github.io/';
+
+    if (isLightOnlyPage) {
+        document.documentElement.setAttribute('data-theme', 'light');
+        return;
+    }
+
+    const savedTheme = localStorage.getItem('theme');
+    const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const theme = savedTheme || (systemPrefersDark ? 'dark' : 'light');
+
+    document.documentElement.setAttribute('data-theme', theme);
+    updateThemeToggleUI(theme);
+}
+
+/**
+ * Toggles the theme between light and dark.
+ */
+function toggleTheme() {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    updateThemeToggleUI(newTheme);
+}
+
+/**
+ * Updates the theme toggle button icon/label.
+ * @param {string} theme - The current theme ('light' or 'dark').
+ */
+/**
+ * Updates the theme toggle button icon/label.
+ * @param {string} theme - The current theme ('light' or 'dark').
+ */
+function updateThemeToggleUI(theme) {
+    const toggleBtn = document.getElementById('theme-toggle');
+    if (toggleBtn) {
+        const sunIcon = `<svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>`;
+        const moonIcon = `<svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>`;
+
+        toggleBtn.innerHTML = theme === 'dark' ? sunIcon : moonIcon;
+        toggleBtn.title = theme === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode';
+        // Use white for sun in dark mode, and dark grey for moon in light mode
+        toggleBtn.style.color = theme === 'dark' ? '#FFFFFF' : '#777777';
+    }
+}
+
+/**
+ * Adds the theme toggle button to the header controls.
+ */
+function addThemeToggle() {
+    // Only add toggle on pages that support dark mode
+    const isLightOnlyPage = window.location.pathname.endsWith('index.html') ||
+        window.location.pathname.endsWith('about.html') ||
+        window.location.pathname === '/' ||
+        window.location.pathname === '/liturgybible.github.io/';
+
+    if (isLightOnlyPage) return;
+
+    const headerControls = document.querySelector('.header-controls');
+    if (headerControls && !document.getElementById('theme-toggle')) {
+        const toggleBtn = document.createElement('button');
+        toggleBtn.id = 'theme-toggle';
+        toggleBtn.className = 'theme-toggle-btn';
+        toggleBtn.style.background = 'none';
+        toggleBtn.style.border = 'none';
+        toggleBtn.style.fontSize = '1.2rem';
+        toggleBtn.style.cursor = 'pointer';
+        toggleBtn.style.padding = '0.5rem';
+        toggleBtn.style.display = 'flex';
+        toggleBtn.style.alignItems = 'center';
+        toggleBtn.style.justifyContent = 'center';
+        toggleBtn.addEventListener('click', toggleTheme);
+
+        // Insert before translation switcher if it exists
+        const switcher = document.getElementById('translation-switcher');
+        if (switcher) {
+            headerControls.insertBefore(toggleBtn, switcher);
+        } else {
+            headerControls.appendChild(toggleBtn);
+        }
+
+        const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+        updateThemeToggleUI(currentTheme);
+    }
+}
+
+// Call initTheme immediately to prevent flash
+initTheme();
+
+
 // --- MAIN SCRIPT EXECUTION ON LOAD ---
 window.addEventListener('load', () => {
     initSearchModal();
+    addThemeToggle();
 
     const body = document.body;
     const book = body.dataset.book;
@@ -769,29 +871,41 @@ window.addEventListener('load', () => {
 
     // --- Translation Switcher Logic ---
     const switcher = document.getElementById('translation-switcher');
+
+    // Define applyTranslation in a scope where it can be used by everyone
+    const applyTranslation = () => {
+        const selectedValue = switcher ? switcher.value : 'dra';
+        document.querySelectorAll('.translation-text').forEach(div => {
+            div.classList.remove('active');
+        });
+
+        let selectedTranslationDiv = document.querySelector(`.translation-text.${selectedValue}`);
+        if (!selectedTranslationDiv) {
+            selectedTranslationDiv = document.querySelector('.translation-text');
+        }
+
+        if (selectedTranslationDiv) {
+            selectedTranslationDiv.classList.add('active');
+        }
+
+        if (switcher) {
+            localStorage.setItem('selectedTranslation', selectedValue);
+        }
+
+        buildVerseCache(); // Rebuild cache for new translation
+        redraw(); // Redraw everything
+    };
+
     if (switcher) {
         const savedTranslation = localStorage.getItem('selectedTranslation');
         if (savedTranslation) {
             switcher.value = savedTranslation;
         }
-
-        const applyTranslation = () => {
-            const selectedValue = switcher.value;
-            document.querySelectorAll('.translation-text').forEach(div => {
-                div.classList.remove('active');
-            });
-            const selectedTranslationDiv = document.querySelector(`.translation-text.${selectedValue}`);
-            if (selectedTranslationDiv) {
-                selectedTranslationDiv.classList.add('active');
-            }
-            localStorage.setItem('selectedTranslation', selectedValue);
-            buildVerseCache(); // Rebuild cache for new translation
-            redraw(); // Redraw annotations AND highlights
-        };
-
         switcher.addEventListener('change', applyTranslation);
-        // applyTranslation(); // Don't call here, call in the fetch success
     }
+
+    // Initialize translation and cache immediately on load
+    applyTranslation();
 
     // --- ARROW KEY NAVIGATION ---
     document.addEventListener('keydown', function (event) {
@@ -833,24 +947,8 @@ window.addEventListener('load', () => {
             lectionaryReadingsData = (data.lectionaryReadings || []).filter(isReadingInChapter);
             divineOfficeData = (data.divineOffice || []).filter(isReadingInChapter);
 
-            // Apply initial translation and draw annotations/highlights
-            const applyTranslationOnLoad = () => {
-                const selectedValue = switcher ? switcher.value : 'dra'; // Default to 'dra' if no switcher
-                document.querySelectorAll('.translation-text').forEach(div => {
-                    div.classList.remove('active');
-                });
-                let selectedTranslationDiv = document.querySelector(`.translation-text.${selectedValue}`);
-                if (!selectedTranslationDiv) { // Fallback to the first translation if saved one isn't found
-                    selectedTranslationDiv = document.querySelector('.translation-text');
-                    if (selectedTranslationDiv) selectedTranslationDiv.classList.add('active');
-                }
-                if (selectedTranslationDiv) selectedTranslationDiv.classList.add('active');
-
-                // Now that translation is active, redraw annotations and highlights
-                buildVerseCache(); // Build cache initially
-                redraw();
-            };
-            applyTranslationOnLoad(); // Call the combined function
+            // Data is loaded, redraw to show annotations
+            redraw();
 
             window.addEventListener('resize', debounce(redraw, 200));
         })

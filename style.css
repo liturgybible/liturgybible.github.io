@@ -24,40 +24,100 @@ UA info: http://uadigital.arizona.edu/ua-bootstrap/fonts.html
 
 /* --- Liturgical Color Palette --- */
 :root {
+    /* --- Base Colors --- */
+    --bg-color: #FFFFFF;
+    --text-color: #444444;
+    --link-color: #3377b3;
+    --link-hover-bg: #D4A09E;
+    --nav-bg: #f5f5f1;
+    --nav-border: #e0e0e0;
+    --primary-red: #7B2E2B;
+    --nav-text-color: #7B2E2B;
+    /* Default primary red in light mode */
+    --header-chapter-color: #7B2E2B;
+    --modal-bg: #fcfcfc;
+    --modal-text: #444444;
+    --modal-header-bg: #B35C58;
+    --modal-header-text: #FFFFFF;
+    --modal-border: #e0e0e0;
+    --button-bg: #7B2E2B;
+    --button-hover-bg: #D4A09E;
+    --footer-text: #9fa3a6;
+    --border-color: rgba(210, 215, 217, 0.75);
+
+    /* --- Liturgical Colors --- */
     --color-white: #FFFFFF;
     --color-red: #DA291C;
-    /* Standard liturgical red */
     --color-green: #00843D;
-    /* Standard liturgical green */
     --color-violet: #8E44AD;
-    /* Standard liturgical violet */
     --color-rose: #F4BFBE;
     --color-black: #212121;
     --color-gold: #FFD700;
-    /* Alternate for white */
     --color-silver: #C0C0C0;
-    /* Alternate for white */
     --muted-gold: #b58e31;
     --muted-gold-darker: #8c6d2f;
     --muted-gold-light-bg: rgba(201, 164, 65, 0.1);
     --muted-gold-border: rgba(201, 164, 65, 0.4);
     --muted-gold-border-stronger: rgba(201, 164, 65, 0.5);
 
-
     --color-text-light: #f8f8f8;
     --color-text-dark: #333333;
 
-    /* --- iPad Optimization Variables (easily configurable) --- */
+    /* --- iPad Optimization Variables --- */
     --ipad-font-size-multiplier: 1.3;
-    /* 30% larger - adjust this to change iPad text size */
     --ipad-font-weight: 700;
-    /* Bold for better readability */
     --ipad-text-color: #1a1a1a;
-    /* Darker for better contrast */
     --ipad-line-height: 1.4;
-    /* Tighter spacing */
     --ipad-verse-margin: 0.6rem;
-    /* Reduced spacing between verses */
+
+    /* --- Annotations --- */
+    --annotation-bg: slategrey;
+    --annotation-label-color: slategrey;
+    --annotation-popup-bg: white;
+    --annotation-popup-text: #222;
+    --annotation-popup-border: #444;
+
+    /* --- Daily Readings Popup --- */
+    --popup-bg-fallback: rgba(255, 255, 255, 0.1);
+    --popup-border-fallback: rgba(255, 255, 255, 0.3);
+}
+
+[data-theme="dark"] {
+    --bg-color: #1a1a1a;
+    --text-color: #e0e0e0;
+    --link-color: #6fb1f0;
+    --link-hover-bg: #401514;
+    --primary-red: #d4a09e;
+    --nav-text-color: #FFFFFF;
+    /* White for nav in dark mode */
+    --header-chapter-color: #FFFFFF;
+    --button-bg: #7B2E2B;
+    --button-hover-bg: #9a4f4c;
+    --footer-text: #888888;
+    --border-color: #444444;
+
+    --nav-bg: #2d2d2d;
+    --nav-border: #444444;
+    --modal-bg: #2d2d2d;
+    --modal-text: #e0e0e0;
+    --modal-header-bg: #444444;
+    --modal-header-text: #e0e0e0;
+    --modal-border: #444444;
+    --modal-highlight-text: #cccccc;
+
+    --color-text-dark: #e0e0e0;
+    --color-text-light: #f8f8f8;
+
+    --ipad-text-color: #e0e0e0;
+
+    --annotation-bg: #888888;
+    --annotation-label-color: #aaaaaa;
+    --annotation-popup-bg: #2d2d2d;
+    --annotation-popup-text: #e0e0e0;
+    --annotation-popup-border: #666;
+
+    --popup-bg-fallback: rgba(0, 0, 0, 0.3);
+    --popup-border-fallback: rgba(255, 255, 255, 0.1);
 }
 
 body {
@@ -68,20 +128,21 @@ body {
     padding: 2rem;
     margin: auto;
     font-weight: 600;
-    background-color: white;
-    color: #444444;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding-top: 60px;
+    /* Enough space for 40px header + gap */
+    padding-bottom: 60px;
 }
 
 a {
-    color: #3377b3;
+    color: var(--link-color);
     text-decoration: none;
 }
 
 a:hover {
-    color: #2D5FAB;
-    background: #D4A09E;
+    color: var(--link-color);
+    background: var(--link-hover-bg);
     border-radius: 0.1rem;
     border-bottom: dotted 1px;
 }
@@ -92,22 +153,25 @@ a:hover {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #f5f5f1;
+    background-color: var(--nav-bg);
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid var(--nav-border);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 1.5rem;
+    padding: 0 1.5rem;
+    /* Removed vertical padding */
     box-sizing: border-box;
-    min-height: 50px;
+    height: 40px;
+    /* Force height to 40px */
 }
 
 .top-nav a {
     font-family: MiloSerifWeb, MiloWeb, Georgia, TimesNewRoman, "Times New Roman", Times, Baskerville, serif;
     text-decoration: none;
-    color: #7B2E2B;
+    color: var(--nav-text-color);
+    /* Use new variable for white in dark mode */
     font-weight: 500;
     border-radius: 4px;
     transition: background-color 0.2s ease-in-out;
@@ -143,9 +207,9 @@ a:hover {
     font-size: 0.9em;
     padding: 0.25rem 0.5rem;
     border-radius: 4px;
-    border: 1px solid #ccc;
-    background-color: #fff;
-    color: #444444;
+    border: 1px solid var(--nav-border);
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
 
 .header-chapter {
@@ -153,7 +217,7 @@ a:hover {
     margin: 0;
     padding: 0;
     font-size: 1.1rem;
-    color: #7B2E2B;
+    color: var(--header-chapter-color);
 
     /* Center chapter */
     position: absolute;
@@ -198,20 +262,26 @@ a:hover {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem 2rem;
-    background-color: #f5f5f1;
+    align-items: center;
+    padding: 0 2rem;
+    /* Removed vertical padding */
+    background-color: var(--nav-bg);
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     box-sizing: border-box;
-    color: #7B2E2B;
-    border-top: 1px solid #e0e0e0;
+    color: var(--nav-text-color);
+    /* Updated */
+    border-top: 1px solid var(--nav-border);
+    height: 40px;
+    /* Force height to 40px */
 }
 
 .bottom-nav a,
 .bottom-nav span {
     font-family: MiloSerifWeb, MiloWeb, Georgia, TimesNewRoman, "Times New Roman", Times, Baskerville, serif;
     text-decoration: none;
-    color: #7B2E2B;
+    color: var(--nav-text-color);
+    /* Updated */
     font-weight: 500;
     border-radius: 4px;
     transition: background-color 0.2s ease-in-out;
@@ -265,13 +335,13 @@ span[data-verse-part] {
 /* --- Daily Reading Highlight Style --- */
 .daily-reading-highlight-block {
     position: absolute;
-    background-color: #fffef0;
+    background-color: var(--muted-gold-light-bg);
     z-index: 1;
     /* Sits behind the text (z-index: 2) */
     border-radius: 4px;
     left: -4px;
     right: -4px;
-    border: 1px lightgray dotted;
+    border: 1px var(--nav-border) dotted;
 }
 
 
@@ -279,7 +349,7 @@ span[data-verse-part] {
     font-size: 0.7em;
     vertical-align: super;
     font-weight: bold;
-    color: slategrey;
+    color: var(--annotation-label-color);
     margin-right: 0.5em;
 }
 
@@ -303,7 +373,7 @@ span[data-verse-part] {
     overflow: visible;
     /* Needed for label extension */
     border-radius: 3px;
-    background-color: slategrey;
+    background-color: var(--annotation-bg);
     /* --- Fallback color --- */
 }
 
@@ -337,7 +407,7 @@ span[data-verse-part] {
     font-size: 10px;
     font-style: normal;
     font-weight: 500;
-    color: slategrey;
+    color: var(--annotation-label-color);
     line-height: 1.1;
     writing-mode: vertical-rl;
     transform: rotate(360deg);
@@ -374,13 +444,13 @@ span[data-verse-part] {
     white-space: normal;
     overflow: visible;
     width: 200px;
-    background-color: white;
+    background-color: var(--annotation-popup-bg);
     /* White background for better contrast */
-    color: #222;
+    color: var(--annotation-popup-text);
     /* Dark text for readability */
     font-size: 14px;
     /* Larger font for better readability */
-    border: 2px solid #444;
+    border: 2px solid var(--annotation-popup-border);
     /* Stronger border */
     padding: 8px 10px;
     /* Slightly more padding for breathing room */
@@ -450,7 +520,7 @@ button,
 
 .button:hover {
     border-radius: 0.375em;
-    background-color: #D4A09E;
+    background-color: var(--button-hover-bg);
     box-shadow: 5px 8px 8px 0 rgba(0, 0, 0, 0.2), 5px 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-bottom: none;
 }
@@ -482,14 +552,14 @@ button,
 
 hr {
     border: 0;
-    border-bottom: solid 1px rgba(210, 215, 217, 0.75);
+    border-bottom: solid 1px var(--border-color);
     margin: 2em 0;
 }
 
 /* --- Footer --- */
 
 #footer .copyright {
-    color: #9fa3a6;
+    color: var(--footer-text);
     font-size: 0.9em;
     padding: 0em 0.1em 0.1em 0.1em;
 }
@@ -520,7 +590,7 @@ hr {
     max-width: 90%;
     /* Max width relative to viewport */
     /* Base style for frosted glass */
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: var(--popup-bg-fallback);
     /* Very transparent white base */
     color: var(--color-text-dark);
     /* Default to dark text */
@@ -535,7 +605,7 @@ hr {
     font-size: 0.9em;
     border-radius: 12px;
     /* Large rounded corners */
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid var(--popup-border-fallback);
     /* Lighter border */
     backdrop-filter: blur(10px);
     /* Frosted glass effect */
@@ -708,6 +778,20 @@ hr {
     /* Light close button */
 }
 
+
+/* --- Theme Toggle Switcher --- */
+.theme-toggle-btn {
+    transition: transform 0.2s ease-in-out;
+}
+
+.theme-toggle-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Override global button color to allow JS-controlled icon colors */
+#theme-toggle {
+    color: inherit !important;
+}
 
 /* --- Header and List styling --- */
 #daily-readings-popup .popup-header {
@@ -1111,13 +1195,14 @@ hr {
     width: 90%;
     max-width: 600px;
     max-height: 80vh;
-    background-color: #fcfcfc;
+    background-color: var(--modal-bg);
     border-radius: 12px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     z-index: 2001;
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    border: 1px solid var(--modal-border);
 }
 
 /* --- Modal Header --- */
@@ -1126,8 +1211,8 @@ hr {
     justify-content: flex-end;
     align-items: center;
     padding: 0;
-    border-bottom: 1px solid #e0e0e0;
-    background-color: #B35C58;
+    border-bottom: 1px solid var(--modal-border);
+    background-color: var(--modal-header-bg);
     line-height: 0;
 }
 
@@ -1151,8 +1236,8 @@ hr {
 }
 
 #ref-modal-close:hover {
-    color: #333;
-    background-color: #e0e0e0;
+    color: var(--text-color);
+    background-color: var(--modal-border);
 }
 
 /* --- Modal Content --- */
@@ -1161,7 +1246,7 @@ hr {
     padding: 0.5rem 1rem 0.75rem 1rem;
     overflow-y: auto;
     font-weight: 500;
-    color: #444444;
+    color: var(--modal-text);
     line-height: 1.5;
     text-align: left;
 }
@@ -1170,10 +1255,10 @@ hr {
     font-family: MiloWeb, Georgia, TimesNewRoman, serif;
     font-size: 1.1em;
     font-weight: 700;
-    color: white;
+    color: var(--modal-header-text);
     margin: 0.5rem 0 0.5rem 0;
     border-radius: 7px;
-    background-color: gray;
+    background-color: var(--modal-header-bg);
     text-align: center;
 }
 
@@ -1213,14 +1298,13 @@ hr {
 /* Style for bolded paragraph numbers */
 .ref-text b {
     font-family: MiloWeb, sans-serif;
-    color: #7B2E2B;
-    /* Primary Red */
+    color: var(--modal-highlight-text, #7B2E2B);
     margin-right: 0.25em;
 }
 
 /* Style for rubrics (red text) from RM */
 .ref-text .rubric {
-    color: #7B2E2B;
+    color: var(--modal-highlight-text, #7B2E2B);
     justify-content: left;
     font-style: italic;
 }
@@ -1575,6 +1659,7 @@ hr {
     font-size: 0.9em;
     border: 1px solid #ddd;
 }
+
 /* ============================================================================
    iPad Optimization (11-inch and similar tablets)
    
@@ -1589,11 +1674,8 @@ hr {
    - --ipad-verse-margin: controls spacing between verses (0.6rem)
    ============================================================================ */
 
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-    
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+
     /* Apply optimized font settings */
     body {
         font-size: calc(16px * var(--ipad-font-size-multiplier)) !important;
@@ -1601,13 +1683,13 @@ hr {
         color: var(--ipad-text-color) !important;
         line-height: var(--ipad-line-height) !important;
     }
-    
+
     /* Tighter verse spacing */
     .bible-text p {
         margin: 0 0 var(--ipad-verse-margin) 0 !important;
         color: var(--ipad-text-color) !important;
     }
-    
+
     /* Adjust verse numbers to be less prominent */
     .verse-num {
         color: #666 !important;
