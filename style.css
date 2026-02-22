@@ -615,10 +615,17 @@ hr {
 
 /* --- Liturgical Color Themes --- */
 #daily-readings-popup.liturgical-color-white {
-    background-color: rgba(255, 255, 245, 0.85);
-    color: var(--color-text-dark);
+    background-color: rgba(255, 255, 245, 0.95);
+    color: #333333;
     border-color: var(--muted-gold-border-stronger);
     /* Subtle gold border */
+}
+
+#daily-readings-popup.liturgical-color-gold {
+    background-color: rgba(255, 235, 150, 0.95);
+    /* Pale Gold */
+    color: #333333;
+    border-color: var(--muted-gold-border-stronger);
 }
 
 #daily-readings-popup.liturgical-color-red {
@@ -643,9 +650,9 @@ hr {
 }
 
 #daily-readings-popup.liturgical-color-rose {
-    background-color: rgba(244, 191, 190, 0.85);
+    background-color: rgba(244, 191, 190, 0.95);
     /* Rose */
-    color: var(--color-text-dark);
+    color: #333333;
     border-color: rgba(123, 46, 43, 0.3);
     /* Dark red border */
 }
@@ -672,25 +679,31 @@ hr {
 .liturgical-color-white .popup-reading-list li,
 .liturgical-color-rose .popup-header h4,
 .liturgical-color-rose .popup-header p,
-.liturgical-color-rose .popup-reading-list li {
-    color: var(--color-text-dark);
+.liturgical-color-rose .popup-reading-list li,
+.liturgical-color-gold .popup-header h4,
+.liturgical-color-gold .popup-header p,
+.liturgical-color-gold .popup-reading-list li {
+    color: #333333;
 }
 
 /* Date picker text color for light themes */
 .liturgical-color-white .popup-date-text,
-.liturgical-color-rose .popup-date-text {
-    color: var(--color-text-dark);
+.liturgical-color-rose .popup-date-text,
+.liturgical-color-gold .popup-date-text {
+    color: #333333;
     opacity: 0.9;
 }
 
 /* Link color for White theme */
-.liturgical-color-white .popup-reading-list a {
+.liturgical-color-white .popup-reading-list a,
+.liturgical-color-gold .popup-reading-list a {
     color: var(--muted-gold-darker);
     /* Darker gold for better contrast */
 }
 
 /* Gold hover for White theme */
-.liturgical-color-white .popup-reading-list a:hover {
+.liturgical-color-white .popup-reading-list a:hover,
+.liturgical-color-gold .popup-reading-list a:hover {
     color: var(--muted-gold-darker);
     background: var(--muted-gold-light-bg);
 }
@@ -706,8 +719,9 @@ hr {
 }
 
 .liturgical-color-white .popup-close-btn,
-.liturgical-color-rose .popup-close-btn {
-    color: var(--color-text-dark);
+.liturgical-color-rose .popup-close-btn,
+.liturgical-color-gold .popup-close-btn {
+    color: #333333;
     /* Dark close button */
 }
 
