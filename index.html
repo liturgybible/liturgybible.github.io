@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="The Liturgy Bible visualizes the liturgical use of the biblical text, including the Lectionary for Mass and selections from the Divine Office.">
+        content="Read the Catholic daily Mass readings in their full biblical context, with liturgical annotations, Catechism references, and study tools.">
     <meta name="keywords"
-        content="bible, catholic, liturgy, liturgical, gospel, lectionary, breviary, divine, office, hours, church">
-    <title>Liturgy Bible</title>
+        content="bible, catholic, liturgy, liturgical, gospel, lectionary, breviary, divine, office, hours, church, daily readings">
+    <title>Liturgy Bible — Read the Bible with the Church</title>
     <link rel="stylesheet" href="style.css">
 
     <!-- Google tag (gtag.js) -->
@@ -17,18 +17,638 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-BGRS7FKZLX');
     </script>
 
-    <!-- python3 -m http.server -->
-    <!-- http://localhost:8000/index.html -->
-
     <style>
-        /* --- BIBLE INDEX STYLES --- */
-        #bible-index {
-            margin-top: 1rem;
+        /* ============================
+           LANDING PAGE STYLES
+           ============================ */
+
+        /* --- Reset body for landing page --- */
+        body.landing-page {
+            max-width: 100%;
+            padding: 0;
+            padding-top: 40px;
+        }
+
+        /* Hide the floating daily readings popup on the landing page */
+        body.landing-page #daily-readings-popup {
+            display: none !important;
+        }
+
+        .landing-section {
+            max-width: 52rem;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* --- Hero --- */
+        .hero {
+            text-align: center;
+            padding: 5rem 2rem 3rem;
+            max-width: 52rem;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            color: var(--primary-red);
             margin-bottom: 1rem;
+            line-height: 1.15;
+            font-family: MiloSerifWeb, Georgia, serif;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        .hero .tagline {
+            font-size: 1.2rem;
+            color: var(--text-color);
+            max-width: 580px;
+            margin: 0 auto 2.5rem;
+            line-height: 1.6;
+            font-weight: 400;
+            opacity: 0.85;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 1.2rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .button.outline {
+            background-color: transparent;
+            color: var(--button-bg) !important;
+            border: 2px solid var(--button-bg);
+        }
+
+        .button.outline:hover {
+            background-color: var(--button-bg);
+            color: #ffffff !important;
+        }
+
+        /* --- Today's Readings Pane (reused from today-full) --- */
+        .today-wrapper {
+            max-width: 650px;
+            margin: 0 auto 4rem;
+        }
+
+        #daily-readings-pane {
+            width: 100%;
+            background-color: var(--popup-bg-fallback);
+            color: var(--text-color);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            padding: 1.5rem;
+            box-sizing: border-box;
+            font-family: MiloWeb, sans-serif;
+            font-weight: 400;
+            font-size: 0.95em;
+            border-radius: 12px;
+            border: 1px solid var(--popup-border-fallback);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        #daily-readings-pane.liturgical-color-white {
+            background-color: rgba(255, 255, 245, 0.95);
+            color: #333;
+            border-color: var(--muted-gold-border-stronger);
+        }
+
+        #daily-readings-pane.liturgical-color-gold {
+            background-color: rgba(255, 235, 150, 0.95);
+            color: #333;
+            border-color: var(--muted-gold-border-stronger);
+        }
+
+        #daily-readings-pane.liturgical-color-red {
+            background-color: rgba(218, 41, 28, 0.75);
+            color: var(--color-text-light);
+        }
+
+        #daily-readings-pane.liturgical-color-green {
+            background-color: rgba(0, 132, 61, 0.8);
+            color: var(--color-text-light);
+        }
+
+        #daily-readings-pane.liturgical-color-violet {
+            background-color: rgba(142, 68, 173, 0.8);
+            color: var(--color-text-light);
+        }
+
+        #daily-readings-pane.liturgical-color-rose {
+            background-color: rgba(244, 191, 190, 0.95);
+            color: #333;
+            border-color: rgba(123, 46, 43, 0.3);
+        }
+
+        #daily-readings-pane.liturgical-color-black {
+            background-color: rgba(33, 33, 33, 0.8);
+            color: var(--color-text-light);
+        }
+
+        #daily-readings-pane.liturgical-color-default {
+            background-color: rgba(128, 128, 128, 0.8);
+            color: var(--color-text-light);
+        }
+
+        #daily-readings-pane .pane-header {
+            margin-bottom: 0.5rem;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            padding-bottom: 0.5rem;
+        }
+
+        .liturgical-color-white .pane-header,
+        .liturgical-color-rose .pane-header,
+        .liturgical-color-gold .pane-header {
+            border-bottom-color: var(--muted-gold-border);
+        }
+
+        .liturgical-color-red .pane-header,
+        .liturgical-color-green .pane-header,
+        .liturgical-color-violet .pane-header,
+        .liturgical-color-black .pane-header,
+        .liturgical-color-default .pane-header {
+            border-bottom-color: rgba(255, 255, 255, 0.3);
+        }
+
+        #daily-readings-pane .pane-header h4 {
+            margin: 0 0 0.2rem 0;
+            font-size: 1.2em;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        #daily-readings-pane .pane-header .pane-date {
+            margin: 0;
+            font-size: 1em;
+            font-style: italic;
+            opacity: 0.9;
+        }
+
+        #daily-readings-pane .pane-reading-list {
+            list-style: none;
+            padding: 0;
+            margin: 0.5rem 0 0 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem 1.5rem;
+        }
+
+        #daily-readings-pane .pane-reading-list li {
+            margin: 0;
+            white-space: nowrap;
+        }
+
+        #daily-readings-pane .pane-reading-list li strong {
+            margin-right: 0.5em;
+            opacity: 0.9;
+            font-weight: 600;
+        }
+
+        #daily-readings-pane a {
+            text-decoration: underline;
+            border-bottom: none;
+        }
+
+        #daily-readings-pane a:hover {
+            background: none;
+            border-bottom: none;
+            text-decoration: none;
+        }
+
+        .liturgical-color-white .pane-reading-list a,
+        .liturgical-color-gold .pane-reading-list a {
+            color: var(--muted-gold-darker);
+        }
+
+        .liturgical-color-white .pane-reading-list a:hover,
+        .liturgical-color-gold .pane-reading-list a:hover {
+            color: var(--muted-gold-darker);
+            background: var(--muted-gold-light-bg);
+        }
+
+        .liturgical-color-rose .pane-reading-list a {
+            color: #5E4B81;
+        }
+
+        .liturgical-color-rose .pane-reading-list a:hover {
+            color: #401514;
+        }
+
+        .liturgical-color-red .pane-reading-list a,
+        .liturgical-color-green .pane-reading-list a,
+        .liturgical-color-violet .pane-reading-list a,
+        .liturgical-color-black .pane-reading-list a,
+        .liturgical-color-default .pane-reading-list a {
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .liturgical-color-red .pane-reading-list a:hover,
+        .liturgical-color-green .pane-reading-list a:hover,
+        .liturgical-color-violet .pane-reading-list a:hover,
+        .liturgical-color-black .pane-reading-list a:hover,
+        .liturgical-color-default .pane-reading-list a:hover {
+            color: white;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        @media (max-width: 800px) {
+            #daily-readings-pane .pane-reading-list {
+                flex-direction: column;
+                gap: 0.2rem 1rem;
+                white-space: normal;
+            }
+
+            #daily-readings-pane .pane-reading-list li {
+                white-space: normal;
+            }
+        }
+
+
+        /* --- Section Separator --- */
+        .section-break {
+            border: 0;
+            border-bottom: 1px solid var(--border-color);
+            margin: 4rem auto;
+            max-width: 52rem;
+        }
+
+        /* --- Preview Section --- */
+        .preview-section {
+            padding: 4rem 0;
+        }
+
+        .preview-section .section-header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+
+        .preview-section .section-header h2 {
+            font-family: MiloSerifWeb, Georgia, serif;
+            color: var(--primary-red);
+            font-size: 2.2rem;
+            margin-bottom: 0.8rem;
+            margin-top: 0;
+            line-height: 1.15;
+        }
+
+        .preview-section .section-header p {
+            color: var(--text-color);
+            opacity: 0.8;
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 1.05rem;
+            font-weight: 400;
+            line-height: 1.5;
+        }
+
+        /* --- Mock Bible Page --- */
+        .mock-page {
+            background: var(--nav-bg);
+            border: 1px solid var(--nav-border);
+            border-radius: 12px;
+            padding: 2rem 1rem;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+            max-width: 850px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .mock-page-header {
+            font-family: MiloSerifWeb, Georgia, serif;
+            color: var(--primary-red);
+            font-weight: 700;
+            font-size: 1.2rem;
+            text-align: center;
+            padding-bottom: 1rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .mock-bible-layout {
+            display: flex;
+            position: relative;
+            font-family: MiloSerifWeb, Georgia, serif;
+        }
+
+        .mock-margin-left,
+        .mock-margin-right {
+            width: 110px;
+            flex-shrink: 0;
+            position: relative;
+        }
+
+        .mock-text-col {
+            flex-grow: 1;
+            min-width: 0;
+            font-size: 1em;
+            font-weight: 600;
+            line-height: 1.5;
+            text-align: justify;
+            padding: 0 1.2rem;
+        }
+
+        .mock-text-col p {
+            margin: 0 0 0.9rem 0;
+        }
+
+        .mock-verse-num {
+            font-size: 0.7em;
+            vertical-align: super;
+            font-weight: bold;
+            color: var(--annotation-label-color);
+            margin-right: 0.4em;
+        }
+
+        /* Annotation bars in mock */
+        .mock-bar {
+            position: absolute;
+            width: 5px;
+            border-radius: 3px;
+        }
+
+        .mock-bar-left {
+            right: 0;
+        }
+
+        .mock-bar-right {
+            left: 0;
+        }
+
+        .mock-bar .mock-label {
+            position: absolute;
+            font-family: MiloWeb, sans-serif;
+            font-size: 10px;
+            font-weight: 500;
+            color: var(--annotation-label-color);
+            writing-mode: vertical-rl;
+            white-space: nowrap;
+            top: 4px;
+        }
+
+        .mock-bar-left .mock-label {
+            right: 6px;
+        }
+
+        .mock-bar-right .mock-label {
+            left: 6px;
+        }
+
+        /* CCC pill in mock — matches real .ref-pill from style.css */
+        .mock-ccc-pill {
+            display: inline-block;
+            font-family: MiloWeb, 'Roboto', sans-serif;
+            font-size: 0.65em;
+            font-weight: 600;
+            color: slategrey;
+            background-color: rgba(150, 150, 150, 0.08);
+            border: 1px solid rgba(150, 150, 150, 0.2);
+            border-radius: 8px;
+            padding: 1px 6px;
+            margin-left: 0.75em;
+            vertical-align: middle;
+            cursor: default;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+
+        /* Connector line between split segments */
+        .mock-connector {
+            position: absolute;
+            border-left: 1px dotted;
+            width: 0;
+        }
+
+        .mock-connector-left {
+            right: 2px;
+        }
+
+        .mock-connector-right {
+            left: 2px;
+        }
+
+        .mock-page-cta {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .mock-page-cta a {
+            font-family: MiloWeb, sans-serif;
+            font-weight: 600;
+            font-size: 0.95em;
+        }
+
+        @media (max-width: 650px) {
+
+            .mock-margin-left,
+            .mock-margin-right {
+                width: 35px;
+            }
+
+            .mock-bar .mock-label {
+                display: none;
+            }
+
+            .mock-text-col {
+                font-size: 0.9em;
+                padding: 0 0.6rem;
+            }
+        }
+
+        /* --- How It Works --- */
+        .how-it-works {
+            padding: 4rem 0;
+        }
+
+        .how-it-works .section-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .how-it-works .section-header h2 {
+            font-family: MiloSerifWeb, Georgia, serif;
+            color: var(--primary-red);
+            font-size: 2.2rem;
+            margin: 0 0 0.8rem;
+            line-height: 1.15;
+        }
+
+        .how-it-works .section-header p {
+            color: var(--text-color);
+            opacity: 0.8;
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 1.05rem;
+            font-weight: 400;
+            line-height: 1.5;
+        }
+
+        .features-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .feature-item {
+            padding: 1.8rem;
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            background: var(--bg-color);
+        }
+
+        .feature-item h3 {
+            font-family: MiloSerifWeb, Georgia, serif;
+            color: var(--primary-red);
+            margin: 0 0 0.6rem;
+            font-size: 1.15rem;
+        }
+
+        .feature-item p {
+            margin: 0;
+            font-weight: 400;
+            font-size: 0.95em;
+            color: var(--text-color);
+            opacity: 0.85;
+            line-height: 1.5;
+        }
+
+        /* --- Annotation Legend --- */
+        .legend-section {
+            padding: 3rem 2rem;
+            background: var(--nav-bg);
+            border-radius: 12px;
+            border: 1px solid var(--nav-border);
+            margin: 0 auto;
+            max-width: 680px;
+        }
+
+        .legend-section h2 {
+            color: var(--primary-red);
+            font-family: MiloSerifWeb, Georgia, serif;
+            margin-top: 0;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+
+        .legend-grid {
+            display: flex;
+            justify-content: center;
+            gap: 4rem;
+            flex-wrap: wrap;
+            margin-top: 1.5rem;
+        }
+
+        .legend-col h4 {
+            font-family: MiloWeb, sans-serif;
+            font-weight: 700;
+            margin: 0 0 0.8rem;
+            font-size: 0.95rem;
+        }
+
+        .legend-col ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .legend-col li {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            margin-bottom: 0.4em;
+            font-family: MiloWeb, sans-serif;
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+
+        .legend-swatch {
+            display: inline-block;
+            width: 16px;
+            height: 5px;
+            border-radius: 3px;
+            flex-shrink: 0;
+        }
+
+        /* --- Subscribe --- */
+        .subscribe-section {
+            padding: 3rem 2rem;
+            background: var(--nav-bg);
+            border-radius: 12px;
+            border: 1px solid var(--nav-border);
+            margin: 4rem auto;
+            max-width: 520px;
+            text-align: center;
+        }
+
+        .subscribe-section h3 {
+            color: var(--primary-red);
+            font-family: MiloSerifWeb, Georgia, serif;
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+
+        .subscribe-section p {
+            font-weight: 400;
+            font-size: 0.95em;
+            opacity: 0.85;
+            margin-bottom: 1.5rem;
+        }
+
+        .subscribe-section input[type="email"] {
+            width: 100%;
+            max-width: 300px;
+            padding: 0.7rem 0.9rem;
+            border-radius: 6px;
+            border: 1px solid var(--nav-border);
+            background: var(--bg-color);
+            color: var(--text-color);
+            font-family: MiloWeb, sans-serif;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        /* --- About / Sources --- */
+        .about-section {
+            max-width: 650px;
+            margin: 0 auto;
+            padding: 0 2rem 4rem;
+        }
+
+        .about-section h2 {
+            color: var(--primary-red);
+            font-family: MiloSerifWeb, Georgia, serif;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+
+        .about-section p,
+        .about-section ul {
+            font-size: 0.95em;
+            line-height: 1.55;
+            font-weight: 400;
+        }
+
+        .about-section ul {
+            padding-left: 1.2rem;
+        }
+
+        .about-section li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* --- Bible Index --- */
+        #bible-index {
+            margin-top: 2rem;
+            margin-bottom: 4rem;
         }
 
         .bible-section {
@@ -40,27 +660,22 @@
             padding-bottom: 0.1rem;
             margin-bottom: 0.5rem;
             color: var(--primary-red);
-            font-family: MiloSerifWeb, MiloWeb, Georgia, TimesNewRoman, serif;
+            font-family: MiloSerifWeb, Georgia, serif;
         }
 
-        /* Container for the packed book layout */
         .books-container {
             display: flex;
             flex-wrap: wrap;
             gap: .5rem 2.5rem;
-            /* Row and column gap */
             align-items: flex-start;
         }
 
-        /* Each book item is a block that can wrap */
-
         .book-name {
             display: block;
-            /* Puts the name on its own line above the chapters */
             font-weight: 700;
             font-size: 0.9em;
-            margin-bottom: 0rem;
-            /* Space between name and chapter boxes */
+            margin-bottom: 0;
+            color: var(--text-color);
         }
 
         .chapter-links {
@@ -77,25 +692,21 @@
             height: 20px;
             text-decoration: none;
             color: white;
-            font-family: MiloWeb, Georgia, TimesNewRoman, serif;
+            font-family: MiloWeb, Georgia, serif;
             font-size: 0.7em;
             font-weight: 700;
             border: 1px solid var(--bg-color);
-            border-radius: 0px;
             transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
             background-color: var(--bg-color-section);
-            /* Use custom property for section color */
         }
 
         .chapter-box:hover {
             transform: scale(1.1);
-            border-bottom: none;
-            /* Override default link hover */
             background-color: var(--bg-hover-color);
-            /* Use custom property for hover color */
+            border: none;
+            color: white;
         }
 
-        /* Color Coding for Sections with hover variables */
         .pentateuch {
             --bg-color-section: #B35C58;
             --bg-hover-color: #c97f7a;
@@ -130,161 +741,476 @@
             --bg-color-section: #401514;
             --bg-hover-color: #633938;
         }
+
+        /* --- Animations --- */
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-in {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        .animate-in.visible {
+            animation: fadeUp 0.6s ease-out forwards;
+        }
+
+        /* --- Mobile --- */
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero .tagline {
+                font-size: 1.05rem;
+            }
+
+            .preview-section .section-header h2,
+            .how-it-works .section-header h2 {
+                font-size: 1.6rem;
+            }
+
+            .features-list {
+                grid-template-columns: 1fr;
+            }
+
+            .legend-grid {
+                gap: 2rem;
+            }
+        }
     </style>
 </head>
 
-<body>
+<body class="landing-page">
 
-    <center>
-        <img src="images/liturgy-bible.png" width="150px">
-    </center>
+    <header class="top-nav">
+        <a href="index.html">
+            <img src="images/liturgy-Bible-horiz.png" alt="Liturgy Bible Logo" class="header-logo">
+            <img src="images/lb.png" alt="Liturgy Bible Logo" class="header-logo-mobile">
+        </a>
+        <div class="header-controls">
+            <!-- search rendered via script.js -->
+        </div>
+    </header>
 
-    <span style="font-weight: 400;">
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+        <h1>Read the Bible<br>with the Church</h1>
+        <p class="tagline">The Liturgy Bible shows you how every chapter of Scripture is used in the
+            Mass and the Liturgy of the Hours — with annotations in the margins, Catechism references,
+            and today's readings one tap away.</p>
 
-        <center>
-            <div class="content">
-                <a href="about.html" class="button">About</a> <!-- <br><br> -->
-                <a href="mailto:liturgybible@gmail.com?subject=Liturgy%20Bible" target="_blank"
-                    class="button">Contact</a>
+    </section>
+
+    <!-- ============ TODAY'S READINGS ============ -->
+    <section id="today-readings" class="today-wrapper landing-section animate-in">
+        <div id="readings-pane-placeholder">
+            <p style="text-align: center; font-weight: 400; opacity: 0.7;">Loading today's readings…</p>
+        </div>
+    </section>
+
+    <hr class="section-break">
+
+    <!-- ============ PREVIEW: SEE HOW IT WORKS ============ -->
+    <section class="preview-section landing-section animate-in">
+        <div class="section-header">
+            <h2>See How the Liturgy Unfolds</h2>
+            <p>Every chapter is annotated in the margins showing exactly when and where the Church
+                proclaims it. Catechism references connect the text to doctrine.</p>
+        </div>
+
+        <div class="mock-page">
+            <div class="mock-page-header">Romans 1</div>
+            <div class="mock-bible-layout">
+                <!-- LEFT MARGIN: Lectionary (2 bars) -->
+                <div class="mock-margin-left">
+                    <!-- Slot 0: 4th Sunday of Advent [A, #10], v1–7 -->
+                    <div class="mock-bar mock-bar-left"
+                        style="top: 0; height: 72%; background-color: #7B2E2B; right: 0;">
+                        <span class="mock-label">4th Sunday of Advent [A, #10]</span>
+                    </div>
+                    <!-- Slot 1: Ordinary Time, Week 28, Mon [I, #467], v1–9+ -->
+                    <div class="mock-bar mock-bar-left"
+                        style="top: 0; height: 100%; background-color: #B35C58; right: 25px;">
+                        <span class="mock-label">Ordinary Time, Week 28, Mon [I, #467]</span>
+                    </div>
+                </div>
+
+                <!-- CENTER: Bible text (DRA, Romans 1:1–9) -->
+                <div class="mock-text-col">
+                    <p><span class="mock-verse-num">1</span>
+                        Paul, a servant of Jesus Christ, called to be an apostle, separated unto the
+                        gospel of God,
+                        <span class="mock-ccc-pill">CCC</span>
+                    </p>
+                    <p><span class="mock-verse-num">2</span>
+                        Which he had promised before, by his prophets, in the holy scriptures,</p>
+                    <p><span class="mock-verse-num">3</span>
+                        Concerning his Son, who was made to him of the seed of David, according to the flesh,
+                        <span class="mock-ccc-pill">CCC</span>
+                    </p>
+                    <p><span class="mock-verse-num">4</span>
+                        Who was predestinated the Son of God in power, according to the spirit of
+                        sanctification, by the resurrection of our Lord Jesus Christ from the dead;
+                        <span class="mock-ccc-pill">CCC</span>
+                    </p>
+                    <p><span class="mock-verse-num">5</span>
+                        By whom we have received grace and apostleship for obedience to the faith, in
+                        all nations, for his name;
+                        <span class="mock-ccc-pill">CCC</span>
+                    </p>
+                    <p><span class="mock-verse-num">6</span>
+                        Among whom are you also the called of Jesus Christ:</p>
+                    <p><span class="mock-verse-num">7</span>
+                        To all that are at Rome, the beloved of God, called to be saints. Grace to you,
+                        and peace from God our Father, and from the Lord Jesus Christ.</p>
+                    <p><span class="mock-verse-num">8</span>
+                        First I give thanks to my God, through Jesus Christ, for you all, because your
+                        faith is spoken of in the whole world.</p>
+                    <p><span class="mock-verse-num">9</span>
+                        For God is my witness, whom I serve in my spirit in the gospel of his Son, that
+                        without ceasing I make a commemoration of you;</p>
+                </div>
+
+                <!-- RIGHT MARGIN: Divine Office (2 bars) -->
+                <div class="mock-margin-right">
+                    <!-- Slot 0: 2-yr Office of Readings, v1–9+ -->
+                    <div class="mock-bar mock-bar-right"
+                        style="top: 0; height: 100%; background-color: #83A286; left: 0;">
+                        <span class="mock-label">2-yr Office of Readings, Year I, Ordinary Time, Week 1, Monday</span>
+                    </div>
+                    <!-- Slot 1: Sts. Peter and Paul, v1–2 -->
+                    <div class="mock-bar mock-bar-right"
+                        style="top: 0; height: 22%; background-color: #4A628A; left: 25px;">
+                        <span class="mock-label">Jun 29, Sts. Peter and Paul, Evening Prayer I</span>
+                    </div>
+                    <!-- Connector for Sts. Peter and Paul -->
+                    <div class="mock-connector mock-connector-right"
+                        style="top: 22%; height: 45%; border-color: #4A628A; left: 27px;"></div>
+                    <!-- Sts. Peter and Paul, v7 -->
+                    <div class="mock-bar mock-bar-right"
+                        style="top: 67%; height: 9%; background-color: #4A628A; left: 25px;">
+                    </div>
+                </div>
             </div>
-        </center>
 
-        <!-- Bible index will be generated here -->
+            <div class="mock-page-cta">
+                <a href="bible/romans-01.html">Open the full page →</a>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-break">
+
+    <!-- ============ FEATURES ============ -->
+    <section class="how-it-works landing-section animate-in">
+        <div class="section-header">
+            <h2>Built for Prayer and Study</h2>
+            <p>Everything you need to read Scripture as the Church reads it — designed for daily use on
+                any device.</p>
+        </div>
+
+        <div class="features-list">
+            <div class="feature-item">
+                <h3>Today's Readings</h3>
+                <p>See the daily Mass readings at a glance, with links directly into their biblical
+                    context. Install on your home screen for one-tap access.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Liturgical Annotations</h3>
+                <p>Color-coded margin bars show every time a passage appears in the Lectionary for Mass
+                    and the Liturgy of the Hours, so you can see how the Church weaves Scripture
+                    through the liturgical year.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Catechism References</h3>
+                <p>Inline CCC references connect the biblical text directly to the Catechism of the
+                    Catholic Church. Tap a reference pill to read the paragraph in context.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Instant Navigation</h3>
+                <p>Press <code>/</code> or <code>Cmd+K</code> on any page to jump instantly to any
+                    book or chapter. Arrow keys move between chapters.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Works Offline</h3>
+                <p>As a Progressive Web App, today's readings are cached automatically. Add to
+                    your home screen for instant, offline access — even without a connection.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Dark Mode</h3>
+                <p>A responsive dark mode follows your system preferences (on chapter pages),
+                    making it comfortable for evening reading.</p>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-break">
+
+    <!-- ============ ANNOTATION LEGEND ============ -->
+    <section class="landing-section animate-in">
+        <div class="legend-section">
+            <h2>Annotation Legend</h2>
+            <div class="legend-grid">
+                <div class="legend-col">
+                    <h4>Lectionary <em style="font-weight: 400;">(Left Margin)</em></h4>
+                    <ul>
+                        <li><span class="legend-swatch" style="background:#C9A441;"></span> Solemnities &amp; Feasts
+                        </li>
+                        <li><span class="legend-swatch" style="background:#7B2E2B;"></span> Sunday Readings</li>
+                        <li><span class="legend-swatch" style="background:#B35C58;"></span> Weekday Readings</li>
+                    </ul>
+                </div>
+                <div class="legend-col">
+                    <h4>Divine Office <em style="font-weight: 400;">(Right Margin)</em></h4>
+                    <ul>
+                        <li><span class="legend-swatch" style="background:#5E4B81;"></span> Ordinary</li>
+                        <li><span class="legend-swatch" style="background:#4C6B4F;"></span> Office of Readings</li>
+                        <li><span class="legend-swatch" style="background:#83A286;"></span> Office of Readings (2-yr
+                            cycle)</li>
+                        <li><span class="legend-swatch" style="background:#4A628A;"></span> Other Readings</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-break">
+
+    <!-- ============ SUBSCRIBE ============ -->
+    <section id="subscribe" class="subscribe-section animate-in">
+        <h3>Subscribe for Updates</h3>
+        <p>Get news about new features and a potential print edition of the Liturgy Bible.</p>
+        <form action="https://buttondown.com/api/emails/embed-subscribe/liturgybible" method="POST"
+            class="embeddable-buttondown-form" target="_blank">
+            <div>
+                <input type="email" name="email" id="bd-email" placeholder="your.email@example.com" required>
+            </div>
+            <input type="hidden" value="1" name="embed" />
+            <div style="margin-top:0.5rem">
+                <input type="submit" value="Subscribe" class="button">
+            </div>
+        </form>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about-section animate-in">
+        <h2>About the Project</h2>
+        <p>The <em>Liturgy Bible</em> visualizes the liturgical use of the biblical text.
+            You can learn more by reading the original white paper
+            <a href="https://matthewkudija.com/notes/The-Case-for-a-Lectionary-Bible.html" target="_blank">here</a>.
+        </p>
+        <p>Annotations are compiled from:</p>
+        <ul>
+            <li>USCCB: <a href="https://www.usccb.org/committees/divine-worship/liturgical-calendar"
+                    target="_blank">Liturgical Calendar for the Dioceses of the US</a></li>
+            <li>Felix Just, S.J.: <a href="https://catholic-resources.org/Lectionary/" target="_blank">The Catholic
+                    Lectionary Website</a></li>
+            <li>Liturgical Press: <a href="https://litpress.org/Products/6435/Liturgy-and-Life-Study-Bible"
+                    target="_blank"><em>Liturgy and Life Study Bible</em></a></li>
+            <li>Matthew P Hazell: <a href="https://www.sourcesoftheliturgy.com/books-and-research-tools"
+                    target="_blank"><em>Index Lectionum</em></a></li>
+            <li><a href="https://www.cultodivino.va/en/rivista-notitiae.html" target="_blank">2020
+                    Notitiae</a>: M. Lessi Ariosto, <em>Commento al ciclo biennale…</em></li>
+        </ul>
+        <p>The biblical text uses two public domain translations: the Douay-Rheims (DRA) and King
+            James Version (KJV). We have requested permission for several modern liturgical
+            translations.</p>
+        <p>This is a work in progress. Submit a
+            <a href="https://github.com/liturgybible/liturgybible.github.io" target="_blank">pull request</a>
+            or <a href="mailto:liturgybible@gmail.com?subject=Liturgy%20Bible">send an email</a>
+            with corrections or feedback.
+        </p>
+    </section>
+
+    <hr class="section-break">
+
+    <!-- ============ BIBLE INDEX ============ -->
+    <section class="landing-section animate-in">
+        <h2
+            style="text-align: center; color: var(--primary-red); font-family: MiloSerifWeb, Georgia, serif; margin-bottom: 1rem;">
+            Browse the Entire Bible</h2>
         <div id="bible-index"></div>
-
-    </span>
+    </section>
 
     <hr>
 
     <footer id="footer" align="center">
         <center>
-            <img src="images/lb.png" width="100px">
+            <img src="images/lb.png" width="100px" alt="Liturgy Bible emblem">
             <p class="copyright">&copy;
                 <script>document.write(new Date().getFullYear())</script> liturgybible.org
             </p>
         </center>
     </footer>
 
+    <!-- ============ JAVASCRIPT ============ -->
     <script>
-        // Data structure for the Bible index
+        // --- Bible Index Data ---
         const bibleIndexData = [
             {
-                section: "The Pentateuch",
-                colorClass: "pentateuch",
-                books: [
-                    { name: "Genesis", chapters: 50 }, { name: "Exodus", chapters: 40 }, { name: "Leviticus", chapters: 27 },
-                    { name: "Numbers", chapters: 36 }, { name: "Deuteronomy", chapters: 34 }
-                ]
+                section: "The Pentateuch", colorClass: "pentateuch",
+                books: [{ name: "Genesis", chapters: 50 }, { name: "Exodus", chapters: 40 }, { name: "Leviticus", chapters: 27 }, { name: "Numbers", chapters: 36 }, { name: "Deuteronomy", chapters: 34 }]
             },
             {
-                section: "The Historical Books",
-                colorClass: "historical",
-                books: [
-                    { name: "Joshua", chapters: 24 }, { name: "Judges", chapters: 21 }, { name: "Ruth", chapters: 4 },
-                    { name: "1 Samuel", chapters: 31 }, { name: "2 Samuel", chapters: 24 }, { name: "1 Kings", chapters: 22 },
-                    { name: "2 Kings", chapters: 25 }, { name: "1 Chronicles", chapters: 29 }, { name: "2 Chronicles", chapters: 36 },
-                    { name: "Ezra", chapters: 10 }, { name: "Nehemiah", chapters: 13 }, { name: "Tobit", chapters: 14 },
-                    { name: "Judith", chapters: 16 }, { name: "Esther", chapters: 10 }, { name: "1 Maccabees", chapters: 16 },
-                    { name: "2 Maccabees", chapters: 15 }
-                ]
+                section: "The Historical Books", colorClass: "historical",
+                books: [{ name: "Joshua", chapters: 24 }, { name: "Judges", chapters: 21 }, { name: "Ruth", chapters: 4 }, { name: "1 Samuel", chapters: 31 }, { name: "2 Samuel", chapters: 24 }, { name: "1 Kings", chapters: 22 }, { name: "2 Kings", chapters: 25 }, { name: "1 Chronicles", chapters: 29 }, { name: "2 Chronicles", chapters: 36 }, { name: "Ezra", chapters: 10 }, { name: "Nehemiah", chapters: 13 }, { name: "Tobit", chapters: 14 }, { name: "Judith", chapters: 16 }, { name: "Esther", chapters: 10 }, { name: "1 Maccabees", chapters: 16 }, { name: "2 Maccabees", chapters: 15 }]
             },
             {
-                section: "The Wisdom Books",
-                colorClass: "wisdom",
-                books: [
-                    { name: "Job", chapters: 42 }, { name: "Psalms", chapters: 150 }, { name: "Proverbs", chapters: 31 },
-                    { name: "Ecclesiastes", chapters: 12 }, { name: "Song of Songs", chapters: 8 }, { name: "Wisdom", chapters: 19 },
-                    { name: "Sirach", chapters: 51 }
-                ]
+                section: "The Wisdom Books", colorClass: "wisdom",
+                books: [{ name: "Job", chapters: 42 }, { name: "Psalms", chapters: 150 }, { name: "Proverbs", chapters: 31 }, { name: "Ecclesiastes", chapters: 12 }, { name: "Song of Songs", chapters: 8 }, { name: "Wisdom", chapters: 19 }, { name: "Sirach", chapters: 51 }]
             },
             {
-                section: "The Prophetic Books",
-                colorClass: "prophets",
-                books: [
-                    { name: "Isaiah", chapters: 66 }, { name: "Jeremiah", chapters: 52 }, { name: "Lamentations", chapters: 5 },
-                    { name: "Baruch", chapters: 6 }, { name: "Ezekiel", chapters: 48 }, { name: "Daniel", chapters: 14 },
-                    { name: "Hosea", chapters: 14 }, { name: "Joel", chapters: 3 }, { name: "Amos", chapters: 9 },
-                    { name: "Obadiah", chapters: 1 }, { name: "Jonah", chapters: 4 }, { name: "Micah", chapters: 7 },
-                    { name: "Nahum", chapters: 3 }, { name: "Habakkuk", chapters: 3 }, { name: "Zephaniah", chapters: 3 },
-                    { name: "Haggai", chapters: 2 }, { name: "Zechariah", chapters: 14 }, { name: "Malachi", chapters: 4 }
-                ]
+                section: "The Prophetic Books", colorClass: "prophets",
+                books: [{ name: "Isaiah", chapters: 66 }, { name: "Jeremiah", chapters: 52 }, { name: "Lamentations", chapters: 5 }, { name: "Baruch", chapters: 6 }, { name: "Ezekiel", chapters: 48 }, { name: "Daniel", chapters: 14 }, { name: "Hosea", chapters: 14 }, { name: "Joel", chapters: 3 }, { name: "Amos", chapters: 9 }, { name: "Obadiah", chapters: 1 }, { name: "Jonah", chapters: 4 }, { name: "Micah", chapters: 7 }, { name: "Nahum", chapters: 3 }, { name: "Habakkuk", chapters: 3 }, { name: "Zephaniah", chapters: 3 }, { name: "Haggai", chapters: 2 }, { name: "Zechariah", chapters: 14 }, { name: "Malachi", chapters: 4 }]
             },
             {
-                section: "The Gospels & Acts",
-                colorClass: "gospels",
-                books: [
-                    { name: "Matthew", chapters: 28 }, { name: "Mark", chapters: 16 }, { name: "Luke", chapters: 24 },
-                    { name: "John", chapters: 21 }, { name: "Acts", chapters: 28 }
-                ]
+                section: "The Gospels & Acts", colorClass: "gospels",
+                books: [{ name: "Matthew", chapters: 28 }, { name: "Mark", chapters: 16 }, { name: "Luke", chapters: 24 }, { name: "John", chapters: 21 }, { name: "Acts", chapters: 28 }]
             },
             {
-                section: "The Letters (Epistles)",
-                colorClass: "nt-letters",
-                books: [
-                    { name: "Romans", chapters: 16 }, { name: "1 Corinthians", chapters: 16 }, { name: "2 Corinthians", chapters: 13 },
-                    { name: "Galatians", chapters: 6 }, { name: "Ephesians", chapters: 6 }, { name: "Philippians", chapters: 4 },
-                    { name: "Colossians", chapters: 4 }, { name: "1 Thessalonians", chapters: 5 }, { name: "2 Thessalonians", chapters: 3 },
-                    { name: "1 Timothy", chapters: 6 }, { name: "2 Timothy", chapters: 4 }, { name: "Titus", chapters: 3 },
-                    { name: "Philemon", chapters: 1 }, { name: "Hebrews", chapters: 13 }, { name: "James", chapters: 5 },
-                    { name: "1 Peter", chapters: 5 }, { name: "2 Peter", chapters: 3 }, { name: "1 John", chapters: 5 },
-                    { name: "2 John", chapters: 1 }, { name: "3 John", chapters: 1 }, { name: "Jude", chapters: 1 }
-                ]
+                section: "The Letters (Epistles)", colorClass: "nt-letters",
+                books: [{ name: "Romans", chapters: 16 }, { name: "1 Corinthians", chapters: 16 }, { name: "2 Corinthians", chapters: 13 }, { name: "Galatians", chapters: 6 }, { name: "Ephesians", chapters: 6 }, { name: "Philippians", chapters: 4 }, { name: "Colossians", chapters: 4 }, { name: "1 Thessalonians", chapters: 5 }, { name: "2 Thessalonians", chapters: 3 }, { name: "1 Timothy", chapters: 6 }, { name: "2 Timothy", chapters: 4 }, { name: "Titus", chapters: 3 }, { name: "Philemon", chapters: 1 }, { name: "Hebrews", chapters: 13 }, { name: "James", chapters: 5 }, { name: "1 Peter", chapters: 5 }, { name: "2 Peter", chapters: 3 }, { name: "1 John", chapters: 5 }, { name: "2 John", chapters: 1 }, { name: "3 John", chapters: 1 }, { name: "Jude", chapters: 1 }]
             },
             {
-                section: "Apocalyptic Literature",
-                colorClass: "apocalyptic",
-                books: [
-                    { name: "Revelation", chapters: 22 }
-                ]
+                section: "Apocalyptic Literature", colorClass: "apocalyptic",
+                books: [{ name: "Revelation", chapters: 22 }]
             }
         ];
 
-        // Function to generate the HTML for the index
         function generateBibleIndex() {
             const container = document.getElementById('bible-index');
             let html = '';
-
             bibleIndexData.forEach(sectionData => {
                 html += `<div class="bible-section">`;
                 html += `<h3>${sectionData.section}</h3>`;
-
-                // New wrapper for the booksa to enable flexbox wrapping
                 html += `<div class="books-container">`;
-
                 sectionData.books.forEach(book => {
                     const bookSlug = book.name.toLowerCase().replace(/ /g, '-');
                     html += `<div class="book-item">`;
                     html += `<span class="book-name">${book.name}</span>`;
                     html += `<div class="chapter-links">`;
-
                     for (let i = 1; i <= book.chapters; i++) {
                         const chapterNum = String(i).padStart(2, '0');
                         html += `<a href="bible/${bookSlug}-${chapterNum}.html" class="chapter-box ${sectionData.colorClass}">${i}</a>`;
                     }
-
                     html += `</div></div>`;
                 });
-
-                html += `</div></div>`; // Close books-container and bible-section
+                html += `</div></div>`;
             });
-
             container.innerHTML = html;
         }
 
-        // Run the function when the page loads
-        window.addEventListener('load', generateBibleIndex);
+        // --- Daily Readings Pane ---
+        function loadTodaysReadings() {
+            function buildPane(readingsData) {
+                const placeholder = document.getElementById('readings-pane-placeholder');
+                if (!readingsData || !placeholder) return;
+                const readingDate = new Date(readingsData.date + 'T00:00:00');
+                const readingSequence = [];
+                const createLink = (text, link) => link ? `<a href="${link}">${text}</a>` : text;
+                const addReading = (label, ref, link) => {
+                    if (ref && link) readingSequence.push({ ref, link, label });
+                };
+                addReading('Reading 1', readingsData.reading_1, readingsData.reading_1_link);
+                addReading('Psalm', readingsData.psalm, readingsData.psalm_link);
+                addReading('Reading 2', readingsData.reading_2, readingsData.reading_2_link);
+                addReading('Alleluia', readingsData.allelulia, readingsData.allelulia_link);
+                addReading('Gospel', readingsData.gospel, readingsData.gospel_link);
+
+                let pane = `<div class="pane-header">`;
+                pane += `<h4>${readingsData.name || 'Daily Readings'}</h4>`;
+                pane += `<p class="pane-date">${window.formatDisplayDate ? window.formatDisplayDate(readingDate) : readingDate.toDateString()}</p>`;
+                pane += `</div><ul class="pane-reading-list">`;
+                if (readingSequence.length > 0) {
+                    readingSequence.forEach(r => {
+                        pane += `<li><strong>${r.label}:</strong> ${createLink(r.ref, r.link)}</li>`;
+                    });
+                } else {
+                    pane += `<li>No readings available for this date.</li>`;
+                }
+                pane += `</ul>`;
+
+                const div = document.createElement('div');
+                div.id = 'daily-readings-pane';
+                div.innerHTML = pane;
+                const color = (readingsData.color || '').toLowerCase();
+                div.classList.add(color ? `liturgical-color-${color}` : 'liturgical-color-default');
+                placeholder.parentNode.replaceChild(div, placeholder);
+            }
+
+            const poll = () => {
+                if (window.getCurrentDateString) {
+                    const todayStr = window.getCurrentDateString();
+                    fetch('data_usccb/usccb-readings.json')
+                        .then(r => r.json())
+                        .then(data => {
+                            const today = data.find(r => r.date === todayStr);
+                            if (today) buildPane(today);
+                            else document.getElementById('readings-pane-placeholder').innerHTML =
+                                `<p style="text-align:center">No readings found for today (${todayStr}).</p>`;
+                        })
+                        .catch(() => {
+                            document.getElementById('readings-pane-placeholder').innerHTML =
+                                `<p style="text-align:center">Error loading readings.</p>`;
+                        });
+                } else {
+                    setTimeout(poll, 100);
+                }
+            };
+            poll();
+        }
+
+        // --- Scroll-triggered animations ---
+        function initAnimations() {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.15 });
+
+            document.querySelectorAll('.animate-in').forEach(el => observer.observe(el));
+        }
+
+        // --- Smooth scroll for hero CTA ---
+        document.addEventListener('DOMContentLoaded', () => {
+            const ctaBtn = document.getElementById('cta-today');
+            if (ctaBtn) {
+                ctaBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const target = document.getElementById('today-readings');
+                    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                });
+            }
+        });
+
+        // --- On Load ---
+        window.addEventListener('load', () => {
+            generateBibleIndex();
+            loadTodaysReadings();
+            initAnimations();
+
+            // Service Worker
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(() => console.log('SW Registered'))
+                    .catch(err => console.log('SW Registration Failed', err));
+            }
+        });
     </script>
     <script src="script.js"></script>
-    <script>
-        // Register Service Worker for PWA offline support
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js')
-                    .then(reg => console.log('SW Registered'))
-                    .catch(err => console.log('SW Registration Failed', err));
-            });
-        }
-    </script>
 </body>
 
 </html>

@@ -262,6 +262,9 @@ function displayReadingsPopup(readingsData) {
     // Create a date object for formatting
     const readingDate = new Date(dateValue + 'T00:00:00'); // Add time component to avoid timezone issues
 
+    // --- Skip popup on index page (has its own inline readings pane) ---
+    if (isIndexPage || body.classList.contains('landing-page')) return;
+
     // --- Only show on chapter pages if relevant ---
     if (isChapterPage) {
         const intersects = checkReadingIntersection(currentBookSlug, currentChapterNum, readingsData);
