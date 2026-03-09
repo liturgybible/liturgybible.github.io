@@ -90,10 +90,10 @@ def parse_reference_to_link(ref_string):
     ref_string = ref_string.replace('NABRE', '').strip()
 
     # Match book name (possibly starting with a digit) followed by chapter:verse
-    match = re.match(r'^(\d?\s?[A-Za-z]+(?:\s[A-Za-z]+)?)\s*(\d+):([\da-z]+)', ref_string, re.IGNORECASE)
+    match = re.match(r'^(\d?\s?[A-Za-z]+(?:\s[A-Za-z]+)?)\s*([A-Za-z0-9]+):([\da-z]+)', ref_string, re.IGNORECASE)
     if not match:
         # Special case for Psalms
-        psalm_match = re.match(r'^(Psalm|Ps)\s*(\d+):([\da-z]+)', ref_string, re.IGNORECASE)
+        psalm_match = re.match(r'^(Psalm|Ps)\s*([A-Za-z0-9]+):([\da-z]+)', ref_string, re.IGNORECASE)
         if psalm_match:
             book_name_part = "Psalms"
             chapter_str = psalm_match.group(2)
@@ -120,7 +120,12 @@ def parse_reference_to_link(ref_string):
              return None
 
     try:
-        chapter_padded = chapter_str.zfill(2)
+        # If chapter is purely alphabetic, don't 0-pad it, or we get '0C' which might not be intended
+        # Wait, if we want esther-c.html, we should just use lower()
+        if chapter_str.isalpha():
+            chapter_padded = chapter_str.lower()
+        else:
+            chapter_padded = chapter_str.zfill(2)
         
         # Extract just the numeric part of the starting verse
         start_verse_num_match = re.match(r'^(\d+)', verse_part)
