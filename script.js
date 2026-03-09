@@ -13,7 +13,7 @@ function findElement(verseIdentifier) {
 
     // 2. Fallback: If looking for a verse part (e.g., "1:1b") and it's not found,
     //    try to find the whole verse element (e.g., "1:1").
-    const partMatch = verseIdentifier.match(/^(\d+:\d+)[a-z]$/); // Matches "1:1b", "1:1c", etc.
+    const partMatch = verseIdentifier.match(/^(\d+:\d+)[a-z]+$/); // Matches "1:1b", "1:1ab", etc.
     if (partMatch) {
         const wholeVerseIdentifier = partMatch[1]; // "1:1"
         element = window.verseCache.get(wholeVerseIdentifier);
@@ -161,7 +161,7 @@ function parseFullReference(refString) {
         let startChapter, startVerseStr, endChapter, endVerseStr;
 
         try {
-            const crossChapterMatch = trimmedPart.match(/^(\d+):(\d+[a-z]?)\s*-\s*(\d+):(\d+[a-z]?)$/);
+            const crossChapterMatch = trimmedPart.match(/^(\d+):(\d+[a-z]+)?\s*-\s*(\d+):(\d+[a-z]+)?$/);
             if (crossChapterMatch) {
                 startChapter = parseInt(crossChapterMatch[1]);
                 startVerseStr = crossChapterMatch[2];
@@ -169,7 +169,7 @@ function parseFullReference(refString) {
                 endVerseStr = crossChapterMatch[4];
                 lastChapter = endChapter;
             } else {
-                const withinChapterRangeMatch = trimmedPart.match(/^(?:(\d+):)?(\d+[a-z]?)\s*-\s*(\d+[a-z]?)$/);
+                const withinChapterRangeMatch = trimmedPart.match(/^(?:(\d+):)?(\d+[a-z]+)?\s*-\s*(\d+[a-z]+)?$/);
                 if (withinChapterRangeMatch) {
                     startChapter = withinChapterRangeMatch[1] ? parseInt(withinChapterRangeMatch[1]) : lastChapter;
                     startVerseStr = withinChapterRangeMatch[2];
@@ -177,7 +177,7 @@ function parseFullReference(refString) {
                     endVerseStr = withinChapterRangeMatch[3];
                     lastChapter = startChapter;
                 } else {
-                    const singleVerseMatch = trimmedPart.match(/^(?:(\d+):)?(\d+[a-z]?)$/);
+                    const singleVerseMatch = trimmedPart.match(/^(?:(\d+):)?(\d+[a-z]+)?$/);
                     if (singleVerseMatch) {
                         startChapter = singleVerseMatch[1] ? parseInt(singleVerseMatch[1]) : lastChapter;
                         startVerseStr = singleVerseMatch[2];
@@ -195,10 +195,10 @@ function parseFullReference(refString) {
                 ranges.push({
                     startChapter: startChapter,
                     startVerse: parseInt(startVerseStr),
-                    startPart: (startVerseStr.match(/[a-z]/) || [''])[0],
+                    startPart: (startVerseStr.match(/[a-z]+/) || [''])[0],
                     endChapter: endChapter,
                     endVerse: parseInt(endVerseStr),
-                    endPart: (endVerseStr.match(/[a-z]/) || [''])[0]
+                    endPart: (endVerseStr.match(/[a-z]+/) || [''])[0]
                 });
             }
 
