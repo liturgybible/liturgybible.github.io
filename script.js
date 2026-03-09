@@ -161,7 +161,7 @@ function parseFullReference(refString) {
         let startChapter, startVerseStr, endChapter, endVerseStr;
 
         try {
-            const crossChapterMatch = trimmedPart.match(/^(\d+):(\d+[a-z]+)?\s*-\s*(\d+):(\d+[a-z]+)?$/);
+            const crossChapterMatch = trimmedPart.match(/^(\d+):(\d+[a-z]*)?\s*-\s*(\d+):(\d+[a-z]*)?$/);
             if (crossChapterMatch) {
                 startChapter = parseInt(crossChapterMatch[1]);
                 startVerseStr = crossChapterMatch[2];
@@ -169,7 +169,7 @@ function parseFullReference(refString) {
                 endVerseStr = crossChapterMatch[4];
                 lastChapter = endChapter;
             } else {
-                const withinChapterRangeMatch = trimmedPart.match(/^(?:(\d+):)?(\d+[a-z]+)?\s*-\s*(\d+[a-z]+)?$/);
+                const withinChapterRangeMatch = trimmedPart.match(/^(?:(\d+):)?(\d+[a-z]*)?\s*-\s*(\d+[a-z]*)?$/);
                 if (withinChapterRangeMatch) {
                     startChapter = withinChapterRangeMatch[1] ? parseInt(withinChapterRangeMatch[1]) : lastChapter;
                     startVerseStr = withinChapterRangeMatch[2];
@@ -177,7 +177,7 @@ function parseFullReference(refString) {
                     endVerseStr = withinChapterRangeMatch[3];
                     lastChapter = startChapter;
                 } else {
-                    const singleVerseMatch = trimmedPart.match(/^(?:(\d+):)?(\d+[a-z]+)?$/);
+                    const singleVerseMatch = trimmedPart.match(/^(?:(\d+):)?(\d+[a-z]*)?$/);
                     if (singleVerseMatch) {
                         startChapter = singleVerseMatch[1] ? parseInt(singleVerseMatch[1]) : lastChapter;
                         startVerseStr = singleVerseMatch[2];
