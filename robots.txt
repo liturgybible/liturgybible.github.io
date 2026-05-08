@@ -1,0 +1,29 @@
+# Liturgy Bible — robots.txt
+# Copyrighted Scripture translations must not be indexed or cached.
+
+User-agent: *
+Allow: /index.html
+Allow: /about.html
+Allow: /today.html
+Allow: /today-full.html
+Disallow: /bible/
+Disallow: /data/
+Disallow: /data_usccb/
+Disallow: /xml/
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+Sitemap: https://liturgybible.org/sitemap.xml
