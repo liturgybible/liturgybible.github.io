@@ -762,10 +762,83 @@ function addThemeToggle() {
 initTheme();
 
 
+// --- COPY PROTECTION (Scripture License Compliance) ---
+const COPY_MAX_VERSES = 5;
+
+const TRANSLATION_COPYRIGHT = {
+    dra: '— Douay-Rheims Bible (Public Domain) — liturgybible.org',
+    kjv: '— King James Version (Public Domain) — liturgybible.org',
+    nrsv: 'Scripture texts are from the New Revised Standard Version, Updated Edition, Catholic Edition. Copyright © 2021 National Council of Churches of Christ in the USA. Used by permission. All rights reserved. — liturgybible.org',
+    esv: 'Scripture quotations are from the ESV® Bible (The Holy Bible, English Standard Version®). Copyright © 2001 by Crossway. Used by permission. All rights reserved. — liturgybible.org',
+    cab: 'Scripture texts in this work are taken from the New American Bible, revised edition. Copyright © 2010, 1991, 1986, 1970, Confraternity of Christian Doctrine. Used by permission. All rights reserved. — liturgybible.org'
+};
+
+const PUBLIC_DOMAIN_TRANSLATIONS = new Set(['dra', 'kjv']);
+
+function getActiveTranslation() {
+    const switcher = document.getElementById('translation-switcher');
+    return switcher ? switcher.value : 'dra';
+}
+
+function getCopyrightNotice(translationKey) {
+    return '\n\n' + (TRANSLATION_COPYRIGHT[translationKey] || TRANSLATION_COPYRIGHT['dra']);
+}
+
+function initCopyProtection() {
+    document.addEventListener('copy', (e) => {
+        const selection = window.getSelection();
+        if (!selection || selection.isCollapsed) return;
+
+        const range = selection.getRangeAt(0);
+        const container = range.commonAncestorContainer;
+        const bibleText = document.querySelector('.bible-text');
+        if (!bibleText || !bibleText.contains(container)) return;
+
+        const translation = getActiveTranslation();
+        const isPublicDomain = PUBLIC_DOMAIN_TRANSLATIONS.has(translation);
+        const notice = getCopyrightNotice(translation);
+
+        const selectedVerses = bibleText.querySelectorAll('p[data-verse]');
+        let count = 0;
+        for (const verse of selectedVerses) {
+            if (selection.containsNode(verse, true)) count++;
+        }
+
+        if (isPublicDomain || count <= COPY_MAX_VERSES) {
+            const text = selection.toString() + notice;
+            e.clipboardData.setData('text/plain', text);
+            e.preventDefault();
+            return;
+        }
+
+        e.preventDefault();
+        const truncated = [];
+        let found = 0;
+        for (const verse of selectedVerses) {
+            if (selection.containsNode(verse, true)) {
+                truncated.push(verse.textContent.trim());
+                found++;
+                if (found >= COPY_MAX_VERSES) break;
+            }
+        }
+        const text = truncated.join('\n') + '\n\n[Selection limited to ' + COPY_MAX_VERSES + ' verses per license terms.]' + notice;
+        e.clipboardData.setData('text/plain', text);
+    });
+
+    document.addEventListener('dragstart', (e) => {
+        const bibleText = document.querySelector('.bible-text');
+        if (bibleText && bibleText.contains(e.target)) {
+            e.preventDefault();
+        }
+    });
+}
+
+
 // --- MAIN SCRIPT EXECUTION ON LOAD ---
 window.addEventListener('load', () => {
     initSearchModal();
     addThemeToggle();
+    initCopyProtection();
 
     const body = document.body;
     const book = body.dataset.book;
