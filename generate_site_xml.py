@@ -141,6 +141,7 @@ def create_html_for_chapter(book_name, chapter_num, total_chapters, translations
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The Liturgy Bible visualizes the liturgical use of the biblical text, including the Lectionary for Mass and selections from the Divine Office.">
     <meta name="keywords" content="bible, catholic, liturgy, liturgical, gospel, lectionary, breviary, divine, office, hours, church, {book_name}">
+    <meta name="robots" content="noindex, noarchive">
     <title>{book_name} {chapter_num} - Liturgy Bible</title>
     <link rel="stylesheet" href="../style.css">
 
