@@ -1800,3 +1800,26 @@ hr {
 .esv-copyright p {
     margin: 0.4rem 0;
 }
+
+.permission-block {
+    background: var(--nav-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    margin: 1rem 0;
+    color:#808080;
+    font-size: 0.85em;
+    line-height: 1.55;
+}
+
+.permission-block p {
+    margin: 0.6rem 0;
+}
+
+.permission-block p:first-child {
+    margin-top: 0;
+}
+
+.permission-block p:last-child {
+    margin-bottom: 0;
+}

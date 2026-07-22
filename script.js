@@ -787,9 +787,9 @@ const ESV_COPYRIGHT_HTML =
     '<p>The Holy Bible, English Standard Version®, is adapted from the Revised Standard ' +
     'Version of the Bible, copyright Division of Christian Education of the National Council ' +
     'of the Churches of Christ in the U.S.A. All rights reserved.</p>' +
-    '<p>The “ESV” and “English Standard Version” are registered trademarks of ' +
-    'Crossway. Use of either trademark requires the permission of Crossway. See ' +
-    '<a href="https://www.crossway.org/permissions/" target="_blank" rel="noopener">crossway.org/permissions</a>.</p>';
+    '<p>English Standard Version, ESV, and the ESV logo are registered trademarks ' +
+    'of Good News Publishers. Used by permission.</p>' +
+    '<p>See <a href="https://www.crossway.org/permissions/" target="_blank" rel="noopener">crossway.org/permissions</a>.</p>';
 
 // Toggle the ESV copyright block in the footer. Created lazily on first ESV view.
 function updateEsvFooter(translationKey) {
