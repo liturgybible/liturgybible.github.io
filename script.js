@@ -769,11 +769,46 @@ const TRANSLATION_COPYRIGHT = {
     dra: '— Douay-Rheims Bible (Public Domain) — liturgybible.org',
     kjv: '— King James Version (Public Domain) — liturgybible.org',
     nrsv: 'Scripture texts are from the New Revised Standard Version, Updated Edition, Catholic Edition. Copyright © 2021 National Council of Churches of Christ in the USA. Used by permission. All rights reserved. — liturgybible.org',
-    esv: 'Scripture quotations are from the ESV® Bible (The Holy Bible, English Standard Version®). Copyright © 2001 by Crossway. Used by permission. All rights reserved. — liturgybible.org',
+    esv: 'Scripture quotations are from the ESV® Bible (The Holy Bible, English Standard Version®), © 2001 by Crossway, a publishing ministry of Good News Publishers. ESV Text Edition: 2025. The ESV text may not be quoted in any publication made available to the public by a Creative Commons license. The ESV may not be translated in whole or in part into any other language. Used by permission. All rights reserved.',
     cab: 'Scripture texts in this work are taken from the New American Bible, revised edition. Copyright © 2010, 1991, 1986, 1970, Confraternity of Christian Doctrine. Used by permission. All rights reserved. — liturgybible.org'
 };
 
 const PUBLIC_DOMAIN_TRANSLATIONS = new Set(['dra', 'kjv']);
+
+// License-required ESV copyright + trademark notice (Appendices B & C of the
+// Crossway license). Displayed in the page footer whenever the ESV is the
+// translation actually shown. Display of this notice is a condition of the license.
+const ESV_COPYRIGHT_HTML =
+    '<p>The ESV® Bible (The Holy Bible, English Standard Version®), © 2001 by Crossway, ' +
+    'a publishing ministry of Good News Publishers. ESV Text Edition: 2025. The ESV text ' +
+    'may not be quoted in any publication made available to the public by a Creative Commons ' +
+    'license. The ESV may not be translated in whole or in part into any other language. ' +
+    'Used by permission. All rights reserved.</p>' +
+    '<p>The Holy Bible, English Standard Version®, is adapted from the Revised Standard ' +
+    'Version of the Bible, copyright Division of Christian Education of the National Council ' +
+    'of the Churches of Christ in the U.S.A. All rights reserved.</p>' +
+    '<p>The “ESV” and “English Standard Version” are registered trademarks of ' +
+    'Crossway. Use of either trademark requires the permission of Crossway. See ' +
+    '<a href="https://www.crossway.org/permissions/" target="_blank" rel="noopener">crossway.org/permissions</a>.</p>';
+
+// Toggle the ESV copyright block in the footer. Created lazily on first ESV view.
+function updateEsvFooter(translationKey) {
+    const footer = document.getElementById('footer');
+    if (!footer) return;
+    let block = document.getElementById('esv-copyright');
+    if (translationKey === 'esv') {
+        if (!block) {
+            block = document.createElement('div');
+            block.id = 'esv-copyright';
+            block.className = 'esv-copyright';
+            block.innerHTML = ESV_COPYRIGHT_HTML;
+            footer.appendChild(block);
+        }
+        block.style.display = '';
+    } else if (block) {
+        block.style.display = 'none';
+    }
+}
 
 function getActiveTranslation() {
     const switcher = document.getElementById('translation-switcher');
@@ -967,6 +1002,14 @@ window.addEventListener('load', () => {
         if (switcher) {
             localStorage.setItem('selectedTranslation', selectedValue);
         }
+
+        // Show/hide the ESV copyright based on the translation actually displayed
+        // (the class after "translation-text", e.g. "esv"), which handles the
+        // fallback case where ESV was requested but is unavailable for the chapter.
+        const activeKey = selectedTranslationDiv
+            ? (selectedTranslationDiv.classList[1] || selectedValue)
+            : selectedValue;
+        updateEsvFooter(activeKey);
 
         buildVerseCache(); // Rebuild cache for new translation
         redraw(); // Redraw everything

@@ -1711,3 +1711,92 @@ hr {
 }
 
 /* --- End iPad Optimization --- */
+
+
+/* =========================================================================
+   ESV translation formatting
+   Renders the ESV section headings, poetry, divine name, and the license-
+   required copyright block. All colors use theme vars so they adapt to dark
+   mode automatically.
+   ========================================================================= */
+
+/* Section headings (e.g. "The Creation of the World") */
+.esv-heading {
+    font-family: MiloSerifWeb, MiloWeb, Georgia, "Times New Roman", serif;
+    font-size: 1.05em;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--primary-red);
+    margin: 1.6rem 0 0.6rem 0;
+    line-height: 1.3;
+}
+
+/* First heading in a chapter should not push a big gap at the very top */
+.translation-text.esv > .esv-heading:first-child {
+    margin-top: 0.2rem;
+}
+
+/* Psalm titles / superscriptions (e.g. "A Psalm of David.") */
+.esv-subheading {
+    font-style: italic;
+    color: var(--text-color);
+    opacity: 0.85;
+    margin: 0.2rem 0 0.6rem 0;
+}
+
+.esv-psalm-title {
+    font-size: 0.95em;
+}
+
+/* The divine name (LORD / GOD) in small caps */
+.divine-name,
+.esv-small-caps {
+    font-variant: small-caps;
+    letter-spacing: 0.02em;
+}
+
+/* Poetry: indented lines within a verse paragraph */
+.esv-indent {
+    display: inline-block;
+    padding-left: 1.5em;
+}
+
+.esv-indent-2 {
+    display: inline-block;
+    padding-left: 3em;
+}
+
+/* Extra space before a new prose paragraph or a new poetry stanza */
+.esv-para-start,
+.esv-stanza-start {
+    margin-top: 1rem;
+}
+
+/* "Selah" set off in italics */
+.esv-selah {
+    font-style: italic;
+}
+
+/* Speaker labels (e.g. Song of Solomon: "She", "He", "Others") */
+.esv-speaker {
+    font-style: italic;
+    font-weight: 700;
+}
+
+/* Words of Christ: the ESV Standard Text is not red-letter, so no color change. */
+
+/* License-required ESV copyright + trademark notice, shown in the footer only
+   while the ESV is the active translation (toggled by script.js). */
+.esv-copyright {
+    max-width: 640px;
+    margin: 0.75rem auto 0 auto;
+    padding: 0 1rem;
+    font-size: 0.72em;
+    line-height: 1.45;
+    color: var(--footer-text);
+    text-align: center;
+}
+
+.esv-copyright p {
+    margin: 0.4rem 0;
+}
